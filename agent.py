@@ -36,6 +36,11 @@ QUERIES = [
     "Big Tech earnings guidance",
     "Anthropic OpenAI IPO",
     "chip export controls tariffs",
+    "US CPI inflation jobs report payrolls",
+    "China Taiwan semiconductor trade tariffs",
+    "Microsoft Alphabet Amazon Meta Apple earnings",
+    "CoreWeave Oracle debt data center bonds",
+    "SpaceX Tesla stock",
 ]
 
 # (pola regex, skor, label). Skor positif = bullish untuk Nasdaq.
@@ -152,7 +157,7 @@ def fetch_market():
 
 def fetch_rss(query, limit=12):
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-        {"q": query + " when:2d", "hl": "en-US", "gl": "US", "ceid": "US:en"})
+        {"q": query + " when:1d", "hl": "en-US", "gl": "US", "ceid": "US:en"})
     req = urllib.request.Request(url, headers={"User-Agent": "nasdaq-agent/1.0"})
     with urllib.request.urlopen(req, timeout=20) as r:
         root = ET.fromstring(r.read())
@@ -169,8 +174,14 @@ def fetch_rss(query, limit=12):
     return out
 
 
+# Frasa yang menyangkut "rate hike" tetapi bukan kabar kenaikan (mis. "wait on another rate hike").
+NEGATED_HIKE = re.compile(
+    r"(wait on|waits on|hold off on|holds off on|pause|pauses|skip|skips|unlikely to (raise|hike)|no|rule out|rules out)"
+    r"\s+(another |a |further |more )?(rate )?(hike|hikes|increase)")
+
+
 def score_headline(title):
-    t = title.lower()
+    t = NEGATED_HIKE.sub(" ", title.lower())
     raw, tags = 0, []
     for pat, s, label in LEXICON:
         if re.search(pat, t):

@@ -1,14 +1,19 @@
 name: Nasdaq Agent
 
-# Jalan otomatis di cloud GitHub Actions: tiap 30 menit pada jam bursa AS
-# (13:30-21:00 UTC, Senin-Jumat), plus satu kali sebelum pembukaan.
+# Jalan otomatis sepanjang hari agar semua berita berdampak terbaca (jadwal dalam UTC):
+# tiap 30 menit Senin-Jumat, tiap jam pada Sabtu-Minggu.
 on:
   schedule:
-    - cron: "*/30 13-21 * * 1-5"
+    - cron: "*/30 * * * 1-5"
+    - cron: "0 * * * 0,6"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+concurrency:
+  group: nasdaq-agent
+  cancel-in-progress: false
 
 jobs:
   analyze:
