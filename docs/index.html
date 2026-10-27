@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nasdaq Desk</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: menara kendali tiga kolom di atas latar biru royal. Kiri: grafik, donat, batang. Tengah: KPI, vonis, berita. Kanan: tabel level, skenario, agen. Satu tema biru yang disengaja. */
+:root {
+  --bg: #1654d6;
+  --bg-deep: #0c3aa8;
+  --card: #ffffff;
+  --ink: #12315f;
+  --muted: #5a7396;
+  --line: #dce7f8;
+  --blue: #2f7bf0;
+  --blue-soft: #eaf2ff;
+  --sky: #8ec5ff;
+  --bull: #11994f;
+  --bull-soft: #e2f6ea;
+  --bear: #de4437;
+  --bear-soft: #fdebe8;
+  --flat: #b97a0c;
+  --shadow: 0 8px 22px rgba(4, 28, 92, .28);
+  --f-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  background-image: linear-gradient(180deg, var(--bg-deep) 0, var(--bg) 260px);
+  color: var(--ink); font-family: var(--f-body); font-size: 14px; line-height: 1.5;
+  padding-block: 16px 40px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.tower { max-width: 1440px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
+h1, h2, h3, h4 { margin: 0; text-wrap: balance; }
+a { color: var(--blue); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.num { font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+.up { color: var(--bull); } .down { color: var(--bear); } .flat { color: var(--flat); }
+
+/* Bilah judul */
+.titlebar { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; color: #fff; }
+.titlebar h1 { font-family: var(--f-display); font-weight: 700; font-size: clamp(24px, 4.2vw, 40px); letter-spacing: .05em; text-transform: uppercase; text-align: center; line-height: 1.05; }
+.titlebar .tag { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.titlebar .clock { justify-self: end; font-family: var(--f-data); font-size: 13px; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.35); padding: 5px 12px; border-radius: 999px; white-space: nowrap; }
+@media (max-width: 820px) {
+  .titlebar { grid-template-columns: 1fr; text-align: center; }
+  .titlebar .tag { display: none; }
+  .titlebar .clock { justify-self: center; }
+}
+
+.grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 6fr) minmax(0, 3fr); gap: 14px; align-items: start; }
+.col { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+@media (max-width: 1100px) {
+  .grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .col.mid { grid-column: 1 / -1; order: -1; }
+}
+@media (max-width: 700px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+
+.card { background: var(--card); border-radius: 10px; padding: 14px 16px; box-shadow: var(--shadow); min-width: 0; }
+.card > h3 { font-size: 15px; font-weight: 600; border-left: 4px solid var(--blue); padding-left: 8px; margin-bottom: 12px; line-height: 1.2; }
+.cap { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
+svg { display: block; width: 100%; height: auto; }
+svg text { font-family: var(--f-data); fill: var(--muted); }
+
+/* KPI */
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 14px 6px; }
+.kpi { text-align: center; padding: 2px 8px; border-left: 1px solid var(--line); min-width: 0; }
+.kpi:first-child { border-left: 0; }
+.kpi .k { font-size: 12.5px; color: var(--muted); }
+.kpi .v { font-family: var(--f-display); font-weight: 600; font-size: clamp(26px, 3.2vw, 38px); line-height: 1.15; color: var(--ink); }
+.kpi .d { font-family: var(--f-data); font-size: 12px; }
+@media (max-width: 560px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 12px; } .kpi:nth-child(3) { border-left: 0; } }
+
+/* Vonis */
+.verdict-top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; align-items: center; }
+@media (max-width: 640px) { .verdict-top { grid-template-columns: 1fr; } }
+.badge { display: inline-block; font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; font-weight: 600; background: var(--blue-soft); color: var(--blue); padding: 3px 10px; border-radius: 999px; }
+.bias { font-family: var(--f-display); font-weight: 700; font-size: clamp(46px, 8vw, 76px); line-height: .95; margin-top: 8px; color: var(--bear); letter-spacing: .01em; }
+.bias.bull { color: var(--bull); } .bias.neutral { color: var(--flat); }
+.sub { color: var(--muted); margin-top: 6px; }
+.gauge { position: relative; height: 14px; border-radius: 999px; background: linear-gradient(90deg, var(--bear), #e9eef7 50%, var(--bull)); margin: 30px 0 8px; }
+.pin { position: absolute; top: -9px; width: 3px; height: 32px; background: var(--ink); border-radius: 2px; }
+.pin span { position: absolute; top: -21px; left: 50%; transform: translateX(-50%); font-family: var(--f-data); font-size: 13px; font-weight: 500; white-space: nowrap; }
+.scale { display: flex; justify-content: space-between; font-family: var(--f-data); font-size: 11.5px; color: var(--muted); }
+.reasons { margin: 16px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 640px) { .reasons { grid-template-columns: 1fr; } }
+.reasons li { background: var(--bear-soft); border-radius: 8px; padding: 10px 12px; font-size: 13.5px; }
+.reasons li.p { background: var(--bull-soft); }
+.reasons b { display: block; font-weight: 600; margin-bottom: 2px; }
+
+/* Berita */
+.sechead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 12px; margin-bottom: 10px; }
+.sechead h3 { font-size: 15px; font-weight: 600; border-left: 4px solid var(--blue); padding-left: 8px; }
+.filters { display: flex; flex-wrap: wrap; gap: 4px; background: var(--blue-soft); padding: 3px; border-radius: 8px; }
+.filters button { font: inherit; font-size: 12.5px; padding: 4px 10px; border: 0; border-radius: 6px; background: transparent; color: var(--muted); cursor: pointer; }
+.filters button[aria-pressed="true"] { background: var(--card); color: var(--blue); font-weight: 600; box-shadow: 0 1px 3px rgba(20, 60, 140, .18); }
+.row { display: grid; grid-template-columns: 26px minmax(0, 1fr) 62px; gap: 12px; padding: 12px 4px; border-top: 1px solid var(--line); align-items: start; }
+.row:first-child { border-top: 0; }
+.rank { width: 24px; height: 24px; border-radius: 50%; background: var(--blue-soft); color: var(--blue); font-family: var(--f-data); font-size: 12px; font-weight: 500; display: grid; place-items: center; }
+.row h4 { font-size: 14px; font-weight: 600; margin-bottom: 3px; }
+.row p { margin: 0; color: var(--muted); font-size: 13px; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; margin-top: 6px; font-size: 12px; }
+.chip { font-family: var(--f-data); font-size: 10.5px; padding: 1px 7px; border-radius: 999px; background: #fff4dc; color: var(--flat); }
+.theme { font-family: var(--f-data); font-size: 10.5px; padding: 1px 7px; border-radius: 999px; background: var(--blue-soft); color: var(--blue); }
+.imp { text-align: right; }
+.imp .pts { font-family: var(--f-data); font-size: 17px; font-weight: 500; }
+.imp .bar { height: 5px; border-radius: 999px; background: var(--line); margin-top: 4px; position: relative; overflow: hidden; }
+.imp .bar i { position: absolute; top: 0; bottom: 0; border-radius: 999px; }
+.imp small { font-size: 10.5px; color: var(--muted); }
+
+/* Donat dan tema */
+.donuts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.donut { text-align: center; font-size: 11.5px; color: var(--muted); line-height: 1.25; }
+.donut svg { max-width: 92px; margin: 0 auto 4px; }
+.themes { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.themes div { display: grid; grid-template-columns: 96px minmax(0, 1fr) 34px; align-items: center; gap: 8px; font-size: 12.5px; }
+.themes .t { height: 8px; border-radius: 999px; background: var(--line); overflow: hidden; }
+.themes .t i { display: block; height: 100%; background: var(--blue); border-radius: 999px; }
+.themes .n { font-family: var(--f-data); text-align: right; color: var(--muted); }
+
+/* Tabel dan daftar */
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { background: var(--blue-soft); color: var(--ink); font-weight: 600; text-align: left; padding: 7px 8px; font-size: 12px; }
+td { padding: 7px 8px; border-top: 1px solid var(--line); }
+td:last-child, th:last-child { text-align: right; font-family: var(--f-data); }
+th:last-child { font-family: var(--f-body); }
+tr.hl td { background: var(--blue-soft); font-weight: 600; }
+.scn ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 5px; font-size: 13px; }
+.scn.b > h3 { border-left-color: var(--bull); } .scn.r > h3 { border-left-color: var(--bear); }
+pre { margin: 0; background: var(--blue-soft); border-radius: 8px; padding: 10px 12px; overflow-x: auto; font-family: var(--f-data); font-size: 12px; line-height: 1.6; }
+.copy { margin-top: 10px; font: inherit; font-size: 12.5px; font-weight: 600; padding: 6px 14px; border: 0; border-radius: 999px; background: var(--blue); color: #fff; cursor: pointer; }
+.note { font-size: 12.5px; color: var(--muted); margin: 0 0 10px; }
+footer { color: rgba(255,255,255,.82); font-size: 12px; text-align: center; padding: 4px 8px; }
+</style>
+</head>
+<body>
+
+
+<div class="tower">
+  <div class="titlebar">
+    <div class="tag">Analisis fundamental berita</div>
+    <h1>Nasdaq Fundamental Control Tower</h1>
+    <div class="clock" id="clock">snapshot 27 Okt · 09:45 WIB</div>
+  </div>
+
+  <div class="grid">
+    <!-- KIRI -->
+    <div class="col">
+      <section class="card">
+        <h3>Tutup Nasdaq Composite</h3>
+        <div id="area"></div>
+        <p class="cap">Lima penutupan terpilih, jarak antar titik tidak sebanding waktu.</p>
+      </section>
+
+      <section class="card">
+        <h3>Komposisi dampak berita</h3>
+        <div class="donuts" id="donuts"></div>
+        <div class="themes" id="themes"></div>
+      </section>
+
+      <section class="card">
+        <h3>Dampak per berita</h3>
+        <div id="bars"></div>
+        <p class="cap">Angka di bawah batang mengikuti nomor urut pada daftar berita.</p>
+      </section>
+    </div>
+
+    <!-- TENGAH -->
+    <div class="col mid">
+      <section class="card kpis" aria-label="Data pasar terakhir">
+        <div class="kpi"><div class="k">Nasdaq Comp</div><div class="v" id="kNas">26.169,38</div><div class="d up" id="kNasD">+0,83% (tutup 26 Okt)</div></div>
+        <div class="kpi"><div class="k">Yield 10 tahun</div><div class="v" id="kYld">≈4,95–4,99%</div><div class="d flat" id="kYldD">dekat 5%</div></div>
+        <div class="kpi"><div class="k">Brent (pagi Asia)</div><div class="v" id="kBr">≈$115</div><div class="d up" id="kBrD">−1,2% semalam</div></div>
+        <div class="kpi"><div class="k">Suku bunga Fed</div><div class="v" id="kFed">3,75–4,00%</div><div class="d flat" id="kFedD">FOMC 27–28 Okt</div></div>
+      </section>
+
+      <section class="card">
+        <h3>Bias hari ini</h3>
+        <div class="verdict-top">
+          <div>
+            <span class="badge">Vonis berita</span>
+            <div class="bias" id="biasText">…</div>
+            <div class="sub" id="biasSub"></div>
+          </div>
+          <div>
+            <div class="gauge" aria-hidden="true"><div class="pin" id="pin"><span id="pinLbl"></span></div></div>
+            <div class="scale"><span>−10 bearish</span><span>0</span><span>+10 bullish</span></div>
+            <p class="cap"><span id="confCap">Keyakinan 55%. Sinyal campur dan keputusan Fed hari Rabu menjadi peristiwa biner.</span></p>
+          </div>
+        </div>
+        <ul class="reasons" id="reasons">
+          <li><b>Pendanaan AI jadi masalah utama</b>Meta mencatat arus kas keluar pertama dalam lebih dari satu dekade dan berencana menerbitkan saham tanpa hak suara. Sahamnya turun sekitar 7% dan menyeret chip.</li>
+          <li><b>Berita kecil, dampak besar</b>CEO Broadcom dan Intel menyebut modal sebagai hambatan terbesar. Obligasi CoreWeave dan Oracle menyentuh imbal hasil rekor.</li>
+          <li><b>Fed besok jadi penentu</b>Suku bunga hampir pasti ditahan, tetapi pasar sudah memperhitungkan kenaikan Desember. Nada Warsh yang keras menekan saham teknologi.</li>
+          <li class="p"><b>Penyeimbang jangka pendek</b>Nasdaq rebound 0,83% Senin berkat optimisme IPO Anthropic, chip memimpin, dan data kerja September yang lemah mengurangi peluang hike Oktober.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <div class="sechead">
+          <h3>Berita yang menggerakkan bias</h3>
+          <div class="filters" role="group" aria-label="Filter berita">
+            <button type="button" data-f="all" aria-pressed="true">Semua</button>
+            <button type="button" data-f="bear" aria-pressed="false">Bearish</button>
+            <button type="button" data-f="bull" aria-pressed="false">Bullish</button>
+            <button type="button" data-f="small" aria-pressed="false">Kecil, berdampak besar</button>
+          </div>
+        </div>
+        <div id="news"></div>
+      </section>
+    </div>
+
+    <!-- KANAN -->
+    <div class="col">
+      <section class="card">
+        <h3>Level Nasdaq Composite</h3>
+        <div class="scroll"><table>
+          <thead><tr><th>Level</th><th>Nilai</th></tr></thead>
+          <tbody>
+            <tr><td>Puncak 52 minggu</td><td id="lvHigh">27.722,75</td></tr>
+            <tr class="hl"><td>Resistensi: puncak 3 sesi</td><td id="lvRes">26.306,83</td></tr>
+            <tr><td>Tutup terakhir</td><td id="lvLast">26.169,38</td></tr>
+            <tr><td>Tutup sebelumnya</td><td id="lvPrev">25.955,34</td></tr>
+            <tr class="hl"><td>Support: terendah 3 sesi</td><td id="lvSup">25.866,15</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="card scn b">
+        <h3>Pembalik ke bullish</h3>
+        <ul>
+          <li>Yield 10 tahun turun jelas di bawah 4,9% dan dolar melemah.</li>
+          <li>Chip mempertahankan kenaikan Senin tanpa jual saat naik.</li>
+          <li>Minyak lanjut turun dan berita Hormuz mereda.</li>
+          <li id="scnUp">Penutupan di atas 26.306 menandakan rebound bertahan.</li>
+        </ul>
+      </section>
+
+      <section class="card scn r">
+        <h3>Penguat bearish</h3>
+        <ul>
+          <li>Yield 10 tahun menembus 5% menjelang keputusan Fed.</li>
+          <li>Berita pendanaan baru: saham baru, utang pusat data, atau gagal bayar neocloud.</li>
+          <li>Lonjakan minyak dari insiden Hormuz atau Iran.</li>
+          <li id="scnDn">Penutupan di bawah 25.866 membuka tekanan lanjutan.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h3>Agen auto-update</h3>
+        <p class="note"><span id="status">Menampilkan potret 27 Okt 09:45 WIB sampai agen selesai berjalan pertama kali.</span> Halaman membaca <span class="num">report.json</span> yang ditulis agen. GitHub Actions memperbaruinya tiap 30 menit pada jam bursa AS.</p>
+        <pre id="cmdText">python agent.py --demo
+python agent.py
+python agent.py --loop 30</pre>
+        <button class="copy" type="button" id="copyBtn">Salin perintah</button>
+      </section>
+    </div>
+  </div>
+
+  <footer>Angka minyak antar sumber berbeda; yang dipakai laporan bertanggal 27 Okt. Yield dan VIX dari penutupan terakhir. Analisis berita, bukan nasihat investasi.</footer>
+</div>
+
+<script>
+(async function () {
+var SNAP_ITEMS = [
+  { t: "Meta: arus kas keluar pertama dalam lebih dari 10 tahun, saham tanpa hak suara untuk modal", why: "Hasil kuartalan di atas ekspektasi, tetapi belanja AI menguras kas. Saham turun sekitar 7% dan Nasdaq anjlok 2,6% pada 22 Okt.", s: -3, w: 1.5, small: true, th: "Pendanaan AI", src: "Reuters via SRN News", url: "https://srnnews.com/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs/" },
+  { t: "CEO Broadcom dan Intel: modal, bukan chip, hambatan terbesar AI", why: "Peringatan dari dua pemasok utama bahwa pembiayaan bisa membatasi ekspansi pusat data. Bank terbesar Singapura juga memperingatkan hal serupa.", s: -2, w: 1.3, small: true, th: "Pendanaan AI", src: "Benzinga", url: "https://www.benzinga.com/markets/tech/26/10/62293941" },
+  { t: "Obligasi CoreWeave dan Oracle menyentuh imbal hasil rekor", why: "Operator pusat data berutang besar mulai membayar mahal untuk pendanaan. Saham CoreWeave jatuh dua hari berturut-turut pada pertengahan Oktober.", s: -2, w: 1.2, small: true, th: "Pendanaan AI", src: "Reuters via Kitco", url: "https://www.kitco.com/news/off-the-wire/2026-10-15/nasdaq-slides-near-one-month-low-ai-rout-deepens" },
+  { t: "Indeks semikonduktor SOX anjlok 6,7% dalam sehari", why: "Turun lebih dari 26% dari puncak 22 Juni, tetapi masih naik sekitar 51% sepanjang tahun. Koreksi besar di sektor penggerak reli.", s: -2, w: 1.2, small: false, th: "Semikonduktor", src: "Reuters via SRN News", url: "https://srnnews.com/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs/" },
+  { t: "Fed hampir pasti menahan suku bunga, pasar memperhitungkan kenaikan Desember", why: "Sekitar 91% peluang tahan di 3,75–4,00% pada 28 Okt, tetapi sekitar 73% pasar memperkirakan kenaikan Desember di bawah Ketua Warsh.", s: -1, w: 1.5, small: false, th: "Fed & yield", src: "Raisin (Reuters poll)", url: "https://www.raisin.com/en-us/news/pre-fomc-preview-positioning-cash-october-2026/" },
+  { t: "Gaji non-pertanian September hanya 29 ribu, inflasi PCE di bawah konsensus", why: "Data lemah menurunkan peluang kenaikan Oktober menjadi sekitar 17%, kabar baik untuk valuasi teknologi.", s: 1, w: 1, small: false, th: "Fed & yield", src: "Scotsman Guide", url: "https://www.scotsmanguide.com/news/fed-policymakers-saw-multiple-2026-rate-hikes-as-likely-september-fomc-minutes-show/" },
+  { t: "Yield 10 tahun bertahan dekat 5%", why: "Turun 19 bps ke 4,952% saat pelarian ke aman 22 Okt, tetapi kutipan Yahoo masih 4,988%. Level setinggi ini menekan saham bernilai tinggi.", s: -1, w: 1.2, small: false, th: "Fed & yield", src: "SBS News", url: "https://news.sbs.co.kr/english/article.do?news_id=N1008811300" },
+  { t: "Minyak turun semalam tetapi masih sangat tinggi", why: "Brent sekitar $115 dan WTI sekitar $101 setelah turun 1–2%. Penurunan meredakan kekhawatiran inflasi menjelang Fed, namun level ini tetap beban.", s: -1, w: 1.2, small: false, th: "Energi", src: "Motley Fool Australia", url: "https://www.fool.com.au/2026/10/27/5-things-to-watch-on-the-asx-200-on-tuesday-27-october-2026/" },
+  { t: "Optimisme IPO Anthropic mengangkat Nasdaq 0,83% pada Senin", why: "Memulihkan selera risiko di saham AI dan memimpin kenaikan indeks sebelum pekan Fed.", s: 2, w: 1, small: false, th: "Sentimen", src: "Kiplinger", url: "https://kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026" },
+  { t: "IPO AI raksasa bisa menambah sekitar $200 miliar pasokan saham", why: "Analis menilai pasokan baru dapat menekan saham AI yang ada tanpa memicu krisis pasar. Dana bisa ditarik dari pemenang lama.", s: -1, w: 0.8, small: true, th: "Sentimen", src: "Yellow.com", url: "https://yellow.com/news/openai-anthropic-spacex-sized-ipos" },
+  { t: "Semikonduktor memimpin rebound: SMH +2,74%, Nvidia +2,39%", why: "Pemantulan setelah aksi jual besar. Berguna sebagai ukuran apakah dana kembali masuk ke inti perdagangan AI.", s: 2, w: 1, small: false, th: "Semikonduktor", src: "StrongBuy Analytics", url: "https://strongbuyanalytics.com/stock-market-outlook" },
+  { t: "Kabar baik tak lagi dihargai: Tesla arus kas positif, SpaceX untung perdana, saham tetap turun", why: "Tesla turun 3,1% meski memangkas belanja modal, SpaceX turun 9,1%. Tanda investor sedang menjual ke kekuatan.", s: -1, w: 0.8, small: true, th: "Sentimen", src: "Reuters via SRN News", url: "https://srnnews.com/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs/" }
+];
+var SNAP_CLOSES = [["6 Okt", 27599.89], ["21 Okt", 26702.86], ["22 Okt", 26008.86], ["23 Okt", 25955.34], ["26 Okt", 26169.38]];
+
+var ITEMS = SNAP_ITEMS, CLOSES = SNAP_CLOSES, LIVE = null, CONF = 55, MK = null;
+try {
+  var resp = await fetch("report.json", { cache: "no-store" });
+  if (resp.ok) { LIVE = await resp.json(); }
+} catch (e) { LIVE = null; }
+if (LIVE && LIVE.items && LIVE.items.length) {
+  var scored = LIVE.items.filter(function (x) { return x.score !== 0; }).slice(0, 12);
+  if (scored.length) {
+    ITEMS = scored.map(function (x) {
+      return { t: x.title, why: x.why || "", s: Math.max(-4.5, Math.min(4.5, x.score)), w: 1, small: !!x.small, th: x.theme || "Sentimen", src: x.source || "Berita", url: x.link || "#" };
+    });
+    CONF = LIVE.verdict.confidence_pct;
+  } else { LIVE = null; }
+} else { LIVE = null; }
+if (LIVE && LIVE.market) {
+  MK = LIVE.market;
+  if (MK.nasdaq && MK.nasdaq.closes && MK.nasdaq.closes.length > 1) CLOSES = MK.nasdaq.closes;
+}
+
+ITEMS.forEach(function (i) { i.p = i.s * i.w; });
+var RANKED = ITEMS.slice().sort(function (a, b) { return Math.abs(b.p) - Math.abs(a.p); });
+RANKED.forEach(function (i, k) { i.rank = k + 1; });
+
+function fmt(n, d) { return (n > 0 ? "+" : n < 0 ? "−" : "") + Math.abs(n).toFixed(d == null ? 1 : d).replace(".", ","); }
+function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+var totalAbs = 0, bearAbs = 0, smallAbs = 0, sw = 0, sv = 0, nBear = 0, nBull = 0;
+ITEMS.forEach(function (i) {
+  var a = Math.abs(i.p); totalAbs += a; sw += i.w; sv += i.p;
+  if (i.p < 0) { bearAbs += a; nBear++; } else { nBull++; }
+  if (i.small) smallAbs += a;
+});
+var idx = (sv / sw) / 3 * 10;
+
+/* Vonis */
+(function () {
+  var bias, cls = "";
+  if (idx >= 5) { bias = "BULLISH"; cls = "bull"; }
+  else if (idx >= 1.5) { bias = "BULLISH TIPIS"; cls = "bull"; }
+  else if (idx > -1.5) { bias = "NETRAL"; cls = "neutral"; }
+  else if (idx > -5) { bias = "BEARISH TIPIS"; }
+  else { bias = "BEARISH"; }
+  if (LIVE) { bias = LIVE.verdict.bias; cls = /BULL/.test(bias) ? "bull" : (bias === "NETRAL" ? "neutral" : ""); }
+  var b = document.getElementById("biasText");
+  b.textContent = bias; if (cls) b.classList.add(cls);
+  document.getElementById("biasSub").textContent = "Skor " + fmt(idx) + " dari " + ITEMS.length + " berita. " + nBear + " bearish, " + nBull + " bullish.";
+  document.getElementById("pin").style.left = Math.max(0, Math.min(100, (idx + 10) / 20 * 100)) + "%";
+  document.getElementById("pinLbl").textContent = fmt(idx);
+})();
+
+/* Grafik area */
+(function () {
+  var W = 300, H = 160, L = 40, R = 14, T = 18, B = 26, n = CLOSES.length;
+  var vals = CLOSES.map(function (c) { return c[1]; });
+  var lo = Math.floor((Math.min.apply(null, vals) - 100) / 500) * 500, hi = Math.ceil((Math.max.apply(null, vals) + 100) / 500) * 500;
+  function X(i) { return L + i * (W - L - R) / (n - 1); }
+  function Y(v) { return T + (1 - (v - lo) / (hi - lo)) * (H - T - B); }
+  var pts = CLOSES.map(function (c, i) { return X(i).toFixed(1) + "," + Y(c[1]).toFixed(1); });
+  var line = pts.join(" L");
+  var area = "M" + X(0).toFixed(1) + "," + (H - B) + " L" + line + " L" + X(n - 1).toFixed(1) + "," + (H - B) + " Z";
+  var g = "";
+  [lo, (lo + hi) / 2, hi].forEach(function (v) {
+    g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(v) + '" y2="' + Y(v) + '" stroke="var(--line)" stroke-width="1"/>' +
+      '<text x="' + (L - 6) + '" y="' + (Y(v) + 3) + '" font-size="9" text-anchor="end">' + (v / 1000).toFixed(1).replace(".", ",") + 'rb</text>';
+  });
+  var lab = CLOSES.map(function (c, i) {
+    return '<text x="' + X(i) + '" y="' + (H - 8) + '" font-size="9" text-anchor="middle">' + c[0] + "</text>";
+  }).join("");
+  var dots = CLOSES.map(function (c, i) {
+    return '<circle cx="' + X(i) + '" cy="' + Y(c[1]) + '" r="' + (i === n - 1 ? 4.5 : 2.8) + '" fill="var(--card)" stroke="var(--blue)" stroke-width="2"/>';
+  }).join("");
+  var last = CLOSES[n - 1];
+  var endLbl = '<text x="' + X(n - 1) + '" y="' + (Y(last[1]) - 10) + '" font-size="10" text-anchor="end" style="fill:var(--ink);font-weight:500">' + last[1].toLocaleString("id-ID", { maximumFractionDigits: 0 }) + "</text>";
+  document.getElementById("area").innerHTML =
+    '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Grafik penutupan Nasdaq Composite"><defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--blue);stop-opacity:.35"/><stop offset="1" style="stop-color:var(--blue);stop-opacity:0"/></linearGradient></defs>' +
+    g + '<path d="' + area + '" fill="url(#ag)"/><path d="M' + line + '" fill="none" stroke="var(--blue)" stroke-width="2.4" stroke-linejoin="round"/>' + dots + endLbl + lab + "</svg>";
+})();
+
+/* Donat */
+function donut(pct, color, center) {
+  var r = 34, c = 2 * Math.PI * r, d = (pct / 100) * c;
+  return '<svg viewBox="0 0 92 92" role="img" aria-label="' + center + '"><circle cx="46" cy="46" r="' + r + '" fill="none" stroke="var(--line)" stroke-width="11"/>' +
+    '<circle cx="46" cy="46" r="' + r + '" fill="none" stroke="' + color + '" stroke-width="11" stroke-linecap="butt" stroke-dasharray="' + d.toFixed(1) + " " + (c - d).toFixed(1) + '" transform="rotate(-90 46 46)"/>' +
+    '<text x="46" y="51" text-anchor="middle" font-size="15" font-weight="500" style="fill:var(--ink)">' + center + "</text></svg>";
+}
+(function () {
+  var bearPct = Math.round(bearAbs / totalAbs * 100), smallPct = Math.round(smallAbs / totalAbs * 100);
+  document.getElementById("donuts").innerHTML =
+    '<div class="donut">' + donut(bearPct, "var(--bear)", bearPct + "%") + "Bobot bearish</div>" +
+    '<div class="donut">' + donut(CONF, "var(--blue)", CONF + "%") + "Keyakinan</div>" +
+    '<div class="donut">' + donut(smallPct, "var(--flat)", smallPct + "%") + "Dari berita kecil</div>";
+  var th = {}; ITEMS.forEach(function (i) { th[i.th] = (th[i.th] || 0) + Math.abs(i.p); });
+  var names = Object.keys(th).sort(function (a, b) { return th[b] - th[a]; });
+  var mx = th[names[0]];
+  document.getElementById("themes").innerHTML = names.map(function (k) {
+    return "<div><span>" + esc(k) + '</span><span class="t"><i style="width:' + (th[k] / mx * 100).toFixed(0) + '%"></i></span><span class="n">' + th[k].toFixed(1).replace(".", ",") + "</span></div>";
+  }).join("");
+})();
+
+/* Batang */
+(function () {
+  var n = RANKED.length, W = 300, H = 176, y0 = 86, sc = 56 / 4.5, slot = W / n, bw = 16;
+  var out = '<line x1="0" x2="' + W + '" y1="' + y0 + '" y2="' + y0 + '" stroke="var(--line)" stroke-width="1.5"/>';
+  RANKED.forEach(function (it, k) {
+    var h = Math.abs(it.p) * sc, x = k * slot + (slot - bw) / 2, up = it.p > 0;
+    var y = up ? y0 - h : y0;
+    var ty = up ? y - 4 : y0 + h + 11;
+    out += '<rect x="' + x.toFixed(1) + '" y="' + y.toFixed(1) + '" width="' + bw + '" height="' + h.toFixed(1) + '" rx="2" fill="' + (up ? "var(--bull)" : "var(--bear)") + '"/>' +
+      '<text x="' + (x + bw / 2).toFixed(1) + '" y="' + ty.toFixed(1) + '" font-size="7.5" text-anchor="middle">' + Math.abs(it.p).toFixed(1).replace(".", ",") + "</text>" +
+      '<text x="' + (x + bw / 2).toFixed(1) + '" y="' + (H - 6) + '" font-size="8.5" text-anchor="middle" style="fill:var(--ink)">' + it.rank + "</text>";
+  });
+  document.getElementById("bars").innerHTML = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Dampak tiap berita">' + out + "</svg>";
+})();
+
+/* Berita */
+function render(filter) {
+  var list = RANKED.filter(function (i) {
+    if (filter === "bear") return i.p < 0;
+    if (filter === "bull") return i.p > 0;
+    if (filter === "small") return i.small;
+    return true;
+  });
+  document.getElementById("news").innerHTML = list.map(function (i) {
+    var up = i.p > 0, w = Math.min(100, Math.abs(i.p) / 4.5 * 100);
+    return '<article class="row"><div class="rank">' + i.rank + '</div><div><h4>' + esc(i.t) + "</h4><p>" + esc(i.why) + '</p><div class="meta"><span class="theme">' + esc(i.th) + "</span>" +
+      (i.small ? '<span class="chip">kecil, berdampak besar</span>' : "") + '<a href="' + esc(i.url) + '" target="_blank" rel="noopener">' + esc(i.src) + "</a></div></div>" +
+      '<div class="imp"><div class="pts ' + (up ? "up" : "down") + '">' + fmt(i.p) + '</div><div class="bar"><i style="' + (up ? "left:0;" : "right:0;") + "width:" + w + "%;background:var(" + (up ? "--bull" : "--bear") + ')"></i></div><small>bobot ' + String(i.w).replace(".", ",") + "×</small></div></article>";
+  }).join("");
+}
+render("all");
+document.querySelectorAll(".filters button").forEach(function (b) {
+  b.addEventListener("click", function () {
+    document.querySelectorAll(".filters button").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+    b.setAttribute("aria-pressed", "true");
+    render(b.getAttribute("data-f"));
+  });
+});
+
+function setT(id, t, cls) { var el = document.getElementById(id); if (!el) return; el.textContent = t; if (cls) el.className = "d " + cls; }
+function nf(v, d) { return v == null ? "–" : Number(v).toLocaleString("id-ID", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function sgn(v) { return v > 0 ? "up" : v < 0 ? "down" : "flat"; }
+if (LIVE) {
+  var gen = new Date(LIVE.generated_at);
+  var stamp = isNaN(gen) ? "live" : gen.toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Jakarta" }) + " WIB";
+  setT("clock", stamp);
+  setT("status", "Terakhir diperbarui agen: " + stamp + ".");
+  setT("confCap", "Keyakinan " + CONF + "%. Dihitung otomatis dari " + ITEMS.length + " berita bernilai.");
+  var rs = RANKED.slice(0, 4).map(function (i) { return '<li class="' + (i.p > 0 ? "p" : "") + '"><b>' + esc(i.th) + "</b>" + esc(i.t) + "</li>"; }).join("");
+  if (LIVE.llm_summary) rs = '<li class="p" style="grid-column:1/-1"><b>Ringkasan analis (Claude)</b>' + esc(LIVE.llm_summary).replace(/\n/g, "<br>") + "</li>" + rs;
+  document.getElementById("reasons").innerHTML = rs;
+}
+if (MK) {
+  if (MK.nasdaq) {
+    var N = MK.nasdaq;
+    setT("kNas", nf(N.last, 2)); setT("kNasD", fmt(N.change_pct, 2) + "% (tutup terakhir)", sgn(N.change_pct));
+    setT("lvHigh", nf(N.high52, 2)); setT("lvRes", nf(N.resistance, 2)); setT("lvLast", nf(N.last, 2)); setT("lvPrev", nf(N.prev_close, 2)); setT("lvSup", nf(N.support, 2));
+    setT("scnUp", "Penutupan di atas " + nf(N.resistance, 0) + " menandakan rebound bertahan.");
+    setT("scnDn", "Penutupan di bawah " + nf(N.support, 0) + " membuka tekanan lanjutan.");
+  }
+  if (MK.yield10 && MK.yield10.last != null) {
+    var bps = MK.yield10.prev != null ? (MK.yield10.last - MK.yield10.prev) * 100 : null;
+    setT("kYld", nf(MK.yield10.last, 2) + "%"); setT("kYldD", bps == null ? "" : fmt(bps, 0) + " bps", sgn(bps));
+  }
+  if (MK.brent && MK.brent.last != null) { setT("kBr", "$" + nf(MK.brent.last, 2)); setT("kBrD", fmt(MK.brent.change_pct, 2) + "%", sgn(MK.brent.change_pct)); }
+  if (MK.fed) { setT("kFed", MK.fed.range); setT("kFedD", MK.fed.note); }
+}
+
+document.getElementById("copyBtn").addEventListener("click", function () {
+  var btn = this, txt = document.getElementById("cmdText");
+  function done(ok) { btn.textContent = ok ? "Tersalin" : "Pilih teks lalu salin manual"; setTimeout(function () { btn.textContent = "Salin perintah"; }, 1800); }
+  function sel() { var r = document.createRange(); r.selectNodeContents(txt); var s = getSelection(); s.removeAllRanges(); s.addRange(r); done(false); }
+  try { navigator.clipboard.writeText(txt.textContent).then(function () { done(true); }, sel); } catch (e) { sel(); }
+});
+})();
+</script>
+
+</body>
+</html>
