@@ -1,11 +1,12 @@
 name: Nasdaq Agent
 
 # Jalan otomatis sepanjang hari agar semua berita berdampak terbaca (jadwal dalam UTC):
-# tiap 30 menit Senin-Jumat, tiap jam pada Sabtu-Minggu.
+# tiap 30 menit Senin-Jumat, tiap jam pada Sabtu-Minggu. Menit 7/37 dan 17 dipilih sengaja:
+# GitHub sering menunda atau melewatkan jadwal pada menit 00 dan 30 saat beban tinggi.
 on:
   schedule:
-    - cron: "*/30 * * * 1-5"
-    - cron: "0 * * * 0,6"
+    - cron: "7,37 * * * 1-5"
+    - cron: "17 * * * 0,6"
   workflow_dispatch: {}
 
 permissions:
