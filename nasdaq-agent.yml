@@ -1,0 +1,33 @@
+name: Nasdaq Agent
+
+# Jalan otomatis di cloud GitHub Actions: tiap 30 menit pada jam bursa AS
+# (13:30-21:00 UTC, Senin-Jumat), plus satu kali sebelum pembukaan.
+on:
+  schedule:
+    - cron: "*/30 13-21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install anthropic
+      - name: Jalankan agen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python agent.py --out docs
+      - name: Simpan laporan
+        run: |
+          git config user.name "nasdaq-agent"
+          git config user.email "nasdaq-agent@users.noreply.github.com"
+          git add docs/report.json docs/report.md
+          git diff --cached --quiet || git commit -m "Update laporan Nasdaq"
+          git pull --rebase
+          git push
