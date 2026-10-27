@@ -319,6 +319,7 @@ ITEMS.forEach(function (i) {
   if (i.small) smallAbs += a;
 });
 var idx = (sv / sw) / 3 * 10;
+if (LIVE) idx = Math.max(-10, Math.min(10, LIVE.verdict.avg_score / 3 * 10));
 
 /* Vonis */
 (function () {
@@ -331,7 +332,7 @@ var idx = (sv / sw) / 3 * 10;
   if (LIVE) { bias = LIVE.verdict.bias; cls = /BULL/.test(bias) ? "bull" : (bias === "NETRAL" ? "neutral" : ""); }
   var b = document.getElementById("biasText");
   b.textContent = bias; if (cls) b.classList.add(cls);
-  document.getElementById("biasSub").textContent = "Skor " + fmt(idx) + " dari " + ITEMS.length + " berita. " + nBear + " bearish, " + nBull + " bullish.";
+  document.getElementById("biasSub").textContent = LIVE ? "Skor " + fmt(idx) + " dari " + LIVE.verdict.scored_items + " berita bernilai. Daftar menampilkan " + ITEMS.length + " yang paling berdampak." : "Skor " + fmt(idx) + " dari " + ITEMS.length + " berita. " + nBear + " bearish, " + nBull + " bullish.";
   document.getElementById("pin").style.left = Math.max(0, Math.min(100, (idx + 10) / 20 * 100)) + "%";
   document.getElementById("pinLbl").textContent = fmt(idx);
 })();
