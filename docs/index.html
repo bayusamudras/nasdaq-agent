@@ -286,10 +286,10 @@ var SNAP_ITEMS = [
 ];
 var SNAP_CLOSES = [["6 Okt", 27599.89], ["21 Okt", 26702.86], ["22 Okt", 26008.86], ["23 Okt", 25955.34], ["26 Okt", 26169.38]];
 
-var ITEMS = SNAP_ITEMS, CLOSES = SNAP_CLOSES, LIVE = null, CONF = 55, MK = null;
+var ITEMS = SNAP_ITEMS, CLOSES = SNAP_CLOSES, LIVE = null, CONF = 55, MK = null, GEN = null;
 try {
-  var resp = await fetch("report.json", { cache: "no-store" });
-  if (resp.ok) { LIVE = await resp.json(); }
+  var resp = await fetch("report.json?t=" + Date.now(), { cache: "no-store" });
+  if (resp.ok) { LIVE = await resp.json(); GEN = LIVE.generated_at; }
 } catch (e) { LIVE = null; }
 if (LIVE && LIVE.items && LIVE.items.length) {
   var scored = LIVE.items.filter(function (x) { return x.score !== 0; }).slice(0, 12);
@@ -432,7 +432,7 @@ if (LIVE) {
   var gen = new Date(LIVE.generated_at);
   var stamp = isNaN(gen) ? "live" : gen.toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Jakarta" }) + " WIB";
   setT("clock", stamp);
-  setT("status", "Terakhir diperbarui agen: " + stamp + ".");
+  setT("status", "Terakhir diperbarui agen: " + stamp + ". Halaman memeriksa laporan baru tiap 1 menit.");
   setT("confCap", "Keyakinan " + CONF + "%. Dihitung otomatis dari " + ITEMS.length + " berita bernilai.");
   var rs = RANKED.slice(0, 4).map(function (i) { return '<li class="' + (i.p > 0 ? "p" : "") + '"><b>' + esc(i.th) + "</b>" + esc(i.t) + "</li>"; }).join("");
   if (LIVE.llm_summary) rs = '<li class="p" style="grid-column:1/-1"><b>Ringkasan analis (Claude)</b>' + esc(LIVE.llm_summary).replace(/\n/g, "<br>") + "</li>" + rs;
@@ -460,6 +460,14 @@ document.getElementById("copyBtn").addEventListener("click", function () {
   function sel() { var r = document.createRange(); r.selectNodeContents(txt); var s = getSelection(); s.removeAllRanges(); s.addRange(r); done(false); }
   try { navigator.clipboard.writeText(txt.textContent).then(function () { done(true); }, sel); } catch (e) { sel(); }
 });
+setInterval(async function () {
+  try {
+    var r = await fetch("report.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) return;
+    var j = await r.json();
+    if (j && j.generated_at && j.generated_at !== GEN) location.reload();
+  } catch (e) {}
+}, 60000);
 })();
 </script>
 

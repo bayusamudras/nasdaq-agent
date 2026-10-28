@@ -1,12 +1,12 @@
 name: Nasdaq Agent
 
-# Jalan otomatis sepanjang hari agar semua berita berdampak terbaca (jadwal dalam UTC):
-# tiap 30 menit Senin-Jumat, tiap jam pada Sabtu-Minggu. Menit 7/37 dan 17 dipilih sengaja:
-# GitHub sering menunda atau melewatkan jadwal pada menit 00 dan 30 saat beban tinggi.
+# Jalan otomatis (jadwal dalam UTC). Batas terkecil GitHub Actions adalah 5 menit dan tidak dijamin
+# tepat waktu. Menit digeser dari 00/30 karena jam sibuk sering menunda atau melewatkan run.
+# Senin-Jumat: tiap 5 menit. Sabtu-Minggu: tiap 15 menit.
 on:
   schedule:
-    - cron: "7,37 * * * 1-5"
-    - cron: "17 * * * 0,6"
+    - cron: "2-59/5 * * * 1-5"
+    - cron: "11-59/15 * * * 0,6"
   workflow_dispatch: {}
 
 permissions:
@@ -19,15 +19,18 @@ concurrency:
 jobs:
   analyze:
     runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install anthropic
+      - name: Pasang paket Claude (hanya jika kunci ada)
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        run: pip install anthropic
       - name: Jalankan agen
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python agent.py --out docs
       - name: Simpan laporan
         run: |
