@@ -342,7 +342,7 @@ function render() {
   if (V2) {
     var pu = Math.round(v.p_up * 100), pd = 100 - pu;
     $("pbar").innerHTML = '<div class="dn" style="width:' + pd + '%">Turun ' + pd + "%</div>" + '<div class="upb" style="width:' + pu + '%">Naik ' + pu + "%</div>";
-    $("pcap").textContent = "Perkiraan peluang Nasdaq ditutup naik pada sesi ini. Heuristik dari skor, belum dikalibrasi; dibatasi 18–82% karena pasar tidak pernah pasti.";
+    $("pcap").textContent = "Perkiraan peluang Nasdaq ditutup naik pada sesi ini, dibatasi 18–82%. " + (v.calibrated ? "Sudah dikalibrasi dari hasil nyata agen sendiri." : "Masih heuristik awal: kalibrasi otomatis aktif setelah 30 hari dinilai.");
     $("stats").innerHTML = '<span>Keyakinan <b>' + v.confidence_pct + '%</b></span><span>Kesepakatan faktor <b>' + v.agreement_pct + '%</b></span><span>Faktor tersedia <b>' + v.factors_available + "/" + v.factors_total + "</b></span>";
     $("warns").innerHTML = (v.warnings || []).map(function (w) { return '<div class="warn">⚠ ' + esc(w) + "</div>"; }).join("");
   } else {
@@ -413,6 +413,12 @@ function render() {
     if (T.hit_rate != null && T.n >= T.min_n) h += '<div class="bias ' + (T.hit_rate >= 0.5 ? "bull" : "") + '" style="font-size:44px">' + Math.round(T.hit_rate * 100) + "%</div><div class=\"sub\">tepat dalam " + T.n + " hari</div>";
     else h += '<div class="sub"><b class="num">' + T.hits + "/" + T.n + "</b> tepat. Belum bermakna: perlu minimal " + T.min_n + " hari dinilai sebelum angka ini boleh dipercaya.</div>";
     if (T.recent && T.recent.length) h += '<div class="hitrow">' + T.recent.map(function (r) { return '<i class="' + (r.hit ? "" : "x") + '" title="' + esc(r.date + " " + r.bias + " " + fmt(r.change_pct, 2) + "%") + '"></i>'; }).join("") + "</div>";
+    var C = T.calibration;
+    if (C) {
+      h += '<p class="cap"><b>Kalibrasi peluang:</b> ' + (C.active ? "aktif (a=" + C.a + ", b=" + C.b + ", dari " + C.n + " hari)." : "belum aktif, " + C.n + "/" + C.min_n + " hari dinilai.");
+      if (C.brier != null) h += " Brier " + C.brier + " vs " + C.brier_naive + " bila hanya menebak laju dasar" + (C.brier < C.brier_naive ? " (lebih baik)." : " (belum lebih baik dari tebakan dasar).");
+      h += "</p>";
+    }
     if (T.pending) h += '<p class="cap">Menunggu penutupan ' + esc(T.pending.date) + ": prediksi " + esc(T.pending.bias) + " (naik " + Math.round(T.pending.p_up * 100) + "%).</p>";
     $("track").innerHTML = h;
   } else $("track").innerHTML = '<p class="empty">Rekam jejak mulai terkumpul setelah agen v2 berjalan.</p>';

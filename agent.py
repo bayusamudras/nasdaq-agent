@@ -682,13 +682,58 @@ def upcoming_events(now, limit=7):
     return out[:limit]
 
 
-def compose(factors, events, now):
+PRIOR_A, PRIOR_B = 0.16, 0.16
+CAL_MIN_N = 30
+
+
+def calibrate(entries):
+    """Kalibrasi Platt dengan prior: cocokkan P(naik) = sigmoid(a + b*skor) ke hasil nyata.
+    Aktif hanya bila sudah ada CAL_MIN_N hari dinilai; di bawah itu tetap memakai parameter heuristik."""
+    data = [(e["score10"], 1.0 if e["outcome"]["change_pct"] > 0 else 0.0) for e in entries
+            if e.get("outcome") and not e.get("late") and e.get("score10") is not None]
+    n = len(data)
+    info = {"active": False, "n": n, "min_n": CAL_MIN_N, "a": PRIOR_A, "b": PRIOR_B,
+            "brier": None, "brier_naive": None, "base_rate": None}
+    if n:
+        base = sum(y for _, y in data) / n
+        info["base_rate"] = round(base, 3)
+        info["brier_naive"] = round(sum((base - y) ** 2 for _, y in data) / n, 4)
+        ps = [clamp(1 / (1 + math.exp(-(PRIOR_A + PRIOR_B * x))), 0.18, 0.82) for x, _ in data]
+        info["brier"] = round(sum((p - y) ** 2 for p, (_, y) in zip(ps, data)) / n, 4)
+    if n < CAL_MIN_N:
+        return info
+    la, lb = 5.0, 200.0  # kekuatan prior: menahan parameter dekat nilai awal saat data masih sedikit
+    a, b = PRIOR_A, PRIOR_B
+    for _ in range(50):
+        ga, gb = la * (a - PRIOR_A), lb * (b - PRIOR_B)
+        haa, hab, hbb = la, 0.0, lb
+        for x, y in data:
+            p = 1 / (1 + math.exp(-(a + b * x)))
+            ga += (p - y); gb += (p - y) * x
+            w = p * (1 - p)
+            haa += w; hab += w * x; hbb += w * x * x
+        det = haa * hbb - hab * hab
+        if det <= 1e-9:
+            break
+        da, db = (hbb * ga - hab * gb) / det, (haa * gb - hab * ga) / det
+        a, b = a - da, b - db
+        if abs(da) + abs(db) < 1e-7:
+            break
+    a, b = clamp(a, -0.6, 0.6), clamp(b, 0.0, 0.5)  # tanda negatif dilarang: skor bearish tidak boleh menaikkan peluang
+    ps = [clamp(1 / (1 + math.exp(-(a + b * x))), 0.18, 0.82) for x, _ in data]
+    info.update(active=True, a=round(a, 4), b=round(b, 4),
+                brier_fit=round(sum((p - y) ** 2 for p, (_, y) in zip(ps, data)) / n, 4))
+    return info
+
+
+def compose(factors, events, now, calib=None):
     avail = [f for f in factors if f["signal"] is not None]
     wsum = sum(f["weight"] for f in factors) or 1  # faktor hilang menyumbang 0, skor menyusut ke netral
     for f in factors:
         f["contribution"] = round(f["signal"] * f["weight"] / wsum * 5, 2) if f["signal"] is not None else None
     score10 = round(sum(f["contribution"] for f in avail), 2)
-    p_up = clamp(1 / (1 + math.exp(-(0.16 + 0.16 * score10))), 0.18, 0.82)
+    ca, cb = (calib["a"], calib["b"]) if calib and calib.get("active") else (PRIOR_A, PRIOR_B)
+    p_up = clamp(1 / (1 + math.exp(-(ca + cb * score10))), 0.18, 0.82)
 
     side = 1 if score10 >= 0 else -1
     active = [f for f in avail if abs(f["signal"]) >= 0.25]
@@ -894,7 +939,7 @@ def write_markdown(r, path):
          f"_Diperbarui {r['generated_at']} · sesi {r['session']['label']} ({r['session']['phase']})_", "",
          f"Peluang indeks naik **{round(v['p_up'] * 100)}%**, turun **{round(v['p_down'] * 100)}%** "
          f"(skor {fnum(v['score10'], 1, True)} dari ±10, keyakinan {v['confidence_pct']}%, "
-         f"{v['agreement_pct']}% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.", ""]
+         f"{v['agreement_pct']}% bobot faktor searah). Estimasi " + ("terkalibrasi dari hasil nyata." if v.get("calibrated") else "heuristik, belum dikalibrasi."), ""]
     if v["warnings"]:
         L += ["**Catatan:** " + "; ".join(v["warnings"]), ""]
     if r.get("llm_summary"):
@@ -930,25 +975,28 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     ns = news_stats(clusters)
     factors = build_factors(ns, market)
     events = upcoming_events(now)
-    verdict = compose(factors, events, now)
+    entries = load_history(history_path) if history_path else []
+    calib = calibrate(entries)
+    verdict = compose(factors, events, now, calib)
+    verdict["calibrated"] = calib["active"]
     # kompatibel dengan dashboard versi 1
     verdict.update(avg_score=ns["avg"], total=round(sum(c["impact"] for c in clusters), 2), scored_items=ns["n_scored"])
     levels = build_levels(market, now)
     items = news_items_out(clusters)
     tr = track_record([])
     if history_path:
-        entries = load_history(history_path)
         update_history(entries, now, verdict, (market.get("nasdaq") or {}).get("bars"))
         os.makedirs(os.path.dirname(history_path) or ".", exist_ok=True)
         with open(history_path, "w", encoding="utf-8") as f:
             json.dump({"version": 1, "entries": entries}, f, ensure_ascii=False, indent=1)
         tr = track_record(entries)
+    tr["calibration"] = calib
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "session": session_info(now), "verdict": verdict, "factors": factors, "reasons": make_reasons(factors),
         "levels": levels, "scenarios": make_scenarios(market, levels, events, factors), "events": events,
         "track_record": tr, "market": market, "news_stats": ns, "items": items, "llm_summary": None,
-        "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(0.16+0.16*skor)))",
+        "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.3f+%.3f*skor)))" % (calib["a"], calib["b"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
                         "p_up_range": [0.18, 0.82]},
     }
     if use_llm:
