@@ -977,9 +977,11 @@ def run_once(args):
             except Exception as e:  # noqa: BLE001
                 print(f"[warn] gagal ambil '{q}': {e}", file=sys.stderr)
         market = fetch_market(now)
-    if not raw:
-        print("[error] tidak ada headline. Cek koneksi atau pakai --demo.", file=sys.stderr)
+    if not raw and not market.get("nasdaq"):
+        print("[error] tidak ada headline maupun data harga. Cek koneksi atau pakai --demo.", file=sys.stderr)
         return 1
+    if not raw:
+        print("[warn] tidak ada headline; laporan memakai data harga saja.", file=sys.stderr)
     hist = None if (args.demo or args.no_history) else os.path.join(args.out, "history.json")
     report = build_report(raw, market, now, hist, use_llm=not fixture)
     os.makedirs(args.out, exist_ok=True)
