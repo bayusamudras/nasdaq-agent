@@ -488,11 +488,8 @@ def fetch_market(now):
         try:
             if key == "nq_fut":
                 fc = front_contract(now)
-                try:
-                    m[key] = _quote(fc["yahoo"]); m[key]["contract"] = fc["code"]
-                except Exception as e:  # noqa: BLE001
-                    print(f"[warn] {fc['yahoo']}: {e}; pakai NQ=F (kontrak depan otomatis)", file=sys.stderr)
-                    m[key] = _quote(sym); m[key]["contract"] = fc["code"] + " (via NQ=F)"
+                m[key] = _quote(sym)  # NQ=F: kontrak depan Yahoo, berganti sendiri tiap kuartal
+                m[key]["contract"] = "NQ=F (" + fc["code"] + ")"
                 m[key]["tv"] = fc["tv"]; m[key]["expiry"] = fc["expiry"]
                 continue
             m[key] = _quote(sym)
@@ -817,6 +814,38 @@ def compose(factors, events, now, calib=None):
             "warnings": [t for _, t in penalties]}
 
 
+def build_forecast(market, levels, verdict, factors, clusters_out):
+    """Proyeksi harga NQ dari skor faktor. Heuristik: skor +10 setara geseran +0,8 sigma harian.
+    Bukan ramalan pasti; dipakai untuk memberi gambaran arah, besaran, dan rentang."""
+    nq, nas = market.get("nq_fut"), market.get("nasdaq")
+    ref_src = nq if nq else nas
+    if not ref_src or not levels:
+        return None
+    ref = ref_src["last"]
+    sigma_pct = levels["sigma_pct"]
+    sig_pts = ref * sigma_pct / 100
+    per_point = sig_pts * 0.08
+    mu = clamp(per_point * verdict["score10"], -0.9 * sig_pts, 0.9 * sig_pts)
+    def hz(label, days, mult):
+        sg = sig_pts * math.sqrt(days)
+        m = mu * mult
+        return {"label": label, "exp_pts": round(m, 1), "exp_pct": round(m / ref * 100, 2),
+                "target": round(ref + m, 1), "low": round(ref + m - sg, 1), "high": round(ref + m + sg, 1),
+                "sigma_pct": round(sigma_pct * math.sqrt(days), 2)}
+    fac = next((f for f in factors if f["key"] == "news"), None)
+    news_mu = per_point * fac["contribution"] if fac and fac["contribution"] is not None else 0.0
+    tot = sum(abs(i["weighted"]) for i in clusters_out if i["score"]) or 1
+    moves = sorted(({"title": i["title"], "pts": round(i["weighted"] / tot * sig_pts * 0.24, 1), "direction": i["direction"],
+                     "horizon": i.get("horizon")} for i in clusters_out if i["score"]),
+                   key=lambda x: -abs(x["pts"]))[:6]
+    return {"ref": round(ref, 2), "ref_name": nq.get("contract") if nq else "Nasdaq Composite",
+            "sigma_pct": sigma_pct, "p_up": verdict["p_up"], "news_pts": round(news_mu, 1),
+            "total_pts": round(mu, 1),
+            "horizons": [hz("Sisa sesi / 1 hari", 1, 1.0), hz("5 sesi ke depan", 5, 2.0)],
+            "news_moves": moves,
+            "note": "Heuristik: skor +10 setara geseran sekitar 0,8 sigma harian (sigma dari VXN). Rentang = 1 sigma. Dampak berita per item adalah porsi kasar dari sumbangan faktor berita, bukan harga yang dijamin."}
+
+
 def make_reasons(factors):
     ranked = sorted([f for f in factors if f["signal"] is not None and abs(f["contribution"]) >= 0.3],
                     key=lambda f: -abs(f["contribution"]))[:5]
@@ -1043,7 +1072,7 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "session": session_info(now), "verdict": verdict, "factors": factors, "reasons": make_reasons(factors),
-        "levels": levels, "scenarios": make_scenarios(market, levels, events, factors), "events": events,
+        "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
         "track_record": tr, "market": market, "news_stats": ns, "items": items, "llm_summary": None,
         "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.3f+%.3f*skor)))" % (calib["a"], calib["b"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
                         "p_up_range": [0.18, 0.82]},

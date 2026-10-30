@@ -316,6 +316,11 @@ section[id] { scroll-margin-top: 16px; }
         <div id="ai"></div>
       </section>
 
+      <section class="card" id="proyeksi">
+        <h3>Proyeksi harga dari berita dan faktor</h3>
+        <div id="forecast"></div>
+      </section>
+
       <section class="card">
         <h3>Alasan utama</h3>
         <ul class="reasons" id="reasons"></ul>
@@ -432,6 +437,21 @@ function render() {
     $("pbar").innerHTML = ""; $("pcap").textContent = "Laporan versi lama. Menunggu agen v2 berjalan untuk tampilan lengkap."; $("stats").innerHTML = ""; $("warns").innerHTML = "";
   }
   $("ai").innerHTML = R.llm_summary ? '<div class="ai">' + esc(R.llm_summary) + "</div>" : "";
+
+  /* Proyeksi */
+  var F = R.forecast;
+  if (F) {
+    var h = '<p class="note">Acuan: <b>' + esc(F.ref_name || "NQ") + "</b> di " + num(F.ref, 2) + ". Dari skor bias, perkiraan geseran harga total " + fmt(F.total_pts, 0) + " poin, dan " + fmt(F.news_pts, 0) + " poin di antaranya berasal dari berita.</p>";
+    h += '<div class="scroll"><table><thead><tr><th>Horizon</th><th>Perkiraan gerak</th><th>Target tengah</th><th>Rentang 1σ</th></tr></thead><tbody>' +
+      F.horizons.map(function (z) { return "<tr><td>" + esc(z.label) + '</td><td class="' + cls(z.exp_pts) + '">' + fmt(z.exp_pts, 0) + " (" + fmt(z.exp_pct, 2) + "%)</td><td>" + num(z.target, 0) + "</td><td>" + num(z.low, 0) + " – " + num(z.high, 0) + "</td></tr>"; }).join("") + "</tbody></table></div>";
+    var mx = Math.max.apply(null, F.news_moves.map(function (m) { return Math.abs(m.pts); }).concat([1]));
+    h += '<h4 style="margin:14px 0 6px;font-size:13.5px">Perkiraan dampak tiap berita ke harga NQ</h4>' + (F.news_moves.length ? F.news_moves.map(function (m) {
+      var w = Math.abs(m.pts) / mx * 50;
+      return '<div class="fhead" style="padding:5px 0"><div class="fname" style="font-weight:500;font-size:12.8px">' + esc(m.title) + "<small>" + esc(m.horizon || "") + '</small></div><div class="dv"><i style="' + (m.pts > 0 ? "left:50%;" : "right:50%;") + "width:" + w + "%;background:var(" + (m.pts > 0 ? "--bull" : "--bear") + ')"></i></div><div class="fval ' + cls(m.pts) + '">' + fmt(m.pts, 1) + " poin</div></div>";
+    }).join("") : '<p class="empty">Belum ada berita bernilai.</p>');
+    h += '<p class="cap">' + esc(F.note) + "</p>";
+    $("forecast").innerHTML = h;
+  } else $("forecast").innerHTML = '<p class="empty">Proyeksi muncul bila data harga tersedia.</p>';
 
   /* Alasan */
   var rs = R.reasons || [];
