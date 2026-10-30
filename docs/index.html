@@ -289,7 +289,7 @@ section[id] { scroll-margin-top: 16px; }
 
   <section class="card kpis" aria-label="Data pasar terakhir">
     <div class="kpi"><div class="k">Nasdaq Comp</div><div class="v num" id="kNas">–</div><div class="d" id="kNasD"></div></div>
-    <div class="kpi"><div class="k">Futures NQ</div><div class="v num" id="kNq">–</div><div class="d" id="kNqD"></div></div>
+    <div class="kpi"><div class="k" id="kNqK">Futures NQ</div><div class="v num" id="kNq">–</div><div class="d" id="kNqD"></div></div>
     <div class="kpi"><div class="k">VIX</div><div class="v num" id="kVix">–</div><div class="d" id="kVixD"></div></div>
     <div class="kpi"><div class="k">Yield 10 th</div><div class="v num" id="kYld">–</div><div class="d" id="kYldD"></div></div>
   </section>
@@ -408,7 +408,7 @@ function render() {
   var n = mk.nasdaq, q = mk.nq_fut, vx = mk.vix, y = mk.yield10;
   $("kNas").textContent = n ? num(n.last, 2) : "–";
   $("kNasD").textContent = n ? fmt(n.change_pct, 2) + "% sesi terakhir" : ""; $("kNasD").className = "d " + (n ? cls(n.change_pct) : "");
-  $("kNq").textContent = q ? num(q.last, 0) : "–";
+  $("kNq").textContent = q ? num(q.last, 0) : "–"; $("kNqK").textContent = q && q.contract ? "Futures " + q.contract : "Futures NQ";
   $("kNqD").textContent = q ? fmt(q.change_pct, 2) + "% vs tutup" : "tidak tersedia"; $("kNqD").className = "d " + (q ? cls(q.change_pct) : "");
   $("kVix").textContent = vx ? num(vx.last, 2) : "–";
   $("kVixD").textContent = vx ? fmt(vx.change_pct, 1) + "%" : "tidak tersedia"; $("kVixD").className = "d " + (vx ? cls(-vx.change_pct) : "");

@@ -427,6 +427,21 @@ def _quote(symbol):
     return out
 
 
+def front_contract(now):
+    """Kontrak MNQ bulan terdekat (H, M, U, Z). Berganti 8 hari sebelum kedaluwarsa (Jumat ketiga),
+    jadi kode otomatis maju: MNQZ2026 -> MNQH2027 -> MNQM2027 -> ..."""
+    codes = {3: "H", 6: "M", 9: "U", 12: "Z"}
+    d = now.astimezone(UTC).date()
+    for y in (d.year, d.year + 1):
+        for m in (3, 6, 9, 12):
+            first = dt.date(y, m, 1)
+            third_fri = first + dt.timedelta(days=(4 - first.weekday()) % 7 + 14)
+            if d < third_fri - dt.timedelta(days=8):
+                return {"code": f"MNQ{codes[m]}{y}", "tv": f"CME_MINI:MNQ{codes[m]}{y}",
+                        "yahoo": f"MNQ{codes[m]}{str(y)[2:]}.CME", "expiry": third_fri.isoformat()}
+    raise RuntimeError("kontrak tidak ditemukan")
+
+
 def fetch_market(now):
     m = {"fed": {"range": FED_FUNDS, "note": FED_NOTE}}
     try:
@@ -452,6 +467,15 @@ def fetch_market(now):
         print(f"[warn] Nasdaq: {e}", file=sys.stderr)
     for key, sym in SYMS.items():
         try:
+            if key == "nq_fut":
+                fc = front_contract(now)
+                try:
+                    m[key] = _quote(fc["yahoo"]); m[key]["contract"] = fc["code"]
+                except Exception as e:  # noqa: BLE001
+                    print(f"[warn] {fc['yahoo']}: {e}; pakai NQ=F (kontrak depan otomatis)", file=sys.stderr)
+                    m[key] = _quote(sym); m[key]["contract"] = fc["code"] + " (via NQ=F)"
+                m[key]["tv"] = fc["tv"]; m[key]["expiry"] = fc["expiry"]
+                continue
             m[key] = _quote(sym)
         except Exception as e:  # noqa: BLE001
             print(f"[warn] {sym}: {e}", file=sys.stderr)
