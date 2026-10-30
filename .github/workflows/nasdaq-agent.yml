@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "nasdaq-agent"
           git config user.email "nasdaq-agent@users.noreply.github.com"
-          git add docs/report.json docs/report.md
+          git add docs/report.json docs/report.md docs/history.json
           git diff --cached --quiet || git commit -m "Update laporan Nasdaq"
           git pull --rebase
           git push
