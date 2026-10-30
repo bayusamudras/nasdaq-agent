@@ -409,7 +409,7 @@ function render() {
   $("kNas").textContent = n ? num(n.last, 2) : "–";
   $("kNasD").textContent = n ? fmt(n.change_pct, 2) + "% sesi terakhir" : ""; $("kNasD").className = "d " + (n ? cls(n.change_pct) : "");
   $("kNq").textContent = q ? num(q.last, 0) : "–"; $("kNqK").textContent = q && q.contract ? "Futures " + q.contract : "Futures NQ";
-  $("kNqD").textContent = q ? fmt(q.change_pct, 2) + "% vs tutup" : "tidak tersedia"; $("kNqD").className = "d " + (q ? cls(q.change_pct) : "");
+  $("kNqD").textContent = q ? fmt(q.change_pct, 2) + "% vs tutup" + (mk.qqq ? " · QQQ " + num(mk.qqq.last, 2) + " (" + fmt(mk.qqq.change_pct, 2) + "%)" : "") : "tidak tersedia"; $("kNqD").className = "d " + (q ? cls(q.change_pct) : "");
   $("kVix").textContent = vx ? num(vx.last, 2) : "–";
   $("kVixD").textContent = vx ? fmt(vx.change_pct, 1) + "%" : "tidak tersedia"; $("kVixD").className = "d " + (vx ? cls(-vx.change_pct) : "");
   $("kYld").textContent = y ? num(y.last, 3) + "%" : "–";

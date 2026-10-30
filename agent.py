@@ -427,6 +427,25 @@ def _quote(symbol):
     return out
 
 
+def fetch_alpaca(symbol="QQQ"):
+    """Harga saham/ETF nyaris realtime dari Alpaca (feed IEX gratis). Kunci hanya dari variabel lingkungan."""
+    kid, sec = os.environ.get("ALPACA_KEY_ID"), os.environ.get("ALPACA_SECRET_KEY")
+    if not kid or not sec:
+        return None
+    req = urllib.request.Request(
+        f"https://data.alpaca.markets/v2/stocks/{symbol}/snapshot?feed=iex",
+        headers={"APCA-API-KEY-ID": kid, "APCA-API-SECRET-KEY": sec, "User-Agent": "nasdaq-agent/2.0"})
+    with urllib.request.urlopen(req, timeout=15) as r:
+        d = json.loads(r.read())
+    last = (d.get("latestTrade") or {}).get("p")
+    prev = (d.get("prevDailyBar") or {}).get("c")
+    if not last:
+        return None
+    return {"symbol": symbol, "last": round(last, 2), "prev": prev,
+            "change_pct": round((last / prev - 1) * 100, 2) if prev else None,
+            "time": (d.get("latestTrade") or {}).get("t"), "feed": "IEX"}
+
+
 def front_contract(now):
     """Kontrak MNQ bulan terdekat (H, M, U, Z). Berganti 8 hari sebelum kedaluwarsa (Jumat ketiga),
     jadi kode otomatis maju: MNQZ2026 -> MNQH2027 -> MNQM2027 -> ..."""
@@ -479,6 +498,12 @@ def fetch_market(now):
             m[key] = _quote(sym)
         except Exception as e:  # noqa: BLE001
             print(f"[warn] {sym}: {e}", file=sys.stderr)
+    try:
+        a = fetch_alpaca("QQQ")
+        if a:
+            m["qqq"] = a
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] Alpaca: {e}", file=sys.stderr)
     if "yield10" in m and "change_bps" not in m["yield10"] and m["yield10"].get("prev"):
         m["yield10"]["change_bps"] = round((m["yield10"]["last"] - m["yield10"]["prev"]) * 100, 1)
     return m
