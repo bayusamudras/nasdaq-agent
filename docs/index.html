@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Nasdaq Desk</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: menara kendali tiga kolom di atas latar biru royal. Kiri: grafik, donat, batang. Tengah: KPI, vonis, berita. Kanan: tabel level, skenario, agen. Satu tema biru yang disengaja. */
 :root {
@@ -107,7 +107,7 @@ svg text { font-family: var(--f-data); fill: var(--muted); }
 .row h4 { font-size: 14px; font-weight: 600; margin-bottom: 3px; }
 .row p { margin: 0; color: var(--muted); font-size: 13px; }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; margin-top: 6px; font-size: 12px; }
-.chip { font-family: var(--f-data); font-size: 10.5px; padding: 1px 7px; border-radius: 999px; background: #fff4dc; color: var(--flat); }
+.chip { font-family: var(--f-data); font-size: 10.5px; padding: 1px 7px; border-radius: 999px; background: var(--flat-soft); color: var(--flat); }
 .theme { font-family: var(--f-data); font-size: 10.5px; padding: 1px 7px; border-radius: 999px; background: var(--blue-soft); color: var(--blue); }
 .imp { text-align: right; }
 .imp .pts { font-family: var(--f-data); font-size: 17px; font-weight: 500; }
@@ -146,7 +146,7 @@ footer { color: rgba(255,255,255,.82); font-size: 12px; text-align: center; padd
 .pbar { display: flex; height: 30px; border-radius: 8px; overflow: hidden; font-family: var(--f-data); font-size: 13px; color: #fff; margin-top: 10px; }
 .pbar div { display: flex; align-items: center; padding: 0 10px; white-space: nowrap; }
 .pbar .dn { background: var(--bear); } .pbar .upb { background: var(--bull); justify-content: flex-end; }
-.warn { background: #fff4dc; color: #7a4d00; border-radius: 8px; padding: 8px 12px; font-size: 13px; margin-top: 10px; }
+.warn { background: var(--flat-soft); color: #7a4d00; border-radius: 8px; padding: 8px 12px; font-size: 13px; margin-top: 10px; }
 .stats { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 12px; font-size: 12.5px; color: var(--muted); }
 .stats b { color: var(--ink); font-family: var(--f-data); font-weight: 500; }
 .fac { border-top: 1px solid var(--line); padding: 10px 0; }
@@ -169,7 +169,7 @@ footer { color: rgba(255,255,255,.82); font-size: 12px; text-align: center; padd
 .imps { margin: 8px 0 0 38px; display: flex; flex-direction: column; gap: 8px; }
 .imp1 { border-left: 3px solid var(--bear); background: var(--bear-soft); border-radius: 0 8px 8px 0; padding: 8px 10px; font-size: 13px; }
 .imp1.bull { border-color: var(--bull); background: var(--bull-soft); }
-.imp1.flat { border-color: var(--flat); background: #fff4dc; }
+.imp1.flat { border-color: var(--flat); background: var(--flat-soft); }
 .imp1 b { display: block; font-weight: 600; }
 .imp1 span { color: var(--ink); }
 .tick { font-family: var(--f-data); font-size: 10.5px; padding: 1px 6px; border-radius: 4px; background: var(--blue-soft); color: var(--ink); }
@@ -187,16 +187,99 @@ footer { color: rgba(255,255,255,.82); font-size: 12px; text-align: center; padd
 .ev .t { font-family: var(--f-data); font-size: 12px; color: var(--muted); }
 .ev b { font-weight: 600; }
 .lvl { font-size: 10.5px; padding: 1px 7px; border-radius: 999px; font-family: var(--f-data); margin-left: 6px; }
-.lvl.tinggi { background: var(--bear-soft); color: var(--bear); } .lvl.sedang { background: #fff4dc; color: var(--flat); } .lvl.rendah { background: var(--blue-soft); color: var(--blue); }
+.lvl.tinggi { background: var(--bear-soft); color: var(--bear); } .lvl.sedang { background: var(--flat-soft); color: var(--flat); } .lvl.rendah { background: var(--blue-soft); color: var(--blue); }
 .hitrow { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 8px; }
 .hitrow i { width: 16px; height: 16px; border-radius: 4px; background: var(--bull); } .hitrow i.x { background: var(--bear); }
 details { font-size: 13px; } summary { cursor: pointer; font-weight: 600; } details p { color: var(--muted); }
 .ai { background: var(--blue-soft); border-radius: 8px; padding: 10px 12px; font-size: 13.5px; margin-top: 12px; }
 .empty { text-align: center; color: var(--muted); padding: 24px 8px; }
 
+
+/* ===== Tema gelap lembut (v3) ===== */
+:root {
+  --bg: #0f1424; --bg-deep: #0f1424;
+  --surface: #161d33; --card: #1a2240; --card-2: #212b4d;
+  --ink: #e9edf8; --muted: #a3afcb; --line: #2a3559;
+  --blue: #8fa5ff; --blue-soft: #232d52; --sky: #6f86e8;
+  --bull: #62d9a8; --bull-soft: rgba(98,217,168,.12);
+  --bear: #ff8e9e; --bear-soft: rgba(255,142,158,.12);
+  --flat: #f1c678; --flat-soft: rgba(241,198,120,.13);
+  --shadow: 0 6px 24px rgba(0,0,0,.28);
+  --f-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --f-body: "Plus Jakarta Sans", system-ui, sans-serif;
+  --f-data: "JetBrains Mono", ui-monospace, monospace;
+  color-scheme: dark;
+}
+body { background: var(--bg); background-image: radial-gradient(900px 420px at 80% -80px, rgba(143,165,255,.14), transparent), radial-gradient(700px 360px at -10% 0, rgba(98,217,168,.08), transparent); font-size: 14.5px; }
+.tower { max-width: 1480px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px 20px; }
+.card > h3, .sechead h3 { border-left: 0; padding-left: 0; font-size: 15.5px; font-weight: 700; letter-spacing: .01em; display: flex; align-items: center; gap: 8px; }
+.card > h3::before, .sechead h3::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 4px rgba(143,165,255,.18); }
+.scn.b > h3::before { background: var(--bull); box-shadow: 0 0 0 4px rgba(98,217,168,.18); }
+.scn.r > h3::before { background: var(--bear); box-shadow: 0 0 0 4px rgba(255,142,158,.18); }
+.titlebar h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(20px, 3.2vw, 30px); letter-spacing: -.01em; text-transform: none; }
+.titlebar .tag { color: var(--muted); opacity: 1; letter-spacing: .04em; text-transform: none; font-size: 12px; }
+.titlebar .clock { background: var(--card); border: 1px solid var(--line); color: var(--ink); }
+.kpis { gap: 0; }
+.kpi { border-left-color: var(--line); }
+.kpi .v { font-family: var(--f-data); font-weight: 500; font-size: clamp(20px, 2.4vw, 28px); letter-spacing: -.02em; }
+.kpi .k { color: var(--muted); font-weight: 500; }
+.badge { background: rgba(143,165,255,.16); color: var(--blue); font-weight: 600; }
+.bias { font-family: var(--f-display); font-weight: 800; font-size: clamp(40px, 6.4vw, 64px); letter-spacing: -.03em; line-height: 1; }
+.gauge { background: linear-gradient(90deg, var(--bear), #3a4570 50%, var(--bull)); opacity: .95; }
+.pin { background: var(--ink); box-shadow: 0 0 0 3px var(--card); }
+.pbar { border-radius: 12px; height: 34px; color: #0f1424; font-weight: 600; }
+.pbar .dn { background: var(--bear); } .pbar .upb { background: var(--bull); }
+.reasons li { border: 1px solid transparent; border-radius: 14px; }
+.reasons li { border-color: rgba(255,142,158,.22); } .reasons li.p { border-color: rgba(98,217,168,.22); }
+.warn { background: var(--flat-soft); color: var(--flat); border: 1px solid rgba(241,198,120,.25); }
+.filters { background: var(--surface); border: 1px solid var(--line); }
+.filters button { color: var(--muted); font-weight: 500; }
+.filters button[aria-pressed="true"] { background: var(--blue); color: #0f1424; box-shadow: none; font-weight: 700; }
+.chip { background: var(--flat-soft); color: var(--flat); }
+.theme { background: rgba(143,165,255,.16); color: var(--blue); }
+.tick { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
+.imp1 { border-radius: 0 12px 12px 0; } .imp1 span { color: var(--ink); opacity: .92; }
+.imp1.flat { background: var(--flat-soft); }
+.rank { background: rgba(143,165,255,.16); color: var(--blue); }
+.dv { background: var(--surface); } .dv::before { background: var(--muted); }
+.rng .track { background: var(--surface); } .rng .band { background: var(--sky); opacity: .35; }
+.rng .mk.l { background: var(--blue); }
+th { background: var(--surface); color: var(--ink); } td { border-top-color: var(--line); }
+tr.hl td { background: var(--card-2); }
+.lvl.tinggi { background: var(--bear-soft); color: var(--bear); } .lvl.sedang { background: var(--flat-soft); color: var(--flat); } .lvl.rendah { background: rgba(143,165,255,.16); color: var(--blue); }
+.ai { background: var(--card-2); border: 1px solid var(--line); }
+pre { background: var(--surface); }
+a { color: var(--blue); }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+footer { color: var(--muted); }
+svg text { fill: var(--muted); }
+details p { color: var(--muted); }
+.themes .t { background: var(--surface); }
+
+/* Sidebar */
+.side { display: none; }
+@media (min-width: 1180px) {
+  body { padding-left: 96px; }
+  .side { display: flex; flex-direction: column; align-items: center; gap: 8px; position: fixed; left: 14px; top: 16px; bottom: 16px; width: 66px; background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 14px 0; z-index: 5; }
+  .side .logo { width: 38px; height: 38px; border-radius: 12px; background: linear-gradient(135deg, var(--blue), var(--bull)); display: grid; place-items: center; color: #0f1424; font-weight: 800; margin-bottom: 8px; }
+  .side a { width: 46px; padding: 8px 0 6px; border-radius: 12px; text-align: center; text-decoration: none; color: var(--muted); font-size: 10.5px; font-weight: 600; line-height: 1.2; }
+  .side a svg { width: 20px; height: 20px; margin: 0 auto 3px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .side a:hover { background: var(--card-2); color: var(--ink); }
+}
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 16px; }
 </style>
 </head>
 <body>
+<nav class="side" aria-label="Navigasi">
+  <div class="logo">N</div>
+  <a href="#bias"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>Bias</a>
+  <a href="#faktor"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Faktor</a>
+  <a href="#berita"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H4zM17 9h3v10h-3M8 9h5M8 13h5"/></svg>Berita</a>
+  <a href="#level"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>Level</a>
+  <a href="#kalender"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>Risiko</a>
+</nav>
 <div class="tower">
   <div class="titlebar">
     <div class="tag" id="sess">Analisis fundamental berita</div>
@@ -213,7 +296,7 @@ details { font-size: 13px; } summary { cursor: pointer; font-weight: 600; } deta
 
   <div class="grid2">
     <div class="col">
-      <section class="card">
+      <section class="card" id="bias">
         <h3>Bias hari ini</h3>
         <div class="verdict-top">
           <div>
@@ -238,13 +321,13 @@ details { font-size: 13px; } summary { cursor: pointer; font-weight: 600; } deta
         <ul class="reasons" id="reasons"></ul>
       </section>
 
-      <section class="card">
+      <section class="card" id="faktor">
         <h3>Papan faktor: apa saja yang membentuk bias</h3>
         <p class="note">Tiap faktor diberi sinyal −2 sampai +2, dikali bobot. Batang menunjukkan sumbangan ke skor akhir (kiri bearish, kanan bullish).</p>
         <div id="factors"></div>
       </section>
 
-      <section class="card">
+      <section class="card" id="berita">
         <div class="sechead">
           <h3>Berita dan kenapa berdampak</h3>
           <div class="filters" role="group" aria-label="Filter berita">
@@ -260,7 +343,7 @@ details { font-size: 13px; } summary { cursor: pointer; font-weight: 600; } deta
     </div>
 
     <div class="col">
-      <section class="card">
+      <section class="card" id="level">
         <h3>Peta level Nasdaq Composite</h3>
         <div id="levels"></div>
       </section>
@@ -268,7 +351,7 @@ details { font-size: 13px; } summary { cursor: pointer; font-weight: 600; } deta
       <section class="card scn b"><h3>Pembalik ke bullish</h3><ul id="scnBull"></ul></section>
       <section class="card scn r"><h3>Penguat bearish</h3><ul id="scnBear"></ul></section>
 
-      <section class="card">
+      <section class="card" id="kalender">
         <h3>Kalender risiko</h3>
         <div id="events"></div>
       </section>
