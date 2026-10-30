@@ -746,6 +746,9 @@ def calibrate(entries):
         info["brier_naive"] = round(sum((base - y) ** 2 for _, y in data) / n, 4)
         ps = [clamp(1 / (1 + math.exp(-(PRIOR_A + PRIOR_B * x))), 0.18, 0.82) for x, _ in data]
         info["brier"] = round(sum((p - y) ** 2 for p, (_, y) in zip(ps, data)) / n, 4)
+    first = min((e["date"] for e in entries if e.get("outcome") and not e.get("late")), default=None)
+    last = max((e["date"] for e in entries if e.get("outcome") and not e.get("late")), default=None)
+    info.update(first_date=first, last_date=last)
     if n < CAL_MIN_N:
         return info
     la, lb = 5.0, 200.0  # kekuatan prior: menahan parameter dekat nilai awal saat data masih sedikit
@@ -934,6 +937,14 @@ def load_history(path):
         return []
 
 
+def load_calib_log(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f).get("calib_log", [])
+    except Exception:  # noqa: BLE001
+        return []
+
+
 def update_history(entries, now, verdict, bars):
     """Simpan prediksi pra-buka (dibekukan saat bursa buka) dan evaluasi sesi yang sudah selesai."""
     T = session_date(now).isoformat()
@@ -959,7 +970,7 @@ def update_history(entries, now, verdict, bars):
     cutoff = (now.date() - dt.timedelta(days=7)).isoformat()
     entries[:] = [e for e in entries if e.get("outcome") or e["date"] >= cutoff]
     entries.sort(key=lambda x: x["date"])
-    del entries[:-200]
+    del entries[:-2000]  # simpan bertahun-tahun; kalibrasi memakai seluruh riwayat
     return entries
 
 
@@ -1065,9 +1076,21 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     if history_path:
         update_history(entries, now, verdict, (market.get("nasdaq") or {}).get("bars"))
         os.makedirs(os.path.dirname(history_path) or ".", exist_ok=True)
+        calib = calibrate(entries)  # hitung ulang setelah hasil sesi yang baru selesai masuk
+        log = load_calib_log(history_path)
+        today = now.astimezone(WIB).date().isoformat()
+        snap = {"date": today, "n": calib["n"], "active": calib["active"], "a": calib["a"], "b": calib["b"],
+                "brier": calib["brier"], "brier_naive": calib["brier_naive"]}
+        if log and log[-1].get("date") == today:
+            log[-1] = snap
+        else:
+            log.append(snap)
+        del log[:-400]
         with open(history_path, "w", encoding="utf-8") as f:
-            json.dump({"version": 1, "entries": entries}, f, ensure_ascii=False, indent=1)
+            json.dump({"version": 1, "entries": entries, "calib_log": log}, f, ensure_ascii=False, indent=1)
         tr = track_record(entries)
+        calib["log"] = log[-30:]
+    calib["updated_at"] = now.astimezone(WIB).isoformat(timespec="minutes")
     tr["calibration"] = calib
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),

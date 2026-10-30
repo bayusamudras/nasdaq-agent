@@ -518,9 +518,16 @@ function render() {
     if (T.recent && T.recent.length) h += '<div class="hitrow">' + T.recent.map(function (r) { return '<i class="' + (r.hit ? "" : "x") + '" title="' + esc(r.date + " " + r.bias + " " + fmt(r.change_pct, 2) + "%") + '"></i>'; }).join("") + "</div>";
     var C = T.calibration;
     if (C) {
-      h += '<p class="cap"><b>Kalibrasi peluang:</b> ' + (C.active ? "aktif (a=" + C.a + ", b=" + C.b + ", dari " + C.n + " hari)." : "belum aktif, " + C.n + "/" + C.min_n + " hari dinilai.");
-      if (C.brier != null) h += " Brier " + C.brier + " vs " + C.brier_naive + " bila hanya menebak laju dasar" + (C.brier < C.brier_naive ? " (lebih baik)." : " (belum lebih baik dari tebakan dasar).");
+      var pr = Math.min(100, Math.round(C.n / C.min_n * 100));
+      h += '<div style="margin-top:14px"><div style="display:flex;justify-content:space-between;font-size:13px"><b>Kalibrasi peluang</b><span class="num">' + C.n + " hari dinilai" + (C.active ? "" : " / " + C.min_n) + "</span></div>" +
+        '<div class="dv" style="margin-top:6px"><i style="left:0;width:' + pr + '%;background:var(' + (C.active ? "--bull" : "--blue") + ')"></i></div>';
+      h += '<p class="cap">' + (C.active ? "<b>Aktif</b> sejak hari ke-" + C.min_n + ". Parameter a=" + C.a + ", b=" + C.b + " diperbarui otomatis tiap laporan dan terus belajar selama agen berjalan." : "Belum aktif: butuh " + (C.min_n - C.n) + " hari lagi. Peluang masih memakai rumus awal.");
+      if (C.first_date) h += " Data dari " + esc(C.first_date) + " sampai " + esc(C.last_date) + ".";
       h += "</p>";
+      if (C.brier != null) h += '<p class="cap">Brier ' + C.brier + " vs " + C.brier_naive + " bila hanya menebak laju dasar" + (C.brier < C.brier_naive ? " (lebih baik)." : " (belum lebih baik dari tebakan dasar).") + "</p>";
+      if (C.log && C.log.length > 1) h += '<p class="cap">Riwayat b (kekuatan skor): ' + C.log.slice(-8).map(function (x) { return x.b; }).join(" → ") + "</p>";
+      if (C.updated_at) h += '<p class="cap">Dihitung ulang ' + esc(C.updated_at.replace("T", " ").slice(0, 16)) + " WIB.</p>";
+      h += "</div>";
     }
     if (T.pending) h += '<p class="cap">Menunggu penutupan ' + esc(T.pending.date) + ": prediksi " + esc(T.pending.bias) + " (naik " + Math.round(T.pending.p_up * 100) + "%).</p>";
     $("track").innerHTML = h;
