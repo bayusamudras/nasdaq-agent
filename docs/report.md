@@ -1,20 +1,57 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-10-30T18:16:30+00:00_
+_Diperbarui 2026-10-31T06:00:37+07:00 · sesi Senin 2 Nov (pra-buka)_
 
-Skor rata-rata **-1.65** dari 27 headline bernilai (keyakinan 85%).
+Peluang indeks naik **28%**, turun **72%** (skor −6,9 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-## Headline paling berdampak
-- **-4.0** Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap - Bloomberg.com _[Minyak naik, Aksi jual]_ ([sumber](https://news.google.com/rss/articles/CBMilAFBVV95cUxNLWZRMVRrOG1xQ1NBUE55MXNIWTFyTFBfUDBwVnUwbDRHOHNibGNUazhpRVVJamItaGc5UndhUngwMTFOLUE1M3dscmdtSDBvWUJrNmoyWnFGZ2tBcm9VZjZ5MXcyQXFuSDZmWmE4WVlheXZBeTVTci1CXzFQMUxnMkpFRXBVTjh0SlI0N0hobUZzOHh3?oc=5))
-- **-3.0** Fed needs at least two more rate hikes, Logan says - Reuters _[Risiko kenaikan suku bunga]_ ([sumber](https://news.google.com/rss/articles/CBMilgFBVV95cUxPN0l1dXR6NGI2OV9OZGVkZHRFdzNqcVBnSGRFamxWZlNaZTNsQmdIbXRHVXc5VE9FZzcyWUI4YU5hai1VZlVtY2ZsQTh0VDgxYmtJT1V3X0NvUEZvRjBDT2VaQUdaeDdIWkZ5MlhraUdTVHJYSlM3RFVzU3lVNjctTzU2eFMzNk5kbDBIWlR2RWJ0NkQ2Znc?oc=5))
-- **-3.0** FOMC Recap: Fed Holds, but Warsh Falls Short of a Full Hawkish Hold - FOREX.com _[Risiko kenaikan suku bunga]_ ([sumber](https://news.google.com/rss/articles/CBMirgFBVV95cUxQRFRnRTBpY2d2RHRVMVlMc1JzQTNMblo2WGVJU0N2aGR4Rlc3NjFHMTNXMzl4RVBDejdzU1JPNENfdFJsWG9NaW4yRUhzQjNsbzBoM1lWYXhDSHBOREgyMGE4V3FBeWg0Z25aTVRnRm5RUE9CZnNxYVJHczRWZ3RCSE5CV2pmVEtxek5uNEh2WGUzVW91Q01HWkJJOXN0NTAyckZJUEJFd0g4aHI0R0E?oc=5))
-- **-2.8** Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today - TradingView _[Aksi jual]_ ([sumber](https://news.google.com/rss/articles/CBMitwFBVV95cUxNLVhweTBTd2NwRmtEbG5QRWVuX2pqbFBDM0dzWHNaNWQ2a2lSTVR4N09obDJoS2pQQVVULXI5aS1CSHl3bTY4NVk1Mm1wVVVfbF82YkNNUGk2b1lJV2sydjMwYlpCNFc1T2F0SFY3RGs0UVVfUmxTdmV1N3IzQWs4UnJ3WTJ5WklFZFY3MGQ0MlJEMXdUb1FJalQ1UUFOcUdtMXBxRzdMVUh1WDRaVnlFdUs4eHhRWmM?oc=5))
-- **-2.8** Chip Stocks Lose $1 Trillion in a Day as Intel's Outlook Ignites Broad Selloff - BigGo Finance _[Aksi jual]_ ([sumber](https://news.google.com/rss/articles/CBMidkFVX3lxTE5vVXNwLTg2R01oRkVobHF5T2M3cERKNmY1WERFdWNqZFpDYU83UUhmM3pQVml2T1Zua1l5TjhOblRkSlFkaEVZbEVkdHFXZmFSbDAtRklRX18yVjRqdGpuTFlPeTF0cmY5dkNhRXdtYS04dFl2SlE?oc=5))
-- **-2.8** Intel stock plunges 30% as weak PC demand and AI costs trigger global chip selloff - The Economic Times _[Aksi jual]_ ([sumber](https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeEhkZlgwNFhwOFVkT2c4VHpnSW1ZWE1BR3ZsUnlyTTU3a1g2RGQ4c1g1cGZjUFhKdWRVOW5vLTZYMWdOc0ZzRzA2YWJDYmNrUk91aDdUbWQwb2JaSzd2WVpVTmNINk5rcEFhV3kteHR2Ylo4Zi1VQWZESEFuSHpLTWRyNVFhZDJvX19PNFc1ZTk5M2R3UUdLRHJKWHU5OUliNW4yUmpqMVo4T1ljSFNvSUQ5bXhUMFVXYnFTbktWZmVmOEZGU2dtVkJJU3Vha3c5X2dpNXdSMUQtMjZ4cUhxdXdXT01maTBzUFRneU9qU0JHZTg3ckJyT9IB_gFBVV95cUxQWXBPeDQxY0I1RnhjMkVZY0ZVM2c4c2F3YllFNVZ6UDh3TW1KQlpOZTQ2aG1mSWMwemI5dmFMN1BZZC1oT1dqMWlvNUZ4RTYtUDVrSE9sSldicmctRlVIT0VKYmZYbDZ1eTBSQldsbmx3Y2dlUkV6aFN1YTRtelpDNGo5RlpvT09LQkFLeEdoSFVYN2pCYXp0WWZFZzRjLWZIYWVpdTV5X2xKNlhEb0MxR3p1dFo4b2Uza09CcUNNR1dkZEx0VFRfRFhpT1ZMRkFHRXZWdWhaOUVheGhQOGdQd3pnU2pQUUZhSU5hSE05V2JrSVZJWFlvSzN5YnpKUQ?oc=5))
-- **-2.6** Nasdaq plunges after dismal earnings from Amazon and Intel - Business Insider _[Aksi jual]_ ([sumber](https://news.google.com/rss/articles/CBMilAFBVV95cUxONzk3SWo0SUFZeUo4blMxSHYzTzhXbXVHNEQ2WDg1VmIwOGdZSUZkQnlUd3c1d3p3d1ZzY1NKWkJGeThlVXpEYzVSU2RjMUhtT1RPNGtjS3gxelVIemN5OUVIOVVhMHh6Q3dNaE8wbVhtejRqMkltcEpDbFBnQjBwLTJmQUN5QVl3MDdKbnBWNWFScFFw?oc=5))
-- **-2.6** Stock Market Today: Nasdaq, S&P 500 Futures Slide as Amazon and Intel Plunge After Earnings - Yahoo Finance _[Aksi jual]_ ([sumber](https://news.google.com/rss/articles/CBMilwFBVV95cUxPSE9SSUhpWk5CZkNpbDlGZzBId0ZsMEpzQnNtNmtYNGluNWNSampUUTNjTS0yaGNpVWZmekw5by1VZExvVFVtMEdYM3dNRWZyNlhVd1h3VjBIZXp6dnBrNFk1ZTczOXM4VkFCeV9IWEVDUjU3dTljQ2Y2cTZSRTBRM3RCQzE2MG9NTmlETE1BTWpfTWdBNl9B?oc=5))
-- **+2.6** U.S. Treasury Yields Fall; Eurozone Bond Yields Mixed After GDP Data - WSJ _[Imbal hasil turun]_ ([sumber](https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1p6ZkxEeDY0SlhyTDJKSXkyR1NkOUZVa1Z4NWJHU2cxdjFfVlI0TVBGZUZRR1dkLWpEY2RtNC1wSjZKb3ZKaTloVHlvVlF3cFZvdFI2Y3R4c3RIeFd3NU1NMWRpVDBlc3M3STVwa2ZxNVpTLTBIN0t5VTF5alltRGxFQWM3QUpibUF1LWN1Ykhmb3FvVkVmR1pDczZEa2YxTXZz?oc=5))
-- **-2.6** Will AI Equity Raise Change Meta (META) Stock Narrative - Yahoo Finance Australia _[Tekanan pendanaan AI]_ ([sumber](https://news.google.com/rss/articles/CBMiggFBVV95cUxNTnBGN0VHMkVnVU15TE1iaS1ZMDVSYklISTZVdzFidFlFcVVkN05NVG9Ldm9rYnlFc2NjNjh4NVNscE9mZ1VuSTNqcjFqVHd5eXlycGRwb196ZE8xQ2wySGx4WE5lZHNrblB5RnY1NjZmUzNEbGIweXR5cWJWa3hsQm5n?oc=5))
-- **-2.6** Tech Earnings Misses Fan AI Fears: Alphabet -12.6% [2026] - shattered.io _[Panduan/earnings mengecewakan]_ ([sumber](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVlpvZkpaWDczXzVSV2tWRG56UDI3eHlfZzVjUVV5VGV0SjU3Y1NSQWtDeUZPU21laFlDWFc4XzlSWjNtb29XVXFmNU03QUpoeDA4OExJdjFYSzhLN01yVkZlR2JGRDdfRzlkVHBZZndLbmc0RmJ3ZC1iZEs3RFhiNEw5TWdvdHRVOFNz?oc=5))
-- **-2.6** Google Shares Plunge—Can Big Tech Sustain the AI Spending Race? - Moomoo _[Aksi jual]_ ([sumber](https://news.google.com/rss/articles/CBMisAFBVV95cUxPLW9oV0FNWUhPdURjRVhQejVEX2xTeWJObGRqZnRIU1l4SlJ0bzJrVmZqV3dHLVZvYjN0ajZsWFZKOWpUS3lWdVZhYkZYb3dSMU5PWmRNMzIxTUFtNzVEUVVPMjZTam1EY0J3dXFPRzIydHJrUXFtS1R0SFc0SEtqN0E0dkpYaF90VDd4VHdwZlc1bUtISUEyRWJqS2RNZjg1dWpfa3hDdGJBRWlFaGpTbQ?oc=5))
+## Alasan utama
+- **Berita berbobot** (−3,00): Skor rata-rata −2,53 dari 45 kejadian bernilai; 2% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −3,45% dari penutupan sebelumnya (28.543,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −7,20% dari penutupan sebelumnya (10.688,80). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,80% dari penutupan sebelumnya (7.614,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **VIX (volatilitas)** (−0,50): 19,42 (+12,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,50. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+
+## Papan faktor
+| Faktor | Nilai | Sinyal | Bobot | Kontribusi |
+| --- | --- | --- | --- | --- |
+| Berita berbobot | skor rata-rata −2,53 dari 45 kejadian bernilai; 2% bobot bullish | −2,00 | 30% | −3,00 |
+| Futures Nasdaq-100 | −3,45% dari penutupan sebelumnya (28.543,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,80% dari penutupan sebelumnya (7.614,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −7,20% dari penutupan sebelumnya (10.688,80) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,929% (−6,0 bp dari sesi sebelumnya) | +0,60 | 10% | +0,30 |
+| VIX (volatilitas) | 19,42 (+12,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,50 | −1,00 | 10% | −0,50 |
+| Minyak Brent | $112,33 (−2,22% dari sesi sebelumnya) | +0,61 | 5% | +0,15 |
+| Indeks dolar | −0,07% dari penutupan sebelumnya (101,96) | −0,18 | 5% | −0,04 |
+| Tren Nasdaq 5 sesi | −2,00% dalam 5 sesi; 8,2% di bawah puncak 52 minggu | −1,33 | 5% | −0,33 |
+
+## Level hari ini
+Pivot 25.429; resistensi 25.681 / 25.925; support 25.185 / 24.933.
+Perkiraan pembukaan dari futures: 24.559 (−3,45%).
+Rentang wajar 1σ (VXN): 24.980 sampai 25.894.
+
+## Berita paling berdampak
+- **−4,2** Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street (Yahoo Finance). Panduan lemah memotong estimasi laba ke depan. Mega-cap berbobot besar di indeks, jadi satu saham yang jatuh dalam bisa menyeret Nasdaq dan sentimen sektornya.
+- **−3,6** Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap (Bloomberg.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−3,4** Wall Street closes sharply lower as AI cash burn fears spark tech selloff (Reuters). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−2,4** Q3 earnings disappointments from Amazon, Intel, and Alphabet have the AI trade on edge as capex spending swells (Business Insider). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−2,2** Intel Crashes to Worst Day in 50+ Years on Weak Guidance (The Tech Buzz). Panduan lemah memotong estimasi laba ke depan. Mega-cap berbobot besar di indeks, jadi satu saham yang jatuh dalam bisa menyeret Nasdaq dan sentimen sektornya.
+- **−2,1** Fed needs at least two more rate hikes, Logan says (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,7** Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June (CNBC). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,6** Opinion | The Federal Reserve’s Hawkish Hold (WSJ). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,6** S&P Revises Meta's Outlook to Negative on Heavy AI Capex and Free Cash Flow Concerns (The Tech Buzz). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,5** Nasdaq plunges after dismal earnings from Amazon and Intel (Business Insider). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,4** Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz (CNBC). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
+- **−1,3** AMZN Stock Set To Drop For Third Straight Week: Amazon Taps $80B Credit Line To Fund AI Capex (TradingView). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+
+## Kalender risiko
+- 2026-10-30: Employment Cost Index kuartal III (sedang)
+- 2026-11-02: Laporan laba Apple (setelah penutupan) (tinggi)
+- 2026-11-03: JOLTS lowongan kerja (September) (sedang)
+- 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
+- 2026-11-10: CPI Oktober (tinggi)
+- 2026-11-13: PPI Oktober (sedang)
+- 2026-11-17: Penjualan ritel Oktober (sedang)
+
+## Rekam jejak
+Belum ada prediksi yang terevaluasi.
 
 _Bukan nasihat investasi._
