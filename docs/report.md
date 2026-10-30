@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-10-31T06:39:06+07:00 · sesi Senin 2 Nov (pra-buka)_
+_Diperbarui 2026-10-31T06:45:10+07:00 · sesi Senin 2 Nov (pra-buka)_
 
 Peluang indeks naik **28%**, turun **72%** (skor −6,9 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−3,00): Skor rata-rata −2,52 dari 43 kejadian bernilai; 2% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−2,98): Skor rata-rata −2,39 dari 43 kejadian bernilai; 3% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures Nasdaq-100** (−2,00): −3,45% dari penutupan sebelumnya (28.543,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −7,20% dari penutupan sebelumnya (10.688,80). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Futures S&P 500** (−0,50): −1,80% dari penutupan sebelumnya (7.614,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -13,7 +13,7 @@ Peluang indeks naik **28%**, turun **72%** (skor −6,9 dari ±10, keyakinan 80%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −2,52 dari 43 kejadian bernilai; 2% bobot bullish | −2,00 | 30% | −3,00 |
+| Berita berbobot | skor rata-rata −2,39 dari 43 kejadian bernilai; 3% bobot bullish | −1,99 | 30% | −2,98 |
 | Futures Nasdaq-100 | −3,45% dari penutupan sebelumnya (28.543,00) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −1,80% dari penutupan sebelumnya (7.614,50) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −7,20% dari penutupan sebelumnya (10.688,80) | −2,00 | 10% | −1,00 |
@@ -29,7 +29,6 @@ Perkiraan pembukaan dari futures: 24.559 (−3,45%).
 Rentang wajar 1σ (VXN): 24.980 sampai 25.894.
 
 ## Berita paling berdampak
-- **−4,0** Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street (Yahoo Finance). Panduan lemah memotong estimasi laba ke depan. Mega-cap berbobot besar di indeks, jadi satu saham yang jatuh dalam bisa menyeret Nasdaq dan sentimen sektornya.
 - **−3,5** Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap (Bloomberg.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−3,2** Wall Street closes sharply lower as AI cash burn fears spark tech selloff (Reuters). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−2,3** Q3 earnings disappointments from Amazon, Intel, and Alphabet have the AI trade on edge as capex spending swells (Business Insider). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
@@ -41,6 +40,7 @@ Rentang wajar 1σ (VXN): 24.980 sampai 25.894.
 - **−1,5** S&P Revises Meta's Outlook to Negative on Heavy AI Capex and Free Cash Flow Concerns (The Tech Buzz). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,4** Nasdaq 100 plunges more than 3% to cap its worst month since 2025 after dismal tech earnings (Business Insider). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz (CNBC). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
+- **−1,3** AMZN Stock Set To Drop For Third Straight Week: Amazon Taps $80B Credit Line To Fund AI Capex (TradingView). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 
 ## Kalender risiko
 - 2026-10-30: Employment Cost Index kuartal III (sedang)
