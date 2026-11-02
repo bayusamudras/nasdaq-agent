@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T06:52:56+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T06:53:56+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
 Peluang indeks naik **42%**, turun **58%** (skor −3,0 dari ±10, keyakinan 66%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,02% dari penutupan sebelumnya (28.244,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,03% dari penutupan sebelumnya (28.240,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,37% dari penutupan sebelumnya (10.328,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (+0,42): Skor rata-rata +0,34 dari 28 kejadian bernilai; 61% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -13,8 +13,8 @@ Peluang indeks naik **42%**, turun **58%** (skor −3,0 dari ±10, keyakinan 66%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,34 dari 28 kejadian bernilai; 61% bobot bullish | +0,28 | 30% | +0,42 |
-| Futures Nasdaq-100 | −1,02% dari penutupan sebelumnya (28.244,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,34% dari penutupan sebelumnya (7.588,00) | −0,85 | 5% | −0,21 |
+| Futures Nasdaq-100 | −1,03% dari penutupan sebelumnya (28.240,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,35% dari penutupan sebelumnya (7.587,50) | −0,87 | 5% | −0,22 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,35 | 10% | +0,18 |
 | VIX (volatilitas) | 21,15 (+8,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
@@ -24,12 +24,12 @@ Peluang indeks naik **42%**, turun **58%** (skor −3,0 dari ±10, keyakinan 66%
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 24.908 (−1,02%).
+Perkiraan pembukaan dari futures: 24.905 (−1,03%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
 - **+1,8** Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **+1,7** Apple beats sales and profit expectations but AI costs weigh on holiday sales (France 24). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,6** Apple beats sales and profit expectations but AI costs weigh on holiday sales (France 24). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,6** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,6** Oil Declines Ahead of Midterm Elections Despite Hormuz Attacks (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,5** Stock Market Today, Nov. 2: Amazon Rallies on Phillip Securities Buy Upgrade and $330 Target (The Motley Fool). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
