@@ -1,16 +1,16 @@
 name: Nasdaq Agent
 
-# Jalan otomatis (jadwal dalam UTC). Batas terkecil GitHub Actions adalah 5 menit dan tidak dijamin
-# tepat waktu. Menit digeser dari 00/30 karena jam sibuk sering menunda atau melewatkan run.
-# Senin-Jumat: tiap 5 menit. Sabtu-Minggu: tiap 15 menit.
+# Cron GitHub sering tertunda berjam-jam, jadi satu run dibuat hidup ~27 menit dan memperbarui laporan
+# tiap 60 detik (tiap 5 menit di akhir pekan). Di akhir, run memicu dirinya sendiri agar berlanjut tanpa jeda.
+# Cron tetap ada sebagai pengaman bila rantai terputus.
 on:
   schedule:
-    - cron: "2-59/5 * * * 1-5"
-    - cron: "11-59/15 * * * 0,6"
+    - cron: "7,37 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: nasdaq-agent
@@ -19,7 +19,7 @@ concurrency:
 jobs:
   analyze:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 32
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
@@ -33,13 +33,28 @@ jobs:
       - name: Pasang paket Claude (hanya jika kunci ada)
         if: ${{ env.ANTHROPIC_API_KEY != '' }}
         run: pip install anthropic
-      - name: Jalankan agen
-        run: python agent.py --out docs
-      - name: Simpan laporan
+      - name: Perbarui laporan berulang
         run: |
           git config user.name "nasdaq-agent"
           git config user.email "nasdaq-agent@users.noreply.github.com"
-          git add docs/report.json docs/report.md docs/history.json docs/history.csv
-          git diff --cached --quiet || git commit -m "Update laporan Nasdaq"
-          git pull --rebase
-          git push
+          END=$((SECONDS + 1620))
+          while [ "$SECONDS" -lt "$END" ]; do
+            START=$SECONDS
+            python agent.py --out docs || echo "agen gagal pada putaran ini"
+            git add docs/report.json docs/report.md docs/history.json docs/history.csv
+            if ! git diff --cached --quiet; then
+              git commit -q -m "Update laporan Nasdaq"
+              for i in 1 2 3; do
+                git pull -q --rebase && git push -q && break
+                sleep 3
+              done
+            fi
+            if [ "$(date -u +%u)" -ge 6 ]; then STEP=300; else STEP=60; fi
+            USED=$((SECONDS - START))
+            [ "$USED" -lt "$STEP" ] && sleep $((STEP - USED))
+          done
+      - name: Sambung ke run berikutnya
+        if: ${{ always() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run nasdaq-agent.yml --ref "${GITHUB_REF_NAME}" || true

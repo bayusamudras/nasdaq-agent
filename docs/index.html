@@ -669,7 +669,7 @@ function render() {
   } else $("track").innerHTML = '<p class="empty">Rekam jejak mulai terkumpul setelah agen v2 berjalan.</p>';
 
   /* Status & metode */
-  $("status").textContent = "Agen jalan di GitHub Actions kira-kira tiap 5 menit (jadwal GitHub tidak dijamin tepat). Halaman ini memeriksa laporan baru tiap 60 detik.";
+  $("status").textContent = "Agen jalan di GitHub Actions tiap menit (satu run berumur ~27 menit yang menyambung dirinya sendiri). Halaman ini memeriksa laporan baru tiap 30 detik.";
   var M = R.methodology;
   $("method").innerHTML = M ? "<p>Skor = Σ (sinyal × bobot ÷ total bobot × 5), sehingga berkisar −10 sampai +10. Bobot: " +
     Object.keys(M.weights).map(function (k) { return esc(k) + " " + M.weights[k]; }).join(", ") + ".</p><p>Peluang naik = " + esc(M.p_up_formula) + ", dibatasi " + (M.p_up_range || []).join("–") + ". Keyakinan naik bila faktor sepakat, skor besar, dan data lengkap; turun bila ada rilis besar dekat, VIX tinggi, atau data kurang. Berita dinilai kamus 24 pola dengan penanganan negasi, kredibilitas sumber, usia (paruh waktu 10 jam), dan penggabungan berita kembar.</p>" : "";
@@ -719,7 +719,7 @@ async function tick() {
   fresh();
 }
 await tick();
-setInterval(tick, 60000);
+setInterval(tick, 30000);
 })();
 </script>
 </body>
