@@ -342,7 +342,7 @@ section[id] { scroll-margin-top: 16px; }
             <button type="button" data-f="small" aria-pressed="false">Kecil, berdampak besar</button>
           </div>
         </div>
-        <p class="note">Berita sama dari banyak media digabung dan dihitung sekali dengan bonus konfirmasi. Bobot memperhitungkan kredibilitas sumber dan usia berita.</p>
+        <p class="note">Berita yang sama dari banyak media digabung (kemiripan kata atau teks ≥80%) dan dihitung satu kali dengan bonus konfirmasi kecil. Bobot memperhitungkan kredibilitas sumber dan usia berita.</p>
         <div id="news"></div>
       </section>
     </div>
@@ -355,6 +355,11 @@ section[id] { scroll-margin-top: 16px; }
 
       <section class="card scn b"><h3>Pembalik ke bullish</h3><ul id="scnBull"></ul></section>
       <section class="card scn r"><h3>Penguat bearish</h3><ul id="scnBear"></ul></section>
+
+      <section class="card" id="rezim">
+        <h3>Rezim pasar dan struktur harga</h3>
+        <div id="regime"></div>
+      </section>
 
       <section class="card" id="kalender">
         <h3>Kalender risiko</h3>
@@ -437,6 +442,15 @@ function render() {
     $("pbar").innerHTML = ""; $("pcap").textContent = "Laporan versi lama. Menunggu agen v2 berjalan untuk tampilan lengkap."; $("stats").innerHTML = ""; $("warns").innerHTML = "";
   }
   $("ai").innerHTML = R.llm_summary ? '<div class="ai">' + esc(R.llm_summary) + "</div>" : "";
+
+  /* Rezim dan struktur */
+  var RG = R.regime, ST = R.structure, rh = "";
+  if (RG) rh += '<p><span class="badge">' + esc(RG.label) + '</span></p><p class="cap">' + esc(RG.why || "") + "</p>";
+  if (ST && ST.available) {
+    rh += '<p class="note" style="margin-top:10px"><b>Filter struktur NQ (bar per jam)</b></p>' + (ST.notes.length ? "<ul class=\"scn\" style=\"margin:0;padding-left:18px;font-size:13px\">" + ST.notes.map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ul>" : '<p class="cap">Tidak ada liquidity sweep atau penolakan FVG. Struktur tidak membatalkan bias.</p>');
+  } else rh += '<p class="cap">Data bar per jam NQ belum tersedia, filter struktur tidak aktif.</p>';
+  if (v.breaker && v.breaker.active) rh += '<div class="warn">Pemutus sirkuit aktif: skor dipangkas dari ' + fmt(v.breaker.raw_score) + " ke " + fmt(idx) + ".</div>";
+  $("regime").innerHTML = rh;
 
   /* Proyeksi */
   var F = R.forecast;
@@ -560,7 +574,7 @@ function renderNews() {
     var meta = '<div class="meta"><span class="theme">' + esc(i.theme || "Lainnya") + "</span>" +
       (i.small ? '<span class="chip">kecil, berdampak besar</span>' : "") +
       (i.strength ? '<span class="chip" style="background:var(--blue-soft);color:var(--blue)">' + esc(i.strength) + "</span>" : "") +
-      (i.sources_count > 1 ? '<span class="chip" style="background:var(--bull-soft);color:var(--bull)">' + i.sources_count + " sumber</span>" : "") +
+      (i.sources_count > 1 ? '<span class="chip" style="background:var(--bull-soft);color:var(--bull)" title="' + esc((i.sources || []).join(", ")) + '">' + i.sources_count + " sumber digabung" + "</span>" : "") +
       "<span>" + esc(i.source || "") + (i.age_h != null ? " · " + (i.age_h < 1 ? "<1" : Math.round(i.age_h)) + " jam lalu" : "") + "</span>" +
       (i.horizon ? "<span>Horizon: " + esc(i.horizon) + "</span>" : "") + "</div>";
     var who = (i.who && i.who.length) ? '<div class="meta"><span>Terdampak:</span>' + i.who.map(function (t) { return '<span class="tick">' + esc(t) + "</span>"; }).join("") + "</div>" : "";

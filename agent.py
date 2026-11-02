@@ -27,6 +27,7 @@ Bukan nasihat investasi.
 """
 import argparse
 import datetime as dt
+import difflib
 import json
 import math
 import os
@@ -120,8 +121,12 @@ LEXICON = [
          why="Peluang pelonggaran menurunkan biaya modal dan menopang valuasi saham growth.",
          who=["QQQ", "ARKK"], horizon="Beberapa pekan"),
     dict(label="Data kerja lemah menurunkan peluang hike", score=1,
-         pat=r"weak (jobs|payrolls?|hiring|labou?r|employment)|(jobs|payrolls?|hiring) (miss|disappoint|slow|cool|weaken)|(payrolls?|jobs report).{0,40}below",
+         pat=r"unemployment (rises|rose|climbs|climbed|jumps|jumped|up)|jobless claims (rise|rose|jump|jumped)|weak (jobs|payrolls?|hiring|labou?r|employment)|(jobs|payrolls?|hiring) (miss|disappoint|slow|cool|weaken)|(payrolls?|jobs report).{0,40}below",
          why="Data kerja yang lebih lemah mengurangi peluang kenaikan suku bunga sehingga baik bagi valuasi. Efeknya terbatas jika terlalu lemah dan memicu kekhawatiran resesi.",
+         who=["QQQ"], horizon="Beberapa hari"),
+    dict(label="Data ekonomi kuat", score=0,
+         pat=r"(strong|solid|robust|hot|hotter)[- ](jobs|payrolls?|hiring|labou?r|employment|retail sales|gdp|economy|data)|(jobs|payrolls?|retail sales|gdp) (beat|beats|top|tops|surge|surged|rise more|stronger)|payrolls? (above|exceed)",
+         why="Data ekonomi kuat berarti ekonomi sehat tetapi mengurangi alasan Fed melonggarkan suku bunga. Arah dampaknya bergantung rezim pasar: saat pasar takut suku bunga, kabar kuat justru menekan saham.",
          who=["QQQ"], horizon="Beberapa hari"),
     dict(label="Tekanan pendanaan AI", score=-2,
          pat=r"\bcapex\b|capital (crunch|constraint)|(biggest|major|main) constraint|cash outflow|negative free cash flow|free cash flow.{0,25}negative|cash burn|burning cash|raise capital|equity (raise|offering|issuance)|non-voting shares?|share issuance|debt[- ]laden|heavily indebted|(bond|credit) (yields?|spreads?).{0,30}(record|widen)|financing (concerns?|worries|risk)|ai (spending|investment|capex|cost|costs) (worries|concerns|fears|doubts|anxiety)|bigger ai (spending|capex)|higher capex",
@@ -395,9 +400,9 @@ def fetch_rss(query, limit=12):
     return out
 
 
-def _yahoo(symbol, rng):
+def _yahoo(symbol, rng, interval="1d"):
     url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}"
-           f"?range={rng}&interval=1d")
+           f"?range={rng}&interval={interval}")
     return json.loads(_http(url))["chart"]["result"][0]
 
 
@@ -408,7 +413,10 @@ def _series(res):
         c = q["close"][i]
         if c is None:
             continue
-        rows.append({"t": t, "o": q["open"][i], "h": q["high"][i], "l": q["low"][i], "c": c})
+        if q["open"][i] is None or q["high"][i] is None or q["low"][i] is None:
+            continue
+        rows.append({"t": t, "o": q["open"][i], "h": q["high"][i], "l": q["low"][i], "c": c,
+                     "v": (q.get("volume") or [None] * (i + 1))[i]})
     return rows
 
 
@@ -424,7 +432,53 @@ def _quote(symbol):
     out = {"last": round(last, 4), "prev": round(prev, 4) if prev else None, "change_pct": chg}
     if symbol == "^TNX" and prev:
         out["change_bps"] = round((last - prev) * 100, 1)
+        if len(rows) >= 6:
+            p5 = rows[-6]["c"] / (10 if rows[-6]["c"] > 20 else 1)
+            out["change5_bps"] = round((last - p5) * 100, 1)
     return out
+
+
+def analyze_structure(bars):
+    """Filter mikrostruktur dari bar per jam NQ: liquidity sweep dan Fair Value Gap (FVG).
+    Sweep high: bar baru menembus high 24 bar sebelumnya tetapi ditutup kembali di bawahnya (penolakan).
+    Bearish FVG: low bar[i-2] > high bar[i]; ditolak bila harga masuk celah lalu terakhir ditutup di bawah tengahnya.
+    Sisi bullish adalah cerminannya."""
+    res = {"available": False, "sweep_high": None, "sweep_low": None, "bear_fvg": None, "bull_fvg": None, "bearish": False, "bullish": False, "notes": []}
+    if not bars or len(bars) < 30:
+        return res
+    res["available"] = True
+    n = len(bars)
+    for i in range(n - 6, n):
+        lvl_h = max(b["h"] for b in bars[i - 24:i]); lvl_l = min(b["l"] for b in bars[i - 24:i])
+        b = bars[i]
+        if b["h"] > lvl_h and b["c"] < lvl_h and bars[-1]["c"] < lvl_h:
+            res["sweep_high"] = {"level": round(lvl_h, 2), "high": round(b["h"], 2), "bars_ago": n - 1 - i}
+        if b["l"] < lvl_l and b["c"] > lvl_l and bars[-1]["c"] > lvl_l:
+            res["sweep_low"] = {"level": round(lvl_l, 2), "low": round(b["l"], 2), "bars_ago": n - 1 - i}
+    last = bars[-1]
+    for i in range(n - 12, n):
+        a, c = bars[i - 2], bars[i]
+        if a["l"] > c["h"]:  # celah turun
+            top, bot = a["l"], c["h"]
+            later = bars[i + 1:]
+            if later and max(x["h"] for x in later) >= bot and last["c"] < (top + bot) / 2:
+                res["bear_fvg"] = {"top": round(top, 2), "bottom": round(bot, 2), "bars_ago": n - 1 - i}
+        if a["h"] < c["l"]:  # celah naik
+            bot, top = a["h"], c["l"]
+            later = bars[i + 1:]
+            if later and min(x["l"] for x in later) <= top and last["c"] > (top + bot) / 2:
+                res["bull_fvg"] = {"top": round(top, 2), "bottom": round(bot, 2), "bars_ago": n - 1 - i}
+    if res["sweep_high"]:
+        res["notes"].append(f"Liquidity sweep di atas {res['sweep_high']['level']:,.0f} lalu ditolak ({res['sweep_high']['bars_ago']} jam lalu).")
+    if res["bear_fvg"]:
+        res["notes"].append(f"Harga tertolak di bearish FVG {res['bear_fvg']['bottom']:,.0f}–{res['bear_fvg']['top']:,.0f}.")
+    if res["sweep_low"]:
+        res["notes"].append(f"Liquidity sweep di bawah {res['sweep_low']['level']:,.0f} lalu ditolak ({res['sweep_low']['bars_ago']} jam lalu).")
+    if res["bull_fvg"]:
+        res["notes"].append(f"Harga tertahan di bullish FVG {res['bull_fvg']['bottom']:,.0f}–{res['bull_fvg']['top']:,.0f}.")
+    res["bearish"] = bool(res["sweep_high"] or res["bear_fvg"])
+    res["bullish"] = bool(res["sweep_low"] or res["bull_fvg"])
+    return res
 
 
 def fetch_alpaca(symbol="QQQ"):
@@ -496,6 +550,11 @@ def fetch_market(now):
         except Exception as e:  # noqa: BLE001
             print(f"[warn] {sym}: {e}", file=sys.stderr)
     try:
+        hb = _series(_yahoo("NQ=F", "5d", "1h"))
+        m["nq_hourly"] = [{"t": r["t"], "o": r["o"], "h": r["h"], "l": r["l"], "c": r["c"], "v": r.get("v")} for r in hb[-120:]]
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] NQ=F per jam: {e}", file=sys.stderr)
+    try:
         a = fetch_alpaca("QQQ")
         if a:
             m["qqq"] = a
@@ -509,11 +568,59 @@ def fetch_market(now):
 # ---------------------------------------------------------------------------
 # Berita
 # ---------------------------------------------------------------------------
+REGIME_MAP = {
+    "Data kerja lemah menurunkan peluang hike": {"rate_fear": 2, "growth_fear": -1},
+    "Kekhawatiran ekonomi": {"rate_fear": 1, "growth_fear": -2},
+    "Data ekonomi kuat": {"rate_fear": -2, "growth_fear": 1},
+}
+
+
+def detect_regime(market):
+    """Rezim pasar dari level dan tren yield 10 tahun (FedWatch tidak punya API gratis, yield adalah pendekatannya).
+    rate_fear: pasar takut suku bunga tinggi -> kabar ekonomi lemah dianggap baik (peluang hike turun).
+    growth_fear: pasar takut pertumbuhan -> kabar lemah dianggap buruk."""
+    y = market.get("yield10") or {}
+    last, ch5 = y.get("last"), y.get("change5_bps")
+    if last is None:
+        return {"name": "normal", "label": "Rezim netral (data yield tidak tersedia)", "why": ""}
+    if last >= 4.5 or (ch5 is not None and ch5 >= 15 and last >= 4.0):
+        return {"name": "rate_fear", "label": "Rezim sensitif suku bunga",
+                "why": f"Yield 10 tahun {last:.2f}%" + (f" ({ch5:+.0f} bps dalam 5 sesi)" if ch5 is not None else "") +
+                       ". Kabar ekonomi lemah dibaca baik (mengurangi peluang hike), kabar kuat dibaca buruk."}
+    if last < 3.9 or (ch5 is not None and ch5 <= -20 and last < 4.3):
+        return {"name": "growth_fear", "label": "Rezim cemas pertumbuhan",
+                "why": f"Yield 10 tahun {last:.2f}%" + (f" ({ch5:+.0f} bps dalam 5 sesi)" if ch5 is not None else "") +
+                       ". Kabar ekonomi lemah dibaca buruk (resesi), kabar kuat dibaca baik."}
+    return {"name": "normal", "label": "Rezim netral", "why": f"Yield 10 tahun {last:.2f}% tidak ekstrem."}
+
+
+def apply_regime(score, hits, regime):
+    """Balikkan atau sesuaikan bobot kabar ekonomi sesuai rezim. Mengembalikan skor baru dan hits yang disesuaikan."""
+    if regime["name"] == "normal":
+        return score, hits
+    out, delta = [], 0
+    for h in hits:
+        m = REGIME_MAP.get(h["label"])
+        if m and regime["name"] in m and m[regime["name"]] != h["score"]:
+            delta += m[regime["name"]] - h["score"]
+            h = {**h, "score": m[regime["name"]],
+                 "why": h["why"] + " Penyesuaian rezim: " + regime["label"].lower() + ", sehingga bobot dan arahnya disesuaikan."}
+        out.append(h)
+    if not delta:
+        return score, out
+    return round(score + delta, 2), out
+
+
+MACRO_RX = re.compile(r"\b(jobs|payrolls?|nonfarm|employment|unemployment|jobless|retail sales|gdp|cpi|ppi|pce|inflation)\b")
+
+
 def score_headline(title):
     """Mengembalikan (skor, daftar entri kamus yang cocok). Skor positif = bullish."""
     t = NEGATED_HIKE.sub(" ", title.lower())
     t = NEGATED_CUT.sub(" no_cut ", t)
     hits = [e for e in LEXICON if e["rx"].search(t)]
+    if MACRO_RX.search(t):  # berita data makro: kata "beat/miss" bukan soal laba perusahaan
+        hits = [e for e in hits if not e["label"].startswith("Earnings")]
     raw = clamp(sum(e["score"] for e in hits), -4, 4)
     mult = 1.0
     for pat, m in LEVERAGE:
@@ -546,7 +653,7 @@ def theme_of(title, hits):
     return "Sentimen pasar"
 
 
-def analyze_news(raw, now):
+def analyze_news(raw, now, regime=None):
     items = []
     seen = set()
     for r in raw:
@@ -555,12 +662,14 @@ def analyze_news(raw, now):
             continue
         seen.add(key)
         s, hits = score_headline(r["title"])
+        if regime:
+            s, hits = apply_regime(s, hits, regime)
         pub = parse_time(r.get("published"))
         age = max(0.0, (now - pub).total_seconds() / 3600) if pub else 12.0
         cred = credibility(r.get("source"))
         rec = max(0.2, 0.5 ** (age / 10))
         items.append({**r, "score": s, "hits": hits, "age_h": round(age, 1), "cred": cred,
-                      "quality": cred * rec, "tok": tokens(r["title"]), "pub": pub})
+                      "quality": cred * rec, "tok": tokens(r["title"]), "norm": re.sub(r"\W+", " ", r["title"].lower()).strip(), "pub": pub})
     # gabungkan berita kembar (kejadian yang sama diberitakan banyak sumber)
     items.sort(key=lambda i: -i["quality"])
     clusters = []
@@ -568,7 +677,9 @@ def analyze_news(raw, now):
         for c in clusters:
             inter = len(it["tok"] & c["rep"]["tok"])
             union = len(it["tok"] | c["rep"]["tok"]) or 1
-            if inter / union >= 0.45 and (it["score"] >= 0) == (c["rep"]["score"] >= 0) or inter / union >= 0.7:
+            jac = inter / union
+            ratio = difflib.SequenceMatcher(None, it["norm"], c["rep"]["norm"]).ratio()
+            if (jac >= 0.45 and (it["score"] >= 0) == (c["rep"]["score"] >= 0)) or jac >= 0.7 or ratio >= 0.8:
                 c["members"].append(it)
                 if abs(it["score"]) > abs(c["rep"]["score"]) and it["quality"] >= 0.6 * c["rep"]["quality"]:
                     c["rep"] = it
@@ -580,7 +691,7 @@ def analyze_news(raw, now):
         rep, n = c["rep"], len(c["members"])
         mult = min(1.5, 1 + 0.15 * (n - 1))
         w = rep["quality"] * mult
-        out.append({"rep": rep, "n": n, "mult": mult, "weight": w, "impact": w * rep["score"]})
+        out.append({"rep": rep, "n": n, "mult": mult, "weight": w, "impact": w * rep["score"], "members": c["members"]})
     return out
 
 
@@ -618,6 +729,7 @@ def news_items_out(clusters, limit=40):
             "age_h": rep["age_h"], "score": s, "weighted": round(c["impact"], 2),
             "direction": "bullish" if s > 0 else "bearish" if s < 0 else "netral", "strength": strength,
             "theme": theme_of(rep["title"], hits), "sources_count": n,
+            "sources": sorted({m.get("source") for m in c["members"] if m.get("source")}),
             "labels": [h["label"] for h in hits],
             "impacts": [{"label": h["label"], "direction": "bullish" if h["score"] > 0 else "bearish",
                          "why": h["why"]} for h in hits[:2]],
@@ -775,12 +887,22 @@ def calibrate(entries):
     return info
 
 
-def compose(factors, events, now, calib=None):
+def compose(factors, events, now, calib=None, structure=None):
     avail = [f for f in factors if f["signal"] is not None]
     wsum = sum(f["weight"] for f in factors) or 1  # faktor hilang menyumbang 0, skor menyusut ke netral
     for f in factors:
         f["contribution"] = round(f["signal"] * f["weight"] / wsum * 5, 2) if f["signal"] is not None else None
     score10 = round(sum(f["contribution"] for f in avail), 2)
+    breaker = {"active": False}
+    if structure and structure.get("available"):
+        if score10 >= 5 and structure["bearish"]:
+            breaker = {"active": True, "raw_score": score10, "side": "bullish_dibatalkan",
+                       "reason": "Bias bullish kuat, tetapi struktur harga NQ berbalik: " + " ".join(structure["notes"][:2])}
+            score10 = 2.0
+        elif score10 <= -5 and structure["bullish"]:
+            breaker = {"active": True, "raw_score": score10, "side": "bearish_dibatalkan",
+                       "reason": "Bias bearish kuat, tetapi struktur harga NQ berbalik: " + " ".join(structure["notes"][:2])}
+            score10 = -2.0
     ca, cb = (calib["a"], calib["b"]) if calib and calib.get("active") else (PRIOR_A, PRIOR_B)
     p_up = clamp(1 / (1 + math.exp(-(ca + cb * score10))), 0.18, 0.82)
 
@@ -814,7 +936,8 @@ def compose(factors, events, now, calib=None):
     return {"bias": bias, "score10": score10, "p_up": round(p_up, 3), "p_down": round(1 - p_up, 3),
             "confidence_pct": conf, "agreement_pct": round(agree * 100),
             "factors_available": len(avail), "factors_total": len(factors),
-            "warnings": [t for _, t in penalties]}
+            "warnings": [t for _, t in penalties] + ([breaker["reason"] + f" Skor dipangkas dari {breaker['raw_score']:+.1f} menjadi {score10:+.1f}."] if breaker["active"] else []),
+            "breaker": breaker}
 
 
 def build_forecast(market, levels, verdict, factors, clusters_out):
@@ -1060,13 +1183,15 @@ def write_markdown(r, path):
 
 
 def build_report(raw, market, now, history_path=None, use_llm=True):
-    clusters = analyze_news(raw, now)
+    regime = detect_regime(market)
+    clusters = analyze_news(raw, now, regime)
+    structure = analyze_structure(market.get("nq_hourly"))
     ns = news_stats(clusters)
     factors = build_factors(ns, market)
     events = upcoming_events(now)
     entries = load_history(history_path) if history_path else []
     calib = calibrate(entries)
-    verdict = compose(factors, events, now, calib)
+    verdict = compose(factors, events, now, calib, structure)
     verdict["calibrated"] = calib["active"]
     # kompatibel dengan dashboard versi 1
     verdict.update(avg_score=ns["avg"], total=round(sum(c["impact"] for c in clusters), 2), scored_items=ns["n_scored"])
@@ -1088,6 +1213,15 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
         del log[:-400]
         with open(history_path, "w", encoding="utf-8") as f:
             json.dump({"version": 1, "entries": entries, "calib_log": log}, f, ensure_ascii=False, indent=1)
+        try:
+            with open(os.path.join(os.path.dirname(history_path) or ".", "history.csv"), "w", encoding="utf-8") as f:
+                f.write("date,bias,score10,p_up,late,change_pct,hit\n")
+                for e in entries:
+                    o = e.get("outcome") or {}
+                    f.write(",".join(str(x) for x in [e["date"], e.get("bias", ""), e.get("score10", ""), e.get("p_up", ""),
+                                                      e.get("late", False), o.get("change_pct", ""), e.get("hit", "")]) + "\n")
+        except Exception as ex:  # noqa: BLE001
+            print(f"[warn] history.csv: {ex}", file=sys.stderr)
         tr = track_record(entries)
         calib["log"] = log[-30:]
     calib["updated_at"] = now.astimezone(WIB).isoformat(timespec="minutes")
@@ -1095,8 +1229,8 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "session": session_info(now), "verdict": verdict, "factors": factors, "reasons": make_reasons(factors),
-        "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
-        "track_record": tr, "market": market, "news_stats": ns, "items": items, "llm_summary": None,
+        "regime": regime, "structure": structure, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
+        "track_record": tr, "market": {k: v for k, v in market.items() if k != "nq_hourly"}, "news_stats": ns, "items": items, "llm_summary": None,
         "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.3f+%.3f*skor)))" % (calib["a"], calib["b"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
                         "p_up_range": [0.18, 0.82]},
     }
