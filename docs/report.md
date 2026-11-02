@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T06:46:56+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T06:47:56+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
 Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 63%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,98): −0,99% dari penutupan sebelumnya (28.252,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,98): −0,99% dari penutupan sebelumnya (28.250,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Berita berbobot** (+1,56): Skor rata-rata +1,25 dari 22 kejadian bernilai; 77% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −3,37% dari penutupan sebelumnya (10.328,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+0,44): 4,894% (−3,5 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
@@ -14,8 +14,8 @@ Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 63%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +1,25 dari 22 kejadian bernilai; 77% bobot bullish | +1,04 | 30% | +1,56 |
-| Futures Nasdaq-100 | −0,99% dari penutupan sebelumnya (28.252,50) | −1,98 | 20% | −1,98 |
-| Futures S&P 500 | −0,32% dari penutupan sebelumnya (7.590,00) | −0,80 | 5% | −0,20 |
+| Futures Nasdaq-100 | −0,99% dari penutupan sebelumnya (28.250,25) | −1,98 | 20% | −1,98 |
+| Futures S&P 500 | −0,32% dari penutupan sebelumnya (7.589,50) | −0,80 | 5% | −0,20 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,88 | 10% | +0,44 |
 | VIX (volatilitas) | 21,15 (+8,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
