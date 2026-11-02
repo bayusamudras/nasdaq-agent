@@ -269,6 +269,26 @@ details p { color: var(--muted); }
 }
 html { scroll-behavior: smooth; }
 section[id] { scroll-margin-top: 16px; }
+
+#banner:empty { display: none; }
+#banner .bn { border-radius: 12px; padding: 10px 14px; font-size: 13.5px; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; justify-content: space-between; border: 1px solid var(--line); }
+#banner .bn.warnb { background: var(--flat-soft); color: var(--flat); border-color: rgba(241,198,120,.35); }
+#banner .bn.errb { background: var(--bear-soft); color: var(--bear); border-color: rgba(255,142,158,.35); }
+#banner button { font: inherit; font-size: 12.5px; font-weight: 700; padding: 5px 14px; border: 0; border-radius: 999px; background: var(--blue); color: #0f1424; cursor: pointer; }
+.clock.stale { color: var(--flat); border-color: rgba(241,198,120,.5); } .clock.dead { color: var(--bear); border-color: rgba(255,142,158,.5); }
+.mini { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 10px; }
+.mini > div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.mini .k { font-size: 12px; color: var(--muted); } .mini .v { font-family: var(--f-data); font-size: 18px; font-weight: 500; } .mini .d { font-size: 12px; }
+.feeds { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0; }
+.feeds span { font-family: var(--f-data); font-size: 10.5px; padding: 2px 8px; border-radius: 999px; background: var(--bull-soft); color: var(--bull); }
+.feeds span.bad { background: var(--bear-soft); color: var(--bear); }
+.stat4 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+.stat4 div { background: var(--surface); border-radius: 10px; padding: 8px 10px; font-size: 12px; color: var(--muted); }
+.stat4 b { display: block; color: var(--ink); font-family: var(--f-data); font-size: 16px; font-weight: 500; }
+.zone { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 999px; }
+.zone.premium { background: var(--bear-soft); color: var(--bear); } .zone.discount { background: var(--bull-soft); color: var(--bull); } .zone.equilibrium { background: var(--flat-soft); color: var(--flat); }
+html, body { overflow-x: clip; }
+.mini > div { min-width: 0; overflow-wrap: anywhere; }
 </style>
 </head>
 <body>
@@ -286,6 +306,8 @@ section[id] { scroll-margin-top: 16px; }
     <h1>Nasdaq Fundamental Control Tower</h1>
     <div class="clock" id="clock">memuat…</div>
   </div>
+
+  <div id="banner" role="status" aria-live="polite"></div>
 
   <section class="card kpis" aria-label="Data pasar terakhir">
     <div class="kpi"><div class="k">Nasdaq Comp</div><div class="v num" id="kNas">–</div><div class="d" id="kNasD"></div></div>
@@ -319,6 +341,16 @@ section[id] { scroll-margin-top: 16px; }
       <section class="card" id="proyeksi">
         <h3>Proyeksi harga dari berita dan faktor</h3>
         <div id="forecast"></div>
+      </section>
+
+      <section class="card" id="makro">
+        <h3>Makro dan market breadth</h3>
+        <div id="macro"></div>
+      </section>
+
+      <section class="card" id="opsi">
+        <h3>Opsi dan likuiditas</h3>
+        <div id="options"></div>
       </section>
 
       <section class="card">
@@ -356,6 +388,16 @@ section[id] { scroll-margin-top: 16px; }
       <section class="card scn b"><h3>Pembalik ke bullish</h3><ul id="scnBull"></ul></section>
       <section class="card scn r"><h3>Penguat bearish</h3><ul id="scnBear"></ul></section>
 
+      <section class="card" id="smc">
+        <h3>Peta level NQ: FVG dan volume profile</h3>
+        <div id="smcBox"></div>
+      </section>
+
+      <section class="card" id="peringatan">
+        <h3>Peringatan pergeseran bias</h3>
+        <div id="alerts"></div>
+      </section>
+
       <section class="card" id="rezim">
         <h3>Rezim pasar dan struktur harga</h3>
         <div id="regime"></div>
@@ -374,6 +416,7 @@ section[id] { scroll-margin-top: 16px; }
       <section class="card">
         <h3>Status agen</h3>
         <p class="note" id="status"></p>
+        <div class="feeds" id="feedbox"></div>
         <details><summary>Cara model bekerja</summary><div id="method"></div></details>
       </section>
     </div>
@@ -391,27 +434,50 @@ function cls(n) { return n > 0 ? "up" : n < 0 ? "down" : "flat"; }
 function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : ""; }
 
 var R = null, lastGen = null;
+var LOADERR = null;
 async function load() {
+  var ctl = new AbortController(), to = setTimeout(function () { ctl.abort(); }, 10000);
   try {
-    var resp = await fetch("report.json?t=" + Date.now(), { cache: "no-store" });
-    if (!resp.ok) return null;
-    return await resp.json();
-  } catch (e) { return null; }
+    var resp = await fetch("report.json?t=" + Date.now(), { cache: "no-store", signal: ctl.signal });
+    clearTimeout(to);
+    if (!resp.ok) { LOADERR = "Server membalas " + resp.status; return null; }
+    var j = await resp.json(); LOADERR = null; return j;
+  } catch (e) { clearTimeout(to); LOADERR = e && e.name === "AbortError" ? "Permintaan melewati batas waktu 10 detik" : "Tidak bisa mengambil laporan (" + (e && e.message || "jaringan") + ")"; return null; }
 }
+function hms(d) { return d.toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "Asia/Jakarta", hour12: false }).replace(/\./g, ":"); }
+function ago(sec) { return sec < 90 ? Math.round(sec) + " dtk lalu" : sec < 5400 ? Math.round(sec / 60) + " mnt lalu" : (sec / 3600).toFixed(1).replace(".", ",") + " jam lalu"; }
+function fresh() {
+  var c = $("clock"), b = $("banner");
+  if (!R) { c.textContent = LOADERR ? "gagal memuat" : "memuat…"; c.className = "clock" + (LOADERR ? " dead" : ""); }
+  else {
+    var g = new Date(R.fetched_at || R.generated_at), age = (Date.now() - g.getTime()) / 1000;
+    c.textContent = "agen menarik data " + (isNaN(g) ? "" : hms(g) + " WIB · " + ago(age));
+    c.className = "clock" + (age > 2700 ? " dead" : age > 900 ? " stale" : "");
+  }
+  var html = "";
+  if (LOADERR) html = '<div class="bn errb"><span>⚠ ' + esc(LOADERR) + "." + (R ? " Menampilkan laporan terakhir yang berhasil dimuat." : " Belum ada data untuk ditampilkan.") + '</span><button type="button" id="retry">Coba lagi</button></div>';
+  else if (R) {
+    var a2 = (Date.now() - new Date(R.fetched_at || R.generated_at).getTime()) / 1000;
+    if (a2 > 2700) html = '<div class="bn errb"><span>⚠ Data sudah ' + ago(a2) + ". Agen mungkin berhenti atau jadwal GitHub tertunda; angka di bawah bisa basi.</span></div>";
+    else if (a2 > 900) html = '<div class="bn warnb"><span>Data berumur ' + ago(a2) + ". Jadwal GitHub kadang tertunda.</span></div>";
+  }
+  if (b.getAttribute("data-h") !== html) { b.innerHTML = html; b.setAttribute("data-h", html); var rb = document.getElementById("retry"); if (rb) rb.addEventListener("click", function () { tick(); }); }
+}
+setInterval(fresh, 1000);
 
 var FILTER = "all";
 function render() {
   var v = R && R.verdict;
   if (!R || !v) {
-    $("biasText").textContent = "Menunggu agen";
-    $("status").textContent = "Belum ada report.json. Jalankan workflow Nasdaq Agent di tab Actions, lalu muat ulang.";
-    $("clock").textContent = "belum ada data";
+    $("biasText").textContent = LOADERR ? "Gagal memuat" : "Menunggu agen";
+    $("status").textContent = LOADERR ? "Laporan tidak bisa diambil: " + LOADERR + ". Tekan Coba lagi di bagian atas." : "Belum ada report.json. Jalankan workflow Nasdaq Agent di tab Actions, lalu muat ulang.";
+    fresh();
     return;
   }
   var V2 = R.version >= 2 && R.factors;
   var mk = R.market || {};
   var gen = new Date(R.generated_at);
-  $("clock").textContent = "diperbarui " + (isNaN(gen) ? "" : gen.toLocaleString("id-ID", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Jakarta" }).replace(".", ":") + " WIB");
+  fresh();
   if (R.session) $("sess").textContent = R.session.label + " · " + (R.session.phase || "") + " · buka " + (R.session.open_wib || "") + " WIB";
 
   /* KPI */
@@ -451,6 +517,56 @@ function render() {
   } else rh += '<p class="cap">Data bar per jam NQ belum tersedia, filter struktur tidak aktif.</p>';
   if (v.breaker && v.breaker.active) rh += '<div class="warn">Pemutus sirkuit aktif: skor dipangkas dari ' + fmt(v.breaker.raw_score) + " ke " + fmt(idx) + ".</div>";
   $("regime").innerHTML = rh;
+
+  /* Makro dan breadth */
+  var RT = R.rates, BR = R.breadth, mh = "";
+  var dx = mk.dxy;
+  mh += '<div class="mini">';
+  mh += '<div><div class="k">Indeks Dolar (DXY)</div><div class="v">' + (dx ? num(dx.last, 2) : "–") + '</div><div class="d ' + (dx ? cls(-dx.change_pct) : "") + '">' + (dx ? fmt(dx.change_pct, 2) + "% " + (dx.change_pct > 0 ? "dolar menguat, menekan likuiditas" : dx.change_pct < 0 ? "dolar melemah, mendukung likuiditas" : "datar") : "tidak tersedia") + "</div></div>";
+  if (RT) mh += '<div><div class="k">Ekspektasi suku bunga (proksi)</div><div class="v">' + Math.round(RT.p_hold * 100) + '% tahan</div><div class="d">' + esc(RT.label) + ". Hike " + Math.round(RT.p_hike * 100) + "% · cut " + Math.round(RT.p_cut * 100) + "%</div></div>";
+  else mh += '<div><div class="k">Ekspektasi suku bunga</div><div class="v">–</div><div class="d">T-bill 13 minggu tidak tersedia</div></div>';
+  if (BR) mh += '<div><div class="k">Breadth: QQQE vs QQQ</div><div class="v ' + (BR.state === "menyempit" ? "down" : BR.state === "melebar" ? "up" : "flat") + '">' + esc(BR.state) + '</div><div class="d">' + fmt(BR.qqqe, 2) + "% vs " + fmt(BR.qqq, 2) + "% hari ini; selisih 5 sesi " + fmt(BR.rel5, 2) + " poin</div></div>" +
+    '<div><div class="k">Semikonduktor SOXX</div><div class="v ' + cls(BR.soxx) + '">' + fmt(BR.soxx, 2) + '%</div><div class="d">' + fmt(BR.soxx5, 2) + "% dalam 5 sesi</div></div>";
+  mh += "</div>";
+  if (BR) mh += '<p class="cap">' + esc(BR.text) + "</p>";
+  if (RT) mh += '<p class="cap">Selisih T-bill 13 minggu (' + RT.tbill13w + "%) dengan titik tengah target Fed (" + RT.fed_mid + "%): " + fmt(RT.diff_bps, 0) + " bps. " + esc(RT.note) + " CME FedWatch tidak punya API gratis resmi.</p>";
+  $("macro").innerHTML = mh;
+
+  /* Opsi dan likuiditas */
+  var OP = R.options, VO = R.volume, oh = "";
+  if (OP) {
+    oh += '<div class="mini">' +
+      '<div><div class="k">Put/Call ratio (OI)</div><div class="v">' + (OP.pcr_oi != null ? OP.pcr_oi : "–") + '</div><div class="d">' + esc(OP.sentiment || "") + (OP.pcr_vol != null ? " · volume " + OP.pcr_vol : "") + "</div></div>" +
+      '<div><div class="k">Net GEX (QQQ)</div><div class="v ' + cls(OP.net_gex_musd) + '">' + fmt(OP.net_gex_musd, 1) + ' jt$</div><div class="d">' + esc(OP.regime) + "</div></div>" +
+      '<div><div class="k">Call wall (resistensi)</div><div class="v">' + (OP.call_wall_nq ? num(OP.call_wall_nq, 0) : "–") + '</div><div class="d">QQQ ' + (OP.call_wall || "–") + "</div></div>" +
+      '<div><div class="k">Put wall (support)</div><div class="v">' + (OP.put_wall_nq ? num(OP.put_wall_nq, 0) : "–") + '</div><div class="d">QQQ ' + (OP.put_wall || "–") + "</div></div>" +
+      (OP.gamma_flip_nq ? '<div><div class="k">Gamma flip</div><div class="v">' + num(OP.gamma_flip_nq, 0) + '</div><div class="d">di bawahnya gerak cenderung diperbesar</div></div>' : "") + "</div>";
+    if (OP.top && OP.top.length) oh += '<div class="scroll"><table><thead><tr><th>Strike QQQ</th><th>Setara NQ</th><th>GEX (jt$)</th></tr></thead><tbody>' + OP.top.map(function (t) { return "<tr><td>" + t.strike + "</td><td>" + num(t.nq, 0) + '</td><td class="' + cls(t.gex_musd) + '">' + fmt(t.gex_musd, 1) + "</td></tr>"; }).join("") + "</tbody></table></div>";
+    oh += '<p class="cap">' + esc(OP.note) + " PCR tinggi cenderung kontrarian bullish, PCR rendah kontrarian waspada.</p>";
+  } else oh += '<p class="empty">Data rantai opsi tidak tersedia pada pembaruan ini (sumber gratis kadang menolak permintaan dari server).</p>';
+  if (VO) oh += '<p class="note" style="margin-top:10px"><b>Jejak transaksi besar (proksi):</b> ' + esc(VO.note) + " Z-skor volume " + fmt(VO.z, 1) + ". " + esc(VO.caveat) + "</p>";
+  else oh += '<p class="cap">Volume per jam NQ belum tersedia.</p>';
+  $("options").innerHTML = oh;
+
+  /* SMC */
+  var SM = R.smc, VP = R.volume_profile, sh = "";
+  if (SM) {
+    sh += '<p><span class="zone ' + SM.zone + '">' + (SM.zone === "premium" ? "PREMIUM" : SM.zone === "discount" ? "DISCOUNT" : "EQUILIBRIUM") + "</span> harga di " + SM.position_pct + "% rentang 48 jam (" + num(SM.range_low, 0) + " – " + num(SM.range_high, 0) + "). Titik tengah " + num(SM.equilibrium, 0) + ".</p>";
+    sh += SM.gaps.length ? '<div class="scroll"><table><thead><tr><th>FVG belum terisi</th><th>Zona</th></tr></thead><tbody>' + SM.gaps.map(function (g) { return '<tr><td class="' + (g.kind === "bullish" ? "up" : "down") + '">' + (g.kind === "bullish" ? "Bullish" : "Bearish") + " · " + g.bars_ago + " jam lalu</td><td>" + num(g.bottom, 0) + " – " + num(g.top, 0) + "</td></tr>"; }).join("") + "</tbody></table></div>" : '<p class="cap">Tidak ada FVG yang belum terisi.</p>';
+  } else sh += '<p class="cap">Bar per jam NQ belum tersedia.</p>';
+  if (VP) sh += '<div class="scroll" style="margin-top:10px"><table><thead><tr><th>Volume profile (5 hari)</th><th>Level</th></tr></thead><tbody><tr class="hl"><td>Point of Control (PoC)</td><td>' + num(VP.poc, 0) + "</td></tr><tr><td>Value Area High</td><td>" + num(VP.vah, 0) + "</td></tr><tr><td>Value Area Low</td><td>" + num(VP.val, 0) + "</td></tr></tbody></table></div><p class=\"cap\">PoC = harga dengan volume terbanyak. Value area memuat 70% volume. Dihitung dari bar per jam.</p>";
+  $("smcBox").innerHTML = sh;
+
+  /* Peringatan */
+  var AL = R.alerts || [];
+  $("alerts").innerHTML = AL.length ? AL.slice().reverse().slice(0, 6).map(function (a) {
+    var t = new Date(a.at);
+    return '<div class="ev"><div class="t">' + (isNaN(t) ? "" : t.toLocaleString("id-ID", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Jakarta" }).replace(".", ":")) + "</div><div><b>" + esc(a.from) + " → " + esc(a.to) + '</b><span class="lvl ' + (a.kind === "balik arah" ? "tinggi" : "sedang") + '">' + esc(a.kind) + "</span>" + (a.sent ? ' <span class="na">(webhook terkirim)</span>' : "") + '<div class="cap" style="margin:2px 0 0">Skor ' + fmt(a.from_score) + " → " + fmt(a.to_score) + (a.trigger ? ". Berita terkait: " + esc(a.trigger) : "") + "</div></div></div>";
+  }).join("") : '<p class="empty">Belum ada pergeseran tajam. Peringatan muncul bila bias berbalik (bullish ↔ bearish) atau skor bergeser ≥4 poin dalam 3 jam.</p>';
+
+  /* Status feed */
+  var FD = R.feeds || {}, fk = Object.keys(FD);
+  $("feedbox").innerHTML = fk.length ? fk.map(function (k) { var f = FD[k]; return '<span class="' + (f.ok ? "" : "bad") + '" title="' + esc(f.err || f.at) + '">' + esc(k) + (f.ok ? " ✓" : " ✗") + "</span>"; }).join("") : "";
 
   /* Proyeksi */
   var F = R.forecast;
@@ -530,6 +646,11 @@ function render() {
     if (T.hit_rate != null && T.n >= T.min_n) h += '<div class="bias ' + (T.hit_rate >= 0.5 ? "bull" : "") + '" style="font-size:44px">' + Math.round(T.hit_rate * 100) + "%</div><div class=\"sub\">tepat dalam " + T.n + " hari</div>";
     else h += '<div class="sub"><b class="num">' + T.hits + "/" + T.n + "</b> tepat. Belum bermakna: perlu minimal " + T.min_n + " hari dinilai sebelum angka ini boleh dipercaya.</div>";
     if (T.recent && T.recent.length) h += '<div class="hitrow">' + T.recent.map(function (r) { return '<i class="' + (r.hit ? "" : "x") + '" title="' + esc(r.date + " " + r.bias + " " + fmt(r.change_pct, 2) + "%") + '"></i>'; }).join("") + "</div>";
+    var MT = T.metrics;
+    if (MT && MT.n_trades) {
+      h += '<div class="stat4"><div>Win rate<b>' + Math.round(MT.win_rate * 100) + '%</b></div><div>Profit factor<b>' + (MT.profit_factor != null ? MT.profit_factor : "–") + '</b></div><div>Max drawdown<b>−' + MT.max_drawdown_pct + '%</b></div><div>Total (ikut bias)<b class="' + cls(MT.total_return_pct) + '">' + fmt(MT.total_return_pct, 2) + "%</b></div></div>" +
+        '<p class="cap">Simulasi sederhana dari ' + MT.n_trades + " hari: bullish = long, bearish = short, netral = diam, hasil close-to-close tanpa biaya." + (MT.n_trades < 30 ? " Belum bermakna secara statistik (perlu ≥30 hari)." : "") + "</p>";
+    } else h += '<p class="cap">Win rate, profit factor, dan max drawdown muncul setelah ada hari yang dinilai.</p>';
     var C = T.calibration;
     if (C) {
       var pr = Math.min(100, Math.round(C.n / C.min_n * 100));
@@ -595,6 +716,7 @@ async function tick() {
   var r = await load();
   if (r && (!lastGen || r.generated_at !== lastGen)) { R = r; lastGen = r.generated_at; render(); }
   else if (!R) render();
+  fresh();
 }
 await tick();
 setInterval(tick, 60000);

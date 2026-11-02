@@ -282,7 +282,8 @@ FINFO = {
 FACTOR_ORDER = ["news", "nq_fut", "es_fut", "sox", "yield", "vix", "oil", "dxy", "trend"]
 
 SYMS = {"nq_fut": "NQ=F", "es_fut": "ES=F", "sox": "^SOX", "vix": "^VIX", "vxn": "^VXN",
-        "yield10": "^TNX", "brent": "BZ=F", "dxy": "DX-Y.NYB", "nvda": "NVDA"}
+        "yield10": "^TNX", "brent": "BZ=F", "dxy": "DX-Y.NYB", "nvda": "NVDA",
+        "irx": "^IRX", "qqqe": "QQQE", "soxx": "SOXX", "qqq_y": "QQQ"}
 
 DEMO = [
     {"title": "Meta posts first cash outflow in a decade, plans non-voting share issue to raise capital", "source": "Reuters"},
@@ -430,6 +431,8 @@ def _quote(symbol):
         last, prev = last / 10, (prev / 10 if prev else None)
     chg = round((last / prev - 1) * 100, 2) if prev else None
     out = {"last": round(last, 4), "prev": round(prev, 4) if prev else None, "change_pct": chg}
+    if len(rows) >= 6 and rows[-6]["c"]:
+        out["change5_pct"] = round((last / rows[-6]["c"] - 1) * 100, 2)
     if symbol == "^TNX" and prev:
         out["change_bps"] = round((last - prev) * 100, 1)
         if len(rows) >= 6:
@@ -500,6 +503,232 @@ def fetch_alpaca(symbol="QQQ"):
             "time": (d.get("latestTrade") or {}).get("t"), "feed": "IEX"}
 
 
+
+# ---------------------------------------------------------------------------
+# Makro, breadth, opsi, volume
+# ---------------------------------------------------------------------------
+def _fed_mid():
+    nums = [float(x.replace(",", ".")) for x in re.findall(r"\d+[.,]\d+", FED_FUNDS)]
+    return sum(nums[:2]) / len(nums[:2]) if len(nums) >= 2 else None
+
+
+def rate_expectations(market):
+    """Proksi ekspektasi suku bunga dari yield T-bill 13 minggu (^IRX) vs titik tengah target Fed.
+    Bukan CME FedWatch (tidak ada API gratis resmi). Selisih ±15 bps kira-kira setara satu langkah 25 bps
+    yang sepenuhnya diperhitungkan untuk rapat dalam ~5 pekan."""
+    irx, mid = (market.get("irx") or {}).get("last"), _fed_mid()
+    if irx is None or mid is None:
+        return None
+    diff = (irx - mid) * 100
+    ph = clamp(diff / 15, 0, 1)
+    pc = clamp(-diff / 15, 0, 1)
+    label = "Pasar memperhitungkan kenaikan" if diff >= 7 else "Pasar memperhitungkan pemangkasan" if diff <= -7 else "Pasar memperkirakan suku bunga ditahan"
+    ten = (market.get("yield10") or {}).get("last")
+    return {"tbill13w": round(irx, 3), "fed_mid": round(mid, 3), "diff_bps": round(diff, 1),
+            "p_hike": round(ph, 2), "p_cut": round(pc, 2), "p_hold": round(1 - max(ph, pc), 2), "label": label,
+            "slope_10y_13w_bps": round((ten - irx) * 100, 0) if ten else None,
+            "note": "Proksi dari T-bill 13 minggu, bukan angka CME FedWatch."}
+
+
+def breadth(market):
+    q, e, so = market.get("qqq_y"), market.get("qqqe"), market.get("soxx")
+    if not (q and e):
+        return None
+    rel1 = round((e.get("change_pct") or 0) - (q.get("change_pct") or 0), 2)
+    rel5 = round((e.get("change5_pct") or 0) - (q.get("change5_pct") or 0), 2) if e.get("change5_pct") is not None and q.get("change5_pct") is not None else None
+    ref = rel5 if rel5 is not None else rel1
+    state = "menyempit" if ref <= -1.0 else "melebar" if ref >= 0.5 else "seimbang"
+    text = {"menyempit": "QQQE tertinggal dari QQQ: pergerakan ditopang segelintir megacap, kurang sehat.",
+            "melebar": "QQQE mengungguli QQQ: kenaikan atau penurunan melibatkan banyak saham, lebih tahan lama.",
+            "seimbang": "QQQE dan QQQ bergerak searah: tidak ada anomali megacap yang menonjol."}[state]
+    return {"qqq": q.get("change_pct"), "qqqe": e.get("change_pct"), "soxx": (so or {}).get("change_pct"),
+            "qqq5": q.get("change5_pct"), "qqqe5": e.get("change5_pct"), "soxx5": (so or {}).get("change5_pct"),
+            "rel1": rel1, "rel5": rel5, "state": state, "text": text}
+
+
+def volume_anomaly(bars):
+    """Proksi jejak blok besar: lonjakan volume per jam NQ relatif terhadap 48 jam sebelumnya."""
+    vs = [b for b in (bars or []) if b.get("v")]
+    if len(vs) < 30:
+        return None
+    last = vs[-1]; base = [b["v"] for b in vs[-49:-1]]
+    mu = sum(base) / len(base); sd = (sum((x - mu) ** 2 for x in base) / len(base)) ** 0.5 or 1
+    z = (last["v"] - mu) / sd
+    big = [b for b in vs[-6:] if (b["v"] - mu) / sd >= 2.5]
+    d = "naik" if last["c"] >= last["o"] else "turun"
+    return {"z": round(z, 2), "last_volume": last["v"], "avg_volume": round(mu), "spike": z >= 2.5 or bool(big),
+            "direction": d, "note": ("Lonjakan volume pada bar terakhir (" + d + "): kemungkinan transaksi institusi besar." if z >= 2.5 else
+                                     "Ada lonjakan volume beberapa jam terakhir." if big else "Volume normal, tidak ada jejak blok besar yang menonjol."),
+            "caveat": "Data dark pool/blok asli berbayar. Ini proksi dari volume futures."}
+
+
+def volume_profile(bars, bins=60):
+    vs = [b for b in (bars or []) if b.get("v")]
+    if len(vs) < 20:
+        return None
+    lo, hi = min(b["l"] for b in vs), max(b["h"] for b in vs)
+    if hi <= lo:
+        return None
+    step = (hi - lo) / bins
+    vol = [0.0] * bins
+    for b in vs:
+        i0 = int((b["l"] - lo) / step); i1 = min(bins - 1, int((b["h"] - lo) / step))
+        n = i1 - i0 + 1
+        for i in range(i0, i1 + 1):
+            vol[i] += b["v"] / n
+    poc = max(range(bins), key=lambda i: vol[i])
+    total = sum(vol); acc = vol[poc]; a = b_ = poc
+    while acc < 0.7 * total and (a > 0 or b_ < bins - 1):
+        up = vol[b_ + 1] if b_ < bins - 1 else -1
+        dn = vol[a - 1] if a > 0 else -1
+        if up >= dn:
+            b_ += 1; acc += vol[b_]
+        else:
+            a -= 1; acc += vol[a]
+    price = lambda i: round(lo + (i + 0.5) * step, 1)
+    return {"poc": price(poc), "vah": round(lo + (b_ + 1) * step, 1), "val": round(lo + a * step, 1),
+            "range_low": round(lo, 1), "range_high": round(hi, 1), "bars": len(vs)}
+
+
+def fvg_map(bars, lookback=48):
+    """Daftar Fair Value Gap yang belum terisi dan posisi harga terhadap premium/discount."""
+    if not bars or len(bars) < 30:
+        return None
+    n = len(bars); last = bars[-1]["c"]
+    rng = bars[-lookback:]
+    hi, lo = max(b["h"] for b in rng), min(b["l"] for b in rng)
+    eq = (hi + lo) / 2
+    gaps = []
+    for i in range(max(2, n - lookback), n):
+        a, c = bars[i - 2], bars[i]
+        if a["l"] > c["h"]:
+            top, bot, kind = a["l"], c["h"], "bearish"
+            filled = any(x["h"] >= top for x in bars[i + 1:])
+        elif a["h"] < c["l"]:
+            top, bot, kind = c["l"], a["h"], "bullish"
+            filled = any(x["l"] <= bot for x in bars[i + 1:])
+        else:
+            continue
+        if not filled and (top - bot) / last > 0.0004:
+            gaps.append({"kind": kind, "top": round(top, 1), "bottom": round(bot, 1), "bars_ago": n - 1 - i})
+    gaps.sort(key=lambda g: abs((g["top"] + g["bottom"]) / 2 - last))
+    pos = (last - lo) / (hi - lo) if hi > lo else 0.5
+    zone = "premium" if pos > 0.55 else "discount" if pos < 0.45 else "equilibrium"
+    return {"gaps": gaps[:5], "range_high": round(hi, 1), "range_low": round(lo, 1), "equilibrium": round(eq, 1),
+            "position_pct": round(pos * 100), "zone": zone, "price": round(last, 1)}
+
+
+def _bs_gamma(S, K, T, iv):
+    if S <= 0 or K <= 0 or T <= 0 or iv <= 0:
+        return 0.0
+    d1 = (math.log(S / K) + 0.5 * iv * iv * T) / (iv * math.sqrt(T))
+    return math.exp(-0.5 * d1 * d1) / math.sqrt(2 * math.pi) / (S * iv * math.sqrt(T))
+
+
+def _yahoo_crumb():
+    import http.cookiejar
+    cj = http.cookiejar.CookieJar()
+    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+    op.addheaders = [("User-Agent", "Mozilla/5.0 nasdaq-agent/2.0")]
+    try:
+        op.open("https://fc.yahoo.com", timeout=10)
+    except Exception:  # noqa: BLE001
+        pass  # fc.yahoo.com membalas 404 tetapi tetap memasang cookie
+    crumb = op.open("https://query1.finance.yahoo.com/v1/test/getcrumb", timeout=10).read().decode()
+    return op, crumb
+
+
+def fetch_option_chain(symbol="QQQ", max_exp=3):
+    """Rantai opsi dari Yahoo untuk beberapa expiry terdekat. Hasil: {spot, contracts:[{t,K,oi,vol,iv,T}]}"""
+    op, crumb = _yahoo_crumb()
+    base = f"https://query1.finance.yahoo.com/v7/finance/options/{symbol}?crumb={urllib.parse.quote(crumb)}"
+    first = json.loads(op.open(base, timeout=15).read())["optionChain"]["result"][0]
+    exps = first.get("expirationDates") or []
+    spot = first["quote"].get("regularMarketPrice")
+    out, now_ts = [], time.time()
+    for ex in exps[:max_exp]:
+        res = first if ex == first["options"][0]["expirationDate"] else json.loads(op.open(base + f"&date={ex}", timeout=15).read())["optionChain"]["result"][0]
+        T = max((ex - now_ts) / (365 * 86400), 0.5 / 365)
+        for side, key in (("C", "calls"), ("P", "puts")):
+            for c in res["options"][0].get(key, []):
+                out.append({"t": side, "K": c["strike"], "oi": c.get("openInterest") or 0, "vol": c.get("volume") or 0,
+                            "iv": c.get("impliedVolatility") or 0, "T": T, "exp": ex})
+    return {"spot": spot, "contracts": out, "expiries": exps[:max_exp]}
+
+
+def analyze_options(chain, spot_hint, nq_last, now):
+    """PCR dan peta Gamma Exposure dari rantai opsi QQQ, dipetakan ke harga NQ. Konvensi umum:
+    market maker long gamma di call (+) dan short gamma di put (-). Ini perkiraan, bukan posisi sebenarnya."""
+    if not chain or not chain.get("contracts"):
+        return None
+    S = chain.get("spot") or spot_hint
+    cs = [c for c in chain["contracts"] if c["iv"] > 0.01]
+    if not S or not cs:
+        return None
+    put_oi = sum(c["oi"] for c in chain["contracts"] if c["t"] == "P"); call_oi = sum(c["oi"] for c in chain["contracts"] if c["t"] == "C")
+    put_v = sum(c["vol"] for c in chain["contracts"] if c["t"] == "P"); call_v = sum(c["vol"] for c in chain["contracts"] if c["t"] == "C")
+    gex = {}
+    for c in cs:
+        g = _bs_gamma(S, c["K"], c["T"], c["iv"]) * c["oi"] * 100 * S * S * 0.01
+        gex[c["K"]] = gex.get(c["K"], 0.0) + (g if c["t"] == "C" else -g)
+    ks = sorted(gex)
+    near = [k for k in ks if 0.9 * S <= k <= 1.1 * S]
+    cw = max(near, key=lambda k: gex[k]) if near else None
+    pw = min(near, key=lambda k: gex[k]) if near else None
+    # gamma flip: strike tempat GEX kumulatif (dari bawah) berganti tanda, paling dekat dengan spot
+    cum, flip = 0.0, None
+    prev_sign = None
+    cand = []
+    for k in near:
+        cum += gex[k]
+        sg = cum >= 0
+        if prev_sign is not None and sg != prev_sign:
+            cand.append(k)
+        prev_sign = sg
+    if cand:
+        flip = min(cand, key=lambda k: abs(k - S))
+    ratio = (nq_last / S) if nq_last else None
+    mp = lambda k: round(k * ratio, 0) if (k is not None and ratio) else None
+    net = sum(gex.values())
+    top = sorted(near, key=lambda k: -abs(gex[k]))[:6]
+    pcr = round(put_oi / call_oi, 2) if call_oi else None
+    pcrv = round(put_v / call_v, 2) if call_v else None
+    sentiment = None
+    if pcr is not None:
+        sentiment = ("Takut berlebihan (sinyal kontrarian bullish)" if pcr >= 1.3 else "Pesimis, lindung nilai meningkat" if pcr >= 1.0 else
+                     "Serakah/terlalu optimis (kontrarian waspada)" if pcr <= 0.6 else "Netral")
+    return {"underlying": "QQQ", "spot": round(S, 2), "nq_ratio": round(ratio, 3) if ratio else None,
+            "pcr_oi": pcr, "pcr_vol": pcrv, "sentiment": sentiment,
+            "call_wall": cw, "put_wall": pw, "gamma_flip": flip,
+            "call_wall_nq": mp(cw), "put_wall_nq": mp(pw), "gamma_flip_nq": mp(flip),
+            "net_gex_musd": round(net / 1e6, 1), "regime": "gamma positif (meredam gerak)" if net > 0 else "gamma negatif (memperbesar gerak)",
+            "top": [{"strike": k, "nq": mp(k), "gex_musd": round(gex[k] / 1e6, 1)} for k in sorted(top)],
+            "expiries": len(chain.get("expiries") or []),
+            "note": "Perkiraan dari open interest dan IV opsi QQQ (Yahoo), dipetakan ke NQ dengan rasio harga. Bukan data posisi dealer sebenarnya."}
+
+
+def strategy_metrics(entries):
+    """Metrik kuantitatif: ikuti bias (bullish=long, bearish=short, netral=diam) pada hasil close-to-close."""
+    rows = [e for e in entries if e.get("outcome") and not e.get("late")]
+    rets = []
+    for e in rows:
+        pos = 1 if "BULL" in e["bias"] else -1 if "BEAR" in e["bias"] else 0
+        if pos:
+            rets.append(pos * e["outcome"]["change_pct"])
+    if not rets:
+        return {"n_trades": 0, "n_days": len(rows)}
+    wins = [r for r in rets if r > 0]; losses = [r for r in rets if r < 0]
+    eq = peak = dd = 0.0
+    for r in rets:
+        eq += r; peak = max(peak, eq); dd = max(dd, peak - eq)
+    gl = -sum(losses)
+    return {"n_trades": len(rets), "n_days": len(rows), "win_rate": round(len(wins) / len(rets), 3),
+            "profit_factor": round(sum(wins) / gl, 2) if gl > 0 else None,
+            "max_drawdown_pct": round(dd, 2), "total_return_pct": round(eq, 2),
+            "avg_win_pct": round(sum(wins) / len(wins), 2) if wins else None,
+            "avg_loss_pct": round(-gl / len(losses), 2) if losses else None}
+
+
 def front_contract(now):
     """Kontrak MNQ bulan terdekat (H, M, U, Z). Berganti 8 hari sebelum kedaluwarsa (Jumat ketiga),
     jadi kode otomatis maju: MNQZ2026 -> MNQH2027 -> MNQM2027 -> ..."""
@@ -517,6 +746,11 @@ def front_contract(now):
 
 def fetch_market(now):
     m = {"fed": {"range": FED_FUNDS, "note": FED_NOTE}}
+    feeds = m["_feeds"] = {}
+
+    def mark(name, ok, err=None):
+        feeds[name] = {"ok": ok, "at": dt.datetime.now(UTC).astimezone(WIB).isoformat(timespec="seconds"),
+                       "err": (str(err)[:80] if err else None)}
     try:
         res = _yahoo("^IXIC", "3mo")
         rows = _series(res)
@@ -536,8 +770,9 @@ def fetch_market(now):
             "ret5_pct": round((last / bars[-6]["c"] - 1) * 100, 2) if len(bars) >= 6 else None,
             "closes": closes, "bars": bars[-30:],
         }
+        mark("nasdaq", True)
     except Exception as e:  # noqa: BLE001
-        print(f"[warn] Nasdaq: {e}", file=sys.stderr)
+        print(f"[warn] Nasdaq: {e}", file=sys.stderr); mark("nasdaq", False, e)
     for key, sym in SYMS.items():
         try:
             if key == "nq_fut":
@@ -545,21 +780,31 @@ def fetch_market(now):
                 m[key] = _quote(sym)  # NQ=F: kontrak depan Yahoo, berganti sendiri tiap kuartal
                 m[key]["contract"] = "NQ=F (" + fc["code"] + ")"
                 m[key]["tv"] = fc["tv"]; m[key]["expiry"] = fc["expiry"]
+                mark(key, True)
                 continue
             m[key] = _quote(sym)
+            mark(key, True)
         except Exception as e:  # noqa: BLE001
-            print(f"[warn] {sym}: {e}", file=sys.stderr)
+            print(f"[warn] {sym}: {e}", file=sys.stderr); mark(key, False, e)
     try:
         hb = _series(_yahoo("NQ=F", "5d", "1h"))
         m["nq_hourly"] = [{"t": r["t"], "o": r["o"], "h": r["h"], "l": r["l"], "c": r["c"], "v": r.get("v")} for r in hb[-120:]]
+        mark("nq_hourly", True)
     except Exception as e:  # noqa: BLE001
-        print(f"[warn] NQ=F per jam: {e}", file=sys.stderr)
+        print(f"[warn] NQ=F per jam: {e}", file=sys.stderr); mark("nq_hourly", False, e)
     try:
         a = fetch_alpaca("QQQ")
         if a:
             m["qqq"] = a
+            mark("alpaca", True)
     except Exception as e:  # noqa: BLE001
-        print(f"[warn] Alpaca: {e}", file=sys.stderr)
+        print(f"[warn] Alpaca: {e}", file=sys.stderr); mark("alpaca", False, e)
+    try:
+        spot = (m.get("qqq_y") or {}).get("last")
+        m["options"] = analyze_options(fetch_option_chain("QQQ"), spot, (m.get("nq_fut") or {}).get("last"), now)
+        mark("options", bool(m["options"]))
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] opsi: {e}", file=sys.stderr); mark("options", False, e)
     if "yield10" in m and "change_bps" not in m["yield10"] and m["yield10"].get("prev"):
         m["yield10"]["change_bps"] = round((m["yield10"]["last"] - m["yield10"]["prev"]) * 100, 1)
     return m
@@ -1060,6 +1305,14 @@ def load_history(path):
         return []
 
 
+def load_state(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f).get("state", {}) or {}
+    except Exception:  # noqa: BLE001
+        return {}
+
+
 def load_calib_log(path):
     try:
         with open(path, encoding="utf-8") as f:
@@ -1182,6 +1435,47 @@ def write_markdown(r, path):
         f.write("\n".join(L))
 
 
+def _side(bias):
+    return 1 if "BULL" in bias else -1 if "BEAR" in bias else 0
+
+
+def check_alert(state, verdict, now, top_title=None):
+    """Bandingkan dengan keadaan laporan sebelumnya. Peringatan bila bias berbalik arah (bullish<->bearish),
+    atau skor bergeser >=4 poin dalam <=3 jam. Jeda minimal 30 menit antar peringatan."""
+    prev = state.get("last")
+    cur = {"bias": verdict["bias"], "score10": verdict["score10"], "at": now.isoformat(timespec="seconds")}
+    alert = None
+    if prev:
+        pt = parse_time(prev["at"])
+        hrs = (now - pt).total_seconds() / 3600 if pt else 99
+        flip = _side(prev["bias"]) * _side(cur["bias"]) == -1
+        jump = abs(cur["score10"] - prev["score10"]) >= 4 and hrs <= 3
+        last_alert = parse_time(state.get("last_alert_at") or "")
+        cooled = not last_alert or (now - last_alert).total_seconds() >= 1800
+        if (flip or jump) and cooled:
+            alert = {"at": cur["at"], "from": prev["bias"], "to": cur["bias"], "from_score": prev["score10"],
+                     "to_score": cur["score10"], "kind": "balik arah" if flip else "geser tajam",
+                     "trigger": top_title, "sent": False}
+    state["last"] = cur
+    return alert
+
+
+def send_webhook(alert):
+    url = os.environ.get("ALERT_WEBHOOK_URL")
+    if not url:
+        return False
+    text = (f"Peringatan bias Nasdaq ({alert['kind']}): {alert['from']} ({alert['from_score']:+.1f}) -> "
+            f"{alert['to']} ({alert['to_score']:+.1f})" + (f". Pemicu berita: {alert['trigger']}" if alert.get("trigger") else ""))
+    body = json.dumps({"content": text, "text": text}).encode()  # cocok untuk Discord dan Slack
+    req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json", "User-Agent": "nasdaq-agent/2.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=10):
+            return True
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] webhook: {e}", file=sys.stderr)
+        return False
+
+
 def build_report(raw, market, now, history_path=None, use_llm=True):
     regime = detect_regime(market)
     clusters = analyze_news(raw, now, regime)
@@ -1198,7 +1492,20 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     levels = build_levels(market, now)
     items = news_items_out(clusters)
     tr = track_record([])
+    hb = market.get("nq_hourly")
+    extras = {"rates": rate_expectations(market), "breadth": breadth(market), "options": market.get("options"),
+              "volume": volume_anomaly(hb), "volume_profile": volume_profile(hb), "smc": fvg_map(hb)}
+    alerts = []
     if history_path:
+        state = load_state(history_path)
+        top = next((i["title"] for i in items if i["score"]), None)
+        al = check_alert(state, verdict, now, top)
+        if al:
+            al["sent"] = send_webhook(al)
+            state.setdefault("alerts", []).append(al)
+            state["last_alert_at"] = al["at"]
+        state["alerts"] = state.get("alerts", [])[-20:]
+        alerts = state["alerts"]
         update_history(entries, now, verdict, (market.get("nasdaq") or {}).get("bars"))
         os.makedirs(os.path.dirname(history_path) or ".", exist_ok=True)
         calib = calibrate(entries)  # hitung ulang setelah hasil sesi yang baru selesai masuk
@@ -1212,7 +1519,7 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
             log.append(snap)
         del log[:-400]
         with open(history_path, "w", encoding="utf-8") as f:
-            json.dump({"version": 1, "entries": entries, "calib_log": log}, f, ensure_ascii=False, indent=1)
+            json.dump({"version": 1, "entries": entries, "calib_log": log, "state": state}, f, ensure_ascii=False, indent=1)
         try:
             with open(os.path.join(os.path.dirname(history_path) or ".", "history.csv"), "w", encoding="utf-8") as f:
                 f.write("date,bias,score10,p_up,late,change_pct,hit\n")
@@ -1223,14 +1530,17 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
         except Exception as ex:  # noqa: BLE001
             print(f"[warn] history.csv: {ex}", file=sys.stderr)
         tr = track_record(entries)
+        tr["metrics"] = strategy_metrics(entries)
         calib["log"] = log[-30:]
     calib["updated_at"] = now.astimezone(WIB).isoformat(timespec="minutes")
     tr["calibration"] = calib
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "session": session_info(now), "verdict": verdict, "factors": factors, "reasons": make_reasons(factors),
-        "regime": regime, "structure": structure, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
-        "track_record": tr, "market": {k: v for k, v in market.items() if k != "nq_hourly"}, "news_stats": ns, "items": items, "llm_summary": None,
+        "regime": regime, "structure": structure, **extras, "alerts": alerts,
+        "fetched_at": now.astimezone(WIB).isoformat(timespec="seconds"),
+        "feeds": market.get("_feeds") or {}, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
+        "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds")}, "news_stats": ns, "items": items, "llm_summary": None,
         "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.3f+%.3f*skor)))" % (calib["a"], calib["b"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
                         "p_up_range": [0.18, 0.82]},
     }
