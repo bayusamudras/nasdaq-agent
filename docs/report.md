@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-02T20:44:34+07:00 · sesi Senin 2 Nov (pra-buka)_
+_Diperbarui 2026-11-02T20:46:51+07:00 · sesi Senin 2 Nov (pra-buka)_
 
-Peluang indeks naik **57%**, turun **43%** (skor +0,8 dari ±10, keyakinan 60%, 70% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **59%**, turun **41%** (skor +1,3 dari ±10, keyakinan 62%, 70% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Apple (setelah penutupan)
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,20): +0,60% dari penutupan sebelumnya (28.704,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,50): +0,75% dari penutupan sebelumnya (28.748,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (−1,00): −7,20% dari penutupan sebelumnya (10.688,80). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (+0,66): Skor rata-rata +0,53 dari 33 kejadian bernilai; 59% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
+- **Berita berbobot** (+0,92): Skor rata-rata +0,73 dari 34 kejadian bernilai; 66% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,33): −2,00% dalam 5 sesi; 8,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,53 dari 33 kejadian bernilai; 59% bobot bullish | +0,44 | 30% | +0,66 |
-| Futures Nasdaq-100 | +0,60% dari penutupan sebelumnya (28.704,00) | +1,20 | 20% | +1,20 |
-| Futures S&P 500 | +0,33% dari penutupan sebelumnya (7.639,25) | +0,82 | 5% | +0,20 |
+| Berita berbobot | skor rata-rata +0,73 dari 34 kejadian bernilai; 66% bobot bullish | +0,61 | 30% | +0,92 |
+| Futures Nasdaq-100 | +0,75% dari penutupan sebelumnya (28.748,50) | +1,50 | 20% | +1,50 |
+| Futures S&P 500 | +0,42% dari penutupan sebelumnya (7.646,25) | +1,05 | 5% | +0,26 |
 | Semikonduktor (SOX) | −7,20% dari penutupan sebelumnya (10.688,80) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,915% (−1,4 bp dari sesi sebelumnya) | +0,35 | 10% | +0,18 |
-| VIX (volatilitas) | 19,55 (+0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 28,50 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $108,80 (−7,51% dari sesi sebelumnya) | +1,00 | 5% | +0,25 |
-| Indeks dolar | −0,24% dari penutupan sebelumnya (101,64) | −0,60 | 5% | −0,15 |
+| Yield obligasi 10 tahun | 4,919% (−1,0 bp dari sesi sebelumnya) | +0,25 | 10% | +0,12 |
+| VIX (volatilitas) | 19,54 (+0,6% dari sesi sebelumnya); VXN (Nasdaq-100) 28,50 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $108,11 (−8,10% dari sesi sebelumnya) | +1,00 | 5% | +0,25 |
+| Indeks dolar | −0,26% dari penutupan sebelumnya (101,62) | −0,65 | 5% | −0,16 |
 | Tren Nasdaq 5 sesi | −2,00% dalam 5 sesi; 8,2% di bawah puncak 52 minggu | −1,33 | 5% | −0,33 |
 
 ## Level hari ini
 Pivot 25.429; resistensi 25.681 / 25.925; support 25.185 / 24.933.
-Perkiraan pembukaan dari futures: 25.590 (+0,60%).
+Perkiraan pembukaan dari futures: 25.628 (+0,75%).
 Rentang wajar 1σ (VXN): 24.980 sampai 25.894.
 
 ## Berita paling berdampak
@@ -40,8 +40,8 @@ Rentang wajar 1σ (VXN): 24.980 sampai 25.894.
 - **+1,2** Oil prices decline on hopes for progress on Iran war efforts (Transport Topics). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,2** Iran war latest: Oil prices slide more than 3% as Trump signals more time for Iran diplomacy (The National). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,2** Stock Market Today: Overseas Stocks Mixed, Oil Falls (STL.News). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **+1,2** Stock Futures Rise in the Stock Market Today as Oil Falls and Tech Stocks Bounce Back (Stock Titan). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,1** Oil price falls on optimism talks will bring end to Iran war (The Times). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **+1,0** Oil falls on Hormuz deal hopes but Trump keeps strikes on the table (Euronews.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 
 ## Kalender risiko
 - 2026-11-02: Laporan laba Apple (setelah penutupan) (tinggi)
