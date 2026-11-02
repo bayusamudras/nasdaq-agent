@@ -665,6 +665,8 @@ def analyze_options(chain, spot_hint, nq_last, now):
     cs = [c for c in chain["contracts"] if c["iv"] > 0.01]
     if not S or not cs:
         return None
+    if sum(c["oi"] for c in cs) < 1000 or len({c["K"] for c in cs if c["oi"] > 0}) < 8:
+        return None  # open interest kosong atau jarang: hasil GEX/PCR akan menyesatkan
     put_oi = sum(c["oi"] for c in chain["contracts"] if c["t"] == "P"); call_oi = sum(c["oi"] for c in chain["contracts"] if c["t"] == "C")
     put_v = sum(c["vol"] for c in chain["contracts"] if c["t"] == "P"); call_v = sum(c["vol"] for c in chain["contracts"] if c["t"] == "C")
     gex = {}
@@ -802,7 +804,7 @@ def fetch_market(now):
     try:
         spot = (m.get("qqq_y") or {}).get("last")
         m["options"] = analyze_options(fetch_option_chain("QQQ"), spot, (m.get("nq_fut") or {}).get("last"), now)
-        mark("options", bool(m["options"]))
+        mark("options", bool(m["options"]), None if m["options"] else "OI kosong atau rantai tidak lengkap")
     except Exception as e:  # noqa: BLE001
         print(f"[warn] opsi: {e}", file=sys.stderr); mark("options", False, e)
     if "yield10" in m and "change_bps" not in m["yield10"] and m["yield10"].get("prev"):
