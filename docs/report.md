@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T00:55:47+07:00 · sesi Selasa 3 Nov (berjalan)_
+_Diperbarui 2026-11-04T00:56:47+07:00 · sesi Selasa 3 Nov (berjalan)_
 
-Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 71%, 61% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 72%, 61% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,54): +0,77% dari penutupan sebelumnya (28.343,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +2,91% dari penutupan sebelumnya (10.629,06). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+1,68): +0,84% dari penutupan sebelumnya (28.364,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +3,07% dari penutupan sebelumnya (10.645,27). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,75): 4,954% (+6,0 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Berita berbobot** (−0,45): Skor rata-rata −0,36 dari 27 kejadian bernilai; 50% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,06% dalam 5 sesi; 8,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Berita berbobot** (−0,56): Skor rata-rata −0,44 dari 29 kejadian bernilai; 49% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Tren Nasdaq 5 sesi** (−0,38): −4,00% dalam 5 sesi; 8,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,36 dari 27 kejadian bernilai; 50% bobot bullish | −0,30 | 30% | −0,45 |
-| Futures Nasdaq-100 | +0,77% dari penutupan sebelumnya (28.343,75) | +1,54 | 20% | +1,54 |
-| Futures S&P 500 | +0,38% dari penutupan sebelumnya (7.603,50) | +0,95 | 5% | +0,24 |
-| Semikonduktor (SOX) | +2,91% dari penutupan sebelumnya (10.629,06) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,44 dari 29 kejadian bernilai; 49% bobot bullish | −0,37 | 30% | −0,56 |
+| Futures Nasdaq-100 | +0,84% dari penutupan sebelumnya (28.364,00) | +1,68 | 20% | +1,68 |
+| Futures S&P 500 | +0,43% dari penutupan sebelumnya (7.607,25) | +1,07 | 5% | +0,27 |
+| Semikonduktor (SOX) | +3,07% dari penutupan sebelumnya (10.645,27) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,954% (+6,0 bp dari sesi sebelumnya) | −1,50 | 10% | −0,75 |
-| VIX (volatilitas) | 20,94 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,59 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,31 (−1,39% dari sesi sebelumnya) | +0,19 | 5% | +0,05 |
+| VIX (volatilitas) | 20,94 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,60 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $103,32 (−1,38% dari sesi sebelumnya) | +0,19 | 5% | +0,05 |
 | Indeks dolar | +0,05% dari penutupan sebelumnya (101,80) | +0,12 | 5% | +0,03 |
-| Tren Nasdaq 5 sesi | −4,06% dalam 5 sesi; 8,4% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Tren Nasdaq 5 sesi | −4,00% dalam 5 sesi; 8,3% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.358 (+0,77%).
+Perkiraan pembukaan dari futures: 25.376 (+0,84%).
 Rentang wajar 1σ (VXN): 24.679 sampai 25.649.
 
 ## Berita paling berdampak
@@ -38,9 +38,9 @@ Rentang wajar 1σ (VXN): 24.679 sampai 25.649.
 - **+1,2** Fiserv stock climbs as Q3 earnings beat, cost savings guidance revised up (FISV:NASDAQ) (Seeking Alpha). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,2** Apple earnings beat expectations, but rising chip costs worry investors (Newswav). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Treasury yields rise as investors weigh midterm vote, jobs data and Iran tensions (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,1** Fed likely to wait on another rate hike as inflation pressures mount (WSTM). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,0** Oracle Rallies 6% as $20 Billion Stock and Bond Sale Clears Funding Overhang; CoreWeave Climbs 7%, Microsoft Gains 2% (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,0** Tesla-SpaceX Merger Hopes Face Reality Check From Marvell-Lumentum Selloff (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,0** AEHR Stock Heads For Biggest Single-Day Gain Since July — Analysts Cut Targets Despite Earnings Beat, Raised Guidance (Stocktwits). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-03: JOLTS lowongan kerja (September) (sedang)
