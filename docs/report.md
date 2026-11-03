@@ -1,30 +1,30 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-03T21:04:05+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T21:05:05+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
-Peluang indeks naik **49%**, turun **51%** (skor −1,2 dari ±10, keyakinan 69%, 68% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **50%**, turun **50%** (skor −1,0 dari ±10, keyakinan 68%, 68% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,28): +0,64% dari penutupan sebelumnya (28.307,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,38): +0,69% dari penutupan sebelumnya (28.322,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (−1,00): −3,37% dari penutupan sebelumnya (10.328,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,92): Skor rata-rata −0,74 dari 25 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,87): Skor rata-rata −0,69 dari 26 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,74 dari 25 kejadian bernilai; 40% bobot bullish | −0,61 | 30% | −0,92 |
-| Futures Nasdaq-100 | +0,64% dari penutupan sebelumnya (28.307,25) | +1,28 | 20% | +1,28 |
-| Futures S&P 500 | +0,12% dari penutupan sebelumnya (7.583,25) | +0,30 | 5% | +0,07 |
+| Berita berbobot | skor rata-rata −0,69 dari 26 kejadian bernilai; 41% bobot bullish | −0,58 | 30% | −0,87 |
+| Futures Nasdaq-100 | +0,69% dari penutupan sebelumnya (28.322,00) | +1,38 | 20% | +1,38 |
+| Futures S&P 500 | +0,15% dari penutupan sebelumnya (7.586,00) | +0,37 | 5% | +0,09 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,911% (+1,7 bp dari sesi sebelumnya) | −0,42 | 10% | −0,21 |
-| VIX (volatilitas) | 20,88 (−1,3% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $101,97 (−2,67% dari sesi sebelumnya) | +0,83 | 5% | +0,21 |
-| Indeks dolar | +0,02% dari penutupan sebelumnya (101,77) | +0,05 | 5% | +0,01 |
+| Yield obligasi 10 tahun | 4,912% (+1,8 bp dari sesi sebelumnya) | −0,45 | 10% | −0,22 |
+| VIX (volatilitas) | 20,82 (−1,6% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $101,90 (−2,74% dari sesi sebelumnya) | +0,87 | 5% | +0,22 |
+| Indeks dolar | 0,00% dari penutupan sebelumnya (101,75) | 0,00 | 5% | 0,00 |
 | Tren Nasdaq 5 sesi | −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.325 (+0,64%).
+Perkiraan pembukaan dari futures: 25.338 (+0,69%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
@@ -36,10 +36,10 @@ Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 - **+1,2** Fiserv stock climbs as Q3 earnings beat, cost savings guidance revised up (TradingView). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** AI Revenues Surge—Why Is Free Cash Flow Turning Negative? (Moomoo). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,1** AI Infrastructure Stocks Selloff: Intel Crash, AMD Earnings & NVIDIA Outlook (Intellectia AI). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,9** Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's AI-Driven Rally With 6 Blunt Words (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,9** Apple earnings beat fails to impress Wall Street as tech shares struggle ahead of US midterms (investingLive). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,8** World ETF Holds Double-Digit 2026 Gain as AI Spending Doubts Rattle Global Markets (ad-hoc-news.de). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+0,7** Despite Apple's earnings beat, Wall Street has a big 'concern' about next quarter (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+0,7** Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's AI-Driven Rally With 6 Blunt Words (The Motley Fool). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-11-03: JOLTS lowongan kerja (September) (sedang)
