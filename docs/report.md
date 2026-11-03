@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T23:17:58+07:00 · sesi Selasa 3 Nov (berjalan)_
+_Diperbarui 2026-11-03T23:18:58+07:00 · sesi Selasa 3 Nov (berjalan)_
 
 Peluang indeks naik **38%**, turun **62%** (skor −4,0 dari ±10, keyakinan 71%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,03% dari penutupan sebelumnya (28.416,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,98): +0,99% dari penutupan sebelumnya (28.405,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,26): Skor rata-rata −1,01 dari 27 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +3,74% dari penutupan sebelumnya (10.714,73). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,56): 4,939% (+4,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,06% dalam 5 sesi; 8,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Semikonduktor (SOX)** (+1,00): +3,67% dari penutupan sebelumnya (10.707,45). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,59): 4,941% (+4,7 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Tren Nasdaq 5 sesi** (−0,38): −4,07% dalam 5 sesi; 8,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,01 dari 27 kejadian bernilai; 34% bobot bullish | −0,84 | 30% | −1,26 |
-| Futures Nasdaq-100 | +1,03% dari penutupan sebelumnya (28.416,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,54% dari penutupan sebelumnya (7.615,25) | +1,35 | 5% | +0,34 |
-| Semikonduktor (SOX) | +3,74% dari penutupan sebelumnya (10.714,73) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,939% (+4,5 bp dari sesi sebelumnya) | −1,12 | 10% | −0,56 |
-| VIX (volatilitas) | 20,34 (−3,8% dari sesi sebelumnya); VXN (Nasdaq-100) 30,16 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,19 (−1,51% dari sesi sebelumnya) | +0,26 | 5% | +0,07 |
-| Indeks dolar | +0,07% dari penutupan sebelumnya (101,82) | +0,18 | 5% | +0,04 |
-| Tren Nasdaq 5 sesi | −4,06% dalam 5 sesi; 8,4% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Futures Nasdaq-100 | +0,99% dari penutupan sebelumnya (28.405,00) | +1,98 | 20% | +1,98 |
+| Futures S&P 500 | +0,52% dari penutupan sebelumnya (7.614,25) | +1,30 | 5% | +0,33 |
+| Semikonduktor (SOX) | +3,67% dari penutupan sebelumnya (10.707,45) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,941% (+4,7 bp dari sesi sebelumnya) | −1,18 | 10% | −0,59 |
+| VIX (volatilitas) | 20,36 (−3,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,16 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $103,16 (−1,54% dari sesi sebelumnya) | +0,27 | 5% | +0,07 |
+| Indeks dolar | +0,08% dari penutupan sebelumnya (101,83) | +0,20 | 5% | +0,05 |
+| Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 8,4% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.424 (+1,03%).
+Perkiraan pembukaan dari futures: 25.413 (+0,99%).
 Rentang wajar 1σ (VXN): 24.686 sampai 25.642.
 
 ## Berita paling berdampak
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 24.686 sampai 25.642.
 - **−1,1** Oil prices climb after U.S. strikes Iran's Qeshm Island in Strait of Hormuz (Quartz). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+1,0** Micron, Nvidia, and AMD lead chip stocks rebound (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+1,0** Fiserv stock climbs as Q3 earnings beat, cost savings guidance revised up (TradingView). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,0** Stock Market Today: Dow Futures Drop as Apple Sinks After Earnings; Chip Stocks Rebound as AMD Results Loom (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,9** Stock Market Today: Dow Futures Drop as Apple Sinks After Earnings; Chip Stocks Rebound as AMD Results Loom (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-03: JOLTS lowongan kerja (September) (sedang)
