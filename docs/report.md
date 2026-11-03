@@ -1,26 +1,26 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T06:10:57+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T06:11:56+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
-Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 66%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 61%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,11% dari penutupan sebelumnya (28.439,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,11% dari penutupan sebelumnya (28.438,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Berita berbobot** (−0,48): Skor rata-rata −0,39 dari 33 kejadian bernilai; 51% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,38): −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (+0,31): +0,50% dari penutupan sebelumnya (7.612,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,39 dari 33 kejadian bernilai; 51% bobot bullish | −0,32 | 30% | −0,48 |
-| Futures Nasdaq-100 | +1,11% dari penutupan sebelumnya (28.439,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,52% dari penutupan sebelumnya (7.613,75) | +1,30 | 5% | +0,33 |
+| Berita berbobot | skor rata-rata −0,14 dari 30 kejadian bernilai; 56% bobot bullish | −0,12 | 30% | −0,18 |
+| Futures Nasdaq-100 | +1,11% dari penutupan sebelumnya (28.438,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,50% dari penutupan sebelumnya (7.612,25) | +1,25 | 5% | +0,31 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
 | VIX (volatilitas) | 20,83 (−1,5% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $104,42 (−0,33% dari sesi sebelumnya) | −0,33 | 5% | −0,08 |
-| Indeks dolar | +0,15% dari penutupan sebelumnya (101,90) | +0,37 | 5% | +0,09 |
+| Minyak Brent | $104,32 (−0,43% dari sesi sebelumnya) | −0,29 | 5% | −0,07 |
+| Indeks dolar | +0,13% dari penutupan sebelumnya (101,89) | +0,33 | 5% | +0,08 |
 | Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
@@ -30,8 +30,6 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
 - **−2,1** US China Export Controls Threaten SK Hynix's Multi-Billion-Dollar New York Chip Expansion Plan (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,9** Canada 10-year bond yield rises as U.S. Treasury yields climb ahead of midterms (Investing.com Canada). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,5** Oracle Expects Capex To Fall In FY29 - I’m Bullish, But The Debt Warrants Patience (ORCL) (Seeking Alpha). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,5** Stock Sell-Off, Bond Market Jitters Signal Financing Trouble For AI Data Centers (Bisnow). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Philadelphia Semiconductor Index Plunges 3.4%: Samsung Electronics Falls to approximately $160, SK Hynix Breaks Below 1.4 Million Won (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,2** Stock Market Today, Nov. 3: Grab Holdings Jumps 9% on Q3 Revenue Beat and Raised 2026 Outlook (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -41,6 +39,8 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 - **−1,1** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,0** US Stocks Open Mixed: Dow Edges Lower, Nasdaq Gains 0.36%, Apple Slumps 3.8% (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Oil rises after report of US strike on Iran's Qeshm Island (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **+0,9** NVDA Stock Rebounds Off $200 Support after the Nvidia CEO Comments and Anthropic Expansion (FXLeaders). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **+0,9** Stock Market Today, Nov. 3: Markets Edge Higher as Semiconductor Stocks Rebound (The Motley Fool). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-11-03: JOLTS lowongan kerja (September) (sedang)
