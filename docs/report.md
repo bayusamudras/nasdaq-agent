@@ -1,24 +1,25 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T15:31:33+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T15:32:33+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
-Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 75%, 78% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 79%, 87% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (−1,00): −3,37% dari penutupan sebelumnya (10.328,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+0,44): 4,894% (−3,5 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
+- **Berita berbobot** (−0,38): Skor rata-rata −0,30 dari 27 kejadian bernilai; 48% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (−0,34): $106,53 (+1,68% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
+- **Minyak Brent** (−0,33): $106,51 (+1,66% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,23 dari 26 kejadian bernilai; 49% bobot bullish | −0,19 | 30% | −0,29 |
-| Futures Nasdaq-100 | +0,06% dari penutupan sebelumnya (28.144,50) | +0,12 | 20% | +0,12 |
-| Futures S&P 500 | −0,15% dari penutupan sebelumnya (7.563,25) | −0,37 | 5% | −0,09 |
+| Berita berbobot | skor rata-rata −0,30 dari 27 kejadian bernilai; 48% bobot bullish | −0,25 | 30% | −0,38 |
+| Futures Nasdaq-100 | +0,06% dari penutupan sebelumnya (28.143,50) | +0,12 | 20% | +0,12 |
+| Futures S&P 500 | −0,15% dari penutupan sebelumnya (7.563,00) | −0,37 | 5% | −0,09 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,88 | 10% | +0,44 |
-| VIX (volatilitas) | 21,64 (+2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $106,53 (+1,68% dari sesi sebelumnya) | −1,34 | 5% | −0,34 |
+| VIX (volatilitas) | 21,66 (+2,4% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $106,51 (+1,66% dari sesi sebelumnya) | −1,33 | 5% | −0,33 |
 | Indeks dolar | −0,05% dari penutupan sebelumnya (101,70) | −0,12 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
@@ -38,7 +39,7 @@ Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 - **+0,9** Apple beats sales and profit expectations but AI costs weigh on holiday sales (Gulf News). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+0,9** Treasury Yields Extend Past Month’s Slide as Oil Prices Drop (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,9** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,9** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **+0,8** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,8** AI Capex and Bubble Fears (Meta, Alphabet, Anthropic IPO, Shiller P/E) (Gotrade). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 
 ## Kalender risiko
