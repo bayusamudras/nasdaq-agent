@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T05:50:47+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T05:51:47+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,1 dari ±10, keyakinan 67%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -29,7 +29,7 @@ Perkiraan pembukaan dari futures: 25.633 (+1,03%).
 Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
-- **−2,2** US China Export Controls Threaten SK Hynix's Multi-Billion-Dollar New York Chip Expansion Plan (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−2,1** US China Export Controls Threaten SK Hynix's Multi-Billion-Dollar New York Chip Expansion Plan (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,9** Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring (24/7 Wall St.). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,6** Oracle Expects Capex To Fall In FY29 - I’m Bullish, But The Debt Warrants Patience (ORCL) (Seeking Alpha). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,6** Stock Sell-Off, Bond Market Jitters Signal Financing Trouble For AI Data Centers (Bisnow). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
