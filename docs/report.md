@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-03T11:50:59+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T11:51:59+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
 Peluang indeks naik **51%**, turun **49%** (skor −0,8 dari ±10, keyakinan 58%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -13,23 +13,23 @@ Peluang indeks naik **51%**, turun **49%** (skor −0,8 dari ±10, keyakinan 58%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,49 dari 23 kejadian bernilai; 60% bobot bullish | +0,41 | 30% | +0,61 |
-| Futures Nasdaq-100 | +0,02% dari penutupan sebelumnya (28.133,50) | +0,04 | 20% | +0,04 |
-| Futures S&P 500 | −0,13% dari penutupan sebelumnya (7.564,75) | −0,33 | 5% | −0,08 |
+| Futures Nasdaq-100 | −0,01% dari penutupan sebelumnya (28.124,50) | −0,02 | 20% | −0,02 |
+| Futures S&P 500 | −0,15% dari penutupan sebelumnya (7.563,25) | −0,37 | 5% | −0,09 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,88 | 10% | +0,44 |
 | VIX (volatilitas) | 21,15 (+8,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $105,22 (+0,43% dari sesi sebelumnya) | −0,71 | 5% | −0,18 |
+| Minyak Brent | $105,26 (+0,47% dari sesi sebelumnya) | −0,73 | 5% | −0,18 |
 | Indeks dolar | +0,04% dari penutupan sebelumnya (101,79) | +0,10 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.169 (+0,02%).
+Perkiraan pembukaan dari futures: 25.162 (−0,01%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
 - **−3,2** Oil rises after report of US strike on Iran's Qeshm Island (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **+2,7** U.S. Treasury, European Bond Yields Fall as Oil Prices Drop (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **+2,6** U.S. Treasury, European Bond Yields Fall as Oil Prices Drop (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+2,0** Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,9** Apple beats sales and profit expectations but AI costs weigh on holiday sales (BNN Bloomberg). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** Despite Apple's earnings beat, Wall Street has a big 'concern' about next quarter (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
