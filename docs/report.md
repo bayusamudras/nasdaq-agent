@@ -1,30 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T09:42:59+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T09:43:59+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
-Peluang indeks naik **42%**, turun **58%** (skor −3,1 dari ±10, keyakinan 75%, 71% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 64%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,02% dari penutupan sebelumnya (28.244,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,98): −0,99% dari penutupan sebelumnya (28.250,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,37% dari penutupan sebelumnya (10.328,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (+0,44): 4,894% (−3,5 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
+- **Berita berbobot** (+0,43): Skor rata-rata +0,35 dari 23 kejadian bernilai; 53% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Berita berbobot** (+0,32): Skor rata-rata +0,25 dari 25 kejadian bernilai; 52% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,25 dari 25 kejadian bernilai; 52% bobot bullish | +0,21 | 30% | +0,32 |
-| Futures Nasdaq-100 | −1,02% dari penutupan sebelumnya (28.244,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,47% dari penutupan sebelumnya (7.578,25) | −1,17 | 5% | −0,29 |
+| Berita berbobot | skor rata-rata +0,35 dari 23 kejadian bernilai; 53% bobot bullish | +0,29 | 30% | +0,43 |
+| Futures Nasdaq-100 | −0,99% dari penutupan sebelumnya (28.250,25) | −1,98 | 20% | −1,98 |
+| Futures S&P 500 | −0,47% dari penutupan sebelumnya (7.578,50) | −1,17 | 5% | −0,29 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,35 | 10% | +0,18 |
+| Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,88 | 10% | +0,44 |
 | VIX (volatilitas) | 21,15 (+8,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
 | Minyak Brent | $104,78 (−10,93% dari sesi sebelumnya) | +1,00 | 5% | +0,25 |
-| Indeks dolar | +0,11% dari penutupan sebelumnya (101,86) | +0,27 | 5% | +0,07 |
+| Indeks dolar | +0,10% dari penutupan sebelumnya (101,86) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 24.908 (−1,02%).
+Perkiraan pembukaan dari futures: 24.915 (−0,99%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
@@ -37,9 +38,9 @@ Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 - **−1,1** OpenAI IPO Valuation Target Reportedly Trimmed By $150B After Nasdaq 100 Registers Worst Month Since March 2025 Following Brutal Tech Sell-Off (Stocktwits). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Hassett Says AI Sector Is "Cash-Rich" and Faces No Broad Selloff Risk—But What About the $600 Billion Debt Burden? (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** War, tariffs and China: What the US midterms mean for the Asia-Pacific (Al Jazeera). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,1** Applied Digital Slumps 8% as CEO Says 800 MW Still Needs Financing; Nebius and CoreWeave Fall 6% (24/7 Wall St.). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Oil Prices Extend Gains on Escalating Middle East Hostilities (EnergyNow.com). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **+0,8** Oil price falls amid hope of a breakthrough to end Iran war (The Guardian). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **+0,8** Rocket Companies Jumps 9%, Compass and Zillow Surge 8% as Treasury Yields Retreat (24/7 Wall St.). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 
 ## Kalender risiko
 - 2026-11-02: Laporan laba Apple (setelah penutupan) (tinggi)
