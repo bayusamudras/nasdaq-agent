@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T00:52:30+07:00 · sesi Selasa 3 Nov (berjalan)_
+_Diperbarui 2026-11-04T00:53:30+07:00 · sesi Selasa 3 Nov (berjalan)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,2 dari ±10, keyakinan 73%, 61% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **38%**, turun **62%** (skor −4,1 dari ±10, keyakinan 73%, 61% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,48): +0,74% dari penutupan sebelumnya (28.335,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +3,05% dari penutupan sebelumnya (10.642,90). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+1,48): +0,74% dari penutupan sebelumnya (28.336,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +3,11% dari penutupan sebelumnya (10.649,19). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,84): Skor rata-rata −0,67 dari 29 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (−0,83): 4,960% (+6,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,00% dalam 5 sesi; 8,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Yield obligasi 10 tahun** (−0,80): 4,958% (+6,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Tren Nasdaq 5 sesi** (−0,38): −3,97% dalam 5 sesi; 8,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,67 dari 29 kejadian bernilai; 43% bobot bullish | −0,56 | 30% | −0,84 |
-| Futures Nasdaq-100 | +0,74% dari penutupan sebelumnya (28.335,50) | +1,48 | 20% | +1,48 |
-| Futures S&P 500 | +0,34% dari penutupan sebelumnya (7.600,00) | +0,85 | 5% | +0,21 |
-| Semikonduktor (SOX) | +3,05% dari penutupan sebelumnya (10.642,90) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,960% (+6,6 bp dari sesi sebelumnya) | −1,65 | 10% | −0,83 |
-| VIX (volatilitas) | 20,95 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,57 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,40 (−1,31% dari sesi sebelumnya) | +0,16 | 5% | +0,04 |
-| Indeks dolar | +0,05% dari penutupan sebelumnya (101,80) | +0,12 | 5% | +0,03 |
-| Tren Nasdaq 5 sesi | −4,00% dalam 5 sesi; 8,3% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Futures Nasdaq-100 | +0,74% dari penutupan sebelumnya (28.336,75) | +1,48 | 20% | +1,48 |
+| Futures S&P 500 | +0,34% dari penutupan sebelumnya (7.600,25) | +0,85 | 5% | +0,21 |
+| Semikonduktor (SOX) | +3,11% dari penutupan sebelumnya (10.649,19) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,958% (+6,4 bp dari sesi sebelumnya) | −1,60 | 10% | −0,80 |
+| VIX (volatilitas) | 20,96 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,59 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $103,37 (−1,34% dari sesi sebelumnya) | +0,17 | 5% | +0,04 |
+| Indeks dolar | +0,04% dari penutupan sebelumnya (101,80) | +0,10 | 5% | +0,03 |
+| Tren Nasdaq 5 sesi | −3,97% dalam 5 sesi; 8,3% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
 Perkiraan pembukaan dari futures: 25.351 (+0,74%).
-Rentang wajar 1σ (VXN): 24.680 sampai 25.649.
+Rentang wajar 1σ (VXN): 24.679 sampai 25.649.
 
 ## Berita paling berdampak
 - **−2,6** Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring (24/7 Wall St.). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
