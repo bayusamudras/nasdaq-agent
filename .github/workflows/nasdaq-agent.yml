@@ -41,7 +41,7 @@ jobs:
           while [ "$SECONDS" -lt "$END" ]; do
             START=$SECONDS
             python agent.py --out docs || echo "agen gagal pada putaran ini"
-            git add docs/report.json docs/report.md docs/history.json docs/history.csv
+            git add docs/report.json docs/report.md docs/history.json docs/history.csv docs/cot.json
             if ! git diff --cached --quiet; then
               git commit -q -m "Update laporan Nasdaq"
               for i in 1 2 3; do

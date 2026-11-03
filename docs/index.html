@@ -289,6 +289,19 @@ section[id] { scroll-margin-top: 16px; }
 .zone.premium { background: var(--bear-soft); color: var(--bear); } .zone.discount { background: var(--bull-soft); color: var(--bull); } .zone.equilibrium { background: var(--flat-soft); color: var(--flat); }
 html, body { overflow-x: clip; }
 .mini > div { min-width: 0; overflow-wrap: anywhere; }
+.meter { position: relative; height: 12px; border-radius: 999px; background: linear-gradient(90deg, var(--bear), #3a4570 50%, var(--bull)); margin: 8px 0 4px; }
+.meter i { position: absolute; top: -4px; width: 4px; height: 20px; border-radius: 2px; background: var(--ink); box-shadow: 0 0 0 3px var(--card); }
+.gate { display: grid; grid-template-columns: 78px minmax(0, 1fr); gap: 10px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 13px; }
+.gate:first-child { border-top: 0; }
+.gate .st { font-size: 11px; font-weight: 700; text-align: center; padding: 3px 0; border-radius: 999px; height: fit-content; background: var(--surface); color: var(--muted); }
+.gate .st.on { background: var(--flat-soft); color: var(--flat); }
+.gate .st.ok { background: var(--bull-soft); color: var(--bull); }
+.tone { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; }
+.tone.h { background: var(--bear-soft); color: var(--bear); } .tone.d { background: var(--bull-soft); color: var(--bull); } .tone.n { background: var(--surface); color: var(--muted); }
+.cotbars { display: flex; align-items: flex-end; gap: 6px; height: 54px; margin: 8px 0 2px; }
+.cotbars div { flex: 1; background: var(--sky); border-radius: 4px 4px 0 0; opacity: .75; position: relative; min-height: 3px; }
+.cotbars div:last-child { opacity: 1; background: var(--blue); }
+.chip.m7 { background: rgba(143,165,255,.16); color: var(--blue); }
 </style>
 </head>
 <body>
@@ -362,6 +375,9 @@ html, body { overflow-x: clip; }
         <h3>Papan faktor: apa saja yang membentuk bias</h3>
         <p class="note">Tiap faktor diberi sinyal −2 sampai +2, dikali bobot. Batang menunjukkan sumbangan ke skor akhir (kiri bearish, kanan bullish).</p>
         <div id="factors"></div>
+        <h4 style="margin:16px 0 6px;font-size:14px">Pembatas dan pengunci bias</h4>
+        <p class="note">Aturan ini bisa memangkas skor akhir bila ada anomali, supaya bias tidak memaksakan berita saat sinyal lain berlawanan.</p>
+        <div id="gates"></div>
       </section>
 
       <section class="card" id="berita">
@@ -374,6 +390,7 @@ html, body { overflow-x: clip; }
             <button type="button" data-f="small" aria-pressed="false">Kecil, berdampak besar</button>
           </div>
         </div>
+        <div id="fedradar"></div>
         <p class="note">Berita yang sama dari banyak media digabung (kemiripan kata atau teks ≥80%) dan dihitung satu kali dengan bonus konfirmasi kecil. Bobot memperhitungkan kredibilitas sumber dan usia berita.</p>
         <div id="news"></div>
       </section>
@@ -568,6 +585,38 @@ function render() {
   var FD = R.feeds || {}, fk = Object.keys(FD);
   $("feedbox").innerHTML = fk.length ? fk.map(function (k) { var f = FD[k]; return '<span class="' + (f.ok ? "" : "bad") + '" title="' + esc(f.err || f.at) + '">' + esc(k) + (f.ok ? " ✓" : " ✗") + "</span>"; }).join("") : "";
 
+  /* Gerbang, COT, Fed overlay */
+  var G = (v.gates || []).slice(), gh = "";
+  if (V2) {
+    gh += '<div class="gate"><span class="st ' + (v.fed_overlay ? "on" : "") + '">' + (v.fed_overlay ? fmt(v.fed_overlay) : "0") + '</span><div><b>Overlay Fed Speak</b><div class="cap" style="margin:2px 0">Nada pejabat The Fed (hawkish = penalti, dovish = bonus), maksimum ±5. Berita Fed dihitung lewat overlay ini, bukan dua kali.</div></div></div>';
+    if (R.earnings_week && R.earnings_week.length) gh += '<div class="gate"><span class="st on">AKTIF</span><div><b>Pekan laporan Mag7: ' + R.earnings_week.map(function (e) { return esc(e.ticker); }).join(", ") + '</b><div class="cap" style="margin:2px 0">Bobot berita makro biasa dan overlay Fed dikurangi 50%, karena likuiditas didikte hasil laporan perusahaan.</div></div></div>';
+    G.forEach(function (g) {
+      gh += '<div class="gate"><span class="st ' + (g.active ? "on" : "ok") + '">' + (g.active ? "AKTIF" : "AMAN") + "</span><div><b>" + esc(g.name) + '</b><div class="cap" style="margin:2px 0">' + esc(g.detail || "") + (g.active ? ". <b>" + esc(g.effect) + "</b>. " + esc(g.note || "") : "") + "</div></div></div>";
+    });
+    if (v.breaker) gh += '<div class="gate"><span class="st ' + (v.breaker.active ? "on" : "ok") + '">' + (v.breaker.active ? "AKTIF" : "AMAN") + '</span><div><b>Pemutus sirkuit struktur harga (sweep/FVG)</b><div class="cap" style="margin:2px 0">' + (v.breaker.active ? esc(v.breaker.reason) : "Struktur harga tidak berlawanan dengan bias.") + "</div></div></div>";
+    gh += '<p class="cap">Skor dasar ' + fmt(v.base_score) + ", setelah overlay Fed " + fmt(v.pre_gate_score) + ", skor akhir " + fmt(idx) + ".</p>";
+    var CO = R.cot;
+    if (CO) {
+      var mx = Math.max.apply(null, CO.series.map(function (x) { return Math.abs(x.am_net); }).concat([1]));
+      gh += '<div style="margin-top:10px"><b>Tren institusi mingguan (COT, Nasdaq Mini)</b> <span class="tone ' + (CO.trend === "distribusi" ? "h" : CO.trend === "akumulasi" ? "d" : "n") + '">' + esc(CO.trend) + '</span><div class="cotbars" title="Net long asset manager per minggu">' + CO.series.map(function (x) { return '<div style="height:' + Math.max(6, Math.round(Math.abs(x.am_net) / mx * 100)) + '%" title="' + esc(x.date + ": " + x.am_net) + '"></div>'; }).join("") + '</div><p class="cap">' + esc(CO.text) + " Laporan " + esc(CO.report_date) + ". Net asset manager " + CO.am_net.toLocaleString("id-ID") + " (" + fmt(CO.d_week1, 0) + " minggu ini). Hedge fund (leveraged) net " + CO.lev_net.toLocaleString("id-ID") + (CO.stale ? ". <b>Data COT lama, pembaruan gagal.</b>" : "") + "</p></div>";
+    } else gh += '<p class="cap">Data COT belum tersedia (API CFTC belum merespons). Batas tren institusi tidak aktif.</p>';
+  }
+  $("gates").innerHTML = V2 ? gh : "";
+
+  /* Fed Speak Radar */
+  var FR = R.fed_radar, fh = "";
+  if (FR) {
+    fh += '<div class="imp1 flat" style="border-radius:12px;margin-bottom:12px"><b>Fed Speak Radar</b>';
+    fh += '<div class="meter"><i style="left:calc(' + ((FR.meter + 1) / 2 * 100).toFixed(0) + '% - 2px)"></i></div><div class="scale"><span>Hawkish</span><span>Netral</span><span>Dovish</span></div>';
+    fh += '<span>Overlay ke skor harian: <b class="' + cls(FR.overlay) + '">' + fmt(FR.overlay) + "</b> (maks ±5). " + FR.n_scored + " pernyataan bernada" + (FR.earnings_week_halved ? ", dikurangi 50% karena pekan laporan Mag7" : "") + ".</span>";
+    fh += FR.items.length ? FR.items.map(function (i) {
+      var u = safeUrl(i.link);
+      return '<div style="margin-top:8px;font-size:13px"><span class="tone ' + (i.tone < 0 ? "h" : i.tone > 0 ? "d" : "n") + '">' + esc(i.label) + "</span> " + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener" style="color:inherit">' + esc(i.title) + "</a>" : esc(i.title)) + ' <span class="na">' + esc(i.source || "") + " · " + (i.age_h < 1 ? "<1" : Math.round(i.age_h)) + " jam lalu</span></div>";
+    }).join("") : '<div class="cap" style="margin-top:6px">Tidak ada berita pejabat Fed dalam 24 jam terakhir.</div>';
+    fh += "</div>";
+  }
+  $("fedradar").innerHTML = fh;
+
   /* Proyeksi */
   var F = R.forecast;
   if (F) {
@@ -632,12 +681,13 @@ function render() {
 
   /* Kalender */
   var ev = R.events || [];
-  $("events").innerHTML = ev.length ? ev.map(function (e) {
+  var ewb = (R.earnings_week && R.earnings_week.length) ? '<div class="warn" style="margin:0 0 8px">Pekan laporan Mag7 (' + R.earnings_week.map(function (x) { return esc(x.ticker); }).join(", ") + "): berita makro biasa dibobot 50%.</div>" : "";
+  $("events").innerHTML = ewb + (ev.length ? ev.map(function (e) {
     var d = new Date(e.start_utc), t = isNaN(d) ? e.date : d.toLocaleString("id-ID", { weekday: "short", day: "numeric", month: "short", hour: e.time_known ? "2-digit" : undefined, minute: e.time_known ? "2-digit" : undefined, timeZone: "Asia/Jakarta" }).replace(/\./g, ":");
     var hu = e.hours_until;
     var when = hu == null ? "" : hu < 0 ? "sudah lewat" : hu < 24 ? "dalam " + Math.round(hu) + " jam" : "dalam " + Math.round(hu / 24) + " hari";
-    return '<div class="ev"><div class="t">' + esc(t) + '</div><div><b>' + esc(e.name) + '</b><span class="lvl ' + esc(e.impact) + '">' + esc(e.impact) + "</span>" + (e.confirmed ? "" : ' <span class="na">(tanggal belum pasti)</span>') + '<div class="cap" style="margin:2px 0 0">' + when + ". " + esc(e.why) + "</div></div></div>";
-  }).join("") : '<p class="empty">Tidak ada rilis besar dalam waktu dekat.</p>';
+    return '<div class="ev"><div class="t">' + esc(t) + '</div><div><b>' + esc(e.name) + '</b>' + (e.mag7 ? '<span class="chip m7">Mag7</span> ' : '') + '<span class="lvl ' + esc(e.impact) + '">' + esc(e.impact) + "</span>" + (e.confirmed ? "" : ' <span class="na">(tanggal belum pasti)</span>') + '<div class="cap" style="margin:2px 0 0">' + when + ". " + esc(e.why) + "</div></div></div>";
+  }).join("") : '<p class="empty">Tidak ada rilis besar dalam waktu dekat.</p>');
 
   /* Rekam jejak */
   var T = R.track_record;

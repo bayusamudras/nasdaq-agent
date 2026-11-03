@@ -441,6 +441,194 @@ def _quote(symbol):
     return out
 
 
+# ---------------------------------------------------------------------------
+# Fed Speak, Magnificent 7, COT, validator makro
+# ---------------------------------------------------------------------------
+FED_RX = re.compile(r"\b(fed|federal reserve|fomc|powell|warsh|bostic|waller|williams|jefferson|barr|bowman|cook|logan|"
+                    r"goolsbee|kashkari|daly|harker|musalem|hammack|schmid|collins|rate cuts?|rate hikes?|inflation)\b")
+FED_LABELS = {"Risiko kenaikan suku bunga", "Pelonggaran ditunda", "Harapan pelonggaran"}
+MACRO_LABELS = FED_LABELS | {"Imbal hasil naik", "Imbal hasil turun", "Data kerja lemah menurunkan peluang hike", "Data ekonomi kuat",
+                             "Minyak naik", "Minyak turun atau de-eskalasi", "Eskalasi geopolitik", "Kekhawatiran ekonomi",
+                             "Risiko regulasi atau tarif"}
+MAG7 = {"AAPL": "Apple", "MSFT": "Microsoft", "NVDA": "Nvidia", "AMZN": "Amazon", "META": "Meta", "GOOGL": "Alphabet", "TSLA": "Tesla"}
+FED_OVERLAY_MAX = 5.0
+COT_CODE = "209742"  # NASDAQ MINI (E-mini Nasdaq-100) di laporan TFF CFTC
+
+
+def fed_tone(hits):
+    return sum(h["score"] for h in hits if h["label"] in FED_LABELS)
+
+
+def fed_radar(clusters, earnings_week=False):
+    """Pisahkan berita Fed Speak dan hitung overlay skor. Hawkish (tone negatif) = penalti, dovish = bonus.
+    Bobot memuat kredibilitas sumber dan usia berita, jadi berita basi otomatis kecil."""
+    rows, num, den = [], 0.0, 0.0
+    for c in clusters:
+        rep = c["rep"]
+        if not FED_RX.search(rep["title"].lower()):
+            continue
+        tone = fed_tone(rep["hits"])
+        scored = tone != 0
+        rows.append({"title": rep["title"], "source": rep.get("source"), "link": rep.get("link"), "age_h": rep["age_h"],
+                     "tone": tone, "label": "Hawkish" if tone < 0 else "Dovish" if tone > 0 else "Netral",
+                     "weight": round(c["weight"], 2), "scored": scored, "sources_count": c["n"]})
+        if scored:
+            num += c["weight"] * tone; den += c["weight"]
+    avg = num / den if den else 0.0
+    strength = min(1.0, den / 1.0)
+    overlay = clamp(avg / 2 * FED_OVERLAY_MAX, -FED_OVERLAY_MAX, FED_OVERLAY_MAX) * strength
+    if earnings_week:
+        overlay *= 0.5
+    rows.sort(key=lambda r: -abs(r["tone"]) * r["weight"])
+    return {"items": rows[:10], "n_scored": sum(1 for r in rows if r["scored"]), "avg_tone": round(avg, 2),
+            "strength": round(strength, 2), "overlay": round(overlay, 2),
+            "meter": round(clamp(avg / 3, -1, 1), 2), "earnings_week_halved": earnings_week}
+
+
+def earnings_week(market, now):
+    """Mag7 yang melapor dari 3 hari sebelum sampai 1 hari sesudah: berita makro biasa dikurangi 50%."""
+    act = []
+    for e in market.get("mag7_earnings") or []:
+        t = dt.datetime.fromtimestamp(e["ts"], UTC)
+        h = (t - now).total_seconds() / 3600
+        if -24 <= h <= 72:
+            act.append({"ticker": e["ticker"], "name": MAG7.get(e["ticker"], e["ticker"]), "start_utc": t.isoformat(timespec="minutes"),
+                        "hours_until": round(h, 1)})
+    return act
+
+
+def mag7_events(market, now):
+    out = []
+    for e in market.get("mag7_earnings") or []:
+        t = dt.datetime.fromtimestamp(e["ts"], UTC)
+        if t < now - dt.timedelta(hours=24):
+            continue
+        d = to_et(t).date().isoformat()
+        out.append({"date": d, "start_utc": t.isoformat(timespec="minutes"), "time_known": True,
+                    "name": f"Laporan laba {MAG7.get(e['ticker'], e['ticker'])} ({e['ticker']})", "impact": "tinggi",
+                    "confirmed": e.get("confirmed", False), "mag7": True,
+                    "why": f"{MAG7.get(e['ticker'], e['ticker'])} termasuk 7 saham yang memegang lebih dari 40% bobot Nasdaq-100. Selama pekan laporan, hasil perusahaan lebih menggerakkan indeks daripada data makro, sehingga bobot berita makro dikurangi 50%.",
+                    "hours_until": round((t - now).total_seconds() / 3600, 1)})
+    return out
+
+
+def fetch_mag7_earnings():
+    """Tanggal laporan laba tiap saham Mag7 dari Yahoo (quoteSummary/calendarEvents)."""
+    op, crumb = _yahoo_crumb()
+    out, errs = [], []
+    for tk in MAG7:
+        try:
+            url = f"https://query1.finance.yahoo.com/v10/finance/quoteSummary/{tk}?modules=calendarEvents&crumb={urllib.parse.quote(crumb)}"
+            r = json.loads(op.open(url, timeout=15).read())["quoteSummary"]["result"][0]["calendarEvents"]["earnings"]
+            dates = [d["raw"] for d in r.get("earningsDate", []) if d.get("raw")]
+            if dates:
+                out.append({"ticker": tk, "ts": min(dates), "confirmed": len(dates) == 1})
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"{tk}: {str(e)[:40]}")
+    if not out:
+        raise RuntimeError("; ".join(errs[:2]) or "tidak ada tanggal")
+    return out
+
+
+def fetch_cot():
+    """Laporan COT (TFF, futures only) kontrak Nasdaq Mini dari API publik CFTC. Terbaru di urutan pertama."""
+    url = ("https://publicreporting.cftc.gov/resource/gpe5-46if.json?cftc_contract_market_code=" + COT_CODE +
+           "&$order=report_date_as_yyyy_mm_dd%20DESC&$limit=8")
+    rows = json.loads(_http(url, timeout=25))
+    out = []
+    for r in rows:
+        try:
+            al, ash = int(float(r["asset_mgr_positions_long"])), int(float(r["asset_mgr_positions_short"]))
+            ll, ls = int(float(r["lev_money_positions_long"])), int(float(r["lev_money_positions_short"]))
+            out.append({"date": r["report_date_as_yyyy_mm_dd"][:10], "am_long": al, "am_short": ash, "am_net": al - ash,
+                        "lev_long": ll, "lev_short": ls, "lev_net": ll - ls,
+                        "oi": int(float(r.get("open_interest_all", 0)))})
+        except (KeyError, ValueError):
+            continue
+    if len(out) < 3:
+        raise RuntimeError("data COT kurang dari 3 minggu")
+    return out
+
+
+def load_cot(path, now, injected=None):
+    """Cache di docs/cot.json; ambil ulang bila lebih tua dari 12 jam (rilis mingguan, Jumat sore ET)."""
+    if injected:
+        return {"rows": injected, "fetched_at": now.isoformat(timespec="minutes"), "stale": False}
+    cache = None
+    if path and os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                cache = json.load(f)
+        except Exception:  # noqa: BLE001
+            cache = None
+    fa = parse_time(cache.get("fetched_at")) if cache else None
+    if cache and fa and (now - fa).total_seconds() < 12 * 3600:
+        return {**cache, "stale": False}
+    try:
+        rows = fetch_cot()
+        res = {"rows": rows, "fetched_at": now.isoformat(timespec="minutes")}
+        if path:
+            os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(res, f, ensure_ascii=False)
+        return {**res, "stale": False}
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] COT: {e}", file=sys.stderr)
+        return {**cache, "stale": True, "err": str(e)[:80]} if cache else {"rows": [], "err": str(e)[:80], "stale": True}
+
+
+def analyze_cot(cot):
+    rows = (cot or {}).get("rows") or []
+    if len(rows) < 3:
+        return None
+    n0, n1, n2 = rows[0]["am_net"], rows[1]["am_net"], rows[2]["am_net"]
+    d1, d2 = n0 - n1, n1 - n2
+    trend = "distribusi" if d1 < 0 and d2 < 0 else "akumulasi" if d1 > 0 and d2 > 0 else "campuran"
+    text = {"distribusi": "Asset manager mengurangi net long dua minggu berturut-turut: uang besar sedang distribusi.",
+            "akumulasi": "Asset manager menambah net long dua minggu berturut-turut: uang besar sedang akumulasi.",
+            "campuran": "Posisi asset manager naik-turun, tidak ada tren dua minggu yang jelas."}[trend]
+    return {"report_date": rows[0]["date"], "trend": trend, "text": text, "am_net": n0, "d_week1": d1, "d_week2": d2,
+            "lev_net": rows[0]["lev_net"], "lev_d": rows[0]["lev_net"] - rows[1]["lev_net"],
+            "series": [{"date": r["date"], "am_net": r["am_net"], "lev_net": r["lev_net"]} for r in rows[:6]][::-1],
+            "stale": bool((cot or {}).get("stale")), "fetched_at": (cot or {}).get("fetched_at")}
+
+
+def apply_gates(score, market, cot_an, structure_breaker_active=False):
+    """Pengunci bias: yield/DXY (validator makro) dan batas tren institusi (COT). Mengembalikan (skor, daftar gerbang)."""
+    gates = []
+    y = (market.get("yield10") or {}).get("change_pct")
+    d = (market.get("dxy") or {}).get("change_pct")
+    nq = (market.get("nq_fut") or {}).get("change_pct")
+    y_up, y_dn = y is not None and y > 0.5, y is not None and y < -0.5
+    d_up, d_dn = d is not None and d > 0.3, d is not None and d < -0.3
+    nq_up = nq is not None and nq > 0.3
+    g = {"key": "validator", "name": "Validator makro (yield dan dolar)", "active": False,
+         "detail": "Yield 10 tahun " + (fnum(y, 2, True) + "%" if y is not None else "n/a") + ", DXY " + (fnum(d, 2, True) + "%" if d is not None else "n/a"),
+         "effect": None}
+    if score >= 5 and y_up:
+        g.update(active=True, effect="Skor bullish dipangkas ke +2",
+                 note="Anomali fundamental: berita positif, tetapi yield obligasi naik. NQ berisiko tertekan.")
+        score = min(score, 2.0)
+    elif (y is not None and y > 0.2) and (d is not None and d > 0.2) and (nq is not None and nq > 0.2) and score > 2:
+        g.update(active=True, effect="Skor dibatasi maksimum +2",
+                 note="Anomali berbahaya: NQ naik bersamaan dengan dolar dan yield. Korelasi normalnya terbalik, hindari memaksakan bias bullish.")
+        score = 2.0
+    elif score <= -5 and y_dn and d_dn:
+        g.update(active=True, effect="Skor bearish dilunakkan ke −2",
+                 note="Berita negatif, tetapi yield dan dolar sama-sama turun sehingga gravitasi valuasi justru mendukung NQ.")
+        score = max(score, -2.0)
+    gates.append(g)
+    c = {"key": "cot", "name": "Tren institusi mingguan (COT)", "active": False, "detail": "data COT tidak tersedia", "effect": None}
+    if cot_an:
+        c["detail"] = f"{cot_an['trend']}; net asset manager {cot_an['am_net']:+,} ({cot_an['d_week1']:+,} minggu ini, {cot_an['d_week2']:+,} minggu lalu)"
+        if cot_an["trend"] == "distribusi" and score > 5:
+            c.update(active=True, effect="Skor bullish dibatasi maksimum +5", note=cot_an["text"]); score = 5.0
+        elif cot_an["trend"] == "akumulasi" and score < -5:
+            c.update(active=True, effect="Skor bearish dibatasi minimum −5", note=cot_an["text"]); score = -5.0
+    gates.append(c)
+    return score, gates
+
+
 def analyze_structure(bars):
     """Filter mikrostruktur dari bar per jam NQ: liquidity sweep dan Fair Value Gap (FVG).
     Sweep high: bar baru menembus high 24 bar sebelumnya tetapi ditutup kembali di bawahnya (penolakan).
@@ -802,6 +990,11 @@ def fetch_market(now):
     except Exception as e:  # noqa: BLE001
         print(f"[warn] Alpaca: {e}", file=sys.stderr); mark("alpaca", False, e)
     try:
+        m["mag7_earnings"] = fetch_mag7_earnings()
+        mark("mag7_earnings", True)
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] kalender laba Mag7: {e}", file=sys.stderr); mark("mag7_earnings", False, e)
+    try:
         spot = (m.get("qqq_y") or {}).get("last")
         m["options"] = analyze_options(fetch_option_chain("QQQ"), spot, (m.get("nq_fut") or {}).get("last"), now)
         mark("options", bool(m["options"]), None if m["options"] else "OI kosong atau rantai tidak lengkap")
@@ -960,6 +1153,7 @@ def news_items_out(clusters, limit=40):
         rep, n = c["rep"], c["n"]
         s = rep["score"]
         hits = rep["hits"]
+        fed_item = bool(FED_RX.search(rep["title"].lower())) and fed_tone(hits) != 0
         who = []
         for pat, tk in TICKERS:
             if re.search(pat, rep["title"].lower()) and tk not in who:
@@ -975,7 +1169,7 @@ def news_items_out(clusters, limit=40):
             "published": rep["pub"].isoformat(timespec="minutes") if rep["pub"] else None,
             "age_h": rep["age_h"], "score": s, "weighted": round(c["impact"], 2),
             "direction": "bullish" if s > 0 else "bearish" if s < 0 else "netral", "strength": strength,
-            "theme": theme_of(rep["title"], hits), "sources_count": n,
+            "theme": theme_of(rep["title"], hits), "fed_speak": fed_item, "sources_count": n,
             "sources": sorted({m.get("source") for m in c["members"] if m.get("source")}),
             "labels": [h["label"] for h in hits],
             "impacts": [{"label": h["label"], "direction": "bullish" if h["score"] > 0 else "bearish",
@@ -1073,12 +1267,13 @@ def build_factors(ns, market):
     return F
 
 
-def upcoming_events(now, limit=7):
-    out = []
+def upcoming_events(now, extra=None, limit=8):
+    out = list(extra or [])
+    has_aapl = any("(AAPL)" in e["name"] for e in out)
     for date, hhmm, name, impact, confirmed, why in EVENTS:
         start = et_to_utc(date, hhmm or "09:00")
         end_of_day = et_to_utc(date, "23:59")
-        if end_of_day < now:
+        if end_of_day < now or (has_aapl and "Apple" in name):
             continue
         out.append({"date": date, "start_utc": start.isoformat(timespec="minutes"), "time_known": hhmm is not None,
                     "name": name, "impact": impact, "confirmed": confirmed, "why": why,
@@ -1134,12 +1329,16 @@ def calibrate(entries):
     return info
 
 
-def compose(factors, events, now, calib=None, structure=None):
+def compose(factors, events, now, calib=None, structure=None, fed_overlay=0.0, market=None, cot_an=None):
     avail = [f for f in factors if f["signal"] is not None]
     wsum = sum(f["weight"] for f in factors) or 1  # faktor hilang menyumbang 0, skor menyusut ke netral
     for f in factors:
         f["contribution"] = round(f["signal"] * f["weight"] / wsum * 5, 2) if f["signal"] is not None else None
     score10 = round(sum(f["contribution"] for f in avail), 2)
+    base_score = score10
+    score10 = round(clamp(score10 + fed_overlay, -10, 10), 2)
+    pre_gate = score10
+    score10, gates = apply_gates(score10, market or {}, cot_an)
     breaker = {"active": False}
     if structure and structure.get("available"):
         if score10 >= 5 and structure["bearish"]:
@@ -1183,8 +1382,10 @@ def compose(factors, events, now, calib=None, structure=None):
     return {"bias": bias, "score10": score10, "p_up": round(p_up, 3), "p_down": round(1 - p_up, 3),
             "confidence_pct": conf, "agreement_pct": round(agree * 100),
             "factors_available": len(avail), "factors_total": len(factors),
-            "warnings": [t for _, t in penalties] + ([breaker["reason"] + f" Skor dipangkas dari {breaker['raw_score']:+.1f} menjadi {score10:+.1f}."] if breaker["active"] else []),
-            "breaker": breaker}
+            "warnings": [t for _, t in penalties] + ([breaker["reason"] + f" Skor dipangkas dari {breaker['raw_score']:+.1f} menjadi {score10:+.1f}."] if breaker["active"] else [])
+                        + [g["note"] for g in gates if g["active"]],
+            "breaker": breaker, "base_score": base_score, "fed_overlay": round(fed_overlay, 2),
+            "pre_gate_score": pre_gate, "gates": gates}
 
 
 def build_forecast(market, levels, verdict, factors, clusters_out):
@@ -1482,12 +1683,23 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     regime = detect_regime(market)
     clusters = analyze_news(raw, now, regime)
     structure = analyze_structure(market.get("nq_hourly"))
-    ns = news_stats(clusters)
+    ew = earnings_week(market, now)
+    if ew:  # pekan laporan Mag7: berita makro biasa dikurangi 50%
+        for c in clusters:
+            if any(h["label"] in MACRO_LABELS for h in c["rep"]["hits"]):
+                c["weight"] *= 0.5; c["impact"] *= 0.5
+    radar = fed_radar(clusters, bool(ew))
+    fed_ids = {id(c) for c in clusters if FED_RX.search(c["rep"]["title"].lower()) and fed_tone(c["rep"]["hits"]) != 0}
+    news_clusters = [c for c in clusters if id(c) not in fed_ids]  # Fed Speak dihitung lewat overlay, bukan dua kali
+    ns = news_stats(news_clusters)
     factors = build_factors(ns, market)
-    events = upcoming_events(now)
+    events = upcoming_events(now, mag7_events(market, now))
     entries = load_history(history_path) if history_path else []
     calib = calibrate(entries)
-    verdict = compose(factors, events, now, calib, structure)
+    cot_path = os.path.join(os.path.dirname(history_path) or ".", "cot.json") if history_path else None
+    cot = load_cot(cot_path, now, market.get("cot_rows"))
+    cot_an = analyze_cot(cot)
+    verdict = compose(factors, events, now, calib, structure, radar["overlay"], market, cot_an)
     verdict["calibrated"] = calib["active"]
     # kompatibel dengan dashboard versi 1
     verdict.update(avg_score=ns["avg"], total=round(sum(c["impact"] for c in clusters), 2), scored_items=ns["n_scored"])
@@ -1539,10 +1751,10 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "session": session_info(now), "verdict": verdict, "factors": factors, "reasons": make_reasons(factors),
-        "regime": regime, "structure": structure, **extras, "alerts": alerts,
+        "regime": regime, "structure": structure, "fed_radar": radar, "cot": cot_an, "earnings_week": ew, **extras, "alerts": alerts,
         "fetched_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "feeds": market.get("_feeds") or {}, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
-        "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds")}, "news_stats": ns, "items": items, "llm_summary": None,
+        "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds", "mag7_earnings", "cot_rows")}, "news_stats": ns, "items": items, "llm_summary": None,
         "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.3f+%.3f*skor)))" % (calib["a"], calib["b"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
                         "p_up_range": [0.18, 0.82]},
     }
