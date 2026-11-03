@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T12:26:09+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T12:27:09+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
 Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 74%, 78% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -13,8 +13,8 @@ Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 74%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,25 dari 22 kejadian bernilai; 46% bobot bullish | −0,21 | 30% | −0,32 |
-| Futures Nasdaq-100 | +0,05% dari penutupan sebelumnya (28.140,25) | +0,10 | 20% | +0,10 |
-| Futures S&P 500 | −0,13% dari penutupan sebelumnya (7.565,00) | −0,33 | 5% | −0,08 |
+| Futures Nasdaq-100 | +0,02% dari penutupan sebelumnya (28.133,00) | +0,04 | 20% | +0,04 |
+| Futures S&P 500 | −0,14% dari penutupan sebelumnya (7.564,00) | −0,35 | 5% | −0,09 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,88 | 10% | +0,44 |
 | VIX (volatilitas) | 21,15 (+8,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
@@ -24,7 +24,7 @@ Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 74%
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.177 (+0,05%).
+Perkiraan pembukaan dari futures: 25.169 (+0,02%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
