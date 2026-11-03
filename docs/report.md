@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T04:38:25+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T04:39:25+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,0 dari ±10, keyakinan 72%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **38%**, turun **62%** (skor −4,1 dari ±10, keyakinan 72%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,00% dari penutupan sebelumnya (28.410,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,00% dari penutupan sebelumnya (28.408,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,01): Skor rata-rata −0,81 dari 31 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
@@ -14,8 +14,8 @@ Peluang indeks naik **38%**, turun **62%** (skor −4,0 dari ±10, keyakinan 72%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,81 dari 31 kejadian bernilai; 41% bobot bullish | −0,67 | 30% | −1,01 |
-| Futures Nasdaq-100 | +1,00% dari penutupan sebelumnya (28.410,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,44% dari penutupan sebelumnya (7.607,50) | +1,10 | 5% | +0,28 |
+| Futures Nasdaq-100 | +1,00% dari penutupan sebelumnya (28.408,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,43% dari penutupan sebelumnya (7.606,75) | +1,07 | 5% | +0,27 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
 | VIX (volatilitas) | 20,83 (−1,5% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | −0,50 | 10% | −0,25 |
