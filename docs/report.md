@@ -1,31 +1,31 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-03T22:36:35+07:00 · sesi Selasa 3 Nov (berjalan)_
+_Diperbarui 2026-11-03T22:37:35+07:00 · sesi Selasa 3 Nov (berjalan)_
 
-Peluang indeks naik **56%**, turun **44%** (skor +0,6 dari ±10, keyakinan 56%, 42% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **54%**, turun **46%** (skor +0,1 dari ±10, keyakinan 54%, 42% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,56): +0,78% dari penutupan sebelumnya (28.348,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +3,17% dari penutupan sebelumnya (10.655,44). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,81): Skor rata-rata −0,64 dari 30 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+1,34): +0,67% dari penutupan sebelumnya (28.316,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 27 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (+1,00): +3,19% dari penutupan sebelumnya (10.658,09). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,78): 4,956% (+6,2 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,32% dalam 5 sesi; 8,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Tren Nasdaq 5 sesi** (−0,38): −4,27% dalam 5 sesi; 8,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,64 dari 30 kejadian bernilai; 46% bobot bullish | −0,54 | 30% | −0,81 |
-| Futures Nasdaq-100 | +0,78% dari penutupan sebelumnya (28.348,00) | +1,56 | 20% | +1,56 |
-| Futures S&P 500 | +0,34% dari penutupan sebelumnya (7.600,00) | +0,85 | 5% | +0,21 |
-| Semikonduktor (SOX) | +3,17% dari penutupan sebelumnya (10.655,44) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,90 dari 27 kejadian bernilai; 40% bobot bullish | −0,75 | 30% | −1,12 |
+| Futures Nasdaq-100 | +0,67% dari penutupan sebelumnya (28.316,75) | +1,34 | 20% | +1,34 |
+| Futures S&P 500 | +0,27% dari penutupan sebelumnya (7.595,25) | +0,68 | 5% | +0,17 |
+| Semikonduktor (SOX) | +3,19% dari penutupan sebelumnya (10.658,09) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,956% (+6,2 bp dari sesi sebelumnya) | −1,55 | 10% | −0,78 |
-| VIX (volatilitas) | 20,56 (−2,8% dari sesi sebelumnya); VXN (Nasdaq-100) 30,25 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,93 (−0,80% dari sesi sebelumnya) | −0,10 | 5% | −0,03 |
-| Indeks dolar | +0,17% dari penutupan sebelumnya (101,93) | +0,42 | 5% | +0,11 |
-| Tren Nasdaq 5 sesi | −4,32% dalam 5 sesi; 8,6% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 20,55 (−2,8% dari sesi sebelumnya); VXN (Nasdaq-100) 30,24 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $104,13 (−0,61% dari sesi sebelumnya) | −0,20 | 5% | −0,05 |
+| Indeks dolar | +0,19% dari penutupan sebelumnya (101,94) | +0,47 | 5% | +0,12 |
+| Tren Nasdaq 5 sesi | −4,27% dalam 5 sesi; 8,6% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.361 (+0,78%).
+Perkiraan pembukaan dari futures: 25.333 (+0,67%).
 Rentang wajar 1σ (VXN): 24.685 sampai 25.644.
 
 ## Berita paling berdampak
@@ -36,11 +36,11 @@ Rentang wajar 1σ (VXN): 24.685 sampai 25.644.
 - **−1,3** Treasury yields rise as investors weigh midterm vote, jobs data and Iran tensions (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,1** Oil prices climb after U.S. strikes Iran's Qeshm Island in Strait of Hormuz (Quartz). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+1,1** Micron, Nvidia, and AMD lead chip stocks rebound (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **+1,1** Fiserv stock climbs as Q3 earnings beat, cost savings guidance revised up (TradingView). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** Stock Market Today: Dow Futures Drop as Apple Sinks After Earnings; Chip Stocks Rebound as AMD Results Loom (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** AI Revenues Surge—Why Is Free Cash Flow Turning Negative? (Moomoo). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−0,9** AI Infrastructure Stocks Selloff: Intel Crash, AMD Earnings & NVIDIA Outlook (Intellectia AI). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Apple beats earnings forecasts but chip costs cloud outlook (Euronews.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+0,8** US Stock Market Today: Dow Down 200 Points Ahead Of Midterm Verdict; Nasdaq Climbs On Chips Rebound (NDTV Profit). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-11-03: JOLTS lowongan kerja (September) (sedang)
