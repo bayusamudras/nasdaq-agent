@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T21:33:13+07:00 · sesi Selasa 3 Nov (berjalan)_
+_Diperbarui 2026-11-03T21:34:13+07:00 · sesi Selasa 3 Nov (berjalan)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,5 dari ±10, keyakinan 69%, 61% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **45%**, turun **55%** (skor −2,4 dari ±10, keyakinan 68%, 61% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,33): Skor rata-rata −1,06 dari 25 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+1,12): +0,56% dari penutupan sebelumnya (28.284,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +2,82% dari penutupan sebelumnya (10.619,21). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,53% dalam 5 sesi; 8,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Yield obligasi 10 tahun** (−0,34): 4,921% (+2,7 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Berita berbobot** (−1,31): Skor rata-rata −1,05 dari 24 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+1,22): +0,61% dari penutupan sebelumnya (28.299,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +2,99% dari penutupan sebelumnya (10.636,87). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (−0,38): −4,52% dalam 5 sesi; 8,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Yield obligasi 10 tahun** (−0,31): 4,919% (+2,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,06 dari 25 kejadian bernilai; 38% bobot bullish | −0,89 | 30% | −1,33 |
-| Futures Nasdaq-100 | +0,56% dari penutupan sebelumnya (28.284,75) | +1,12 | 20% | +1,12 |
-| Futures S&P 500 | +0,04% dari penutupan sebelumnya (7.577,50) | +0,10 | 5% | +0,03 |
-| Semikonduktor (SOX) | +2,82% dari penutupan sebelumnya (10.619,21) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,921% (+2,7 bp dari sesi sebelumnya) | −0,68 | 10% | −0,34 |
-| VIX (volatilitas) | 20,97 (−0,8% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,00 (−1,69% dari sesi sebelumnya) | +0,34 | 5% | +0,09 |
+| Berita berbobot | skor rata-rata −1,05 dari 24 kejadian bernilai; 39% bobot bullish | −0,87 | 30% | −1,31 |
+| Futures Nasdaq-100 | +0,61% dari penutupan sebelumnya (28.299,75) | +1,22 | 20% | +1,22 |
+| Futures S&P 500 | +0,07% dari penutupan sebelumnya (7.579,50) | +0,18 | 5% | +0,04 |
+| Semikonduktor (SOX) | +2,99% dari penutupan sebelumnya (10.636,87) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,919% (+2,5 bp dari sesi sebelumnya) | −0,62 | 10% | −0,31 |
+| VIX (volatilitas) | 20,98 (−0,8% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $102,82 (−1,86% dari sesi sebelumnya) | +0,43 | 5% | +0,11 |
 | Indeks dolar | +0,05% dari penutupan sebelumnya (101,80) | +0,12 | 5% | +0,03 |
-| Tren Nasdaq 5 sesi | −4,53% dalam 5 sesi; 8,8% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Tren Nasdaq 5 sesi | −4,52% dalam 5 sesi; 8,8% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.305 (+0,56%).
+Perkiraan pembukaan dari futures: 25.318 (+0,61%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
