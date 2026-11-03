@@ -1,27 +1,27 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T00:03:17+07:00 · sesi Selasa 3 Nov (berjalan)_
+_Diperbarui 2026-11-04T00:04:17+07:00 · sesi Selasa 3 Nov (berjalan)_
 
-Peluang indeks naik **37%**, turun **63%** (skor −4,3 dari ±10, keyakinan 73%, 61% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 74%, 61% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,52): +0,76% dari penutupan sebelumnya (28.341,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +3,27% dari penutupan sebelumnya (10.665,87). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,84): Skor rata-rata −0,67 dari 33 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+1,52): +0,76% dari penutupan sebelumnya (28.341,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +3,19% dari penutupan sebelumnya (10.658,24). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,93): Skor rata-rata −0,75 dari 31 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−0,70): 4,950% (+5,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,12% dalam 5 sesi; 8,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Tren Nasdaq 5 sesi** (−0,38): −4,14% dalam 5 sesi; 8,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,67 dari 33 kejadian bernilai; 44% bobot bullish | −0,56 | 30% | −0,84 |
-| Futures Nasdaq-100 | +0,76% dari penutupan sebelumnya (28.341,75) | +1,52 | 20% | +1,52 |
-| Futures S&P 500 | +0,39% dari penutupan sebelumnya (7.604,25) | +0,97 | 5% | +0,24 |
-| Semikonduktor (SOX) | +3,27% dari penutupan sebelumnya (10.665,87) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,75 dari 31 kejadian bernilai; 42% bobot bullish | −0,62 | 30% | −0,93 |
+| Futures Nasdaq-100 | +0,76% dari penutupan sebelumnya (28.341,00) | +1,52 | 20% | +1,52 |
+| Futures S&P 500 | +0,39% dari penutupan sebelumnya (7.604,00) | +0,97 | 5% | +0,24 |
+| Semikonduktor (SOX) | +3,19% dari penutupan sebelumnya (10.658,24) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,950% (+5,6 bp dari sesi sebelumnya) | −1,40 | 10% | −0,70 |
-| VIX (volatilitas) | 20,91 (−1,1% dari sesi sebelumnya); VXN (Nasdaq-100) 30,57 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,48 (−1,23% dari sesi sebelumnya) | +0,11 | 5% | +0,03 |
-| Indeks dolar | +0,08% dari penutupan sebelumnya (101,83) | +0,20 | 5% | +0,05 |
-| Tren Nasdaq 5 sesi | −4,12% dalam 5 sesi; 8,4% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 20,88 (−1,3% dari sesi sebelumnya); VXN (Nasdaq-100) 30,57 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $103,34 (−1,36% dari sesi sebelumnya) | +0,18 | 5% | +0,04 |
+| Indeks dolar | +0,09% dari penutupan sebelumnya (101,84) | +0,22 | 5% | +0,06 |
+| Tren Nasdaq 5 sesi | −4,14% dalam 5 sesi; 8,4% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
@@ -37,9 +37,9 @@ Rentang wajar 1σ (VXN): 24.680 sampai 25.649.
 - **−1,3** Renaissance Macro Economist Forecasts Four or Five Fed Rate Hikes (Globest). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,2** Treasury yields rise as investors weigh midterm vote, jobs data and Iran tensions (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,1** Fed likely to wait on another rate hike as inflation pressures mount (WSTM). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,1** Oil prices climb after U.S. strikes Iran's Qeshm Island in Strait of Hormuz (Quartz). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,0** Tesla-SpaceX Merger Hopes Face Reality Check From Marvell-Lumentum Selloff (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** German yields hover near August lows on tech rout (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** Oil prices climb after U.S. strikes Iran's Qeshm Island in Strait of Hormuz (Quartz). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+1,0** Micron, Nvidia, and AMD lead chip stocks rebound (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
