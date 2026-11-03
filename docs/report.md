@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-03T23:23:58+07:00 · sesi Selasa 3 Nov (berjalan)_
+_Diperbarui 2026-11-03T23:24:58+07:00 · sesi Selasa 3 Nov (berjalan)_
 
 Peluang indeks naik **49%**, turun **51%** (skor −1,2 dari ±10, keyakinan 64%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,96): +0,98% dari penutupan sebelumnya (28.402,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,92): +0,96% dari penutupan sebelumnya (28.397,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,20): Skor rata-rata −0,96 dari 31 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +3,35% dari penutupan sebelumnya (10.674,13). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,56): 4,939% (+4,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,15% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Semikonduktor (SOX)** (+1,00): +3,35% dari penutupan sebelumnya (10.674,52). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,54): 4,937% (+4,3 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Tren Nasdaq 5 sesi** (−0,38): −4,13% dalam 5 sesi; 8,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,96 dari 31 kejadian bernilai; 35% bobot bullish | −0,80 | 30% | −1,20 |
-| Futures Nasdaq-100 | +0,98% dari penutupan sebelumnya (28.402,75) | +1,96 | 20% | +1,96 |
-| Futures S&P 500 | +0,55% dari penutupan sebelumnya (7.616,00) | +1,38 | 5% | +0,34 |
-| Semikonduktor (SOX) | +3,35% dari penutupan sebelumnya (10.674,13) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,939% (+4,5 bp dari sesi sebelumnya) | −1,12 | 10% | −0,56 |
-| VIX (volatilitas) | 20,37 (−3,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,15 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,02 (−1,67% dari sesi sebelumnya) | +0,33 | 5% | +0,08 |
-| Indeks dolar | +0,09% dari penutupan sebelumnya (101,84) | +0,22 | 5% | +0,06 |
-| Tren Nasdaq 5 sesi | −4,15% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Futures Nasdaq-100 | +0,96% dari penutupan sebelumnya (28.397,00) | +1,92 | 20% | +1,92 |
+| Futures S&P 500 | +0,53% dari penutupan sebelumnya (7.615,00) | +1,32 | 5% | +0,33 |
+| Semikonduktor (SOX) | +3,35% dari penutupan sebelumnya (10.674,52) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,937% (+4,3 bp dari sesi sebelumnya) | −1,07 | 10% | −0,54 |
+| VIX (volatilitas) | 20,37 (−3,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,14 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $103,19 (−1,51% dari sesi sebelumnya) | +0,26 | 5% | +0,07 |
+| Indeks dolar | +0,08% dari penutupan sebelumnya (101,83) | +0,20 | 5% | +0,05 |
+| Tren Nasdaq 5 sesi | −4,13% dalam 5 sesi; 8,4% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.411 (+0,98%).
-Rentang wajar 1σ (VXN): 24.686 sampai 25.642.
+Perkiraan pembukaan dari futures: 25.406 (+0,96%).
+Rentang wajar 1σ (VXN): 24.687 sampai 25.642.
 
 ## Berita paling berdampak
 - **−2,9** Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring (24/7 Wall St.). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
