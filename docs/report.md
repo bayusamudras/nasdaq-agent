@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T16:28:50+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T16:29:50+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
-Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 69%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 69%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (−1,00): −3,37% dari penutupan sebelumnya (10.328,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,63): Skor rata-rata −0,51 dari 24 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+0,56): +0,28% dari penutupan sebelumnya (28.206,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+0,54): +0,27% dari penutupan sebelumnya (28.203,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Yield obligasi 10 tahun** (+0,44): 4,894% (−3,5 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
@@ -14,22 +14,22 @@ Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 69%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,51 dari 24 kejadian bernilai; 40% bobot bullish | −0,42 | 30% | −0,63 |
-| Futures Nasdaq-100 | +0,28% dari penutupan sebelumnya (28.206,50) | +0,56 | 20% | +0,56 |
-| Futures S&P 500 | −0,08% dari penutupan sebelumnya (7.568,25) | −0,20 | 5% | −0,05 |
+| Futures Nasdaq-100 | +0,27% dari penutupan sebelumnya (28.203,50) | +0,54 | 20% | +0,54 |
+| Futures S&P 500 | −0,09% dari penutupan sebelumnya (7.567,75) | −0,22 | 5% | −0,06 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,88 | 10% | +0,44 |
-| VIX (volatilitas) | 21,44 (+1,4% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $106,63 (+1,78% dari sesi sebelumnya) | −1,39 | 5% | −0,35 |
+| VIX (volatilitas) | 21,45 (+1,4% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $106,71 (+1,85% dari sesi sebelumnya) | −1,43 | 5% | −0,36 |
 | Indeks dolar | +0,04% dari penutupan sebelumnya (101,79) | +0,10 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.235 (+0,28%).
+Perkiraan pembukaan dari futures: 25.232 (+0,27%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
-- **−2,4** Oil rises after report of US strike on Iran's Qeshm Island (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−2,3** Oil rises after report of US strike on Iran's Qeshm Island (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+1,9** Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,9** Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,8** U.S. Treasury Yields Rise as Markets Await Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
