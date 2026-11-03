@@ -1,46 +1,46 @@
-# Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-03T22:59:47+07:00 · sesi Selasa 3 Nov (berjalan)_
+# Bias Nasdaq: BEARISH TIPIS
+_Diperbarui 2026-11-03T23:00:48+07:00 · sesi Selasa 3 Nov (berjalan)_
 
-Peluang indeks naik **56%**, turun **44%** (skor +0,5 dari ±10, keyakinan 56%, 45% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,6 dari ±10, keyakinan 72%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,68): +0,84% dari penutupan sebelumnya (28.364,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,33): Skor rata-rata −1,06 dari 27 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +3,76% dari penutupan sebelumnya (10.716,56). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,68): 4,948% (+5,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,00% dalam 5 sesi; 8,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+1,62): +0,81% dari penutupan sebelumnya (28.356,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,26): Skor rata-rata −1,00 dari 28 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (+1,00): +3,78% dari penutupan sebelumnya (10.718,44). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,70): 4,950% (+5,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Tren Nasdaq 5 sesi** (−0,38): −3,98% dalam 5 sesi; 8,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,06 dari 27 kejadian bernilai; 34% bobot bullish | −0,89 | 30% | −1,33 |
-| Futures Nasdaq-100 | +0,84% dari penutupan sebelumnya (28.364,00) | +1,68 | 20% | +1,68 |
+| Berita berbobot | skor rata-rata −1,00 dari 28 kejadian bernilai; 35% bobot bullish | −0,84 | 30% | −1,26 |
+| Futures Nasdaq-100 | +0,81% dari penutupan sebelumnya (28.356,50) | +1,62 | 20% | +1,62 |
 | Futures S&P 500 | +0,43% dari penutupan sebelumnya (7.607,25) | +1,07 | 5% | +0,27 |
-| Semikonduktor (SOX) | +3,76% dari penutupan sebelumnya (10.716,56) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,948% (+5,4 bp dari sesi sebelumnya) | −1,35 | 10% | −0,68 |
-| VIX (volatilitas) | 20,51 (−3,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,25 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,10 (−1,59% dari sesi sebelumnya) | +0,30 | 5% | +0,07 |
-| Indeks dolar | +0,11% dari penutupan sebelumnya (101,86) | +0,27 | 5% | +0,07 |
-| Tren Nasdaq 5 sesi | −4,00% dalam 5 sesi; 8,3% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Semikonduktor (SOX) | +3,78% dari penutupan sebelumnya (10.718,44) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,950% (+5,6 bp dari sesi sebelumnya) | −1,40 | 10% | −0,70 |
+| VIX (volatilitas) | 20,53 (−2,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,26 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $103,08 (−1,61% dari sesi sebelumnya) | +0,31 | 5% | +0,08 |
+| Indeks dolar | +0,09% dari penutupan sebelumnya (101,84) | +0,22 | 5% | +0,06 |
+| Tren Nasdaq 5 sesi | −3,98% dalam 5 sesi; 8,3% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.376 (+0,84%).
+Perkiraan pembukaan dari futures: 25.368 (+0,81%).
 Rentang wajar 1σ (VXN): 24.685 sampai 25.644.
 
 ## Berita paling berdampak
 - **−3,0** Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring (24/7 Wall St.). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,8** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,8** St. Louis Fed Chief Warns More Rate Hikes “Necessary, and Soon” (SchiffGold.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,6** Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,5** Oil rises after report of US strike on Iran's Qeshm Island (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **+1,3** Apple earnings beat expectations, but rising chip costs worry investors (Newswav). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **−1,4** Renaissance Macro Economist Forecasts Four or Five Fed Rate Hikes (Globest). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** Treasury yields rise as investors weigh midterm vote, jobs data and Iran tensions (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,1** Oil Prices Rise After Reports Container Ships in Hormuz Hit by Gunfire (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−1,2** Fed likely to wait on another rate hike as inflation pressures mount (WSTM). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,1** German yields hover near August lows on tech rout (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Oil prices climb after U.S. strikes Iran's Qeshm Island in Strait of Hormuz (Quartz). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+1,0** Micron, Nvidia, and AMD lead chip stocks rebound (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−1,0** Oil Hits Four-Week High as US-Iran Conflict Escalates (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,0** Stock Market Today: Dow Futures Drop as Apple Sinks After Earnings; Chip Stocks Rebound as AMD Results Loom (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** AI Revenues Surge—Why Is Free Cash Flow Turning Negative? (Moomoo). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 
 ## Kalender risiko
 - 2026-11-03: JOLTS lowongan kerja (September) (sedang)
