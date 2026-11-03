@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T15:11:18+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T15:12:33+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 79%, 87% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 80%, 87% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (−1,00): −3,37% dari penutupan sebelumnya (10.328,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,48): Skor rata-rata −0,39 dari 24 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,63): Skor rata-rata −0,50 dari 27 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (+0,44): 4,894% (−3,5 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (−0,33): $106,52 (+1,67% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
+- **Minyak Brent** (−0,34): $106,59 (+1,74% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,39 dari 24 kejadian bernilai; 44% bobot bullish | −0,32 | 30% | −0,48 |
-| Futures Nasdaq-100 | +0,09% dari penutupan sebelumnya (28.153,50) | +0,18 | 20% | +0,18 |
-| Futures S&P 500 | −0,16% dari penutupan sebelumnya (7.562,50) | −0,40 | 5% | −0,10 |
+| Berita berbobot | skor rata-rata −0,50 dari 27 kejadian bernilai; 44% bobot bullish | −0,42 | 30% | −0,63 |
+| Futures Nasdaq-100 | −0,02% dari penutupan sebelumnya (28.122,25) | −0,04 | 20% | −0,04 |
+| Futures S&P 500 | −0,21% dari penutupan sebelumnya (7.558,50) | −0,52 | 5% | −0,13 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,88 | 10% | +0,44 |
 | VIX (volatilitas) | 21,15 (+8,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $106,52 (+1,67% dari sesi sebelumnya) | −1,33 | 5% | −0,33 |
-| Indeks dolar | −0,08% dari penutupan sebelumnya (101,67) | −0,20 | 5% | −0,05 |
+| Minyak Brent | $106,59 (+1,74% dari sesi sebelumnya) | −1,37 | 5% | −0,34 |
+| Indeks dolar | −0,07% dari penutupan sebelumnya (101,67) | −0,18 | 5% | −0,04 |
 | Tren Nasdaq 5 sesi | −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.187 (+0,09%).
+Perkiraan pembukaan dari futures: 25.159 (−0,02%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
@@ -33,14 +33,14 @@ Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 - **−1,9** U.S. Treasury Yields Rise as Markets Await Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,9** Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,8** Oil Hits Four-Week High as US-Iran Conflict Escalates (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **+1,6** Apple beats earnings forecasts but chip costs cloud outlook (Euronews.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+1,4** Apple earnings beat fails to impress Wall Street as tech shares struggle ahead of US midterms (investingLive). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,3** Apple earnings beat fails to impress Wall Street as tech shares struggle ahead of US midterms (investingLive). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,1** Despite Apple's earnings beat, Wall Street has a big 'concern' about next quarter (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,0** Apple beats sales and profit expectations but AI costs weigh on holiday sales (Gulf News). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,9** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **+0,8** Stock Market Today, Nov. 2: Amazon Rallies on Phillip Securities Buy Upgrade and $330 Target (The Motley Fool). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **−0,8** AI Capex and Bubble Fears (Meta, Alphabet, Anthropic IPO, Shiller P/E) (Gotrade). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **+0,8** Apple beats Q4 forecasts on iPhone and Mac as revenue tops $114 billion (investingLive). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,8** CoreWeave Stock Sinks to Record Low as AI Debt Fears Mount (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,7** Hassett Says AI Sector Is "Cash-Rich" and Faces No Broad Selloff Risk—But What About the $600 Billion Debt Burden? (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-03: JOLTS lowongan kerja (September) (sedang)
