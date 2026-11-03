@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-03T13:08:39+07:00 · sesi Selasa 3 Nov (pra-buka)_
+_Diperbarui 2026-11-03T13:09:39+07:00 · sesi Selasa 3 Nov (pra-buka)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 78%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 75%, 78% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (−1,00): −3,37% dari penutupan sebelumnya (10.328,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
@@ -12,18 +12,18 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 78%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,15 dari 26 kejadian bernilai; 50% bobot bullish | −0,13 | 30% | −0,20 |
-| Futures Nasdaq-100 | −0,13% dari penutupan sebelumnya (28.091,75) | −0,26 | 20% | −0,26 |
+| Futures Nasdaq-100 | −0,12% dari penutupan sebelumnya (28.092,50) | −0,24 | 20% | −0,24 |
 | Futures S&P 500 | −0,22% dari penutupan sebelumnya (7.557,75) | −0,55 | 5% | −0,14 |
 | Semikonduktor (SOX) | −3,37% dari penutupan sebelumnya (10.328,33) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−3,5 bp dari sesi sebelumnya) | +0,88 | 10% | +0,44 |
 | VIX (volatilitas) | 21,15 (+8,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,89 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $105,79 (+0,97% dari sesi sebelumnya) | −0,98 | 5% | −0,24 |
+| Minyak Brent | $105,81 (+0,99% dari sesi sebelumnya) | −0,99 | 5% | −0,25 |
 | Indeks dolar | −0,01% dari penutupan sebelumnya (101,74) | −0,02 | 5% | −0,01 |
 | Tren Nasdaq 5 sesi | −3,84% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.370; resistensi 25.594 / 26.023; support 24.940 / 24.716.
-Perkiraan pembukaan dari futures: 25.132 (−0,13%).
+Perkiraan pembukaan dari futures: 25.134 (−0,12%).
 Rentang wajar 1σ (VXN): 24.675 sampai 25.654.
 
 ## Berita paling berdampak
