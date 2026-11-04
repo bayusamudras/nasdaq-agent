@@ -1,11 +1,11 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-05T02:20:27+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-05T02:21:26+07:00 · sesi Rabu 4 Nov (berjalan)_
 
 Peluang indeks naik **61%**, turun **39%** (skor +1,9 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,40% dari penutupan sebelumnya (28.702,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (−1,00): −3,31% dari penutupan sebelumnya (10.250,04). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +1,40% dari penutupan sebelumnya (28.701,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−1,00): −3,35% dari penutupan sebelumnya (10.245,31). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+0,75): 4,892% (−6,0 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Berita berbobot** (−0,66): Skor rata-rata −0,52 dari 35 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +1,89% dari penutupan sebelumnya (7.740,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
@@ -14,14 +14,14 @@ Peluang indeks naik **61%**, turun **39%** (skor +1,9 dari ±10, keyakinan 62%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,52 dari 35 kejadian bernilai; 44% bobot bullish | −0,44 | 30% | −0,66 |
-| Futures Nasdaq-100 | +1,40% dari penutupan sebelumnya (28.702,50) | +2,00 | 20% | +2,00 |
+| Futures Nasdaq-100 | +1,40% dari penutupan sebelumnya (28.701,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +1,89% dari penutupan sebelumnya (7.740,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −3,31% dari penutupan sebelumnya (10.250,04) | −2,00 | 10% | −1,00 |
+| Semikonduktor (SOX) | −3,35% dari penutupan sebelumnya (10.245,31) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,892% (−6,0 bp dari sesi sebelumnya) | +1,50 | 10% | +0,75 |
-| VIX (volatilitas) | 16,90 (−18,9% dari sesi sebelumnya); VXN (Nasdaq-100) 25,77 | +1,00 | 10% | +0,50 |
+| VIX (volatilitas) | 16,91 (−18,8% dari sesi sebelumnya); VXN (Nasdaq-100) 25,75 | +1,00 | 10% | +0,50 |
 | Minyak Brent | $94,66 (−8,63% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,29% dari penutupan sebelumnya (101,57) | −0,72 | 5% | −0,18 |
-| Tren Nasdaq 5 sesi | −2,58% dalam 5 sesi; 6,7% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Indeks dolar | −0,31% dari penutupan sebelumnya (101,56) | −0,77 | 5% | −0,19 |
+| Tren Nasdaq 5 sesi | −2,61% dalam 5 sesi; 6,7% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
@@ -34,7 +34,7 @@ Rentang wajar 1σ (VXN): 24.960 sampai 25.784.
 - **−1,9** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** SpaceX, Tesla stocks sink as analyst warns Democrats' victory will create 'major hurdles' for AI build-out (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** 10-Year Treasury Yield Plunges 19 Basis Points in Single Day as AI Capex Fears Chill Fed Rate-Hike Expectations (BigGo Finance). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,7** Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,6** Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,6** Treasury Yields Decline After Democrat Triumph; Eurozone Bond Yields Trade Mixed (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,6** These 12 stocks are good bets to beat the 10-year Treasury over the next decade (MarketWatch). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,5** Germany 10-Year Bond Yield Falls Slightly (TradingView). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
