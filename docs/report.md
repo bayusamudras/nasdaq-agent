@@ -1,31 +1,31 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T21:32:34+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-04T21:33:34+07:00 · sesi Rabu 4 Nov (berjalan)_
 
-Peluang indeks naik **55%**, turun **45%** (skor +0,2 dari ±10, keyakinan 58%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **54%**, turun **46%** (skor +0,1 dari ±10, keyakinan 58%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,10): +0,55% dari penutupan sebelumnya (28.460,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−0,99): Skor rata-rata −0,79 dari 32 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−0,83): −1,66% dari penutupan sebelumnya (10.424,04). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +1,24% dari penutupan sebelumnya (7.691,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **VIX (volatilitas)** (+0,50): 17,92 (−14,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
+- **Futures Nasdaq-100** (+1,12): +0,56% dari penutupan sebelumnya (28.465,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−1,00): −2,07% dari penutupan sebelumnya (10.381,18). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,98): Skor rata-rata −0,79 dari 37 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (+0,50): +1,24% dari penutupan sebelumnya (7.691,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (+0,50): 17,91 (−14,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,79 dari 32 kejadian bernilai; 40% bobot bullish | −0,66 | 30% | −0,99 |
-| Futures Nasdaq-100 | +0,55% dari penutupan sebelumnya (28.460,75) | +1,10 | 20% | +1,10 |
-| Futures S&P 500 | +1,24% dari penutupan sebelumnya (7.691,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −1,66% dari penutupan sebelumnya (10.424,04) | −1,66 | 10% | −0,83 |
+| Berita berbobot | skor rata-rata −0,79 dari 37 kejadian bernilai; 40% bobot bullish | −0,65 | 30% | −0,98 |
+| Futures Nasdaq-100 | +0,56% dari penutupan sebelumnya (28.465,00) | +1,12 | 20% | +1,12 |
+| Futures S&P 500 | +1,24% dari penutupan sebelumnya (7.691,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −2,07% dari penutupan sebelumnya (10.381,18) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,923% (−2,9 bp dari sesi sebelumnya) | +0,72 | 10% | +0,36 |
-| VIX (volatilitas) | 17,92 (−14,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $100,30 (−3,19% dari sesi sebelumnya) | +1,00 | 5% | +0,25 |
-| Indeks dolar | −0,53% dari penutupan sebelumnya (101,33) | −1,32 | 5% | −0,33 |
-| Tren Nasdaq 5 sesi | −3,22% dalam 5 sesi; 7,3% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 17,91 (−14,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $100,24 (−3,24% dari sesi sebelumnya) | +1,00 | 5% | +0,25 |
+| Indeks dolar | −0,51% dari penutupan sebelumnya (101,35) | −1,27 | 5% | −0,32 |
+| Tren Nasdaq 5 sesi | −3,45% dalam 5 sesi; 7,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.512 (+0,55%).
+Perkiraan pembukaan dari futures: 25.514 (+0,56%).
 Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
@@ -39,8 +39,8 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 - **+1,2** Stocks, Bonds Rally After US Vote as Dollar Falls: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,2** Tech Sell-Off: 2 Growth Stocks Investors Might Regret Not Buying on the Dip (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Midterm shock: Koreas markets swing on chip and tariff outlook (Aju Press). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,2** Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win? (Al Jazeera). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,1** 'Big concern': How the Iran war and Strait of Hormuz closure could drive up prices for helium, fertilizer and other goods (ABC News - Breaking News, Latest News and Videos). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−1,1** Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win? (Al Jazeera). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **+1,1** Earnings Beat Could Be A Big Moment For ATI Stock (ATI) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
