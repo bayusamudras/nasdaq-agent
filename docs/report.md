@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T22:29:53+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-04T22:30:53+07:00 · sesi Rabu 4 Nov (berjalan)_
 
-Peluang indeks naik **57%**, turun **43%** (skor +0,8 dari ±10, keyakinan 57%, 44% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **57%**, turun **43%** (skor +0,7 dari ±10, keyakinan 57%, 44% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,07% dari penutupan sebelumnya (28.890,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +2,05% dari penutupan sebelumnya (28.885,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−0,99): Skor rata-rata −0,79 dari 32 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−0,83): −1,66% dari penutupan sebelumnya (10.423,98). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +1,77% dari penutupan sebelumnya (7.731,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **VIX (volatilitas)** (+0,50): 16,95 (−18,6% dari sesi sebelumnya); VXN (Nasdaq-100) 26,65. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
+- **Semikonduktor (SOX)** (−0,89): −1,77% dari penutupan sebelumnya (10.412,35). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +1,74% dari penutupan sebelumnya (7.729,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (+0,50): 16,91 (−18,8% dari sesi sebelumnya); VXN (Nasdaq-100) 26,60. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,79 dari 32 kejadian bernilai; 39% bobot bullish | −0,66 | 30% | −0,99 |
-| Futures Nasdaq-100 | +2,07% dari penutupan sebelumnya (28.890,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,77% dari penutupan sebelumnya (7.731,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −1,66% dari penutupan sebelumnya (10.423,98) | −1,66 | 10% | −0,83 |
-| Yield obligasi 10 tahun | 4,954% (+0,2 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
-| VIX (volatilitas) | 16,95 (−18,6% dari sesi sebelumnya); VXN (Nasdaq-100) 26,65 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $100,90 (−2,61% dari sesi sebelumnya) | +0,80 | 5% | +0,20 |
-| Indeks dolar | −0,34% dari penutupan sebelumnya (101,52) | −0,85 | 5% | −0,21 |
-| Tren Nasdaq 5 sesi | −2,36% dalam 5 sesi; 6,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Futures Nasdaq-100 | +2,05% dari penutupan sebelumnya (28.885,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,74% dari penutupan sebelumnya (7.729,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −1,77% dari penutupan sebelumnya (10.412,35) | −1,77 | 10% | −0,89 |
+| Yield obligasi 10 tahun | 4,956% (+0,4 bp dari sesi sebelumnya) | −0,10 | 10% | −0,05 |
+| VIX (volatilitas) | 16,91 (−18,8% dari sesi sebelumnya); VXN (Nasdaq-100) 26,60 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $101,02 (−2,49% dari sesi sebelumnya) | +0,75 | 5% | +0,19 |
+| Indeks dolar | −0,35% dari penutupan sebelumnya (101,52) | −0,87 | 5% | −0,22 |
+| Tren Nasdaq 5 sesi | −2,39% dalam 5 sesi; 6,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.897 (+2,07%).
-Rentang wajar 1σ (VXN): 24.946 sampai 25.798.
+Perkiraan pembukaan dari futures: 25.892 (+2,05%).
+Rentang wajar 1σ (VXN): 24.947 sampai 25.797.
 
 ## Berita paling berdampak
 - **−2,5** Musk Faces Setback as SpaceX and Tesla Stocks Tumble on Midterm Election Results (The New York Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
