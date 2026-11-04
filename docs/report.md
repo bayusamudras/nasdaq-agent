@@ -1,31 +1,31 @@
-# Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T23:14:11+07:00 · sesi Rabu 4 Nov (berjalan)_
+# Bias Nasdaq: BEARISH TIPIS
+_Diperbarui 2026-11-04T23:15:11+07:00 · sesi Rabu 4 Nov (berjalan)_
 
-Peluang indeks naik **48%**, turun **52%** (skor −1,4 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,88): +0,94% dari penutupan sebelumnya (28.571,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (−1,00): −3,63% dari penutupan sebelumnya (10.215,31). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+1,64): +0,82% dari penutupan sebelumnya (28.537,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−1,00): −3,72% dari penutupan sebelumnya (10.206,09). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,80): Skor rata-rata −0,64 dari 30 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,45% dari penutupan sebelumnya (7.706,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **VIX (volatilitas)** (+0,50): 17,56 (−15,7% dari sesi sebelumnya); VXN (Nasdaq-100) 26,89. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
+- **Futures S&P 500** (+0,50): +1,38% dari penutupan sebelumnya (7.701,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (+0,50): 17,47 (−16,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,88. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,64 dari 30 kejadian bernilai; 42% bobot bullish | −0,53 | 30% | −0,80 |
-| Futures Nasdaq-100 | +0,94% dari penutupan sebelumnya (28.571,75) | +1,88 | 20% | +1,88 |
-| Futures S&P 500 | +1,45% dari penutupan sebelumnya (7.706,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −3,63% dari penutupan sebelumnya (10.215,31) | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | +0,82% dari penutupan sebelumnya (28.537,50) | +1,64 | 20% | +1,64 |
+| Futures S&P 500 | +1,38% dari penutupan sebelumnya (7.701,75) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −3,72% dari penutupan sebelumnya (10.206,09) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,913% (−3,9 bp dari sesi sebelumnya) | +0,97 | 10% | +0,48 |
-| VIX (volatilitas) | 17,56 (−15,7% dari sesi sebelumnya); VXN (Nasdaq-100) 26,89 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $98,75 (−4,68% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,36% dari penutupan sebelumnya (101,51) | −0,90 | 5% | −0,22 |
-| Tren Nasdaq 5 sesi | −2,83% dalam 5 sesi; 6,9% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 17,47 (−16,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,88 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $98,89 (−4,55% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,38% dari penutupan sebelumnya (101,49) | −0,95 | 5% | −0,24 |
+| Tren Nasdaq 5 sesi | −2,90% dalam 5 sesi; 7,0% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.611 (+0,94%).
+Perkiraan pembukaan dari futures: 25.580 (+0,82%).
 Rentang wajar 1σ (VXN): 24.942 sampai 25.802.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 24.942 sampai 25.802.
 - **+1,2** Apple beats sales and profit expectations but AI costs weigh on holiday sales (thestar.co.za). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,1** Enpro Stock After Earnings Beat And Guidance Raise (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Rate Hikes Could Be Coming: History Likes These 4 Insurance Stocks (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,1** Tech Sell-Off: 2 Growth Stocks Investors Might Regret Not Buying on the Dip (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** Tech Sell-Off: 2 Growth Stocks Investors Might Regret Not Buying on the Dip (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Midterm shock: Koreas markets swing on chip and tariff outlook (Aju Press). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
