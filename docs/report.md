@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-05T00:06:32+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-05T00:07:32+07:00 · sesi Rabu 4 Nov (berjalan)_
 
 Peluang indeks naik **60%**, turun **40%** (skor +1,5 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,66% dari penutupan sebelumnya (28.777,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,61% dari penutupan sebelumnya (28.760,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,06): Skor rata-rata −0,85 dari 27 kejadian bernilai; 37% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −3,12% dari penutupan sebelumnya (10.269,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Semikonduktor (SOX)** (−1,00): −3,04% dari penutupan sebelumnya (10.278,01). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+0,70): 4,896% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **Futures S&P 500** (+0,50): +1,91% dari penutupan sebelumnya (7.741,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,87% dari penutupan sebelumnya (7.738,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,85 dari 27 kejadian bernilai; 37% bobot bullish | −0,71 | 30% | −1,06 |
-| Futures Nasdaq-100 | +1,66% dari penutupan sebelumnya (28.777,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,91% dari penutupan sebelumnya (7.741,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −3,12% dari penutupan sebelumnya (10.269,33) | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | +1,61% dari penutupan sebelumnya (28.760,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,87% dari penutupan sebelumnya (7.738,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −3,04% dari penutupan sebelumnya (10.278,01) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,896% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
-| VIX (volatilitas) | 17,20 (−17,4% dari sesi sebelumnya); VXN (Nasdaq-100) 26,68 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $94,31 (−8,97% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,25% dari penutupan sebelumnya (101,62) | −0,62 | 5% | −0,15 |
-| Tren Nasdaq 5 sesi | −2,65% dalam 5 sesi; 6,8% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 17,18 (−17,5% dari sesi sebelumnya); VXN (Nasdaq-100) 26,61 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $94,53 (−8,75% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,25% dari penutupan sebelumnya (101,61) | −0,62 | 5% | −0,15 |
+| Tren Nasdaq 5 sesi | −2,61% dalam 5 sesi; 6,7% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.793 (+1,66%).
-Rentang wajar 1σ (VXN): 24.946 sampai 25.798.
+Perkiraan pembukaan dari futures: 25.780 (+1,61%).
+Rentang wajar 1σ (VXN): 24.947 sampai 25.797.
 
 ## Berita paling berdampak
 - **−2,3** SpaceX and Tesla Stocks Tumble After Elon Musk-Backed Candidates Lose in Texas (The New York Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -35,7 +35,7 @@ Rentang wajar 1σ (VXN): 24.946 sampai 25.798.
 - **−1,9** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Stock Market Today: Dow Eyes 2% Jump as AMD Earnings Ease AI Spending Fears (24/7 Wall St.). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−1,4** Can Policy Fears Over Texas Data Centers Wipe Out a 7.2% Gain at CoreWeave (NASDAQ:CRWV), Oracle (NYSE:ORCL), Super Micro Computer (NASDAQ:SMCI) and Bloom Energy (NYSE:BE)? (Kalkine). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,3** Can Policy Fears Over Texas Data Centers Wipe Out a 7.2% Gain at CoreWeave (NASDAQ:CRWV), Oracle (NYSE:ORCL), Super Micro Computer (NASDAQ:SMCI) and Bloom Energy (NYSE:BE)? (Kalkine). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** US Stock Market Today: Dow Skyrockets 1,000 Points, Nasdaq Jumps 1.5% On Blue Wave; AI Stocks Plunge (NDTV Profit). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** Enpro Stock After Earnings Beat And Guidance Raise (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** Tech Sell-Off: 2 Growth Stocks Investors Might Regret Not Buying on the Dip (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
