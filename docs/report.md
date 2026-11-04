@@ -1,21 +1,21 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-05T06:33:04+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T06:34:04+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
 Peluang indeks naik **59%**, turun **41%** (skor +1,4 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,88): +0,94% dari penutupan sebelumnya (28.572,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,88): +0,94% dari penutupan sebelumnya (28.571,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,01): Skor rata-rata −0,81 dari 36 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −3,13% dari penutupan sebelumnya (10.268,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,98): Skor rata-rata −0,78 dari 32 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (+0,72): 4,894% (−5,8 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **Futures S&P 500** (+0,50): +1,77% dari penutupan sebelumnya (7.731,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,76% dari penutupan sebelumnya (7.730,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,78 dari 32 kejadian bernilai; 40% bobot bullish | −0,65 | 30% | −0,98 |
-| Futures Nasdaq-100 | +0,94% dari penutupan sebelumnya (28.572,00) | +1,88 | 20% | +1,88 |
-| Futures S&P 500 | +1,77% dari penutupan sebelumnya (7.731,25) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,81 dari 36 kejadian bernilai; 38% bobot bullish | −0,67 | 30% | −1,01 |
+| Futures Nasdaq-100 | +0,94% dari penutupan sebelumnya (28.571,75) | +1,88 | 20% | +1,88 |
+| Futures S&P 500 | +1,76% dari penutupan sebelumnya (7.730,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,65) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +1,45 | 10% | +0,72 |
 | VIX (volatilitas) | 16,61 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +1,00 | 10% | +0,50 |
@@ -36,11 +36,11 @@ Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 - **−1,5** CoreWeave Bonds Sink as Democrats Target AI Construction (TipRanks). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** SpaceX, Tesla stocks sink as analyst warns Democrats' victory will create 'major hurdles' for AI build-out (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** 10-Year Treasury Yield Plunges 19 Basis Points in Single Day as AI Capex Fears Chill Fed Rate-Hike Expectations (BigGo Finance). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,3** Stock Market Today: Dow Eyes 2% Jump as AMD Earnings Ease AI Spending Fears (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,2** Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war (CNBC). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,2** Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,2** S&P Earnings Jump 30.2% as Big Tech Cash Flow Sinks [2026] (shattered.io). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,2** These 12 stocks are good bets to beat the 10-year Treasury over the next decade (MarketWatch). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,1** Qualcomm Drops 5% Despite Earnings Beat on Memory Crunch (The Tech Buzz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
