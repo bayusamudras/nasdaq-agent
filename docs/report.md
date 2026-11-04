@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-05T06:37:04+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T06:38:04+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
 Peluang indeks naik **60%**, turun **40%** (skor +1,4 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 - **+1,2** Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war (CNBC). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,2** Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,2** S&P Earnings Jump 30.2% as Big Tech Cash Flow Sinks [2026] (shattered.io). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,2** These 12 stocks are good bets to beat the 10-year Treasury over the next decade (MarketWatch). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,1** These 12 stocks are good bets to beat the 10-year Treasury over the next decade (MarketWatch). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,1** Qualcomm Drops 5% Despite Earnings Beat on Memory Crunch (The Tech Buzz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
