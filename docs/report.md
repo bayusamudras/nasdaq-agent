@@ -1,11 +1,11 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-05T03:44:58+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-05T03:45:58+07:00 · sesi Rabu 4 Nov (berjalan)_
 
 Peluang indeks naik **61%**, turun **39%** (skor +1,8 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,15% dari penutupan sebelumnya (28.630,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (−1,00): −4,06% dari penutupan sebelumnya (10.170,25). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +1,16% dari penutupan sebelumnya (28.634,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−1,00): −3,97% dari penutupan sebelumnya (10.179,85). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+0,72): 4,894% (−5,8 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Berita berbobot** (−0,69): Skor rata-rata −0,55 dari 31 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +1,85% dari penutupan sebelumnya (7.737,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
@@ -14,18 +14,18 @@ Peluang indeks naik **61%**, turun **39%** (skor +1,8 dari ±10, keyakinan 62%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,55 dari 31 kejadian bernilai; 44% bobot bullish | −0,46 | 30% | −0,69 |
-| Futures Nasdaq-100 | +1,15% dari penutupan sebelumnya (28.630,75) | +2,00 | 20% | +2,00 |
+| Futures Nasdaq-100 | +1,16% dari penutupan sebelumnya (28.634,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +1,85% dari penutupan sebelumnya (7.737,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −4,06% dari penutupan sebelumnya (10.170,25) | −2,00 | 10% | −1,00 |
+| Semikonduktor (SOX) | −3,97% dari penutupan sebelumnya (10.179,85) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +1,45 | 10% | +0,72 |
-| VIX (volatilitas) | 16,75 (−19,6% dari sesi sebelumnya); VXN (Nasdaq-100) 25,20 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $95,23 (−8,08% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,35% dari penutupan sebelumnya (101,51) | −0,87 | 5% | −0,22 |
-| Tren Nasdaq 5 sesi | −2,97% dalam 5 sesi; 7,1% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 16,69 (−19,9% dari sesi sebelumnya); VXN (Nasdaq-100) 25,20 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $95,14 (−8,17% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,36% dari penutupan sebelumnya (101,50) | −0,90 | 5% | −0,22 |
+| Tren Nasdaq 5 sesi | −2,98% dalam 5 sesi; 7,1% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.664 (+1,15%).
+Perkiraan pembukaan dari futures: 25.666 (+1,16%).
 Rentang wajar 1σ (VXN): 24.969 sampai 25.775.
 
 ## Berita paling berdampak
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 24.969 sampai 25.775.
 - **+1,2** [Options Check-in Day 19/30] AMD earnings beat guidance; how big of a gap up is needed for Calls to be profitable? 🧮 (Moomoo). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (FOREX.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** GBP/USD Price Forecast — GBP/USD (1.3496) Hits 7-Week High as Democratic Sweep Sinks Dollar Before BoE Hike to 4% — 1.3600 Target (TradingNEWS). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,1** Can Policy Fears Over Texas Data Centers Wipe Out a 7.2% Gain at CoreWeave (NASDAQ:CRWV), Oracle (NYSE:ORCL), Super Micro Computer (NASDAQ:SMCI) and Bloom Energy (NYSE:BE)? (Kalkine). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** Can Policy Fears Over Texas Data Centers Wipe Out a 7.2% Gain at CoreWeave (NASDAQ:CRWV), Oracle (NYSE:ORCL), Super Micro Computer (NASDAQ:SMCI) and Bloom Energy (NYSE:BE)? (Kalkine). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
