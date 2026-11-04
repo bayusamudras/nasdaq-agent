@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T07:02:14+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T07:03:15+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 66%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 66%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,50): +0,75% dari penutupan sebelumnya (28.339,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,62): +0,81% dari penutupan sebelumnya (28.354,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Berita berbobot** (−0,39): Skor rata-rata −0,31 dari 28 kejadian bernilai; 52% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
@@ -14,8 +14,8 @@ Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 66%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,31 dari 28 kejadian bernilai; 52% bobot bullish | −0,26 | 30% | −0,39 |
-| Futures Nasdaq-100 | +0,75% dari penutupan sebelumnya (28.339,00) | +1,50 | 20% | +1,50 |
-| Futures S&P 500 | +0,42% dari penutupan sebelumnya (7.606,00) | +1,05 | 5% | +0,26 |
+| Futures Nasdaq-100 | +0,81% dari penutupan sebelumnya (28.354,25) | +1,62 | 20% | +1,62 |
+| Futures S&P 500 | +0,44% dari penutupan sebelumnya (7.607,50) | +1,10 | 5% | +0,28 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
 | VIX (volatilitas) | 20,83 (−1,5% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | −0,50 | 10% | −0,25 |
@@ -25,7 +25,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 66%
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.562 (+0,75%).
+Perkiraan pembukaan dari futures: 25.578 (+0,81%).
 Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
@@ -37,7 +37,7 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 - **−1,0** St. Louis Fed Chief Warns More Rate Hikes “Necessary, and Soon” (SchiffGold.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,0** Stocks and Bond Yields Hit Highs — Where Should You Invest? (MoneyLion). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−0,9** US Stocks Open Mixed: Dow Edges Lower, Nasdaq Gains 0.36%, Apple Slumps 3.8% (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** Oil rises after report of US strike on Iran's Qeshm Island (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−0,8** Oil rises after report of US strike on Iran's Qeshm Island (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+0,8** NVDA Stock Rebounds Off $200 Support after the Nvidia CEO Comments and Anthropic Expansion (FXLeaders). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,8** Stock Market Today, Nov. 3: Markets Edge Higher as Semiconductor Stocks Rebound (The Motley Fool). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,8** Micron, Nvidia, and AMD lead chip stocks' rebound (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
