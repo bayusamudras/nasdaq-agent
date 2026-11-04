@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T23:46:20+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-04T23:47:20+07:00 · sesi Rabu 4 Nov (berjalan)_
 
-Peluang indeks naik **49%**, turun **51%** (skor −1,4 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **48%**, turun **52%** (skor −1,4 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,88): +0,94% dari penutupan sebelumnya (28.571,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (−1,00): −2,98% dari penutupan sebelumnya (10.285,01). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+1,86): +0,93% dari penutupan sebelumnya (28.569,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−1,00): −3,14% dari penutupan sebelumnya (10.267,71). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,93): Skor rata-rata −0,75 dari 30 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,42% dari penutupan sebelumnya (7.704,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **VIX (volatilitas)** (+0,50): 17,95 (−13,8% dari sesi sebelumnya); VXN (Nasdaq-100) 27,14. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
+- **Futures S&P 500** (+0,50): +1,42% dari penutupan sebelumnya (7.705,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (+0,50): 17,91 (−14,0% dari sesi sebelumnya); VXN (Nasdaq-100) 27,08. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,75 dari 30 kejadian bernilai; 40% bobot bullish | −0,62 | 30% | −0,93 |
-| Futures Nasdaq-100 | +0,94% dari penutupan sebelumnya (28.571,75) | +1,88 | 20% | +1,88 |
-| Futures S&P 500 | +1,42% dari penutupan sebelumnya (7.704,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −2,98% dari penutupan sebelumnya (10.285,01) | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | +0,93% dari penutupan sebelumnya (28.569,25) | +1,86 | 20% | +1,86 |
+| Futures S&P 500 | +1,42% dari penutupan sebelumnya (7.705,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −3,14% dari penutupan sebelumnya (10.267,71) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,913% (−3,9 bp dari sesi sebelumnya) | +0,97 | 10% | +0,48 |
-| VIX (volatilitas) | 17,95 (−13,8% dari sesi sebelumnya); VXN (Nasdaq-100) 27,14 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $96,66 (−6,70% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,28% dari penutupan sebelumnya (101,59) | −0,70 | 5% | −0,18 |
-| Tren Nasdaq 5 sesi | −2,63% dalam 5 sesi; 6,7% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 17,91 (−14,0% dari sesi sebelumnya); VXN (Nasdaq-100) 27,08 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $96,25 (−7,09% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,29% dari penutupan sebelumnya (101,58) | −0,72 | 5% | −0,18 |
+| Tren Nasdaq 5 sesi | −2,67% dalam 5 sesi; 6,8% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.611 (+0,94%).
-Rentang wajar 1σ (VXN): 24.938 sampai 25.806.
+Perkiraan pembukaan dari futures: 25.608 (+0,93%).
+Rentang wajar 1σ (VXN): 24.939 sampai 25.805.
 
 ## Berita paling berdampak
 - **−2,4** SpaceX and Tesla Stocks Tumble After Elon Musk-Backed Candidates Lose in Texas (The New York Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
