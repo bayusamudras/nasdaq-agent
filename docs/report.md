@@ -1,36 +1,36 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T16:28:38+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T16:29:38+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,1 dari ±10, keyakinan 74%, 63% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **37%**, turun **63%** (skor −4,2 dari ±10, keyakinan 74%, 63% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,80): Skor rata-rata −0,64 dari 29 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (+0,42): +0,21% dari penutupan sebelumnya (28.365,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Tren Nasdaq 5 sesi** (−0,38): −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+0,34): +0,17% dari penutupan sebelumnya (28.355,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,64 dari 29 kejadian bernilai; 39% bobot bullish | −0,53 | 30% | −0,80 |
-| Futures Nasdaq-100 | +0,21% dari penutupan sebelumnya (28.365,50) | +0,42 | 20% | +0,42 |
-| Futures S&P 500 | +0,36% dari penutupan sebelumnya (7.624,00) | +0,90 | 5% | +0,22 |
+| Futures Nasdaq-100 | +0,17% dari penutupan sebelumnya (28.355,00) | +0,34 | 20% | +0,34 |
+| Futures S&P 500 | +0,33% dari penutupan sebelumnya (7.622,00) | +0,82 | 5% | +0,20 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
-| VIX (volatilitas) | 19,02 (−8,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $102,75 (−0,82% dari sesi sebelumnya) | −0,09 | 5% | −0,02 |
-| Indeks dolar | −0,54% dari penutupan sebelumnya (101,32) | −1,35 | 5% | −0,34 |
+| VIX (volatilitas) | 19,01 (−8,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $102,87 (−0,70% dari sesi sebelumnya) | −0,15 | 5% | −0,04 |
+| Indeks dolar | −0,52% dari penutupan sebelumnya (101,34) | −1,30 | 5% | −0,33 |
 | Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.425 (+0,21%).
+Perkiraan pembukaan dari futures: 25.415 (+0,17%).
 Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
 - **+1,7** Two-Year Treasury Yield Falls to Two-Month Low as Democrats Sweep Midterm Elections (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,7** Midterm shock: Koreas markets swing on chip and tariff outlook (Aju Press). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,6** Midterm shock: Koreas markets swing on chip and tariff outlook (Aju Press). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,3** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,2** Treasury Yields Fall as Democrats Sweep Congress (TradingView). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,2** What a Democratic Congress can and cannot do about Trump's war, tariffs and visa curbs | HT Explainers (Hindustan Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
