@@ -1,37 +1,36 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T19:08:46+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T19:09:46+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
-Peluang indeks naik **50%**, turun **50%** (skor −1,0 dari ±10, keyakinan 64%, 59% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **59%**, turun **41%** (skor +1,4 dari ±10, keyakinan 57%, 41% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,84): +0,92% dari penutupan sebelumnya (28.565,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,88): +0,94% dari penutupan sebelumnya (28.571,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,87): Skor rata-rata −0,70 dari 34 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (+0,50): +1,16% dari penutupan sebelumnya (7.684,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Berita berbobot** (−0,63): Skor rata-rata −0,50 dari 30 kejadian bernilai; 47% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (+0,50): +1,17% dari penutupan sebelumnya (7.685,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,70 dari 34 kejadian bernilai; 43% bobot bullish | −0,58 | 30% | −0,87 |
-| Futures Nasdaq-100 | +0,92% dari penutupan sebelumnya (28.565,25) | +1,84 | 20% | +1,84 |
-| Futures S&P 500 | +1,16% dari penutupan sebelumnya (7.684,50) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,50 dari 30 kejadian bernilai; 47% bobot bullish | −0,42 | 30% | −0,63 |
+| Futures Nasdaq-100 | +0,94% dari penutupan sebelumnya (28.571,75) | +1,88 | 20% | +1,88 |
+| Futures S&P 500 | +1,17% dari penutupan sebelumnya (7.685,75) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
-| VIX (volatilitas) | 18,11 (−13,1% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $102,23 (−1,32% dari sesi sebelumnya) | +0,16 | 5% | +0,04 |
-| Indeks dolar | −0,49% dari penutupan sebelumnya (101,37) | −1,22 | 5% | −0,30 |
+| VIX (volatilitas) | 18,04 (−13,4% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | 0,00 | 10% | 0,00 |
+| Minyak Brent | $102,22 (−1,33% dari sesi sebelumnya) | +0,17 | 5% | +0,04 |
+| Indeks dolar | −0,48% dari penutupan sebelumnya (101,38) | −1,20 | 5% | −0,30 |
 | Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.605 (+0,92%).
+Perkiraan pembukaan dari futures: 25.611 (+0,94%).
 Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
 - **−2,5** Musk Faces Setback as SpaceX and Tesla Stocks Tumble on Midterm Election Results (The New York Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−2,5** U.S. Treasury Yields Rise as Investors Weigh 2026 Midterms and Iran Escalation: how 11 outlets framed it (NewsCord). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−2,0** The AI sell-off saved Apple from a sell-off of its own (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,7** Treasury Yields Decline After Democrats Take Congress; Eurozone Yields Edge Up (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,4** Midterm shock: Koreas markets swing on chip and tariff outlook (Aju Press). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
@@ -41,6 +40,7 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 - **−1,1** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,0** Treasury Yields Fall as Democrats Sweep Congress (TradingView). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,0** What a Democratic Congress can and cannot do about Trump's war, tariffs and visa curbs | HT Explainers (Hindustan Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,9** US China Export Controls Threaten SK Hynix's Multi-Billion-Dollar New York Chip Expansion Plan (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
