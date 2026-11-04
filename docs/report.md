@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T18:39:34+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T18:40:34+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
 Peluang indeks naik **50%**, turun **50%** (skor −0,9 dari ±10, keyakinan 64%, 59% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -8,18 +8,18 @@ Peluang indeks naik **50%**, turun **50%** (skor −0,9 dari ±10, keyakinan 64%
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Berita berbobot** (−0,69): Skor rata-rata −0,55 dari 30 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,13% dari penutupan sebelumnya (7.682,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,13% dari penutupan sebelumnya (7.682,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,55 dari 30 kejadian bernilai; 44% bobot bullish | −0,46 | 30% | −0,69 |
 | Futures Nasdaq-100 | +0,96% dari penutupan sebelumnya (28.576,25) | +1,92 | 20% | +1,92 |
-| Futures S&P 500 | +1,13% dari penutupan sebelumnya (7.682,25) | +2,00 | 5% | +0,50 |
+| Futures S&P 500 | +1,13% dari penutupan sebelumnya (7.682,75) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
-| VIX (volatilitas) | 18,30 (−12,2% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $102,58 (−0,98% dari sesi sebelumnya) | −0,01 | 5% | 0,00 |
+| VIX (volatilitas) | 18,26 (−12,3% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | 0,00 | 10% | 0,00 |
+| Minyak Brent | $102,56 (−1,00% dari sesi sebelumnya) | 0,00 | 5% | 0,00 |
 | Indeks dolar | −0,44% dari penutupan sebelumnya (101,42) | −1,10 | 5% | −0,28 |
 | Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
@@ -35,7 +35,7 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 - **−1,3** 'Big concern': How the Iran war and Strait of Hormuz closure could drive up prices for helium, fertilizer and other goods (ABC News - Breaking News, Latest News and Videos). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+1,2** Stocks, Bonds Rally After US Vote as Dollar Falls: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,1** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **+1,1** Treasury Yields Fall as Democrats Sweep Congress (TradingView). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **+1,0** Treasury Yields Fall as Democrats Sweep Congress (TradingView). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,0** What a Democratic Congress can and cannot do about Trump's war, tariffs and visa curbs | HT Explainers (Hindustan Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,0** 5 tech stock stalwarts have tumbled over 50% (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** US Midterms Offer Asia Pacific Little Relief on Iran War and Tariffs (Cirebon Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
