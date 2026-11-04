@@ -1,32 +1,32 @@
-# Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-05T03:59:59+07:00 · sesi Rabu 4 Nov (berjalan)_
+# Bias Nasdaq: NETRAL
+_Diperbarui 2026-11-05T04:00:58+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
-Peluang indeks naik **60%**, turun **40%** (skor +1,6 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **60%**, turun **40%** (skor +1,4 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,01% dari penutupan sebelumnya (28.590,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (−1,00): −3,17% dari penutupan sebelumnya (10.264,14). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+1,78): +0,89% dari penutupan sebelumnya (28.557,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−1,00): −3,13% dari penutupan sebelumnya (10.268,57). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,85): Skor rata-rata −0,69 dari 34 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (+0,72): 4,894% (−5,8 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **Futures S&P 500** (+0,50): +1,72% dari penutupan sebelumnya (7.727,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,66% dari penutupan sebelumnya (7.722,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,69 dari 34 kejadian bernilai; 41% bobot bullish | −0,57 | 30% | −0,85 |
-| Futures Nasdaq-100 | +1,01% dari penutupan sebelumnya (28.590,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,72% dari penutupan sebelumnya (7.727,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −3,17% dari penutupan sebelumnya (10.264,14) | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | +0,89% dari penutupan sebelumnya (28.557,50) | +1,78 | 20% | +1,78 |
+| Futures S&P 500 | +1,66% dari penutupan sebelumnya (7.722,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,57) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +1,45 | 10% | +0,72 |
-| VIX (volatilitas) | 16,80 (−19,4% dari sesi sebelumnya); VXN (Nasdaq-100) 25,28 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $95,25 (−8,06% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,35% dari penutupan sebelumnya (101,52) | −0,87 | 5% | −0,22 |
-| Tren Nasdaq 5 sesi | −3,05% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 16,82 (−19,2% dari sesi sebelumnya); VXN (Nasdaq-100) 25,31 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $95,26 (−8,05% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,34% dari penutupan sebelumnya (101,52) | −0,85 | 5% | −0,21 |
+| Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
-Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.628 (+1,01%).
-Rentang wajar 1σ (VXN): 24.968 sampai 25.776.
+Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
+Perkiraan pembukaan dari futures: 25.966 (+0,89%).
+Rentang wajar 1σ (VXN): 25.326 sampai 26.147.
 
 ## Berita paling berdampak
 - **−2,6** SpaceX and Tesla Stocks Tumble After Elon Musk-Backed Candidates Lose in Texas (The New York Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -36,7 +36,7 @@ Rentang wajar 1σ (VXN): 24.968 sampai 25.776.
 - **−1,5** 10-Year Treasury Yield Plunges 19 Basis Points in Single Day as AI Capex Fears Chill Fed Rate-Hike Expectations (BigGo Finance). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,5** Stock Market Today: Dow Eyes 2% Jump as AMD Earnings Ease AI Spending Fears (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,5** Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **+1,5** Treasury Yields Decline After Democrat Triumph; Eurozone Bond Yields Trade Mixed (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **+1,4** Treasury Yields Decline After Democrat Triumph; Eurozone Bond Yields Trade Mixed (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,4** These 12 stocks are good bets to beat the 10-year Treasury over the next decade (MarketWatch). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** Germany 10-Year Bond Yield Falls Slightly (TradingView). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,2** [Options Check-in Day 19/30] AMD earnings beat guidance; how big of a gap up is needed for Calls to be profitable? 🧮 (Moomoo). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
