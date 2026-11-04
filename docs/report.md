@@ -1,36 +1,37 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T19:24:46+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T19:25:46+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 68%, 59% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **42%**, turun **58%** (skor −2,9 dari ±10, keyakinan 77%, 77% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
+- **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 33 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,90): Skor rata-rata −0,72 dari 33 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (+0,50): +0,81% dari penutupan sebelumnya (7.658,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Futures Nasdaq-100** (+0,46): +0,23% dari penutupan sebelumnya (28.371,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures S&P 500** (+0,47): +0,75% dari penutupan sebelumnya (7.653,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Tren Nasdaq 5 sesi** (−0,38): −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,72 dari 33 kejadian bernilai; 41% bobot bullish | −0,60 | 30% | −0,90 |
-| Futures Nasdaq-100 | +0,23% dari penutupan sebelumnya (28.371,25) | +0,46 | 20% | +0,46 |
-| Futures S&P 500 | +0,81% dari penutupan sebelumnya (7.658,50) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,90 dari 33 kejadian bernilai; 39% bobot bullish | −0,75 | 30% | −1,12 |
+| Futures Nasdaq-100 | +0,10% dari penutupan sebelumnya (28.333,00) | +0,20 | 20% | +0,20 |
+| Futures S&P 500 | +0,75% dari penutupan sebelumnya (7.653,75) | +1,88 | 5% | +0,47 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
-| VIX (volatilitas) | 18,49 (−11,2% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $102,17 (−1,38% dari sesi sebelumnya) | +0,19 | 5% | +0,05 |
+| VIX (volatilitas) | 18,44 (−11,5% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | 0,00 | 10% | 0,00 |
+| Minyak Brent | $102,18 (−1,37% dari sesi sebelumnya) | +0,19 | 5% | +0,05 |
 | Indeks dolar | −0,52% dari penutupan sebelumnya (101,34) | −1,30 | 5% | −0,33 |
 | Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.430 (+0,23%).
+Perkiraan pembukaan dari futures: 25.397 (+0,10%).
 Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
 - **−2,5** Musk Faces Setback as SpaceX and Tesla Stocks Tumble on Midterm Election Results (The New York Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−2,4** U.S. Treasury Yields Rise as Investors Weigh 2026 Midterms and Iran Escalation: how 11 outlets framed it (NewsCord). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−2,0** The AI sell-off saved Apple from a sell-off of its own (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,7** Treasury Yields Decline After Democrats Take Congress; Eurozone Yields Edge Up (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,4** Midterm shock: Koreas markets swing on chip and tariff outlook (Aju Press). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
@@ -40,7 +41,6 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 - **+1,0** Treasury Yields Fall as Democrats Sweep Congress (TradingView). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−0,9** What a Democratic Congress can and cannot do about Trump's war, tariffs and visa curbs | HT Explainers (Hindustan Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** 5 tech stock stalwarts have tumbled over 50% (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,9** AMD Issues Upbeat Fourth-Quarter Revenue Guidance Following Third-Quarter Beat (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
