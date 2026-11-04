@@ -1,31 +1,31 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T22:33:53+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-04T22:34:53+07:00 · sesi Rabu 4 Nov (berjalan)_
 
-Peluang indeks naik **57%**, turun **43%** (skor +0,7 dari ±10, keyakinan 57%, 44% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **56%**, turun **44%** (skor +0,5 dari ±10, keyakinan 56%, 44% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,74% dari penutupan sebelumnya (28.799,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (−0,92): −1,83% dari penutupan sebelumnya (10.406,11). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,89): Skor rata-rata −0,71 dari 34 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,54% dari penutupan sebelumnya (7.714,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **VIX (volatilitas)** (+0,50): 17,01 (−18,3% dari sesi sebelumnya); VXN (Nasdaq-100) 26,42. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
+- **Futures Nasdaq-100** (+2,00): +1,75% dari penutupan sebelumnya (28.800,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,03): Skor rata-rata −0,82 dari 33 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (−1,00): −2,05% dari penutupan sebelumnya (10.383,57). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +1,59% dari penutupan sebelumnya (7.717,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (+0,50): 17,05 (−18,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,42. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,71 dari 34 kejadian bernilai; 40% bobot bullish | −0,59 | 30% | −0,89 |
-| Futures Nasdaq-100 | +1,74% dari penutupan sebelumnya (28.799,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,54% dari penutupan sebelumnya (7.714,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −1,83% dari penutupan sebelumnya (10.406,11) | −1,83 | 10% | −0,92 |
+| Berita berbobot | skor rata-rata −0,82 dari 33 kejadian bernilai; 38% bobot bullish | −0,69 | 30% | −1,03 |
+| Futures Nasdaq-100 | +1,75% dari penutupan sebelumnya (28.800,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,59% dari penutupan sebelumnya (7.717,75) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −2,05% dari penutupan sebelumnya (10.383,57) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,958% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 17,01 (−18,3% dari sesi sebelumnya); VXN (Nasdaq-100) 26,42 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $101,18 (−2,34% dari sesi sebelumnya) | +0,67 | 5% | +0,17 |
-| Indeks dolar | −0,35% dari penutupan sebelumnya (101,51) | −0,87 | 5% | −0,22 |
-| Tren Nasdaq 5 sesi | −2,45% dalam 5 sesi; 6,6% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 17,05 (−18,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,42 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $101,20 (−2,32% dari sesi sebelumnya) | +0,66 | 5% | +0,17 |
+| Indeks dolar | −0,34% dari penutupan sebelumnya (101,52) | −0,85 | 5% | −0,21 |
+| Tren Nasdaq 5 sesi | −2,51% dalam 5 sesi; 6,6% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.813 (+1,74%).
+Perkiraan pembukaan dari futures: 25.816 (+1,75%).
 Rentang wajar 1σ (VXN): 24.950 sampai 25.794.
 
 ## Berita paling berdampak
@@ -33,14 +33,14 @@ Rentang wajar 1σ (VXN): 24.950 sampai 25.794.
 - **−2,2** Stock Market Today: Dow Eyes 2% Jump as AMD Earnings Ease AI Spending Fears (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+2,1** Treasury Yields Decline After Democrat Triumph; Eurozone Bond Yields Trade Mixed (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−2,0** SpaceX, Tesla stocks sink as analyst warns Democrats' victory will create 'major hurdles' for AI build-out (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−2,0** U.S. Treasury Yields Rise as Investors Weigh 2026 Midterms and Iran Escalation: how 11 outlets framed it (NewsCord). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,9** U.S. Treasury Yields Rise as Investors Weigh 2026 Midterms and Iran Escalation: how 11 outlets framed it (NewsCord). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,5** Can Policy Fears Over Texas Data Centers Wipe Out a 7.2% Gain at CoreWeave (NASDAQ:CRWV), Oracle (NYSE:ORCL), Super Micro Computer (NASDAQ:SMCI) and Bloom Energy (NYSE:BE)? (Kalkine). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** US Stock Market Today: Dow Skyrockets 1,000 Points, Nasdaq Jumps 1.5% On Blue Wave; AI Stocks Plunge (NDTV Profit). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,2** Apple beats sales and profit expectations but AI costs weigh on holiday sales (thestar.co.za). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+1,2** Enpro Stock After Earnings Beat And Guidance Raise (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Tech Sell-Off: 2 Growth Stocks Investors Might Regret Not Buying on the Dip (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Midterm shock: Koreas markets swing on chip and tariff outlook (Aju Press). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,1** Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win? (Al Jazeera). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
