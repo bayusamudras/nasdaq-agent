@@ -1,19 +1,19 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T17:24:53+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T17:25:53+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
-Peluang indeks naik **47%**, turun **53%** (skor −1,9 dari ±10, keyakinan 66%, 59% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 66%, 59% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+1,52): +0,76% dari penutupan sebelumnya (28.521,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Berita berbobot** (−0,51): Skor rata-rata −0,41 dari 28 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +0,84% dari penutupan sebelumnya (7.660,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Berita berbobot** (−0,42): Skor rata-rata −0,34 dari 26 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,34 dari 26 kejadian bernilai; 46% bobot bullish | −0,28 | 30% | −0,42 |
+| Berita berbobot | skor rata-rata −0,41 dari 28 kejadian bernilai; 46% bobot bullish | −0,34 | 30% | −0,51 |
 | Futures Nasdaq-100 | +0,76% dari penutupan sebelumnya (28.521,25) | +1,52 | 20% | +1,52 |
 | Futures S&P 500 | +0,84% dari penutupan sebelumnya (7.660,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
