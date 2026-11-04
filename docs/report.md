@@ -1,32 +1,32 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-04T22:12:44+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-04T22:13:44+07:00 · sesi Rabu 4 Nov (berjalan)_
 
 Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 63%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,92% dari penutupan sebelumnya (28.849,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,87% dari penutupan sebelumnya (28.834,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−0,63): Skor rata-rata −0,51 dari 34 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,77% dari penutupan sebelumnya (7.731,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **VIX (volatilitas)** (+0,50): 17,33 (−16,8% dari sesi sebelumnya); VXN (Nasdaq-100) 27,07. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
-- **Tren Nasdaq 5 sesi** (−0,34): −2,07% dalam 5 sesi; 6,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (+0,50): +1,77% dari penutupan sebelumnya (7.731,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (+0,50): 17,25 (−17,2% dari sesi sebelumnya); VXN (Nasdaq-100) 27,04. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
+- **Tren Nasdaq 5 sesi** (−0,34): −2,04% dalam 5 sesi; 6,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,51 dari 34 kejadian bernilai; 46% bobot bullish | −0,42 | 30% | −0,63 |
-| Futures Nasdaq-100 | +1,92% dari penutupan sebelumnya (28.849,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,77% dari penutupan sebelumnya (7.731,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −0,50% dari penutupan sebelumnya (10.547,30) | −0,50 | 10% | −0,25 |
-| Yield obligasi 10 tahun | 4,927% (−2,5 bp dari sesi sebelumnya) | +0,62 | 10% | +0,31 |
-| VIX (volatilitas) | 17,33 (−16,8% dari sesi sebelumnya); VXN (Nasdaq-100) 27,07 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $100,91 (−2,60% dari sesi sebelumnya) | +0,80 | 5% | +0,20 |
-| Indeks dolar | −0,42% dari penutupan sebelumnya (101,45) | −1,05 | 5% | −0,26 |
-| Tren Nasdaq 5 sesi | −2,07% dalam 5 sesi; 6,2% di bawah puncak 52 minggu | −1,38 | 5% | −0,34 |
+| Futures Nasdaq-100 | +1,87% dari penutupan sebelumnya (28.834,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,77% dari penutupan sebelumnya (7.731,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −0,46% dari penutupan sebelumnya (10.552,09) | −0,46 | 10% | −0,23 |
+| Yield obligasi 10 tahun | 4,929% (−2,3 bp dari sesi sebelumnya) | +0,57 | 10% | +0,28 |
+| VIX (volatilitas) | 17,25 (−17,2% dari sesi sebelumnya); VXN (Nasdaq-100) 27,04 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $101,02 (−2,49% dari sesi sebelumnya) | +0,75 | 5% | +0,19 |
+| Indeks dolar | −0,42% dari penutupan sebelumnya (101,44) | −1,05 | 5% | −0,26 |
+| Tren Nasdaq 5 sesi | −2,04% dalam 5 sesi; 6,2% di bawah puncak 52 minggu | −1,36 | 5% | −0,34 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.859 (+1,92%).
-Rentang wajar 1σ (VXN): 24.939 sampai 25.805.
+Perkiraan pembukaan dari futures: 25.846 (+1,87%).
+Rentang wajar 1σ (VXN): 24.940 sampai 25.804.
 
 ## Berita paling berdampak
 - **−2,5** Musk Faces Setback as SpaceX and Tesla Stocks Tumble on Midterm Election Results (The New York Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
