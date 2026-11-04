@@ -1,5 +1,5 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-05T06:11:54+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T06:12:54+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
 Peluang indeks naik **61%**, turun **39%** (skor +1,8 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
