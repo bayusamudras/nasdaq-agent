@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T13:54:43+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T13:55:43+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 28,182–28,306. Liquidity sweep di bawah 27,713 lalu ditolak (4 jam lalu). Skor dipangkas dari -6.6 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 28,182–28,306. Liquidity sweep di bawah 27,713 lalu ditolak (4 jam lalu). Skor dipangkas dari -7.3 menjadi -2.0.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,99): Skor rata-rata −0,79 dari 29 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−0,82): −0,41% dari penutupan sebelumnya (28.190,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−0,92): Skor rata-rata −0,73 dari 30 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−0,84): −0,42% dari penutupan sebelumnya (28.185,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (−0,38): −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,79 dari 29 kejadian bernilai; 35% bobot bullish | −0,66 | 30% | −0,99 |
-| Futures Nasdaq-100 | −0,41% dari penutupan sebelumnya (28.190,00) | −0,82 | 20% | −0,82 |
-| Futures S&P 500 | −0,27% dari penutupan sebelumnya (7.576,25) | −0,68 | 5% | −0,17 |
+| Berita berbobot | skor rata-rata −0,73 dari 30 kejadian bernilai; 36% bobot bullish | −0,61 | 30% | −0,92 |
+| Futures Nasdaq-100 | −0,42% dari penutupan sebelumnya (28.185,50) | −0,84 | 20% | −0,84 |
+| Futures S&P 500 | −0,28% dari penutupan sebelumnya (7.575,50) | −0,70 | 5% | −0,18 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
 | VIX (volatilitas) | 20,83 (−1,5% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $103,93 (+0,32% dari sesi sebelumnya) | −0,66 | 5% | −0,17 |
+| Minyak Brent | $104,06 (+0,44% dari sesi sebelumnya) | −0,72 | 5% | −0,18 |
 | Indeks dolar | −0,37% dari penutupan sebelumnya (101,49) | −0,92 | 5% | −0,23 |
 | Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.268 (−0,41%).
+Perkiraan pembukaan dari futures: 25.265 (−0,42%).
 Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
@@ -37,7 +37,7 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 - **−1,2** US China Export Controls Threaten SK Hynix's Multi-Billion-Dollar New York Chip Expansion Plan (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B (Stocktwits). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,1** Stock Market Today: Nasdaq Rises Despite Apple Slump as Investors Watch Midterms, Gold Gains +0.19% (Eurasia Business News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,0** Stock Market Today, Nov. 3: Grab Holdings Jumps 9% on Q3 Revenue Beat and Raised 2026 Outlook (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+0,9** Stock Market Today, Nov. 3: Grab Holdings Jumps 9% on Q3 Revenue Beat and Raised 2026 Outlook (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,9** Shopify Earnings: Despite Stock Selloff, We Thought Results Were Strong (Morningstar). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Arista Networks shares jump on upbeat Q3 results, strong guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,9** Stock Sell-Off, Bond Market Jitters Signal Financing Trouble For AI Data Centers (Bisnow). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
