@@ -1,31 +1,31 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T23:21:11+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-04T23:22:11+07:00 · sesi Rabu 4 Nov (berjalan)_
 
-Peluang indeks naik **49%**, turun **51%** (skor −1,3 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **49%**, turun **51%** (skor −1,2 dari ±10, keyakinan 60%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,09% dari penutupan sebelumnya (28.615,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (−1,00): −3,76% dari penutupan sebelumnya (10.201,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,96): Skor rata-rata −0,76 dari 29 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (+0,54): 4,909% (−4,3 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **Futures S&P 500** (+0,50): +1,52% dari penutupan sebelumnya (7.712,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +1,15% dari penutupan sebelumnya (28.631,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−1,00): −3,88% dari penutupan sebelumnya (10.188,87). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,89): Skor rata-rata −0,71 dari 30 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Yield obligasi 10 tahun** (+0,60): 4,904% (−4,8 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
+- **Futures S&P 500** (+0,50): +1,53% dari penutupan sebelumnya (7.713,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,76 dari 29 kejadian bernilai; 39% bobot bullish | −0,64 | 30% | −0,96 |
-| Futures Nasdaq-100 | +1,09% dari penutupan sebelumnya (28.615,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,52% dari penutupan sebelumnya (7.712,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −3,76% dari penutupan sebelumnya (10.201,59) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,909% (−4,3 bp dari sesi sebelumnya) | +1,07 | 10% | +0,54 |
-| VIX (volatilitas) | 17,89 (−14,1% dari sesi sebelumnya); VXN (Nasdaq-100) 27,09 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $99,35 (−4,10% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,34% dari penutupan sebelumnya (101,52) | −0,85 | 5% | −0,21 |
-| Tren Nasdaq 5 sesi | −2,98% dalam 5 sesi; 7,1% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Berita berbobot | skor rata-rata −0,71 dari 30 kejadian bernilai; 40% bobot bullish | −0,59 | 30% | −0,89 |
+| Futures Nasdaq-100 | +1,15% dari penutupan sebelumnya (28.631,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,53% dari penutupan sebelumnya (7.713,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −3,88% dari penutupan sebelumnya (10.188,87) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,904% (−4,8 bp dari sesi sebelumnya) | +1,20 | 10% | +0,60 |
+| VIX (volatilitas) | 17,93 (−13,9% dari sesi sebelumnya); VXN (Nasdaq-100) 27,09 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $99,17 (−4,28% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,32% dari penutupan sebelumnya (101,55) | −0,80 | 5% | −0,20 |
+| Tren Nasdaq 5 sesi | −3,07% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.649 (+1,09%).
+Perkiraan pembukaan dari futures: 25.664 (+1,15%).
 Rentang wajar 1σ (VXN): 24.939 sampai 25.805.
 
 ## Berita paling berdampak
