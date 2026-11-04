@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-04T22:22:53+07:00 · sesi Rabu 4 Nov (berjalan)_
+_Diperbarui 2026-11-04T22:23:53+07:00 · sesi Rabu 4 Nov (berjalan)_
 
-Peluang indeks naik **57%**, turun **42%** (skor +0,9 dari ±10, keyakinan 60%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **58%**, turun **42%** (skor +0,9 dari ±10, keyakinan 57%, 44% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,11% dari penutupan sebelumnya (28.904,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,03): Skor rata-rata −0,83 dari 32 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−0,76): −1,51% dari penutupan sebelumnya (10.440,27). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +1,79% dari penutupan sebelumnya (7.733,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **VIX (volatilitas)** (+0,50): 17,01 (−18,3% dari sesi sebelumnya); VXN (Nasdaq-100) 26,86. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
+- **Futures Nasdaq-100** (+2,00): +2,19% dari penutupan sebelumnya (28.925,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−0,85): Skor rata-rata −0,69 dari 33 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (−0,83): −1,67% dari penutupan sebelumnya (10.423,41). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +1,81% dari penutupan sebelumnya (7.734,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (+0,50): 16,97 (−18,5% dari sesi sebelumnya); VXN (Nasdaq-100) 26,61. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,83 dari 32 kejadian bernilai; 38% bobot bullish | −0,69 | 30% | −1,03 |
-| Futures Nasdaq-100 | +2,11% dari penutupan sebelumnya (28.904,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,79% dari penutupan sebelumnya (7.733,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | −1,51% dari penutupan sebelumnya (10.440,27) | −1,51 | 10% | −0,76 |
-| Yield obligasi 10 tahun | 4,941% (−1,1 bp dari sesi sebelumnya) | +0,28 | 10% | +0,14 |
-| VIX (volatilitas) | 17,01 (−18,3% dari sesi sebelumnya); VXN (Nasdaq-100) 26,86 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $101,32 (−2,20% dari sesi sebelumnya) | +0,60 | 5% | +0,15 |
-| Indeks dolar | −0,38% dari penutupan sebelumnya (101,48) | −0,95 | 5% | −0,24 |
-| Tren Nasdaq 5 sesi | −2,34% dalam 5 sesi; 6,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Berita berbobot | skor rata-rata −0,69 dari 33 kejadian bernilai; 41% bobot bullish | −0,57 | 30% | −0,85 |
+| Futures Nasdaq-100 | +2,19% dari penutupan sebelumnya (28.925,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,81% dari penutupan sebelumnya (7.734,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | −1,67% dari penutupan sebelumnya (10.423,41) | −1,67 | 10% | −0,83 |
+| Yield obligasi 10 tahun | 4,946% (−0,6 bp dari sesi sebelumnya) | +0,15 | 10% | +0,07 |
+| VIX (volatilitas) | 16,97 (−18,5% dari sesi sebelumnya); VXN (Nasdaq-100) 26,61 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $101,28 (−2,24% dari sesi sebelumnya) | +0,62 | 5% | +0,15 |
+| Indeks dolar | −0,40% dari penutupan sebelumnya (101,46) | −1,00 | 5% | −0,25 |
+| Tren Nasdaq 5 sesi | −2,38% dalam 5 sesi; 6,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.364; resistensi 25.482 / 25.592; support 25.254 / 25.137.
-Perkiraan pembukaan dari futures: 25.907 (+2,11%).
-Rentang wajar 1σ (VXN): 24.943 sampai 25.801.
+Perkiraan pembukaan dari futures: 25.928 (+2,19%).
+Rentang wajar 1σ (VXN): 24.947 sampai 25.797.
 
 ## Berita paling berdampak
 - **−2,5** Musk Faces Setback as SpaceX and Tesla Stocks Tumble on Midterm Election Results (The New York Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -38,9 +38,9 @@ Rentang wajar 1σ (VXN): 24.943 sampai 25.801.
 - **−1,4** Semiconductor Sell-Off: The Best Chip Stocks to Buy Right Now Before They Skyrocket Once Again (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** US Stock Market Today: Dow Skyrockets 1,000 Points, Nasdaq Jumps 1.5% On Blue Wave; AI Stocks Plunge (NDTV Profit). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,2** Apple beats sales and profit expectations but AI costs weigh on holiday sales (thestar.co.za). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,2** Enpro Stock After Earnings Beat And Guidance Raise (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Tech Sell-Off: 2 Growth Stocks Investors Might Regret Not Buying on the Dip (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Midterm shock: Koreas markets swing on chip and tariff outlook (Aju Press). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,1** Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win? (Al Jazeera). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
