@@ -1,26 +1,26 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-04T15:47:20+07:00 · sesi Rabu 4 Nov (pra-buka)_
+_Diperbarui 2026-11-04T15:48:21+07:00 · sesi Rabu 4 Nov (pra-buka)_
 
-Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 71%, 65% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **45%**, turun **55%** (skor −2,3 dari ±10, keyakinan 70%, 65% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +2,63% dari penutupan sebelumnya (10.600,40). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,78): Skor rata-rata −0,62 dari 24 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−0,72): 4,952% (+5,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (+0,42): +0,21% dari penutupan sebelumnya (28.366,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−0,42): Skor rata-rata −0,33 dari 26 kejadian bernilai; 48% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+0,42): +0,21% dari penutupan sebelumnya (28.365,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Tren Nasdaq 5 sesi** (−0,38): −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,62 dari 24 kejadian bernilai; 42% bobot bullish | −0,52 | 30% | −0,78 |
-| Futures Nasdaq-100 | +0,21% dari penutupan sebelumnya (28.366,50) | +0,42 | 20% | +0,42 |
-| Futures S&P 500 | +0,20% dari penutupan sebelumnya (7.611,75) | +0,50 | 5% | +0,12 |
+| Berita berbobot | skor rata-rata −0,33 dari 26 kejadian bernilai; 48% bobot bullish | −0,28 | 30% | −0,42 |
+| Futures Nasdaq-100 | +0,21% dari penutupan sebelumnya (28.365,00) | +0,42 | 20% | +0,42 |
+| Futures S&P 500 | +0,19% dari penutupan sebelumnya (7.611,25) | +0,47 | 5% | +0,12 |
 | Semikonduktor (SOX) | +2,63% dari penutupan sebelumnya (10.600,40) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,952% (+5,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
-| VIX (volatilitas) | 19,19 (−7,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | −0,50 | 10% | −0,25 |
+| VIX (volatilitas) | 19,11 (−8,3% dari sesi sebelumnya); VXN (Nasdaq-100) 30,53 | −0,50 | 10% | −0,25 |
 | Minyak Brent | $104,03 (+0,42% dari sesi sebelumnya) | −0,71 | 5% | −0,18 |
-| Indeks dolar | −0,47% dari penutupan sebelumnya (101,39) | −1,17 | 5% | −0,29 |
+| Indeks dolar | −0,46% dari penutupan sebelumnya (101,40) | −1,15 | 5% | −0,29 |
 | Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
@@ -30,6 +30,7 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 
 ## Berita paling berdampak
 - **+1,7** Two-Year Treasury Yield Falls to Two-Month Low as Democrats Sweep Midterm Elections (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **+1,4** US bond yields fall; Nasdaq, Dow Jones futures slip 2% as Democrats set for big win in US midterm election (The Economic Times). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,3** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,2** What a Democratic Congress can and cannot do about Trump's war, tariffs and visa curbs | HT Explainers (Hindustan Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** 5 tech stock stalwarts have tumbled over 50% (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -40,7 +41,6 @@ Rentang wajar 1σ (VXN): 24.884 sampai 25.860.
 - **+0,8** Arista Networks shares jump on upbeat Q3 results, strong guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,8** Stock Sell-Off, Bond Market Jitters Signal Financing Trouble For AI Data Centers (Bisnow). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Oil Prices Rise 3% as Iran War Stand-off Persists - Energy News, Top Headlines, Commentaries, Features & Events (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **−0,7** Iran War Erodes Exxon, Chevron Profits Even as Oil Prices Soar (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
