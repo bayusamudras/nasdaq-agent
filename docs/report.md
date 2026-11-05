@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-05T21:49:21+07:00 · sesi Kamis 5 Nov (berjalan)_
+_Diperbarui 2026-11-05T21:50:21+07:00 · sesi Kamis 5 Nov (berjalan)_
 
 Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 80%, 83% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls)
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,35% dari penutupan sebelumnya (27.894,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −6,45% dari penutupan sebelumnya (9.605,87). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−2,00): −2,60% dari penutupan sebelumnya (27.824,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −5,98% dari penutupan sebelumnya (9.654,10). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,70): Skor rata-rata −0,57 dari 37 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,47): −0,76% dari penutupan sebelumnya (7.661,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,38): −4,23% dalam 5 sesi; 9,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (−0,50): −0,88% dari penutupan sebelumnya (7.652,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Minyak Brent** (−0,38): $97,46 (+3,00% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,57 dari 37 kejadian bernilai; 40% bobot bullish | −0,47 | 30% | −0,70 |
-| Futures Nasdaq-100 | −2,35% dari penutupan sebelumnya (27.894,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,76% dari penutupan sebelumnya (7.661,75) | −1,90 | 5% | −0,47 |
-| Semikonduktor (SOX) | −6,45% dari penutupan sebelumnya (9.605,87) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,902% (+0,8 bp dari sesi sebelumnya) | −0,20 | 10% | −0,10 |
-| VIX (volatilitas) | 17,56 (+5,7% dari sesi sebelumnya); VXN (Nasdaq-100) 26,36 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $97,22 (+2,75% dari sesi sebelumnya) | −1,38 | 5% | −0,34 |
-| Indeks dolar | +0,19% dari penutupan sebelumnya (101,70) | +0,47 | 5% | +0,12 |
-| Tren Nasdaq 5 sesi | −4,23% dalam 5 sesi; 9,5% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Futures Nasdaq-100 | −2,60% dari penutupan sebelumnya (27.824,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,88% dari penutupan sebelumnya (7.652,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −5,98% dari penutupan sebelumnya (9.654,10) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,896% (+0,2 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
+| VIX (volatilitas) | 17,76 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 26,55 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $97,46 (+3,00% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
+| Indeks dolar | +0,18% dari penutupan sebelumnya (101,69) | +0,45 | 5% | +0,11 |
+| Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 9,4% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 25.132 (−2,35%).
-Rentang wajar 1σ (VXN): 25.309 sampai 26.164.
+Perkiraan pembukaan dari futures: 25.067 (−2,60%).
+Rentang wajar 1σ (VXN): 25.306 sampai 26.167.
 
 ## Berita paling berdampak
 - **−1,9** Treasury, European Bond Yields Tumble as Markets Lifted By U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
