@@ -1,33 +1,32 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-05T20:49:49+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T20:50:49+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
-Peluang indeks naik **24%**, turun **76%** (skor −8,2 dari ±10, keyakinan 77%, 78% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **23%**, turun **77%** (skor −8,4 dari ±10, keyakinan 77%, 78% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls)
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,56): −0,78% dari penutupan sebelumnya (28.344,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,46): −0,73% dari penutupan sebelumnya (28.357,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,13% dari penutupan sebelumnya (10.268,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,59): Skor rata-rata −0,46 dari 36 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,90): Skor rata-rata −0,72 dari 34 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (−0,30): $96,92 (+2,43% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,46 dari 36 kejadian bernilai; 43% bobot bullish | −0,39 | 30% | −0,59 |
-| Futures Nasdaq-100 | −0,78% dari penutupan sebelumnya (28.344,50) | −1,56 | 20% | −1,56 |
-| Futures S&P 500 | +0,13% dari penutupan sebelumnya (7.730,25) | +0,33 | 5% | +0,08 |
+| Berita berbobot | skor rata-rata −0,72 dari 34 kejadian bernilai; 35% bobot bullish | −0,60 | 30% | −0,90 |
+| Futures Nasdaq-100 | −0,73% dari penutupan sebelumnya (28.357,75) | −1,46 | 20% | −1,46 |
+| Futures S&P 500 | +0,15% dari penutupan sebelumnya (7.732,00) | +0,37 | 5% | +0,09 |
 | Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,65) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,902% (+0,8 bp dari sesi sebelumnya) | −0,20 | 10% | −0,10 |
-| VIX (volatilitas) | 16,86 (+1,5% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $96,92 (+2,43% dari sesi sebelumnya) | −1,22 | 5% | −0,30 |
+| Yield obligasi 10 tahun | 4,900% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
+| VIX (volatilitas) | 16,85 (+1,4% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $96,73 (+2,23% dari sesi sebelumnya) | −1,11 | 5% | −0,28 |
 | Indeks dolar | +0,10% dari penutupan sebelumnya (101,61) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 25.536 (−0,78%).
+Perkiraan pembukaan dari futures: 25.549 (−0,73%).
 Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 
 ## Berita paling berdampak
@@ -35,6 +34,7 @@ Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 - **−1,7** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** AI capex growth is peaking, Citrini says, as mega commitments fade (XT:NASDAQ) (Seeking Alpha). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,4** Stock market today: Dow, S&P 500, Nasdaq trade mixed as post-election relief rally cools, oil falls (AOL.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **−1,4** Microsoft's $5B AI Capex Gap: Satellite Images Point to Delays at IREN, Nebius Sites (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,3** Rate Hikes Could Be Coming: History Likes These 4 Dividend Stocks (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,2** Futures: Dow Keeps Rising As AI Slumps; Three Giants Are Buys (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** US Treasury Yields Retreat to 4.8%; Yardeni Says 5% Is the Truly Tempting Level (BigGo Finance). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
@@ -42,7 +42,6 @@ Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 - **+1,0** How Earnings Beat At Ormat Technologies (ORA) Has Changed Its Investment Story (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,9** Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Nearly 70 Years' Worth of History. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−0,8** China, AI Immigration, Rare Earths & Chips, Tariffs, Markets | BG2 w/ Bill Gurley & Brad Gerstner｜BG2Pod (finance.biggo.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
