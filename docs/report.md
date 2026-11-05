@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-06T05:56:57+07:00 · sesi Jumat 6 Nov (pra-buka)_
+_Diperbarui 2026-11-06T05:57:56+07:00 · sesi Jumat 6 Nov (pra-buka)_
 
 Peluang indeks naik **20%**, turun **80%** (skor −9,7 dari ±10, keyakinan 77%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -31,7 +31,7 @@ Perkiraan pembukaan dari futures: 22.645 (−6,87%).
 Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 
 ## Berita paling berdampak
-- **−2,6** US Stock Futures Diverge as Chip Selloff Extends Into Second Day (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−2,5** US Stock Futures Diverge as Chip Selloff Extends Into Second Day (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−2,4** Tesla Shares Tumble Again in Deepening Post-Election Slump (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−2,1** Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,9** Wall Street Gets $2.5 Trillion AI Reality Check With Historic Rout of Tech Stocks (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
