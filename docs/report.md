@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-05T14:19:11+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T14:20:11+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
 Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 74%, 62% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,54): −0,77% dari penutupan sebelumnya (28.345,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,52): −0,76% dari penutupan sebelumnya (28.351,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,13% dari penutupan sebelumnya (10.268,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+0,72): 4,894% (−5,8 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (+0,50): 16,61 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
@@ -13,19 +13,19 @@ Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 74%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,26 dari 42 kejadian bernilai; 51% bobot bullish | −0,22 | 30% | −0,33 |
-| Futures Nasdaq-100 | −0,77% dari penutupan sebelumnya (28.345,50) | −1,54 | 20% | −1,54 |
-| Futures S&P 500 | −0,03% dari penutupan sebelumnya (7.718,00) | −0,07 | 5% | −0,02 |
+| Berita berbobot | skor rata-rata −0,27 dari 42 kejadian bernilai; 50% bobot bullish | −0,22 | 30% | −0,33 |
+| Futures Nasdaq-100 | −0,76% dari penutupan sebelumnya (28.351,00) | −1,52 | 20% | −1,52 |
+| Futures S&P 500 | −0,04% dari penutupan sebelumnya (7.717,75) | −0,10 | 5% | −0,03 |
 | Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,65) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +1,45 | 10% | +0,72 |
 | VIX (volatilitas) | 16,61 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $94,02 (−0,63% dari sesi sebelumnya) | +0,32 | 5% | +0,08 |
-| Indeks dolar | −0,27% dari penutupan sebelumnya (101,24) | −0,68 | 5% | −0,17 |
+| Minyak Brent | $94,03 (−0,62% dari sesi sebelumnya) | +0,31 | 5% | +0,08 |
+| Indeks dolar | −0,25% dari penutupan sebelumnya (101,25) | −0,62 | 5% | −0,15 |
 | Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 25.538 (−0,77%).
+Perkiraan pembukaan dari futures: 25.541 (−0,76%).
 Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 
 ## Berita paling berdampak
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 - **−0,9** 5-star analyst resets Nvidia stock target after Intel crash (TheStreet). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Nasdaq-100 Beats Six of the Magnificent Seven in 2026 as Apple Stands Alone (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+0,9** Why did oil prices drop today? Traders bet the midterm results bring the Iran war closer to an end (Nacionale). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−0,8** Democratic Sweep Lifts Big Tech by Nearly $1 Trillion as Investors Bet on Slower AI Capex (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−0,9** Democrats Take Congress: Trump Keeps Tariff Power, but Asia Braces for Gridlock and New Scrutiny (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
