@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-06T00:46:01+07:00 · sesi Kamis 5 Nov (berjalan)_
+_Diperbarui 2026-11-06T00:47:01+07:00 · sesi Kamis 5 Nov (berjalan)_
 
 Peluang indeks naik **24%**, turun **76%** (skor −8,1 dari ±10, keyakinan 77%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −5,56% dari penutupan sebelumnya (26.979,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,97): Skor rata-rata −1,57 dari 41 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −10,46% dari penutupan sebelumnya (9.194,90). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,85): 25,05 (+50,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,88. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −3,73% dari penutupan sebelumnya (7.432,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −5,40% dari penutupan sebelumnya (27.023,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,97): Skor rata-rata −1,57 dari 40 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (−1,00): −10,52% dari penutupan sebelumnya (9.188,47). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,85): 25,20 (+51,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,01. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −3,64% dari penutupan sebelumnya (7.439,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,57 dari 41 kejadian bernilai; 20% bobot bullish | −1,31 | 30% | −1,97 |
-| Futures Nasdaq-100 | −5,56% dari penutupan sebelumnya (26.979,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −3,73% dari penutupan sebelumnya (7.432,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −10,46% dari penutupan sebelumnya (9.194,90) | −2,00 | 10% | −1,00 |
+| Berita berbobot | skor rata-rata −1,57 dari 40 kejadian bernilai; 20% bobot bullish | −1,31 | 30% | −1,97 |
+| Futures Nasdaq-100 | −5,40% dari penutupan sebelumnya (27.023,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −3,64% dari penutupan sebelumnya (7.439,75) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −10,52% dari penutupan sebelumnya (9.188,47) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,841% (−5,3 bp dari sesi sebelumnya) | +0,53 | 10% | +0,27 |
-| VIX (volatilitas) | 25,05 (+50,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,88 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $97,30 (+2,83% dari sesi sebelumnya) | −1,42 | 5% | −0,35 |
+| VIX (volatilitas) | 25,20 (+51,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,01 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $97,39 (+2,93% dari sesi sebelumnya) | −1,47 | 5% | −0,37 |
 | Indeks dolar | −0,07% dari penutupan sebelumnya (101,44) | −0,18 | 5% | −0,04 |
-| Tren Nasdaq 5 sesi | −6,67% dalam 5 sesi; 11,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −6,62% dalam 5 sesi; 11,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 24.306 (−5,56%).
-Rentang wajar 1σ (VXN): 25.155 sampai 26.318.
+Perkiraan pembukaan dari futures: 24.347 (−5,40%).
+Rentang wajar 1σ (VXN): 25.153 sampai 26.320.
 
 ## Berita paling berdampak
 - **−2,7** Nasdaq 100 Falls 4% as Chipmaker Selloff Deepens: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
