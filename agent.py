@@ -1388,6 +1388,25 @@ def compose(factors, events, now, calib=None, structure=None, fed_overlay=0.0, m
             "pre_gate_score": pre_gate, "gates": gates}
 
 
+def news_feed_out(clusters, limit=150):
+    """Semua berita (termasuk yang netral), terbaru di atas, untuk halaman berita."""
+    out = []
+    for c in clusters:
+        rep = c["rep"]
+        pubs = [m["pub"] for m in c["members"] if m.get("pub")]
+        pub = max(pubs) if pubs else None
+        top = max(rep["hits"], key=lambda h: abs(h["score"]), default=None)
+        out.append({"title": rep["title"], "source": rep.get("source"), "link": rep.get("link"),
+                    "published": pub.isoformat(timespec="minutes") if pub else None,
+                    "score": rep["score"], "direction": "bullish" if rep["score"] > 0 else "bearish" if rep["score"] < 0 else "netral",
+                    "sources": sorted({m.get("source") for m in c["members"] if m.get("source")}),
+                    "theme": theme_of(rep["title"], rep["hits"]),
+                    "label": top["label"] if top else None, "why": top["why"] if top else None,
+                    "fed": bool(FED_RX.search(rep["title"].lower()))})
+    out.sort(key=lambda x: x["published"] or "", reverse=True)
+    return out[:limit]
+
+
 def build_forecast(market, levels, verdict, factors, clusters_out):
     """Proyeksi harga NQ dari skor faktor. Heuristik: skor +10 setara geseran +0,8 sigma harian.
     Bukan ramalan pasti; dipakai untuk memberi gambaran arah, besaran, dan rentang."""
@@ -1754,7 +1773,7 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
         "regime": regime, "structure": structure, "fed_radar": radar, "cot": cot_an, "earnings_week": ew, **extras, "alerts": alerts,
         "fetched_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "feeds": market.get("_feeds") or {}, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
-        "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds", "mag7_earnings", "cot_rows")}, "news_stats": ns, "items": items, "llm_summary": None,
+        "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds", "mag7_earnings", "cot_rows")}, "news_stats": ns, "items": items, "news_feed": news_feed_out(clusters), "llm_summary": None,
         "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.3f+%.3f*skor)))" % (calib["a"], calib["b"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
                         "p_up_range": [0.18, 0.82]},
     }
