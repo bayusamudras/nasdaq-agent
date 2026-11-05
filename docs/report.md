@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-05T16:41:12+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T16:42:12+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
-Peluang indeks naik **35%**, turun **65%** (skor −4,8 dari ±10, keyakinan 78%, 69% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,6 dari ±10, keyakinan 77%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,90): −0,95% dari penutupan sebelumnya (28.294,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,82): −0,91% dari penutupan sebelumnya (28.308,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,13% dari penutupan sebelumnya (10.268,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+0,72): 4,894% (−5,8 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -12,19 +12,19 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,8 dari ±10, keyakinan 78%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,15 dari 41 kejadian bernilai; 53% bobot bullish | −0,13 | 30% | −0,20 |
-| Futures Nasdaq-100 | −0,95% dari penutupan sebelumnya (28.294,00) | −1,90 | 20% | −1,90 |
-| Futures S&P 500 | −0,11% dari penutupan sebelumnya (7.712,00) | −0,27 | 5% | −0,07 |
+| Berita berbobot | skor rata-rata −0,14 dari 39 kejadian bernilai; 54% bobot bullish | −0,12 | 30% | −0,18 |
+| Futures Nasdaq-100 | −0,91% dari penutupan sebelumnya (28.308,00) | −1,82 | 20% | −1,82 |
+| Futures S&P 500 | −0,07% dari penutupan sebelumnya (7.714,75) | −0,18 | 5% | −0,04 |
 | Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,65) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +1,45 | 10% | +0,72 |
 | VIX (volatilitas) | 17,12 (+3,1% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $95,81 (+1,26% dari sesi sebelumnya) | −0,63 | 5% | −0,16 |
-| Indeks dolar | −0,07% dari penutupan sebelumnya (101,44) | −0,18 | 5% | −0,04 |
+| Minyak Brent | $95,61 (+1,05% dari sesi sebelumnya) | −0,53 | 5% | −0,13 |
+| Indeks dolar | −0,06% dari penutupan sebelumnya (101,45) | −0,15 | 5% | −0,04 |
 | Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 25.492 (−0,95%).
+Perkiraan pembukaan dari futures: 25.502 (−0,91%).
 Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 - **−0,9** Nomura sees AI capex risks from Democrats' midterm gains, warns of data centre curbs from 2028 (Moneycontrol.com). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−0,8** 5-star analyst resets Nvidia stock target after Intel crash (TheStreet). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Nasdaq-100 Beats Six of the Magnificent Seven in 2026 as Apple Stands Alone (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+0,7** Why did oil prices drop today? Traders bet the midterm results bring the Iran war closer to an end (Nacionale). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **−0,7** Democratic Sweep Lifts Big Tech by Nearly $1 Trillion as Investors Bet on Slower AI Capex (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
