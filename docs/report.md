@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-05T12:12:27+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T12:13:27+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
 Peluang indeks naik **51%**, turun **49%** (skor −0,8 dari ±10, keyakinan 69%, 70% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
