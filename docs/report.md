@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-06T05:43:56+07:00 · sesi Jumat 6 Nov (pra-buka)_
+_Diperbarui 2026-11-06T05:44:56+07:00 · sesi Jumat 6 Nov (pra-buka)_
 
-Peluang indeks naik **24%**, turun **76%** (skor −8,3 dari ±10, keyakinan 77%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **20%**, turun **80%** (skor −9,7 dari ±10, keyakinan 77%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -22,7 +22,7 @@ Peluang indeks naik **24%**, turun **76%** (skor −8,3 dari ±10, keyakinan 77%
 | Yield obligasi 10 tahun | 4,837% (−5,7 bp dari sesi sebelumnya) | +0,57 | 10% | +0,28 |
 | VIX (volatilitas) | 28,18 (+69,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −2,00 | 10% | −1,00 |
 | Minyak Brent | $99,25 (+4,89% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
-| Indeks dolar | +0,09% dari penutupan sebelumnya (101,60) | +0,22 | 5% | +0,06 |
+| Indeks dolar | +0,09% dari penutupan sebelumnya (101,61) | +0,22 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | −7,14% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -36,10 +36,10 @@ Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 - **−2,0** SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** US stocks tumble as semiconductor index sinks 11%; Nvidia, AMD lead tech sell-off (CNBC TV18). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** S&P 500 Tumbles Most Since April 2025 on AI Fears: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,8** Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,7** Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** AI Chip Stocks Crash as Nvidia, AMD and Micron Plunge in Historic Selloff (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Treasury, European Bond Yields Tumble as Markets Lifted by U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,7** The "Shadow of Credit" Creeping Into the AI Trade: Alphabet's Plunge and CoreWeave's Woes Signal Funding Risks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,6** The "Shadow of Credit" Creeping Into the AI Trade: Alphabet's Plunge and CoreWeave's Woes Signal Funding Risks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges. (MarketWatch). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Elon Musk's post-election rout deepens as SpaceX and Tesla lose $411 billion in market cap (Quartz). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Tesla Shares Tumble Again in Deepening Post-Election Slump (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
