@@ -1,11 +1,11 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-05T17:08:22+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T17:09:22+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
-Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 74%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **40%**, turun **60%** (skor −3,5 dari ±10, keyakinan 74%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,02): −0,51% dari penutupan sebelumnya (28.422,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,13% dari penutupan sebelumnya (10.268,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−0,96): −0,48% dari penutupan sebelumnya (28.428,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Yield obligasi 10 tahun** (+0,72): 4,894% (−5,8 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
@@ -13,22 +13,22 @@ Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 74%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,08 dari 41 kejadian bernilai; 56% bobot bullish | −0,07 | 30% | −0,11 |
-| Futures Nasdaq-100 | −0,51% dari penutupan sebelumnya (28.422,00) | −1,02 | 20% | −1,02 |
-| Futures S&P 500 | +0,07% dari penutupan sebelumnya (7.725,75) | +0,18 | 5% | +0,04 |
+| Futures Nasdaq-100 | −0,48% dari penutupan sebelumnya (28.428,25) | −0,96 | 20% | −0,96 |
+| Futures S&P 500 | +0,08% dari penutupan sebelumnya (7.726,50) | +0,20 | 5% | +0,05 |
 | Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,65) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +1,45 | 10% | +0,72 |
-| VIX (volatilitas) | 16,87 (+1,6% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +0,50 | 10% | +0,25 |
+| VIX (volatilitas) | 16,86 (+1,5% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +0,50 | 10% | +0,25 |
 | Minyak Brent | $95,90 (+1,35% dari sesi sebelumnya) | −0,68 | 5% | −0,17 |
 | Indeks dolar | 0,00% dari penutupan sebelumnya (101,51) | 0,00 | 5% | 0,00 |
 | Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 25.605 (−0,51%).
+Perkiraan pembukaan dari futures: 25.613 (−0,48%).
 Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 
 ## Berita paling berdampak
-- **+1,9** Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **+1,8** Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,4** Mag 7 Weekly: Apple Beats, Alphabet Breaks, Cash Still Rules (Money Morning). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** Gold hits a two-week high as dollar, Treasury yields ease after U.S. midterm elections (CNBC). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,4** Microsoft’s New Operating Leases Up 4.6x as Capex Fell Short (FourWeekMBA). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
