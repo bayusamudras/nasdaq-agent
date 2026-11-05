@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-06T05:25:47+07:00 · sesi Jumat 6 Nov (pra-buka)_
+_Diperbarui 2026-11-06T05:26:47+07:00 · sesi Jumat 6 Nov (pra-buka)_
 
-Peluang indeks naik **24%**, turun **76%** (skor −8,1 dari ±10, keyakinan 77%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **20%**, turun **80%** (skor −9,7 dari ±10, keyakinan 77%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,17): Skor rata-rata −1,74 dari 38 kejadian bernilai; 12% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−2,31): Skor rata-rata −1,85 dari 36 kejadian bernilai; 10% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures Nasdaq-100** (−2,00): −6,87% dari penutupan sebelumnya (26.604,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −12,25% dari penutupan sebelumnya (9.011,14). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 28,18 (+69,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -15,7 +15,7 @@ Peluang indeks naik **24%**, turun **76%** (skor −8,1 dari ±10, keyakinan 77%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,74 dari 38 kejadian bernilai; 12% bobot bullish | −1,45 | 30% | −2,17 |
+| Berita berbobot | skor rata-rata −1,85 dari 36 kejadian bernilai; 10% bobot bullish | −1,54 | 30% | −2,31 |
 | Futures Nasdaq-100 | −6,87% dari penutupan sebelumnya (26.604,00) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −4,76% dari penutupan sebelumnya (7.353,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −12,25% dari penutupan sebelumnya (9.011,14) | −2,00 | 10% | −1,00 |
