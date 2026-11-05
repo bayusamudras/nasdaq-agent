@@ -1,37 +1,37 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-05T21:21:10+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T21:22:09+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
-Peluang indeks naik **32%**, turun **68%** (skor −5,6 dari ±10, keyakinan 79%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **32%**, turun **68%** (skor −5,7 dari ±10, keyakinan 79%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls)
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,06% dari penutupan sebelumnya (28.263,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,11% dari penutupan sebelumnya (28.249,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,13% dari penutupan sebelumnya (10.268,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,63): Skor rata-rata −0,51 dari 34 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Minyak Brent** (−0,38): $97,47 (+3,01% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (−0,34): $97,19 (+2,72% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,51 dari 34 kejadian bernilai; 42% bobot bullish | −0,42 | 30% | −0,63 |
-| Futures Nasdaq-100 | −1,06% dari penutupan sebelumnya (28.263,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,02% dari penutupan sebelumnya (7.718,75) | −0,05 | 5% | −0,01 |
+| Futures Nasdaq-100 | −1,11% dari penutupan sebelumnya (28.249,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,06% dari penutupan sebelumnya (7.715,50) | −0,15 | 5% | −0,04 |
 | Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,65) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,904% (+1,0 bp dari sesi sebelumnya) | −0,25 | 10% | −0,12 |
-| VIX (volatilitas) | 16,81 (+1,2% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $97,19 (+2,72% dari sesi sebelumnya) | −1,36 | 5% | −0,34 |
-| Indeks dolar | +0,10% dari penutupan sebelumnya (101,61) | +0,25 | 5% | +0,06 |
+| VIX (volatilitas) | 16,77 (+1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $97,47 (+3,01% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
+| Indeks dolar | +0,12% dari penutupan sebelumnya (101,63) | +0,30 | 5% | +0,07 |
 | Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 25.464 (−1,06%).
+Perkiraan pembukaan dari futures: 25.451 (−1,11%).
 Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 
 ## Berita paling berdampak
-- **−2,2** Treasury, European Bond Yields Tumble as Markets Lifted By U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−2,1** Treasury, European Bond Yields Tumble as Markets Lifted By U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** AI capex growth is peaking, Citrini says, as mega commitments fade (XT:NASDAQ) (Seeking Alpha). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,3** US 10-year Treasury yield falls after Democrats' midterm win, jobs data in focus | Hindustan Times (Hindustan Times). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
