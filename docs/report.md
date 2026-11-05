@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-05T15:01:33+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T15:02:33+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
 Peluang indeks naik **34%**, turun **66%** (skor −5,1 dari ±10, keyakinan 80%, 80% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -20,7 +20,7 @@ Peluang indeks naik **34%**, turun **66%** (skor −5,1 dari ±10, keyakinan 80%
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +1,45 | 10% | +0,72 |
 | VIX (volatilitas) | 16,61 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +1,00 | 10% | +0,50 |
 | Minyak Brent | $95,18 (+0,59% dari sesi sebelumnya) | −0,29 | 5% | −0,07 |
-| Indeks dolar | −0,11% dari penutupan sebelumnya (101,40) | −0,27 | 5% | −0,07 |
+| Indeks dolar | −0,11% dari penutupan sebelumnya (101,39) | −0,27 | 5% | −0,07 |
 | Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
