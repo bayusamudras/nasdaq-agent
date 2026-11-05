@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-05T22:46:48+07:00 · sesi Kamis 5 Nov (berjalan)_
+_Diperbarui 2026-11-05T22:47:48+07:00 · sesi Kamis 5 Nov (berjalan)_
 
 Peluang indeks naik **26%**, turun **74%** (skor −7,4 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −4,62% dari penutupan sebelumnya (27.247,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −10,35% dari penutupan sebelumnya (9.206,35). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−2,00): −4,49% dari penutupan sebelumnya (27.285,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −10,27% dari penutupan sebelumnya (9.214,10). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,94): Skor rata-rata −0,76 dari 40 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,85): 23,55 (+41,8% dari sesi sebelumnya); VXN (Nasdaq-100) 33,95. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −2,60% dari penutupan sebelumnya (7.519,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **VIX (volatilitas)** (−0,85): 23,44 (+41,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,05. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −2,52% dari penutupan sebelumnya (7.526,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,76 dari 40 kejadian bernilai; 38% bobot bullish | −0,63 | 30% | −0,94 |
-| Futures Nasdaq-100 | −4,62% dari penutupan sebelumnya (27.247,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −2,60% dari penutupan sebelumnya (7.519,75) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −10,35% dari penutupan sebelumnya (9.206,35) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,882% (−1,2 bp dari sesi sebelumnya) | +0,12 | 10% | +0,06 |
-| VIX (volatilitas) | 23,55 (+41,8% dari sesi sebelumnya); VXN (Nasdaq-100) 33,95 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $97,21 (+2,74% dari sesi sebelumnya) | −1,37 | 5% | −0,34 |
+| Futures Nasdaq-100 | −4,49% dari penutupan sebelumnya (27.285,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −2,52% dari penutupan sebelumnya (7.526,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −10,27% dari penutupan sebelumnya (9.214,10) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,884% (−1,0 bp dari sesi sebelumnya) | +0,10 | 10% | +0,05 |
+| VIX (volatilitas) | 23,44 (+41,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,05 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $97,25 (+2,78% dari sesi sebelumnya) | −1,39 | 5% | −0,35 |
 | Indeks dolar | +0,04% dari penutupan sebelumnya (101,55) | +0,10 | 5% | +0,03 |
-| Tren Nasdaq 5 sesi | −6,50% dalam 5 sesi; 11,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −6,45% dalam 5 sesi; 11,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 24.547 (−4,62%).
-Rentang wajar 1σ (VXN): 25.186 sampai 26.287.
+Perkiraan pembukaan dari futures: 24.581 (−4,49%).
+Rentang wajar 1σ (VXN): 25.184 sampai 26.289.
 
 ## Berita paling berdampak
 - **−2,2** SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects (Yahoo Finance Singapore). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
