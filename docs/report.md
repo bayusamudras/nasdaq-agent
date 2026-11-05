@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-05T14:04:01+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T14:05:01+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
-Peluang indeks naik **33%**, turun **67%** (skor −5,5 dari ±10, keyakinan 80%, 69% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **33%**, turun **67%** (skor −5,5 dari ±10, keyakinan 78%, 64% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,04% dari penutupan sebelumnya (28.269,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,04% dari penutupan sebelumnya (28.270,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,13% dari penutupan sebelumnya (10.268,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (+0,50): 16,61 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 - **Tren Nasdaq 5 sesi** (−0,38): −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -14,13 +14,13 @@ Peluang indeks naik **33%**, turun **67%** (skor −5,5 dari ±10, keyakinan 80%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,26 dari 42 kejadian bernilai; 51% bobot bullish | −0,22 | 30% | −0,33 |
-| Futures Nasdaq-100 | −1,04% dari penutupan sebelumnya (28.269,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,15% dari penutupan sebelumnya (7.708,75) | −0,37 | 5% | −0,09 |
+| Futures Nasdaq-100 | −1,04% dari penutupan sebelumnya (28.270,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,15% dari penutupan sebelumnya (7.709,00) | −0,37 | 5% | −0,09 |
 | Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,65) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +0,58 | 10% | +0,29 |
 | VIX (volatilitas) | 16,61 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $94,19 (−0,45% dari sesi sebelumnya) | +0,23 | 5% | +0,06 |
-| Indeks dolar | −0,28% dari penutupan sebelumnya (101,23) | −0,70 | 5% | −0,18 |
+| Minyak Brent | $94,10 (−0,55% dari sesi sebelumnya) | +0,28 | 5% | +0,07 |
+| Indeks dolar | −0,28% dari penutupan sebelumnya (101,22) | −0,70 | 5% | −0,18 |
 | Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
@@ -31,7 +31,7 @@ Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 ## Berita paling berdampak
 - **+2,1** Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,7** Gold hits a two-week high as dollar, Treasury yields ease after U.S. midterm elections (CNBC). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,7** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,6** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,4** China, AI Immigration, Rare Earths & Chips, Tariffs, Markets | BG2 w/ Bill Gurley & Brad Gerstner｜BG2Pod (finance.biggo.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Wall Street ends higher after Democrats win Congress; data center stocks tumble (Reuters). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
