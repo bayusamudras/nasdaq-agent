@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-05T21:40:10+07:00 · sesi Kamis 5 Nov (berjalan)_
+_Diperbarui 2026-11-05T21:41:09+07:00 · sesi Kamis 5 Nov (berjalan)_
 
-Peluang indeks naik **31%**, turun **69%** (skor −6,1 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **30%**, turun **70%** (skor −6,2 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls)
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,25% dari penutupan sebelumnya (28.210,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −5,66% dari penutupan sebelumnya (9.687,93). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−2,00): −1,68% dari penutupan sebelumnya (28.087,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −5,95% dari penutupan sebelumnya (9.657,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,90): Skor rata-rata −0,71 dari 33 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Tren Nasdaq 5 sesi** (−0,38): −3,46% dalam 5 sesi; 8,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (−0,36): $97,34 (+2,87% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
+- **Tren Nasdaq 5 sesi** (−0,38): −3,75% dalam 5 sesi; 9,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (−0,35): $97,29 (+2,82% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,71 dari 33 kejadian bernilai; 35% bobot bullish | −0,60 | 30% | −0,90 |
-| Futures Nasdaq-100 | −1,25% dari penutupan sebelumnya (28.210,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,13% dari penutupan sebelumnya (7.710,50) | −0,33 | 5% | −0,08 |
-| Semikonduktor (SOX) | −5,66% dari penutupan sebelumnya (9.687,93) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,915% (+2,1 bp dari sesi sebelumnya) | −0,53 | 10% | −0,27 |
+| Futures Nasdaq-100 | −1,68% dari penutupan sebelumnya (28.087,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,33% dari penutupan sebelumnya (7.694,75) | −0,82 | 5% | −0,20 |
+| Semikonduktor (SOX) | −5,95% dari penutupan sebelumnya (9.657,65) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,913% (+1,9 bp dari sesi sebelumnya) | −0,47 | 10% | −0,23 |
 | VIX (volatilitas) | 17,07 (+2,8% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $97,34 (+2,87% dari sesi sebelumnya) | −1,44 | 5% | −0,36 |
+| Minyak Brent | $97,29 (+2,82% dari sesi sebelumnya) | −1,41 | 5% | −0,35 |
 | Indeks dolar | +0,13% dari penutupan sebelumnya (101,64) | +0,33 | 5% | +0,08 |
-| Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 8,8% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
+| Tren Nasdaq 5 sesi | −3,75% dalam 5 sesi; 9,1% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 25.415 (−1,25%).
+Perkiraan pembukaan dari futures: 25.304 (−1,68%).
 Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 
 ## Berita paling berdampak
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 25.330 sampai 26.143.
 - **−1,1** US Stock Market at Risk? Could Democrats’ AI Policy Push Trigger a Bigger Tech Sell-Off? (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,0** Mag 7 Weekly: Apple Beats, Alphabet Breaks, Cash Still Rules (Money Morning). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,9** Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Nearly 70 Years' Worth of History. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−0,8** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,8** China, AI Immigration, Rare Earths & Chips, Tariffs, Markets | BG2 w/ Bill Gurley & Brad Gerstner｜BG2Pod (finance.biggo.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,7** Wall Street ends higher after Democrats win Congress; data center stocks tumble (Reuters). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
