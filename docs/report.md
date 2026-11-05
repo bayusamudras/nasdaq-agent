@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-05T12:10:27+07:00 · sesi Kamis 5 Nov (pra-buka)_
+_Diperbarui 2026-11-05T12:11:27+07:00 · sesi Kamis 5 Nov (pra-buka)_
 
 Peluang indeks naik **50%**, turun **50%** (skor −0,9 dari ±10, keyakinan 69%, 70% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -19,7 +19,7 @@ Peluang indeks naik **50%**, turun **50%** (skor −0,9 dari ±10, keyakinan 69%
 | Semikonduktor (SOX) | −3,13% dari penutupan sebelumnya (10.268,65) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,894% (−5,8 bp dari sesi sebelumnya) | +1,45 | 10% | +0,72 |
 | VIX (volatilitas) | 16,61 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 25,08 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $93,68 (−0,99% dari sesi sebelumnya) | +0,49 | 5% | +0,12 |
+| Minyak Brent | $93,77 (−0,90% dari sesi sebelumnya) | +0,45 | 5% | +0,11 |
 | Indeks dolar | −0,27% dari penutupan sebelumnya (101,24) | −0,68 | 5% | −0,17 |
 | Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 7,2% di bawah puncak 52 minggu | −1,50 | 5% | −0,38 |
 
