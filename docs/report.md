@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-06T03:46:09+07:00 · sesi Kamis 5 Nov (berjalan)_
+_Diperbarui 2026-11-06T03:47:18+07:00 · sesi Kamis 5 Nov (berjalan)_
 
 Peluang indeks naik **25%**, turun **75%** (skor −7,8 dari ±10, keyakinan 77%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −5,95% dari penutupan sebelumnya (26.867,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,95): Skor rata-rata −1,56 dari 38 kejadian bernilai; 19% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −10,70% dari penutupan sebelumnya (9.169,52). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,85): 26,90 (+62,0% dari sesi sebelumnya); VXN (Nasdaq-100) 37,33. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −4,15% dari penutupan sebelumnya (7.400,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −5,97% dari penutupan sebelumnya (26.860,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,94): Skor rata-rata −1,55 dari 28 kejadian bernilai; 21% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (−1,00): −10,42% dari penutupan sebelumnya (9.198,94). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,85): 26,92 (+62,1% dari sesi sebelumnya); VXN (Nasdaq-100) 37,20. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −4,18% dari penutupan sebelumnya (7.397,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,56 dari 38 kejadian bernilai; 19% bobot bullish | −1,30 | 30% | −1,95 |
-| Futures Nasdaq-100 | −5,95% dari penutupan sebelumnya (26.867,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −4,15% dari penutupan sebelumnya (7.400,00) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −10,70% dari penutupan sebelumnya (9.169,52) | −2,00 | 10% | −1,00 |
+| Berita berbobot | skor rata-rata −1,55 dari 28 kejadian bernilai; 21% bobot bullish | −1,29 | 30% | −1,94 |
+| Futures Nasdaq-100 | −5,97% dari penutupan sebelumnya (26.860,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −4,18% dari penutupan sebelumnya (7.397,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −10,42% dari penutupan sebelumnya (9.198,94) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,837% (−5,7 bp dari sesi sebelumnya) | +0,57 | 10% | +0,28 |
-| VIX (volatilitas) | 26,90 (+62,0% dari sesi sebelumnya); VXN (Nasdaq-100) 37,33 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $98,31 (+3,90% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
+| VIX (volatilitas) | 26,92 (+62,1% dari sesi sebelumnya); VXN (Nasdaq-100) 37,20 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $98,38 (+3,97% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
 | Indeks dolar | +0,06% dari penutupan sebelumnya (101,57) | +0,15 | 5% | +0,04 |
-| Tren Nasdaq 5 sesi | −6,88% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −6,74% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 24.205 (−5,95%).
-Rentang wajar 1σ (VXN): 25.131 sampai 26.342.
+Perkiraan pembukaan dari futures: 24.200 (−5,97%).
+Rentang wajar 1σ (VXN): 25.133 sampai 26.340.
 
 ## Berita paling berdampak
 - **−2,1** US stocks tumble as semiconductor index sinks 11%; Nvidia, AMD lead tech sell-off (CNBC TV18). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -40,9 +40,9 @@ Rentang wajar 1σ (VXN): 25.131 sampai 26.342.
 - **−1,4** Tesla, SpaceX Continue Postelection Plunge. Dems Pledge Investigations Into Trump. (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Wall Street Selloff Sends Nasdaq Down 4% as Dow Plunges More Than 1,000 Points (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Stock Market Today: Nasdaq Sinks 5% as AI Selloff Hits Chip and Data-Center Stocks, Oil price at $96 (Eurasia Business News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,3** Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges. (MarketWatch). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% (24/7 Wall St.). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,2** Guidance Cut Could Be A Big Test For Lowe's Stock (LOW) (Yahoo Finance). Panduan lemah memotong estimasi laba ke depan. Mega-cap berbobot besar di indeks, jadi satu saham yang jatuh dalam bisa menyeret Nasdaq dan sentimen sektornya.
+- **−1,2** Shares of Tesla and SpaceX sink as Elon Musk's post-election rout gets worse (Quartz). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **+0,9** 10-year Treasury yield falls as traders exit tech stocks, look ahead to jobs data (CNBC). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
