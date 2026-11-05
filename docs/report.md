@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-05T22:05:21+07:00 · sesi Kamis 5 Nov (berjalan)_
+_Diperbarui 2026-11-05T22:06:21+07:00 · sesi Kamis 5 Nov (berjalan)_
 
 Peluang indeks naik **28%**, turun **72%** (skor −6,8 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls)
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −3,27% dari penutupan sebelumnya (27.633,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −7,22% dari penutupan sebelumnya (9.527,20). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−2,00): −3,48% dari penutupan sebelumnya (27.574,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −7,71% dari penutupan sebelumnya (9.477,39). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,72): Skor rata-rata −0,58 dari 36 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −1,43% dari penutupan sebelumnya (7.610,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **VIX (volatilitas)** (−0,50): 20,01 (+20,5% dari sesi sebelumnya); VXN (Nasdaq-100) 29,29. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,59% dari penutupan sebelumnya (7.598,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **VIX (volatilitas)** (−0,50): 19,99 (+20,4% dari sesi sebelumnya); VXN (Nasdaq-100) 29,35. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,58 dari 36 kejadian bernilai; 41% bobot bullish | −0,48 | 30% | −0,72 |
-| Futures Nasdaq-100 | −3,27% dari penutupan sebelumnya (27.633,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,43% dari penutupan sebelumnya (7.610,00) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −7,22% dari penutupan sebelumnya (9.527,20) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,876% (−1,8 bp dari sesi sebelumnya) | +0,18 | 10% | +0,09 |
-| VIX (volatilitas) | 20,01 (+20,5% dari sesi sebelumnya); VXN (Nasdaq-100) 29,29 | −1,00 | 10% | −0,50 |
-| Minyak Brent | $97,08 (+2,60% dari sesi sebelumnya) | −1,30 | 5% | −0,33 |
-| Indeks dolar | +0,04% dari penutupan sebelumnya (101,55) | +0,10 | 5% | +0,03 |
-| Tren Nasdaq 5 sesi | −4,95% dalam 5 sesi; 10,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −3,48% dari penutupan sebelumnya (27.574,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,59% dari penutupan sebelumnya (7.598,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −7,71% dari penutupan sebelumnya (9.477,39) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,882% (−1,2 bp dari sesi sebelumnya) | +0,12 | 10% | +0,06 |
+| VIX (volatilitas) | 19,99 (+20,4% dari sesi sebelumnya); VXN (Nasdaq-100) 29,35 | −1,00 | 10% | −0,50 |
+| Minyak Brent | $96,95 (+2,46% dari sesi sebelumnya) | −1,23 | 5% | −0,31 |
+| Indeks dolar | +0,02% dari penutupan sebelumnya (101,53) | +0,05 | 5% | +0,01 |
+| Tren Nasdaq 5 sesi | −5,13% dalam 5 sesi; 10,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 25.796; resistensi 25.990 / 26.243; support 25.543 / 25.349.
-Perkiraan pembukaan dari futures: 24.895 (−3,27%).
-Rentang wajar 1σ (VXN): 25.262 sampai 26.211.
+Perkiraan pembukaan dari futures: 24.841 (−3,48%).
+Rentang wajar 1σ (VXN): 25.261 sampai 26.212.
 
 ## Berita paling berdampak
 - **−1,9** Treasury, European Bond Yields Tumble as Markets Lifted By U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
