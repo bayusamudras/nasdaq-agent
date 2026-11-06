@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T12:07:43+07:00 · sesi Jumat 6 Nov (pra-buka)_
+_Diperbarui 2026-11-06T12:08:43+07:00 · sesi Jumat 6 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 65%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,570 lalu ditolak (5 jam lalu). Skor dipangkas dari -8.3 menjadi -2.0.
 
 ## Alasan utama
-- **Berita berbobot** (−2,39): Skor rata-rata −1,91 dari 37 kejadian bernilai; 9% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−2,00): −5,38% dari penutupan sebelumnya (27.029,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−2,42): Skor rata-rata −1,93 dari 37 kejadian bernilai; 8% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −5,39% dari penutupan sebelumnya (27.027,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −12,25% dari penutupan sebelumnya (9.011,14). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 28,18 (+69,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −4,26% dari penutupan sebelumnya (7.391,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −4,27% dari penutupan sebelumnya (7.390,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,91 dari 37 kejadian bernilai; 9% bobot bullish | −1,59 | 30% | −2,39 |
-| Futures Nasdaq-100 | −5,38% dari penutupan sebelumnya (27.029,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −4,26% dari penutupan sebelumnya (7.391,50) | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,93 dari 37 kejadian bernilai; 8% bobot bullish | −1,61 | 30% | −2,42 |
+| Futures Nasdaq-100 | −5,39% dari penutupan sebelumnya (27.027,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −4,27% dari penutupan sebelumnya (7.390,75) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −12,25% dari penutupan sebelumnya (9.011,14) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,837% (−5,7 bp dari sesi sebelumnya) | +0,57 | 10% | +0,28 |
 | VIX (volatilitas) | 28,18 (+69,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $99,70 (+5,37% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
+| Minyak Brent | $99,62 (+5,28% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
 | Indeks dolar | +0,25% dari penutupan sebelumnya (101,76) | +0,62 | 5% | +0,15 |
 | Tren Nasdaq 5 sesi | −7,14% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 23.007 (−5,38%).
+Perkiraan pembukaan dari futures: 23.004 (−5,39%).
 Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 
 ## Berita paling berdampak
@@ -35,14 +35,14 @@ Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 - **−1,5** Stock Market Today, Nov. 5: Intel Falls on Weak Fourth-Quarter Sales Outlook Amid Chip Selloff (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout (MarketWatch). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,3** Stocks plunge as election outcome and AI worries crush tech shares (NBC News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** US stocks tumble as semiconductor index sinks 11%; Nvidia, AMD lead tech sell-off (CNBC TV18). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,1** Treasury, European Bond Yields Tumble as Markets Lifted by U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** AI Chip Stocks Crash as Nvidia, AMD and Micron Plunge in Historic Selloff (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,1** Stocks plunge as election outcome and AI worries crush tech shares (NBC News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Stock Market Today: Nasdaq Slammed By Big Tech Sell-Off; Nvidia Hits Bear Territory (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** The "Shadow of Credit" Creeping Into the AI Trade: Alphabet's Plunge and CoreWeave's Woes Signal Funding Risks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,0** Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges. (MarketWatch). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
