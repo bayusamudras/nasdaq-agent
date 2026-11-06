@@ -1,34 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-07T01:43:42+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-07T01:44:42+07:00 · sesi Jumat 6 Nov (berjalan)_
 
-Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
-
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
+Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 66%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,49% dari penutupan sebelumnya (27.151,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,62% dari penutupan sebelumnya (27.186,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,65): Skor rata-rata −1,32 dari 50 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +3,63% dari penutupan sebelumnya (9.338,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 25,42 (−9,8% dari sesi sebelumnya); VXN (Nasdaq-100) 34,48. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,14% dalam 5 sesi; 11,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Semikonduktor (SOX)** (+1,00): +3,71% dari penutupan sebelumnya (9.345,56). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,12% dalam 5 sesi; 11,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Indeks dolar** (+0,43): +0,68% dari penutupan sebelumnya (102,24). Dolar melemah, melonggarkan kondisi keuangan global.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,32 dari 50 kejadian bernilai; 20% bobot bullish | −1,10 | 30% | −1,65 |
-| Futures Nasdaq-100 | +1,49% dari penutupan sebelumnya (27.151,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,62% dari penutupan sebelumnya (7.428,50) | +1,55 | 5% | +0,39 |
-| Semikonduktor (SOX) | +3,63% dari penutupan sebelumnya (9.338,11) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +1,62% dari penutupan sebelumnya (27.186,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,67% dari penutupan sebelumnya (7.432,75) | +1,68 | 5% | +0,42 |
+| Semikonduktor (SOX) | +3,71% dari penutupan sebelumnya (9.345,56) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,843% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 25,42 (−9,8% dari sesi sebelumnya); VXN (Nasdaq-100) 34,48 | −1,20 | 10% | −0,60 |
+| VIX (volatilitas) | 25,24 (−10,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,34 | −0,70 | 10% | −0,35 |
 | Minyak Brent | $97,29 (−1,02% dari sesi sebelumnya) | +0,51 | 5% | +0,13 |
-| Indeks dolar | +0,69% dari penutupan sebelumnya (102,25) | +1,72 | 5% | +0,43 |
-| Tren Nasdaq 5 sesi | −3,14% dalam 5 sesi; 11,1% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | +0,68% dari penutupan sebelumnya (102,24) | +1,70 | 5% | +0,43 |
+| Tren Nasdaq 5 sesi | −3,12% dalam 5 sesi; 11,1% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.677 (+1,49%).
-Rentang wajar 1σ (VXN): 23.787 sampai 24.843.
+Perkiraan pembukaan dari futures: 24.709 (+1,62%).
+Rentang wajar 1σ (VXN): 23.789 sampai 24.841.
 
 ## Berita paling berdampak
 - **−2,7** The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16% (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
@@ -40,7 +38,7 @@ Rentang wajar 1σ (VXN): 23.787 sampai 24.843.
 - **−1,7** Anthropic IPO Valuation Expectations Pressured After AI Rout (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Managers look to diversify as US tech sell-off spirals after midterms and AI capex fears (Investment Week). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,5** CoreWeave financing stress deepens as bond yield tops 16% in AI debt market (Traders Union). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,5** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,4** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Massive Job Gains of 165,000 in October Bolster Case for More Fed Rate Hikes (Realtor.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,3** Treasury Yields Turn Higher, Eurozone Bond Yields Drop (Yahoo Finance). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 
