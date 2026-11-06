@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T22:10:27+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-06T22:11:27+07:00 · sesi Jumat 6 Nov (berjalan)_
 
 Peluang indeks naik **36%**, turun **64%** (skor −4,6 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,35 +7,35 @@ Peluang indeks naik **36%**, turun **64%** (skor −4,6 dari ±10, keyakinan 63%
 
 ## Alasan utama
 - **Berita berbobot** (−2,15): Skor rata-rata −1,71 dari 49 kejadian bernilai; 11% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +2,16% dari penutupan sebelumnya (27.329,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +5,03% dari penutupan sebelumnya (9.464,50). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,59): 4,884% (+4,7 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (+0,50): +0,94% dari penutupan sebelumnya (7.452,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +2,20% dari penutupan sebelumnya (27.339,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +4,42% dari penutupan sebelumnya (9.409,06). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,54): 4,880% (+4,3 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures S&P 500** (+0,50): +0,95% dari penutupan sebelumnya (7.453,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,71 dari 49 kejadian bernilai; 11% bobot bullish | −1,43 | 30% | −2,15 |
-| Futures Nasdaq-100 | +2,16% dari penutupan sebelumnya (27.329,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,94% dari penutupan sebelumnya (7.452,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +5,03% dari penutupan sebelumnya (9.464,50) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,884% (+4,7 bp dari sesi sebelumnya) | −1,18 | 10% | −0,59 |
-| VIX (volatilitas) | 23,93 (−15,1% dari sesi sebelumnya); VXN (Nasdaq-100) 32,54 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $97,60 (−0,70% dari sesi sebelumnya) | +0,35 | 5% | +0,09 |
-| Indeks dolar | +0,63% dari penutupan sebelumnya (102,19) | +1,57 | 5% | +0,39 |
-| Tren Nasdaq 5 sesi | −2,76% dalam 5 sesi; 10,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | +2,20% dari penutupan sebelumnya (27.339,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,95% dari penutupan sebelumnya (7.453,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +4,42% dari penutupan sebelumnya (9.409,06) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,880% (+4,3 bp dari sesi sebelumnya) | −1,07 | 10% | −0,54 |
+| VIX (volatilitas) | 24,13 (−14,4% dari sesi sebelumnya); VXN (Nasdaq-100) 32,74 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $97,70 (−0,60% dari sesi sebelumnya) | +0,30 | 5% | +0,07 |
+| Indeks dolar | +0,66% dari penutupan sebelumnya (102,22) | +1,65 | 5% | +0,41 |
+| Tren Nasdaq 5 sesi | −2,96% dalam 5 sesi; 11,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.840 (+2,16%).
-Rentang wajar 1σ (VXN): 23.817 sampai 24.813.
+Perkiraan pembukaan dari futures: 24.850 (+2,20%).
+Rentang wajar 1σ (VXN): 23.814 sampai 24.816.
 
 ## Berita paling berdampak
 - **−2,4** Nasdaq futures rise after steep AI selloff as chip stocks stabilize (Reuters). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−2,2** SpaceX and Tesla Shares Drop After Historic Nasdaq Rout: What Investors Should Know (Barron's). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+2,1** Treasury Yields Turn Higher, Eurozone Bond Yields Drop (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−2,0** Managers look to diversify as US tech sell-off spirals after midterms and AI capex fears (Investment Week). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−1,8** US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−2,0** US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Stock Market Today (Nov. 6, 2026): S&P 500 edges higher following AI tech rout (Yahoo Finance Singapore). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,5** Atmus Filtration Shares Rise 2% as Q3 Earnings Beat Estimates and 2026 Guidance Increases (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,4** Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff (ChartMill). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
