@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T07:54:22+07:00 · sesi Jumat 6 Nov (pra-buka)_
+_Diperbarui 2026-11-06T07:55:22+07:00 · sesi Jumat 6 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 67%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,570 lalu ditolak (2 jam lalu). Skor dipangkas dari -9.5 menjadi -2.0.
 
 ## Alasan utama
-- **Berita berbobot** (−2,43): Skor rata-rata −1,94 dari 41 kejadian bernilai; 7% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−2,00): −5,68% dari penutupan sebelumnya (26.944,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−2,43): Skor rata-rata −1,94 dari 40 kejadian bernilai; 7% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −5,79% dari penutupan sebelumnya (26.913,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −12,25% dari penutupan sebelumnya (9.011,14). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 28,18 (+69,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −4,14% dari penutupan sebelumnya (7.400,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −4,20% dari penutupan sebelumnya (7.396,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,94 dari 41 kejadian bernilai; 7% bobot bullish | −1,62 | 30% | −2,43 |
-| Futures Nasdaq-100 | −5,68% dari penutupan sebelumnya (26.944,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −4,14% dari penutupan sebelumnya (7.400,50) | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,94 dari 40 kejadian bernilai; 7% bobot bullish | −1,62 | 30% | −2,43 |
+| Futures Nasdaq-100 | −5,79% dari penutupan sebelumnya (26.913,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −4,20% dari penutupan sebelumnya (7.396,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −12,25% dari penutupan sebelumnya (9.011,14) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,837% (−5,7 bp dari sesi sebelumnya) | +0,57 | 10% | +0,28 |
 | VIX (volatilitas) | 28,18 (+69,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $98,98 (+4,61% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
-| Indeks dolar | −0,02% dari penutupan sebelumnya (101,49) | −0,05 | 5% | −0,01 |
+| Minyak Brent | $99,02 (+4,65% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
+| Indeks dolar | +0,05% dari penutupan sebelumnya (101,56) | +0,12 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | −7,14% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 22.934 (−5,68%).
+Perkiraan pembukaan dari futures: 22.907 (−5,79%).
 Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 
 ## Berita paling berdampak
@@ -38,11 +38,11 @@ Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 - **−1,8** The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout (MarketWatch). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Instant View: Tech-stock rout accelerates retreat from the AI trade (Reuters). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,6** Wall Street Gets $2.5 Trillion AI Reality Check With Historic Rout of Tech Stocks (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** US stocks tumble as semiconductor index sinks 11%; Nvidia, AMD lead tech sell-off (CNBC TV18). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** AI Chip Stocks Crash as Nvidia, AMD and Micron Plunge in Historic Selloff (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Treasury, European Bond Yields Tumble as Markets Lifted by U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,4** The "Shadow of Credit" Creeping Into the AI Trade: Alphabet's Plunge and CoreWeave's Woes Signal Funding Risks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
