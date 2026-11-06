@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T22:22:37+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-06T22:23:37+07:00 · sesi Jumat 6 Nov (berjalan)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 64%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,28 +7,28 @@ Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 64%
 
 ## Alasan utama
 - **Berita berbobot** (−2,11): Skor rata-rata −1,69 dari 49 kejadian bernilai; 11% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,97% dari penutupan sebelumnya (27.279,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +4,58% dari penutupan sebelumnya (9.424,07). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +0,90% dari penutupan sebelumnya (7.449,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Tren Nasdaq 5 sesi** (−0,50): −2,73% dalam 5 sesi; 10,7% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+2,00): +2,04% dari penutupan sebelumnya (27.296,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +4,48% dari penutupan sebelumnya (9.414,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +0,95% dari penutupan sebelumnya (7.453,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Tren Nasdaq 5 sesi** (−0,50): −2,75% dalam 5 sesi; 10,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,69 dari 49 kejadian bernilai; 11% bobot bullish | −1,41 | 30% | −2,11 |
-| Futures Nasdaq-100 | +1,97% dari penutupan sebelumnya (27.279,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,90% dari penutupan sebelumnya (7.449,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +4,58% dari penutupan sebelumnya (9.424,07) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,870% (+3,3 bp dari sesi sebelumnya) | −0,82 | 10% | −0,41 |
-| VIX (volatilitas) | 24,64 (−12,6% dari sesi sebelumnya); VXN (Nasdaq-100) 33,42 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $97,85 (−0,45% dari sesi sebelumnya) | +0,23 | 5% | +0,06 |
-| Indeks dolar | +0,59% dari penutupan sebelumnya (102,15) | +1,47 | 5% | +0,37 |
-| Tren Nasdaq 5 sesi | −2,73% dalam 5 sesi; 10,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | +2,04% dari penutupan sebelumnya (27.296,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,95% dari penutupan sebelumnya (7.453,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +4,48% dari penutupan sebelumnya (9.414,93) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,868% (+3,1 bp dari sesi sebelumnya) | −0,78 | 10% | −0,39 |
+| VIX (volatilitas) | 24,71 (−12,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,60 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $97,84 (−0,46% dari sesi sebelumnya) | +0,23 | 5% | +0,06 |
+| Indeks dolar | +0,58% dari penutupan sebelumnya (102,14) | +1,45 | 5% | +0,36 |
+| Tren Nasdaq 5 sesi | −2,75% dalam 5 sesi; 10,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.794 (+1,97%).
-Rentang wajar 1σ (VXN): 23.803 sampai 24.827.
+Perkiraan pembukaan dari futures: 24.811 (+2,04%).
+Rentang wajar 1σ (VXN): 23.800 sampai 24.830.
 
 ## Berita paling berdampak
 - **−2,3** Nasdaq futures rise after steep AI selloff as chip stocks stabilize (Reuters). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
