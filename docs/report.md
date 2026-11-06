@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T22:27:37+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-06T22:28:37+07:00 · sesi Jumat 6 Nov (berjalan)_
 
-Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls)
 
 ## Alasan utama
-- **Berita berbobot** (−2,19): Skor rata-rata −1,76 dari 51 kejadian bernilai; 11% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,79% dari penutupan sebelumnya (27.231,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +4,22% dari penutupan sebelumnya (9.391,75). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−2,21): Skor rata-rata −1,76 dari 50 kejadian bernilai; 11% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +1,85% dari penutupan sebelumnya (27.247,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +3,80% dari penutupan sebelumnya (9.353,62). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Futures S&P 500** (+0,50): +0,91% dari penutupan sebelumnya (7.450,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Tren Nasdaq 5 sesi** (−0,50): −2,78% dalam 5 sesi; 10,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Tren Nasdaq 5 sesi** (−0,50): −2,98% dalam 5 sesi; 11,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,76 dari 51 kejadian bernilai; 11% bobot bullish | −1,46 | 30% | −2,19 |
-| Futures Nasdaq-100 | +1,79% dari penutupan sebelumnya (27.231,25) | +2,00 | 20% | +2,00 |
+| Berita berbobot | skor rata-rata −1,76 dari 50 kejadian bernilai; 11% bobot bullish | −1,47 | 30% | −2,21 |
+| Futures Nasdaq-100 | +1,85% dari penutupan sebelumnya (27.247,00) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,91% dari penutupan sebelumnya (7.450,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +4,22% dari penutupan sebelumnya (9.391,75) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,868% (+3,1 bp dari sesi sebelumnya) | −0,78 | 10% | −0,39 |
-| VIX (volatilitas) | 24,12 (−14,4% dari sesi sebelumnya); VXN (Nasdaq-100) 33,34 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $97,45 (−0,85% dari sesi sebelumnya) | +0,42 | 5% | +0,11 |
-| Indeks dolar | +0,57% dari penutupan sebelumnya (102,13) | +1,42 | 5% | +0,35 |
-| Tren Nasdaq 5 sesi | −2,78% dalam 5 sesi; 10,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | +3,80% dari penutupan sebelumnya (9.353,62) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,872% (+3,5 bp dari sesi sebelumnya) | −0,88 | 10% | −0,44 |
+| VIX (volatilitas) | 23,92 (−15,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,05 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $97,59 (−0,71% dari sesi sebelumnya) | +0,35 | 5% | +0,09 |
+| Indeks dolar | +0,59% dari penutupan sebelumnya (102,15) | +1,47 | 5% | +0,37 |
+| Tren Nasdaq 5 sesi | −2,98% dalam 5 sesi; 11,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.750 (+1,79%).
-Rentang wajar 1σ (VXN): 23.804 sampai 24.826.
+Perkiraan pembukaan dari futures: 24.765 (+1,85%).
+Rentang wajar 1σ (VXN): 23.809 sampai 24.821.
 
 ## Berita paling berdampak
 - **−2,6** Treasury Yields Jump After Hot Jobs Report (Briefs Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
