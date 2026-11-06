@@ -1,27 +1,27 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T18:23:59+07:00 · sesi Jumat 6 Nov (pra-buka)_
+_Diperbarui 2026-11-06T18:25:00+07:00 · sesi Jumat 6 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −3,9 dari ±10, keyakinan 58%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **39%**, turun **61%** (skor −3,8 dari ±10, keyakinan 58%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,50): Skor rata-rata −2,00 dari 39 kejadian bernilai; 5% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,29% dari penutupan sebelumnya (27.097,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−2,37): Skor rata-rata −1,90 dari 40 kejadian bernilai; 7% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +1,29% dari penutupan sebelumnya (27.097,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (−1,00): −12,25% dari penutupan sebelumnya (9.011,14). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+0,71): 4,837% (−5,7 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **VIX (volatilitas)** (−0,60): 26,98 (−4,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 26,92 (−4,5% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −2,00 dari 39 kejadian bernilai; 5% bobot bullish | −1,67 | 30% | −2,50 |
-| Futures Nasdaq-100 | +1,29% dari penutupan sebelumnya (27.097,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,25% dari penutupan sebelumnya (7.401,25) | +0,62 | 5% | +0,15 |
+| Berita berbobot | skor rata-rata −1,90 dari 40 kejadian bernilai; 7% bobot bullish | −1,58 | 30% | −2,37 |
+| Futures Nasdaq-100 | +1,29% dari penutupan sebelumnya (27.097,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,24% dari penutupan sebelumnya (7.401,00) | +0,60 | 5% | +0,15 |
 | Semikonduktor (SOX) | −12,25% dari penutupan sebelumnya (9.011,14) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,837% (−5,7 bp dari sesi sebelumnya) | +1,43 | 10% | +0,71 |
-| VIX (volatilitas) | 26,98 (−4,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $98,42 (+0,13% dari sesi sebelumnya) | −0,07 | 5% | −0,02 |
+| VIX (volatilitas) | 26,92 (−4,5% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $98,51 (+0,22% dari sesi sebelumnya) | −0,11 | 5% | −0,03 |
 | Indeks dolar | +0,42% dari penutupan sebelumnya (101,98) | +1,05 | 5% | +0,26 |
 | Tren Nasdaq 5 sesi | −7,14% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
@@ -41,8 +41,8 @@ Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 - **−1,1** AI Bubble About to Burst? Top Tech Investor Warns Most Neocloud Players Could Go to Zero (Benzinga). Kekhawatiran valuasi membuat investor lebih cepat menjual saat ada kabar buruk dan menahan pembelian saat kabar baik.
 - **−1,0** NPS's M7 holdings swing as post-election jitters wipe out W2.8 trillion in a day (머니투데이). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Tesla Shares Tumble Again in Deepening Post-Election Slump (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,0** Dollar climbs on haven bid as AI rout grips Asian markets (Reuters). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Stocks plunge as election outcome and AI worries crush tech shares (NBC News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,9** Stock Market Today, Nov. 5: Amazon Shares Slide as Technology Selloff Erases Early Gains (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
