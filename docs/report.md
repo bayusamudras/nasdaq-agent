@@ -1,33 +1,33 @@
-# Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T20:34:53+07:00 · sesi Jumat 6 Nov (pra-buka)_
+# Bias Nasdaq: BEARISH
+_Diperbarui 2026-11-06T20:35:53+07:00 · sesi Jumat 6 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −3,9 dari ±10, keyakinan 58%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **34%**, turun **66%** (skor −5,0 dari ±10, keyakinan 65%, 68% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,19): Skor rata-rata −1,75 dari 48 kejadian bernilai; 13% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,49% dari penutupan sebelumnya (27.150,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−2,15): Skor rata-rata −1,72 dari 51 kejadian bernilai; 13% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +1,46% dari penutupan sebelumnya (27.141,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (−1,00): −12,25% dari penutupan sebelumnya (9.011,14). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (+0,71): 4,837% (−5,7 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **VIX (volatilitas)** (−0,60): 27,39 (−2,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 27,25 (−3,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −7,14% dalam 5 sesi; 12,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,75 dari 48 kejadian bernilai; 13% bobot bullish | −1,46 | 30% | −2,19 |
-| Futures Nasdaq-100 | +1,49% dari penutupan sebelumnya (27.150,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,20% dari penutupan sebelumnya (7.397,50) | +0,50 | 5% | +0,12 |
+| Berita berbobot | skor rata-rata −1,72 dari 51 kejadian bernilai; 13% bobot bullish | −1,43 | 30% | −2,15 |
+| Futures Nasdaq-100 | +1,46% dari penutupan sebelumnya (27.141,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,19% dari penutupan sebelumnya (7.397,00) | +0,47 | 5% | +0,12 |
 | Semikonduktor (SOX) | −12,25% dari penutupan sebelumnya (9.011,14) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,837% (−5,7 bp dari sesi sebelumnya) | +1,43 | 10% | +0,71 |
-| VIX (volatilitas) | 27,39 (−2,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $98,45 (+0,16% dari sesi sebelumnya) | −0,08 | 5% | −0,02 |
-| Indeks dolar | +0,50% dari penutupan sebelumnya (102,06) | +1,25 | 5% | +0,31 |
+| Yield obligasi 10 tahun | 4,876% (+3,9 bp dari sesi sebelumnya) | −0,97 | 10% | −0,48 |
+| VIX (volatilitas) | 27,25 (−3,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $98,39 (+0,10% dari sesi sebelumnya) | −0,05 | 5% | −0,01 |
+| Indeks dolar | +0,52% dari penutupan sebelumnya (102,07) | +1,30 | 5% | +0,33 |
 | Tren Nasdaq 5 sesi | −7,14% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.677 (+1,49%).
+Perkiraan pembukaan dari futures: 24.670 (+1,46%).
 Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 
 ## Berita paling berdampak
@@ -39,10 +39,10 @@ Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 - **+1,6** Atmus Filtration Shares Rise 2% as Q3 Earnings Beat Estimates and 2026 Guidance Increases (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,6** Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff (ChartMill). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,3** ‘Brutal’ global tech sell-off spills over to hit FTSE 100 (BusinessCloud). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** AI Debt Crisis Spreads: CoreWeave Bonds Plunge, Credit Alarms Sound for SpaceX and Oracle (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Futures Split After Market Sell-Off. What To Do Now. (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Fed’s hawkish credentials established (The Globe and Mail). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,2** Why Did US Stocks Plunge? Nvidia, SanDisk and Micron Slump as AI Trade Suffers Worst Selloff Since 2020 (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
