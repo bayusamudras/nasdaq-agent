@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-07T00:43:22+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-07T00:44:22+07:00 · sesi Jumat 6 Nov (berjalan)_
 
 Peluang indeks naik **39%**, turun **61%** (skor −3,7 dari ±10, keyakinan 69%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,53% dari penutupan sebelumnya (27.161,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,56% dari penutupan sebelumnya (27.168,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,54): Skor rata-rata −1,23 dari 52 kejadian bernilai; 21% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +2,84% dari penutupan sebelumnya (9.266,69). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,35% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures S&P 500** (+0,41): +0,65% dari penutupan sebelumnya (7.431,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Semikonduktor (SOX)** (+1,00): +2,82% dari penutupan sebelumnya (9.265,23). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,38% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (+0,41): +0,65% dari penutupan sebelumnya (7.431,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,23 dari 52 kejadian bernilai; 21% bobot bullish | −1,03 | 30% | −1,54 |
-| Futures Nasdaq-100 | +1,53% dari penutupan sebelumnya (27.161,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,65% dari penutupan sebelumnya (7.431,25) | +1,62 | 5% | +0,41 |
-| Semikonduktor (SOX) | +2,84% dari penutupan sebelumnya (9.266,69) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,853% (+1,6 bp dari sesi sebelumnya) | −0,40 | 10% | −0,20 |
-| VIX (volatilitas) | 24,11 (−14,4% dari sesi sebelumnya); VXN (Nasdaq-100) 33,48 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $97,59 (−0,71% dari sesi sebelumnya) | +0,35 | 5% | +0,09 |
+| Futures Nasdaq-100 | +1,56% dari penutupan sebelumnya (27.168,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,65% dari penutupan sebelumnya (7.431,00) | +1,62 | 5% | +0,41 |
+| Semikonduktor (SOX) | +2,82% dari penutupan sebelumnya (9.265,23) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,851% (+1,4 bp dari sesi sebelumnya) | −0,35 | 10% | −0,18 |
+| VIX (volatilitas) | 24,12 (−14,4% dari sesi sebelumnya); VXN (Nasdaq-100) 33,49 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $97,58 (−0,72% dari sesi sebelumnya) | +0,36 | 5% | +0,09 |
 | Indeks dolar | +0,61% dari penutupan sebelumnya (102,17) | +1,52 | 5% | +0,38 |
-| Tren Nasdaq 5 sesi | −3,35% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −3,38% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.687 (+1,53%).
+Perkiraan pembukaan dari futures: 24.694 (+1,56%).
 Rentang wajar 1σ (VXN): 23.802 sampai 24.828.
 
 ## Berita paling berdampak
