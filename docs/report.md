@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T21:31:18+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-06T21:32:18+07:00 · sesi Jumat 6 Nov (berjalan)_
 
 Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 55%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,19): Skor rata-rata −1,75 dari 55 kejadian bernilai; 11% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,55% dari penutupan sebelumnya (27.166,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +5,04% dari penutupan sebelumnya (9.465,21). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 26,84 (−4,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,28% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Berita berbobot** (−2,17): Skor rata-rata −1,74 dari 54 kejadian bernilai; 12% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +1,53% dari penutupan sebelumnya (27.160,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +5,15% dari penutupan sebelumnya (9.474,78). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,60): 26,86 (−4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,16% dalam 5 sesi; 11,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,75 dari 55 kejadian bernilai; 11% bobot bullish | −1,46 | 30% | −2,19 |
-| Futures Nasdaq-100 | +1,55% dari penutupan sebelumnya (27.166,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,13% dari penutupan sebelumnya (7.392,50) | +0,33 | 5% | +0,08 |
-| Semikonduktor (SOX) | +5,04% dari penutupan sebelumnya (9.465,21) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −1,74 dari 54 kejadian bernilai; 12% bobot bullish | −1,45 | 30% | −2,17 |
+| Futures Nasdaq-100 | +1,53% dari penutupan sebelumnya (27.160,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,12% dari penutupan sebelumnya (7.391,75) | +0,30 | 5% | +0,07 |
+| Semikonduktor (SOX) | +5,15% dari penutupan sebelumnya (9.474,78) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,862% (+2,5 bp dari sesi sebelumnya) | −0,62 | 10% | −0,31 |
-| VIX (volatilitas) | 26,84 (−4,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $98,18 (−0,11% dari sesi sebelumnya) | +0,06 | 5% | +0,01 |
-| Indeks dolar | +0,78% dari penutupan sebelumnya (102,34) | +1,95 | 5% | +0,49 |
-| Tren Nasdaq 5 sesi | −3,28% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 26,86 (−4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,26 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $98,09 (−0,20% dari sesi sebelumnya) | +0,10 | 5% | +0,03 |
+| Indeks dolar | +0,77% dari penutupan sebelumnya (102,33) | +1,93 | 5% | +0,48 |
+| Tren Nasdaq 5 sesi | −3,16% dalam 5 sesi; 11,1% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.692 (+1,55%).
+Perkiraan pembukaan dari futures: 24.687 (+1,53%).
 Rentang wajar 1σ (VXN): 23.729 sampai 24.901.
 
 ## Berita paling berdampak
