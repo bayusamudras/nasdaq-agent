@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-07T05:54:12+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-07T05:55:12+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **38%**, turun **62%** (skor −4,0 dari ±10, keyakinan 65%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,1** Did the stock market crash today? No. Stocks mostly rose Friday after Thursday's plunge (Nacionale). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Oil Futures Slump As Iran Peace Efforts Ease Supply Fears (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Massive Job Gains of 165,000 in October Bolster Case for More Fed Rate Hikes (Realtor.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,1** deVere CEO Says Investors Will Weigh AI Revenue After Big Tech Selloff (TOKENPOST). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** deVere CEO Says Investors Will Weigh AI Revenue After Big Tech Selloff (TOKENPOST). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
