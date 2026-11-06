@@ -1698,6 +1698,148 @@ def send_webhook(alert):
         return False
 
 
+def _third_friday(y, m):
+    first = dt.date(y, m, 1)
+    return first + dt.timedelta(days=(4 - first.weekday()) % 7 + 14)
+
+
+def build_entry_warnings(now, verdict, market, levels, structure, smc, vp, options, volume, regime, brd, events, radar, ew, feeds, items):
+    """Daftar peringatan sebelum entry: apa yang SEDANG terjadi dan apa yang AKAN terjadi di pasar Nasdaq."""
+    W = []
+    def add(when, sev, cat, title, text, action=None):
+        W.append({"when": when, "sev": sev, "cat": cat, "title": title, "text": text, "action": action})
+    nq, nas = market.get("nq_fut") or {}, market.get("nasdaq") or {}
+    price = nq.get("last")
+    bias_s = _side(verdict["bias"])
+    et = to_et(now)
+    t_min = et.hour * 60 + et.minute
+    wd = et.weekday()
+
+    # ---- SEDANG TERJADI ----
+    for g in verdict.get("gates", []):
+        if g["active"]:
+            add("now", "kritis", "Pengunci bias", g["name"] + " aktif", g.get("note", ""), "Skor sudah dipangkas otomatis. Tunggu konfirmasi sebelum entry searah bias awal.")
+    if verdict.get("breaker", {}).get("active"):
+        add("now", "kritis", "Struktur harga", "Struktur NQ berlawanan dengan bias berita", verdict["breaker"]["reason"], "Jangan kejar arah berita; tunggu harga merebut kembali level yang tertolak.")
+    for e in events:
+        h = e.get("hours_until")
+        if h is None or e.get("impact") != "tinggi":
+            continue
+        if -0.5 <= h <= 0.5:
+            add("now", "kritis", "Rilis data", e["name"] + (" sedang berlangsung" if h <= 0 else " tinggal menit lagi"),
+                e["why"], "Spread melebar dan harga bisa melonjak dua arah. Hindari entry 30 menit sebelum dan sesudah rilis.")
+        elif 0.5 < h <= 3:
+            add("now", "waspada", "Rilis data", f"{e['name']} dalam {h:.1f} jam", e["why"], "Entry sekarang berisiko terguncang oleh rilis. Pertimbangkan menunggu hasilnya.")
+    vix, vxn = market.get("vix"), market.get("vxn")
+    if vix:
+        if vix["last"] >= 25:
+            add("now", "kritis", "Volatilitas", f"VIX tinggi di {vix['last']:.1f}", "Pasar membayar mahal untuk perlindungan; gerak harian besar dan arah mudah berbalik.", "Perkecil ukuran posisi dan perlebar stop.")
+        elif vix["last"] >= 20 or (vix.get("change_pct") or 0) >= 10:
+            add("now", "waspada", "Volatilitas", f"VIX {vix['last']:.1f} ({fnum(vix.get('change_pct'), 1, True)}%)", "Volatilitas meningkat; arah lebih mudah berbalik dan sapuan stop lebih sering.", "Jangan memasang stop terlalu ketat.")
+    if levels and price:
+        rng = price * levels["sigma_pct"] / 100
+        add("now", "info", "Rentang normal", f"Rentang gerak 1 sigma hari ini sekitar ±{rng:,.0f} poin NQ",
+            f"Sekitar 68% hari bergerak dalam rentang ini ({levels['sigma_source']}, ±{levels['sigma_pct']:.2f}%).", "Stop yang lebih sempit dari sebagian kecil rentang ini mudah tersapu.")
+    if nq and abs(nq.get("change_pct") or 0) >= 2:
+        add("now", "kritis", "Gap besar", f"Futures NQ bergerak {fnum(nq['change_pct'], 2, True)}% dari penutupan", "Gerak sebesar ini biasanya disertai likuiditas tipis dan spread lebar.", "Tunggu harga mencari keseimbangan sebelum entry.")
+    elif nq and bias_s and (nq.get("change_pct") or 0) * bias_s < -0.5:
+        add("now", "waspada", "Konflik sinyal", f"Bias {verdict['bias'].lower()} tetapi futures NQ bergerak {fnum(nq['change_pct'], 2, True)}%", "Harga sedang berlawanan dengan kesimpulan berita; pasar belum membenarkan bias.", "Tunggu harga searah dengan bias sebelum entry.")
+    if smc and bias_s:
+        if bias_s > 0 and smc["zone"] == "premium":
+            add("now", "waspada", "Lokasi harga", "Harga di zona premium", f"Harga di {smc['position_pct']}% rentang 48 jam. Long di area mahal berisiko terjepit.", "Lebih baik menunggu pullback ke discount atau equilibrium " + f"{smc['equilibrium']:,.0f}.")
+        elif bias_s < 0 and smc["zone"] == "discount":
+            add("now", "waspada", "Lokasi harga", "Harga di zona discount", f"Harga di {smc['position_pct']}% rentang 48 jam. Short di area murah berisiko memantul.", "Lebih baik menunggu rally ke equilibrium " + f"{smc['equilibrium']:,.0f}.")
+    if options and price:
+        for key, nm, bad_for in (("call_wall_nq", "call wall (resistensi opsi)", 1), ("put_wall_nq", "put wall (support opsi)", -1)):
+            lv = options.get(key)
+            if lv and abs(price - lv) / price <= 0.003 and bias_s == bad_for:
+                add("now", "waspada", "Dinding opsi", f"Harga dekat {nm} {lv:,.0f}", "Hedging market maker di level ini sering menahan atau membalikkan harga.", "Beri ruang; jangan entry tepat di bawah/atas dinding.")
+    if volume and volume.get("spike"):
+        add("now", "waspada", "Volume", "Lonjakan volume terdeteksi", volume["note"], "Volume mendadak sering mendahului pembalikan atau sapuan likuiditas.")
+    if structure and structure.get("available"):
+        for n in structure["notes"][:2]:
+            add("now", "waspada", "Struktur harga", n, "Sweep dan penolakan FVG sering mendahului pembalikan.", None)
+    if verdict["agreement_pct"] < 60 or verdict["confidence_pct"] < 45:
+        add("now", "waspada", "Keyakinan rendah", f"Faktor tidak sepakat (kesepakatan {verdict['agreement_pct']}%, keyakinan {verdict['confidence_pct']}%)", "Sinyal bercampur, sehingga bias lebih rapuh.", "Kurangi ukuran posisi atau tunggu sinyal lebih searah.")
+    miss = [k for k in ("nasdaq", "nq_fut", "vix", "yield10", "nq_hourly") if feeds.get(k) and not feeds[k]["ok"]]
+    if miss:
+        add("now", "kritis" if "nq_fut" in miss else "waspada", "Data tidak lengkap", "Sumber data gagal: " + ", ".join(miss), "Skor dihitung tanpa data itu sehingga lebih tidak akurat.", "Cek harga langsung di platform Anda.")
+    if radar and abs(radar.get("overlay", 0)) >= 2:
+        add("now", "waspada", "Fed", f"Nada pejabat Fed {'hawkish' if radar['overlay'] < 0 else 'dovish'} (overlay {fnum(radar['overlay'], 1, True)})", "Pernyataan Fed menggeser skor; pasar biasanya bereaksi cepat dan bisa berbalik.", None)
+    if ew:
+        add("now", "waspada", "Pekan laporan Mag7", "Pekan laporan: " + ", ".join(e["ticker"] for e in ew), "Hasil perusahaan besar lebih menggerakkan indeks daripada data makro; bobot berita makro dikurangi 50%.", "Waspadai gap setelah penutupan saat laporan keluar.")
+    if brd and brd["state"] == "menyempit":
+        add("now", "waspada", "Breadth", "Pergerakan ditopang segelintir saham", brd["text"], "Reli yang sempit lebih mudah patah.")
+    if regime and regime["name"] == "rate_fear":
+        add("now", "info", "Rezim pasar", regime["label"], regime["why"], None)
+    y, d = (market.get("yield10") or {}).get("change_pct"), (market.get("dxy") or {}).get("change_pct")
+    if y is not None and y >= 0.5:
+        add("now", "waspada", "Yield", f"Yield 10 tahun naik {fnum(y, 2, True)}%", "Kenaikan yield menekan valuasi saham teknologi.", None)
+    if d is not None and d >= 0.5:
+        add("now", "waspada", "Dolar", f"Dolar menguat {fnum(d, 2, True)}%", "Dolar kuat menekan likuiditas global dan laba multinasional.", None)
+    for it in items[:15]:
+        if abs(it["score"]) >= 3 and (it.get("age_h") or 99) <= 2:
+            add("now", "waspada", "Berita baru", it["title"], (it["impacts"][0]["why"] if it.get("impacts") else ""), "Berita segar yang kuat sering belum sepenuhnya tercermin di harga.")
+            break
+    # sesi
+    if now.weekday() >= 5 and not (now.weekday() == 6 and et.hour >= 18):
+        add("now", "kritis", "Sesi", "Pasar futures sedang tutup (akhir pekan)", "Harga tidak bergerak; pembukaan Minggu malam sering berselisih (gap).", "Tidak ada entry yang bisa dieksekusi sampai pasar buka.")
+    elif 9 * 60 + 30 <= t_min < 9 * 60 + 45 and wd < 5:
+        add("now", "waspada", "Sesi", "15 menit pertama setelah bursa AS buka", "Volume dan volatilitas memuncak, sering ada sapuan awal.", "Banyak trader menunggu 15–30 menit sebelum entry.")
+    elif 15 * 60 + 45 <= t_min < 16 * 60 and wd < 5:
+        add("now", "waspada", "Sesi", "15 menit terakhir sebelum penutupan bursa AS", "Order penutupan institusi bisa membuat harga bergerak tajam.", None)
+    elif 17 * 60 <= t_min < 18 * 60 and wd < 5:
+        add("now", "waspada", "Sesi", "Jeda pemeliharaan harian CME (17:00–18:00 ET)", "Perdagangan futures dijeda; likuiditas tipis di sekitar jam ini.", None)
+    elif (t_min < 9 * 60 + 30 or t_min >= 16 * 60) and wd < 5:
+        add("now", "info", "Sesi", "Di luar jam bursa AS", "Likuiditas futures lebih tipis dibanding sesi reguler sehingga gerak bisa tidak teratur.", None)
+    if wd == 4 and t_min >= 14 * 60 and t_min < 17 * 60:
+        add("now", "info", "Akhir pekan", "Menjelang penutupan Jumat", "Posisi yang dibawa ke akhir pekan menanggung risiko gap hari Minggu malam.", None)
+
+    # ---- AKAN TERJADI ----
+    for e in events:
+        h = e.get("hours_until")
+        if h is None or h < 0.5 or h > 72 or (e["impact"] == "rendah"):
+            continue
+        t = dt.datetime.fromisoformat(e["start_utc"]).astimezone(WIB)
+        when = t.strftime("%a %d %b %H:%M").replace("Mon", "Sen").replace("Tue", "Sel").replace("Wed", "Rab").replace("Thu", "Kam").replace("Fri", "Jum").replace("Sat", "Sab").replace("Sun", "Min") if e.get("time_known") else e["date"] + " (jam belum pasti)"
+        sev = "waspada" if (e["impact"] == "tinggi" and h <= 24) else "info"
+        add("next", sev, "Mag7" if e.get("mag7") else "Jadwal", f"{e['name']} · {when}" + (" WIB" if e.get("time_known") else "") + (f" (dalam {h:.0f} jam)" if h < 48 else ""),
+            e["why"], "Hindari entry besar sebelum rilis." if e["impact"] == "tinggi" else None)
+    sess_open = et_to_utc(session_date(now).isoformat(), "09:30")
+    hrs_open = (sess_open - now).total_seconds() / 3600
+    if 0 < hrs_open <= 18:
+        add("next", "info", "Sesi", f"Bursa AS buka {sess_open.astimezone(WIB).strftime('%H:%M')} WIB (dalam {hrs_open:.1f} jam)", "Pembukaan membawa lonjakan volume dan arah awal sesi.", None)
+    d0 = now.astimezone(UTC).date()
+    for off in range(0, 4):
+        dd = d0 + dt.timedelta(days=off)
+        if dd == _third_friday(dd.year, dd.month):
+            quad = dd.month in (3, 6, 9, 12)
+            add("next", "waspada" if quad else "info", "Opsi", ("Quad witching" if quad else "Kedaluwarsa opsi bulanan") + f" · {dd.isoformat()}", "Hari kedaluwarsa opsi/futures: volume besar, harga bisa tertarik ke level strike besar.", "Waspadai gerak tidak wajar di jam-jam akhir.")
+    fc = front_contract(now)
+    exp = dt.date.fromisoformat(fc["expiry"])
+    days_to = (exp - d0).days
+    if days_to <= 10:
+        add("next", "waspada", "Kontrak", f"Kontrak NQ ganti dalam sekitar {max(days_to - 8, 0)} hari ({fc['code']})", "Volume berpindah ke kontrak berikutnya menjelang kedaluwarsa; harga kontrak lama bisa berbeda beberapa poin.", "Pastikan platform Anda memakai kontrak depan yang sama.")
+    if wd == 4 and not (t_min >= 17 * 60):
+        add("next", "info", "Akhir pekan", "Pasar tutup Jumat 17:00 ET (04:00 WIB Sabtu)", "Berita akhir pekan baru tercermin saat pembukaan Minggu malam.", None)
+
+    rank = {"kritis": 0, "waspada": 1, "info": 2}
+    W.sort(key=lambda x: (x["when"] != "now", rank[x["sev"]]))
+    nk = sum(1 for w in W if w["sev"] == "kritis" and w["when"] == "now")
+    nw = sum(1 for w in W if w["sev"] == "waspada" and w["when"] == "now")
+    nu = sum(1 for w in W if w["sev"] in ("kritis", "waspada") and w["when"] == "next")
+    if nk:
+        status, label = "kritis", "Kondisi tidak ideal untuk entry sekarang"
+    elif nw >= 3:
+        status, label = "waspada", "Hati-hati: beberapa risiko aktif"
+    elif nw or nu:
+        status, label = "waspada", "Ada risiko yang perlu diperhatikan"
+    else:
+        status, label = "aman", "Tidak ada risiko menonjol saat ini"
+    return {"status": status, "label": label, "n_kritis": nk, "n_waspada": nw, "n_next": nu, "items": W,
+            "note": "Daftar periksa risiko otomatis, bukan saran beli atau jual."}
+
+
 def build_report(raw, market, now, history_path=None, use_llm=True):
     regime = detect_regime(market)
     clusters = analyze_news(raw, now, regime)
@@ -1728,6 +1870,8 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     hb = market.get("nq_hourly")
     extras = {"rates": rate_expectations(market), "breadth": breadth(market), "options": market.get("options"),
               "volume": volume_anomaly(hb), "volume_profile": volume_profile(hb), "smc": fvg_map(hb)}
+    entry = build_entry_warnings(now, verdict, market, levels, structure, extras["smc"], extras["volume_profile"], market.get("options"),
+                                 extras["volume"], regime, extras["breadth"], events, radar, ew, market.get("_feeds") or {}, items)
     alerts = []
     if history_path:
         state = load_state(history_path)
@@ -1770,7 +1914,7 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "session": session_info(now), "verdict": verdict, "factors": factors, "reasons": make_reasons(factors),
-        "regime": regime, "structure": structure, "fed_radar": radar, "cot": cot_an, "earnings_week": ew, **extras, "alerts": alerts,
+        "entry_warnings": entry, "regime": regime, "structure": structure, "fed_radar": radar, "cot": cot_an, "earnings_week": ew, **extras, "alerts": alerts,
         "fetched_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "feeds": market.get("_feeds") or {}, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
         "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds", "mag7_earnings", "cot_rows")}, "news_stats": ns, "items": items, "news_feed": news_feed_out(clusters), "llm_summary": None,

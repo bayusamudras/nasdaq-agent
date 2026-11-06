@@ -302,12 +302,29 @@ html, body { overflow-x: clip; }
 .cotbars div { flex: 1; background: var(--sky); border-radius: 4px 4px 0 0; opacity: .75; position: relative; min-height: 3px; }
 .cotbars div:last-child { opacity: 1; background: var(--blue); }
 .chip.m7 { background: rgba(143,165,255,.16); color: var(--blue); }
+.ebanner { border-radius: 14px; padding: 12px 16px; margin: 4px 0 12px; display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; justify-content: space-between; border: 1px solid var(--line); }
+.ebanner b { font-size: 16px; }
+.ebanner.kritis { background: var(--bear-soft); border-color: rgba(255,142,158,.4); color: var(--bear); }
+.ebanner.waspada { background: var(--flat-soft); border-color: rgba(241,198,120,.4); color: var(--flat); }
+.ebanner.aman { background: var(--bull-soft); border-color: rgba(98,217,168,.4); color: var(--bull); }
+.ebanner span { font-size: 12.5px; color: var(--ink); opacity: .9; }
+.esec { margin: 14px 0 6px; font-size: 12.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.ew { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 4px 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 13.5px; }
+.ew:first-of-type { border-top: 0; }
+.sev { font-size: 10.5px; font-weight: 800; letter-spacing: .04em; text-align: center; padding: 3px 0; border-radius: 999px; height: fit-content; }
+.sev.kritis { background: var(--bear-soft); color: var(--bear); } .sev.waspada { background: var(--flat-soft); color: var(--flat); } .sev.info { background: var(--surface); color: var(--muted); }
+.ew b { font-weight: 600; } .ew .cat { font-size: 11px; color: var(--blue); font-weight: 600; margin-right: 6px; }
+.ew p { margin: 3px 0 0; color: var(--muted); font-size: 13px; }
+.ew .act { color: var(--ink); } .ew .act::before { content: "→ "; color: var(--blue); }
+.echip { display: inline-flex; gap: 8px; align-items: center; font-size: 13px; padding: 8px 12px; border-radius: 12px; text-decoration: none; margin-top: 10px; border: 1px solid var(--line); }
+.echip.kritis { background: var(--bear-soft); color: var(--bear); } .echip.waspada { background: var(--flat-soft); color: var(--flat); } .echip.aman { background: var(--bull-soft); color: var(--bull); }
 </style>
 </head>
 <body>
 <nav class="side" aria-label="Navigasi">
   <div class="logo">N</div>
   <a href="#bias"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>Bias</a>
+  <a href="#entry"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 16H3zM12 10v4M12 17h.01"/></svg>Risiko</a>
   <a href="#faktor"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Faktor</a>
   <a href="#berita"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H4zM17 9h3v10h-3M8 9h5M8 13h5"/></svg>Berita</a>
   <a href="news.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM8 8h8M8 12h8M8 16h5"/></svg>Terbaru</a>
@@ -350,6 +367,11 @@ html, body { overflow-x: clip; }
         <div class="stats" id="stats"></div>
         <div id="warns"></div>
         <div id="ai"></div>
+      </section>
+
+      <section class="card" id="entry">
+        <h3>Peringatan sebelum entry</h3>
+        <div id="entryBox"></div>
       </section>
 
       <section class="card" id="proyeksi">
@@ -618,6 +640,24 @@ function render() {
     fh += "</div>";
   }
   $("fedradar").innerHTML = fh;
+
+  /* Peringatan sebelum entry */
+  var EW = R.entry_warnings;
+  if (EW) {
+    var eh = '<div class="ebanner ' + EW.status + '"><b>' + (EW.status === "kritis" ? "⛔ " : EW.status === "waspada" ? "⚠ " : "✓ ") + esc(EW.label) + "</b><span>" + EW.n_kritis + " kritis · " + EW.n_waspada + " waspada sekarang · " + EW.n_next + " jadwal berisiko ke depan</span></div>";
+    function ewRow(w) { return '<div class="ew"><span class="sev ' + w.sev + '">' + w.sev.toUpperCase() + '</span><div><span class="cat">' + esc(w.cat) + "</span><b>" + esc(w.title) + "</b>" + (w.text ? "<p>" + esc(w.text) + "</p>" : "") + (w.action ? '<p class="act">' + esc(w.action) + "</p>" : "") + "</div></div>"; }
+    function ewSec(title, rows) {
+      var main = rows.filter(function (w) { return w.sev !== "info"; }), info = rows.filter(function (w) { return w.sev === "info"; });
+      var h = '<div class="esec">' + title + "</div>" + (main.length ? main.map(ewRow).join("") : '<p class="cap">Tidak ada peringatan menonjol.</p>');
+      if (info.length) h += "<details><summary>Info tambahan (" + info.length + ")</summary>" + info.map(ewRow).join("") + "</details>";
+      return h;
+    }
+    eh += ewSec("Sedang terjadi", EW.items.filter(function (w) { return w.when === "now"; }));
+    eh += ewSec("Akan terjadi (72 jam ke depan)", EW.items.filter(function (w) { return w.when === "next"; }));
+    eh += '<p class="cap">' + esc(EW.note) + " Waktu dalam WIB.</p>";
+    $("entryBox").innerHTML = eh;
+    $("warns").innerHTML = (v.warnings || []).length || EW.n_kritis || EW.n_waspada ? '<a class="echip ' + EW.status + '" href="#entry">' + (EW.status === "kritis" ? "⛔" : "⚠") + " " + EW.n_kritis + " kritis · " + EW.n_waspada + " waspada · " + EW.n_next + ' jadwal. Lihat peringatan sebelum entry →</a>' : '<a class="echip aman" href="#entry">✓ Tidak ada risiko menonjol. Lihat daftar periksa →</a>';
+  } else $("entryBox").innerHTML = '<p class="empty">Peringatan sebelum entry muncul setelah agen v2 berjalan.</p>';
 
   /* Proyeksi */
   var F = R.forecast;
