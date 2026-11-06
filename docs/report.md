@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-07T03:44:36+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-07T03:45:37+07:00 · sesi Jumat 6 Nov (berjalan)_
 
 Peluang indeks naik **39%**, turun **61%** (skor −3,7 dari ±10, keyakinan 70%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,63% dari penutupan sebelumnya (27.187,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,62% dari penutupan sebelumnya (27.186,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,41): Skor rata-rata −1,13 dari 46 kejadian bernilai; 23% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +4,04% dari penutupan sebelumnya (9.375,06). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,18% dalam 5 sesi; 11,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Indeks dolar** (+0,47): +0,75% dari penutupan sebelumnya (102,32). Dolar melemah, melonggarkan kondisi keuangan global.
+- **Semikonduktor (SOX)** (+1,00): +4,10% dari penutupan sebelumnya (9.380,87). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,13% dalam 5 sesi; 11,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Indeks dolar** (+0,47): +0,76% dari penutupan sebelumnya (102,32). Dolar melemah, melonggarkan kondisi keuangan global.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,13 dari 46 kejadian bernilai; 23% bobot bullish | −0,94 | 30% | −1,41 |
-| Futures Nasdaq-100 | +1,63% dari penutupan sebelumnya (27.187,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,54% dari penutupan sebelumnya (7.422,75) | +1,35 | 5% | +0,34 |
-| Semikonduktor (SOX) | +4,04% dari penutupan sebelumnya (9.375,06) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +1,62% dari penutupan sebelumnya (27.186,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,53% dari penutupan sebelumnya (7.422,00) | +1,32 | 5% | +0,33 |
+| Semikonduktor (SOX) | +4,10% dari penutupan sebelumnya (9.380,87) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
-| VIX (volatilitas) | 24,10 (−14,5% dari sesi sebelumnya); VXN (Nasdaq-100) 32,70 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $98,14 (−0,15% dari sesi sebelumnya) | +0,07 | 5% | +0,02 |
-| Indeks dolar | +0,75% dari penutupan sebelumnya (102,32) | +1,88 | 5% | +0,47 |
-| Tren Nasdaq 5 sesi | −3,18% dalam 5 sesi; 11,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 24,16 (−14,3% dari sesi sebelumnya); VXN (Nasdaq-100) 32,74 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $98,15 (−0,14% dari sesi sebelumnya) | +0,07 | 5% | +0,02 |
+| Indeks dolar | +0,76% dari penutupan sebelumnya (102,32) | +1,90 | 5% | +0,47 |
+| Tren Nasdaq 5 sesi | −3,13% dalam 5 sesi; 11,1% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.711 (+1,63%).
+Perkiraan pembukaan dari futures: 24.709 (+1,62%).
 Rentang wajar 1σ (VXN): 23.814 sampai 24.816.
 
 ## Berita paling berdampak
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 23.814 sampai 24.816.
 - **−1,2** Massive Job Gains of 165,000 in October Bolster Case for More Fed Rate Hikes (Realtor.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,2** Oracle beats Microsoft and Amazon on a key Wall Street metric (TradingView). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** deVere CEO Says Investors Will Weigh AI Revenue After Big Tech Selloff (TOKENPOST). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,2** Treasury Yields Turn Higher, Eurozone Bond Yields Drop (Yahoo Finance). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **+1,1** Treasury Yields Turn Higher, Eurozone Bond Yields Drop (Yahoo Finance). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 
 ## Kalender risiko
 - 2026-11-06: Laporan tenaga kerja Oktober (nonfarm payrolls) (tinggi)
