@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T22:38:37+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-06T22:39:37+07:00 · sesi Jumat 6 Nov (berjalan)_
 
-Peluang indeks naik **37%**, turun **63%** (skor −4,3 dari ±10, keyakinan 71%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **37%**, turun **63%** (skor −4,3 dari ±10, keyakinan 70%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,08): Skor rata-rata −1,67 dari 48 kejadian bernilai; 11% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,56% dari penutupan sebelumnya (27.170,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +2,94% dari penutupan sebelumnya (9.275,65). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,22% dalam 5 sesi; 11,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Yield obligasi 10 tahun** (−0,47): 4,874% (+3,7 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures Nasdaq-100** (+2,00): +1,52% dari penutupan sebelumnya (27.158,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +2,78% dari penutupan sebelumnya (9.261,72). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,29% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (+0,45): +0,72% dari penutupan sebelumnya (7.436,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,67 dari 48 kejadian bernilai; 11% bobot bullish | −1,39 | 30% | −2,08 |
-| Futures Nasdaq-100 | +1,56% dari penutupan sebelumnya (27.170,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,73% dari penutupan sebelumnya (7.437,25) | +1,82 | 5% | +0,45 |
-| Semikonduktor (SOX) | +2,94% dari penutupan sebelumnya (9.275,65) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,874% (+3,7 bp dari sesi sebelumnya) | −0,93 | 10% | −0,47 |
-| VIX (volatilitas) | 23,58 (−16,3% dari sesi sebelumnya); VXN (Nasdaq-100) 32,92 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $97,16 (−1,15% dari sesi sebelumnya) | +0,57 | 5% | +0,14 |
+| Futures Nasdaq-100 | +1,52% dari penutupan sebelumnya (27.158,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,72% dari penutupan sebelumnya (7.436,50) | +1,80 | 5% | +0,45 |
+| Semikonduktor (SOX) | +2,78% dari penutupan sebelumnya (9.261,72) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,872% (+3,5 bp dari sesi sebelumnya) | −0,88 | 10% | −0,44 |
+| VIX (volatilitas) | 23,82 (−15,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,17 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $96,98 (−1,33% dari sesi sebelumnya) | +0,67 | 5% | +0,17 |
 | Indeks dolar | +0,55% dari penutupan sebelumnya (102,11) | +1,38 | 5% | +0,34 |
-| Tren Nasdaq 5 sesi | −3,22% dalam 5 sesi; 11,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −3,29% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.694 (+1,56%).
-Rentang wajar 1σ (VXN): 23.811 sampai 24.819.
+Perkiraan pembukaan dari futures: 24.685 (+1,52%).
+Rentang wajar 1σ (VXN): 23.807 sampai 24.823.
 
 ## Berita paling berdampak
 - **−2,5** Treasury Yields Jump After Hot Jobs Report (Briefs Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
