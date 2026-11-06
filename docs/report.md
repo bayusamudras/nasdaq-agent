@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-07T04:04:36+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-07T04:05:36+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,0 dari ±10, keyakinan 71%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 71%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,21% dari penutupan sebelumnya (27.074,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,47): Skor rata-rata −1,17 dari 46 kejadian bernilai; 22% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +1,19% dari penutupan sebelumnya (27.071,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,40): Skor rata-rata −1,11 dari 44 kejadian bernilai; 23% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Indeks dolar** (+0,47): +0,75% dari penutupan sebelumnya (102,31). Dolar melemah, melonggarkan kondisi keuangan global.
+- **Indeks dolar** (+0,45): +0,73% dari penutupan sebelumnya (102,30). Dolar melemah, melonggarkan kondisi keuangan global.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,17 dari 46 kejadian bernilai; 22% bobot bullish | −0,98 | 30% | −1,47 |
-| Futures Nasdaq-100 | +1,21% dari penutupan sebelumnya (27.074,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,25% dari penutupan sebelumnya (7.401,50) | +0,62 | 5% | +0,15 |
+| Berita berbobot | skor rata-rata −1,11 dari 44 kejadian bernilai; 23% bobot bullish | −0,93 | 30% | −1,40 |
+| Futures Nasdaq-100 | +1,19% dari penutupan sebelumnya (27.071,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,22% dari penutupan sebelumnya (7.399,25) | +0,55 | 5% | +0,14 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
-| VIX (volatilitas) | 24,78 (−12,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,32 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $98,06 (−0,23% dari sesi sebelumnya) | +0,12 | 5% | +0,03 |
-| Indeks dolar | +0,75% dari penutupan sebelumnya (102,31) | +1,88 | 5% | +0,47 |
+| VIX (volatilitas) | 25,16 (−10,7% dari sesi sebelumnya); VXN (Nasdaq-100) 33,58 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $97,94 (−0,36% dari sesi sebelumnya) | +0,18 | 5% | +0,04 |
+| Indeks dolar | +0,73% dari penutupan sebelumnya (102,30) | +1,82 | 5% | +0,45 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.877 (+1,21%).
-Rentang wajar 1σ (VXN): 24.064 sampai 25.095.
+Perkiraan pembukaan dari futures: 24.872 (+1,19%).
+Rentang wajar 1σ (VXN): 24.059 sampai 25.099.
 
 ## Berita paling berdampak
 - **−2,1** Fed seen sticking to December rate hike after jobs data (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -53,6 +53,6 @@ Rentang wajar 1σ (VXN): 24.064 sampai 25.095.
 - 2026-11-25: PCE Oktober dan PDB kuartal III (estimasi kedua) (tinggi)
 
 ## Rekam jejak
-2 benar dari 3 prediksi terevaluasi.
+2 benar dari 4 prediksi terevaluasi.
 
 _Bukan nasihat investasi._
