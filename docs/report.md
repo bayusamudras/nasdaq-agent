@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-06T22:30:37+07:00 · sesi Jumat 6 Nov (berjalan)_
+_Diperbarui 2026-11-06T22:31:37+07:00 · sesi Jumat 6 Nov (berjalan)_
 
-Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **37%**, turun **63%** (skor −4,3 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan tenaga kerja Oktober (nonfarm payrolls)
 
 ## Alasan utama
-- **Berita berbobot** (−2,15): Skor rata-rata −1,72 dari 49 kejadian bernilai; 11% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,91% dari penutupan sebelumnya (27.263,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +3,34% dari penutupan sebelumnya (9.311,79). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +0,90% dari penutupan sebelumnya (7.449,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,15% dalam 5 sesi; 11,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Berita berbobot** (−2,13): Skor rata-rata −1,70 dari 50 kejadian bernilai; 11% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +1,94% dari penutupan sebelumnya (27.270,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +3,11% dari penutupan sebelumnya (9.291,15). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +0,92% dari penutupan sebelumnya (7.451,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,25% dalam 5 sesi; 11,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,72 dari 49 kejadian bernilai; 11% bobot bullish | −1,43 | 30% | −2,15 |
-| Futures Nasdaq-100 | +1,91% dari penutupan sebelumnya (27.263,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,90% dari penutupan sebelumnya (7.449,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +3,34% dari penutupan sebelumnya (9.311,79) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −1,70 dari 50 kejadian bernilai; 11% bobot bullish | −1,42 | 30% | −2,13 |
+| Futures Nasdaq-100 | +1,94% dari penutupan sebelumnya (27.270,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,92% dari penutupan sebelumnya (7.451,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +3,11% dari penutupan sebelumnya (9.291,15) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,870% (+3,3 bp dari sesi sebelumnya) | −0,82 | 10% | −0,41 |
-| VIX (volatilitas) | 23,68 (−16,0% dari sesi sebelumnya); VXN (Nasdaq-100) 33,20 | −0,70 | 10% | −0,35 |
+| VIX (volatilitas) | 23,62 (−16,2% dari sesi sebelumnya); VXN (Nasdaq-100) 33,24 | −0,70 | 10% | −0,35 |
 | Minyak Brent | $97,62 (−0,68% dari sesi sebelumnya) | +0,34 | 5% | +0,09 |
-| Indeks dolar | +0,57% dari penutupan sebelumnya (102,13) | +1,42 | 5% | +0,35 |
-| Tren Nasdaq 5 sesi | −3,15% dalam 5 sesi; 11,1% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | +0,58% dari penutupan sebelumnya (102,14) | +1,45 | 5% | +0,36 |
+| Tren Nasdaq 5 sesi | −3,25% dalam 5 sesi; 11,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.712; resistensi 25.162 / 26.009; support 23.865 / 23.415.
-Perkiraan pembukaan dari futures: 24.779 (+1,91%).
+Perkiraan pembukaan dari futures: 24.787 (+1,94%).
 Rentang wajar 1σ (VXN): 23.806 sampai 24.824.
 
 ## Berita paling berdampak
