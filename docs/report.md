@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-08T00:16:09+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T00:21:09+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **49%**, turun **51%** (skor −1,2 dari ±10, keyakinan 59%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **+0,7** 10-Year Treasury Yield Slips to 4.84% Even as Fed Hike Bets Rise (24/7 Wall St.). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−0,6** Democrats target Trump tariffs after midterm victory, but can they actually roll them back? (The Financial Express). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,6** Nasdaq 100 Forecast: Chip Stocks Rebound After US Midterm Sell-Off (FXEmpire). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,6** Fed’s Daly says further rate hikes likely needed to curb inflation (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−0,5** Fed’s Daly says further rate hikes likely needed to curb inflation (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
