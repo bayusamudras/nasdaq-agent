@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-07T18:09:20+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-07T18:14:20+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **42%**, turun **58%** (skor −3,0 dari ±10, keyakinan 64%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -32,7 +32,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
 - **−1,9** Fed policymakers consider rate hike after strong jobs report (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,7** Nvidia Stock Selloff Pushes Valuation Below Kimberly-Clark (eTeknix). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,6** Nvidia Stock Selloff Pushes Valuation Below Kimberly-Clark (eTeknix). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** 10-Year Treasury Yield Plunges 19 Basis Points in Single Day as AI Capex Fears Chill Fed Rate-Hike Expectations (BigGo Finance). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,2** How the AI Sell-Off Reveals Fiscal Strain (Robin J Brooks | Substack). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** A Retiree Who Bought 1,000 Nvidia Shares at $122 Just Watched Chips Have Their Worst Day Since 2020 (24/7 Wall St.). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
