@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-07T20:55:15+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-07T21:00:14+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **44%**, turun **56%** (skor −2,5 dari ±10, keyakinan 62%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **44%**, turun **56%** (skor −2,5 dari ±10, keyakinan 62%
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +1,25% dari penutupan sebelumnya (27.085,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,42): Skor rata-rata −1,14 dari 37 kejadian bernilai; 24% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,40): Skor rata-rata −1,12 dari 36 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -15,7 +15,7 @@ Peluang indeks naik **44%**, turun **56%** (skor −2,5 dari ±10, keyakinan 62%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,14 dari 37 kejadian bernilai; 24% bobot bullish | −0,95 | 30% | −1,42 |
+| Berita berbobot | skor rata-rata −1,12 dari 36 kejadian bernilai; 25% bobot bullish | −0,93 | 30% | −1,40 |
 | Futures Nasdaq-100 | +1,25% dari penutupan sebelumnya (27.085,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.402,00) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
