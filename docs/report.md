@@ -1,7 +1,7 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-08T13:36:55+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T13:41:55+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **51%**, turun **49%** (skor −0,8 dari ±10, keyakinan 58%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **55%**, turun **45%** (skor +0,3 dari ±10, keyakinan 50%, 42% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -40,9 +40,9 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,0** AI slump revives Asia’s forgotten trades from China to India (The Straits Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** SpaceX Stock Stays in a Bear Market After the Midterm Elections as Analysts Stay Upbeat (Benzinga). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,8** US Inflation Report Becomes Next Test for Fed Rate Hike After 165,000 Jobs Added in October (CryptoRank). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−0,8** S&P 500 posts worst week since April 2025, led by sharp tech and chip stock declines. (Pluang). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,7** S&P 500 posts worst week since April 2025, led by sharp tech and chip stock declines. (Pluang). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,7** NVIDIA Q1 FY2027: Revenue $81.6B Beat, Data Center +92%, but August 26 Guidance Test Will Prove Sustainability (TradingKey). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−0,6** JPMorgan Drops 'Bullish' Stance On US Stocks After Warsh's Hawkish Tone At Jackson Hole, Shifts To 'Tactically Cautious' (Stocktwits). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **+0,6** 10-Year Treasury Yield Slips to 4.84% Even as Fed Hike Bets Rise (24/7 Wall St.). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
