@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-08T22:44:39+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T22:49:39+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 65%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **40%**, turun **60%** (skor −3,4 dari ±10, keyakinan 65%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +1,25% dari penutupan sebelumnya (27.085,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,03): Skor rata-rata −0,83 dari 35 kejadian bernilai; 30% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,85): Skor rata-rata −0,68 dari 34 kejadian bernilai; 33% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,83 dari 35 kejadian bernilai; 30% bobot bullish | −0,69 | 30% | −1,03 |
+| Berita berbobot | skor rata-rata −0,68 dari 34 kejadian bernilai; 33% bobot bullish | −0,57 | 30% | −0,85 |
 | Futures Nasdaq-100 | +1,25% dari penutupan sebelumnya (27.085,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.402,00) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
@@ -35,7 +35,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,3** TSM Stock at 21x After a 30% Chip Sell-Off [2026] (shattered.io). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Markets Are Pricing in a Fed Rate Hike in December. Here's What Investors Should Do, According to History. (AOL.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** Stock Market Sell-Off: 4 Ridiculously Cheap Semiconductor Stocks You Can Buy Today (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,3** AI Spending Boom Nears Peak? Jefferies Flags Risks To Big Tech's $1 Trillion Capex (NDTV Profit). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,2** AI Spending Boom Nears Peak? Jefferies Flags Risks To Big Tech's $1 Trillion Capex (NDTV Profit). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,2** Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed (Investor's Business Daily). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,2** Gas prices top $4 a gallon as Iran war escalates (ABC News - Breaking News, Latest News and Videos). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,2** Fed policymakers consider rate hike after strong jobs report (The Korea Herald). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
