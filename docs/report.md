@@ -1,5 +1,5 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-09T01:05:28+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T01:10:26+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 63%, 62% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -10,7 +10,7 @@ Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 63%, 
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Indeks dolar** (+0,45): +0,72% dari penutupan sebelumnya (102,28). Dolar melemah, melonggarkan kondisi keuangan global.
+- **Indeks dolar** (+0,46): +0,74% dari penutupan sebelumnya (102,30). Dolar melemah, melonggarkan kondisi keuangan global.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
@@ -22,7 +22,7 @@ Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 63%, 
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $98,32 (+0,03% dari sesi sebelumnya) | −0,01 | 5% | 0,00 |
-| Indeks dolar | +0,72% dari penutupan sebelumnya (102,28) | +1,80 | 5% | +0,45 |
+| Indeks dolar | +0,74% dari penutupan sebelumnya (102,30) | +1,85 | 5% | +0,46 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
