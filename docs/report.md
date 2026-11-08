@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-08T15:22:24+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T15:27:24+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 60%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 60%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +1,25% dari penutupan sebelumnya (27.085,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,61): Skor rata-rata −0,49 dari 36 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Berita berbobot** (−0,48): Skor rata-rata −0,38 dari 36 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,38 dari 36 kejadian bernilai; 42% bobot bullish | −0,32 | 30% | −0,48 |
+| Berita berbobot | skor rata-rata −0,49 dari 36 kejadian bernilai; 40% bobot bullish | −0,41 | 30% | −0,61 |
 | Futures Nasdaq-100 | +1,25% dari penutupan sebelumnya (27.085,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.402,00) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
@@ -31,9 +31,9 @@ Perkiraan pembukaan dari futures: 24.887 (+1,25%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
+- **−1,2** Liberation Day, Tariffs, US v China Open Source, OpenAI, $CRWV, TikTok | BG2｜BG2Pod (finance.biggo.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,2** Vistra (VST) Lifts Guidance And Buyback, Is The Stock Undervalued? (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** How to invest in AI amid AI spending worries? (Yahoo Finance Australia). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−1,0** Oil prices rise 1% as Iran says Hormuz to remain shut until U.S. meets demands By Investing.com (Investing.com India). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,0** Democratic sweep in U.S. midterms raises scrutiny of tariffs and AI data centers (news.lavx.hu). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** December Fed hike odds near 77% after jobs surprise, as AI selloff pressure moves into credit markets (MLQ.ai). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Delek US Holdings (DK) Beats On Earnings And Guidance, Is More Upside Still Left? (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
