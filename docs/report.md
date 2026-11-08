@@ -1,7 +1,7 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-08T16:37:47+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T16:42:46+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **49%**, turun **51%** (skor −1,3 dari ±10, keyakinan 59%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **49%**, turun **51%** (skor −1,2 dari ±10, keyakinan 59%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -9,13 +9,13 @@ Peluang indeks naik **49%**, turun **51%** (skor −1,3 dari ±10, keyakinan 59%
 - **Futures Nasdaq-100** (+2,00): +1,25% dari penutupan sebelumnya (27.085,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Berita berbobot** (−0,51): Skor rata-rata −0,40 dari 37 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Berita berbobot** (−0,47): Skor rata-rata −0,37 dari 39 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,40 dari 37 kejadian bernilai; 43% bobot bullish | −0,34 | 30% | −0,51 |
+| Berita berbobot | skor rata-rata −0,37 dari 39 kejadian bernilai; 43% bobot bullish | −0,31 | 30% | −0,47 |
 | Futures Nasdaq-100 | +1,25% dari penutupan sebelumnya (27.085,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.402,00) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
