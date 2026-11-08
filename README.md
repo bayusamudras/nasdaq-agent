@@ -18,3 +18,8 @@ Agen membaca berita dan harga pasar, menilai dampaknya ke Nasdaq, lalu menulis b
 Ubah `FED_FUNDS`, `FED_NOTE`, dan `EVENTS` di `agent.py` secara berkala. Opsional: secret `ANTHROPIC_API_KEY` untuk ringkasan Claude.
 
 Bukan nasihat investasi.
+
+## Tambahan terbaru
+- **Sesi & waktu eksekusi**: sesi aktif (Asia, London, pra-pasar AS, pembukaan NY, siang NY, Power Hour), hitung mundur, garis waktu WIB, dan jendela terlarang ±15 menit di sekitar rilis Tier-1 (CPI, NFP, FOMC).
+- **Korelasi intermarket**: DXY, US10Y, US5Y (proksi US2Y), ES vs NQ, matriks korelasi per jam 24 jam.
+- **Log This Setup**: jurnal pribadi di localStorage browser (ekspor CSV/JSON, win rate searah/melawan bias).

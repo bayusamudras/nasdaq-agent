@@ -318,6 +318,32 @@ html, body { overflow-x: clip; }
 .ew .act { color: var(--ink); } .ew .act::before { content: "→ "; color: var(--blue); }
 .echip { display: inline-flex; gap: 8px; align-items: center; font-size: 13px; padding: 8px 12px; border-radius: 12px; text-decoration: none; margin-top: 10px; border: 1px solid var(--line); }
 .echip.kritis { background: var(--bear-soft); color: var(--bear); } .echip.waspada { background: var(--flat-soft); color: var(--flat); } .echip.aman { background: var(--bull-soft); color: var(--bull); }
+.logbtn { margin-top: 12px; font: inherit; font-size: 13.5px; font-weight: 700; padding: 9px 16px; border: 0; border-radius: 12px; background: var(--blue); color: #0f1424; cursor: pointer; }
+.logbtn:hover { filter: brightness(1.08); }
+dialog { background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 18px; padding: 20px; width: min(460px, calc(100vw - 32px)); }
+dialog::backdrop { background: rgba(5,8,18,.7); }
+.fgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-bottom: 10px; }
+dialog label { display: block; font-size: 12px; color: var(--muted); }
+dialog input, dialog select, dialog textarea { display: block; width: 100%; margin-top: 4px; font: inherit; font-size: 14px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; }
+.dbtn { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; }
+.dbtn button { font: inherit; font-weight: 700; padding: 8px 18px; border-radius: 999px; border: 0; cursor: pointer; background: var(--blue); color: #0f1424; }
+.dbtn .ghost { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
+.lane { position: relative; height: 18px; margin: 5px 0; background: var(--surface); border-radius: 6px; }
+.lane i { position: absolute; top: 0; bottom: 0; border-radius: 6px; opacity: .85; }
+.lanelbl { font-size: 11px; color: var(--muted); margin-top: 6px; }
+.tl { position: relative; padding-top: 14px; }
+.tl .now { position: absolute; top: 6px; bottom: 0; width: 2px; background: var(--ink); z-index: 2; }
+.tl .nowl { position: absolute; top: -6px; transform: translateX(-50%); font-family: var(--f-data); font-size: 10.5px; color: var(--ink); z-index: 2; white-space: nowrap; }
+.tl .ntwband { position: absolute; top: 14px; bottom: 0; background: rgba(255,142,158,.28); border-left: 1px solid var(--bear); border-right: 1px solid var(--bear); z-index: 1; }
+.axis { display: flex; justify-content: space-between; font-family: var(--f-data); font-size: 10.5px; color: var(--muted); margin-top: 4px; }
+.liq { font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 999px; }
+.liq.tinggi { background: var(--bull-soft); color: var(--bull); } .liq.sedang { background: var(--flat-soft); color: var(--flat); } .liq.rendah { background: var(--bear-soft); color: var(--bear); } .liq.tutup { background: var(--surface); color: var(--muted); }
+.cd { font-family: var(--f-data); font-size: 15px; }
+.ntwbar { border-radius: 12px; padding: 10px 14px; margin-bottom: 10px; font-weight: 700; background: var(--bear-soft); color: var(--bear); border: 1px solid rgba(255,142,158,.45); }
+.jrow { border-top: 1px solid var(--line); padding: 10px 0; font-size: 13px; }
+.jrow:first-of-type { border-top: 0; }
+.jrow input.px { width: 110px; font: inherit; font-size: 13px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 4px 8px; }
+.jrow button { font: inherit; font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; margin-right: 4px; }
 </style>
 </head>
 <body>
@@ -366,12 +392,20 @@ html, body { overflow-x: clip; }
         <p class="cap" id="pcap"></p>
         <div class="stats" id="stats"></div>
         <div id="warns"></div>
+        <button type="button" class="logbtn" data-log>＋ Log This Setup</button>
         <div id="ai"></div>
       </section>
 
       <section class="card" id="entry">
         <h3>Peringatan sebelum entry</h3>
+        <div id="ntw"></div>
         <div id="entryBox"></div>
+        <button type="button" class="logbtn" data-log>＋ Log This Setup</button>
+      </section>
+
+      <section class="card" id="sesi">
+        <h3>Sesi dan waktu eksekusi</h3>
+        <div id="sessBox"><p class="empty">memuat…</p></div>
       </section>
 
       <section class="card" id="proyeksi">
@@ -382,6 +416,11 @@ html, body { overflow-x: clip; }
       <section class="card" id="makro">
         <h3>Makro dan market breadth</h3>
         <div id="macro"></div>
+      </section>
+
+      <section class="card" id="inter">
+        <h3>Korelasi intermarket</h3>
+        <div id="interBox"></div>
       </section>
 
       <section class="card" id="opsi">
@@ -434,6 +473,11 @@ html, body { overflow-x: clip; }
         <div id="smcBox"></div>
       </section>
 
+      <section class="card" id="jurnal">
+        <h3>Jurnal eksekusi</h3>
+        <div id="journalBox"></div>
+      </section>
+
       <section class="card" id="peringatan">
         <h3>Peringatan pergeseran bias</h3>
         <div id="alerts"></div>
@@ -465,6 +509,20 @@ html, body { overflow-x: clip; }
   <footer>Analisis berita dan data pasar publik, bukan nasihat investasi. Peluang adalah perkiraan heuristik yang belum dikalibrasi.</footer>
 </div>
 
+<dialog id="logDlg">
+  <form method="dialog" id="logForm">
+    <h3 style="margin:0 0 4px">Log setup ini</h3>
+    <p class="cap" id="logSnap" style="margin:0 0 10px"></p>
+    <div class="fgrid">
+      <label>Aksi<select id="lgDir"><option value="long">Long</option><option value="short">Short</option><option value="skip">Tidak entry</option></select></label>
+      <label>Harga entry<input id="lgEntry" type="number" step="any" inputmode="decimal"></label>
+      <label>Stop<input id="lgStop" type="number" step="any" inputmode="decimal"></label>
+      <label>Target<input id="lgTp" type="number" step="any" inputmode="decimal"></label>
+    </div>
+    <label class="full">Catatan (alasan entry, emosi, kesalahan)<textarea id="lgNote" rows="3" maxlength="500"></textarea></label>
+    <div class="dbtn"><button type="button" id="lgCancel" class="ghost">Batal</button><button type="submit" id="lgSave">Simpan</button></div>
+  </form>
+</dialog>
 <script>
 (async function () {
 function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
@@ -659,6 +717,20 @@ function render() {
     $("warns").innerHTML = (v.warnings || []).length || EW.n_kritis || EW.n_waspada ? '<a class="echip ' + EW.status + '" href="#entry">' + (EW.status === "kritis" ? "⛔" : "⚠") + " " + EW.n_kritis + " kritis · " + EW.n_waspada + " waspada · " + EW.n_next + ' jadwal. Lihat peringatan sebelum entry →</a>' : '<a class="echip aman" href="#entry">✓ Tidak ada risiko menonjol. Lihat daftar periksa →</a>';
   } else $("entryBox").innerHTML = '<p class="empty">Peringatan sebelum entry muncul setelah agen v2 berjalan.</p>';
 
+  /* Korelasi intermarket */
+  var IM = R.intermarket, ih = "";
+  if (IM) {
+    ih += '<p class="note"><b>' + esc(IM.summary) + "</b></p><div>" + IM.statuses.map(function (s) {
+      var c = s.tone === "bull" ? "d" : s.tone === "bear" ? "h" : s.tone === "warn" ? "h" : "n";
+      return '<div class="gate"><span class="st ' + (s.tone === "warn" ? "on" : s.tone === "neutral" ? "" : "") + '" style="' + (s.tone === "bull" ? "background:var(--bull-soft);color:var(--bull)" : s.tone === "bear" ? "background:var(--bear-soft);color:var(--bear)" : "") + '">' + (s.tone === "bull" ? "POSITIF" : s.tone === "bear" ? "NEGATIF" : s.tone === "warn" ? "WASPADA" : "NETRAL") + '</span><div><b>' + esc(s.label) + '</b><div class="cap" style="margin:2px 0">' + esc(s.text) + "</div></div></div>";
+    }).join("") + "</div>";
+    if (IM.matrix.length) ih += '<div class="scroll"><table><thead><tr><th>Pasangan (24 jam)</th><th>Korelasi</th><th>Normalnya</th><th>Status</th></tr></thead><tbody>' + IM.matrix.map(function (m) {
+      return "<tr><td>" + esc(m.pair) + '</td><td class="' + cls(m.corr) + '">' + fmt(m.corr, 2) + "</td><td>" + esc(m.expected) + '</td><td class="' + (m.state.indexOf("terbalik") === 0 ? "down" : "") + '">' + esc(m.state) + "</td></tr>";
+    }).join("") + "</tbody></table></div>";
+    ih += '<p class="cap">' + esc(IM.note) + "</p>";
+  } else ih = '<p class="empty">Data intermarket belum tersedia.</p>';
+  $("interBox").innerHTML = ih;
+
   /* Proyeksi */
   var F = R.forecast;
   if (F) {
@@ -804,6 +876,204 @@ document.querySelectorAll(".filters button").forEach(function (b) {
   });
 });
 
+/* ===== Sesi dan waktu eksekusi (real-time, tanpa data dari agen kecuali jadwal rilis) ===== */
+function tzOff(tz, ms) {
+  var p = new Intl.DateTimeFormat("en-US", { timeZone: tz, hourCycle: "h23", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit" }).formatToParts(new Date(ms)), o = {};
+  p.forEach(function (x) { o[x.type] = +x.value; });
+  return Date.UTC(o.year, o.month - 1, o.day, o.hour, o.minute, o.second) - Math.floor(ms / 1000) * 1000;
+}
+function wall(tz, y, m, d, hh, mm) { var g = Date.UTC(y, m - 1, d, hh, mm); var u = g - tzOff(tz, g); return g - tzOff(tz, u); }
+function parts(tz, ms) { var o = {}; new Intl.DateTimeFormat("en-US", { timeZone: tz, hourCycle: "h23", year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric", weekday: "short" }).formatToParts(new Date(ms)).forEach(function (x) { o[x.type] = x.value; }); return { y: +o.year, m: +o.month, d: +o.day, h: +o.hour, mi: +o.minute, wd: o.weekday }; }
+var SESS = [
+  { k: "asia", n: "Asia (Tokyo)", tz: "Asia/Tokyo", a: [9, 0], b: [15, 30], liq: "rendah", color: "var(--sky)", note: "Likuiditas NQ tipis; gerak sering kecil lalu tersapu saat London buka." },
+  { k: "lon", n: "London", tz: "Europe/London", a: [8, 0], b: [16, 30], liq: "sedang", color: "var(--flat)", note: "Likuiditas naik; arah awal hari sering terbentuk, termasuk sapuan sebelum NY." },
+  { k: "pre", n: "Pra-pasar AS", tz: "America/New_York", a: [4, 0], b: [9, 30], liq: "sedang", color: "var(--blue)", note: "Rilis data 08:30 ET jatuh di sini: spread lebar dan gerak sering diperbaiki saat pembukaan." },
+  { k: "open", n: "Pembukaan NY", tz: "America/New_York", a: [9, 30], b: [10, 30], liq: "tinggi", color: "var(--bull)", note: "Volume dan volatilitas puncak; sapuan awal umum terjadi." },
+  { k: "mid", n: "Siang NY (lull)", tz: "America/New_York", a: [11, 30], b: [14, 0], liq: "rendah", color: "var(--bear)", note: "Volume surut, gerak cenderung berombak dan menipu." },
+  { k: "power", n: "Power Hour", tz: "America/New_York", a: [15, 0], b: [16, 0], liq: "tinggi", color: "var(--bull)", note: "Volume naik menjelang penutupan; tren sering dipercepat atau dibalik." }
+];
+function sessWindows(base) {
+  var out = [];
+  SESS.forEach(function (s) {
+    for (var off = -1; off <= 1; off++) {
+      var dd = new Date(base + off * 86400000), p = parts(s.tz, dd.getTime());
+      var a = wall(s.tz, p.y, p.m, p.d, s.a[0], s.a[1]), b = wall(s.tz, p.y, p.m, p.d, s.b[0], s.b[1]);
+      out.push({ s: s, a: a, b: b });
+    }
+  });
+  return out;
+}
+function etMilestones(now) {
+  var p = parts("America/New_York", now), res = [];
+  for (var off = 0; off <= 3; off++) {
+    var base = now + off * 86400000, q = parts("America/New_York", base);
+    var wd = q.wd; if (wd === "Sat" || wd === "Sun") continue;
+    [[9, 30, "Pembukaan bursa AS", "tinggi"], [15, 0, "Power Hour dimulai", "tinggi"], [16, 0, "Penutupan bursa AS", "sedang"], [17, 0, "Jeda harian CME (17:00 ET)", "tutup"], [18, 0, "Futures buka kembali (18:00 ET)", "sedang"]].forEach(function (m) {
+      var t = wall("America/New_York", q.y, q.m, q.d, m[0], m[1]);
+      if (t > now) res.push({ t: t, n: m[2], liq: m[3] });
+    });
+  }
+  res.sort(function (a, b) { return a.t - b.t; });
+  return res.slice(0, 4);
+}
+function futuresClosed(now) {
+  var p = parts("America/New_York", now), mins = p.h * 60 + p.mi;
+  if (p.wd === "Sat") return true;
+  if (p.wd === "Fri" && mins >= 17 * 60) return true;
+  if (p.wd === "Sun" && mins < 18 * 60) return true;
+  return false;
+}
+function activeSession(now) {
+  if (futuresClosed(now)) return { n: "Pasar futures tutup (akhir pekan)", liq: "tutup", note: "Tidak ada eksekusi sampai Minggu 18:00 ET. Pembukaan sering membawa gap." };
+  var p = parts("America/New_York", now), m = p.h * 60 + p.mi;
+  if (m >= 17 * 60 && m < 18 * 60) return { n: "Jeda harian CME", liq: "tutup", note: "Perdagangan futures dijeda 17:00–18:00 ET." };
+  var best = null, w = sessWindows(now);
+  var pr = { open: 0, power: 1, mid: 2, pre: 3, lon: 4, asia: 5 };
+  w.forEach(function (x) { if (now >= x.a && now < x.b && (!best || pr[x.s.k] < pr[best.s.k])) best = x; });
+  var us = (m >= 9 * 60 + 30 && m < 16 * 60);
+  if (best) {
+    var extra = [];
+    w.forEach(function (x) { if (x !== best && now >= x.a && now < x.b && (x.s.k === "lon" || x.s.k === "asia")) extra.push(x.s.n); });
+    return { n: best.s.n + (extra.length ? " · overlap " + extra.join(", ") : ""), liq: best.s.liq, note: best.s.note };
+  }
+  return { n: us ? "Sesi reguler AS" : "Sesi sepi / sesudah pasar", liq: us ? "sedang" : "rendah", note: us ? "Likuiditas normal." : "Likuiditas tipis; gerak bisa tidak teratur." };
+}
+function fmtCd(ms) { var s = Math.max(0, Math.floor(ms / 1000)), h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = s % 60; return (h ? h + "j " : "") + String(m).padStart(2, "0") + "m " + String(x).padStart(2, "0") + "d"; }
+function evNote(t) {
+  var p = parts("America/New_York", t), m = p.h * 60 + p.mi;
+  if (m < 9 * 60 + 30) return "Rilis pra-pasar: likuiditas tipis, spread lebar, reaksi awal sering dikoreksi saat bursa buka.";
+  if (m === 14 * 60) return "Rilis 14:00 ET (FOMC): reaksi awal, lalu gerak terbesar sering muncul saat konferensi pers 14:30 ET.";
+  if (m < 16 * 60) return "Rilis di tengah sesi reguler: likuiditas dalam, tetapi reaksi langsung dan tajam.";
+  return "Rilis setelah penutupan: reaksi tampil di futures dengan likuiditas tipis.";
+}
+function ntwList() {
+  var ev = (R && R.events) || [], out = [];
+  ev.forEach(function (e) {
+    if (e.impact !== "tinggi" || !e.time_known) return;
+    var t = new Date(e.start_utc).getTime(); if (isNaN(t)) return;
+    out.push({ name: e.name, t: t, a: t - 15 * 60000, b: t + 15 * 60000, mag7: !!e.mag7 });
+  });
+  out.sort(function (x, y) { return x.a - y.a; });
+  return out;
+}
+function sessTick() {
+  var box = $("sessBox"); if (!box) return;
+  var now = Date.now(), act = activeSession(now), ml = etMilestones(now), nt = ntwList();
+  var live = nt.filter(function (n) { return now >= n.a && now <= n.b; })[0];
+  var html = '<div style="display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between"><div><div class="k" style="color:var(--muted);font-size:12px">Sesi aktif</div><div style="font-size:18px;font-weight:700">' + esc(act.n) + '</div></div><span class="liq ' + act.liq + '">Likuiditas ' + (act.liq === "tutup" ? "tutup" : act.liq) + "</span></div><p class=\"cap\">" + esc(act.note) + "</p>";
+  var nxt = nt.filter(function (n) { return n.b >= now; })[0];
+  if (live) html += '<div class="ntwbar">⛔ NO-TRADE WINDOW AKTIF: ' + esc(live.name) + " · sisa " + fmtCd(live.b - now) + " (rilis " + (live.t > now ? "dalam " + fmtCd(live.t - now) : "sudah keluar") + ")</div>";
+  else if (nxt) html += '<div class="ntwbar" style="background:var(--flat-soft);color:var(--flat);border-color:rgba(241,198,120,.4)">Window terlarang berikutnya: ' + esc(nxt.name) + " · mulai dalam " + fmtCd(nxt.a - now) + " (" + new Date(nxt.a).toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Jakarta" }).replace(".", ":") + "–" + new Date(nxt.b).toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Jakarta" }).replace(".", ":") + " WIB)</div>";
+  html += '<div class="mini">' + ml.map(function (m) { return '<div><div class="k">' + esc(m.n) + '</div><div class="v cd">' + fmtCd(m.t - now) + '</div><div class="d">' + new Date(m.t).toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Jakarta" }).replace(".", ":") + " WIB</div></div>"; }).join("") + "</div>";
+  // timeline 24 jam WIB
+  var pw = parts("Asia/Jakarta", now), d0 = Date.UTC(pw.y, pw.m - 1, pw.d, 0, 0) - 7 * 3600000, span = 86400000;
+  var X = function (t) { return Math.max(0, Math.min(100, (t - d0) / span * 100)); };
+  var tl = '<div class="tl"><div class="now" style="left:' + X(now).toFixed(2) + '%"></div><div class="nowl" style="left:' + Math.min(94, Math.max(6, X(now))).toFixed(2) + '%">sekarang</div>';
+  nt.forEach(function (n) { if (n.b > d0 && n.a < d0 + span) tl += '<div class="ntwband" title="' + esc(n.name) + '" style="left:' + X(n.a).toFixed(2) + "%;width:" + Math.max(0.6, X(n.b) - X(n.a)).toFixed(2) + '%"></div>'; });
+  var w = sessWindows(now);
+  SESS.forEach(function (s) {
+    tl += '<div class="lanelbl">' + esc(s.n) + '</div><div class="lane">';
+    w.filter(function (x) { return x.s === s && x.b > d0 && x.a < d0 + span; }).forEach(function (x) { tl += '<i title="' + esc(s.n) + '" style="left:' + X(x.a).toFixed(2) + "%;width:" + (X(x.b) - X(x.a)).toFixed(2) + "%;background:" + s.color + '"></i>'; });
+    tl += "</div>";
+  });
+  tl += '</div><div class="axis"><span>00:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>24:00</span></div><p class="cap">Garis waktu hari ini dalam WIB. Pita merah = jendela terlarang (15 menit sebelum sampai sesudah rilis Tier-1).</p>';
+  html += tl;
+  if (nt.length) html += '<div class="esec">Jadwal jendela terlarang</div>' + nt.filter(function (n) { return n.b >= now; }).slice(0, 4).map(function (n) {
+    return '<div class="ev"><div class="t">' + new Date(n.a).toLocaleString("id-ID", { weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Jakarta" }).replace(/\./g, ":") + '</div><div><b>' + esc(n.name) + '</b><div class="cap" style="margin:2px 0 0">' + esc(evNote(n.t)) + "</div></div></div>";
+  }).join("");
+  box.innerHTML = html;
+  // strip di kartu peringatan entry
+  var nb = $("ntw"); if (nb) nb.innerHTML = live ? '<div class="ntwbar">⛔ NO-TRADE WINDOW AKTIF: ' + esc(live.name) + " · sisa " + fmtCd(live.b - now) + "</div>" : "";
+}
+setInterval(sessTick, 1000);
+
+/* ===== Jurnal eksekusi (localStorage) ===== */
+var JKEY = "nq_journal_v1", MEMJ = null;
+function jLoad() { try { var s = localStorage.getItem(JKEY); return s ? JSON.parse(s) : []; } catch (e) { return MEMJ || []; } }
+function jSave(a) { MEMJ = a; try { localStorage.setItem(JKEY, JSON.stringify(a.slice(-500))); return true; } catch (e) { return false; } }
+function snapshot() {
+  if (!R || !R.verdict) return null;
+  var v = R.verdict, nq = R.market && R.market.nq_fut, E = R.entry_warnings, S = R.smc, VP = R.volume_profile, OP = R.options;
+  return {
+    id: Date.now(), at: new Date().toISOString(), generated_at: R.generated_at, session: R.session && R.session.label,
+    bias: v.bias, score10: v.score10, p_up: v.p_up, confidence: v.confidence_pct, agreement: v.agreement_pct,
+    gates: (v.gates || []).filter(function (g) { return g.active; }).map(function (g) { return g.name; }),
+    breaker: !!(v.breaker && v.breaker.active), n_kritis: E ? E.n_kritis : null, n_waspada: E ? E.n_waspada : null,
+    critical: E ? E.items.filter(function (w) { return w.when === "now" && w.sev === "kritis"; }).map(function (w) { return w.title; }).slice(0, 4) : [],
+    price: nq ? nq.last : null, zone: S ? S.zone : null, equilibrium: S ? S.equilibrium : null,
+    fvg: S ? S.gaps.slice(0, 2).map(function (g) { return g.kind + " " + g.bottom + "-" + g.top; }) : [],
+    poc: VP ? VP.poc : null, vah: VP ? VP.vah : null, val: VP ? VP.val : null,
+    call_wall: OP ? OP.call_wall_nq : null, put_wall: OP ? OP.put_wall_nq : null,
+    regime: R.regime ? R.regime.label : null, intermarket: R.intermarket ? R.intermarket.summary : null
+  };
+}
+function jPnl(e) { if (e.dir === "skip" || e.entry == null || e.exit == null) return null; return (e.dir === "long" ? 1 : -1) * (e.exit - e.entry); }
+function jStats(L) {
+  var ex = L.filter(function (e) { return e.dir !== "skip" && jPnl(e) != null; });
+  var win = ex.filter(function (e) { return jPnl(e) > 0; });
+  var al = ex.filter(function (e) { var b = /BULL/.test(e.snap.bias) ? "long" : /BEAR/.test(e.snap.bias) ? "short" : null; return b && b === e.dir; });
+  var co = ex.filter(function (e) { var b = /BULL/.test(e.snap.bias) ? "long" : /BEAR/.test(e.snap.bias) ? "short" : null; return b && b !== e.dir; });
+  var wr = function (a) { return a.length ? Math.round(a.filter(function (e) { return jPnl(e) > 0; }).length / a.length * 100) + "% (" + a.length + ")" : "–"; };
+  var wk = ex.filter(function (e) { return e.snap.n_kritis > 0; });
+  return { n: L.length, closed: ex.length, skip: L.filter(function (e) { return e.dir === "skip"; }).length, wr: ex.length ? Math.round(win.length / ex.length * 100) + "%" : "–",
+    total: ex.reduce(function (s, e) { return s + jPnl(e); }, 0), aligned: wr(al), counter: wr(co), warned: wr(wk) };
+}
+function jRender() {
+  var L = jLoad(), box = $("journalBox"); if (!box) return;
+  var st = jStats(L), h = '<p class="note">Catatan pribadi tersimpan hanya di browser ini (localStorage). Tekan <b>Log This Setup</b> saat Anda menilai setup, lalu isi harga keluar setelah selesai.</p>';
+  h += '<div class="stat4"><div>Tercatat<b>' + st.n + '</b></div><div>Win rate (ditutup)<b>' + st.wr + '</b></div><div>Total poin<b class="' + cls(st.total) + '">' + fmt(st.total, 1) + '</b></div><div>Tidak entry<b>' + st.skip + "</b></div></div>";
+  h += '<p class="cap">Win rate searah bias: <b>' + st.aligned + "</b> · melawan bias: <b>" + st.counter + "</b> · saat ada peringatan kritis: <b>" + st.warned + "</b>. Angka berarti setelah puluhan catatan.</p>";
+  h += L.length ? L.slice().reverse().slice(0, 12).map(function (e) {
+    var p = jPnl(e), t = new Date(e.at);
+    return '<div class="jrow"><b>' + (e.dir === "long" ? "LONG" : e.dir === "short" ? "SHORT" : "TIDAK ENTRY") + "</b> · " + esc(e.snap.bias) + " " + fmt(e.snap.score10) + " · " + t.toLocaleString("id-ID", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Jakarta" }).replace(".", ":") + " WIB" +
+      '<div class="cap" style="margin:2px 0">' + (e.entry != null ? "Entry " + e.entry : "") + (e.stop != null ? " · stop " + e.stop : "") + (e.tp != null ? " · target " + e.tp : "") + (e.snap.n_kritis ? " · " + e.snap.n_kritis + " peringatan kritis" : "") + (e.snap.gates.length ? " · gerbang: " + esc(e.snap.gates.join(", ")) : "") + "</div>" +
+      (e.note ? '<div class="cap" style="margin:2px 0;color:var(--ink)">“' + esc(e.note) + "”</div>" : "") +
+      (e.dir !== "skip" ? 'Keluar <input class="px" type="number" step="any" data-exit="' + e.id + '" value="' + (e.exit != null ? e.exit : "") + '" placeholder="harga keluar"> ' + (p != null ? '<b class="' + cls(p) + '">' + fmt(p, 1) + " poin</b>" : "") : "") +
+      ' <button type="button" data-del="' + e.id + '">hapus</button></div>';
+  }).join("") : '<p class="empty">Belum ada catatan.</p>';
+  h += '<div style="margin-top:10px"><button type="button" data-exp="csv">Ekspor CSV</button> <button type="button" data-exp="json">Ekspor JSON</button> <button type="button" data-clear="1">Hapus semua</button></div>';
+  box.innerHTML = h;
+}
+function jDownload(name, text, type) { var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type: type })); a.download = name; document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500); }
+function jExport(kind) {
+  var L = jLoad();
+  if (kind === "json") return jDownload("jurnal-nq.json", JSON.stringify(L, null, 1), "application/json");
+  var q = function (x) { return '"' + String(x == null ? "" : x).replace(/"/g, '""') + '"'; };
+  var rows = ["waktu,aksi,bias,skor,peluang_naik,keyakinan,harga_snapshot,entry,stop,target,keluar,poin,peringatan_kritis,gerbang,catatan"].concat(L.map(function (e) {
+    return [e.at, e.dir, e.snap.bias, e.snap.score10, e.snap.p_up, e.snap.confidence, e.snap.price, e.entry, e.stop, e.tp, e.exit, jPnl(e), e.snap.n_kritis, e.snap.gates.join("|"), e.note].map(q).join(",");
+  }));
+  jDownload("jurnal-nq.csv", rows.join("\n"), "text/csv");
+}
+function openLog() {
+  var sn = snapshot(); if (!sn) { alert("Belum ada laporan agen untuk dicatat."); return; }
+  var dlg = $("logDlg"); dlg._snap = sn;
+  $("logSnap").textContent = sn.bias + " (skor " + fmt(sn.score10) + ", naik " + Math.round(sn.p_up * 100) + "%, keyakinan " + sn.confidence + "%) · harga NQ " + (sn.price != null ? num(sn.price, 2) : "n/a") + (sn.n_kritis ? " · " + sn.n_kritis + " peringatan kritis" : "");
+  $("lgDir").value = /BEAR/.test(sn.bias) ? "short" : /BULL/.test(sn.bias) ? "long" : "skip";
+  $("lgEntry").value = sn.price != null ? sn.price : ""; $("lgStop").value = ""; $("lgTp").value = ""; $("lgNote").value = "";
+  if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", "");
+}
+function numOrNull(id) { var v = $(id).value; return v === "" || isNaN(+v) ? null : +v; }
+document.addEventListener("click", function (ev) {
+  var t = ev.target;
+  if (t.closest && t.closest("[data-log]")) { openLog(); return; }
+  if (t.id === "lgCancel") { $("logDlg").close(); return; }
+  if (t.getAttribute && t.getAttribute("data-exp")) { jExport(t.getAttribute("data-exp")); return; }
+  if (t.getAttribute && t.getAttribute("data-del")) { var id = +t.getAttribute("data-del"); jSave(jLoad().filter(function (e) { return e.id !== id; })); jRender(); return; }
+  if (t.getAttribute && t.getAttribute("data-clear")) { if (confirm("Hapus semua catatan jurnal di browser ini?")) { jSave([]); jRender(); } }
+});
+document.addEventListener("change", function (ev) {
+  var t = ev.target, id = t.getAttribute && t.getAttribute("data-exit");
+  if (id) { var L = jLoad(); L.forEach(function (e) { if (e.id === +id) e.exit = t.value === "" || isNaN(+t.value) ? null : +t.value; }); jSave(L); jRender(); }
+});
+$("logForm").addEventListener("submit", function () {
+  var dlg = $("logDlg"), sn = dlg._snap; if (!sn) return;
+  var L = jLoad(), dir = $("lgDir").value;
+  L.push({ id: sn.id, at: sn.at, dir: dir, entry: dir === "skip" ? null : numOrNull("lgEntry"), stop: numOrNull("lgStop"), tp: numOrNull("lgTp"), exit: null, note: $("lgNote").value.slice(0, 500), snap: sn });
+  if (!jSave(L)) alert("Browser menolak penyimpanan lokal (mode privat?). Catatan hanya bertahan sampai halaman ditutup.");
+  jRender();
+});
+jRender(); sessTick();
+
 async function tick() {
   var r = await load();
   if (r && (!lastGen || r.generated_at !== lastGen)) { R = r; lastGen = r.generated_at; render(); }
@@ -814,5 +1084,6 @@ await tick();
 setInterval(tick, 30000);
 })();
 </script>
+
 </body>
 </html>

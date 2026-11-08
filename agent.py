@@ -283,7 +283,7 @@ FACTOR_ORDER = ["news", "nq_fut", "es_fut", "sox", "yield", "vix", "oil", "dxy",
 
 SYMS = {"nq_fut": "NQ=F", "es_fut": "ES=F", "sox": "^SOX", "vix": "^VIX", "vxn": "^VXN",
         "yield10": "^TNX", "brent": "BZ=F", "dxy": "DX-Y.NYB", "nvda": "NVDA",
-        "irx": "^IRX", "qqqe": "QQQE", "soxx": "SOXX", "qqq_y": "QQQ"}
+        "irx": "^IRX", "fvx": "^FVX", "qqqe": "QQQE", "soxx": "SOXX", "qqq_y": "QQQ"}
 
 DEMO = [
     {"title": "Meta posts first cash outflow in a decade, plans non-voting share issue to raise capital", "source": "Reuters"},
@@ -982,6 +982,14 @@ def fetch_market(now):
         mark("nq_hourly", True)
     except Exception as e:  # noqa: BLE001
         print(f"[warn] NQ=F per jam: {e}", file=sys.stderr); mark("nq_hourly", False, e)
+    hx = {}
+    for nm, sym in (("ES", "ES=F"), ("DXY", "DX-Y.NYB"), ("TNX", "^TNX"), ("SOX", "^SOX")):
+        try:
+            hx[nm] = {r["t"]: r["c"] for r in _series(_yahoo(sym, "5d", "1h")) if r.get("c")}
+        except Exception as e:  # noqa: BLE001
+            print(f"[warn] {sym} per jam: {e}", file=sys.stderr)
+    if hx:
+        m["hourly_x"] = hx
     try:
         a = fetch_alpaca("QQQ")
         if a:
@@ -1703,7 +1711,86 @@ def _third_friday(y, m):
     return first + dt.timedelta(days=(4 - first.weekday()) % 7 + 14)
 
 
-def build_entry_warnings(now, verdict, market, levels, structure, smc, vp, options, volume, regime, brd, events, radar, ew, feeds, items):
+def _corr(a, b):
+    n = len(a)
+    if n < 20:
+        return None
+    ma, mb = sum(a) / n, sum(b) / n
+    va = sum((x - ma) ** 2 for x in a); vb = sum((y - mb) ** 2 for y in b)
+    if va <= 0 or vb <= 0:
+        return None
+    return sum((x - ma) * (y - mb) for x, y in zip(a, b)) / math.sqrt(va * vb)
+
+
+def analyze_intermarket(market):
+    """Status dan korelasi 24 jam (return per jam) NQ terhadap ES, DXY, US10Y, SOX, plus deteksi divergensi."""
+    nq, es, dx = market.get("nq_fut") or {}, market.get("es_fut") or {}, market.get("dxy") or {}
+    y10, y5 = market.get("yield10") or {}, market.get("fvx") or {}
+    ST = []
+    def st(key, tone, label, text):
+        ST.append({"key": key, "tone": tone, "label": label, "text": text})
+    d = dx.get("change_pct")
+    if d is not None:
+        if d >= 0.5:
+            st("dxy", "bear", "DXY breakout naik", f"Dolar +{abs(d):.2f}%: tekanan turun untuk NQ; sweep likuiditas sering terjadi saat DXY menembus.")
+        elif d >= 0.2:
+            st("dxy", "bear", "DXY bullish (tekanan turun untuk NQ)", f"Dolar +{d:.2f}%, menekan likuiditas dan laba multinasional.")
+        elif d <= -0.5:
+            st("dxy", "bull", "DXY breakdown turun", f"Dolar {d:.2f}%: kondisi longgar yang mendukung NQ.")
+        elif d <= -0.2:
+            st("dxy", "bull", "DXY bearish (mendukung NQ)", f"Dolar {d:.2f}%, kondisi likuiditas lebih longgar.")
+        else:
+            st("dxy", "neutral", "DXY netral", f"Dolar {d:+.2f}%, tidak memberi arah.")
+    for key, nm, q in (("us10y", "US10Y", y10), ("us5y", "US5Y (proksi US2Y)", y5)):
+        c = q.get("change_pct") if q else None
+        if c is None:
+            continue
+        if c >= 0.5:
+            st(key, "bear", f"{nm} naik tajam", f"Yield {c:+.2f}%: menekan valuasi saham teknologi berdurasi panjang.")
+        elif c <= -0.5:
+            st(key, "bull", f"{nm} turun tajam", f"Yield {c:+.2f}%: meringankan tekanan valuasi (kecuali turun karena ketakutan resesi).")
+        else:
+            st(key, "neutral", f"{nm} stabil", f"Yield {c:+.2f}%.")
+    n, e = nq.get("change_pct"), es.get("change_pct")
+    if n is not None and e is not None:
+        diff = n - e
+        if n * e < 0 and abs(n) >= 0.15 and abs(e) >= 0.15:
+            st("esnq", "warn", "ES/NQ divergence terdeteksi", f"NQ {n:+.2f}% tetapi ES {e:+.2f}%: arah berlawanan, sinyal pasar tidak solid.")
+        elif abs(diff) >= 0.4:
+            st("esnq", "warn", "NQ lebih " + ("kuat" if diff > 0 else "lemah") + " dari ES", f"Selisih {diff:+.2f} poin persen: pergerakan didorong " + ("sektor teknologi saja." if diff > 0 else "oleh luar teknologi, teknologi tertinggal."))
+        else:
+            st("esnq", "neutral", "ES dan NQ selaras", f"NQ {n:+.2f}% vs ES {e:+.2f}%.")
+    mat = []
+    hx = market.get("hourly_x") or {}
+    nqh = {b["t"]: b["c"] for b in (market.get("nq_hourly") or []) if b.get("c")}
+    def corr_with(other):
+        ts = sorted(set(nqh) & set(other))[-49:]
+        if len(ts) < 21:
+            return None, 0
+        a = [math.log(nqh[ts[i]] / nqh[ts[i - 1]]) for i in range(1, len(ts))]
+        b = [math.log(other[ts[i]] / other[ts[i - 1]]) for i in range(1, len(ts)) if other[ts[i - 1]] > 0 and other[ts[i]] > 0]
+        if len(a) != len(b):
+            return None, 0
+        return _corr(a, b), len(a)
+    for nm, label, exp in (("ES", "NQ vs ES (S&P 500)", 1), ("DXY", "NQ vs DXY", -1), ("TNX", "NQ vs US10Y", -1), ("SOX", "NQ vs SOX (semikonduktor)", 1)):
+        c, n_ = corr_with({int(k): v for k, v in (hx.get(nm) or {}).items()})
+        if c is None:
+            continue
+        broken = (c * exp) < -0.3
+        mat.append({"pair": label, "corr": round(c, 2), "expected": "positif" if exp > 0 else "negatif", "n": n_,
+                    "state": "terbalik dari biasanya" if broken else "normal" if abs(c) >= 0.2 else "lemah"})
+        if broken:
+            st("corr_" + nm.lower(), "warn", f"Korelasi {nm} terbalik", f"Biasanya {('positif' if exp > 0 else 'negatif')}, 24 jam terakhir {c:+.2f}: hubungan intermarket sedang tidak normal.")
+    headwind = (1 if (d or 0) >= 0.2 else -1 if (d or 0) <= -0.2 else 0) + (1 if (y10.get("change_pct") or 0) >= 0.5 else -1 if (y10.get("change_pct") or 0) <= -0.5 else 0)
+    summary = ("Gravitasi makro menekan NQ (dolar dan/atau yield naik)" if headwind >= 1 else
+               "Gravitasi makro mendukung NQ (dolar dan/atau yield turun)" if headwind <= -1 else "Gravitasi makro netral")
+    if not ST and not mat:
+        return None
+    return {"statuses": ST, "matrix": mat, "summary": summary, "headwind": headwind,
+            "note": "Korelasi dihitung dari return per jam 24 jam terakhir; ambang 'terbalik' = berlawanan dengan hubungan normal pada |r| > 0,3."}
+
+
+def build_entry_warnings(now, verdict, market, levels, structure, smc, vp, options, volume, regime, brd, events, radar, ew, feeds, items, inter=None):
     """Daftar peringatan sebelum entry: apa yang SEDANG terjadi dan apa yang AKAN terjadi di pasar Nasdaq."""
     W = []
     def add(when, sev, cat, title, text, action=None):
@@ -1725,10 +1812,10 @@ def build_entry_warnings(now, verdict, market, levels, structure, smc, vp, optio
         h = e.get("hours_until")
         if h is None or e.get("impact") != "tinggi":
             continue
-        if -0.5 <= h <= 0.5:
-            add("now", "kritis", "Rilis data", e["name"] + (" sedang berlangsung" if h <= 0 else " tinggal menit lagi"),
-                e["why"], "Spread melebar dan harga bisa melonjak dua arah. Hindari entry 30 menit sebelum dan sesudah rilis.")
-        elif 0.5 < h <= 3:
+        if -0.25 <= h <= 0.25:
+            add("now", "kritis", "No-trade window", e["name"] + (" baru saja dirilis" if h <= 0 else " dirilis sebentar lagi"),
+                e["why"], "Jendela terlarang: 15 menit sebelum sampai 15 menit sesudah rilis. Spread melebar dan harga melonjak dua arah.")
+        elif 0.25 < h <= 3:
             add("now", "waspada", "Rilis data", f"{e['name']} dalam {h:.1f} jam", e["why"], "Entry sekarang berisiko terguncang oleh rilis. Pertimbangkan menunggu hasilnya.")
     vix, vxn = market.get("vix"), market.get("vxn")
     if vix:
@@ -1764,6 +1851,14 @@ def build_entry_warnings(now, verdict, market, levels, structure, smc, vp, optio
     miss = [k for k in ("nasdaq", "nq_fut", "vix", "yield10", "nq_hourly") if feeds.get(k) and not feeds[k]["ok"]]
     if miss:
         add("now", "kritis" if "nq_fut" in miss else "waspada", "Data tidak lengkap", "Sumber data gagal: " + ", ".join(miss), "Skor dihitung tanpa data itu sehingga lebih tidak akurat.", "Cek harga langsung di platform Anda.")
+    if inter:
+        for stt in inter["statuses"]:
+            if stt["key"] in ("esnq",) and stt["tone"] == "warn":
+                add("now", "waspada", "Intermarket", stt["label"], stt["text"], "Tunggu ES dan NQ kembali searah sebelum entry.")
+            elif stt["key"] == "dxy" and "breakout" in stt["label"].lower() and (not structure or structure.get("sweep_low") or structure.get("sweep_high") or True):
+                add("now", "waspada", "Intermarket", stt["label"], stt["text"], "Waspadai sweep likuiditas NQ saat DXY bergerak tajam.")
+            elif stt["key"].startswith("corr_"):
+                add("now", "info", "Intermarket", stt["label"], stt["text"], None)
     if radar and abs(radar.get("overlay", 0)) >= 2:
         add("now", "waspada", "Fed", f"Nada pejabat Fed {'hawkish' if radar['overlay'] < 0 else 'dovish'} (overlay {fnum(radar['overlay'], 1, True)})", "Pernyataan Fed menggeser skor; pasar biasanya bereaksi cepat dan bisa berbalik.", None)
     if ew:
@@ -1870,8 +1965,9 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     hb = market.get("nq_hourly")
     extras = {"rates": rate_expectations(market), "breadth": breadth(market), "options": market.get("options"),
               "volume": volume_anomaly(hb), "volume_profile": volume_profile(hb), "smc": fvg_map(hb)}
+    inter = analyze_intermarket(market)
     entry = build_entry_warnings(now, verdict, market, levels, structure, extras["smc"], extras["volume_profile"], market.get("options"),
-                                 extras["volume"], regime, extras["breadth"], events, radar, ew, market.get("_feeds") or {}, items)
+                                 extras["volume"], regime, extras["breadth"], events, radar, ew, market.get("_feeds") or {}, items, inter)
     alerts = []
     if history_path:
         state = load_state(history_path)
@@ -1914,10 +2010,10 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "session": session_info(now), "verdict": verdict, "factors": factors, "reasons": make_reasons(factors),
-        "entry_warnings": entry, "regime": regime, "structure": structure, "fed_radar": radar, "cot": cot_an, "earnings_week": ew, **extras, "alerts": alerts,
+        "entry_warnings": entry, "intermarket": inter, "regime": regime, "structure": structure, "fed_radar": radar, "cot": cot_an, "earnings_week": ew, **extras, "alerts": alerts,
         "fetched_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "feeds": market.get("_feeds") or {}, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
-        "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds", "mag7_earnings", "cot_rows")}, "news_stats": ns, "items": items, "news_feed": news_feed_out(clusters), "llm_summary": None,
+        "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds", "mag7_earnings", "cot_rows", "hourly_x")}, "news_stats": ns, "items": items, "news_feed": news_feed_out(clusters), "llm_summary": None,
         "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.3f+%.3f*skor)))" % (calib["a"], calib["b"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
                         "p_up_range": [0.18, 0.82]},
     }
