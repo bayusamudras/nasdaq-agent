@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-08T07:38:32+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T07:43:32+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **41%**, turun **59%** (skor −3,2 dari ±10, keyakinan 64%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **41%**, turun **59%** (skor −3,3 dari ±10, keyakinan 64%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +1,25% dari penutupan sebelumnya (27.085,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,60): Skor rata-rata −0,47 dari 32 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,73): Skor rata-rata −0,58 dari 33 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,47 dari 32 kejadian bernilai; 43% bobot bullish | −0,40 | 30% | −0,60 |
+| Berita berbobot | skor rata-rata −0,58 dari 33 kejadian bernilai; 40% bobot bullish | −0,49 | 30% | −0,73 |
 | Futures Nasdaq-100 | +1,25% dari penutupan sebelumnya (27.085,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.402,00) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
@@ -31,6 +31,7 @@ Perkiraan pembukaan dari futures: 24.887 (+1,25%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
+- **−1,7** How to invest in AI amid AI spending worries? (Yahoo Finance Australia). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,5** Not Nvidia. Not Micron. After the Chip Sell-Off, I'd Buy This AI Stock and Hold It Forever. (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,3** Is Genius Sports (GENI) Undervalued After Its Earnings Beat And Raised Guidance? (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,3** SpaceX Stock Stays in a Bear Market After the Midterm Elections as Analysts Stay Upbeat (Benzinga). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -42,7 +43,6 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **+0,8** Earnings Beat Could Be A Big Moment For LivaNova Stock (LIVN) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,8** These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Up Amid AI Rout (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Dow Jones, S&P 500, Nasdaq: Last week’s AI stocks crash is not your garden variety correction (BusinessLine). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,6** Nvidia Stock Selloff Pushes Valuation Below Kimberly-Clark (eTeknix). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
