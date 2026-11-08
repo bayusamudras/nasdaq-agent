@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-09T06:12:00+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T06:17:00+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **32%**, turun **68%** (skor −5,7 dari ±10, keyakinan 76%, 71% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **32%**, turun **68%** (skor −5,6 dari ±10, keyakinan 76%, 71% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -13,14 +13,14 @@ Peluang indeks naik **32%**, turun **68%** (skor −5,7 dari ±10, keyakinan 76%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,20 dari 27 kejadian bernilai; 44% bobot bullish | −0,17 | 30% | −0,26 |
+| Berita berbobot | skor rata-rata −0,12 dari 28 kejadian bernilai; 47% bobot bullish | −0,10 | 30% | −0,15 |
 | Futures Nasdaq-100 | 0,00% dari penutupan sebelumnya (27.085,25) | 0,00 | 20% | 0,00 |
 | Futures S&P 500 | 0,00% dari penutupan sebelumnya (7.402,00) | 0,00 | 5% | 0,00 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $98,32 (0,00% dari sesi sebelumnya) | 0,00 | 5% | 0,00 |
-| Indeks dolar | −0,03% dari penutupan sebelumnya (102,27) | −0,07 | 5% | −0,02 |
+| Indeks dolar | −0,05% dari penutupan sebelumnya (102,25) | −0,12 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -38,9 +38,9 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **+1,4** Foreign Investors Pivot Into US Dollar Bonds, Yields Ease (MarketForces Africa). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,4** OCBC Sees US Treasury Yields At Lower Levels After Bond Rally (BusinessToday Malaysia). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,1** How sustainable is the AI investment boom after Thursday’s selloff? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,1** Fed grows more hawkish on inflation but sees room to wait on rate hikes (KRCR). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,0** Markets Are Pricing in a Fed Rate Hike in December. Here's What Investors Should Do, According to History. (Yahoo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+0,8** Arlo Stock In Focus After Earnings Beat And Subscription Growth (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−0,8** AI Spending Boom Nears Peak? Jefferies Flags Risks To Big Tech's $1 Trillion Capex (NDTV Profit). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
