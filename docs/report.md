@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-08T13:11:45+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T13:16:45+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **55%**, turun **45%** (skor +0,3 dari ±10, keyakinan 50%, 42% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -36,7 +36,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,1** Oil prices rise 1% as Iran says Hormuz to remain shut until U.S. meets demands By Investing.com (Investing.com India). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,1** Democratic sweep in U.S. midterms raises scrutiny of tariffs and AI data centers (news.lavx.hu). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** December Fed hike odds near 77% after jobs surprise, as AI selloff pressure moves into credit markets (MLQ.ai). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,1** Delek US Holdings (DK) Beats On Earnings And Guidance, Is More Upside Still Left? (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,0** Delek US Holdings (DK) Beats On Earnings And Guidance, Is More Upside Still Left? (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** Not Nvidia. Not Micron. After the Chip Sell-Off, I'd Buy This AI Stock and Hold It Forever. (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** AI slump revives Asia’s forgotten trades from China to India (The Straits Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Is Genius Sports (GENI) Undervalued After Its Earnings Beat And Raised Guidance? (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
