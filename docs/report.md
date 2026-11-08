@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-08T17:43:06+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T17:48:06+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **42%**, turun **58%** (skor −3,0 dari ±10, keyakinan 55%, 38% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **41%**, turun **59%** (skor −3,2 dari ±10, keyakinan 64%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -10,12 +10,12 @@ Peluang indeks naik **42%**, turun **58%** (skor −3,0 dari ±10, keyakinan 55%
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Indeks dolar** (+0,45): +0,72% dari penutupan sebelumnya (102,28). Dolar melemah, melonggarkan kondisi keuangan global.
+- **Berita berbobot** (−0,47): Skor rata-rata −0,37 dari 37 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,19 dari 37 kejadian bernilai; 46% bobot bullish | −0,16 | 30% | −0,24 |
+| Berita berbobot | skor rata-rata −0,37 dari 37 kejadian bernilai; 43% bobot bullish | −0,31 | 30% | −0,47 |
 | Futures Nasdaq-100 | +1,25% dari penutupan sebelumnya (27.085,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.402,00) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
@@ -32,8 +32,8 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
 - **−1,9** Markets Are Pricing in a Fed Rate Hike in December. Here's What Investors Should Do, According to History. (AOL.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **+1,7** Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed (Investor's Business Daily). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,7** Stock Market Sell-Off: 4 Ridiculously Cheap Semiconductor Stocks You Can Buy Today (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **+1,3** Why the Dollar Is Gaining as Stocks and Oil Slide? (Daily Forex). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,1** EXCLUSIVE: CD Rates Climb as Treasury Yields Fall, Squeezing Companies (Seoul Economic Daily). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,1** Oil Prices Extend Gains on Escalating Middle East Hostilities (EnergyNow.com). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,0** Liberation Day, Tariffs, US v China Open Source, OpenAI, $CRWV, TikTok | BG2｜BG2Pod (finance.biggo.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
