@@ -1,21 +1,21 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-08T13:46:55+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-08T13:51:55+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **55%**, turun **45%** (skor +0,3 dari ±10, keyakinan 50%, 42% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **55%**, turun **45%** (skor +0,2 dari ±10, keyakinan 49%, 42% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +1,25% dari penutupan sebelumnya (27.085,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,61): Skor rata-rata −0,49 dari 34 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,73): Skor rata-rata −0,59 dari 36 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,49 dari 34 kejadian bernilai; 42% bobot bullish | −0,41 | 30% | −0,61 |
+| Berita berbobot | skor rata-rata −0,59 dari 36 kejadian bernilai; 39% bobot bullish | −0,49 | 30% | −0,73 |
 | Futures Nasdaq-100 | +1,25% dari penutupan sebelumnya (27.085,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.402,00) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
@@ -33,6 +33,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 ## Berita paling berdampak
 - **+1,3** Vistra (VST) Lifts Guidance And Buyback, Is The Stock Undervalued? (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** How to invest in AI amid AI spending worries? (Yahoo Finance Australia). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,1** Oil prices rise 1% as Iran says Hormuz to remain shut until U.S. meets demands By Investing.com (Investing.com India). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,1** Democratic sweep in U.S. midterms raises scrutiny of tariffs and AI data centers (news.lavx.hu). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** December Fed hike odds near 77% after jobs surprise, as AI selloff pressure moves into credit markets (MLQ.ai). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,0** Delek US Holdings (DK) Beats On Earnings And Guidance, Is More Upside Still Left? (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -42,7 +43,6 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−0,8** US Inflation Report Becomes Next Test for Fed Rate Hike After 165,000 Jobs Added in October (CryptoRank). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,7** S&P 500 posts worst week since April 2025, led by sharp tech and chip stock declines. (Pluang). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,7** NVIDIA Q1 FY2027: Revenue $81.6B Beat, Data Center +92%, but August 26 Guidance Test Will Prove Sustainability (TradingKey). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+0,6** 10-Year Treasury Yield Slips to 4.84% Even as Fed Hike Bets Rise (24/7 Wall St.). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
