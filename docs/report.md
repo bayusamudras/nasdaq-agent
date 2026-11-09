@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T22:21:48+07:00 · sesi Senin 9 Nov (berjalan)_
+_Diperbarui 2026-11-09T22:22:48+07:00 · sesi Senin 9 Nov (berjalan)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 53%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **55%** (skor −2,1 dari ±10, keyakinan 53%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,65% dari penutupan sebelumnya (27.802,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +5,05% dari penutupan sebelumnya (9.864,63). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +2,66% dari penutupan sebelumnya (27.806,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +4,95% dari penutupan sebelumnya (9.855,50). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,68): Skor rata-rata −0,54 dari 34 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,76% dari penutupan sebelumnya (7.532,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Minyak Brent** (+0,38): $94,26 (−4,13% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures S&P 500** (+0,50): +1,78% dari penutupan sebelumnya (7.534,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Minyak Brent** (+0,38): $94,24 (−4,15% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,54 dari 34 kejadian bernilai; 40% bobot bullish | −0,45 | 30% | −0,68 |
-| Futures Nasdaq-100 | +2,65% dari penutupan sebelumnya (27.802,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,76% dari penutupan sebelumnya (7.532,25) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +5,05% dari penutupan sebelumnya (9.864,63) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,855% (−0,4 bp dari sesi sebelumnya) | +0,10 | 10% | +0,05 |
-| VIX (volatilitas) | 21,56 (−15,9% dari sesi sebelumnya); VXN (Nasdaq-100) 30,56 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $94,26 (−4,13% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,39% dari penutupan sebelumnya (101,90) | −0,97 | 5% | −0,24 |
-| Tren Nasdaq 5 sesi | −0,03% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | −0,02 | 5% | −0,01 |
+| Futures Nasdaq-100 | +2,66% dari penutupan sebelumnya (27.806,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,78% dari penutupan sebelumnya (7.534,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +4,95% dari penutupan sebelumnya (9.855,50) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
+| VIX (volatilitas) | 21,48 (−16,2% dari sesi sebelumnya); VXN (Nasdaq-100) 30,52 | 0,00 | 10% | 0,00 |
+| Minyak Brent | $94,24 (−4,15% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,40% dari penutupan sebelumnya (101,89) | −1,00 | 5% | −0,25 |
+| Tren Nasdaq 5 sesi | −0,04% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | −0,03 | 5% | −0,01 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 25.231 (+2,65%).
-Rentang wajar 1σ (VXN): 24.106 sampai 25.053.
+Perkiraan pembukaan dari futures: 25.233 (+2,66%).
+Rentang wajar 1σ (VXN): 24.107 sampai 25.052.
 
 ## Berita paling berdampak
 - **−3,0** Treasury Yields Rise on Strong Jobs Data (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
