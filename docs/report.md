@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T04:01:21+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T04:02:21+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 51%, 44% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +3,72% dari penutupan sebelumnya (28.093,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +6,96% dari penutupan sebelumnya (10.043,55). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +2,53% dari penutupan sebelumnya (7.589,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +3,75% dari penutupan sebelumnya (28.101,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +6,90% dari penutupan sebelumnya (10.038,39). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +2,56% dari penutupan sebelumnya (7.591,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Berita berbobot** (−0,41): Skor rata-rata −0,32 dari 44 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Minyak Brent** (+0,38): $92,85 (−5,56% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $92,79 (−5,62% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,32 dari 44 kejadian bernilai; 45% bobot bullish | −0,27 | 30% | −0,41 |
-| Futures Nasdaq-100 | +3,72% dari penutupan sebelumnya (28.093,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +2,53% dari penutupan sebelumnya (7.589,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +6,96% dari penutupan sebelumnya (10.043,55) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +3,75% dari penutupan sebelumnya (28.101,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +2,56% dari penutupan sebelumnya (7.591,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +6,90% dari penutupan sebelumnya (10.038,39) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
-| VIX (volatilitas) | 19,90 (−22,4% dari sesi sebelumnya); VXN (Nasdaq-100) 29,11 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $92,85 (−5,56% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 19,89 (−22,4% dari sesi sebelumnya); VXN (Nasdaq-100) 29,11 | 0,00 | 10% | 0,00 |
+| Minyak Brent | $92,79 (−5,62% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,60% dari penutupan sebelumnya (101,69) | −1,50 | 5% | −0,38 |
-| Tren Nasdaq 5 sesi | +0,43% dalam 5 sesi; 8,8% di bawah puncak 52 minggu | +0,29 | 5% | +0,07 |
+| Tren Nasdaq 5 sesi | +0,40% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,27 | 5% | +0,07 |
 
 ## Level hari ini
-Pivot 25.130; resistensi 25.498 / 25.722; support 24.906 / 24.538.
-Perkiraan pembukaan dari futures: 26.214 (+3,72%).
-Rentang wajar 1σ (VXN): 24.810 sampai 25.737.
+Pivot 25.128; resistensi 25.493 / 25.719; support 24.901 / 24.536.
+Perkiraan pembukaan dari futures: 26.213 (+3,75%).
+Rentang wajar 1σ (VXN): 24.803 sampai 25.729.
 
 ## Berita paling berdampak
 - **+2,1** Dow Rallies 600 Points as Oil Slides, Nvidia Drops on Huang Probe (JournalArta). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 24.810 sampai 25.737.
 - **−1,1** Even this blue wave probably won’t wash tariffs away (The Hill). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Treasury yields rise as CPI data tests mortgage rate outlook (Mortgage Professional America). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,1** Dow Jones Futures Rise; Nvidia Tumbles As Board Probes CEO Jensen Huang Spying Case (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,1** Constellation Energy Raises 2026 Earnings Outlook After Q3 Beat — CEO Highlights Growing Demand For Reliable Power (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,0** Constellation Energy Raises 2026 Earnings Outlook After Q3 Beat — CEO Highlights Growing Demand For Reliable Power (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
