@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T19:37:48+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T19:38:49+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 69%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -9,7 +9,7 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 69%
 - **Berita berbobot** (−1,02): Skor rata-rata −0,82 dari 30 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures Nasdaq-100** (+1,00): +0,50% dari penutupan sebelumnya (27.220,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 23,47 (−8,5% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 23,51 (−8,3% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
@@ -17,10 +17,10 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 69%
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,82 dari 30 kejadian bernilai; 35% bobot bullish | −0,68 | 30% | −1,02 |
 | Futures Nasdaq-100 | +0,50% dari penutupan sebelumnya (27.220,00) | +1,00 | 20% | +1,00 |
-| Futures S&P 500 | +0,61% dari penutupan sebelumnya (7.447,25) | +1,52 | 5% | +0,38 |
+| Futures S&P 500 | +0,59% dari penutupan sebelumnya (7.446,00) | +1,47 | 5% | +0,37 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
-| VIX (volatilitas) | 23,47 (−8,5% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
+| VIX (volatilitas) | 23,51 (−8,3% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $94,93 (−3,45% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,41% dari penutupan sebelumnya (101,88) | −1,02 | 5% | −0,26 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
@@ -33,7 +33,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 ## Berita paling berdampak
 - **−3,6** Treasury Yields Rise on Strong Jobs Data (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,9** Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−1,9** AI’s Giant Fundraisers Test the Market After Midterm Rout (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,8** AI’s Giant Fundraisers Test the Market After Midterm Rout (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,7** Oil falls as Trump signals restraint on Iran despite fresh shipping attacks (Yahoo Finance). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,6** Stock Market Today: Dow, S&P 500 Futures Rise Despite Nvidia Sell-Off Over Jensen Huang Controversy — NVDA, OXY, CEG In Focus (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Does a Hot Jobs Report Guarantee a December Rate Hike? (The Daily Upside). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
