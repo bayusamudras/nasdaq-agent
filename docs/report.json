@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-09T09:04:05+07:00",
+ "generated_at": "2026-11-09T09:05:05+07:00",
  "session": {
   "date": "2026-11-09",
   "phase": "pra-buka",
@@ -9,11 +9,11 @@
  },
  "verdict": {
   "bias": "BEARISH TIPIS",
-  "score10": -4.77,
-  "p_up": 0.354,
-  "p_down": 0.646,
-  "confidence_pct": 69,
-  "agreement_pct": 60,
+  "score10": -4.65,
+  "p_up": 0.358,
+  "p_down": 0.642,
+  "confidence_pct": 61,
+  "agreement_pct": 43,
   "factors_available": 9,
   "factors_total": 9,
   "warnings": [
@@ -22,15 +22,15 @@
   "breaker": {
    "active": false
   },
-  "base_score": 0.23,
+  "base_score": 0.35,
   "fed_overlay": -5.0,
-  "pre_gate_score": -4.77,
+  "pre_gate_score": -4.65,
   "gates": [
    {
     "key": "validator",
     "name": "Validator makro (yield dan dolar)",
     "active": false,
-    "detail": "Yield 10 tahun +0,45%, DXY −0,14%",
+    "detail": "Yield 10 tahun +0,45%, DXY −0,15%",
     "effect": null
    },
    {
@@ -42,8 +42,8 @@
    }
   ],
   "calibrated": false,
-  "avg_score": 0.099,
-  "total": -5.13,
+  "avg_score": 0.101,
+  "total": -5.11,
   "scored_items": 27
  },
  "factors": [
@@ -63,25 +63,25 @@
    "key": "nq_fut",
    "name": "Futures Nasdaq-100",
    "weight": 20,
-   "signal": 0.24,
-   "detail": "+0,12% dari penutupan sebelumnya (27.117,75)",
+   "signal": 0.36,
+   "detail": "+0,18% dari penutupan sebelumnya (27.133,25)",
    "what": "Penanda terdekat arah pembukaan sesi AS. Diperdagangkan hampir 24 jam sehingga bereaksi lebih dulu pada berita.",
    "why_bear": "Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.",
    "why_bull": "Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.",
    "note": null,
-   "contribution": 0.24
+   "contribution": 0.36
   },
   {
    "key": "es_fut",
    "name": "Futures S&P 500",
    "weight": 5,
-   "signal": 0.8,
-   "detail": "+0,32% dari penutupan sebelumnya (7.425,50)",
+   "signal": 0.85,
+   "detail": "+0,34% dari penutupan sebelumnya (7.427,25)",
    "what": "Pembanding luas. Jika S&P ikut turun, tekanan bukan hanya di teknologi.",
    "why_bear": "S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.",
    "why_bull": "S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.",
    "note": null,
-   "contribution": 0.2
+   "contribution": 0.21
   },
   {
    "key": "sox",
@@ -123,20 +123,20 @@
    "key": "oil",
    "name": "Minyak Brent",
    "weight": 5,
-   "signal": 0.54,
-   "detail": "$97,27 (−1,07% dari sesi sebelumnya)",
+   "signal": 0.51,
+   "detail": "$97,33 (−1,01% dari sesi sebelumnya)",
    "what": "Minyak mahal menaikkan inflasi dan menahan Fed melonggarkan. Minyak turun meredakan tekanan itu.",
    "why_bear": "Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.",
    "why_bull": "Minyak turun, meredakan tekanan inflasi dan suku bunga.",
    "note": null,
-   "contribution": 0.14
+   "contribution": 0.13
   },
   {
    "key": "dxy",
    "name": "Indeks dolar",
    "weight": 5,
-   "signal": -0.35,
-   "detail": "−0,14% dari penutupan sebelumnya (102,15)",
+   "signal": -0.37,
+   "detail": "−0,15% dari penutupan sebelumnya (102,15)",
    "what": "Dolar kuat mengetatkan kondisi keuangan global dan menekan laba perusahaan multinasional.",
    "why_bear": "Dolar menguat, mengetatkan kondisi keuangan dan menekan laba multinasional.",
    "why_bull": "Dolar melemah, melonggarkan kondisi keuangan global.",
@@ -174,13 +174,19 @@
    "title": "Tren Nasdaq 5 sesi",
    "text": "−3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.",
    "contribution": -0.5
+  },
+  {
+   "dir": "bullish",
+   "title": "Futures Nasdaq-100",
+   "text": "+0,18% dari penutupan sebelumnya (27.133,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.",
+   "contribution": 0.36
   }
  ],
  "entry_warnings": {
   "status": "kritis",
   "label": "Kondisi tidak ideal untuk entry sekarang",
   "n_kritis": 1,
-  "n_waspada": 3,
+  "n_waspada": 4,
   "n_next": 0,
   "items": [
    {
@@ -210,6 +216,14 @@
    {
     "when": "now",
     "sev": "waspada",
+    "cat": "Keyakinan rendah",
+    "title": "Faktor tidak sepakat (kesepakatan 43%, keyakinan 61%)",
+    "text": "Sinyal bercampur, sehingga bias lebih rapuh.",
+    "action": "Kurangi ukuran posisi atau tunggu sinyal lebih searah."
+   },
+   {
+    "when": "now",
+    "sev": "waspada",
     "cat": "Fed",
     "title": "Nada pejabat Fed hawkish (overlay −5,0)",
     "text": "Pernyataan Fed menggeser skor; pasar biasanya bereaksi cepat dan bisa berbalik.",
@@ -219,7 +233,7 @@
     "when": "now",
     "sev": "info",
     "cat": "Rentang normal",
-    "title": "Rentang gerak 1 sigma hari ini sekitar ±580 poin NQ",
+    "title": "Rentang gerak 1 sigma hari ini sekitar ±581 poin NQ",
     "text": "Sekitar 68% hari bergerak dalam rentang ini (VXN, ±2.14%).",
     "action": "Stop yang lebih sempit dari sebagian kecil rentang ini mudah tersapu."
    },
@@ -256,7 +270,7 @@
     "key": "dxy",
     "tone": "neutral",
     "label": "DXY netral",
-    "text": "Dolar -0.14%, tidak memberi arah."
+    "text": "Dolar -0.15%, tidak memberi arah."
    },
    {
     "key": "us10y",
@@ -274,7 +288,7 @@
     "key": "esnq",
     "tone": "neutral",
     "label": "ES dan NQ selaras",
-    "text": "NQ +0.12% vs ES +0.32%."
+    "text": "NQ +0.18% vs ES +0.34%."
    }
   ],
   "matrix": [
@@ -287,7 +301,7 @@
    },
    {
     "pair": "NQ vs DXY",
-    "corr": 0.19,
+    "corr": 0.18,
     "expected": "negatif",
     "n": 48,
     "state": "lemah"
@@ -327,7 +341,7 @@
     "age_h": 5.4,
     "tone": -2,
     "label": "Hawkish",
-    "weight": 0.59,
+    "weight": 0.58,
     "scored": true,
     "sources_count": 1
    },
@@ -390,7 +404,7 @@
     "title": "What Fed Chair Kevin Warsh said about AI and interest rates: 'Interest rates get in the cracks'",
     "source": "MLQ.ai",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0FsWHhZQWRaWE1DXzlGSzVKdllEZkNxWVJCdXFVWU1CbUh3cTZLdjJtYXo3OG5naUZDSkRIcHhwM0tQTnhHNzVTRkxoZ0hHbVZKaHdsYW9HOHhXcTFqMDJmTUxqSkF5Sk9RM3p3SGdsQlFiSXZsejZ0OGxscDIzQ2ltYkF1c0p1eGVhWHpFdWhSS2VJUHhXWUZ6NllVdFlpNVZPbGhXVVZ1Z1RYUkw5bDhSQQ?oc=5",
-    "age_h": 13.1,
+    "age_h": 13.2,
     "tone": 0,
     "label": "Netral",
     "weight": 0.26,
@@ -509,47 +523,47 @@
  "options": {
   "underlying": "QQQ",
   "spot": 656.1,
-  "nq_ratio": 41.332,
+  "nq_ratio": 41.355,
   "pcr_oi": 0.84,
   "pcr_vol": 1.17,
   "sentiment": "Netral",
   "call_wall": 660.0,
   "put_wall": 640.0,
   "gamma_flip": 595.0,
-  "call_wall_nq": 27279.0,
-  "put_wall_nq": 26452.0,
-  "gamma_flip_nq": 24592.0,
+  "call_wall_nq": 27295.0,
+  "put_wall_nq": 26467.0,
+  "gamma_flip_nq": 24606.0,
   "net_gex_musd": -95.5,
   "regime": "gamma negatif (memperbesar gerak)",
   "top": [
    {
     "strike": 635.0,
-    "nq": 26246.0,
+    "nq": 26261.0,
     "gex_musd": -39.8
    },
    {
     "strike": 640.0,
-    "nq": 26452.0,
+    "nq": 26467.0,
     "gex_musd": -51.2
    },
    {
     "strike": 645.0,
-    "nq": 26659.0,
+    "nq": 26674.0,
     "gex_musd": -42.5
    },
    {
     "strike": 650.0,
-    "nq": 26866.0,
+    "nq": 26881.0,
     "gex_musd": -46.1
    },
    {
     "strike": 660.0,
-    "nq": 27279.0,
+    "nq": 27295.0,
     "gex_musd": 74.2
    },
    {
     "strike": 663.0,
-    "nq": 27403.0,
+    "nq": 27419.0,
     "gex_musd": 44.2
    }
   ],
@@ -557,8 +571,8 @@
   "note": "Perkiraan dari open interest dan IV opsi QQQ (Yahoo), dipetakan ke NQ dengan rasio harga. Bukan data posisi dealer sebenarnya."
  },
  "volume": {
-  "z": -0.47,
-  "last_volume": 18138,
+  "z": -0.46,
+  "last_volume": 18437,
   "avg_volume": 45209,
   "spike": false,
   "direction": "naik",
@@ -575,6 +589,12 @@
  },
  "smc": {
   "gaps": [
+   {
+    "kind": "bullish",
+    "top": 27131.8,
+    "bottom": 27118.5,
+    "bars_ago": 0
+   },
    {
     "kind": "bearish",
     "top": 27457.5,
@@ -598,12 +618,6 @@
     "top": 28388.8,
     "bottom": 28375.2,
     "bars_ago": 35
-   },
-   {
-    "kind": "bearish",
-    "top": 28518.2,
-    "bottom": 28463.0,
-    "bars_ago": 47
    }
   ],
   "range_high": 28476.0,
@@ -611,7 +625,7 @@
   "equilibrium": 27421.2,
   "position_pct": 36,
   "zone": "discount",
-  "price": 27115.8
+  "price": 27131.8
  },
  "alerts": [
   {
@@ -755,96 +769,96 @@
    "sent": false
   }
  ],
- "fetched_at": "2026-11-09T09:04:05+07:00",
+ "fetched_at": "2026-11-09T09:05:05+07:00",
  "feeds": {
   "nasdaq": {
    "ok": true,
-   "at": "2026-11-09T09:04:06+07:00",
+   "at": "2026-11-09T09:05:06+07:00",
    "err": null
   },
   "nq_fut": {
    "ok": true,
-   "at": "2026-11-09T09:04:06+07:00",
+   "at": "2026-11-09T09:05:07+07:00",
    "err": null
   },
   "es_fut": {
    "ok": true,
-   "at": "2026-11-09T09:04:06+07:00",
+   "at": "2026-11-09T09:05:07+07:00",
    "err": null
   },
   "sox": {
    "ok": true,
-   "at": "2026-11-09T09:04:07+07:00",
+   "at": "2026-11-09T09:05:07+07:00",
    "err": null
   },
   "vix": {
    "ok": true,
-   "at": "2026-11-09T09:04:07+07:00",
+   "at": "2026-11-09T09:05:07+07:00",
    "err": null
   },
   "vxn": {
    "ok": true,
-   "at": "2026-11-09T09:04:07+07:00",
+   "at": "2026-11-09T09:05:07+07:00",
    "err": null
   },
   "yield10": {
    "ok": true,
-   "at": "2026-11-09T09:04:07+07:00",
+   "at": "2026-11-09T09:05:07+07:00",
    "err": null
   },
   "brent": {
    "ok": true,
-   "at": "2026-11-09T09:04:07+07:00",
+   "at": "2026-11-09T09:05:07+07:00",
    "err": null
   },
   "dxy": {
    "ok": true,
-   "at": "2026-11-09T09:04:07+07:00",
+   "at": "2026-11-09T09:05:08+07:00",
    "err": null
   },
   "nvda": {
    "ok": true,
-   "at": "2026-11-09T09:04:07+07:00",
+   "at": "2026-11-09T09:05:08+07:00",
    "err": null
   },
   "irx": {
    "ok": true,
-   "at": "2026-11-09T09:04:07+07:00",
+   "at": "2026-11-09T09:05:08+07:00",
    "err": null
   },
   "fvx": {
    "ok": true,
-   "at": "2026-11-09T09:04:08+07:00",
+   "at": "2026-11-09T09:05:08+07:00",
    "err": null
   },
   "qqqe": {
    "ok": true,
-   "at": "2026-11-09T09:04:08+07:00",
+   "at": "2026-11-09T09:05:08+07:00",
    "err": null
   },
   "soxx": {
    "ok": true,
-   "at": "2026-11-09T09:04:08+07:00",
+   "at": "2026-11-09T09:05:08+07:00",
    "err": null
   },
   "qqq_y": {
    "ok": true,
-   "at": "2026-11-09T09:04:08+07:00",
+   "at": "2026-11-09T09:05:09+07:00",
    "err": null
   },
   "nq_hourly": {
    "ok": true,
-   "at": "2026-11-09T09:04:08+07:00",
+   "at": "2026-11-09T09:05:09+07:00",
    "err": null
   },
   "mag7_earnings": {
    "ok": true,
-   "at": "2026-11-09T09:04:10+07:00",
+   "at": "2026-11-09T09:05:10+07:00",
    "err": null
   },
   "options": {
    "ok": true,
-   "at": "2026-11-09T09:04:11+07:00",
+   "at": "2026-11-09T09:05:11+07:00",
    "err": null
   }
  },
@@ -863,33 +877,33 @@
   "sigma_source": "VXN",
   "band_low": 24052.68,
   "band_high": 25106.18,
-  "implied_open": 24608.93,
-  "implied_open_pct": 0.12
+  "implied_open": 24623.67,
+  "implied_open_pct": 0.18
  },
  "forecast": {
-  "ref": 27117.75,
+  "ref": 27133.25,
   "ref_name": "NQ=F (MNQZ2026)",
   "sigma_pct": 2.14,
-  "p_up": 0.354,
+  "p_up": 0.358,
   "news_pts": 5.6,
-  "total_pts": -221.5,
+  "total_pts": -216.0,
   "horizons": [
    {
     "label": "Sisa sesi / 1 hari",
-    "exp_pts": -221.5,
-    "exp_pct": -0.82,
-    "target": 26896.3,
-    "low": 26316.0,
-    "high": 27476.6,
+    "exp_pts": -216.0,
+    "exp_pct": -0.8,
+    "target": 26917.2,
+    "low": 26336.6,
+    "high": 27497.9,
     "sigma_pct": 2.14
    },
    {
     "label": "5 sesi ke depan",
-    "exp_pts": -442.9,
-    "exp_pct": -1.63,
-    "target": 26674.8,
-    "low": 25377.2,
-    "high": 27972.5,
+    "exp_pts": -432.0,
+    "exp_pct": -1.59,
+    "target": 26701.2,
+    "low": 25402.9,
+    "high": 27999.6,
     "sigma_pct": 4.79
    }
   ],
@@ -926,7 +940,7 @@
    },
    {
     "title": "Palantir AMD Earnings: $2.31B, $13.38B Beats [2026]",
-    "pts": 7.9,
+    "pts": 7.8,
     "direction": "bullish",
     "horizon": "Hari reaksi dan beberapa hari"
    }
@@ -935,7 +949,7 @@
  },
  "scenarios": {
   "bull": [
-   "Futures Nasdaq-100 memangkas penurunan atau berbalik naik sebelum pembukaan AS (sekarang +0,12%).",
+   "Futures Nasdaq-100 memangkas penurunan atau berbalik naik sebelum pembukaan AS (sekarang +0,18%).",
    "Yield 10 tahun turun di bawah 4,81% bukan karena lari ke aset aman.",
    "VIX turun di bawah 17 dan tetap di sana saat sesi berjalan.",
    "Nasdaq menutup di atas pivot 24.638, lalu menguji 24.767.",
@@ -1082,7 +1096,7 @@
   "pending": {
    "date": "2026-11-09",
    "bias": "BEARISH TIPIS",
-   "p_up": 0.354
+   "p_up": 0.358
   },
   "metrics": {
    "n_trades": 4,
@@ -1197,7 +1211,7 @@
      "brier_naive": 0.24
     }
    ],
-   "updated_at": "2026-11-09T09:04+07:00"
+   "updated_at": "2026-11-09T09:05+07:00"
   }
  },
  "market": {
@@ -1451,19 +1465,19 @@
    ]
   },
   "nq_fut": {
-   "last": 27117.75,
+   "last": 27133.25,
    "prev": 27085.25,
-   "change_pct": 0.12,
-   "change5_pct": -3.59,
+   "change_pct": 0.18,
+   "change5_pct": -3.53,
    "contract": "NQ=F (MNQZ2026)",
    "tv": "CME_MINI:MNQZ2026",
    "expiry": "2026-12-18"
   },
   "es_fut": {
-   "last": 7425.5,
+   "last": 7427.25,
    "prev": 7402.0,
-   "change_pct": 0.32,
-   "change5_pct": -1.97
+   "change_pct": 0.34,
+   "change5_pct": -1.94
   },
   "sox": {
    "last": 9390.25,
@@ -1492,16 +1506,16 @@
    "change5_bps": -7.0
   },
   "brent": {
-   "last": 97.27,
+   "last": 97.33,
    "prev": 98.32,
-   "change_pct": -1.07,
-   "change5_pct": -7.16
+   "change_pct": -1.01,
+   "change5_pct": -7.1
   },
   "dxy": {
-   "last": 102.154,
+   "last": 102.151,
    "prev": 102.3,
-   "change_pct": -0.14,
-   "change5_pct": 0.4
+   "change_pct": -0.15,
+   "change5_pct": 0.39
   },
   "nvda": {
    "last": 186.64,
@@ -1541,7 +1555,7 @@
   }
  },
  "news_stats": {
-  "avg": 0.099,
+  "avg": 0.101,
   "n_scored": 27,
   "n_total": 133,
   "bull_share": 0.516
@@ -1554,7 +1568,7 @@
    "published": "2026-11-08T20:41+00:00",
    "age_h": 5.4,
    "score": -3.0,
-   "weighted": -1.76,
+   "weighted": -1.75,
    "direction": "bearish",
    "strength": "kuat",
    "theme": "Fed dan yield",
@@ -1678,7 +1692,7 @@
    "published": "2026-11-08T22:20+00:00",
    "age_h": 3.7,
    "score": -2.8,
-   "weighted": -1.41,
+   "weighted": -1.4,
    "direction": "bearish",
    "strength": "sedang",
    "theme": "Semikonduktor",
@@ -1755,7 +1769,7 @@
    "published": "2026-11-08T21:36+00:00",
    "age_h": 4.5,
    "score": 2.8,
-   "weighted": 1.34,
+   "weighted": 1.33,
    "direction": "bullish",
    "strength": "sedang",
    "theme": "Semikonduktor",
@@ -1831,7 +1845,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcUw2SUwzSnluRG44dlExUlpaY0czc3hJa0VvT0NJTWhILWJ3R0gwX01tanZraWFOai1tclFDcmp5WEh6NDhKakhHN181bW5oYUJkTXlhZFVtWXUybXhjd29JNnBuVTZVd0JCYXExeEU3TjVaYlBYTlFlUWh3NjVDa19nbmd4Wkxnb0h4QTE1SXp5cnF3Q2x1QnRqR0dnSFNiUmpsSkozaktlZw?oc=5",
    "source": "BusinessToday Malaysia",
    "published": "2026-11-08T14:13+00:00",
-   "age_h": 11.8,
+   "age_h": 11.9,
    "score": 3.9,
    "weighted": 1.11,
    "direction": "bullish",
@@ -2079,7 +2093,7 @@
    "published": "2026-11-08T13:10+00:00",
    "age_h": 12.9,
    "score": 2.0,
-   "weighted": 0.7,
+   "weighted": 0.69,
    "direction": "bullish",
    "strength": "sedang",
    "theme": "Earnings Big Tech",
@@ -2107,44 +2121,6 @@
    "why": "Earnings atau panduan kuat",
    "tags": [
     "Earnings atau panduan kuat"
-   ],
-   "theme_v1": null
-  },
-  {
-   "title": "Stock Market Sell-Off: 4 Ridiculously Cheap Semiconductor Stocks You Can Buy Today",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcnAxMmV0akZpWW5XaXBHdDdGX0xzdHBELTRDaGU4TmQxMDRZb1l3b2xfUENGLWFoemZGSEo0aHBJT2l2eE9TY3RUNEVLbWJiTHgyRF9tM3dHWGgxejROaVcxeEdYMGtLS3hsS29GSXFoeUFFVE0xelFiS2twNGlzT1dKR3g5c0VZTmVLS0hfY05xUHZTRVJreEdoQkpqSy1DUHcwdWUzRmVFOW1EVW0xd0JVMHFxX0xjd1d2R2h6LW1FdnFNRW5PSElVcHZETWxtWWpZcjU0bnRkRV9CWnotdHE1TnN6T0hha29xa3VOVFQ0ampVZW1J?oc=5",
-   "source": "The Globe and Mail",
-   "published": "2026-11-08T10:28+00:00",
-   "age_h": 15.6,
-   "score": -2.8,
-   "weighted": -0.62,
-   "direction": "bearish",
-   "strength": "sedang",
-   "theme": "Semikonduktor",
-   "fed_speak": false,
-   "sources_count": 1,
-   "sources": [
-    "The Globe and Mail"
-   ],
-   "labels": [
-    "Aksi jual besar"
-   ],
-   "impacts": [
-    {
-     "label": "Aksi jual besar",
-     "direction": "bearish",
-     "why": "Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah."
-    }
-   ],
-   "who": [
-    "QQQ"
-   ],
-   "horizon": "1 sampai 3 hari",
-   "small": true,
-   "small_note": "Hanya satu sumber non-utama yang memuat pola berdampak kuat ini. Bisa jadi sinyal dini, tetapi belum terkonfirmasi, jadi bobotnya diturunkan.",
-   "why": "Aksi jual besar",
-   "tags": [
-    "Aksi jual besar"
    ],
    "theme_v1": null
   },
@@ -2269,6 +2245,44 @@
    "theme_v1": null
   },
   {
+   "title": "Stock Market Sell-Off: 4 Ridiculously Cheap Semiconductor Stocks You Can Buy Today",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY0VtQlFCRWZiTkdsRldZbE82M29JNlVzRnBhZ0F5bXlnNWQwM3ZURFJFaDNwMHg2aHdpZXZyQ1dCa3N0UXFuYjV2czBjOGZ0bWowNEh1WEtzYldNbWxkV0h2cFg3dGRFY3JpNUl6akg2d0Y3N3NhWWFZYkd0d2lPcmZfeDJ2SURiXzZVVVVOOFZ2NER6Ti1KeGtSQzVtTGZvSVVNWV90eUZ3T0JNTU1QekNld0xCcGhReWZrRXllSGF1UQ?oc=5",
+   "source": "The Motley Fool",
+   "published": "2026-11-08T10:00+00:00",
+   "age_h": 16.1,
+   "score": -2.8,
+   "weighted": -0.6,
+   "direction": "bearish",
+   "strength": "sedang",
+   "theme": "Semikonduktor",
+   "fed_speak": false,
+   "sources_count": 1,
+   "sources": [
+    "The Motley Fool"
+   ],
+   "labels": [
+    "Aksi jual besar"
+   ],
+   "impacts": [
+    {
+     "label": "Aksi jual besar",
+     "direction": "bearish",
+     "why": "Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah."
+    }
+   ],
+   "who": [
+    "QQQ"
+   ],
+   "horizon": "1 sampai 3 hari",
+   "small": true,
+   "small_note": "Hanya satu sumber non-utama yang memuat pola berdampak kuat ini. Bisa jadi sinyal dini, tetapi belum terkonfirmasi, jadi bobotnya diturunkan.",
+   "why": "Aksi jual besar",
+   "tags": [
+    "Aksi jual besar"
+   ],
+   "theme_v1": null
+  },
+  {
    "title": "Prediction: A Stock Market Crash Is Coming. Here's What Dividend Investors Should Do Based on Warren Buffett's Advice",
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNY0lIV2Z3enNrdG9KaGNJQVZrbkhXRE5sTWw0bDRkSzBWckNCYUd5VDZ0ZmZ3RER1TDU0NDBSaGhPWkQxNC1qTm54bll5Zm5YRTJ2NGZVS3FpX0hnMWpZZVhVeFVLcWotWGpBOFg5TGVGREw2Y0ZXZ1MxWU1rTTM1bU15VFlyZEpxVjExSVhFMGtVemIzN2ZXZS1SWDRQT2xJZi1LZG9QaHNBYUFYM2JYVXh2LVBxQ3M3dWlrMmxQR01XUHI1S0M1dHZrdG1Wd3A3MlhoNFR0dFQtamVBVF9NTjRXXzJUaURGbmV0N0VXTQ?oc=5",
    "source": "The Motley Fool",
@@ -2388,7 +2402,7 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdGJsMkxiS1pYSUUyZkIweVhiYnN0T0M1YUlNNU9KUERpRGhsTm42M0tkalVKNExjR1lLY0VzOWZoVlk4TGtiWGNwUXZLMy00Z2VmdVFPOVdlYmxVU0RqaHdJVWFIMjVJN2NhRkE4VkVFV01Ea0MxeElsemJBVFo2RUFjRlBnbXNIT04xWnFETUJIb2F4VEJFQUg1aGdQa2VZSnp3NGE1akhfdmdTblFuZGkzbnI?oc=5",
    "source": "Daily Forex",
    "published": "2026-11-08T11:55+00:00",
-   "age_h": 14.1,
+   "age_h": 14.2,
    "score": 2.0,
    "weighted": 0.49,
    "direction": "bullish",
@@ -2427,7 +2441,7 @@
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQkhhUjAwdlB6ckdSaEtIT2Q4ODRtdU1aeXZuVy1KZzF4SmZYdVh4RUh2eVl1em5oRURJMVgwcEp3SFJfU25ZU1o2OW9lS1FVQVVaalZwdGJOVlU1eTdoZ2RoV0gtb0VweEpoN0ZYU2NCX21MYTF2M2lESnM1WEJhWHc2VVhpR20yaEtHbFpraVoyMnF6VElF?oc=5",
    "source": "EnergyNow.com",
    "published": "2026-11-08T08:07+00:00",
-   "age_h": 17.9,
+   "age_h": 18.0,
    "score": -2.0,
    "weighted": -0.37,
    "direction": "bearish",
@@ -2553,7 +2567,7 @@
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnNGEzZ0dPTmxDVXpobVNNaDJra0RzZWMzYVlBQ2JqNG56VFZBRWpXV1ZuTUJfdXhQZmhJZWg4Sk1qM1MzQVZEeXNZZm0xLXJxalpteWxrSFJYR091NzZj?oc=5",
    "source": "finance.biggo.com",
    "published": "2026-11-08T06:55+00:00",
-   "age_h": 19.1,
+   "age_h": 19.2,
    "score": -2.0,
    "weighted": -0.34,
    "direction": "bearish",
@@ -2595,7 +2609,7 @@
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRy15YUhOYk9FVk9XOG45RlVwcEFEZG1KWDNRbkpCcFRXMW00ODlvbDU4T1NwMDhIa1RQU0wyTmZON2t4cTdBWk1JbGpzU0pHcl96bHcxSHZRMUY5ZTFmeVE0bG9wS05lakkwTHdGa19JX3RYYVlRaHpOaGxyZ2g5dnRqRFpjb3lTY2NIRDMxaGdJTUlWX0JxbS1NTnU0QkFPd0JyWl9fUlZtQ0J4T1Vnbg?oc=5",
    "source": "scanx.trade",
    "published": "2026-11-08T05:49+00:00",
-   "age_h": 20.2,
+   "age_h": 20.3,
    "score": 2.0,
    "weighted": 0.32,
    "direction": "bullish",
@@ -2714,7 +2728,7 @@
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeGNPRkY0N1hQTEQ0WHl2TWpwLS1XLVQ4dE50cEswMnpBTVNNTVkwME9sQkJ2VzhjWWl3ZmM5Z0hTd1NZYUJMMEdlVmcxS0FPWGtzWUFlRFk5a04xbDd4dlVZQjR2bWVYLUNoVl9CbW9tSl81M01pVzNlbWN3R1dmS084Z3IzSUMycGtkcnFTaFFrSXU4bnl5SkRObGFqMWdJR19Ya0RuRkNtUkNkb2dEc3ZSOERMckNEclhjdzc2ZzRzVDBNWkswNzROQUNuUVZIRW13U0ZhSVhLYmRPV1lwMjI4eVVwZk93OGJadUtxeTBVeV9aUWxZeA?oc=5",
    "source": "ad-hoc-news.de",
    "published": "2026-11-08T06:01+00:00",
-   "age_h": 20.0,
+   "age_h": 20.1,
    "score": 1.4,
    "weighted": 0.23,
    "direction": "bullish",
@@ -2792,7 +2806,7 @@
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeXd2Mmt0dmhjS2RzNHh4QjREN20zMEJpN3FJMkFLckZHOWZ2YWdkeFJjVFp5UFZBYkJLYVdZS2pOTF9aNTJ6ei1tZExTWkRTbGVMRU15SXo5a20wTVNzclJ3WWM0NHVPeEJWWnB3LWpIb1pQamtmYkFUSnlVcEhzTERCeTFXeW9jMHVYOUJ6RkoxVXVYckZwcjBoaHpCbmVtXzdISXhRR0dnNjlUT3dDNXlnSQ?oc=5",
    "source": "TIKR.com",
    "published": "2026-11-08T04:07+00:00",
-   "age_h": 21.9,
+   "age_h": 22.0,
    "score": 1.0,
    "weighted": 0.14,
    "direction": "bullish",
@@ -2830,7 +2844,7 @@
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR1JWME4tcFN3Vlh6UlhVeEN3c2FlRUFkUWRrczJ6OUZ1QWRkRndtMy1nZFhBaU5Lc0dzaXU2ZjJnNUtwN2RSa3dyLXlwUV9QanZmaC1Wb2xhbUVZekZhaXdXZkpSazFDVnJqZWIweWtvdGczQi0xTnB1aEhiSy00aVFsMWdYaE1sRkN3NlU2YmVJdzhv?oc=5",
    "source": "Bloomberg",
    "published": "2026-11-09T01:44+00:00",
-   "age_h": 0.3,
+   "age_h": 0.4,
    "score": 0.0,
    "weighted": 0.0,
    "direction": "netral",
@@ -2964,7 +2978,7 @@
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MS0Vld1VORGpHbjJoelFPZE11OWZ5TnBtMHo1Sk5QZXZuZzBoNGVIQWM2aDByNW1DQ05CVWg3QUFmUTdleXAyTWE1OGloS0FYV3MwbmE3SVJNdmVHaGZELU92YXVyeEhrQkY5QmlyX1dwQllBSXNyZWgxWQ?oc=5",
    "source": "Barron's",
    "published": "2026-11-08T19:44+00:00",
-   "age_h": 6.3,
+   "age_h": 6.4,
    "score": 0.0,
    "weighted": 0.0,
    "direction": "netral",
@@ -4424,21 +4438,6 @@
    "fed": true
   },
   {
-   "title": "Stock Market Sell-Off: 4 Ridiculously Cheap Semiconductor Stocks You Can Buy Today",
-   "source": "The Globe and Mail",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcnAxMmV0akZpWW5XaXBHdDdGX0xzdHBELTRDaGU4TmQxMDRZb1l3b2xfUENGLWFoemZGSEo0aHBJT2l2eE9TY3RUNEVLbWJiTHgyRF9tM3dHWGgxejROaVcxeEdYMGtLS3hsS29GSXFoeUFFVE0xelFiS2twNGlzT1dKR3g5c0VZTmVLS0hfY05xUHZTRVJreEdoQkpqSy1DUHcwdWUzRmVFOW1EVW0xd0JVMHFxX0xjd1d2R2h6LW1FdnFNRW5PSElVcHZETWxtWWpZcjU0bnRkRV9CWnotdHE1TnN6T0hha29xa3VOVFQ0ampVZW1J?oc=5",
-   "published": "2026-11-08T10:28+00:00",
-   "score": -2.8,
-   "direction": "bearish",
-   "sources": [
-    "The Globe and Mail"
-   ],
-   "theme": "Semikonduktor",
-   "label": "Aksi jual besar",
-   "why": "Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.",
-   "fed": false
-  },
-  {
    "title": "Nvidia (NASDAQ:NVDA) Reportedly Pushes TSMC Into 3D DRAM: What It Means for Micron Stock",
    "source": "Stocks Down Under",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11Y1ZZUmI1bVNPbXhsVWp4ZW13Rm1NaWdKaEpvbERlMUo3aFFNOXMzRXMyZEwwOXBIdjkzVE95Tm5HaFlTY0NrZnJwcmZvTzZwb01aYnRQUWhHTjh3b2dValJEbmJVQm5jLVo0S1dR?oc=5",
@@ -4481,6 +4480,21 @@
    "theme": "Fed dan yield",
    "label": null,
    "why": null,
+   "fed": false
+  },
+  {
+   "title": "Stock Market Sell-Off: 4 Ridiculously Cheap Semiconductor Stocks You Can Buy Today",
+   "source": "The Motley Fool",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY0VtQlFCRWZiTkdsRldZbE82M29JNlVzRnBhZ0F5bXlnNWQwM3ZURFJFaDNwMHg2aHdpZXZyQ1dCa3N0UXFuYjV2czBjOGZ0bWowNEh1WEtzYldNbWxkV0h2cFg3dGRFY3JpNUl6akg2d0Y3N3NhWWFZYkd0d2lPcmZfeDJ2SURiXzZVVVVOOFZ2NER6Ti1KeGtSQzVtTGZvSVVNWV90eUZ3T0JNTU1QekNld0xCcGhReWZrRXllSGF1UQ?oc=5",
+   "published": "2026-11-08T10:00+00:00",
+   "score": -2.8,
+   "direction": "bearish",
+   "sources": [
+    "The Motley Fool"
+   ],
+   "theme": "Semikonduktor",
+   "label": "Aksi jual besar",
+   "why": "Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.",
    "fed": false
   },
   {
