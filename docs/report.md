@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T11:00:44+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T11:01:44+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 69%, 63% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,18): +0,59% dari penutupan sebelumnya (27.244,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,16): +0,58% dari penutupan sebelumnya (27.243,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -16,8 +16,8 @@ Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 69%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,38 dari 30 kejadian bernilai; 43% bobot bullish | −0,32 | 30% | −0,48 |
-| Futures Nasdaq-100 | +0,59% dari penutupan sebelumnya (27.244,50) | +1,18 | 20% | +1,18 |
-| Futures S&P 500 | +0,61% dari penutupan sebelumnya (7.447,25) | +1,52 | 5% | +0,38 |
+| Futures Nasdaq-100 | +0,58% dari penutupan sebelumnya (27.243,25) | +1,16 | 20% | +1,16 |
+| Futures S&P 500 | +0,60% dari penutupan sebelumnya (7.446,50) | +1,50 | 5% | +0,38 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
@@ -27,7 +27,7 @@ Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 69%
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.724 (+0,59%).
+Perkiraan pembukaan dari futures: 24.722 (+0,58%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
