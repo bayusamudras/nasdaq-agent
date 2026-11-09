@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-09T13:47:42+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T13:48:42+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 79%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **32%**, turun **68%** (skor −5,8 dari ±10, keyakinan 78%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -15,23 +15,23 @@ Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 79%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,60 dari 30 kejadian bernilai; 39% bobot bullish | −0,50 | 30% | −0,75 |
-| Futures Nasdaq-100 | −0,08% dari penutupan sebelumnya (27.063,50) | −0,16 | 20% | −0,16 |
-| Futures S&P 500 | +0,35% dari penutupan sebelumnya (7.428,00) | +0,87 | 5% | +0,22 |
+| Futures Nasdaq-100 | 0,00% dari penutupan sebelumnya (27.085,25) | 0,00 | 20% | 0,00 |
+| Futures S&P 500 | +0,40% dari penutupan sebelumnya (7.431,50) | +1,00 | 5% | +0,25 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $96,72 (−1,63% dari sesi sebelumnya) | +0,81 | 5% | +0,20 |
-| Indeks dolar | −0,23% dari penutupan sebelumnya (102,07) | −0,57 | 5% | −0,14 |
+| Minyak Brent | $96,65 (−1,70% dari sesi sebelumnya) | +0,85 | 5% | +0,21 |
+| Indeks dolar | −0,22% dari penutupan sebelumnya (102,07) | −0,55 | 5% | −0,14 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.560 (−0,08%).
+Perkiraan pembukaan dari futures: 24.579 (0,00%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
 - **−2,6** Does a Hot Jobs Report Guarantee a December Rate Hike? (The Daily Upside). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−2,1** AI Stocks Tumble but the Dollar Stands Firm: Barclays Flags Three Cracks in the Capex Story (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−2,0** AI Stocks Tumble but the Dollar Stands Firm: Barclays Flags Three Cracks in the Capex Story (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,8** Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** 3 Super Growth Stocks to Buy Hand Over Fist If the Stock Market Crashes (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** 3 Stocks Riding The Export Control Boom In AI Hardware (Simply Wall St). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
