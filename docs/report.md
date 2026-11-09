@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T08:17:41+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T08:18:42+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **35%**, turun **65%** (skor −4,8 dari ±10, keyakinan 67%, 56% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,6 dari ±10, keyakinan 66%, 56% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -9,23 +9,24 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,8 dari ±10, keyakinan 67%
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Berita berbobot** (+0,33): Skor rata-rata +0,27 dari 27 kejadian bernilai; 57% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,11 dari 25 kejadian bernilai; 53% bobot bullish | +0,09 | 30% | +0,13 |
-| Futures Nasdaq-100 | +0,12% dari penutupan sebelumnya (27.118,50) | +0,24 | 20% | +0,24 |
-| Futures S&P 500 | +0,27% dari penutupan sebelumnya (7.422,00) | +0,68 | 5% | +0,17 |
+| Berita berbobot | skor rata-rata +0,27 dari 27 kejadian bernilai; 57% bobot bullish | +0,22 | 30% | +0,33 |
+| Futures Nasdaq-100 | +0,11% dari penutupan sebelumnya (27.114,75) | +0,22 | 20% | +0,22 |
+| Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.421,25) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $97,44 (−0,90% dari sesi sebelumnya) | +0,45 | 5% | +0,11 |
+| Minyak Brent | $97,40 (−0,94% dari sesi sebelumnya) | +0,47 | 5% | +0,12 |
 | Indeks dolar | −0,08% dari penutupan sebelumnya (102,22) | −0,20 | 5% | −0,05 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.609 (+0,12%).
+Perkiraan pembukaan dari futures: 24.606 (+0,11%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
@@ -35,12 +36,12 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,5** This Semiconductor ETF Just Had Its Worst Day Since March 2020 (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,5** CD Rates Climb as Bond Yields Fall, Squeezing Small Firms (Seoul Economic Daily). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,4** Palantir AMD Earnings: $2.31B, $13.38B Beats [2026] (https://tech-insider.org/). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,3** Oil Falls on Open as Trump Says Fresh Iran Attacks Unlikely (Deccan Chronicle). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,2** Brent falls 64 cents on November 9 as Trump calls new Iran strikes unlikely if talks progress (Nation Thailand). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,2** OCBC Sees US Treasury Yields At Lower Levels After Bond Rally (BusinessToday Malaysia). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,1** US jobs report: Does America’s new jobs era point to a December rate hike? (Sharecafe). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** How sustainable is the AI investment boom after Thursday’s selloff? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Fed grows more hawkish on inflation but sees room to wait on rate hikes (KRCR). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−0,9** Markets Are Pricing in a Fed Rate Hike in December. Here's What Investors Should Do, According to History. (Yahoo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
