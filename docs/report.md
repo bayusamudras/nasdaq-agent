@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T16:39:46+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T16:40:46+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 69%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -8,20 +8,20 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 69%
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,69): Skor rata-rata −0,55 dari 23 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 24,51 (−4,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 24,55 (−4,2% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,55 dari 23 kejadian bernilai; 41% bobot bullish | −0,46 | 30% | −0,69 |
-| Futures Nasdaq-100 | −0,08% dari penutupan sebelumnya (27.063,25) | −0,16 | 20% | −0,16 |
-| Futures S&P 500 | +0,21% dari penutupan sebelumnya (7.417,50) | +0,52 | 5% | +0,13 |
+| Futures Nasdaq-100 | −0,08% dari penutupan sebelumnya (27.064,00) | −0,16 | 20% | −0,16 |
+| Futures S&P 500 | +0,22% dari penutupan sebelumnya (7.418,00) | +0,55 | 5% | +0,14 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
-| VIX (volatilitas) | 24,51 (−4,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $97,13 (−1,21% dari sesi sebelumnya) | +0,60 | 5% | +0,15 |
-| Indeks dolar | −0,43% dari penutupan sebelumnya (101,86) | −1,07 | 5% | −0,27 |
+| VIX (volatilitas) | 24,55 (−4,2% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $97,10 (−1,24% dari sesi sebelumnya) | +0,62 | 5% | +0,15 |
+| Indeks dolar | −0,41% dari penutupan sebelumnya (101,88) | −1,02 | 5% | −0,26 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **+1,1** Oil prices drop as Trump rules out fresh Iran strikes for now (Latest news from Azerbaijan). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,1** China extends 24% US tariff suspension, but Section 301 threat clouds trade truce (digitimes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,0** 3 Stocks Riding The Export Control Boom In AI Hardware (Simply Wall St). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,0** CoreWeave Bond Yield Tops 16%, Sounding Alarm on AI Data Center Debt Risk (BigGo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−0,9** CoreWeave Bond Yield Tops 16%, Sounding Alarm on AI Data Center Debt Risk (BigGo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
