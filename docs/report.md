@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T04:53:33+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T04:54:33+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
 Peluang indeks naik **45%**, turun **55%** (skor −2,2 dari ±10, keyakinan 53%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +3,46% dari penutupan sebelumnya (28.023,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +3,45% dari penutupan sebelumnya (28.020,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,69): Skor rata-rata −0,55 dari 43 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +2,36% dari penutupan sebelumnya (7.577,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Minyak Brent** (+0,38): $92,51 (−5,91% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures S&P 500** (+0,50): +2,36% dari penutupan sebelumnya (7.576,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Minyak Brent** (+0,38): $92,45 (−5,97% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,55 dari 43 kejadian bernilai; 42% bobot bullish | −0,46 | 30% | −0,69 |
-| Futures Nasdaq-100 | +3,46% dari penutupan sebelumnya (28.023,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +2,36% dari penutupan sebelumnya (7.577,00) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +3,45% dari penutupan sebelumnya (28.020,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +2,36% dari penutupan sebelumnya (7.576,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
 | VIX (volatilitas) | 19,92 (−22,3% dari sesi sebelumnya); VXN (Nasdaq-100) 29,11 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $92,51 (−5,91% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,61% dari penutupan sebelumnya (101,68) | −1,52 | 5% | −0,38 |
+| Minyak Brent | $92,45 (−5,97% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,60% dari penutupan sebelumnya (101,69) | −1,50 | 5% | −0,38 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 26.127 (+3,46%).
+Perkiraan pembukaan dari futures: 26.124 (+3,45%).
 Rentang wajar 1σ (VXN): 24.790 sampai 25.716.
 
 ## Berita paling berdampak
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 24.790 sampai 25.716.
 - **−1,6** Fed Rate Hike Odds Near 80% Raise the Stakes for U.S. CPI Data (StoneX). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,5** U.S. 3-year Treasury auction draws weak demand amid yield decline (Investing.com). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,2** Stock Market Today: S&P 500 Surges 2.35% to 7,549.94 and Nasdaq Jumps 2.74% as Oil Falls and VIX Drops (JournalArta). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−1,2** CoreWeave Stock Drops (CRWV) as Bond Yields Top 16% as Debt and Texas Data Center Risks Mount Ahead of Earnings (TipRanks). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,1** CoreWeave Stock Drops (CRWV) as Bond Yields Top 16% as Debt and Texas Data Center Risks Mount Ahead of Earnings (TipRanks). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,0** Even this blue wave probably won’t wash tariffs away (The Hill). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
