@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-09T09:00:05+07:00",
+ "generated_at": "2026-11-09T09:01:05+07:00",
  "session": {
   "date": "2026-11-09",
   "phase": "pra-buka",
@@ -9,10 +9,10 @@
  },
  "verdict": {
   "bias": "BEARISH TIPIS",
-  "score10": -4.62,
-  "p_up": 0.359,
-  "p_down": 0.641,
-  "confidence_pct": 61,
+  "score10": -4.36,
+  "p_up": 0.369,
+  "p_down": 0.631,
+  "confidence_pct": 60,
   "agreement_pct": 43,
   "factors_available": 9,
   "factors_total": 9,
@@ -22,9 +22,9 @@
   "breaker": {
    "active": false
   },
-  "base_score": 0.38,
+  "base_score": 0.64,
   "fed_overlay": -5.0,
-  "pre_gate_score": -4.62,
+  "pre_gate_score": -4.36,
   "gates": [
    {
     "key": "validator",
@@ -42,29 +42,29 @@
    }
   ],
   "calibrated": false,
-  "avg_score": 0.101,
-  "total": -5.13,
-  "scored_items": 27
+  "avg_score": 0.275,
+  "total": -3.34,
+  "scored_items": 29
  },
  "factors": [
   {
    "key": "news",
    "name": "Berita berbobot",
    "weight": 30,
-   "signal": 0.08,
-   "detail": "skor rata-rata +0,10 dari 27 kejadian bernilai; 52% bobot bullish",
+   "signal": 0.23,
+   "detail": "skor rata-rata +0,28 dari 29 kejadian bernilai; 57% bobot bullish",
    "what": "Skor rata-rata berita yang sudah digabung per kejadian, dibobot kredibilitas sumber dan kesegaran. Menangkap katalis yang belum tercermin penuh di harga.",
    "why_bear": "Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.",
    "why_bull": "Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.",
    "note": null,
-   "contribution": 0.12
+   "contribution": 0.35
   },
   {
    "key": "nq_fut",
    "name": "Futures Nasdaq-100",
    "weight": 20,
    "signal": 0.4,
-   "detail": "+0,20% dari penutupan sebelumnya (27.138,25)",
+   "detail": "+0,20% dari penutupan sebelumnya (27.139,00)",
    "what": "Penanda terdekat arah pembukaan sesi AS. Diperdagangkan hampir 24 jam sehingga bereaksi lebih dulu pada berita.",
    "why_bear": "Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.",
    "why_bull": "Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.",
@@ -75,13 +75,13 @@
    "key": "es_fut",
    "name": "Futures S&P 500",
    "weight": 5,
-   "signal": 0.85,
-   "detail": "+0,34% dari penutupan sebelumnya (7.427,25)",
+   "signal": 0.87,
+   "detail": "+0,35% dari penutupan sebelumnya (7.428,00)",
    "what": "Pembanding luas. Jika S&P ikut turun, tekanan bukan hanya di teknologi.",
    "why_bear": "S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.",
    "why_bull": "S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.",
    "note": null,
-   "contribution": 0.21
+   "contribution": 0.22
   },
   {
    "key": "sox",
@@ -123,20 +123,20 @@
    "key": "oil",
    "name": "Minyak Brent",
    "weight": 5,
-   "signal": 0.39,
-   "detail": "$97,55 (−0,78% dari sesi sebelumnya)",
+   "signal": 0.5,
+   "detail": "$97,34 (−1,00% dari sesi sebelumnya)",
    "what": "Minyak mahal menaikkan inflasi dan menahan Fed melonggarkan. Minyak turun meredakan tekanan itu.",
    "why_bear": "Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.",
    "why_bull": "Minyak turun, meredakan tekanan inflasi dan suku bunga.",
    "note": null,
-   "contribution": 0.1
+   "contribution": 0.12
   },
   {
    "key": "dxy",
    "name": "Indeks dolar",
    "weight": 5,
    "signal": -0.3,
-   "detail": "−0,12% dari penutupan sebelumnya (102,17)",
+   "detail": "−0,12% dari penutupan sebelumnya (102,18)",
    "what": "Dolar kuat mengetatkan kondisi keuangan global dan menekan laba perusahaan multinasional.",
    "why_bear": "Dolar menguat, mengetatkan kondisi keuangan dan menekan laba multinasional.",
    "why_bull": "Dolar melemah, melonggarkan kondisi keuangan global.",
@@ -178,8 +178,14 @@
   {
    "dir": "bullish",
    "title": "Futures Nasdaq-100",
-   "text": "+0,20% dari penutupan sebelumnya (27.138,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.",
+   "text": "+0,20% dari penutupan sebelumnya (27.139,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.",
    "contribution": 0.4
+  },
+  {
+   "dir": "bullish",
+   "title": "Berita berbobot",
+   "text": "Skor rata-rata +0,28 dari 29 kejadian bernilai; 57% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.",
+   "contribution": 0.35
   }
  ],
  "entry_warnings": {
@@ -209,7 +215,7 @@
     "when": "now",
     "sev": "waspada",
     "cat": "Keyakinan rendah",
-    "title": "Faktor tidak sepakat (kesepakatan 43%, keyakinan 61%)",
+    "title": "Faktor tidak sepakat (kesepakatan 43%, keyakinan 60%)",
     "text": "Sinyal bercampur, sehingga bias lebih rapuh.",
     "action": "Kurangi ukuran posisi atau tunggu sinyal lebih searah."
    },
@@ -280,7 +286,7 @@
     "key": "esnq",
     "tone": "neutral",
     "label": "ES dan NQ selaras",
-    "text": "NQ +0.20% vs ES +0.34%."
+    "text": "NQ +0.20% vs ES +0.35%."
    }
   ],
   "matrix": [
@@ -368,7 +374,7 @@
     "title": "Markets Are Pricing in a Fed Rate Hike in December. Here's What Investors Should Do, According to History.",
     "source": "Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdlhIODNVVkxsMUxVU1Rpa3RhaTNyTURYXzVIQTR6OXJnX281aTlkLUkxNUdyd1BsQXNNaFpael9ZYVd1LTN5WXFjcWJOWjY0Zm0zaVItOVk0UmFzTkxkTFVnTVI0ZTdqenJLdVFyc3NMcFZWY2VMUDk3NER4d0V6U3pQV0wwUlZaVzFVeURXa1MwbENXYjNoRHZn?oc=5",
-    "age_h": 15.9,
+    "age_h": 16.0,
     "tone": -2,
     "label": "Hawkish",
     "weight": 0.28,
@@ -423,7 +429,7 @@
     "title": "US inflation set to cool in October after two months of sharp increases",
     "source": "Business Standard",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbnRZTVBwc0g1ZkpyV05HVTJuMGZKU0JTVll2RS1JVU5ubjdEZTc2aUJUc2daaVRBVElIY1cyeFRlNzlvWFlUOXFKVDBYZjlqWGE2eGMzRU50ZElxOE1wcVdPNUlQZjJqZXJwTEdtckdFaEU0RnZ4dDkxNzVDWUVwY1Nhd1NyQ2hISkRoVzNiOGM3T3J2WTRWYmFoX0I2UFhvVWFpUy15c3NXSFJKWVpnVlZHUk1iaUczYXZEbFFtSkwxcUpGX2hqWThWSGNZRExSRGfSAdcBQVVfeXFMTmRSMFpDNDFYLU1pcUZQTWw1Q19qZlZoNXZUcHNWSmFFT0FsdmFjLV84SldqWU9WcXhiTGVsOXkzazllQk9GUTBxRFJoNGVObTJ6RG5PRThDQTYxNThXb0I2Q3JfeExGcHItYm1tUDI4QmV2ZTdUblUtSE9JSWUyMlBtQlVReEU4TUIwdjJQT1NXSTNZWDk5akxhMEJYNjdMdHRVUE41WlFwWXdnaUJSM2tvNmxJT1MxNzBfQWdLSUNOTVFOd1NOeGxlbGYxWVFHd1ZENmhTTnM?oc=5",
-    "age_h": 18.4,
+    "age_h": 18.5,
     "tone": 0,
     "label": "Netral",
     "weight": 0.18,
@@ -509,7 +515,7 @@
  "options": {
   "underlying": "QQQ",
   "spot": 656.1,
-  "nq_ratio": 41.363,
+  "nq_ratio": 41.364,
   "pcr_oi": 0.84,
   "pcr_vol": 1.17,
   "sentiment": "Netral",
@@ -517,29 +523,29 @@
   "put_wall": 640.0,
   "gamma_flip": 595.0,
   "call_wall_nq": 27300.0,
-  "put_wall_nq": 26472.0,
-  "gamma_flip_nq": 24611.0,
+  "put_wall_nq": 26473.0,
+  "gamma_flip_nq": 24612.0,
   "net_gex_musd": -95.4,
   "regime": "gamma negatif (memperbesar gerak)",
   "top": [
    {
     "strike": 635.0,
-    "nq": 26265.0,
+    "nq": 26266.0,
     "gex_musd": -39.8
    },
    {
     "strike": 640.0,
-    "nq": 26472.0,
+    "nq": 26473.0,
     "gex_musd": -51.2
    },
    {
     "strike": 645.0,
-    "nq": 26679.0,
+    "nq": 26680.0,
     "gex_musd": -42.5
    },
    {
     "strike": 650.0,
-    "nq": 26886.0,
+    "nq": 26887.0,
     "gex_musd": -46.1
    },
    {
@@ -557,8 +563,8 @@
   "note": "Perkiraan dari open interest dan IV opsi QQQ (Yahoo), dipetakan ke NQ dengan rasio harga. Bukan data posisi dealer sebenarnya."
  },
  "volume": {
-  "z": -0.49,
-  "last_volume": 17080,
+  "z": -0.48,
+  "last_volume": 17330,
   "avg_volume": 45209,
   "spike": false,
   "direction": "naik",
@@ -577,7 +583,7 @@
   "gaps": [
    {
     "kind": "bullish",
-    "top": 27138.2,
+    "top": 27137.0,
     "bottom": 27118.5,
     "bars_ago": 0
    },
@@ -611,7 +617,7 @@
   "equilibrium": 27421.2,
   "position_pct": 37,
   "zone": "discount",
-  "price": 27138.2
+  "price": 27137.0
  },
  "alerts": [
   {
@@ -755,96 +761,96 @@
    "sent": false
   }
  ],
- "fetched_at": "2026-11-09T09:00:05+07:00",
+ "fetched_at": "2026-11-09T09:01:05+07:00",
  "feeds": {
   "nasdaq": {
    "ok": true,
-   "at": "2026-11-09T09:00:06+07:00",
+   "at": "2026-11-09T09:01:10+07:00",
    "err": null
   },
   "nq_fut": {
    "ok": true,
-   "at": "2026-11-09T09:00:06+07:00",
+   "at": "2026-11-09T09:01:10+07:00",
    "err": null
   },
   "es_fut": {
    "ok": true,
-   "at": "2026-11-09T09:00:06+07:00",
+   "at": "2026-11-09T09:01:10+07:00",
    "err": null
   },
   "sox": {
    "ok": true,
-   "at": "2026-11-09T09:00:06+07:00",
+   "at": "2026-11-09T09:01:10+07:00",
    "err": null
   },
   "vix": {
    "ok": true,
-   "at": "2026-11-09T09:00:06+07:00",
+   "at": "2026-11-09T09:01:10+07:00",
    "err": null
   },
   "vxn": {
    "ok": true,
-   "at": "2026-11-09T09:00:06+07:00",
+   "at": "2026-11-09T09:01:10+07:00",
    "err": null
   },
   "yield10": {
    "ok": true,
-   "at": "2026-11-09T09:00:06+07:00",
+   "at": "2026-11-09T09:01:10+07:00",
    "err": null
   },
   "brent": {
    "ok": true,
-   "at": "2026-11-09T09:00:07+07:00",
+   "at": "2026-11-09T09:01:11+07:00",
    "err": null
   },
   "dxy": {
    "ok": true,
-   "at": "2026-11-09T09:00:07+07:00",
+   "at": "2026-11-09T09:01:11+07:00",
    "err": null
   },
   "nvda": {
    "ok": true,
-   "at": "2026-11-09T09:00:07+07:00",
+   "at": "2026-11-09T09:01:11+07:00",
    "err": null
   },
   "irx": {
    "ok": true,
-   "at": "2026-11-09T09:00:07+07:00",
+   "at": "2026-11-09T09:01:11+07:00",
    "err": null
   },
   "fvx": {
    "ok": true,
-   "at": "2026-11-09T09:00:07+07:00",
+   "at": "2026-11-09T09:01:11+07:00",
    "err": null
   },
   "qqqe": {
    "ok": true,
-   "at": "2026-11-09T09:00:07+07:00",
+   "at": "2026-11-09T09:01:11+07:00",
    "err": null
   },
   "soxx": {
    "ok": true,
-   "at": "2026-11-09T09:00:07+07:00",
+   "at": "2026-11-09T09:01:11+07:00",
    "err": null
   },
   "qqq_y": {
    "ok": true,
-   "at": "2026-11-09T09:00:08+07:00",
+   "at": "2026-11-09T09:01:12+07:00",
    "err": null
   },
   "nq_hourly": {
    "ok": true,
-   "at": "2026-11-09T09:00:08+07:00",
+   "at": "2026-11-09T09:01:12+07:00",
    "err": null
   },
   "mag7_earnings": {
    "ok": true,
-   "at": "2026-11-09T09:00:09+07:00",
+   "at": "2026-11-09T09:01:13+07:00",
    "err": null
   },
   "options": {
    "ok": true,
-   "at": "2026-11-09T09:00:10+07:00",
+   "at": "2026-11-09T09:01:14+07:00",
    "err": null
   }
  },
@@ -867,66 +873,66 @@
   "implied_open_pct": 0.2
  },
  "forecast": {
-  "ref": 27138.25,
+  "ref": 27139.0,
   "ref_name": "NQ=F (MNQZ2026)",
   "sigma_pct": 2.14,
-  "p_up": 0.359,
-  "news_pts": 5.6,
-  "total_pts": -214.6,
+  "p_up": 0.369,
+  "news_pts": 16.3,
+  "total_pts": -202.6,
   "horizons": [
    {
     "label": "Sisa sesi / 1 hari",
-    "exp_pts": -214.6,
-    "exp_pct": -0.79,
-    "target": 26923.6,
-    "low": 26342.8,
-    "high": 27504.4,
+    "exp_pts": -202.6,
+    "exp_pct": -0.75,
+    "target": 26936.4,
+    "low": 26355.7,
+    "high": 27517.2,
     "sigma_pct": 2.14
    },
    {
     "label": "5 sesi ke depan",
-    "exp_pts": -429.3,
-    "exp_pct": -1.58,
-    "target": 26709.0,
-    "low": 25410.3,
-    "high": 28007.6,
+    "exp_pts": -405.1,
+    "exp_pct": -1.49,
+    "target": 26733.9,
+    "low": 25435.2,
+    "high": 28032.5,
     "sigma_pct": 4.79
    }
   ],
   "news_moves": [
    {
     "title": "Kevin Warsh’s Expected Rate Hike Is a Warning to Retirees That the Fed Won’t Rescue Stocks",
-    "pts": -10.3,
+    "pts": -9.6,
     "direction": "bearish",
     "horizon": "Beberapa hari sampai rapat Fed berikutnya"
    },
    {
     "title": "Blue wave jitters hit chip stocks as AI capex merely slows, not stops",
-    "pts": -8.6,
+    "pts": -8.0,
     "direction": "bearish",
     "horizon": "Berhari-hari; memengaruhi tema, bukan satu saham"
    },
    {
     "title": "Australian Stock Market Today: ASX Futures Edge Up As Fed Rate Hike Odds Rise",
-    "pts": -8.3,
+    "pts": -7.7,
     "direction": "bearish",
     "horizon": "Beberapa hari sampai rapat Fed berikutnya"
    },
    {
     "title": "This Semiconductor ETF Just Had Its Worst Day Since March 2020",
-    "pts": -8.3,
+    "pts": -7.7,
     "direction": "bearish",
     "horizon": "1 sampai 3 hari"
    },
    {
     "title": "CD Rates Climb as Bond Yields Fall, Squeezing Small Firms",
-    "pts": 8.1,
+    "pts": 7.6,
     "direction": "bullish",
     "horizon": "Hari ini sampai beberapa pekan"
    },
    {
     "title": "Palantir AMD Earnings: $2.31B, $13.38B Beats [2026]",
-    "pts": 7.9,
+    "pts": 7.3,
     "direction": "bullish",
     "horizon": "Hari reaksi dan beberapa hari"
    }
@@ -945,7 +951,7 @@
    "Yield 10 tahun menembus 5,00%, level yang menekan valuasi saham growth.",
    "VIX bertahan di atas 26.",
    "Nasdaq menutup di bawah 24.450, membuka jalan ke 24.320.",
-   "Brent naik di atas $103 karena eskalasi Timur Tengah.",
+   "Brent naik di atas $102 karena eskalasi Timur Tengah.",
    "CPI Oktober lebih panas dari perkiraan."
   ]
  },
@@ -1082,7 +1088,7 @@
   "pending": {
    "date": "2026-11-09",
    "bias": "BEARISH TIPIS",
-   "p_up": 0.359
+   "p_up": 0.369
   },
   "metrics": {
    "n_trades": 4,
@@ -1197,7 +1203,7 @@
      "brier_naive": 0.24
     }
    ],
-   "updated_at": "2026-11-09T09:00+07:00"
+   "updated_at": "2026-11-09T09:01+07:00"
   }
  },
  "market": {
@@ -1451,19 +1457,19 @@
    ]
   },
   "nq_fut": {
-   "last": 27138.25,
+   "last": 27139.0,
    "prev": 27085.25,
    "change_pct": 0.2,
-   "change5_pct": -3.52,
+   "change5_pct": -3.51,
    "contract": "NQ=F (MNQZ2026)",
    "tv": "CME_MINI:MNQZ2026",
    "expiry": "2026-12-18"
   },
   "es_fut": {
-   "last": 7427.25,
+   "last": 7428.0,
    "prev": 7402.0,
-   "change_pct": 0.34,
-   "change5_pct": -1.94
+   "change_pct": 0.35,
+   "change5_pct": -1.93
   },
   "sox": {
    "last": 9390.25,
@@ -1492,13 +1498,13 @@
    "change5_bps": -7.0
   },
   "brent": {
-   "last": 97.55,
+   "last": 97.34,
    "prev": 98.32,
-   "change_pct": -0.78,
-   "change5_pct": -6.89
+   "change_pct": -1.0,
+   "change5_pct": -7.09
   },
   "dxy": {
-   "last": 102.173,
+   "last": 102.177,
    "prev": 102.3,
    "change_pct": -0.12,
    "change5_pct": 0.42
@@ -1541,10 +1547,10 @@
   }
  },
  "news_stats": {
-  "avg": 0.101,
-  "n_scored": 27,
+  "avg": 0.275,
+  "n_scored": 29,
   "n_total": 134,
-  "bull_share": 0.516
+  "bull_share": 0.575
  },
  "items": [
   {
@@ -1593,7 +1599,7 @@
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVWdDZktZQTl1bXk0cGxUdjVqN0ZOeko2NlcycTQ4T3dzeGEwR3hxTzhrRVF6NUJCN3hsM2tMNHJENlMtUGRZN1J1SWdnc2tsamxjSVBNVW1fRG9ZQ2RlLVZabVB0NmdqcWxNcGJIQ19kNXJ0c2V3Y2dzWU15TTZNStIBlAFBVV95cUxNb1U2ZTBWRjFJWVMwbW16cHBxbV9kX3MyNVFENW1MWnVFbjd3bU1Ua29SbUpjcEdmRmlWTDZRLVJxaGcyZnkxanBLY0NudkNBZE5hYzdiQjh0cXlvZTFsaWkxYVh0WVB0Vl9ieWlCTGNPRFFIU216bWJZalk3ci1MakFSYkZXMTRYSWZJVk1hekE5WGt2?oc=5",
    "source": "Chosunbiz",
    "published": "2026-11-08T22:52+00:00",
-   "age_h": 3.1,
+   "age_h": 3.2,
    "score": -2.8,
    "weighted": -1.46,
    "direction": "bearish",
@@ -1714,7 +1720,7 @@
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVUV6LXFST1BFVkkyaUFXQjc4RklvVGNBQ19XQUdEWS1jZGRhcHp3Wko2RHFvcjgxTXBmUW9leS1pcmdzZC1tQU9QNjR6WHpDcGpLUUZYOVp0YkFOLWlReXF3LU1YM3Z6a3VWTmxuZGw2cTRSTmFicHN6am1yNndoLXdoV3hQekRnaGNwbUpwTjBVcmhTYUxPVmRnV0RUd3c?oc=5",
    "source": "Seoul Economic Daily",
    "published": "2026-11-08T21:10+00:00",
-   "age_h": 4.8,
+   "age_h": 4.9,
    "score": 2.6,
    "weighted": 1.39,
    "direction": "bullish",
@@ -1788,13 +1794,52 @@
    "theme_v1": null
   },
   {
+   "title": "Oil Falls on Open as Trump Says Fresh Iran Attacks Unlikely",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVE1HVGNMSFkxMXp6cGZQWVpyYW9pdDYtdGlOWjVwSWRlejgzcDJYOXZnSWEtUldQYjY0bzl1SEZLbE9xbVVJdU5BYV9wUXNJVjlsQUFwUlVYS3E5d1QyNV8wQzRoRmRpUTdFZEZTOXN3bmotcFZyWS1oQm9fOU5ua0xUelJvd3NzUHo5cGF3elFKRU5UUUVTanJUZUE0dXdzcmN5QWtRdF9VQ0pI0gGyAUFVX3lxTE5ucHEzX2lyLTdUM2hBXzNXa2NFUDIwaEdoZUdtV2xpYm5rX1ctYW1yUVpXZDVVdzd4SlIyMEdzVVdYaU5Qbzlvd19oU25QMTJtWXJCX3Z5SDVWd1B1cEFDWmVldTZjQXpRSzByb183cUtjSEZuQXFmSzlIRkZIbmtHRl95NVpCTFBfWkRmdi1fNDFRTVNYMmp6Y24zMnBKYW1GRUtkdVVRRm1DYXBfOWVXWVE?oc=5",
+   "source": "Deccan Chronicle",
+   "published": "2026-11-09T01:16+00:00",
+   "age_h": 0.7,
+   "score": 2.0,
+   "weighted": 1.24,
+   "direction": "bullish",
+   "strength": "sedang",
+   "theme": "Energi dan geopolitik",
+   "fed_speak": false,
+   "sources_count": 1,
+   "sources": [
+    "Deccan Chronicle"
+   ],
+   "labels": [
+    "Minyak turun atau de-eskalasi"
+   ],
+   "impacts": [
+    {
+     "label": "Minyak turun atau de-eskalasi",
+     "direction": "bullish",
+     "why": "Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko."
+    }
+   ],
+   "who": [
+    "QQQ",
+    "SPY"
+   ],
+   "horizon": "Hari ini sampai beberapa pekan",
+   "small": true,
+   "small_note": "Hanya satu sumber non-utama yang memuat pola berdampak kuat ini. Bisa jadi sinyal dini, tetapi belum terkonfirmasi, jadi bobotnya diturunkan.",
+   "why": "Minyak turun atau de-eskalasi",
+   "tags": [
+    "Minyak turun atau de-eskalasi"
+   ],
+   "theme_v1": null
+  },
+  {
    "title": "Brent falls 64 cents on November 9 as Trump calls new Iran strikes unlikely if talks progress",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wNE51cUpha0QzMFE5WUpwSWVmNkdWX1pKdG01OHJ3VVNwbWVMRGpwSnZYTkM2OU00azJNM0M2LWVpSS02bkxYYkpPd0xDQUxSN3E3VExsRDMyUkROaEVB?oc=5",
    "source": "Nation Thailand",
    "published": "2026-11-09T00:18+00:00",
    "age_h": 1.7,
    "score": 2.0,
-   "weighted": 1.16,
+   "weighted": 1.15,
    "direction": "bullish",
    "strength": "sedang",
    "theme": "Energi dan geopolitik",
@@ -2036,7 +2081,7 @@
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdlhIODNVVkxsMUxVU1Rpa3RhaTNyTURYXzVIQTR6OXJnX281aTlkLUkxNUdyd1BsQXNNaFpael9ZYVd1LTN5WXFjcWJOWjY0Zm0zaVItOVk0UmFzTkxkTFVnTVI0ZTdqenJLdVFyc3NMcFZWY2VMUDk3NER4d0V6U3pQV0wwUlZaVzFVeURXa1MwbENXYjNoRHZn?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-11-08T10:04+00:00",
-   "age_h": 15.9,
+   "age_h": 16.0,
    "score": -3.0,
    "weighted": -0.84,
    "direction": "bearish",
@@ -2115,7 +2160,7 @@
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHdmNkg3cnlZdjdJS3ZPUTQ5QjNobXh6RnZZeHJWVGEtd3BtRVoyX0o4cUl5QktQODZ4VlRzamNBQUF5VEVZNUtnUW5vQlpYaXRjaS10RUFfWXRQWFIxM2FIWV9UY3pQR3RxLVBGQ1RoeFNZMzdqdDJtOTJSYkNsa0FrYU9PSnFnbi1USzREM0VTNEdFTFloamh2T1RrdVkxLU9BaTNZZWhTRWl6Sk44aHlKcm9va0VhZ1lMZmNRX2zSAcgBQVVfeXFMTV9FbUY3bGxMckt6WnhaM0N5UTREUlBGemJpaW4tVFk3VzE0bDJMbmF4Wk8tWjRfSnNvX3p4c0tCR29kM1VDYkw0cGU1bFhLUWFlLUdEV252dWxfX0JKYXZEaVZ3UWFvSXlZcklPNG1CMXlhQ3hzN3FucUswczE3NVVLMm1OMGF3ZUNiYzJZcGU1R0JBdGtDVWdTNkRwYzEwWUFhV1Z1U2ZKYkpZMlo2Z0RYeVNYMkg2bWg0NzROSFktemF1RzZpZUw?oc=5",
    "source": "NDTV Profit",
    "published": "2026-11-08T15:15+00:00",
-   "age_h": 10.7,
+   "age_h": 10.8,
    "score": -2.0,
    "weighted": -0.62,
    "direction": "bearish",
@@ -2159,7 +2204,7 @@
    "published": "2026-11-09T01:12+00:00",
    "age_h": 0.8,
    "score": 1.0,
-   "weighted": 0.62,
+   "weighted": 0.61,
    "direction": "bullish",
    "strength": "lemah",
    "theme": "Sentimen pasar",
@@ -2311,7 +2356,7 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLXk1NGUxN0t2UGFGWXBVU3piMUxqb0FyYm43NElzM0xGdWNUSURua1QyU19fZ3RnblFfUmo3cHB1ZUpSc3Q2eG1RbFVCTXkxQ0pWTGYtMFpsZWFBOUVKSlZxeTdJQXBvV0xodklzT1ZuU08xMDVMYms0cWVja0draFQwOFJGSW1velltWkdYUQ?oc=5",
    "source": "TOP1markets",
    "published": "2026-11-08T09:04+00:00",
-   "age_h": 16.9,
+   "age_h": 17.0,
    "score": -2.8,
    "weighted": -0.56,
    "direction": "bearish",
@@ -2341,6 +2386,44 @@
    "why": "Aksi jual besar",
    "tags": [
     "Aksi jual besar"
+   ],
+   "theme_v1": null
+  },
+  {
+   "title": "KB Securities: Samsung Electronics Down 50% — 20-Year Data Points to 97% Rebound Odds",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjaFUwWlU2RTQyb3JiUUlKZDREb3Z1VWFtb3Y2U2xOaFg5RFh3Ykg5ZVY2akJkbHR6MjFrZ2UzdFM4OG9NTVQ0aTBzd0Q3bmtaeHNXTlRxVGtrR040U2R3ZmJDY09WZVdvZkNRaVdOUmdjMUMzLUE?oc=5",
+   "source": "BigGo Finance",
+   "published": "2026-11-08T23:35+00:00",
+   "age_h": 2.4,
+   "score": 1.0,
+   "weighted": 0.55,
+   "direction": "bullish",
+   "strength": "lemah",
+   "theme": "Sentimen pasar",
+   "fed_speak": false,
+   "sources_count": 1,
+   "sources": [
+    "BigGo Finance"
+   ],
+   "labels": [
+    "Rebound atau reli"
+   ],
+   "impacts": [
+    {
+     "label": "Rebound atau reli",
+     "direction": "bullish",
+     "why": "Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru."
+    }
+   ],
+   "who": [
+    "QQQ"
+   ],
+   "horizon": "Hari ini",
+   "small": false,
+   "small_note": null,
+   "why": "Rebound atau reli",
+   "tags": [
+    "Rebound atau reli"
    ],
    "theme_v1": null
   },
@@ -2854,6 +2937,32 @@
    "theme_v1": null
   },
   {
+   "title": "How much SpaceX stock does CEO Elon Musk actually own?",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORDFJYkswbHFTcUMxNUQ2SU8tZVFROEpFVkRfLVlLZ1ZpQy1HZ2ZhSG9TblM1a3dIbk1QWGtweGhWMUF1VHJPcTA3Nmk2emlJNG9YU1RhRXQwU3Y1QW42Y1Ric3p6OVpuWXhJRDhhZkpRQ2trTF9tMW9Yc2tzT2VfUQ?oc=5",
+   "source": "Yahoo Finance Australia",
+   "published": "2026-11-09T00:42+00:00",
+   "age_h": 1.3,
+   "score": 0.0,
+   "weighted": 0.0,
+   "direction": "netral",
+   "strength": "lemah",
+   "theme": "Sentimen pasar",
+   "fed_speak": false,
+   "sources_count": 1,
+   "sources": [
+    "Yahoo Finance Australia"
+   ],
+   "labels": [],
+   "impacts": [],
+   "who": [],
+   "horizon": null,
+   "small": false,
+   "small_note": null,
+   "why": "Tidak ada pola dampak yang dikenali",
+   "tags": [],
+   "theme_v1": null
+  },
+  {
    "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0l6UllaNWstdHV3YXVHY3FsaTV6blctcjJ2aDl5dnNwZF9OOFdrRXM5RlN6bUYzU2ZnTGU1bndLek5kTDFTWG1LZUFuamZLbFUwUmJiMDF1a21pOFNhcjI2SzdLVHRtWWYzOHVJVl9qMk9CY3E3Y2lEY1VOZ2txYTRHOA?oc=5",
    "source": "CNBC",
@@ -2934,34 +3043,6 @@
    "theme_v1": null
   },
   {
-   "title": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWVNDYl91M1JyV2xhNzVHbV9zZ1FlRzN5WEFvZ3I1UHl6MVROQmQ1VHdnU1FaWkYybGZDampLLUFYdE5oYUNIb1BfbDdObHFVSENXcXFFVTQzRmdGUnJmbkJBUEJUdkRsdTVabTNHcm55S05ydVo4dzBWTnVnUlE1MnczQ0ZiV0xqS2QydzlsUnpxSHo2REhUcGl3?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-11-08T22:30+00:00",
-   "age_h": 3.5,
-   "score": 0.0,
-   "weighted": 0.0,
-   "direction": "netral",
-   "strength": "lemah",
-   "theme": "Earnings Big Tech",
-   "fed_speak": false,
-   "sources_count": 1,
-   "sources": [
-    "Yahoo Finance"
-   ],
-   "labels": [],
-   "impacts": [],
-   "who": [
-    "TSLA"
-   ],
-   "horizon": null,
-   "small": false,
-   "small_note": null,
-   "why": "Tidak ada pola dampak yang dikenali",
-   "tags": [],
-   "theme_v1": null
-  },
-  {
    "title": "Tesla Isn’t a Mag-7 Stock. This Is.",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MS0Vld1VORGpHbjJoelFPZE11OWZ5TnBtMHo1Sk5QZXZuZzBoNGVIQWM2aDByNW1DQ05CVWg3QUFmUTdleXAyTWE1OGloS0FYV3MwbmE3SVJNdmVHaGZELU92YXVyeEhrQkY5QmlyX1dwQllBSXNyZWgxWQ?oc=5",
    "source": "Barron's",
@@ -2983,58 +3064,6 @@
    "who": [
     "TSLA"
    ],
-   "horizon": null,
-   "small": false,
-   "small_note": null,
-   "why": "Tidak ada pola dampak yang dikenali",
-   "tags": [],
-   "theme_v1": null
-  },
-  {
-   "title": "Stock Market Today: Gift Nifty, US Nonfarm Payrolls To Oil Prices; Five Key Factors For Sensex, Nifty 50 On November 9",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZTlmdUlkb2RuMGtkdHp4eUJETmlORjZtYm12anJ2UW1NLW01a1dhMDl0Y3gwdWtXelBkeFl0VlBXU1lLVVdVSkJELXNJeENXbFFCNWNyTGlBSlhTaUpxZldoVGROSUFOY0Z1eTRnRDU1cktWblBUdTlkOGdybkRIQzBuRjlPOFdDUzNaSFpWV2g2Y0tuREUyZElHYmdwMzhCcEpCMFZXdE9LbHNLTk1pT05FUmI5SlVHcEV1VDJZZFRhZVVyN01sQktGVXp3YlNIY2ZzZlhId1JxOVFrRHVHUXQ5TkpjRkRhWTZQX3l4cjh0dzgyQVdISFZRcFhMdw?oc=5",
-   "source": "NDTV Profit",
-   "published": "2026-11-09T01:39+00:00",
-   "age_h": 0.3,
-   "score": 0.0,
-   "weighted": 0.0,
-   "direction": "netral",
-   "strength": "lemah",
-   "theme": "Fed dan yield",
-   "fed_speak": false,
-   "sources_count": 1,
-   "sources": [
-    "NDTV Profit"
-   ],
-   "labels": [],
-   "impacts": [],
-   "who": [],
-   "horizon": null,
-   "small": false,
-   "small_note": null,
-   "why": "Tidak ada pola dampak yang dikenali",
-   "tags": [],
-   "theme_v1": null
-  },
-  {
-   "title": "Australian Stock Market Today: ASX Futures Edge Higher On Firm US Jobs And CPI Watch",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZklmUjZWSzlucmZfT0F0WkpuNG12VDRXS05QdVI0N3VxVFg4YU5fYzJvV2tvZmpLWEh2Y193amUyNkVESWN1UXotMW5XcE1SQkJiQjB4SFdtb2F3Uk1zanJ5VHNWeVpyZE0tRmhXOEhuS0x3VnNUeVh3YzFQMHhnRzdsTXJhQkZ6Qnc?oc=5",
-   "source": "Yahoo Finance Australia",
-   "published": "2026-11-08T21:09+00:00",
-   "age_h": 4.8,
-   "score": 0.0,
-   "weighted": 0.0,
-   "direction": "netral",
-   "strength": "lemah",
-   "theme": "Fed dan yield",
-   "fed_speak": false,
-   "sources_count": 1,
-   "sources": [
-    "Yahoo Finance Australia"
-   ],
-   "labels": [],
-   "impacts": [],
-   "who": [],
    "horizon": null,
    "small": false,
    "small_note": null,
@@ -3072,6 +3101,21 @@
    "theme": "Fed dan yield",
    "label": null,
    "why": null,
+   "fed": false
+  },
+  {
+   "title": "Oil Falls on Open as Trump Says Fresh Iran Attacks Unlikely",
+   "source": "Deccan Chronicle",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVE1HVGNMSFkxMXp6cGZQWVpyYW9pdDYtdGlOWjVwSWRlejgzcDJYOXZnSWEtUldQYjY0bzl1SEZLbE9xbVVJdU5BYV9wUXNJVjlsQUFwUlVYS3E5d1QyNV8wQzRoRmRpUTdFZEZTOXN3bmotcFZyWS1oQm9fOU5ua0xUelJvd3NzUHo5cGF3elFKRU5UUUVTanJUZUE0dXdzcmN5QWtRdF9VQ0pI0gGyAUFVX3lxTE5ucHEzX2lyLTdUM2hBXzNXa2NFUDIwaEdoZUdtV2xpYm5rX1ctYW1yUVpXZDVVdzd4SlIyMEdzVVdYaU5Qbzlvd19oU25QMTJtWXJCX3Z5SDVWd1B1cEFDWmVldTZjQXpRSzByb183cUtjSEZuQXFmSzlIRkZIbmtHRl95NVpCTFBfWkRmdi1fNDFRTVNYMmp6Y24zMnBKYW1GRUtkdVVRRm1DYXBfOWVXWVE?oc=5",
+   "published": "2026-11-09T01:16+00:00",
+   "score": 2.0,
+   "direction": "bullish",
+   "sources": [
+    "Deccan Chronicle"
+   ],
+   "theme": "Energi dan geopolitik",
+   "label": "Minyak turun atau de-eskalasi",
+   "why": "Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.",
    "fed": false
   },
   {
@@ -3135,6 +3179,21 @@
    "fed": false
   },
   {
+   "title": "How much SpaceX stock does CEO Elon Musk actually own?",
+   "source": "Yahoo Finance Australia",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORDFJYkswbHFTcUMxNUQ2SU8tZVFROEpFVkRfLVlLZ1ZpQy1HZ2ZhSG9TblM1a3dIbk1QWGtweGhWMUF1VHJPcTA3Nmk2emlJNG9YU1RhRXQwU3Y1QW42Y1Ric3p6OVpuWXhJRDhhZkpRQ2trTF9tMW9Yc2tzT2VfUQ?oc=5",
+   "published": "2026-11-09T00:42+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "Yahoo Finance Australia"
+   ],
+   "theme": "Sentimen pasar",
+   "label": null,
+   "why": null,
+   "fed": false
+  },
+  {
    "title": "Dow Jones Futures Rise, Techs Slide As Nvidia Probes CEO Jensen Huang Spying Case",
    "source": "Investor's Business Daily",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ0hGNFB0QTUyUUxKc2F4M2x6bVg4TERkVlF5ak9TbTAtTzN2U3IzaE1NNmFET1FJLUdsYnNvUWxaNm5iZHJtRmkyX0Fmb1dEanFlMGkyZzZSRDZhWHplTnRBVDRpOXlYZkRUNU51bVFWbEF6bnFwa1NOMEx6Nkt4UnhfYUtmQ1VFWlpyaVNCVm5peWhMYkRmeVhuaUc4QWZ2ckE0U1JUOXh4ZVl3dk1NTWlIT1dDZlhR?oc=5",
@@ -3145,21 +3204,6 @@
     "Investor's Business Daily"
    ],
    "theme": "Semikonduktor",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
-   "title": "AI Enterprise - Databricks & Glean | BG2 Guest Interview｜BG2Pod",
-   "source": "finance.biggo.com",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tWTBXVTBjN01ySnV2ajJsZDZBZUJ2bTFQUUg2YTVabGdMV2lFOFNYTDFRbHJmWkZZWlkycFZDc25nSDlTdXhMZ2FuVG1UbXVocDhZakJmcUFuSTZtRmVj?oc=5",
-   "published": "2026-11-09T00:21+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "finance.biggo.com"
-   ],
-   "theme": "Sentimen pasar",
    "label": null,
    "why": null,
    "fed": false
@@ -3210,6 +3254,21 @@
    "fed": false
   },
   {
+   "title": "David Sacks Warns the AI Data Center Pipeline Could Dry Up. Here’s What’s at Stake",
+   "source": "24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaWFUamRmY0E0TGExeEtFelJZQ2IxZndwRENUbDZsUGtzcjVXR1RQUE92cE02Sm4wN1VSNWhRSUdFeTVQVVlCbmt2b1N5VWF4dFB4d0tBdk1ZVmNUcGd1MWIzV2tvR0J1b05VZWVVcUM0dlp3bkNHc0J4TW9Ic1dqNHdMRHZqS2Ztdng3V2poVDlrMF9fUmR3ZUNMZjkzUmgxd0J6LWktM3VjSzBNd202d0VjanAzVzNlOEtfQkN5MjU?oc=5",
+   "published": "2026-11-09T00:07+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "24/7 Wall St."
+   ],
+   "theme": "Sentimen pasar",
+   "label": null,
+   "why": null,
+   "fed": false
+  },
+  {
    "title": "Could Buying Palantir Stock Today Set You Up for Life?",
    "source": "The Motley Fool",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPczlQLTZuTnpQaFRsTndhLVhuMkVfQ2JfbkkxMnVjWTVabEF2MFE0LUhPcS1JdkNpRVZ3dUI3UGg2UnNZMktFRENKc2F6TENCQzVkd2N0OHV2cnFhaC1ZVkFVRkxOaGxRZlhEdWx1SDVtbnJ2cHU1endac09CeC1yakZrWDlUOWU1REJTNU54WDhEdEhNR1VGOA?oc=5",
@@ -3222,6 +3281,21 @@
    "theme": "Sentimen pasar",
    "label": null,
    "why": null,
+   "fed": false
+  },
+  {
+   "title": "KB Securities: Samsung Electronics Down 50% — 20-Year Data Points to 97% Rebound Odds",
+   "source": "BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjaFUwWlU2RTQyb3JiUUlKZDREb3Z1VWFtb3Y2U2xOaFg5RFh3Ykg5ZVY2akJkbHR6MjFrZ2UzdFM4OG9NTVQ0aTBzd0Q3bmtaeHNXTlRxVGtrR040U2R3ZmJDY09WZVdvZkNRaVdOUmdjMUMzLUE?oc=5",
+   "published": "2026-11-08T23:35+00:00",
+   "score": 1.0,
+   "direction": "bullish",
+   "sources": [
+    "BigGo Finance"
+   ],
+   "theme": "Sentimen pasar",
+   "label": "Rebound atau reli",
+   "why": "Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.",
    "fed": false
   },
   {
@@ -3287,7 +3361,7 @@
   {
    "title": "Top 10 Activist Target Stocks for Spin-offs or Breakups",
    "source": "Insider Monkey",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVHNFVHItOHdjZ1ZrVlJKSndtbVZXMTkwdzUtRWd0RnZEdFhUcENlX0Y4UV85dDktWGw0MGFlV01LMndwNVB0b29TcGd5SG5ZVHRkX0kxYXBkVkFDT2ZkczZFUkxlXzBXOUNlbzd2SEQwS2RnODBYVzNIZy1GNk1vUmdRendyLVNMRXdvR2hXOTBvV3NFOVB2Nk9GanhfNHozRi0w?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQW1HUFpCSFdZWm9yTWNlMDJFaVkyYjl1Q3dDdFZjbThreGRPODJvekdyVjNfUVpqNG5fSGJzZ3A2ZWZzZXUzMnl3MVRhNHJxcENqRkZIM0h1bDQ3MTM2YUVLNS1aaUtvU0t4VUQ2ZDlIMEh3WVFPY25TNWhoODQxWXlEaWhTa21qMlNsLXljMlNBczZLNi00YVpzVXMtcFdv0gGoAUFVX3lxTE10Zm42ZVhOWUIwWEdtODlEOXl0UThzbFNyei1tVERiVkpHXzNuckRyUXJfZEJ6UG5zZm5aTVozMWdXbjdfWnlUUV9ZWVRLQVhZT1c1RkVpcUZVMGZhU3VxZE5GcmJWTUlXVDE5ZHpnNVpxU2hoUnhVd1RjMmVmcEFRNTBpekxuMEtqbDNJMXU3Z3k2NTMzUHRGUG82QkI5QTdOeDVpQzJsdA?oc=5",
    "published": "2026-11-08T23:03+00:00",
    "score": 0.0,
    "direction": "netral",
@@ -3345,21 +3419,6 @@
    "fed": false
   },
   {
-   "title": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
-   "source": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWVNDYl91M1JyV2xhNzVHbV9zZ1FlRzN5WEFvZ3I1UHl6MVROQmQ1VHdnU1FaWkYybGZDampLLUFYdE5oYUNIb1BfbDdObHFVSENXcXFFVTQzRmdGUnJmbkJBUEJUdkRsdTVabTNHcm55S05ydVo4dzBWTnVnUlE1MnczQ0ZiV0xqS2QydzlsUnpxSHo2REhUcGl3?oc=5",
-   "published": "2026-11-08T22:30+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "Yahoo Finance"
-   ],
-   "theme": "Earnings Big Tech",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
    "title": "This Semiconductor ETF Just Had Its Worst Day Since March 2020",
    "source": "The Globe and Mail",
    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOd2U5UWo5RDhXUndnV25uU0NESkZEWDZLMks3ck1XTlFQbW9EV3lKdng3S3FnZE42ekh0enpHQlgyZmpZUk9WQ0hnN295N0NGU2oydDdueWs5LWJaNmZyaUpEbHU5OUY2UEhfWXBfeEloTElYYXBrelo2M1hMR0ZBSTN4enp6b2FTU2NSb0dNbldsOGJad3ItanllbnpwRVpzakVvaWFMaTVmb3RmazN5Q1VMU1Z3Q3NhX3F1V2ZvM1Rjcl9LUVVKUm9odUIwQjJZVTc0Tld5SjlQSk4wa3lzQUItQQ?oc=5",
@@ -3398,21 +3457,6 @@
    "direction": "netral",
    "sources": [
     "Insider Monkey"
-   ],
-   "theme": "Sentimen pasar",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
-   "title": "How much SPCX stock does SpaceX CEO Elon Musk actually own?",
-   "source": "TheStreet",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NMmZ6cm9LMkJuNVFTWndlTlBFbWFsU19XeDBqOGlzUUdqUFRObzViRUpvQldiMHR4dFUxZV9FUHd2WEZDS2ZJclJUNDdhbVlDTUJVUjd4RUVsTFE4dldiQnluQnc5SVUxbnBzYWE0UFJTNjQ?oc=5",
-   "published": "2026-11-08T21:42+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "TheStreet"
    ],
    "theme": "Sentimen pasar",
    "label": null,
@@ -3736,36 +3780,6 @@
    "fed": false
   },
   {
-   "title": "Home Depot Investors Collected $517 in Dividends on a $1,000 Stake Over 10 Years, and the Share Price Did the Rest",
-   "source": "24/7 Wall St.",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNDE4T2s2UHhpajI0akZnc0k3VVNuaFFSb3FLOFlaV3NWN29idUp3SU9ZUS1SWk0zdmhZd0JzcU1VamoyeHdheG9fRERYMFdFeVppRThmeXdSd1o5dkRhM1Q1Y25ZOFR2OGNyN19XMkg5UlJlMmZDVERodmg5NWpuekIxTVJWYkQ1ZmdoSzZJVFNQa3NLZWIwbTJXZGp0Vm9TSS1sR19JNEpPTmJGb29xcEtTSXR3Z2w1cUJ6VE9zNC1PXzM0ZnlXVzhoS3lYTl9HZTEycnhkRi1Nb0YwN1ZiU2xFMklXd1hUZnc?oc=5",
-   "published": "2026-11-08T18:22+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "24/7 Wall St."
-   ],
-   "theme": "Sentimen pasar",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
-   "title": "Texas blue wave erases US$130 bil from Musk stocks",
-   "source": "The Edge Malaysia",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjVHlaSHB5RFBQQk4wbE1sWEtoallUYU9vempHa1FDd0U1ZldBLWNISlVyQkdTcnBuUEhrNGVfN3lob2pNeVdmd2pCME5CMmN3?oc=5",
-   "published": "2026-11-08T18:02+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "The Edge Malaysia"
-   ],
-   "theme": "Sentimen pasar",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
    "title": "How Tesla Stock Could Move Amid Roadster Reveal and Reported SpaceX Merger",
    "source": "AOL.com",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44emQwYzRRcnJmZWstNUVyZUVIR3BNS3RBSGZjcWVYdjYtVXUxc3VVSS1mOUlCNXB3eUlyMExxNGlOOGdQZW1uZXVzZXN3ZmRJOFVJSTlGcW92Vk5nSXVSXzFFNmxIVGtQdGZEZVZWYTB5NU5GaURYZTktaw?oc=5",
@@ -3776,21 +3790,6 @@
     "AOL.com"
    ],
    "theme": "Earnings Big Tech",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
-   "title": "41 Data Center Votes Put the AI Boom on Notice [2026]",
-   "source": "shattered.io",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaHBveVhnNGUzRDhMcGZNclpXX0Fzc3B2U2QyV20yNURtNjV3aHkwc2xHb0tQc2VWa0lHUER3ZWttSVZ0MUNYRU1rQXc0Ui15V0F1MjlBT2t2eTFWOTZWX2h2VnNISWNFWlJrZlA2cUQzVVI5Q2twYVR3eWFROE1RTk5jekptZw?oc=5",
-   "published": "2026-11-08T17:58+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "shattered.io"
-   ],
-   "theme": "Sentimen pasar",
    "label": null,
    "why": null,
    "fed": false
@@ -3961,6 +3960,21 @@
    "fed": false
   },
   {
+   "title": "Gold, silver outlook: Sandwiched between bullish bonds and AI angst",
+   "source": "StoneX",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZVZTRGdZV1d6VEcwZlJCV1otdjlsbk04X3NHSWFZU0Y3WHFHbTZEMmlfSmdxSmxBYVFsM0w5c1M2TURtdVROcUd3ZHNOdDlmaGtOX190RW1fWi1rUjJ2X19iNV9vU2hnVHJrVUpGby01OUdkV1lGa0lLSTBOcDFmSEFGQU9qMmp4LXdnUk4tM0hIcndDQWN3VWptM1FOQXAyc3BPUTRBMzY1UFFWNm1mVVhkNA?oc=5",
+   "published": "2026-11-08T15:01+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "StoneX"
+   ],
+   "theme": "Pendanaan AI",
+   "label": null,
+   "why": null,
+   "fed": false
+  },
+  {
    "title": "Anthropic’s IPO Delay, Midterms’ Impact on AI, and the Collision of Politics and AI｜Peter Diamandis",
    "source": "finance.biggo.com",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLR1BNMHVQdXVLMm1yTWNFTWUwV1J2Ul81RDZaaUlZWW9LM2J3ZENYOVlWeU41cENQUk5MVGxNZUU4NEs4ZF9aMEhLUkxfV3VKWFJPbDhjQUxFU2JBYjFR?oc=5",
@@ -4059,6 +4073,21 @@
    "direction": "netral",
    "sources": [
     "KuCoin"
+   ],
+   "theme": "Sentimen pasar",
+   "label": null,
+   "why": null,
+   "fed": false
+  },
+  {
+   "title": "How to Play SpaceX Stock after Democrats Sweep Midterm Elections",
+   "source": "Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb253N0tGWENIeHVVamJuM1JKVWRIMllCb0xYWWEzTW9zUV9LZ1gtNXFLTlJ4VXk5a3JNeVR6allHT2FhRGdYcE9aZFN3OGdrcWs1d2twMlRvY0s3Q0pJV0VRa0tZcEhKQUNsanBvLWhZR2N0aGR4TjEtRmdEUjZOQ3JhNDR6ckpHVzJvRVJMYTBIVS1TdDdqWU4zQnc5Ujg?oc=5",
+   "published": "2026-11-08T14:20+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "Yahoo Finance"
    ],
    "theme": "Sentimen pasar",
    "label": null,
@@ -4186,6 +4215,21 @@
    "fed": false
   },
   {
+   "title": "SPCX Stock Eyes 2-Month Winning Streak: Analyst Says SpaceX Could Double On 2,200 Annual Launches By 2030",
+   "source": "Stocktwits",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb0RWZWFXOGFjM0R2OU56WS1hQ1lJTEw0SUhjaXlGUVQ2UzV1RHhzbkRweFRFNk9hcWNkV3lKaXAxWGlzNHZYRUthbV9BUUVuajRLTVNUX3NIV0Q2SzNRaERlVUZVS19pRnRqVVR5Q0NRQXNHekhOZkRIREhjMDRUMmVJWmhqSkJuUXBIX0dBQ2RtN0o0aDVfc3pRMnd4NXNsMzBBMXVvNjlBTVc0RjZUWVZ2RVVuZGdWZE1jOU1YUGo3THE4?oc=5",
+   "published": "2026-11-08T13:20+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "Stocktwits"
+   ],
+   "theme": "Sentimen pasar",
+   "label": null,
+   "why": null,
+   "fed": false
+  },
+  {
    "title": "Arlo Stock In Focus After Earnings Beat And Subscription Growth",
    "source": "Yahoo Finance",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa0t5aFowOVk0cWxyOWFhMi1VOVRKNWRVYVdpMkQ0MWhBOE1JTU9WMUQwR2c3bGRFZkhtRUg0ZmFubDllOUtqRWpIVWpUemVJTGRXZEcyZTRPbTZrVWlJQjdRelhuQWx4Ry1HVUJsTDZ1VldtMGlrRmpBd2tzUnd3d2NGN3ZpNEtxQ0lQbEF1SzVfeVItRU9lcjBLOA?oc=5",
@@ -4202,13 +4246,13 @@
   },
   {
    "title": "Cathie Wood Sees Tesla’s Robotaxi Business Taking Off — Says This Is The Moment Investors Have Waited For",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPcjY4SGJOTFhwR1JuOXd6LU9yMkRsQmNjTG9DeTdFZ05aZjVMRVJ3dXZLMUxJaWcyMGE3eUNMOWZseWpMQTlxTWZ5VWJaVmZJN3VlWWJKdWFxdzRxRUk2LWgzenRzU3J0akhiMFlram5JdEZwMDdPUjdtN0ZUNHpsVDAzUFpZTHJka1JqeXlTankycjRIbl8ycHNWRHN5WTh0TWRZbGEwbjExb2NTZ1NQRzhmVkhDMXhBSzVtQlBsTlowRFluQjg4Wm9yNkQ0OGhNUWFfdmFzTWl5VXgyMFJ4TDd2ckVNdHFvZm5GRjR0Uy1Ca3hlTENwODRLWVZ4SlQzZFVqWXFyTm5PZVdKcURNWg?oc=5",
+   "source": "Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaUFCc19zdkoxNy1PN3REWnBPbi1adVhqZW5EZnFSZnR4c2w4RWtEU2s0TXYtUjF2ZVdkMkE1T2x1WHN1MmlKdlBlaEotNVl6dW9sQ0xhdUpvUWs0dVhqMVozeTlSSFYtc2pYSGFvQkx3QVZBTXVXWk5ZbmVMd1ZxdldEeFFsbFo3UVYxR3Zwa2xTTkd4bEowSndRZ3U?oc=5",
    "published": "2026-11-08T13:09+00:00",
    "score": 0.0,
    "direction": "netral",
    "sources": [
-    "TradingView"
+    "Yahoo Finance"
    ],
    "theme": "Earnings Big Tech",
    "label": null,
@@ -4256,21 +4300,6 @@
     "Bloomberg"
    ],
    "theme": "Sentimen pasar",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
-   "title": "Oil on track to settle above $100 a barrel after whopping 20% two-week surge By Investing.com",
-   "source": "Investing.com India",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc0FQNi0wc0tJejZZXzVENTZaMzFoNUJ4Y3ZtOThpaVZBR2puWUlpa3BLSTJncjJaOHgtOXVHel9vaXJMcGQ5bzNxUkt2b19LSXUwT2RZWF8zTWJHWDh5M3BCdFAtT1BkVFBtZk5xWi1WRHEtQWV0ZTF6ZVFJS0tOQTRXdGVFZFNTbTF0LU1FYmxuaF9RbXNGV3VOZlg0R3RtbXpvRmF0d0pwRldlZXRXTTY5X1lZdEFfYUxGcVQ1QQ?oc=5",
-   "published": "2026-11-08T12:57+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "Investing.com India"
-   ],
-   "theme": "Energi dan geopolitik",
    "label": null,
    "why": null,
    "fed": false
@@ -4396,21 +4425,6 @@
    "fed": false
   },
   {
-   "title": "Sysmex (TSE:6869) Stock Could Stay Reasonable Following Raised Earnings Guidance",
-   "source": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbHBUbm1aQ1hJazFBYllCYmNQeHVZNjRReVFmUzdBN3U0cERPdHRtaUVfX1ZPMXRDQjVsQjZ2V0E4Z1pTNlhYY0dRTHB5Ym5tNzhBM3p1TFF2TlB0akFvNnZ0UFZ0dWdZb3dma0NZVjdGSUFpTTl1LUJwZDBLWU8yajJTVWN5ODZuTHp1eGtKVlpSZDBVYklZ?oc=5",
-   "published": "2026-11-08T11:15+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "Yahoo Finance"
-   ],
-   "theme": "Earnings Big Tech",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
    "title": "GF Securities: What should be the central tendency for the yield on the 10-year U.S. Treasury note?",
    "source": "富途牛牛",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSm9EU1ZnYnJON3lFSllpMTdwdllrQzdQTnhpZHJObVpNOHk3TUdBNmlnQkE5dzhwaEFPTlI3dE5uN29OVFpzWlpnRFExN1JSNnRUMEZHNk9FalZTd0hRaXM3OWtIT1pEd3hrWkVqTUVpNUlkdDBOUWtnSXg3VUZzWWlVRHhSTXBqQ2ZQUTU5bVRqUmJLNHB4Z2RLblFhZE1hcUE?oc=5",
@@ -4439,21 +4453,6 @@
    "label": null,
    "why": null,
    "fed": true
-  },
-  {
-   "title": "NZD/USD forecast: What next for the falling kiwi after New Zealand election?",
-   "source": "Invezz",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWVU4QnlqVF9IQ0tBblhqZVV5OUFfTEZSOGR2dERCUzJsMUQxRGpJYVVHYW1jTWJneDNMTGE3LVlkdGYyd3pPRUsxOERkYzFmamRJUnB1bk94aENoNTQtZ2J1M1dvcXlXeFlxTkVOc2lsejZVclZUUndzMnd5ZXByZi0wOHBLZ19oTGZWamh0VnlrdUVaVnZFUGMycXF6Z0JhNloydXVlZmV4WTZ3aTRJRFF3?oc=5",
-   "published": "2026-11-08T10:35+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "Invezz"
-   ],
-   "theme": "Sentimen pasar",
-   "label": null,
-   "why": null,
-   "fed": false
   },
   {
    "title": "For Trump’s Fed Ambitions, a Democratic Senate Poses the Biggest Hurdle Yet",
@@ -4531,21 +4530,6 @@
    "fed": false
   },
   {
-   "title": "Trump-Iran standoff threatens chronic Gulf oil instability",
-   "source": "Awani International",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSDZ2ckU1MHNXUmlUXzAzY3liVlpZSmt3ZVp6ZE9LcEpWVnZ4VVNUd1hPeUpQU1JTRFNZQk0yVWxobmQ1dXJKdlFtNnZOdmNfWWV6UTdZVzAwWVh2ZTBfb0xzSmY5bHhTNTJGOHBESmtRTDI3LVJGbjRoQ3dNSXpMUVg0anBUZUxKdGowUWJ6M3NsZDdnYllZSTd0RVpDRzVjX0hvOUpEcE1pV2c?oc=5",
-   "published": "2026-11-08T09:54+00:00",
-   "score": 0.0,
-   "direction": "netral",
-   "sources": [
-    "Awani International"
-   ],
-   "theme": "Energi dan geopolitik",
-   "label": null,
-   "why": null,
-   "fed": false
-  },
-  {
    "title": "Nvidia's Huang Faces Scrutiny Over H200 China Sales, Alleged Spy Link",
    "source": "Seoul Economic Daily",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUnpNTk9aNHUzSFFGd01sc2JLTTlWTVNFWUYtQmJ2YkY5MEhpakJUSUpSMkRocXlLSUtCUk5tbFkzODVpeUZMeXFEdnlyNjRZVWZiNzhheFJZYTRPNGFkMmtaTS02RE5JcFVrRm5LcWNLWVhBdi15eWRFSUh5RkZjNkpuampYQ3NzWW0xanMtcUlVNXFVVWlaeUVpeTFxYXhidmVuNmFvVFF5dw?oc=5",
@@ -4556,6 +4540,21 @@
     "Seoul Economic Daily"
    ],
    "theme": "Semikonduktor",
+   "label": null,
+   "why": null,
+   "fed": false
+  },
+  {
+   "title": "NZD/USD forecast: What next for the falling kiwi after New Zealand election?",
+   "source": "Invezz",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVmNDZWRhbl9wTUFhM3FiVDA3VmZmNmVMQUhaZFV2Tndta1d0czVLTmFmN3p3S0NBc1lhcUZSQUwxS1Qzamh2ZGl0UjJrSHB5RzdJLUtoOFBHZGU0NnZaUHM0dlg4V05oUlVKbzBITmZqWGs4UzZoczMtNnpOaFd3RkFtUzgzLU9Db25ub2NhcGdTUTU0WXZqcGlnanR5aEZRYnZRSHZxemZyNnRCY3EzcWRn?oc=5",
+   "published": "2026-11-08T09:12+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "Invezz"
+   ],
+   "theme": "Sentimen pasar",
    "label": null,
    "why": null,
    "fed": false
@@ -4891,6 +4890,21 @@
    "fed": false
   },
   {
+   "title": "Midterm Blood Bath, $4T AI Sell Off, Data Center Freeze, What’s Next for Trump",
+   "source": "BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOSVdaVDNJZjlLUGFkNEVvR1p4T0c0SzlwVUQ3R1VZcDd3MHNQaXNmY3NMYy10dUpuVEdac0F0Mld2OWNacmFpRGYwVHl1Si11VER1NWxIM0pmUUJzNUxB?oc=5",
+   "published": "2026-11-08T05:48+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "BigGo Finance"
+   ],
+   "theme": "Sentimen pasar",
+   "label": null,
+   "why": null,
+   "fed": false
+  },
+  {
    "title": "Averting Proxy Wars: 10 Companies Opting for Activist Investor Settlements",
    "source": "Insider Monkey",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRWs0NlNfVFE0RWVjUTN0eTlKUTNIYmlnUDZiZk5FNkFrMWROVm5ka0l1WUM2dVlsWEx6YmF6Y2Y0Z2M1UUxGUVV4WXN2NlZXM1dBR1VRZ2JMTUNHR3VzMDVtODJ2NmF0c25aVlRXdmR5c3V0NW1xaHJRTjJyclFUYW13OVhqLXFWMEVLTkt2YzJUdm81czJoNlpKSlFGVWVVa0cwT002TlEwZm9OOUZraFFxZ0pNUm1yc2tJ?oc=5",
@@ -4934,6 +4948,21 @@
    "label": null,
    "why": null,
    "fed": false
+  },
+  {
+   "title": "Weaponising the barrel : Oil prices higher, stocks mixed ahead of inflation report",
+   "source": "RTL Today",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdlRzdTNUZGhYSDJyVGNBcmZBaVJwZGdlZVh3azltUzJEVHJXc3FyaW1pTjRkcjNpWGRKbHdLNGdhMm81WkMzX2wyeEdTWHNXZDlDdDFFNjRvU3pMMndDUWFOV3JuRVF1Qm5INnprdUg2OGViakIwTzg4dEZHVHFmRmY2T1d1LUNhYXBwVUoxZTBPcUhxYVp3dHFCRTl1UkdUNTVGWEZLNE1CMWxv?oc=5",
+   "published": "2026-11-08T04:53+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "RTL Today"
+   ],
+   "theme": "Fed dan yield",
+   "label": null,
+   "why": null,
+   "fed": true
   },
   {
    "title": "Anthropic is reportedly planning an IPO before Thanksgiving",
