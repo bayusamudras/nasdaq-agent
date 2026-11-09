@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-09T13:30:42+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T13:31:42+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **31%**, turun **69%** (skor −5,9 dari ±10, keyakinan 78%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **32%**, turun **68%** (skor −5,8 dari ±10, keyakinan 78%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -15,18 +15,18 @@ Peluang indeks naik **31%**, turun **69%** (skor −5,9 dari ±10, keyakinan 78%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,63 dari 29 kejadian bernilai; 37% bobot bullish | −0,53 | 30% | −0,80 |
-| Futures Nasdaq-100 | +0,02% dari penutupan sebelumnya (27.091,75) | +0,04 | 20% | +0,04 |
-| Futures S&P 500 | +0,34% dari penutupan sebelumnya (7.427,25) | +0,85 | 5% | +0,21 |
+| Futures Nasdaq-100 | +0,05% dari penutupan sebelumnya (27.099,00) | +0,10 | 20% | +0,10 |
+| Futures S&P 500 | +0,36% dari penutupan sebelumnya (7.429,00) | +0,90 | 5% | +0,22 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $96,77 (−1,58% dari sesi sebelumnya) | +0,79 | 5% | +0,20 |
-| Indeks dolar | −0,22% dari penutupan sebelumnya (102,07) | −0,55 | 5% | −0,14 |
+| Minyak Brent | $96,78 (−1,57% dari sesi sebelumnya) | +0,79 | 5% | +0,20 |
+| Indeks dolar | −0,22% dari penutupan sebelumnya (102,08) | −0,55 | 5% | −0,14 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.584 (+0,02%).
+Perkiraan pembukaan dari futures: 24.592 (+0,05%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
