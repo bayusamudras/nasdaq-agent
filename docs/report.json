@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-09T17:35:07+07:00",
+ "generated_at": "2026-11-09T17:36:07+07:00",
  "session": {
   "date": "2026-11-09",
   "phase": "pra-buka",
@@ -18,23 +18,23 @@
   "factors_total": 9,
   "warnings": [
    "Volatilitas tinggi membuat arah lebih mudah berbalik",
-   "Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu). Skor dipangkas dari -5.7 menjadi -2.0."
+   "Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu). Harga tertahan di bullish FVG 27,156–27,198. Skor dipangkas dari -5.6 menjadi -2.0."
   ],
   "breaker": {
    "active": true,
-   "raw_score": -5.74,
+   "raw_score": -5.6,
    "side": "bearish_dibatalkan",
-   "reason": "Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu)."
+   "reason": "Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu). Harga tertahan di bullish FVG 27,156–27,198."
   },
-  "base_score": -0.74,
+  "base_score": -0.6,
   "fed_overlay": -5.0,
-  "pre_gate_score": -5.74,
+  "pre_gate_score": -5.6,
   "gates": [
    {
     "key": "validator",
     "name": "Validator makro (yield dan dolar)",
     "active": false,
-    "detail": "Yield 10 tahun +0,45%, DXY −0,46%",
+    "detail": "Yield 10 tahun +0,45%, DXY −0,45%",
     "effect": null
    },
    {
@@ -47,7 +47,7 @@
   ],
   "calibrated": false,
   "avg_score": -0.971,
-  "total": -15.58,
+  "total": -15.56,
   "scored_items": 22
  },
  "factors": [
@@ -67,25 +67,25 @@
    "key": "nq_fut",
    "name": "Futures Nasdaq-100",
    "weight": 20,
-   "signal": 0.68,
-   "detail": "+0,34% dari penutupan sebelumnya (27.177,50)",
+   "signal": 0.78,
+   "detail": "+0,39% dari penutupan sebelumnya (27.190,00)",
    "what": "Penanda terdekat arah pembukaan sesi AS. Diperdagangkan hampir 24 jam sehingga bereaksi lebih dulu pada berita.",
    "why_bear": "Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.",
    "why_bull": "Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.",
    "note": null,
-   "contribution": 0.68
+   "contribution": 0.78
   },
   {
    "key": "es_fut",
    "name": "Futures S&P 500",
    "weight": 5,
-   "signal": 1.17,
-   "detail": "+0,47% dari penutupan sebelumnya (7.437,00)",
+   "signal": 1.27,
+   "detail": "+0,51% dari penutupan sebelumnya (7.439,50)",
    "what": "Pembanding luas. Jika S&P ikut turun, tekanan bukan hanya di teknologi.",
    "why_bear": "S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.",
    "why_bull": "S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.",
    "note": null,
-   "contribution": 0.29
+   "contribution": 0.32
   },
   {
    "key": "sox",
@@ -116,7 +116,7 @@
    "name": "VIX (volatilitas)",
    "weight": 10,
    "signal": -1.2,
-   "detail": "23,74 (−7,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02",
+   "detail": "23,75 (−7,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02",
    "what": "Mengukur ketakutan pasar. VIX tinggi atau melonjak berarti investor membayar mahal untuk perlindungan, umumnya tanda risk-off.",
    "why_bear": "Volatilitas tinggi atau naik, tanda investor membeli perlindungan.",
    "why_bull": "Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.",
@@ -127,8 +127,8 @@
    "key": "oil",
    "name": "Minyak Brent",
    "weight": 5,
-   "signal": 0.67,
-   "detail": "$97,00 (−1,34% dari sesi sebelumnya)",
+   "signal": 0.69,
+   "detail": "$96,96 (−1,38% dari sesi sebelumnya)",
    "what": "Minyak mahal menaikkan inflasi dan menahan Fed melonggarkan. Minyak turun meredakan tekanan itu.",
    "why_bear": "Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.",
    "why_bull": "Minyak turun, meredakan tekanan inflasi dan suku bunga.",
@@ -139,13 +139,13 @@
    "key": "dxy",
    "name": "Indeks dolar",
    "weight": 5,
-   "signal": -1.15,
-   "detail": "−0,46% dari penutupan sebelumnya (101,83)",
+   "signal": -1.12,
+   "detail": "−0,45% dari penutupan sebelumnya (101,84)",
    "what": "Dolar kuat mengetatkan kondisi keuangan global dan menekan laba perusahaan multinasional.",
    "why_bear": "Dolar menguat, mengetatkan kondisi keuangan dan menekan laba multinasional.",
    "why_bull": "Dolar melemah, melonggarkan kondisi keuangan global.",
    "note": null,
-   "contribution": -0.29
+   "contribution": -0.28
   },
   {
    "key": "trend",
@@ -176,13 +176,13 @@
   {
    "dir": "bullish",
    "title": "Futures Nasdaq-100",
-   "text": "+0,34% dari penutupan sebelumnya (27.177,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.",
-   "contribution": 0.68
+   "text": "+0,39% dari penutupan sebelumnya (27.190,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.",
+   "contribution": 0.78
   },
   {
    "dir": "bearish",
    "title": "VIX (volatilitas)",
-   "text": "23,74 (−7,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.",
+   "text": "23,75 (−7,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.",
    "contribution": -0.6
   },
   {
@@ -196,7 +196,7 @@
   "status": "kritis",
   "label": "Kondisi tidak ideal untuk entry sekarang",
   "n_kritis": 1,
-  "n_waspada": 4,
+  "n_waspada": 5,
   "n_next": 0,
   "items": [
    {
@@ -204,14 +204,14 @@
     "sev": "kritis",
     "cat": "Struktur harga",
     "title": "Struktur NQ berlawanan dengan bias berita",
-    "text": "Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu).",
+    "text": "Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu). Harga tertahan di bullish FVG 27,156–27,198.",
     "action": "Jangan kejar arah berita; tunggu harga merebut kembali level yang tertolak."
    },
    {
     "when": "now",
     "sev": "waspada",
     "cat": "Volatilitas",
-    "title": "VIX 23.7 (−7,4%)",
+    "title": "VIX 23.8 (−7,4%)",
     "text": "Volatilitas meningkat; arah lebih mudah berbalik dan sapuan stop lebih sering.",
     "action": "Jangan memasang stop terlalu ketat."
    },
@@ -228,6 +228,14 @@
     "sev": "waspada",
     "cat": "Struktur harga",
     "title": "Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu).",
+    "text": "Sweep dan penolakan FVG sering mendahului pembalikan.",
+    "action": null
+   },
+   {
+    "when": "now",
+    "sev": "waspada",
+    "cat": "Struktur harga",
+    "title": "Harga tertahan di bullish FVG 27,156–27,198.",
     "text": "Sweep dan penolakan FVG sering mendahului pembalikan.",
     "action": null
    },
@@ -288,7 +296,7 @@
     "key": "dxy",
     "tone": "bull",
     "label": "DXY bearish (mendukung NQ)",
-    "text": "Dolar -0.46%, kondisi likuiditas lebih longgar."
+    "text": "Dolar -0.45%, kondisi likuiditas lebih longgar."
    },
    {
     "key": "us10y",
@@ -306,7 +314,7 @@
     "key": "esnq",
     "tone": "neutral",
     "label": "ES dan NQ selaras",
-    "text": "NQ +0.34% vs ES +0.47%."
+    "text": "NQ +0.39% vs ES +0.51%."
    }
   ],
   "matrix": [
@@ -319,7 +327,7 @@
    },
    {
     "pair": "NQ vs DXY",
-    "corr": 0.14,
+    "corr": 0.13,
     "expected": "negatif",
     "n": 48,
     "state": "lemah"
@@ -343,11 +351,16 @@
    "bars_ago": 4
   },
   "bear_fvg": null,
-  "bull_fvg": null,
+  "bull_fvg": {
+   "top": 27198.25,
+   "bottom": 27155.5,
+   "bars_ago": 8
+  },
   "bearish": false,
   "bullish": true,
   "notes": [
-   "Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu)."
+   "Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu).",
+   "Harga tertahan di bullish FVG 27,156–27,198."
   ]
  },
  "fed_radar": {
@@ -356,7 +369,7 @@
     "title": "Can crypto recover if US inflation keeps rate hike bets alive?",
     "source": "Crypto News",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUGdwdllvMERLVVFFV1E5Um1ZWFFjR1g2bTJDLUduM05scWJCdS1nc3F1SVVfaGhLbzJQTHhNbnFYRDJTX25Pc2VaR3VIV1dZVGw3eDJIQlhGSlNRMTlUc0NrTUJ4VTJGNVQtQVpWMFg4azBJbjdOZjVSeU16VDM2SldITTd5YW1ucXc?oc=5",
-    "age_h": 1.7,
+    "age_h": 1.8,
     "tone": -2,
     "label": "Hawkish",
     "weight": 0.58,
@@ -541,7 +554,7 @@
  "options": null,
  "volume": {
   "z": -0.69,
-  "last_volume": 3866,
+  "last_volume": 4132,
   "avg_volume": 43938,
   "spike": false,
   "direction": "naik",
@@ -559,14 +572,8 @@
  "smc": {
   "gaps": [
    {
-    "kind": "bearish",
-    "top": 27196.5,
-    "bottom": 27135.5,
-    "bars_ago": 5
-   },
-   {
     "kind": "bullish",
-    "top": 27176.2,
+    "top": 27189.5,
     "bottom": 27147.2,
     "bars_ago": 0
    },
@@ -587,6 +594,12 @@
     "top": 28288.0,
     "bottom": 27587.8,
     "bars_ago": 42
+   },
+   {
+    "kind": "bearish",
+    "top": 28388.8,
+    "bottom": 28375.2,
+    "bars_ago": 44
    }
   ],
   "range_high": 28465.0,
@@ -594,7 +607,7 @@
   "equilibrium": 27415.8,
   "position_pct": 39,
   "zone": "discount",
-  "price": 27176.2
+  "price": 27189.5
  },
  "alerts": [
   {
@@ -748,96 +761,96 @@
    "sent": false
   }
  ],
- "fetched_at": "2026-11-09T17:35:07+07:00",
+ "fetched_at": "2026-11-09T17:36:07+07:00",
  "feeds": {
   "nasdaq": {
    "ok": true,
-   "at": "2026-11-09T17:35:08+07:00",
+   "at": "2026-11-09T17:36:08+07:00",
    "err": null
   },
   "nq_fut": {
    "ok": true,
-   "at": "2026-11-09T17:35:08+07:00",
+   "at": "2026-11-09T17:36:09+07:00",
    "err": null
   },
   "es_fut": {
    "ok": true,
-   "at": "2026-11-09T17:35:09+07:00",
+   "at": "2026-11-09T17:36:09+07:00",
    "err": null
   },
   "sox": {
    "ok": true,
-   "at": "2026-11-09T17:35:09+07:00",
+   "at": "2026-11-09T17:36:09+07:00",
    "err": null
   },
   "vix": {
    "ok": true,
-   "at": "2026-11-09T17:35:09+07:00",
+   "at": "2026-11-09T17:36:09+07:00",
    "err": null
   },
   "vxn": {
    "ok": true,
-   "at": "2026-11-09T17:35:09+07:00",
+   "at": "2026-11-09T17:36:09+07:00",
    "err": null
   },
   "yield10": {
    "ok": true,
-   "at": "2026-11-09T17:35:09+07:00",
+   "at": "2026-11-09T17:36:09+07:00",
    "err": null
   },
   "brent": {
    "ok": true,
-   "at": "2026-11-09T17:35:09+07:00",
+   "at": "2026-11-09T17:36:10+07:00",
    "err": null
   },
   "dxy": {
    "ok": true,
-   "at": "2026-11-09T17:35:10+07:00",
+   "at": "2026-11-09T17:36:10+07:00",
    "err": null
   },
   "nvda": {
    "ok": true,
-   "at": "2026-11-09T17:35:10+07:00",
+   "at": "2026-11-09T17:36:10+07:00",
    "err": null
   },
   "irx": {
    "ok": true,
-   "at": "2026-11-09T17:35:10+07:00",
+   "at": "2026-11-09T17:36:10+07:00",
    "err": null
   },
   "fvx": {
    "ok": true,
-   "at": "2026-11-09T17:35:10+07:00",
+   "at": "2026-11-09T17:36:10+07:00",
    "err": null
   },
   "qqqe": {
    "ok": true,
-   "at": "2026-11-09T17:35:10+07:00",
+   "at": "2026-11-09T17:36:11+07:00",
    "err": null
   },
   "soxx": {
    "ok": true,
-   "at": "2026-11-09T17:35:11+07:00",
+   "at": "2026-11-09T17:36:11+07:00",
    "err": null
   },
   "qqq_y": {
    "ok": true,
-   "at": "2026-11-09T17:35:11+07:00",
+   "at": "2026-11-09T17:36:11+07:00",
    "err": null
   },
   "nq_hourly": {
    "ok": true,
-   "at": "2026-11-09T17:35:11+07:00",
+   "at": "2026-11-09T17:36:11+07:00",
    "err": null
   },
   "mag7_earnings": {
    "ok": true,
-   "at": "2026-11-09T17:35:13+07:00",
+   "at": "2026-11-09T17:36:14+07:00",
    "err": null
   },
   "options": {
    "ok": false,
-   "at": "2026-11-09T17:35:15+07:00",
+   "at": "2026-11-09T17:36:15+07:00",
    "err": "OI kosong atau rantai tidak lengkap"
   }
  },
@@ -856,11 +869,11 @@
   "sigma_source": "VXN",
   "band_low": 24052.68,
   "band_high": 25106.18,
-  "implied_open": 24663.0,
-  "implied_open_pct": 0.34
+  "implied_open": 24675.29,
+  "implied_open_pct": 0.39
  },
  "forecast": {
-  "ref": 27177.5,
+  "ref": 27190.0,
   "ref_name": "NQ=F (MNQZ2026)",
   "sigma_pct": 2.14,
   "p_up": 0.46,
@@ -871,18 +884,18 @@
     "label": "Sisa sesi / 1 hari",
     "exp_pts": -93.1,
     "exp_pct": -0.34,
-    "target": 27084.4,
-    "low": 26502.8,
-    "high": 27666.0,
+    "target": 27096.9,
+    "low": 26515.0,
+    "high": 27678.8,
     "sigma_pct": 2.14
    },
    {
     "label": "5 sesi ke depan",
-    "exp_pts": -186.1,
+    "exp_pts": -186.2,
     "exp_pct": -0.68,
-    "target": 26991.4,
-    "low": 25690.9,
-    "high": 28291.9,
+    "target": 27003.8,
+    "low": 25702.7,
+    "high": 28304.9,
     "sigma_pct": 4.79
    }
   ],
@@ -928,7 +941,7 @@
  },
  "scenarios": {
   "bull": [
-   "Futures Nasdaq-100 memangkas penurunan atau berbalik naik sebelum pembukaan AS (sekarang +0,34%).",
+   "Futures Nasdaq-100 memangkas penurunan atau berbalik naik sebelum pembukaan AS (sekarang +0,39%).",
    "Yield 10 tahun turun di bawah 4,81% bukan karena lari ke aset aman.",
    "VIX turun di bawah 17 dan tetap di sana saat sesi berjalan.",
    "Nasdaq menutup di atas pivot 24.638, lalu menguji 24.767.",
@@ -1190,7 +1203,7 @@
      "brier_naive": 0.24
     }
    ],
-   "updated_at": "2026-11-09T17:35+07:00"
+   "updated_at": "2026-11-09T17:36+07:00"
   }
  },
  "market": {
@@ -1444,19 +1457,19 @@
    ]
   },
   "nq_fut": {
-   "last": 27177.5,
+   "last": 27190.0,
    "prev": 27085.25,
-   "change_pct": 0.34,
-   "change5_pct": -3.38,
+   "change_pct": 0.39,
+   "change5_pct": -3.33,
    "contract": "NQ=F (MNQZ2026)",
    "tv": "CME_MINI:MNQZ2026",
    "expiry": "2026-12-18"
   },
   "es_fut": {
-   "last": 7437.0,
+   "last": 7439.5,
    "prev": 7402.0,
-   "change_pct": 0.47,
-   "change5_pct": -1.82
+   "change_pct": 0.51,
+   "change5_pct": -1.78
   },
   "sox": {
    "last": 9390.25,
@@ -1465,10 +1478,10 @@
    "change5_pct": -12.15
   },
   "vix": {
-   "last": 23.74,
+   "last": 23.75,
    "prev": 25.64,
-   "change_pct": -7.41,
-   "change5_pct": 12.25
+   "change_pct": -7.37,
+   "change5_pct": 12.29
   },
   "vxn": {
    "last": 34.02,
@@ -1485,16 +1498,16 @@
    "change5_bps": -7.0
   },
   "brent": {
-   "last": 97.0,
+   "last": 96.96,
    "prev": 98.32,
-   "change_pct": -1.34,
-   "change5_pct": -7.42
+   "change_pct": -1.38,
+   "change5_pct": -7.45
   },
   "dxy": {
-   "last": 101.834,
+   "last": 101.838,
    "prev": 102.3,
-   "change_pct": -0.46,
-   "change5_pct": 0.08
+   "change_pct": -0.45,
+   "change5_pct": 0.09
   },
   "nvda": {
    "last": 186.64,
@@ -1536,7 +1549,7 @@
  "news_stats": {
   "avg": -0.971,
   "n_scored": 22,
-  "n_total": 133,
+  "n_total": 134,
   "bull_share": 0.284
  },
  "items": [
@@ -1593,7 +1606,7 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT2NvZ09fUk1pQVc4d3hJb2czakUwcXJXSUJWV1RHcVVOUk56aTA4SE1xNG9MVmZPbkpTZmg0cGxoeXAwTDdBaVU3NVRkZE1JamVPWFFmekZXaE8xaVRtaFB3amRwTWozME1hRThUZnVoVnpCV1YzdlkwZVJNUDgyWnVieVRqTnJaX20zeTNKeXJCeVpXSnRvR1JZRW8?oc=5",
    "source": "Yahoo Finance",
    "published": "2026-11-09T10:14+00:00",
-   "age_h": 0.3,
+   "age_h": 0.4,
    "score": -2.0,
    "weighted": -1.66,
    "direction": "bearish",
@@ -1758,7 +1771,7 @@
    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxORmdpUHBmNlF4cWVDZzZOcXRzRnZWVHhUQlJiR1o3ckNxTVhaU1gxT192VmpWVXdpa3VQR0M2OU80YkNIVndqN2tqZ1RHa1I2VjBxZ1Vuck5FU0JDQzFUSkhqZXppR1puWnpoNlNaYWFzNlk1Qi1STGkzMENOQllnbExqSW95UWZXTUtHT3FfbTd1eHZlXzVvalNPWGltRUFWanlScEs1cGR2ZnhNQXhFZm9FaXFVV1R2TVBOaXp1azZXbWdVbm9FMzZUX0Y3MExWdVhlZmVuaHR0aVMxY3M4RmtGS2tIY045UnpSUDNPTUppazM1YXJiRkpmWTF5bTA3UVJRcTR5NlB1Qkk?oc=5",
    "source": "The Lufkin Daily News",
    "published": "2026-11-09T06:50+00:00",
-   "age_h": 3.7,
+   "age_h": 3.8,
    "score": 2.0,
    "weighted": 1.3,
    "direction": "bullish",
@@ -1917,7 +1930,7 @@
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUGdwdllvMERLVVFFV1E5Um1ZWFFjR1g2bTJDLUduM05scWJCdS1nc3F1SVVfaGhLbzJQTHhNbnFYRDJTX25Pc2VaR3VIV1dZVGw3eDJIQlhGSlNRMTlUc0NrTUJ4VTJGNVQtQVpWMFg4azBJbjdOZjVSeU16VDM2SldITTd5YW1ucXc?oc=5",
    "source": "Crypto News",
    "published": "2026-11-09T08:50+00:00",
-   "age_h": 1.7,
+   "age_h": 1.8,
    "score": -2.0,
    "weighted": -1.15,
    "direction": "bearish",
@@ -1958,9 +1971,9 @@
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMllWWUxyUVlDWHp1YV9LTU9mTjhFVEVBVmNyNEhILTJnRU1JdXVsdjkxQXFFZWRKYUQzMXRYUVVDQk1nX3FYU1BlY2RvUllzUnZRX2xpWDBuU0g4ck13ZVhQWGNsTkFnYTN2RExMSG44d3k5NThtT2JLSU5JanJURUY2aTVQY1dPVjFkc2hGOFJCd2dmM0l1WUJyeWU1RGgzMDNEZ1ZmOA?oc=5",
    "source": "EnergyNow",
    "published": "2026-11-09T08:15+00:00",
-   "age_h": 2.3,
+   "age_h": 2.4,
    "score": -2.0,
-   "weighted": -1.11,
+   "weighted": -1.1,
    "direction": "bearish",
    "strength": "sedang",
    "theme": "Energi dan geopolitik",
@@ -2036,7 +2049,7 @@
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KRzdObjluM0JGVmRBaUhiVkFfNUt3ZWlPREFVcnVvazhmWENOWV9aTWdvdUI0bzJFa3lsRVNwRGN1V3ZzVjExNU9UejdQYXBFSmdnNkdQbE5IRWkyZElUZ1Y1WHlVRGViQkZ2NHVycw?oc=5",
    "source": "digitimes",
    "published": "2026-11-09T06:33+00:00",
-   "age_h": 4.0,
+   "age_h": 4.1,
    "score": -2.0,
    "weighted": -0.98,
    "direction": "bearish",
@@ -2325,7 +2338,7 @@
    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOd2U5UWo5RDhXUndnV25uU0NESkZEWDZLMks3ck1XTlFQbW9EV3lKdng3S3FnZE42ekh0enpHQlgyZmpZUk9WQ0hnN295N0NGU2oydDdueWs5LWJaNmZyaUpEbHU5OUY2UEhfWXBfeEloTElYYXBrelo2M1hMR0ZBSTN4enp6b2FTU2NSb0dNbldsOGJad3ItanllbnpwRVpzakVvaWFMaTVmb3RmazN5Q1VMU1Z3Q3NhX3F1V2ZvM1Rjcl9LUVVKUm9odUIwQjJZVTc0Tld5SjlQSk4wa3lzQUItQQ?oc=5",
    "source": "The Globe and Mail",
    "published": "2026-11-08T22:20+00:00",
-   "age_h": 12.2,
+   "age_h": 12.3,
    "score": -2.8,
    "weighted": -0.78,
    "direction": "bearish",
@@ -2786,6 +2799,35 @@
    "theme_v1": null
   },
   {
+   "title": "AI Chip Stocks to Watch After TSMC and Nvidia Lift Sentiment",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMjdUbXBaVGdFUXdyemdEMjB3NzN3TnhIYTNscVdxajVQNnFmenk0cThJTnFtQ1NMRmxhdlNjU1V5U2Jfb2NmbklEM2hQVmpTM2Q3ejFnaTBIT0w3RkIyV3p1MWdWT0Zndy1XbTh6SUhBR3pONUZWX2RuX0pISXdwSkU5WmZ4N3cxdUZqLWg4OUdKM1U?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-11-09T10:08+00:00",
+   "age_h": 0.5,
+   "score": 0.0,
+   "weighted": 0.0,
+   "direction": "netral",
+   "strength": "lemah",
+   "theme": "Semikonduktor",
+   "fed_speak": false,
+   "sources_count": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "labels": [],
+   "impacts": [],
+   "who": [
+    "NVDA",
+    "TSM"
+   ],
+   "horizon": null,
+   "small": false,
+   "small_note": null,
+   "why": "Tidak ada pola dampak yang dikenali",
+   "tags": [],
+   "theme_v1": null
+  },
+  {
    "title": "Eurozone yields consolidate after U.S. payrolls shock",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZjdkRWcxVk0wV0tsN0hPVUNwVk9PbEoyWFFHODJrR3dodWxxam00MTdEU0xGYm5YRHYtWGEyazJndUtFelV3c3ZGLWJrUDVkY1U5SjkxYk1MdXdiZzU5NkxhNTI2MjFrb0JEVUZna2xPV1h0a1hLdnZsU05URml1M3U2QUJlaDVCOHp0RVNNeDI?oc=5",
    "source": "Yahoo Finance Singapore",
@@ -2971,35 +3013,6 @@
    "why": "Tidak ada pola dampak yang dikenali",
    "tags": [],
    "theme_v1": null
-  },
-  {
-   "title": "Nvidia’s Bad Week Could Be AMD’s Big Moment. Here’s Why",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVpCaDkwTGhxNUFLZTJ5VlN3dm9QOGx5aVVfYjB4dEcwckJ5VUtFbWZHTXV6SGFiX1JVb2JZMktkSUpGOUY2a0M0TjBQa3AyZ1RlOGc2OFJVT241NG5rNVJJX2N3ajVwbXNETjM3RG0zblJtVkNGUjBvbE4wYUhfa2QzLWpYTVIyajhCN3k4YkZGU2Vmc1p4M0pOWXBNWXPSAacBQVVfeXFMTjl6d0ZrSXNjSUVuVk5ZVHprVXVhVUFJT3BoUVhORTFrNTBwVFJubnZGcTg3WXhQNDA1MV9FVFFQWXlKd1F4QTZuM2FKblVCbWVaZmZxeC0zbnNIdVJfVU0wRWFBc2VVdWNKam01LXkxcjNZSXdhUlhlM0l3djEwamJQZzIza2ZvV3hOOHZBTWZUUUQzY0F1NHpfS0I0aG9UOFF1WUt6ekE?oc=5",
-   "source": "NDTV Profit",
-   "published": "2026-11-09T10:11+00:00",
-   "age_h": 0.4,
-   "score": 0.0,
-   "weighted": 0.0,
-   "direction": "netral",
-   "strength": "lemah",
-   "theme": "Semikonduktor",
-   "fed_speak": false,
-   "sources_count": 1,
-   "sources": [
-    "NDTV Profit"
-   ],
-   "labels": [],
-   "impacts": [],
-   "who": [
-    "NVDA",
-    "AMD"
-   ],
-   "horizon": null,
-   "small": false,
-   "small_note": null,
-   "why": "Tidak ada pola dampak yang dikenali",
-   "tags": [],
-   "theme_v1": null
   }
  ],
  "news_feed": [
@@ -3057,6 +3070,21 @@
    "direction": "netral",
    "sources": [
     "NDTV Profit"
+   ],
+   "theme": "Semikonduktor",
+   "label": null,
+   "why": null,
+   "fed": false
+  },
+  {
+   "title": "AI Chip Stocks to Watch After TSMC and Nvidia Lift Sentiment",
+   "source": "Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMjdUbXBaVGdFUXdyemdEMjB3NzN3TnhIYTNscVdxajVQNnFmenk0cThJTnFtQ1NMRmxhdlNjU1V5U2Jfb2NmbklEM2hQVmpTM2Q3ejFnaTBIT0w3RkIyV3p1MWdWT0Zndy1XbTh6SUhBR3pONUZWX2RuX0pISXdwSkU5WmZ4N3cxdUZqLWg4OUdKM1U?oc=5",
+   "published": "2026-11-09T10:08+00:00",
+   "score": 0.0,
+   "direction": "netral",
+   "sources": [
+    "Yahoo Finance"
    ],
    "theme": "Semikonduktor",
    "label": null,
