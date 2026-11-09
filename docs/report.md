@@ -1,40 +1,40 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T23:50:28+07:00 · sesi Senin 9 Nov (berjalan)_
+_Diperbarui 2026-11-09T23:51:28+07:00 · sesi Senin 9 Nov (berjalan)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 57%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 54%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,88% dari penutupan sebelumnya (27.865,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +6,35% dari penutupan sebelumnya (9.986,15). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,84): Skor rata-rata −0,67 dari 39 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,94% dari penutupan sebelumnya (7.545,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Minyak Brent** (+0,38): $93,81 (−4,59% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures Nasdaq-100** (+2,00): +2,89% dari penutupan sebelumnya (27.869,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +6,44% dari penutupan sebelumnya (9.994,99). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,92): Skor rata-rata −0,74 dari 36 kejadian bernilai; 37% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (+0,50): +1,96% dari penutupan sebelumnya (7.547,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Minyak Brent** (+0,38): $93,92 (−4,48% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,67 dari 39 kejadian bernilai; 39% bobot bullish | −0,56 | 30% | −0,84 |
-| Futures Nasdaq-100 | +2,88% dari penutupan sebelumnya (27.865,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,94% dari penutupan sebelumnya (7.545,25) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +6,35% dari penutupan sebelumnya (9.986,15) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,872% (+1,3 bp dari sesi sebelumnya) | −0,33 | 10% | −0,17 |
-| VIX (volatilitas) | 20,91 (−18,4% dari sesi sebelumnya); VXN (Nasdaq-100) 29,71 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $93,81 (−4,59% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Berita berbobot | skor rata-rata −0,74 dari 36 kejadian bernilai; 37% bobot bullish | −0,61 | 30% | −0,92 |
+| Futures Nasdaq-100 | +2,89% dari penutupan sebelumnya (27.869,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,96% dari penutupan sebelumnya (7.547,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +6,44% dari penutupan sebelumnya (9.994,99) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,868% (+0,9 bp dari sesi sebelumnya) | −0,23 | 10% | −0,12 |
+| VIX (volatilitas) | 20,95 (−18,3% dari sesi sebelumnya); VXN (Nasdaq-100) 29,71 | 0,00 | 10% | 0,00 |
+| Minyak Brent | $93,92 (−4,48% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,45% dari penutupan sebelumnya (101,84) | −1,12 | 5% | −0,28 |
-| Tren Nasdaq 5 sesi | +0,05% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | +0,03 | 5% | +0,01 |
+| Tren Nasdaq 5 sesi | +0,08% dalam 5 sesi; 9,2% di bawah puncak 52 minggu | +0,05 | 5% | +0,01 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 25.287 (+2,88%).
+Perkiraan pembukaan dari futures: 25.290 (+2,89%).
 Rentang wajar 1σ (VXN): 24.119 sampai 25.039.
 
 ## Berita paling berdampak
 - **−2,7** Treasury Yields Rise on Strong Jobs Data (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,9** Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,6** CoreWeave Stock Drops (CRWV) as Bond Yields Top 16% as Debt and Texas Data Center Risks Mount Ahead of Earnings (TipRanks). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,6** Stock Market Today: Dow, S&P 500 Futures Rise Despite Nvidia Sell-Off Over Jensen Huang Controversy — NVD (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,5** Stock Market Today: Dow, S&P 500 Futures Rise Despite Nvidia Sell-Off Over Jensen Huang Controversy — NVD (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Tesla China Sales Sink To Four-Year Low; Robotaxi Launches New Market (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Dell and HPE Were AI Winners Until the Selloff. Can Earnings Put Them Back on Track? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Dow Jones Futures Rise; Nvidia Tumbles As Board Probes CEO Jensen Huang Spying Case (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
