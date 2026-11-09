@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T09:59:24+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T10:00:24+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **39%**, turun **61%** (skor −3,7 dari ±10, keyakinan 60%, 46% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **40%**, turun **60%** (skor −3,5 dari ±10, keyakinan 60%, 46% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,32): +0,66% dari penutupan sebelumnya (27.263,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,26): +0,63% dari penutupan sebelumnya (27.256,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures S&P 500** (+0,37): +0,59% dari penutupan sebelumnya (7.445,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,35): +0,57% dari penutupan sebelumnya (7.444,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,02 dari 27 kejadian bernilai; 50% bobot bullish | +0,02 | 30% | +0,03 |
-| Futures Nasdaq-100 | +0,66% dari penutupan sebelumnya (27.263,50) | +1,32 | 20% | +1,32 |
-| Futures S&P 500 | +0,59% dari penutupan sebelumnya (7.445,75) | +1,47 | 5% | +0,37 |
+| Berita berbobot | skor rata-rata +0,25 dari 26 kejadian bernilai; 54% bobot bullish | +0,21 | 30% | +0,32 |
+| Futures Nasdaq-100 | +0,63% dari penutupan sebelumnya (27.256,50) | +1,26 | 20% | +1,26 |
+| Futures S&P 500 | +0,57% dari penutupan sebelumnya (7.444,50) | +1,42 | 5% | +0,35 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $98,03 (−0,29% dari sesi sebelumnya) | +0,14 | 5% | +0,04 |
+| Minyak Brent | $98,15 (−0,17% dari sesi sebelumnya) | +0,09 | 5% | +0,02 |
 | Indeks dolar | −0,14% dari penutupan sebelumnya (102,16) | −0,35 | 5% | −0,09 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.742 (+0,66%).
+Perkiraan pembukaan dari futures: 24.734 (+0,63%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
@@ -36,11 +36,11 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,3** Australian Stock Market Today: ASX Futures Edge Up As Fed Rate Hike Odds Rise (Simply Wall St). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** This Semiconductor ETF Just Had Its Worst Day Since March 2020 (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,3** CD Rates Climb as Bond Yields Fall, Squeezing Small Firms (Seoul Economic Daily). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,3** Middle East latest: Trump plays down prospect of new strikes on Iran (The National). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
+- **+1,3** Oil Prices Fall After Trump Signals Little Likelihood Of Fresh Iran Strikes (BW Businessworld). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,2** Palantir AMD Earnings: $2.31B, $13.38B Beats [2026] (https://tech-insider.org/). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,1** Oil falls on open as Trump says fresh Iran attacks 'unlikely' (The Economic Times). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,1** Brent falls 64 cents on November 9 as Trump calls new Iran strikes unlikely if talks progress (Nation Thailand). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **+1,1** OCBC Sees US Treasury Yields At Lower Levels After Bond Rally (BusinessToday Malaysia). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **+1,0** OCBC Sees US Treasury Yields At Lower Levels After Bond Rally (BusinessToday Malaysia). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,0** US jobs report: Does America’s new jobs era point to a December rate hike? (Sharecafe). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,8** How sustainable is the AI investment boom after Thursday’s selloff? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
