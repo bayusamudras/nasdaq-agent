@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T23:46:18+07:00 · sesi Senin 9 Nov (berjalan)_
+_Diperbarui 2026-11-09T23:47:18+07:00 · sesi Senin 9 Nov (berjalan)_
 
 Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 57%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 24.119 sampai 25.040.
 - **+1,4** Constellation Energy Raises 2026 Earnings Outlook After Q3 Beat — CEO Highlights Growing Demand For Reliable Power (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed (Investor's Business Daily). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,4** AI’s Giant Fundraisers Test the Market After Midterm Rout (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,2** Oil Falls on Reported $8 Billion US-Iran Hormuz Deal: What Happens to Bitcoin? (BeInCrypto). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **+1,1** Oil Falls on Reported $8 Billion US-Iran Hormuz Deal: What Happens to Bitcoin? (BeInCrypto). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
