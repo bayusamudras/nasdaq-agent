@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-09T13:04:33+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T13:05:32+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **34%**, turun **66%** (skor −5,2 dari ±10, keyakinan 70%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **34%**, turun **66%** (skor −5,3 dari ±10, keyakinan 77%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -15,18 +15,18 @@ Peluang indeks naik **34%**, turun **66%** (skor −5,2 dari ±10, keyakinan 70%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,31 dari 29 kejadian bernilai; 44% bobot bullish | −0,26 | 30% | −0,39 |
-| Futures Nasdaq-100 | +0,13% dari penutupan sebelumnya (27.120,50) | +0,26 | 20% | +0,26 |
-| Futures S&P 500 | +0,38% dari penutupan sebelumnya (7.430,25) | +0,95 | 5% | +0,24 |
+| Futures Nasdaq-100 | +0,11% dari penutupan sebelumnya (27.115,25) | +0,22 | 20% | +0,22 |
+| Futures S&P 500 | +0,37% dari penutupan sebelumnya (7.429,50) | +0,92 | 5% | +0,23 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $97,00 (−1,34% dari sesi sebelumnya) | +0,67 | 5% | +0,17 |
+| Minyak Brent | $97,07 (−1,27% dari sesi sebelumnya) | +0,64 | 5% | +0,16 |
 | Indeks dolar | −0,18% dari penutupan sebelumnya (102,11) | −0,45 | 5% | −0,11 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.611 (+0,13%).
+Perkiraan pembukaan dari futures: 24.606 (+0,11%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
