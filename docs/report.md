@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T17:12:57+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T17:13:57+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 62%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,136–27,196. Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu). Skor dipangkas dari -5.5 menjadi -2.0.
+**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,136–27,196. Liquidity sweep di bawah 26,805 lalu ditolak (4 jam lalu). Skor dipangkas dari -5.6 menjadi -2.0.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,69): Skor rata-rata −0,56 dari 22 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,75): Skor rata-rata −0,60 dari 21 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,60): 23,94 (−6,6% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures Nasdaq-100** (+0,46): +0,23% dari penutupan sebelumnya (27.147,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+0,44): +0,22% dari penutupan sebelumnya (27.145,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,56 dari 22 kejadian bernilai; 40% bobot bullish | −0,46 | 30% | −0,69 |
-| Futures Nasdaq-100 | +0,23% dari penutupan sebelumnya (27.147,75) | +0,46 | 20% | +0,46 |
-| Futures S&P 500 | +0,40% dari penutupan sebelumnya (7.431,50) | +1,00 | 5% | +0,25 |
+| Berita berbobot | skor rata-rata −0,60 dari 21 kejadian bernilai; 39% bobot bullish | −0,50 | 30% | −0,75 |
+| Futures Nasdaq-100 | +0,22% dari penutupan sebelumnya (27.145,00) | +0,44 | 20% | +0,44 |
+| Futures S&P 500 | +0,41% dari penutupan sebelumnya (7.432,00) | +1,02 | 5% | +0,26 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 23,94 (−6,6% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $97,41 (−0,93% dari sesi sebelumnya) | +0,47 | 5% | +0,12 |
-| Indeks dolar | −0,45% dari penutupan sebelumnya (101,84) | −1,12 | 5% | −0,28 |
+| Minyak Brent | $97,44 (−0,90% dari sesi sebelumnya) | +0,45 | 5% | +0,11 |
+| Indeks dolar | −0,46% dari penutupan sebelumnya (101,83) | −1,15 | 5% | −0,29 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.636 (+0,23%).
+Perkiraan pembukaan dari futures: 24.634 (+0,22%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
@@ -36,7 +36,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,6** AI Stocks Tumble but the Dollar Stands Firm: Barclays Flags Three Cracks in the Capex Story (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,4** Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,3** Oil falls as Trump signals restraint on Iran amid fresh Hormuz shipping attacks (The Lufkin Daily News). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−1,3** Adani Enterprises stock plans INR 35,000-40,000 crore annual capex (ad-hoc-news.de). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,2** Adani Enterprises stock plans INR 35,000-40,000 crore annual capex (ad-hoc-news.de). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,2** President Donald Trump Just Called Nov. 5 One of the Stock Market's "Worst Days in History" Due to Election Results -- but Warning Signs Have Been Apparent for Months (AOL.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Big Tech Faces Tougher Scrutiny of AI Spending After Selloff (PYMNTS.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Can crypto recover if US inflation keeps rate hike bets alive? (Crypto News). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
