@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T06:15:03+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T06:16:03+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,1 dari ±10, keyakinan 53%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 53%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +3,56% dari penutupan sebelumnya (28.050,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,60): Skor rata-rata −0,48 dari 47 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,53): Skor rata-rata −0,42 dari 48 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +2,37% dari penutupan sebelumnya (7.577,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Indeks dolar** (−0,39): −0,62% dari penutupan sebelumnya (101,67). Dolar menguat, mengetatkan kondisi keuangan dan menekan laba multinasional.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,48 dari 47 kejadian bernilai; 45% bobot bullish | −0,40 | 30% | −0,60 |
+| Berita berbobot | skor rata-rata −0,42 dari 48 kejadian bernilai; 46% bobot bullish | −0,35 | 30% | −0,53 |
 | Futures Nasdaq-100 | +3,56% dari penutupan sebelumnya (28.050,00) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +2,37% dari penutupan sebelumnya (7.577,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
