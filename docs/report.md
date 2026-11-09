@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T12:40:22+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T12:41:22+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 69%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -37,12 +37,12 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,3** 3 Stocks Riding The Export Control Boom In AI Hardware (Simply Wall St). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,3** CoreWeave Bond Yield Tops 16%, Sounding Alarm on AI Data Center Debt Risk (BigGo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,2** China extends suspension of 24% additional tariff on US imports for two months, retains 10% rate (Global Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,2** Oil dips again on Iran talks hopes, but physical Gulf crude climbs (Gulf News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−1,1** Oil dips again on Iran talks hopes, but physical Gulf crude climbs (Gulf News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,1** Blue wave jitters hit chip stocks as AI capex merely slows, not stops (Chosunbiz). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,1** This Semiconductor ETF Just Had Its Worst Day Since March 2020 (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Robust non-farm payrolls data heightens rate hike expectations; the U.S. Dollar Index and USD/JPY pair face a critical test with the upcoming U.S. October CPI release. (Moomoo). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,1** CD Rates Climb as Bond Yields Fall, Squeezing Small Firms (Seoul Economic Daily). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,1** Kevin Warsh's Expected Rate Hike Is a Warning to Retirees That the Fed Won't Rescue Stocks (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,0** Kevin Warsh's Expected Rate Hike Is a Warning to Retirees That the Fed Won't Rescue Stocks (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
