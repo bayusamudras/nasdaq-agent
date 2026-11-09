@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T20:55:19+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T20:56:20+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −3,9 dari ±10, keyakinan 54%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 54%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober; Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,66): +0,83% dari penutupan sebelumnya (27.309,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,70): +0,85% dari penutupan sebelumnya (27.314,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,31): Skor rata-rata −1,04 dari 32 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 23,14 (−9,8% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (+0,50): +0,82% dari penutupan sebelumnya (7.463,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (−0,60): 23,18 (−9,6% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (+0,50): +0,84% dari penutupan sebelumnya (7.464,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,04 dari 32 kejadian bernilai; 31% bobot bullish | −0,87 | 30% | −1,31 |
-| Futures Nasdaq-100 | +0,83% dari penutupan sebelumnya (27.309,00) | +1,66 | 20% | +1,66 |
-| Futures S&P 500 | +0,82% dari penutupan sebelumnya (7.463,00) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +0,85% dari penutupan sebelumnya (27.314,25) | +1,70 | 20% | +1,70 |
+| Futures S&P 500 | +0,84% dari penutupan sebelumnya (7.464,00) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,843% (−1,6 bp dari sesi sebelumnya) | +0,40 | 10% | +0,20 |
-| VIX (volatilitas) | 23,14 (−9,8% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $94,34 (−4,05% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,42% dari penutupan sebelumnya (101,87) | −1,05 | 5% | −0,26 |
+| Yield obligasi 10 tahun | 4,839% (−2,0 bp dari sesi sebelumnya) | +0,50 | 10% | +0,25 |
+| VIX (volatilitas) | 23,18 (−9,6% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $94,43 (−3,96% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,43% dari penutupan sebelumnya (101,86) | −1,07 | 5% | −0,27 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.783 (+0,83%).
+Perkiraan pembukaan dari futures: 24.788 (+0,85%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,4** Does a Hot Jobs Report Guarantee a December Rate Hike? (The Daily Upside). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,3** Oil falls as Trump signals restraint on Iran despite fresh shipping attacks (Yahoo Finance). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,3** Stock Market Correction Or Crash? 3 Charts For The Week Ahead After The AI Sell-Off (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,3** AI Stocks Tumble but the Dollar Stands Firm: Barclays Flags Three Cracks in the Capex Story (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,2** AI Stocks Tumble but the Dollar Stands Firm: Barclays Flags Three Cracks in the Capex Story (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,2** Oil prices today: Brent crude, WTI fall as Trump rules out fresh Iran strikes amid Strait of Hormuz concerns | Hindustan Times (Hindustan Times). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 
 ## Kalender risiko
