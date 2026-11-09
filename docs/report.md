@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-09T14:08:50+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T14:09:50+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **32%**, turun **68%** (skor −5,8 dari ±10, keyakinan 78%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -15,29 +15,29 @@ Peluang indeks naik **32%**, turun **68%** (skor −5,8 dari ±10, keyakinan 78%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,41 dari 27 kejadian bernilai; 43% bobot bullish | −0,34 | 30% | −0,51 |
-| Futures Nasdaq-100 | −0,09% dari penutupan sebelumnya (27.060,50) | −0,18 | 20% | −0,18 |
+| Futures Nasdaq-100 | −0,08% dari penutupan sebelumnya (27.063,25) | −0,16 | 20% | −0,16 |
 | Futures S&P 500 | +0,29% dari penutupan sebelumnya (7.423,25) | +0,72 | 5% | +0,18 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $96,79 (−1,56% dari sesi sebelumnya) | +0,78 | 5% | +0,20 |
-| Indeks dolar | −0,23% dari penutupan sebelumnya (102,06) | −0,57 | 5% | −0,14 |
+| Minyak Brent | $96,77 (−1,58% dari sesi sebelumnya) | +0,79 | 5% | +0,20 |
+| Indeks dolar | −0,24% dari penutupan sebelumnya (102,06) | −0,60 | 5% | −0,15 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.557 (−0,09%).
+Perkiraan pembukaan dari futures: 24.560 (−0,08%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
 - **−2,6** Does a Hot Jobs Report Guarantee a December Rate Hike? (The Daily Upside). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,0** AI Stocks Tumble but the Dollar Stands Firm: Barclays Flags Three Cracks in the Capex Story (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,7** Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,3** Oil falls as Trump signals restraint on Iran amid fresh Hormuz shipping attacks (The Lufkin Daily News). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−1,2** 3 Stocks Riding The Export Control Boom In AI Hardware (Simply Wall St). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **+1,3** Oil falls as Trump signals restraint on Iran amid fresh Hormuz shipping attacks (Central Oregon Daily). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **−1,1** 3 Stocks Riding The Export Control Boom In AI Hardware (Simply Wall St). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** CoreWeave Bond Yield Tops 16%, Sounding Alarm on AI Data Center Debt Risk (BigGo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,1** Oil Falls as Trump Calls New Iran Strikes ‘Highly Unlikely’ (JournalArta). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−1,1** China extends suspension of 24% additional tariff on US imports for two months, retains 10% rate (Global Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,0** China extends suspension of 24% additional tariff on US imports for two months, retains 10% rate (Global Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,0** Oil dips again on Iran talks hopes, but physical Gulf crude climbs (Gulf News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,0** Blue wave jitters hit chip stocks as AI capex merely slows, not stops (Chosunbiz). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,0** Australian Stock Market Today: ASX Futures Edge Up As Fed Rate Hike Odds Rise (Simply Wall St). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
