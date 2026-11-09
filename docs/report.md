@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-09T08:05:41+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T08:06:41+07:00 · sesi Senin 9 Nov (pra-buka)_
 
-Peluang indeks naik **33%**, turun **67%** (skor −5,3 dari ±10, keyakinan 71%, 62% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **34%**, turun **66%** (skor −5,3 dari ±10, keyakinan 71%, 62% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -13,19 +13,19 @@ Peluang indeks naik **33%**, turun **67%** (skor −5,3 dari ±10, keyakinan 71%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,07 dari 26 kejadian bernilai; 47% bobot bullish | −0,06 | 30% | −0,09 |
-| Futures Nasdaq-100 | +0,02% dari penutupan sebelumnya (27.091,75) | +0,04 | 20% | +0,04 |
-| Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.414,75) | +0,42 | 5% | +0,11 |
+| Berita berbobot | skor rata-rata −0,01 dari 26 kejadian bernilai; 48% bobot bullish | −0,01 | 30% | −0,01 |
+| Futures Nasdaq-100 | +0,01% dari penutupan sebelumnya (27.087,75) | +0,02 | 20% | +0,02 |
+| Futures S&P 500 | +0,18% dari penutupan sebelumnya (7.415,00) | +0,45 | 5% | +0,11 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $97,99 (−0,34% dari sesi sebelumnya) | +0,17 | 5% | +0,04 |
+| Minyak Brent | $98,01 (−0,32% dari sesi sebelumnya) | +0,16 | 5% | +0,04 |
 | Indeks dolar | −0,08% dari penutupan sebelumnya (102,22) | −0,20 | 5% | −0,05 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.584 (+0,02%).
+Perkiraan pembukaan dari futures: 24.582 (+0,01%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
@@ -38,7 +38,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **+1,2** Brent falls 64 cents on November 9 as Trump calls new Iran strikes unlikely if talks progress (Nation Thailand). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,2** OCBC Sees US Treasury Yields At Lower Levels After Bond Rally (BusinessToday Malaysia). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,2** US jobs report: Does America’s new jobs era point to a December rate hike? (Sharecafe). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,0** How sustainable is the AI investment boom after Thursday’s selloff? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,9** How sustainable is the AI investment boom after Thursday’s selloff? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Fed grows more hawkish on inflation but sees room to wait on rate hikes (KRCR). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** Markets Are Pricing in a Fed Rate Hike in December. Here's What Investors Should Do, According to History. (Yahoo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
