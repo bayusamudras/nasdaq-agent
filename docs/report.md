@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T15:18:17+07:00 · sesi Senin 9 Nov (pra-buka)_
+_Diperbarui 2026-11-09T15:19:17+07:00 · sesi Senin 9 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,126–27,144. Liquidity sweep di bawah 26,805 lalu ditolak (2 jam lalu). Skor dipangkas dari -7.1 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,30): −0,65% dari penutupan sebelumnya (26.910,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,26): −0,63% dari penutupan sebelumnya (26.914,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +4,21% dari penutupan sebelumnya (9.390,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Berita berbobot** (−0,51): Skor rata-rata −0,41 dari 27 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Berita berbobot** (−0,41): Skor rata-rata −0,33 dari 26 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,33 dari 26 kejadian bernilai; 43% bobot bullish | −0,27 | 30% | −0,41 |
-| Futures Nasdaq-100 | −0,65% dari penutupan sebelumnya (26.910,50) | −1,30 | 20% | −1,30 |
-| Futures S&P 500 | +0,03% dari penutupan sebelumnya (7.404,50) | +0,07 | 5% | +0,02 |
+| Berita berbobot | skor rata-rata −0,41 dari 27 kejadian bernilai; 41% bobot bullish | −0,34 | 30% | −0,51 |
+| Futures Nasdaq-100 | −0,63% dari penutupan sebelumnya (26.914,25) | −1,26 | 20% | −1,26 |
+| Futures S&P 500 | +0,04% dari penutupan sebelumnya (7.405,25) | +0,10 | 5% | +0,03 |
 | Semikonduktor (SOX) | +4,21% dari penutupan sebelumnya (9.390,25) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,859% (+2,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
 | VIX (volatilitas) | 25,64 (−9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,02 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $96,75 (−1,60% dari sesi sebelumnya) | +0,80 | 5% | +0,20 |
+| Minyak Brent | $96,86 (−1,48% dari sesi sebelumnya) | +0,74 | 5% | +0,19 |
 | Indeks dolar | −0,33% dari penutupan sebelumnya (101,96) | −0,82 | 5% | −0,20 |
 | Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 24.420 (−0,65%).
+Perkiraan pembukaan dari futures: 24.425 (−0,63%).
 Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 24.053 sampai 25.106.
 - **−1,1** 3 Stocks Riding The Export Control Boom In AI Hardware (Simply Wall St). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** CoreWeave Bond Yield Tops 16%, Sounding Alarm on AI Data Center Debt Risk (BigGo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,0** China extends suspension of 24% additional tariff on US imports for two months, retains 10% rate (Global Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,9** Blue wave jitters hit chip stocks as AI capex merely slows, not stops (Chosunbiz). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,0** Oil dips again on Iran talks hopes, but physical Gulf crude climbs (Gulf News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
