@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T00:47:48+07:00 · sesi Senin 9 Nov (berjalan)_
+_Diperbarui 2026-11-10T00:48:47+07:00 · sesi Senin 9 Nov (berjalan)_
 
 Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 57%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +3,24% dari penutupan sebelumnya (27.962,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +6,34% dari penutupan sebelumnya (9.985,25). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +3,23% dari penutupan sebelumnya (27.959,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +6,45% dari penutupan sebelumnya (9.995,92). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,80): Skor rata-rata −0,64 dari 38 kejadian bernilai; 37% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +2,27% dari penutupan sebelumnya (7.570,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Minyak Brent** (+0,38): $93,55 (−4,85% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
@@ -16,24 +16,24 @@ Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 57%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,64 dari 38 kejadian bernilai; 37% bobot bullish | −0,53 | 30% | −0,80 |
-| Futures Nasdaq-100 | +3,24% dari penutupan sebelumnya (27.962,50) | +2,00 | 20% | +2,00 |
+| Futures Nasdaq-100 | +3,23% dari penutupan sebelumnya (27.959,00) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +2,27% dari penutupan sebelumnya (7.570,25) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +6,34% dari penutupan sebelumnya (9.985,25) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,878% (+1,9 bp dari sesi sebelumnya) | −0,47 | 10% | −0,23 |
-| VIX (volatilitas) | 20,21 (−21,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,15 | 0,00 | 10% | 0,00 |
+| Semikonduktor (SOX) | +6,45% dari penutupan sebelumnya (9.995,92) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,876% (+1,7 bp dari sesi sebelumnya) | −0,42 | 10% | −0,21 |
+| VIX (volatilitas) | 20,17 (−21,3% dari sesi sebelumnya); VXN (Nasdaq-100) 29,14 | 0,00 | 10% | 0,00 |
 | Minyak Brent | $93,55 (−4,85% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,49% dari penutupan sebelumnya (101,80) | −1,22 | 5% | −0,30 |
-| Tren Nasdaq 5 sesi | +0,15% dalam 5 sesi; 9,1% di bawah puncak 52 minggu | +0,10 | 5% | +0,03 |
+| Tren Nasdaq 5 sesi | +0,22% dalam 5 sesi; 9,0% di bawah puncak 52 minggu | +0,15 | 5% | +0,04 |
 
 ## Level hari ini
 Pivot 24.638; resistensi 24.767 / 24.955; support 24.450 / 24.320.
-Perkiraan pembukaan dari futures: 25.376 (+3,24%).
+Perkiraan pembukaan dari futures: 25.373 (+3,23%).
 Rentang wajar 1σ (VXN): 24.128 sampai 25.031.
 
 ## Berita paling berdampak
 - **+2,6** Dow Rallies 600 Points as Oil Slides, Nvidia Drops on Huang Probe (JournalArta). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,8** Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−1,8** ‘SOXL’ surges 20% as NVIDIA plunges 9% intraday... “Replacing Jensen Huang is the biggest uncertainty” (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,7** ‘SOXL’ surges 20% as NVIDIA plunges 9% intraday... “Replacing Jensen Huang is the biggest uncertainty” (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** CoreWeave Stock Drops (CRWV) as Bond Yields Top 16% as Debt and Texas Data Center Risks Mount Ahead of Earnings (TipRanks). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,4** Stock Market Today: Dow, S&P 500 Futures Rise Despite Nvidia Sell-Off Over Jensen Huang Controversy — NVD (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Overall Tesla China Sales Rise 10%, Sales Inside China Sink To 4-Year Low; Robotaxi Launches New Market (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
