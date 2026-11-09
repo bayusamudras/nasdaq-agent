@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-09T23:47:18+07:00 · sesi Senin 9 Nov (berjalan)_
+_Diperbarui 2026-11-09T23:48:18+07:00 · sesi Senin 9 Nov (berjalan)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 57%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **45%**, turun **55%** (skor −2,3 dari ±10, keyakinan 56%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +2,78% dari penutupan sebelumnya (27.837,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +6,08% dari penutupan sebelumnya (9.961,22). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,83): Skor rata-rata −0,66 dari 40 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,69): Skor rata-rata −0,56 dari 38 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +1,88% dari penutupan sebelumnya (7.541,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Minyak Brent** (+0,38): $93,70 (−4,70% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,66 dari 40 kejadian bernilai; 38% bobot bullish | −0,55 | 30% | −0,83 |
+| Berita berbobot | skor rata-rata −0,56 dari 38 kejadian bernilai; 41% bobot bullish | −0,46 | 30% | −0,69 |
 | Futures Nasdaq-100 | +2,78% dari penutupan sebelumnya (27.837,50) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +1,88% dari penutupan sebelumnya (7.541,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +6,08% dari penutupan sebelumnya (9.961,22) | +2,00 | 10% | +1,00 |
