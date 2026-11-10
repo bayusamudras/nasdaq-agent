@@ -1,27 +1,27 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-11T00:53:29+07:00 · sesi Selasa 10 Nov (berjalan)_
+_Diperbarui 2026-11-11T00:54:30+07:00 · sesi Selasa 10 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,60% dari penutupan sebelumnya (27.567,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,26): Skor rata-rata −1,01 dari 33 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −1,60% dari penutupan sebelumnya (27.567,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,32): Skor rata-rata −1,05 dari 34 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,013% (+14,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Semikonduktor (SOX)** (−0,94): −1,87% dari penutupan sebelumnya (9.846,22). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −0,94% dari penutupan sebelumnya (7.503,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Semikonduktor (SOX)** (−0,90): −1,80% dari penutupan sebelumnya (9.853,22). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −0,94% dari penutupan sebelumnya (7.503,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,01 dari 33 kejadian bernilai; 29% bobot bullish | −0,84 | 30% | −1,26 |
-| Futures Nasdaq-100 | −1,60% dari penutupan sebelumnya (27.567,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,94% dari penutupan sebelumnya (7.503,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,87% dari penutupan sebelumnya (9.846,22) | −1,87 | 10% | −0,94 |
+| Berita berbobot | skor rata-rata −1,05 dari 34 kejadian bernilai; 28% bobot bullish | −0,88 | 30% | −1,32 |
+| Futures Nasdaq-100 | −1,60% dari penutupan sebelumnya (27.567,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,94% dari penutupan sebelumnya (7.503,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,80% dari penutupan sebelumnya (9.853,22) | −1,80 | 10% | −0,90 |
 | Yield obligasi 10 tahun | 5,013% (+14,9 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 21,08 (+5,8% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $91,81 (−0,82% dari sesi sebelumnya) | +0,41 | 5% | +0,10 |
-| Indeks dolar | +0,68% dari penutupan sebelumnya (102,34) | +1,70 | 5% | +0,43 |
-| Tren Nasdaq 5 sesi | −1,91% dalam 5 sesi; 10,2% di bawah puncak 52 minggu | −1,77 | 5% | −0,44 |
+| VIX (volatilitas) | 21,16 (+6,2% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $91,79 (−0,84% dari sesi sebelumnya) | +0,42 | 5% | +0,11 |
+| Indeks dolar | +0,67% dari penutupan sebelumnya (102,33) | +1,68 | 5% | +0,42 |
+| Tren Nasdaq 5 sesi | −1,88% dalam 5 sesi; 10,2% di bawah puncak 52 minggu | −1,75 | 5% | −0,44 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
@@ -30,7 +30,6 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
 - **−3,1** US Treasury yields jump after stronger-than-expected inflation, Fed rate hike signals (Anadolu Ajansı). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−3,0** Wall Street’s Selloff May Spare The Fed More Rate Hikes Next Year (The Wealth Advisor). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,4** Fed's Waller plans to support at least a quarter-point rate hike in December (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,2** Fed's Logan calls for two more rate hikes, possibly rapidly (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,8** Treasury Yields Turn Higher on Fed’s Waller Comments; Eurozone Bond Yields Fall (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
@@ -41,6 +40,7 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−1,4** 10-year Treasury yield jumps as hot inflation lifts rate-hike odds: AlphaCheck (Yahoo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,3** Treasury yields climb across the curve after the latest inflation print (Seeking Alpha). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,2** Brent crude dips below $90 for first time since August on Iran war de-escalation hopes (CNBC). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **−1,2** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
