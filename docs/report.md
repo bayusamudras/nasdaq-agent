@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-11T06:14:15+07:00 · sesi Rabu 11 Nov (pra-buka)_
+_Diperbarui 2026-11-11T06:15:14+07:00 · sesi Rabu 11 Nov (pra-buka)_
 
 Peluang indeks naik **22%**, turun **78%** (skor −8,8 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -28,7 +28,7 @@ Perkiraan pembukaan dari futures: 24.920 (−0,58%).
 Rentang wajar 1σ (VXN): 24.608 sampai 25.523.
 
 ## Berita paling berdampak
-- **−5,1** Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes (Bloomberg.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−5,0** Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes (Bloomberg.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−3,6** Bond yields surge most in 19 months as traders brace for Fed rate hikes (KTEN). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,2** US Treasury yields surge as hot CPI revives Fed tightening bets (Yahoo Finance Singapore). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−2,2** US Treasury yields jump after stronger-than-expected inflation, Fed rate hike signals (Anadolu Ajansı). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
