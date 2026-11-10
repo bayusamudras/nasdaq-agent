@@ -1,26 +1,26 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T16:03:09+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T16:04:09+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 69%, 69% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Berita berbobot** (−1,41): Skor rata-rata −1,13 dari 40 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,40): Skor rata-rata −1,12 dari 40 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Minyak Brent** (+0,36): $89,89 (−2,90% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,36): $89,87 (−2,92% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,13 dari 40 kejadian bernilai; 32% bobot bullish | −0,94 | 30% | −1,41 |
-| Futures Nasdaq-100 | +0,01% dari penutupan sebelumnya (28.016,25) | +0,02 | 20% | +0,02 |
-| Futures S&P 500 | +0,22% dari penutupan sebelumnya (7.590,75) | +0,55 | 5% | +0,14 |
+| Berita berbobot | skor rata-rata −1,12 dari 40 kejadian bernilai; 31% bobot bullish | −0,93 | 30% | −1,40 |
+| Futures Nasdaq-100 | +0,01% dari penutupan sebelumnya (28.017,75) | +0,02 | 20% | +0,02 |
+| Futures S&P 500 | +0,21% dari penutupan sebelumnya (7.590,25) | +0,52 | 5% | +0,13 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
-| VIX (volatilitas) | 19,73 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $89,89 (−2,90% dari sesi sebelumnya) | +1,45 | 5% | +0,36 |
-| Indeks dolar | −0,15% dari penutupan sebelumnya (101,50) | −0,37 | 5% | −0,09 |
+| VIX (volatilitas) | 19,72 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $89,87 (−2,92% dari sesi sebelumnya) | +1,46 | 5% | +0,36 |
+| Indeks dolar | −0,14% dari penutupan sebelumnya (101,51) | −0,35 | 5% | −0,09 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
@@ -35,7 +35,7 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−1,2** CoreWeave bond yield tops 16% as AI credit stress builds (news.lavx.hu). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,1** Stock Market Today, Nov. 9: Nvidia Stock Plunges 4% on Jensen Huang Investigation as Nasdaq Surges Nearly 3% (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Fed rate hike may not be ‘one and done’ if AI boom fuels inflation (TheStreet). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,1** Dow Adds 1,104 Points Even as Nvidia Sinks: Stock Market Today (Kiplinger). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** Dow Adds 1,104 Points Even as Nvidia Sinks: Stock Market Today (Kiplinger). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** China’s trade surplus tops $1 trillion in 10 months, stoking tariff risks (Chosunbiz). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,0** Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,9** Oil Futures Slide as Trump Says New Strikes on Iran Unlikely (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
