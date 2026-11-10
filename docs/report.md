@@ -1,32 +1,31 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T22:08:24+07:00 · sesi Selasa 10 Nov (berjalan)_
+_Diperbarui 2026-11-10T22:09:23+07:00 · sesi Selasa 10 Nov (berjalan)_
 
-Peluang indeks naik **29%**, turun **71%** (skor −6,6 dari ±10, keyakinan 78%, 80% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **29%**, turun **71%** (skor −6,5 dari ±10, keyakinan 76%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Yield obligasi 10 tahun** (−1,00): 4,992% (+12,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Berita berbobot** (−0,93): Skor rata-rata −0,75 dari 32 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+0,69): +1,37% dari penutupan sebelumnya (10.171,46). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures Nasdaq-100** (−0,32): −0,16% dari penutupan sebelumnya (27.968,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,01): Skor rata-rata −0,80 dari 33 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Yield obligasi 10 tahun** (−1,00): 4,987% (+12,3 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Semikonduktor (SOX)** (+0,56): +1,13% dari penutupan sebelumnya (10.147,69). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,75 dari 32 kejadian bernilai; 36% bobot bullish | −0,62 | 30% | −0,93 |
-| Futures Nasdaq-100 | −0,16% dari penutupan sebelumnya (27.968,50) | −0,32 | 20% | −0,32 |
-| Futures S&P 500 | −0,40% dari penutupan sebelumnya (7.543,75) | −1,00 | 5% | −0,25 |
-| Semikonduktor (SOX) | +1,37% dari penutupan sebelumnya (10.171,46) | +1,37 | 10% | +0,69 |
-| Yield obligasi 10 tahun | 4,992% (+12,8 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 20,85 (+4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $90,74 (−1,98% dari sesi sebelumnya) | +0,99 | 5% | +0,25 |
-| Indeks dolar | +0,43% dari penutupan sebelumnya (102,09) | +1,07 | 5% | +0,27 |
-| Tren Nasdaq 5 sesi | −0,43% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | −0,29 | 5% | −0,07 |
+| Berita berbobot | skor rata-rata −0,80 dari 33 kejadian bernilai; 34% bobot bullish | −0,67 | 30% | −1,01 |
+| Futures Nasdaq-100 | −0,01% dari penutupan sebelumnya (28.010,50) | −0,02 | 20% | −0,02 |
+| Futures S&P 500 | −0,33% dari penutupan sebelumnya (7.549,50) | −0,82 | 5% | −0,20 |
+| Semikonduktor (SOX) | +1,13% dari penutupan sebelumnya (10.147,69) | +1,13 | 10% | +0,56 |
+| Yield obligasi 10 tahun | 4,987% (+12,3 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
+| VIX (volatilitas) | 20,72 (+4,0% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $90,71 (−2,01% dari sesi sebelumnya) | +1,00 | 5% | +0,25 |
+| Indeks dolar | +0,44% dari penutupan sebelumnya (102,10) | +1,10 | 5% | +0,28 |
+| Tren Nasdaq 5 sesi | −0,50% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | −0,33 | 5% | −0,08 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 25.213 (−0,16%).
+Perkiraan pembukaan dari futures: 25.251 (−0,01%).
 Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
@@ -37,11 +36,11 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−2,0** Fed's Waller says a half-point rate hike could come in December (Startup Fortune). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,9** US Stock Market Today: Dow, Nasdaq Trade Lower As Hotter CPI Fuels Fed Rate Hike Fears (NDTV Profit). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,8** Hot inflation report puts Fed on track for December rate hike (American Banker). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,7** 10-year Treasury yield jumps after hot CPI, Waller half-point hike comment (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,6** 10-year Treasury yield jumps as hot inflation lifts rate-hike odds: AlphaCheck (Yahoo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,6** Treasury yields climb across the curve after the latest inflation print (Seeking Alpha). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,4** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,3** [Lineage Q3 2026 Earnings Call] Lineage Cuts EBITDA Guidance by $15 Million as Big Bear Fire and Seafood Slump Drag Same-Store NOI Down 4.2% (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,4** 10-year Treasury yield jumps after hot CPI, Waller half-point hike comment (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,3** US Treasury yields surge as October CPI inflation exceeds forecasts (Beinsure). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
