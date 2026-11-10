@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T11:08:55+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T11:09:55+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **33%**, turun **67%** (skor −5,5 dari ±10, keyakinan 75%, 77% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **32%**, turun **68%** (skor −5,6 dari ±10, keyakinan 76%, 77% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,87): Skor rata-rata −0,69 dari 45 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−0,74): −0,37% dari penutupan sebelumnya (27.911,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−0,99): Skor rata-rata −0,79 dari 45 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−0,74): −0,37% dari penutupan sebelumnya (27.910,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,69 dari 45 kejadian bernilai; 41% bobot bullish | −0,58 | 30% | −0,87 |
-| Futures Nasdaq-100 | −0,37% dari penutupan sebelumnya (27.911,25) | −0,74 | 20% | −0,74 |
-| Futures S&P 500 | 0,00% dari penutupan sebelumnya (7.574,00) | 0,00 | 5% | 0,00 |
+| Berita berbobot | skor rata-rata −0,79 dari 45 kejadian bernilai; 39% bobot bullish | −0,66 | 30% | −0,99 |
+| Futures Nasdaq-100 | −0,37% dari penutupan sebelumnya (27.910,75) | −0,74 | 20% | −0,74 |
+| Futures S&P 500 | 0,00% dari penutupan sebelumnya (7.574,50) | 0,00 | 5% | 0,00 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
 | VIX (volatilitas) | 19,92 (−22,3% dari sesi sebelumnya); VXN (Nasdaq-100) 29,11 | 0,00 | 10% | 0,00 |
@@ -30,6 +30,7 @@ Rentang wajar 1σ (VXN): 24.790 sampai 25.716.
 
 ## Berita paling berdampak
 - **−1,8** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (Longbridge). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,7** CoreWeave bond yield tops 16% as AI credit stress builds (news.lavx.hu). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,5** Fed rate hike may not be ‘one and done’ if AI boom fuels inflation (TheStreet). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,5** Dow Adds 1,104 Points Even as Nvidia Sinks: Stock Market Today (Kiplinger). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,3** Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
@@ -40,7 +41,6 @@ Rentang wajar 1σ (VXN): 24.790 sampai 25.716.
 - **−1,1** Global carbon emissions set to fall in 2026 due to Iran energy shock (New Scientist). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,0** Overall Tesla China Sales Rise 10%, Sales Inside China Sink To 4-Year Low; Robotaxi Launches New Market (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Fed Rate Hike Odds Near 80% Raise the Stakes for U.S. CPI Data (StoneX). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−0,9** Oil Prices Jump 6% as Iran Sets UAE Oil Port Ablaze, Strikes Vessels in Strait of Hormuz (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
