@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-11T01:09:29+07:00 · sesi Selasa 10 Nov (berjalan)_
+_Diperbarui 2026-11-11T01:10:29+07:00 · sesi Selasa 10 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 27,590 lalu ditolak (1 jam lalu). Skor dipangkas dari -10.0 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 27,590 lalu ditolak (2 jam lalu). Skor dipangkas dari -10.0 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,33% dari penutupan sebelumnya (27.642,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,41% dari penutupan sebelumnya (27.618,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Yield obligasi 10 tahun** (−1,00): 5,008% (+14,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Berita berbobot** (−0,99): Skor rata-rata −0,79 dari 35 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−0,84): −1,68% dari penutupan sebelumnya (9.865,51). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −0,83% dari penutupan sebelumnya (7.511,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Semikonduktor (SOX)** (−0,81): −1,61% dari penutupan sebelumnya (9.872,44). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −0,88% dari penutupan sebelumnya (7.507,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,79 dari 35 kejadian bernilai; 34% bobot bullish | −0,66 | 30% | −0,99 |
-| Futures Nasdaq-100 | −1,33% dari penutupan sebelumnya (27.642,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,83% dari penutupan sebelumnya (7.511,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,68% dari penutupan sebelumnya (9.865,51) | −1,68 | 10% | −0,84 |
+| Futures Nasdaq-100 | −1,41% dari penutupan sebelumnya (27.618,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,88% dari penutupan sebelumnya (7.507,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,61% dari penutupan sebelumnya (9.872,44) | −1,61 | 10% | −0,81 |
 | Yield obligasi 10 tahun | 5,008% (+14,4 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 20,84 (+4,6% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $91,93 (−0,69% dari sesi sebelumnya) | +0,34 | 5% | +0,09 |
+| VIX (volatilitas) | 20,86 (+4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $92,00 (−0,62% dari sesi sebelumnya) | +0,31 | 5% | +0,08 |
 | Indeks dolar | +0,66% dari penutupan sebelumnya (102,32) | +1,65 | 5% | +0,41 |
-| Tren Nasdaq 5 sesi | −1,88% dalam 5 sesi; 10,2% di bawah puncak 52 minggu | −1,75 | 5% | −0,44 |
+| Tren Nasdaq 5 sesi | −1,84% dalam 5 sesi; 10,2% di bawah puncak 52 minggu | −1,73 | 5% | −0,43 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 24.917 (−1,33%).
+Perkiraan pembukaan dari futures: 24.897 (−1,41%).
 Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
@@ -37,7 +37,7 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−2,2** Fed's Logan calls for two more rate hikes, possibly rapidly (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,8** Treasury Yields Turn Higher on Fed’s Waller Comments; Eurozone Bond Yields Fall (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,6** Fed's Waller says a half-point rate hike could come in December (Startup Fortune). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,6** NVIDIA CEO Sued Over Stock Plunge (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,5** NVIDIA CEO Sued Over Stock Plunge (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Nvidia Faces Potential New US Chip Export Restrictions to China Amid Reported CEO Investigation (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** Hot inflation report puts Fed on track for December rate hike (American Banker). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** 10-year Treasury yield jumps as hot inflation lifts rate-hike odds: AlphaCheck (Yahoo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
