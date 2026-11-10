@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T13:06:48+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T13:07:48+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **36%**, turun **64%** (skor −4,7 dari ±10, keyakinan 66%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,6 dari ±10, keyakinan 66%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
@@ -13,18 +13,18 @@ Peluang indeks naik **36%**, turun **64%** (skor −4,7 dari ±10, keyakinan 66%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,87 dari 48 kejadian bernilai; 36% bobot bullish | −0,72 | 30% | −1,08 |
-| Futures Nasdaq-100 | +0,06% dari penutupan sebelumnya (28.030,50) | +0,12 | 20% | +0,12 |
-| Futures S&P 500 | +0,22% dari penutupan sebelumnya (7.591,00) | +0,55 | 5% | +0,14 |
+| Futures Nasdaq-100 | +0,07% dari penutupan sebelumnya (28.033,00) | +0,14 | 20% | +0,14 |
+| Futures S&P 500 | +0,22% dari penutupan sebelumnya (7.591,25) | +0,55 | 5% | +0,14 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
 | VIX (volatilitas) | 19,92 (−22,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $91,66 (−0,98% dari sesi sebelumnya) | +0,49 | 5% | +0,12 |
+| Minyak Brent | $91,44 (−1,22% dari sesi sebelumnya) | +0,61 | 5% | +0,15 |
 | Indeks dolar | +0,03% dari penutupan sebelumnya (101,68) | +0,07 | 5% | +0,02 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 25.268 (+0,06%).
+Perkiraan pembukaan dari futures: 25.271 (+0,07%).
 Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
