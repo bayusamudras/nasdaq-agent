@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T20:47:58+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T20:48:58+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **26%**, turun **74%** (skor −7,4 dari ±10, keyakinan 78%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **26%**, turun **74%** (skor −7,6 dari ±10, keyakinan 78%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,86): −0,93% dari penutupan sebelumnya (27.755,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,17% dari penutupan sebelumnya (27.685,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,98): 4,942% (+7,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Berita berbobot** (−0,73): Skor rata-rata −0,59 dari 38 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Minyak Brent** (+0,38): $89,44 (−3,38% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Yield obligasi 10 tahun** (−0,93): 4,938% (+7,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Berita berbobot** (−0,73): Skor rata-rata −0,58 dari 38 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Minyak Brent** (+0,38): $89,33 (−3,50% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,59 dari 38 kejadian bernilai; 43% bobot bullish | −0,49 | 30% | −0,73 |
-| Futures Nasdaq-100 | −0,93% dari penutupan sebelumnya (27.755,00) | −1,86 | 20% | −1,86 |
-| Futures S&P 500 | −0,37% dari penutupan sebelumnya (7.546,00) | −0,92 | 5% | −0,23 |
+| Berita berbobot | skor rata-rata −0,58 dari 38 kejadian bernilai; 43% bobot bullish | −0,49 | 30% | −0,73 |
+| Futures Nasdaq-100 | −1,17% dari penutupan sebelumnya (27.685,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,53% dari penutupan sebelumnya (7.534,00) | −1,32 | 5% | −0,33 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,942% (+7,8 bp dari sesi sebelumnya) | −1,95 | 10% | −0,98 |
-| VIX (volatilitas) | 20,70 (+3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $89,44 (−3,38% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,34% dari penutupan sebelumnya (102,00) | +0,85 | 5% | +0,21 |
+| Yield obligasi 10 tahun | 4,938% (+7,4 bp dari sesi sebelumnya) | −1,85 | 10% | −0,93 |
+| VIX (volatilitas) | 20,85 (+4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $89,33 (−3,50% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,37% dari penutupan sebelumnya (102,02) | +0,92 | 5% | +0,23 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 25.018 (−0,93%).
+Perkiraan pembukaan dari futures: 24.958 (−1,17%).
 Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
@@ -39,10 +39,10 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−1,3** Wall Street's Selloff Is Quietly Tightening Conditions for the Fed (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Oil Prices Extend Decline as Trump Signals Pause in Further Military Action Against Iran (Yahoo Finance). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,3** Market Movers blog: Nvidia shares sink after investigation into CEO over affair with suspected spy (Investment Week). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **+0,9** Oil Prices Slide as Trump Signals Pause in Iran Strikes (Offshore Engineer Magazine). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,9** Trade Pressure to Persist Despite U.S. Midterms: Korea Chamber of Commerce and Industry Urges "Precise Response to Three Key Variables—Tariffs, Investment, Legislation" (finance.biggo.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,9** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (Longbridge). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,9** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+0,9** Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **+0,9** Taiwan's Hiwin Posts Q3 EPS of NT$3.48, Gross Margin Climbs to 36.3%; Chairman Cho Wen-heng Says Orders Booked Through Mid-2027, Full-Year Results to Beat Last Year (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
