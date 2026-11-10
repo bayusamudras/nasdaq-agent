@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T10:34:46+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T10:35:46+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
 Peluang indeks naik **35%**, turun **65%** (skor −5,0 dari ±10, keyakinan 74%, 77% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -30,7 +30,7 @@ Rentang wajar 1σ (VXN): 24.790 sampai 25.716.
 ## Berita paling berdampak
 - **−1,9** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,6** Fed rate hike may not be ‘one and done’ if AI boom fuels inflation (TheStreet). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,6** Nvidia Shares Tumble Amid Probe Into Jensen Huang’s Alleged Spy Ties (Forbes Middle East). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,5** Nvidia Shares Tumble Amid Probe Into Jensen Huang’s Alleged Spy Ties (Forbes Middle East). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Dow Adds 1,104 Points Even as Nvidia Sinks: Stock Market Today (Kiplinger). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,4** Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,3** Dow Rallies 600 Points as Oil Slides, Nvidia Drops on Huang Probe (JournalArta). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
