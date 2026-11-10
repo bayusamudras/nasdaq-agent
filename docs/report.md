@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T17:05:32+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T17:06:32+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
 Peluang indeks naik **34%**, turun **66%** (skor −5,0 dari ±10, keyakinan 70%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -8,19 +8,19 @@ Peluang indeks naik **34%**, turun **66%** (skor −5,0 dari ±10, keyakinan 70%
 ## Alasan utama
 - **Berita berbobot** (−1,23): Skor rata-rata −0,98 dari 42 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Minyak Brent** (+0,38): $89,42 (−3,40% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $89,45 (−3,37% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,98 dari 42 kejadian bernilai; 36% bobot bullish | −0,82 | 30% | −1,23 |
-| Futures Nasdaq-100 | −0,04% dari penutupan sebelumnya (28.002,25) | −0,08 | 20% | −0,08 |
+| Futures Nasdaq-100 | −0,04% dari penutupan sebelumnya (28.003,75) | −0,08 | 20% | −0,08 |
 | Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.586,75) | +0,42 | 5% | +0,11 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
 | VIX (volatilitas) | 19,89 (−0,1% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $89,42 (−3,40% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,06% dari penutupan sebelumnya (101,72) | +0,15 | 5% | +0,04 |
+| Minyak Brent | $89,45 (−3,37% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,06% dari penutupan sebelumnya (101,71) | +0,15 | 5% | +0,04 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
