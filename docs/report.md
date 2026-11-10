@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T20:53:58+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T20:54:59+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **25%**, turun **75%** (skor −7,7 dari ±10, keyakinan 78%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **26%**, turun **74%** (skor −7,7 dari ±10, keyakinan 78%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,19% dari penutupan sebelumnya (27.681,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,16% dari penutupan sebelumnya (27.688,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,93): 4,938% (+7,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Yield obligasi 10 tahun** (−0,88): 4,934% (+7,0 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Berita berbobot** (−0,81): Skor rata-rata −0,65 dari 36 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,38): −0,60% dari penutupan sebelumnya (7.528,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,38): −0,61% dari penutupan sebelumnya (7.528,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,65 dari 36 kejadian bernilai; 43% bobot bullish | −0,54 | 30% | −0,81 |
-| Futures Nasdaq-100 | −1,19% dari penutupan sebelumnya (27.681,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,60% dari penutupan sebelumnya (7.528,75) | −1,50 | 5% | −0,38 |
+| Futures Nasdaq-100 | −1,16% dari penutupan sebelumnya (27.688,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,61% dari penutupan sebelumnya (7.528,00) | −1,52 | 5% | −0,38 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,938% (+7,4 bp dari sesi sebelumnya) | −1,85 | 10% | −0,93 |
-| VIX (volatilitas) | 20,81 (+4,5% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $89,31 (−3,52% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,32% dari penutupan sebelumnya (101,97) | +0,80 | 5% | +0,20 |
+| Yield obligasi 10 tahun | 4,934% (+7,0 bp dari sesi sebelumnya) | −1,75 | 10% | −0,88 |
+| VIX (volatilitas) | 20,85 (+4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $89,34 (−3,49% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,33% dari penutupan sebelumnya (101,99) | +0,82 | 5% | +0,20 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 24.953 (−1,19%).
+Perkiraan pembukaan dari futures: 24.960 (−1,16%).
 Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−0,9** Trade Pressure to Persist Despite U.S. Midterms: Korea Chamber of Commerce and Industry Urges "Precise Response to Three Key Variables—Tariffs, Investment, Legislation" (finance.biggo.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+0,9** Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−0,9** CoreWeave bond yield tops 16% as AI credit stress builds (news.lavx.hu). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−0,8** CoreWeave bond yield tops 16% as AI credit stress builds (news.lavx.hu). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
