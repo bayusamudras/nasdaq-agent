@@ -1,36 +1,36 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T16:41:23+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T16:42:33+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
 Peluang indeks naik **38%**, turun **62%** (skor −4,2 dari ±10, keyakinan 67%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 42 kejadian bernilai; 37% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,16): Skor rata-rata −0,93 dari 43 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Minyak Brent** (+0,32): $90,19 (−2,57% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,30): $90,31 (−2,44% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,90 dari 42 kejadian bernilai; 37% bobot bullish | −0,75 | 30% | −1,12 |
-| Futures Nasdaq-100 | −0,10% dari penutupan sebelumnya (27.987,50) | −0,20 | 20% | −0,20 |
-| Futures S&P 500 | +0,12% dari penutupan sebelumnya (7.583,25) | +0,30 | 5% | +0,07 |
+| Berita berbobot | skor rata-rata −0,93 dari 43 kejadian bernilai; 36% bobot bullish | −0,77 | 30% | −1,16 |
+| Futures Nasdaq-100 | −0,08% dari penutupan sebelumnya (27.992,00) | −0,16 | 20% | −0,16 |
+| Futures S&P 500 | +0,14% dari penutupan sebelumnya (7.584,50) | +0,35 | 5% | +0,09 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
-| VIX (volatilitas) | 19,98 (+0,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $90,19 (−2,57% dari sesi sebelumnya) | +1,28 | 5% | +0,32 |
+| VIX (volatilitas) | 19,96 (+0,2% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $90,31 (−2,44% dari sesi sebelumnya) | +1,22 | 5% | +0,30 |
 | Indeks dolar | +0,01% dari penutupan sebelumnya (101,66) | +0,02 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 25.228 (−0,10%).
+Perkiraan pembukaan dari futures: 25.233 (−0,08%).
 Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
 - **−2,1** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,8** Wall Street's Selloff Is Quietly Tightening Conditions for the Fed (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,7** Market Movers blog: Nvidia shares sink after investigation into CEO over affair with suspected spy (Investment Week). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** CoreWeave bond yield tops 16% as AI credit stress builds (news.lavx.hu). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,1** Canadian unemployment rises to 6.7% as USD/CAD holds steady (KuCoin). Data kerja yang lebih lemah mengurangi peluang kenaikan suku bunga sehingga baik bagi valuasi. Efeknya terbatas jika terlalu lemah dan memicu kekhawatiran resesi. Penyesuaian rezim: rezim sensitif suku bunga, sehingga bobot dan arahnya disesuaikan.
