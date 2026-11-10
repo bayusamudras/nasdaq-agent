@@ -1,27 +1,27 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T20:33:49+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T20:34:49+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **34%**, turun **66%** (skor −5,2 dari ±10, keyakinan 74%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **34%**, turun **66%** (skor −5,1 dari ±10, keyakinan 73%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,68): Skor rata-rata −0,55 dari 37 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−0,68): −0,34% dari penutupan sebelumnya (27.919,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Minyak Brent** (+0,35): $89,94 (−2,84% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures Nasdaq-100** (−0,68): −0,34% dari penutupan sebelumnya (27.919,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−0,63): Skor rata-rata −0,50 dari 37 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Minyak Brent** (+0,37): $89,86 (−2,93% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,55 dari 37 kejadian bernilai; 44% bobot bullish | −0,45 | 30% | −0,68 |
-| Futures Nasdaq-100 | −0,34% dari penutupan sebelumnya (27.919,00) | −0,68 | 20% | −0,68 |
-| Futures S&P 500 | +0,02% dari penutupan sebelumnya (7.575,75) | +0,05 | 5% | +0,01 |
+| Berita berbobot | skor rata-rata −0,50 dari 37 kejadian bernilai; 46% bobot bullish | −0,42 | 30% | −0,63 |
+| Futures Nasdaq-100 | −0,34% dari penutupan sebelumnya (27.919,75) | −0,68 | 20% | −0,68 |
+| Futures S&P 500 | +0,03% dari penutupan sebelumnya (7.576,50) | +0,07 | 5% | +0,02 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
-| VIX (volatilitas) | 20,37 (+2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $89,94 (−2,84% dari sesi sebelumnya) | +1,42 | 5% | +0,35 |
-| Indeks dolar | +0,15% dari penutupan sebelumnya (101,80) | +0,37 | 5% | +0,09 |
+| VIX (volatilitas) | 20,25 (+1,7% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $89,86 (−2,93% dari sesi sebelumnya) | +1,47 | 5% | +0,37 |
+| Indeks dolar | +0,15% dari penutupan sebelumnya (101,81) | +0,37 | 5% | +0,09 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
@@ -35,7 +35,7 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−2,1** Nvidia Faces Potential New US Chip Export Restrictions to China Amid Reported CEO Investigation (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,6** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,4** Wall Street's Selloff Is Quietly Tightening Conditions for the Fed (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,4** Oil Prices Extend Decline as Trump Signals Pause in Further Military Action Against Iran (Yahoo Finance). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
+- **−1,3** Oil Prices Extend Decline as Trump Signals Pause in Further Military Action Against Iran (Yahoo Finance). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,3** Market Movers blog: Nvidia shares sink after investigation into CEO over affair with suspected spy (Investment Week). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Trade Pressure to Persist Despite U.S. Midterms: Korea Chamber of Commerce and Industry Urges "Precise Response to Three Key Variables—Tariffs, Investment, Legislation" (finance.biggo.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
