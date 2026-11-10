@@ -1,25 +1,25 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-10T09:36:26+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T09:37:27+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 65%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,6 dari ±10, keyakinan 65%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,81): Skor rata-rata −0,65 dari 46 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,89): Skor rata-rata −0,71 dari 44 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,65 dari 46 kejadian bernilai; 42% bobot bullish | −0,54 | 30% | −0,81 |
-| Futures Nasdaq-100 | +0,04% dari penutupan sebelumnya (28.027,00) | +0,08 | 20% | +0,08 |
-| Futures S&P 500 | +0,14% dari penutupan sebelumnya (7.585,00) | +0,35 | 5% | +0,09 |
+| Berita berbobot | skor rata-rata −0,71 dari 44 kejadian bernilai; 41% bobot bullish | −0,59 | 30% | −0,89 |
+| Futures Nasdaq-100 | +0,04% dari penutupan sebelumnya (28.026,75) | +0,08 | 20% | +0,08 |
+| Futures S&P 500 | +0,14% dari penutupan sebelumnya (7.584,75) | +0,35 | 5% | +0,09 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
 | VIX (volatilitas) | 19,92 (−22,3% dari sesi sebelumnya); VXN (Nasdaq-100) 29,11 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $91,92 (−0,70% dari sesi sebelumnya) | +0,35 | 5% | +0,09 |
-| Indeks dolar | +0,04% dari penutupan sebelumnya (101,69) | +0,10 | 5% | +0,03 |
+| Minyak Brent | $91,87 (−0,76% dari sesi sebelumnya) | +0,38 | 5% | +0,10 |
+| Indeks dolar | +0,05% dari penutupan sebelumnya (101,70) | +0,12 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
@@ -28,7 +28,7 @@ Perkiraan pembukaan dari futures: 25.263 (+0,04%).
 Rentang wajar 1σ (VXN): 24.790 sampai 25.716.
 
 ## Berita paling berdampak
-- **−2,0** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−2,0** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (Longbridge). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,7** Fed rate hike may not be ‘one and done’ if AI boom fuels inflation (TheStreet). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,6** Nvidia Shares Tumble Amid Probe Into Jensen Huang’s Alleged Spy Ties (Forbes Middle East). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Dow Adds 1,104 Points Even as Nvidia Stock Sinks: Stock Market Today (Kiplinger). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
