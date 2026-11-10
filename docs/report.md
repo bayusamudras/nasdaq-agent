@@ -1,37 +1,37 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T17:00:32+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T17:01:32+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **33%**, turun **67%** (skor −5,3 dari ±10, keyakinan 70%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **34%**, turun **66%** (skor −5,2 dari ±10, keyakinan 70%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
 - **Berita berbobot** (−1,38): Skor rata-rata −1,11 dari 41 kejadian bernilai; 33% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Minyak Brent** (+0,38): $89,33 (−3,50% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $89,34 (−3,49% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,11 dari 41 kejadian bernilai; 33% bobot bullish | −0,92 | 30% | −1,38 |
-| Futures Nasdaq-100 | −0,08% dari penutupan sebelumnya (27.991,50) | −0,16 | 20% | −0,16 |
-| Futures S&P 500 | +0,13% dari penutupan sebelumnya (7.583,75) | +0,33 | 5% | +0,08 |
+| Futures Nasdaq-100 | −0,05% dari penutupan sebelumnya (28.000,50) | −0,10 | 20% | −0,10 |
+| Futures S&P 500 | +0,14% dari penutupan sebelumnya (7.584,50) | +0,35 | 5% | +0,09 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
-| VIX (volatilitas) | 19,86 (−0,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $89,33 (−3,50% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 19,84 (−0,4% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $89,34 (−3,49% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,05% dari penutupan sebelumnya (101,70) | +0,12 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 25.233 (−0,08%).
+Perkiraan pembukaan dari futures: 25.241 (−0,05%).
 Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
 - **−2,9** Fed's Waller plans to support at least a quarter-point rate hike in December (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,1** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,8** Wall Street's Selloff Is Quietly Tightening Conditions for the Fed (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,7** Wall Street's Selloff Is Quietly Tightening Conditions for the Fed (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Market Movers blog: Nvidia shares sink after investigation into CEO over affair with suspected spy (Investment Week). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** CoreWeave bond yield tops 16% as AI credit stress builds (news.lavx.hu). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
