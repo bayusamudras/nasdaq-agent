@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T12:25:30+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T12:26:30+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
 Peluang indeks naik **34%**, turun **66%** (skor −5,1 dari ±10, keyakinan 67%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -13,18 +13,18 @@ Peluang indeks naik **34%**, turun **66%** (skor −5,1 dari ±10, keyakinan 67%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,94 dari 45 kejadian bernilai; 35% bobot bullish | −0,79 | 30% | −1,19 |
-| Futures Nasdaq-100 | −0,09% dari penutupan sebelumnya (27.989,25) | −0,18 | 20% | −0,18 |
-| Futures S&P 500 | +0,16% dari penutupan sebelumnya (7.586,00) | +0,40 | 5% | +0,10 |
+| Futures Nasdaq-100 | −0,07% dari penutupan sebelumnya (27.993,75) | −0,14 | 20% | −0,14 |
+| Futures S&P 500 | +0,16% dari penutupan sebelumnya (7.586,50) | +0,40 | 5% | +0,10 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
 | VIX (volatilitas) | 19,92 (−22,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $91,54 (−1,11% dari sesi sebelumnya) | +0,56 | 5% | +0,14 |
+| Minyak Brent | $91,43 (−1,23% dari sesi sebelumnya) | +0,61 | 5% | +0,15 |
 | Indeks dolar | +0,01% dari penutupan sebelumnya (101,66) | +0,02 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
 Pivot 25.123; resistensi 25.484 / 25.715; support 24.892 / 24.532.
-Perkiraan pembukaan dari futures: 25.230 (−0,09%).
+Perkiraan pembukaan dari futures: 25.235 (−0,07%).
 Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−1,1** [New York Stocks] Shares close up in the 2% range despite NVIDIA plunge; SOXL soars 22% (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Nvidia shares sink while stock market surges (NBC News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Global carbon emissions set to fall in 2026 due to Iran energy shock (New Scientist). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **−1,0** Overall Tesla China Sales Rise 10%, Sales Inside China Sink To 4-Year Low; Robotaxi Launches New Market (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,9** Overall Tesla China Sales Rise 10%, Sales Inside China Sink To 4-Year Low; Robotaxi Launches New Market (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
