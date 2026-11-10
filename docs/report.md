@@ -1,26 +1,26 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-10T11:50:17+07:00 · sesi Selasa 10 Nov (pra-buka)_
+_Diperbarui 2026-11-10T11:51:17+07:00 · sesi Selasa 10 Nov (pra-buka)_
 
-Peluang indeks naik **33%**, turun **67%** (skor −5,5 dari ±10, keyakinan 75%, 77% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **33%**, turun **67%** (skor −5,3 dari ±10, keyakinan 75%, 77% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: CPI Oktober
 
 ## Alasan utama
-- **Berita berbobot** (−1,16): Skor rata-rata −0,92 dari 47 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +6,85% dari penutupan sebelumnya (10.033,93). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures Nasdaq-100** (−0,50): −0,25% dari penutupan sebelumnya (27.945,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−0,99): Skor rata-rata −0,80 dari 46 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−0,50): −0,25% dari penutupan sebelumnya (27.944,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,92 dari 47 kejadian bernilai; 35% bobot bullish | −0,77 | 30% | −1,16 |
-| Futures Nasdaq-100 | −0,25% dari penutupan sebelumnya (27.945,50) | −0,50 | 20% | −0,50 |
-| Futures S&P 500 | +0,07% dari penutupan sebelumnya (7.579,25) | +0,18 | 5% | +0,04 |
+| Berita berbobot | skor rata-rata −0,80 dari 46 kejadian bernilai; 39% bobot bullish | −0,66 | 30% | −0,99 |
+| Futures Nasdaq-100 | −0,25% dari penutupan sebelumnya (27.944,50) | −0,50 | 20% | −0,50 |
+| Futures S&P 500 | +0,07% dari penutupan sebelumnya (7.579,50) | +0,18 | 5% | +0,04 |
 | Semikonduktor (SOX) | +6,85% dari penutupan sebelumnya (10.033,93) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,864% (+0,5 bp dari sesi sebelumnya) | −0,12 | 10% | −0,06 |
 | VIX (volatilitas) | 19,92 (−22,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $91,60 (−1,05% dari sesi sebelumnya) | +0,53 | 5% | +0,13 |
-| Indeks dolar | +0,01% dari penutupan sebelumnya (101,67) | +0,02 | 5% | +0,01 |
+| Minyak Brent | $91,57 (−1,08% dari sesi sebelumnya) | +0,54 | 5% | +0,14 |
+| Indeks dolar | +0,01% dari penutupan sebelumnya (101,66) | +0,02 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | +0,35% dalam 5 sesi; 8,9% di bawah puncak 52 minggu | +0,23 | 5% | +0,06 |
 
 ## Level hari ini
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 24.792 sampai 25.714.
 - **−1,1** [New York Stocks] Shares close up in the 2% range despite NVIDIA plunge; SOXL soars 22% (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Nvidia shares sink while stock market surges (NBC News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Global carbon emissions set to fall in 2026 due to Iran energy shock (New Scientist). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **−1,0** Overall Tesla China Sales Rise 10%, Sales Inside China Sink To 4-Year Low; Robotaxi Launches New Market (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** Fed Rate Hike Odds Near 80% Raise the Stakes for U.S. CPI Data (StoneX). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
