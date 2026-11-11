@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-12T03:19:58+07:00 · sesi Rabu 11 Nov (berjalan)_
+_Diperbarui 2026-11-12T03:20:58+07:00 · sesi Rabu 11 Nov (berjalan)_
 
 Peluang indeks naik **48%**, turun **52%** (skor −1,5 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,48% dari penutupan sebelumnya (28.526,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +6,03% dari penutupan sebelumnya (10.601,58). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +1,37% dari penutupan sebelumnya (7.647,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **VIX (volatilitas)** (+0,50): 17,43 (−10,4% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
+- **Futures Nasdaq-100** (+2,00): +2,50% dari penutupan sebelumnya (28.532,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +5,95% dari penutupan sebelumnya (10.593,65). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +1,38% dari penutupan sebelumnya (7.648,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **VIX (volatilitas)** (+0,50): 17,44 (−10,4% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 - **Berita berbobot** (−0,43): Skor rata-rata −0,35 dari 42 kejadian bernilai; 50% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,35 dari 42 kejadian bernilai; 50% bobot bullish | −0,29 | 30% | −0,43 |
-| Futures Nasdaq-100 | +2,48% dari penutupan sebelumnya (28.526,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,37% dari penutupan sebelumnya (7.647,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +6,03% dari penutupan sebelumnya (10.601,58) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +2,50% dari penutupan sebelumnya (28.532,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,38% dari penutupan sebelumnya (7.648,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +5,95% dari penutupan sebelumnya (10.593,65) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
-| VIX (volatilitas) | 17,43 (−10,4% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $92,51 (+1,11% dari sesi sebelumnya) | −0,56 | 5% | −0,14 |
-| Indeks dolar | +0,65% dari penutupan sebelumnya (102,89) | +1,62 | 5% | +0,41 |
-| Tren Nasdaq 5 sesi | −0,92% dalam 5 sesi; 8,0% di bawah puncak 52 minggu | −0,61 | 5% | −0,15 |
+| VIX (volatilitas) | 17,44 (−10,4% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | +1,00 | 10% | +0,50 |
+| Minyak Brent | $92,47 (+1,07% dari sesi sebelumnya) | −0,54 | 5% | −0,14 |
+| Indeks dolar | +0,65% dari penutupan sebelumnya (102,90) | +1,62 | 5% | +0,41 |
+| Tren Nasdaq 5 sesi | −0,94% dalam 5 sesi; 8,0% di bawah puncak 52 minggu | −0,63 | 5% | −0,16 |
 
 ## Level hari ini
 Pivot 25.056; resistensi 25.296 / 25.527; support 24.826 / 24.586.
-Perkiraan pembukaan dari futures: 25.688 (+2,48%).
+Perkiraan pembukaan dari futures: 25.693 (+2,50%).
 Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 - **+1,5** Gold climbs as dollar and Treasury yields retreat ahead of US inflation data and Fed guidance (VT Markets). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,5** Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) (Seeking Alpha). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Philadelphia Semiconductor Index Plunges 21% Over One Month; Goldman Sachs Calls It Oversold, Names Nvidia and Two Other AI Chip Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,3** CoreWeave CEO Cancels Share Sale After Earnings Beat (The Tech Buzz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,2** CoreWeave CEO Cancels Share Sale After Earnings Beat (The Tech Buzz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** Treasury, European Bond Yields Tumble as Markets Lifted by U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
