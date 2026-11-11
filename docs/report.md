@@ -1,20 +1,20 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-11T07:45:54+07:00 · sesi Rabu 11 Nov (pra-buka)_
+_Diperbarui 2026-11-11T07:46:54+07:00 · sesi Rabu 11 Nov (pra-buka)_
 
-Peluang indeks naik **24%**, turun **76%** (skor −8,1 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **24%**, turun **76%** (skor −8,2 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,54): Skor rata-rata −1,23 dari 36 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,62): Skor rata-rata −1,30 dari 34 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 4,983% (+11,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Indeks dolar** (+0,35): +0,56% dari penutupan sebelumnya (102,22). Dolar melemah, melonggarkan kondisi keuangan global.
-- **Futures Nasdaq-100** (−0,32): −0,16% dari penutupan sebelumnya (27.969,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−0,30): −0,15% dari penutupan sebelumnya (27.972,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,23 dari 36 kejadian bernilai; 26% bobot bullish | −1,03 | 30% | −1,54 |
-| Futures Nasdaq-100 | −0,16% dari penutupan sebelumnya (27.969,00) | −0,32 | 20% | −0,32 |
-| Futures S&P 500 | −0,13% dari penutupan sebelumnya (7.564,50) | −0,33 | 5% | −0,08 |
+| Berita berbobot | skor rata-rata −1,30 dari 34 kejadian bernilai; 25% bobot bullish | −1,08 | 30% | −1,62 |
+| Futures Nasdaq-100 | −0,15% dari penutupan sebelumnya (27.972,00) | −0,30 | 20% | −0,30 |
+| Futures S&P 500 | −0,12% dari penutupan sebelumnya (7.565,00) | −0,30 | 5% | −0,07 |
 | Semikonduktor (SOX) | −0,35% dari penutupan sebelumnya (9.998,33) | −0,35 | 10% | −0,18 |
 | Yield obligasi 10 tahun | 4,983% (+11,9 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 19,46 (−2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
@@ -24,13 +24,13 @@ Peluang indeks naik **24%**, turun **76%** (skor −8,1 dari ±10, keyakinan 80%
 
 ## Level hari ini
 Pivot 25.056; resistensi 25.296 / 25.527; support 24.826 / 24.586.
-Perkiraan pembukaan dari futures: 25.026 (−0,16%).
+Perkiraan pembukaan dari futures: 25.028 (−0,15%).
 Rentang wajar 1σ (VXN): 24.608 sampai 25.523.
 
 ## Berita paling berdampak
-- **−2,0** US Treasury yields surge as hot CPI revives Fed tightening bets (Yahoo Finance Singapore). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−2,0** US Treasury yields jump after stronger-than-expected inflation, Fed rate hike signals (Anadolu Ajansı). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,9** US Treasury yields jump after stronger-than-expected inflation, Fed rate hike signals (Anadolu Ajansı). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,8** Nvidia’s Sell-Off Is Accelerating. What’s Next for the Stock? (Investopedia). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,7** Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** US Export Controls Spread From Chips to Optics and Substrates, Putting Taiwan in the Crosshairs (天下雜誌). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,6** Treasury, European Bond Yields Tumble as Markets Lifted by U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** 10-year Treasury yield tops 5% after hotter CPI data increases rate hike odds (TradingView). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
