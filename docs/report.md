@@ -1,36 +1,36 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-11T19:10:02+07:00 · sesi Rabu 11 Nov (pra-buka)_
+_Diperbarui 2026-11-11T19:11:02+07:00 · sesi Rabu 11 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 72%, 70% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 28,220–28,220. Skor dipangkas dari -5.5 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di atas 28,390 lalu ditolak (1 jam lalu). Harga tertahan di bullish FVG 28,220–28,220. Skor dipangkas dari -5.5 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,93% dari penutupan sebelumnya (28.373,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,94% dari penutupan sebelumnya (28.375,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,37): Skor rata-rata −1,09 dari 37 kejadian bernilai; 33% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 4,983% (+11,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (+0,50): +0,89% dari penutupan sebelumnya (7.611,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +0,90% dari penutupan sebelumnya (7.612,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,09 dari 37 kejadian bernilai; 33% bobot bullish | −0,91 | 30% | −1,37 |
-| Futures Nasdaq-100 | +1,93% dari penutupan sebelumnya (28.373,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,89% dari penutupan sebelumnya (7.611,75) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +1,94% dari penutupan sebelumnya (28.375,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,90% dari penutupan sebelumnya (7.612,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −0,35% dari penutupan sebelumnya (9.998,33) | −0,35 | 10% | −0,18 |
 | Yield obligasi 10 tahun | 4,983% (+11,9 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,48 (−5,0% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $92,91 (+1,55% dari sesi sebelumnya) | −0,78 | 5% | −0,20 |
-| Indeks dolar | +0,29% dari penutupan sebelumnya (102,53) | +0,72 | 5% | +0,18 |
+| Minyak Brent | $92,88 (+1,52% dari sesi sebelumnya) | −0,76 | 5% | −0,19 |
+| Indeks dolar | +0,29% dari penutupan sebelumnya (102,52) | +0,72 | 5% | +0,18 |
 | Tren Nasdaq 5 sesi | −1,21% dalam 5 sesi; 9,6% di bawah puncak 52 minggu | −0,81 | 5% | −0,20 |
 
 ## Level hari ini
 Pivot 25.056; resistensi 25.296 / 25.527; support 24.826 / 24.586.
-Perkiraan pembukaan dari futures: 25.550 (+1,93%).
+Perkiraan pembukaan dari futures: 25.552 (+1,94%).
 Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 
 ## Berita paling berdampak
-- **−4,2** Asian Bond Yields Rise on Growing Expectations for Fed Rate Hike (WSJ). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−4,1** Asian Bond Yields Rise on Growing Expectations for Fed Rate Hike (WSJ). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−3,4** Japan Government Bond Yields Jump, Tracking Treasury Selloff (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−2,3** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−2,1** Harris Says Hot Economy Driving Hot Inflation, Fed Has a Lot More Work to Do on Rate Hikes (Kathleen Hays Presents: Central Bank Central). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
