@@ -1,40 +1,40 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-12T01:03:31+07:00 · sesi Rabu 11 Nov (berjalan)_
+_Diperbarui 2026-11-12T01:04:31+07:00 · sesi Rabu 11 Nov (berjalan)_
 
 Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,87% dari penutupan sebelumnya (28.634,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +7,35% dari penutupan sebelumnya (10.732,72). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +1,49% dari penutupan sebelumnya (7.657,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Berita berbobot** (−0,48): Skor rata-rata −0,39 dari 43 kejadian bernilai; 50% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +2,89% dari penutupan sebelumnya (28.638,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +7,29% dari penutupan sebelumnya (10.727,17). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +1,51% dari penutupan sebelumnya (7.658,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Berita berbobot** (−0,43): Skor rata-rata −0,34 dari 42 kejadian bernilai; 51% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Indeks dolar** (+0,42): +0,67% dari penutupan sebelumnya (102,92). Dolar melemah, melonggarkan kondisi keuangan global.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,39 dari 43 kejadian bernilai; 50% bobot bullish | −0,32 | 30% | −0,48 |
-| Futures Nasdaq-100 | +2,87% dari penutupan sebelumnya (28.634,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,49% dari penutupan sebelumnya (7.657,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +7,35% dari penutupan sebelumnya (10.732,72) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,34 dari 42 kejadian bernilai; 51% bobot bullish | −0,29 | 30% | −0,43 |
+| Futures Nasdaq-100 | +2,89% dari penutupan sebelumnya (28.638,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,51% dari penutupan sebelumnya (7.658,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +7,29% dari penutupan sebelumnya (10.727,17) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
 | VIX (volatilitas) | 17,64 (−9,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $93,05 (+1,71% dari sesi sebelumnya) | −0,85 | 5% | −0,21 |
+| Minyak Brent | $93,12 (+1,78% dari sesi sebelumnya) | −0,89 | 5% | −0,22 |
 | Indeks dolar | +0,67% dari penutupan sebelumnya (102,92) | +1,68 | 5% | +0,42 |
-| Tren Nasdaq 5 sesi | −0,57% dalam 5 sesi; 7,7% di bawah puncak 52 minggu | −0,38 | 5% | −0,10 |
+| Tren Nasdaq 5 sesi | −0,60% dalam 5 sesi; 7,7% di bawah puncak 52 minggu | −0,40 | 5% | −0,10 |
 
 ## Level hari ini
 Pivot 25.056; resistensi 25.296 / 25.527; support 24.826 / 24.586.
-Perkiraan pembukaan dari futures: 25.785 (+2,87%).
+Perkiraan pembukaan dari futures: 25.790 (+2,89%).
 Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 
 ## Berita paling berdampak
+- **−2,5** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−2,3** COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,2** Japan Government Bond Yields Jump, Tracking Treasury Selloff (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+2,0** Nasdaq jumps 1.6% as CoreWeave’s earnings beat leads a tech rebound (Quartz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,8** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,8** Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) (Seeking Alpha). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,5** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,5** CoreWeave CEO Cancels Share Sale After Earnings Beat (The Tech Buzz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,4** Harris Says Hot Economy Driving Hot Inflation, Fed Has a Lot More Work to Do on Rate Hikes (Kathleen Hays Presents: Central Bank Central). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,3** CoreWeave Surges 16% as Beat-and-Raise Quarter Eases Financing Fears; Nebius Gains 13%, Oracle Advances 5% (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
