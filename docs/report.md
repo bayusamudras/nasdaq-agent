@@ -1,23 +1,23 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-11T09:19:39+07:00 · sesi Rabu 11 Nov (pra-buka)_
+_Diperbarui 2026-11-11T09:20:39+07:00 · sesi Rabu 11 Nov (pra-buka)_
 
-Peluang indeks naik **26%**, turun **74%** (skor −7,7 dari ±10, keyakinan 80%, 72% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **26%**, turun **74%** (skor −7,7 dari ±10, keyakinan 80%, 76% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−1,57): Skor rata-rata −1,25 dari 29 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 4,983% (+11,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (+0,44): +0,22% dari penutupan sebelumnya (28.076,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+0,44): +0,22% dari penutupan sebelumnya (28.075,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,25 dari 29 kejadian bernilai; 26% bobot bullish | −1,05 | 30% | −1,57 |
-| Futures Nasdaq-100 | +0,22% dari penutupan sebelumnya (28.076,50) | +0,44 | 20% | +0,44 |
+| Futures Nasdaq-100 | +0,22% dari penutupan sebelumnya (28.075,75) | +0,44 | 20% | +0,44 |
 | Futures S&P 500 | +0,04% dari penutupan sebelumnya (7.577,50) | +0,10 | 5% | +0,03 |
 | Semikonduktor (SOX) | −0,35% dari penutupan sebelumnya (9.998,33) | −0,35 | 10% | −0,18 |
 | Yield obligasi 10 tahun | 4,983% (+11,9 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 19,46 (−2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $92,03 (−0,58% dari sesi sebelumnya) | +0,29 | 5% | +0,07 |
+| Minyak Brent | $92,17 (−0,43% dari sesi sebelumnya) | +0,21 | 5% | +0,05 |
 | Indeks dolar | −0,01% dari penutupan sebelumnya (102,22) | −0,02 | 5% | −0,01 |
 | Tren Nasdaq 5 sesi | −1,21% dalam 5 sesi; 9,6% di bawah puncak 52 minggu | −0,81 | 5% | −0,20 |
 
