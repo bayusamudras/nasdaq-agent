@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-11T21:35:52+07:00 · sesi Rabu 11 Nov (berjalan)_
+_Diperbarui 2026-11-11T21:36:52+07:00 · sesi Rabu 11 Nov (berjalan)_
 
-Peluang indeks naik **42%**, turun **57%** (skor −2,9 dari ±10, keyakinan 69%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **42%**, turun **58%** (skor −2,9 dari ±10, keyakinan 69%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,95% dari penutupan sebelumnya (28.379,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,93% dari penutupan sebelumnya (28.371,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,03): Skor rata-rata −0,83 dari 43 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +3,91% dari penutupan sebelumnya (10.389,16). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +0,96% dari penutupan sebelumnya (7.616,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Indeks dolar** (+0,43): +0,68% dari penutupan sebelumnya (102,93). Dolar melemah, melonggarkan kondisi keuangan global.
+- **Semikonduktor (SOX)** (+1,00): +3,90% dari penutupan sebelumnya (10.388,14). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +0,95% dari penutupan sebelumnya (7.615,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Indeks dolar** (+0,41): +0,66% dari penutupan sebelumnya (102,91). Dolar melemah, melonggarkan kondisi keuangan global.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,83 dari 43 kejadian bernilai; 39% bobot bullish | −0,69 | 30% | −1,03 |
-| Futures Nasdaq-100 | +1,95% dari penutupan sebelumnya (28.379,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,96% dari penutupan sebelumnya (7.616,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +3,91% dari penutupan sebelumnya (10.389,16) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +1,93% dari penutupan sebelumnya (28.371,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,95% dari penutupan sebelumnya (7.615,75) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +3,90% dari penutupan sebelumnya (10.388,14) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
-| VIX (volatilitas) | 18,33 (−5,8% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $92,61 (+1,22% dari sesi sebelumnya) | −0,61 | 5% | −0,15 |
-| Indeks dolar | +0,68% dari penutupan sebelumnya (102,93) | +1,70 | 5% | +0,43 |
-| Tren Nasdaq 5 sesi | −1,15% dalam 5 sesi; 8,2% di bawah puncak 52 minggu | −0,77 | 5% | −0,19 |
+| VIX (volatilitas) | 18,31 (−5,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $92,60 (+1,21% dari sesi sebelumnya) | −0,60 | 5% | −0,15 |
+| Indeks dolar | +0,66% dari penutupan sebelumnya (102,91) | +1,65 | 5% | +0,41 |
+| Tren Nasdaq 5 sesi | −1,20% dalam 5 sesi; 8,3% di bawah puncak 52 minggu | −0,80 | 5% | −0,20 |
 
 ## Level hari ini
 Pivot 25.056; resistensi 25.296 / 25.527; support 24.826 / 24.586.
-Perkiraan pembukaan dari futures: 25.555 (+1,95%).
+Perkiraan pembukaan dari futures: 25.550 (+1,93%).
 Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 - **−1,4** Nvidia Shares Tumble Amid Probe Into Jensen Huang’s Alleged Spy Ties (Forbes Middle East). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Oil Prices Rise as Iran Peace Hopes Clash With Strait of Hormuz Tensions (Benzinga). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,2** Gold, silver plunge as hotter U.S. inflation raises prospect of larger Fed rate hike - Kitco PM Report (Kitco). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,2** US extends 178 China tariff exclusions to January 9 (Big News Network.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,1** US extends 178 China tariff exclusions to January 9 (Big News Network.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,1** How Strong Earnings Guidance Will Impact Generac Stock Investors (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
