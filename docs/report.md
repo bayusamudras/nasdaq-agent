@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-12T04:54:41+07:00 · sesi Kamis 12 Nov (pra-buka)_
+_Diperbarui 2026-11-12T04:55:41+07:00 · sesi Kamis 12 Nov (pra-buka)_
 
-Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 61%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,29% dari penutupan sebelumnya (28.473,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +2,29% dari penutupan sebelumnya (28.472,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +5,66% dari penutupan sebelumnya (10.564,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +1,37% dari penutupan sebelumnya (7.647,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Berita berbobot** (−0,60): Skor rata-rata −0,48 dari 43 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (+0,50): +1,36% dari penutupan sebelumnya (7.646,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **VIX (volatilitas)** (+0,50): 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
-- **Berita berbobot** (−0,48): Skor rata-rata −0,38 dari 43 kejadian bernilai; 48% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,38 dari 43 kejadian bernilai; 48% bobot bullish | −0,32 | 30% | −0,48 |
-| Futures Nasdaq-100 | +2,29% dari penutupan sebelumnya (28.473,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,37% dari penutupan sebelumnya (7.647,25) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,48 dari 43 kejadian bernilai; 45% bobot bullish | −0,40 | 30% | −0,60 |
+| Futures Nasdaq-100 | +2,29% dari penutupan sebelumnya (28.472,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,36% dari penutupan sebelumnya (7.646,75) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +5,66% dari penutupan sebelumnya (10.564,11) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
 | VIX (volatilitas) | 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | +1,00 | 10% | +0,50 |
@@ -39,8 +39,8 @@ Rentang wajar 1σ (VXN): 25.008 sampai 25.925.
 - **+1,4** Gold climbs as dollar and Treasury yields retreat ahead of US inflation data and Fed guidance (VT Markets). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,4** Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) (Seeking Alpha). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Philadelphia Semiconductor Index Plunges 21% Over One Month; Goldman Sachs Calls It Oversold, Names Nvidia and Two Other AI Chip Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,1** Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal (EnergyNow.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+1,1** CoreWeave CEO Cancels Share Sale After Earnings Beat (The Tech Buzz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **−1,1** Treasury, European Bond Yields Tumble as Markets Lifted by U.S. Democrats’ Victory (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
