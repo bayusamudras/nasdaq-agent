@@ -1,30 +1,31 @@
-# Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-12T01:20:32+07:00 · sesi Rabu 11 Nov (berjalan)_
+# Bias Nasdaq: BEARISH TIPIS
+_Diperbarui 2026-11-12T01:21:43+07:00 · sesi Rabu 11 Nov (berjalan)_
 
-Peluang indeks naik **48%**, turun **52%** (skor −1,5 dari ±10, keyakinan 52%, 29% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,86% dari penutupan sebelumnya (28.632,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +7,40% dari penutupan sebelumnya (10.737,85). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +1,51% dari penutupan sebelumnya (7.658,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +2,91% dari penutupan sebelumnya (28.644,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +7,42% dari penutupan sebelumnya (10.740,50). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +1,53% dari penutupan sebelumnya (7.660,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Indeks dolar** (+0,41): +0,66% dari penutupan sebelumnya (102,90). Dolar melemah, melonggarkan kondisi keuangan global.
+- **Berita berbobot** (−0,39): Skor rata-rata −0,31 dari 42 kejadian bernilai; 52% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,08 dari 47 kejadian bernilai; 57% bobot bullish | −0,07 | 30% | −0,11 |
-| Futures Nasdaq-100 | +2,86% dari penutupan sebelumnya (28.632,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,51% dari penutupan sebelumnya (7.658,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +7,40% dari penutupan sebelumnya (10.737,85) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,31 dari 42 kejadian bernilai; 52% bobot bullish | −0,26 | 30% | −0,39 |
+| Futures Nasdaq-100 | +2,91% dari penutupan sebelumnya (28.644,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,53% dari penutupan sebelumnya (7.660,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +7,42% dari penutupan sebelumnya (10.740,50) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
-| VIX (volatilitas) | 17,57 (−9,7% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | +0,50 | 10% | +0,25 |
+| VIX (volatilitas) | 17,59 (−9,6% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | +0,50 | 10% | +0,25 |
 | Minyak Brent | $93,38 (+2,07% dari sesi sebelumnya) | −1,03 | 5% | −0,26 |
 | Indeks dolar | +0,66% dari penutupan sebelumnya (102,90) | +1,65 | 5% | +0,41 |
-| Tren Nasdaq 5 sesi | −0,48% dalam 5 sesi; 7,6% di bawah puncak 52 minggu | −0,32 | 5% | −0,08 |
+| Tren Nasdaq 5 sesi | −0,46% dalam 5 sesi; 7,6% di bawah puncak 52 minggu | −0,31 | 5% | −0,08 |
 
 ## Level hari ini
 Pivot 25.056; resistensi 25.296 / 25.527; support 24.826 / 24.586.
-Perkiraan pembukaan dari futures: 25.783 (+2,86%).
+Perkiraan pembukaan dari futures: 25.795 (+2,91%).
 Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 
 ## Berita paling berdampak
@@ -34,12 +35,12 @@ Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 - **+2,0** Nasdaq jumps 1.6% as CoreWeave’s earnings beat leads a tech rebound (Quartz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,8** Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,8** Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) (Seeking Alpha). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,6** CoreWeave's strong results lift chip stocks; Micron leads Quant rankings (TradingView). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** CoreWeave CEO Cancels Share Sale After Earnings Beat (The Tech Buzz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,4** Harris Says Hot Economy Driving Hot Inflation, Fed Has a Lot More Work to Do on Rate Hikes (Kathleen Hays Presents: Central Bank Central). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **+1,3** CoreWeave Surges 16% as Beat-and-Raise Quarter Eases Financing Fears; Nebius Gains 13%, Oracle Advances 5% (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,2** CoreWeave Surges 16% as Beat-and-Raise Quarter Eases Financing Fears; Nebius Gains 13%, Oracle Advances 5% (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** Wall Street Braces for 2027 Bear Market as AI Spending Doubts Mount (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,1** Is CoreWeave's Rally Durable? Nvidia Stock Can Fall 25% If Huang Leaves (Benzinga). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **+1,1** Nasdaq 100 Jumps 2.8% on CoreWeave, AI Rebound: Stock Market Today - Invesco QQQ Trust, Series 1 (NASDAQ (Benzinga). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
