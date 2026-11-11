@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-12T01:07:31+07:00 · sesi Rabu 11 Nov (berjalan)_
+_Diperbarui 2026-11-12T01:08:31+07:00 · sesi Rabu 11 Nov (berjalan)_
 
 Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,90% dari penutupan sebelumnya (28.643,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +7,31% dari penutupan sebelumnya (10.729,27). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +1,52% dari penutupan sebelumnya (7.659,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +2,91% dari penutupan sebelumnya (28.644,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +7,34% dari penutupan sebelumnya (10.731,80). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +1,52% dari penutupan sebelumnya (7.659,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Berita berbobot** (−0,43): Skor rata-rata −0,34 dari 42 kejadian bernilai; 51% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Indeks dolar** (+0,42): +0,67% dari penutupan sebelumnya (102,92). Dolar melemah, melonggarkan kondisi keuangan global.
 
@@ -14,18 +14,18 @@ Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 62%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,34 dari 42 kejadian bernilai; 51% bobot bullish | −0,29 | 30% | −0,43 |
-| Futures Nasdaq-100 | +2,90% dari penutupan sebelumnya (28.643,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,52% dari penutupan sebelumnya (7.659,25) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +7,31% dari penutupan sebelumnya (10.729,27) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +2,91% dari penutupan sebelumnya (28.644,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,52% dari penutupan sebelumnya (7.659,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +7,34% dari penutupan sebelumnya (10.731,80) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
-| VIX (volatilitas) | 17,64 (−9,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $93,02 (+1,67% dari sesi sebelumnya) | −0,83 | 5% | −0,21 |
+| VIX (volatilitas) | 17,61 (−9,5% dari sesi sebelumnya); VXN (Nasdaq-100) 28,57 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $93,06 (+1,72% dari sesi sebelumnya) | −0,86 | 5% | −0,21 |
 | Indeks dolar | +0,67% dari penutupan sebelumnya (102,92) | +1,68 | 5% | +0,42 |
-| Tren Nasdaq 5 sesi | −0,60% dalam 5 sesi; 7,7% di bawah puncak 52 minggu | −0,40 | 5% | −0,10 |
+| Tren Nasdaq 5 sesi | −0,59% dalam 5 sesi; 7,7% di bawah puncak 52 minggu | −0,39 | 5% | −0,10 |
 
 ## Level hari ini
 Pivot 25.056; resistensi 25.296 / 25.527; support 24.826 / 24.586.
-Perkiraan pembukaan dari futures: 25.793 (+2,90%).
+Perkiraan pembukaan dari futures: 25.795 (+2,91%).
 Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 
 ## Berita paling berdampak
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 24.615 sampai 25.517.
 - **+1,3** CoreWeave Surges 16% as Beat-and-Raise Quarter Eases Financing Fears; Nebius Gains 13%, Oracle Advances 5% (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,2** Is CoreWeave's Rally Durable? Nvidia Stock Can Fall 25% If Huang Leaves (Benzinga). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,2** Wall Street Braces for 2027 Bear Market as AI Spending Doubts Mount (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **+1,2** Earnings Beat Could Be A Big Moment For International Petroleum Stock (TSX:IPCO) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,1** Earnings Beat Could Be A Big Moment For International Petroleum Stock (TSX:IPCO) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
