@@ -1,19 +1,19 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-11T08:44:15+07:00 · sesi Rabu 11 Nov (pra-buka)_
+_Diperbarui 2026-11-11T08:45:31+07:00 · sesi Rabu 11 Nov (pra-buka)_
 
-Peluang indeks naik **26%**, turun **74%** (skor −7,5 dari ±10, keyakinan 80%, 72% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **26%**, turun **74%** (skor −7,6 dari ±10, keyakinan 80%, 72% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,37): Skor rata-rata −1,09 dari 32 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,45): Skor rata-rata −1,16 dari 33 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 4,983% (+11,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Futures Nasdaq-100** (+0,40): +0,20% dari penutupan sebelumnya (28.069,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,09 dari 32 kejadian bernilai; 28% bobot bullish | −0,91 | 30% | −1,37 |
+| Berita berbobot | skor rata-rata −1,16 dari 33 kejadian bernilai; 27% bobot bullish | −0,97 | 30% | −1,45 |
 | Futures Nasdaq-100 | +0,20% dari penutupan sebelumnya (28.069,75) | +0,40 | 20% | +0,40 |
-| Futures S&P 500 | +0,01% dari penutupan sebelumnya (7.575,25) | +0,02 | 5% | +0,01 |
+| Futures S&P 500 | +0,02% dari penutupan sebelumnya (7.575,50) | +0,05 | 5% | +0,01 |
 | Semikonduktor (SOX) | −0,35% dari penutupan sebelumnya (9.998,33) | −0,35 | 10% | −0,18 |
 | Yield obligasi 10 tahun | 4,983% (+11,9 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 19,46 (−2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
@@ -34,11 +34,11 @@ Rentang wajar 1σ (VXN): 24.608 sampai 25.523.
 - **−1,5** 10-year Treasury yield tops 5% after hotter CPI data increases rate hike odds (TradingView). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,4** Record Volatility, Resilient Liquidity: What the September/October Bond Sell-Off Reveals About Rates Market Structure (Tradeweb). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,4** Hyperscalers Are Projected to Spend $1.3 Trillion on Capex in 2027. Here's the 1 Industrial Stock That Gets Paid Before a Single AI Token Is Sold. (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,4** Stock Market Today, Nov. 10: Nvidia Stock Plunges 5.5% as CEO Scandal Overshadows Its Upcoming Earnings Report (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,4** Fed's Waller plans to support at least a quarter-point rate hike in December (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,3** CoreWeave Beats Q3 Revenue Estimates and Raises 2026 Outlook (Demokratis.co.id). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,3** CoreWeave Q3 Revenue Surges 168% but Capex Soars to $14.511 Billion, Sparking Sharp After-Hours Divide (TradingKey). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **+1,3** AI Computer Renter CoreWeave Beat Its Own Sales Forecast and Spent $9.4 Billion on Data Centers (Stock Titan). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+1,2** CoreWeave Q3 beats on seven key metrics, lifts full-year revenue and run-rate guidance (investingLive). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,1** 10-Year Treasury Yield Spikes as Inflation Spreads across Economy, Driven by Ugly Core Services CPI (Wolf Street). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **+1,2** AI Computer Renter CoreWeave Beat Its Own Sales Forecast and Spent $9.4 Billion on Data Centers (Stock Titan). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
