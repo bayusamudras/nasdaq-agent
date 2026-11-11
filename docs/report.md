@@ -1,19 +1,19 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-11T10:08:57+07:00 · sesi Rabu 11 Nov (pra-buka)_
+_Diperbarui 2026-11-11T10:09:56+07:00 · sesi Rabu 11 Nov (pra-buka)_
 
-Peluang indeks naik **30%**, turun **70%** (skor −6,2 dari ±10, keyakinan 80%, 74% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 80%, 74% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,88): +0,94% dari penutupan sebelumnya (28.096,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,65): Skor rata-rata −1,32 dari 32 kejadian bernilai; 22% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+1,90): +0,95% dari penutupan sebelumnya (28.100,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,47): Skor rata-rata −1,18 dari 32 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 4,983% (+11,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,32 dari 32 kejadian bernilai; 22% bobot bullish | −1,10 | 30% | −1,65 |
-| Futures Nasdaq-100 | +0,94% dari penutupan sebelumnya (28.096,00) | +1,88 | 20% | +1,88 |
-| Futures S&P 500 | +0,44% dari penutupan sebelumnya (7.577,25) | +1,10 | 5% | +0,28 |
+| Berita berbobot | skor rata-rata −1,18 dari 32 kejadian bernilai; 27% bobot bullish | −0,98 | 30% | −1,47 |
+| Futures Nasdaq-100 | +0,95% dari penutupan sebelumnya (28.100,00) | +1,90 | 20% | +1,90 |
+| Futures S&P 500 | +0,45% dari penutupan sebelumnya (7.578,25) | +1,12 | 5% | +0,28 |
 | Semikonduktor (SOX) | −0,35% dari penutupan sebelumnya (9.998,33) | −0,35 | 10% | −0,18 |
 | Yield obligasi 10 tahun | 4,983% (+11,9 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 19,46 (−2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,97 | −0,50 | 10% | −0,25 |
@@ -23,7 +23,7 @@ Peluang indeks naik **30%**, turun **70%** (skor −6,2 dari ±10, keyakinan 80%
 
 ## Level hari ini
 Pivot 25.056; resistensi 25.296 / 25.527; support 24.826 / 24.586.
-Perkiraan pembukaan dari futures: 25.301 (+0,94%).
+Perkiraan pembukaan dari futures: 25.304 (+0,95%).
 Rentang wajar 1σ (VXN): 24.608 sampai 25.523.
 
 ## Berita paling berdampak
@@ -38,7 +38,7 @@ Rentang wajar 1σ (VXN): 24.608 sampai 25.523.
 - **−1,3** Hyperscalers Are Projected to Spend $1.3 Trillion on Capex in 2027. Here's the 1 Industrial Stock That Gets Paid Before a Single AI Token Is Sold. (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,3** Stock Market Today, Nov. 10: Nvidia Stock Plunges 5.5% as CEO Scandal Overshadows Its Upcoming Earnings Report (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Fed's Waller plans to support at least a quarter-point rate hike in December (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,2** Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes (The Economic Times). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **+1,1** CoreWeave Beats Q3 Revenue Estimates and Raises 2026 Outlook (Demokratis.co.id). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-10: CPI Oktober (tinggi)
