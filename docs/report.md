@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-12T05:41:20+07:00 · sesi Kamis 12 Nov (pra-buka)_
+_Diperbarui 2026-11-12T05:42:20+07:00 · sesi Kamis 12 Nov (pra-buka)_
 
 Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 62%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -20,7 +20,7 @@ Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 62%
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
 | VIX (volatilitas) | 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | +1,00 | 10% | +0,50 |
 | Minyak Brent | $92,63 (+1,25% dari sesi sebelumnya) | −0,62 | 5% | −0,15 |
-| Indeks dolar | +0,67% dari penutupan sebelumnya (102,92) | +1,68 | 5% | +0,42 |
+| Indeks dolar | +0,67% dari penutupan sebelumnya (102,91) | +1,68 | 5% | +0,42 |
 | Tren Nasdaq 5 sesi | −1,05% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | −0,70 | 5% | −0,18 |
 
 ## Level hari ini
@@ -31,8 +31,8 @@ Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 ## Berita paling berdampak
 - **−2,5** U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−2,1** Economists say Fed could go overboard on rate hikes after hot October inflation report (Business Insider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,9** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−1,7** AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,8** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,6** AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,6** Japan Government Bond Yields Jump, Tracking Treasury Selloff (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,6** Stock Market Today, Nov. 11: CoreWeave Surges 25% on Beat-and-Raise Quarter (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
