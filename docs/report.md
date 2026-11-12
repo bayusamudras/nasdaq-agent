@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-13T02:21:49+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-13T02:22:49+07:00 · sesi Kamis 12 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 79%, 87% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 28,398–28,452. Skor dipangkas dari -8.6 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 28,398–28,452. Skor dipangkas dari -8.7 menjadi -2.0.
 
 ## Alasan utama
 - **Berita berbobot** (−2,11): Skor rata-rata −1,69 dari 28 kejadian bernilai; 19% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (−1,00): 5,113% (+11,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Minyak Brent** (−0,38): $95,60 (+3,06% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
-- **Tren Nasdaq 5 sesi** (+0,38): +4,54% dalam 5 sesi; 8,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Yield obligasi 10 tahun** (−1,00): 5,111% (+11,3 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Minyak Brent** (−0,38): $95,61 (+3,07% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
+- **Tren Nasdaq 5 sesi** (+0,38): +4,51% dalam 5 sesi; 8,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,69 dari 28 kejadian bernilai; 19% bobot bullish | −1,41 | 30% | −2,11 |
-| Futures Nasdaq-100 | −0,08% dari penutupan sebelumnya (28.449,25) | −0,16 | 20% | −0,16 |
-| Futures S&P 500 | −0,06% dari penutupan sebelumnya (7.636,25) | −0,15 | 5% | −0,04 |
-| Semikonduktor (SOX) | −0,46% dari penutupan sebelumnya (10.515,42) | −0,46 | 10% | −0,23 |
-| Yield obligasi 10 tahun | 5,113% (+11,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 18,26 (+4,4% dari sesi sebelumnya); VXN (Nasdaq-100) 27,88 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,60 (+3,06% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
+| Futures Nasdaq-100 | −0,10% dari penutupan sebelumnya (28.445,75) | −0,20 | 20% | −0,20 |
+| Futures S&P 500 | −0,09% dari penutupan sebelumnya (7.634,00) | −0,22 | 5% | −0,06 |
+| Semikonduktor (SOX) | −0,49% dari penutupan sebelumnya (10.511,92) | −0,49 | 10% | −0,24 |
+| Yield obligasi 10 tahun | 5,111% (+11,3 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
+| VIX (volatilitas) | 18,29 (+4,6% dari sesi sebelumnya); VXN (Nasdaq-100) 27,90 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $95,61 (+3,07% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
 | Indeks dolar | +0,30% dari penutupan sebelumnya (103,22) | +0,75 | 5% | +0,19 |
-| Tren Nasdaq 5 sesi | +4,54% dalam 5 sesi; 8,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| Tren Nasdaq 5 sesi | +4,51% dalam 5 sesi; 8,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.446 (−0,08%).
-Rentang wajar 1σ (VXN): 25.019 sampai 25.913.
+Perkiraan pembukaan dari futures: 25.441 (−0,10%).
+Rentang wajar 1σ (VXN): 25.019 sampai 25.914.
 
 ## Berita paling berdampak
 - **−2,7** 10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -35,7 +35,7 @@ Rentang wajar 1σ (VXN): 25.019 sampai 25.913.
 - **−2,4** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−2,1** U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,6** How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,6** Wall Street Plunges as Nvidia CEO Jensen Huang Quits (HDFC Sky). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,5** Wall Street Plunges as Nvidia CEO Jensen Huang Quits (HDFC Sky). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Export Controls Were Supposed to Keep AI Chips Out of China. The Rental Loophole Shows Why They Haven't (24/7 Wall St.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,5** Big Tech Stocks Today: Nvidia and Meta Fall as Microsoft Rises Amid AI Selloff (Coinpaper). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Stock Market Today, November 12, 2026 : Nvidia Stock Tumbles After Jensen Huang Exit; AI Shares Face Leadership Shock (Eurasia Business News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
