@@ -1,36 +1,37 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T10:36:09+07:00 · sesi Kamis 12 Nov (pra-buka)_
+_Diperbarui 2026-11-12T10:37:09+07:00 · sesi Kamis 12 Nov (pra-buka)_
 
-Peluang indeks naik **32%**, turun **68%** (skor −5,8 dari ±10, keyakinan 75%, 57% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **32%**, turun **68%** (skor −5,8 dari ±10, keyakinan 80%, 70% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,64): −0,82% dari penutupan sebelumnya (28.240,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,50): −0,75% dari penutupan sebelumnya (28.259,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +5,66% dari penutupan sebelumnya (10.564,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (+0,50): 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
-- **Berita berbobot** (−0,30): Skor rata-rata −0,23 dari 37 kejadian bernilai; 54% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,41): Skor rata-rata −0,32 dari 38 kejadian bernilai; 51% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,23 dari 37 kejadian bernilai; 54% bobot bullish | −0,20 | 30% | −0,30 |
-| Futures Nasdaq-100 | −0,82% dari penutupan sebelumnya (28.240,00) | −1,64 | 20% | −1,64 |
-| Futures S&P 500 | −0,33% dari penutupan sebelumnya (7.615,00) | −0,82 | 5% | −0,20 |
+| Berita berbobot | skor rata-rata −0,32 dari 38 kejadian bernilai; 51% bobot bullish | −0,27 | 30% | −0,41 |
+| Futures Nasdaq-100 | −0,75% dari penutupan sebelumnya (28.259,00) | −1,50 | 20% | −1,50 |
+| Futures S&P 500 | −0,30% dari penutupan sebelumnya (7.617,50) | −0,75 | 5% | −0,19 |
 | Semikonduktor (SOX) | +5,66% dari penutupan sebelumnya (10.564,11) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
 | VIX (volatilitas) | 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | +1,00 | 10% | +0,50 |
 | Minyak Brent | $91,64 (−1,21% dari sesi sebelumnya) | +0,60 | 5% | +0,15 |
-| Indeks dolar | +0,12% dari penutupan sebelumnya (103,03) | +0,30 | 5% | +0,07 |
+| Indeks dolar | +0,11% dari penutupan sebelumnya (103,02) | +0,27 | 5% | +0,07 |
 | Tren Nasdaq 5 sesi | −1,05% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | −0,70 | 5% | −0,18 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.257 (−0,82%).
+Perkiraan pembukaan dari futures: 25.275 (−0,75%).
 Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 
 ## Berita paling berdampak
 - **−1,8** U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,5** Economists say Fed could go overboard on rate hikes after hot October inflation report (Business Insider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,3** Data centers to be major capex avenue in 3-5 years says Citi’s Neeraj Kumar (Moneycontrol.com). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,2** AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,2** Japan Government Bond Yields Jump, Tracking Treasury Selloff (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
@@ -39,7 +40,6 @@ Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 - **+0,9** Gold climbs as dollar and Treasury yields retreat ahead of US inflation data and Fed guidance (VT Markets). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−0,9** Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) (Seeking Alpha). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Stock Market Today, Nov. 11: Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−0,8** Philadelphia Semiconductor Index Plunges 21% Over One Month; Goldman Sachs Calls It Oversold, Names Nvidia and Two Other AI Chip Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
