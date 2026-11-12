@@ -5,7 +5,7 @@ name: Nasdaq Agent
 # Cron tetap ada sebagai pengaman bila rantai terputus.
 on:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 32
     env:
+      GH_TOKEN: ${{ github.token }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
       ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
@@ -38,6 +39,15 @@ jobs:
           git config user.name "nasdaq-agent"
           git config user.email "nasdaq-agent@users.noreply.github.com"
           END=$((SECONDS + 1620))
+          NEXT=0
+          # Sambungkan run berikutnya dengan retry (GitHub kadang membalas HTTP 500/502).
+          chain() {
+            for i in 1 2 3 4 5 6 7 8; do
+              gh workflow run nasdaq-agent.yml --ref "${GITHUB_REF_NAME}" && return 0
+              sleep $((i * 5))
+            done
+            return 1
+          }
           while [ "$SECONDS" -lt "$END" ]; do
             START=$SECONDS
             python agent.py --out docs || echo "agen gagal pada putaran ini"
@@ -49,12 +59,24 @@ jobs:
                 sleep 3
               done
             fi
+            # Dispatch dini (3 menit sebelum selesai): run baru menunggu di antrean concurrency, jadi tidak ada jeda.
+            if [ "$NEXT" -eq 0 ] && [ "$SECONDS" -ge $((END - 180)) ]; then
+              chain && NEXT=1 && echo "run berikutnya sudah diantrekan"
+            fi
             if [ "$(date -u +%u)" -ge 6 ]; then STEP=300; else STEP=60; fi
             USED=$((SECONDS - START))
             [ "$USED" -lt "$STEP" ] && sleep $((STEP - USED))
           done
-      - name: Sambung ke run berikutnya
+      - name: Sambung ke run berikutnya (pengaman)
         if: ${{ always() }}
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run nasdaq-agent.yml --ref "${GITHUB_REF_NAME}" || true
+        run: |
+          # Hanya antre bila belum ada run lain yang menunggu; gagal setelah retry harus terlihat (bukan ditelan).
+          Q=$(gh run list --workflow nasdaq-agent.yml --status queued --json databaseId -q 'length' || echo 0)
+          if [ "${Q:-0}" -gt 0 ]; then echo "sudah ada run menunggu"; exit 0; fi
+          for i in 1 2 3 4 5 6 7 8; do
+            gh workflow run nasdaq-agent.yml --ref "${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
