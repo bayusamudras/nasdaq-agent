@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T05:09:51+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T05:10:51+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **20%**, turun **80%** (skor −9,5 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -15,7 +15,7 @@ Peluang indeks naik **20%**, turun **80%** (skor −9,5 dari ±10, keyakinan 80%
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,97 dari 28 kejadian bernilai; 10% bobot bullish | −1,64 | 30% | −2,46 |
 | Futures Nasdaq-100 | −0,25% dari penutupan sebelumnya (28.401,50) | −0,50 | 20% | −0,50 |
-| Futures S&P 500 | −0,24% dari penutupan sebelumnya (7.622,00) | −0,60 | 5% | −0,15 |
+| Futures S&P 500 | −0,25% dari penutupan sebelumnya (7.621,75) | −0,62 | 5% | −0,15 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,70 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
