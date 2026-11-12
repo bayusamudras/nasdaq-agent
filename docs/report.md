@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-13T06:48:56+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T06:49:56+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 71%, 68% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -8,7 +8,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 71%
 ## Alasan utama
 - **Berita berbobot** (−2,48): Skor rata-rata −1,97 dari 28 kejadian bernilai; 10% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (+0,48): +0,24% dari penutupan sebelumnya (28.542,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+0,46): +0,23% dari penutupan sebelumnya (28.539,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Minyak Brent** (−0,38): $95,90 (+3,39% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
@@ -16,7 +16,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 71%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,97 dari 28 kejadian bernilai; 10% bobot bullish | −1,65 | 30% | −2,48 |
-| Futures Nasdaq-100 | +0,24% dari penutupan sebelumnya (28.542,25) | +0,48 | 20% | +0,48 |
+| Futures Nasdaq-100 | +0,23% dari penutupan sebelumnya (28.539,00) | +0,46 | 20% | +0,46 |
 | Futures S&P 500 | −0,02% dari penutupan sebelumnya (7.639,00) | −0,05 | 5% | −0,01 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
@@ -27,12 +27,12 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 71%
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.427 (+0,24%).
+Perkiraan pembukaan dari futures: 25.424 (+0,23%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
 - **−2,1** Treasury Selloff Accelerates, European Bonds Follow Suit (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−2,0** 10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,9** 10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,8** Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook (CNBC). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,6** Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls (Atlantic Council). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,5** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
