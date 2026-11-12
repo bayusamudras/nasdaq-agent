@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T22:17:51+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-12T22:18:50+07:00 · sesi Kamis 12 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−1,83): Skor rata-rata −1,47 dari 32 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−1,52): −0,76% dari penutupan sebelumnya (28.256,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Yield obligasi 10 tahun** (−1,00): 5,066% (+6,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Semikonduktor (SOX)** (−0,90): −1,80% dari penutupan sebelumnya (10.373,47). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Tren Nasdaq 5 sesi** (+0,38): +4,10% dalam 5 sesi; 8,7% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Futures Nasdaq-100** (−1,64): −0,82% dari penutupan sebelumnya (28.238,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Yield obligasi 10 tahun** (−1,00): 5,070% (+7,2 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Semikonduktor (SOX)** (−0,78): −1,55% dari penutupan sebelumnya (10.400,49). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (+0,38): +4,09% dalam 5 sesi; 8,7% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,47 dari 32 kejadian bernilai; 28% bobot bullish | −1,22 | 30% | −1,83 |
-| Futures Nasdaq-100 | −0,76% dari penutupan sebelumnya (28.256,75) | −1,52 | 20% | −1,52 |
-| Futures S&P 500 | −0,40% dari penutupan sebelumnya (7.610,00) | −1,00 | 5% | −0,25 |
-| Semikonduktor (SOX) | −1,80% dari penutupan sebelumnya (10.373,47) | −1,80 | 10% | −0,90 |
-| Yield obligasi 10 tahun | 5,066% (+6,8 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 18,47 (+5,6% dari sesi sebelumnya); VXN (Nasdaq-100) 28,02 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $93,93 (+1,26% dari sesi sebelumnya) | −0,63 | 5% | −0,16 |
-| Indeks dolar | +0,15% dari penutupan sebelumnya (103,06) | +0,37 | 5% | +0,09 |
-| Tren Nasdaq 5 sesi | +4,10% dalam 5 sesi; 8,7% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| Futures Nasdaq-100 | −0,82% dari penutupan sebelumnya (28.238,75) | −1,64 | 20% | −1,64 |
+| Futures S&P 500 | −0,44% dari penutupan sebelumnya (7.607,25) | −1,10 | 5% | −0,28 |
+| Semikonduktor (SOX) | −1,55% dari penutupan sebelumnya (10.400,49) | −1,55 | 10% | −0,78 |
+| Yield obligasi 10 tahun | 5,070% (+7,2 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
+| VIX (volatilitas) | 18,55 (+6,1% dari sesi sebelumnya); VXN (Nasdaq-100) 28,08 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $93,97 (+1,30% dari sesi sebelumnya) | −0,65 | 5% | −0,16 |
+| Indeks dolar | +0,15% dari penutupan sebelumnya (103,07) | +0,37 | 5% | +0,09 |
+| Tren Nasdaq 5 sesi | +4,09% dalam 5 sesi; 8,7% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.273 (−0,76%).
-Rentang wajar 1σ (VXN): 25.017 sampai 25.916.
+Perkiraan pembukaan dari futures: 25.257 (−0,82%).
+Rentang wajar 1σ (VXN): 25.016 sampai 25.917.
 
 ## Berita paling berdampak
 - **−3,3** Nebius falls 10% as company expects increased 2026 capex spend, issues weak outlook (CNBC). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
