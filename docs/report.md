@@ -1,35 +1,36 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T19:56:56+07:00 · sesi Kamis 12 Nov (pra-buka)_
+_Diperbarui 2026-11-12T19:57:56+07:00 · sesi Kamis 12 Nov (pra-buka)_
 
-Peluang indeks naik **27%**, turun **73%** (skor −7,2 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **26%**, turun **74%** (skor −7,4 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,94): −0,97% dari penutupan sebelumnya (28.197,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,96): −0,98% dari penutupan sebelumnya (28.193,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +5,66% dari penutupan sebelumnya (10.564,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,43): Skor rata-rata −0,35 dari 27 kejadian bernilai; 51% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,61): Skor rata-rata −0,49 dari 28 kejadian bernilai; 48% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,35 dari 27 kejadian bernilai; 51% bobot bullish | −0,29 | 30% | −0,43 |
-| Futures Nasdaq-100 | −0,97% dari penutupan sebelumnya (28.197,75) | −1,94 | 20% | −1,94 |
-| Futures S&P 500 | −0,40% dari penutupan sebelumnya (7.610,00) | −1,00 | 5% | −0,25 |
+| Berita berbobot | skor rata-rata −0,49 dari 28 kejadian bernilai; 48% bobot bullish | −0,41 | 30% | −0,61 |
+| Futures Nasdaq-100 | −0,98% dari penutupan sebelumnya (28.193,00) | −1,96 | 20% | −1,96 |
+| Futures S&P 500 | −0,41% dari penutupan sebelumnya (7.609,00) | −1,02 | 5% | −0,26 |
 | Semikonduktor (SOX) | +5,66% dari penutupan sebelumnya (10.564,11) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
-| VIX (volatilitas) | 18,32 (+4,8% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $92,10 (−0,71% dari sesi sebelumnya) | +0,35 | 5% | +0,09 |
-| Indeks dolar | 0,00% dari penutupan sebelumnya (102,91) | 0,00 | 5% | 0,00 |
+| VIX (volatilitas) | 18,29 (+4,6% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $92,23 (−0,57% dari sesi sebelumnya) | +0,28 | 5% | +0,07 |
+| Indeks dolar | 0,00% dari penutupan sebelumnya (102,92) | 0,00 | 5% | 0,00 |
 | Tren Nasdaq 5 sesi | −1,05% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | −0,70 | 5% | −0,18 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.219 (−0,97%).
+Perkiraan pembukaan dari futures: 25.217 (−0,98%).
 Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 
 ## Berita paling berdampak
 - **−2,1** Eurozone yields hold near 1-week highs; Investors weigh hawkish Fed bets (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,0** Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRW (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** AM Markets Need to Know: Nvidia CEO faces pressure, EU delays EV tariffs, and more (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,4** U.S. Set to Tighten AI Chip Export Curbs on Singapore, Southeast Asia (Seoul Economic Daily). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Taiwan's Taiex drops nearly 3%: Asian stocks close lower as Nvidia's CEO turmoil hits chipmakers (MLQ.ai). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+1,2** Is Strong Earnings Guidance Altering The Investment Case For Avnet (AVT)? (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Fed likely to wait on another rate hike as inflation pressures mount (WCIV). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -38,7 +39,6 @@ Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 - **−0,8** Economists say Fed could go overboard on rate hikes after hot October inflation report (Business Insider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,7** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−0,6** AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,6** COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
