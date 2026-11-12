@@ -23,3 +23,8 @@ Bukan nasihat investasi.
 - **Sesi & waktu eksekusi**: sesi aktif (Asia, London, pra-pasar AS, pembukaan NY, siang NY, Power Hour), hitung mundur, garis waktu WIB, dan jendela terlarang ±15 menit di sekitar rilis Tier-1 (CPI, NFP, FOMC).
 - **Korelasi intermarket**: DXY, US10Y, US5Y (proksi US2Y), ES vs NQ, matriks korelasi per jam 24 jam.
 - **Log This Setup**: jurnal pribadi di localStorage browser (ekspor CSV/JSON, win rate searah/melawan bias).
+
+## Kalibrasi & validasi (diperbarui)
+- Kalibrasi memakai **temperature scaling**: satu parameter T membagi logit peluang heuristik, dicari dengan meminimalkan log-loss (stdlib murni, tanpa scikit-learn).
+- Kalibrasi baru aktif bila ≥30 hari dinilai **dan** lolos **validasi walk-forward** (tiap hari diprediksi hanya dari data sebelumnya; Brier harus lebih baik dari heuristik dan dari tebakan laju dasar). Hasilnya tampil di dashboard.
+- Dashboard: palet perintah (Ctrl/⌘+K), ekspor JSON/CSV, urutan kartu berorientasi keputusan (bias → risiko → sesi → faktor/berita → detail).

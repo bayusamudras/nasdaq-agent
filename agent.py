@@ -1294,46 +1294,79 @@ PRIOR_A, PRIOR_B = 0.16, 0.16
 CAL_MIN_N = 30
 
 
+def _tp(x, T):
+    """Peluang naik dari skor, dengan temperature T membagi logit heuristik (T>1 melunakkan, T<1 menajamkan)."""
+    return clamp(1 / (1 + math.exp(-(PRIOR_A + PRIOR_B * x) / T)), 0.18, 0.82)
+
+
+def _fit_T(data):
+    """Temperature scaling: satu parameter T yang meminimalkan log-loss, dengan prior lemah ke T=1.
+    Pencarian grid kasar lalu halus; tanda skor tidak pernah terbalik karena T>0."""
+    def loss(T):
+        s = 0.0
+        for x, y in data:
+            p = _tp(x, T)
+            s -= y * math.log(p) + (1 - y) * math.log(1 - p)
+        return s / len(data) + 0.02 * math.log(T) ** 2
+    best = min((0.3 + 0.05 * k for k in range(0, 75)), key=loss)
+    best = min((best + 0.005 * k for k in range(-9, 10) if best + 0.005 * k > 0.2), key=loss)
+    return clamp(best, 0.3, 4.0)
+
+
+def _brier(ps, ys):
+    return sum((p - y) ** 2 for p, y in zip(ps, ys)) / len(ys)
+
+
+def walk_forward(data, min_train=15):
+    """Validasi walk-forward (jendela membesar): tiap hari diprediksi memakai T yang hanya dilatih dari hari-hari sebelumnya.
+    Mengembalikan skor out-of-sample untuk model terkalibrasi, heuristik awal, dan baseline tingkat dasar."""
+    if len(data) <= min_train:
+        return None
+    pc, ph, pb, ys, hits_c, hits_h = [], [], [], [], 0, 0
+    for k in range(min_train, len(data)):
+        train = data[:k]
+        T = _fit_T(train)
+        x, y = data[k]
+        base = sum(v for _, v in train) / len(train)
+        c, h = _tp(x, T), _tp(x, 1.0)
+        pc.append(c); ph.append(h); pb.append(clamp(base, 0.05, 0.95)); ys.append(y)
+        hits_c += (c > 0.5) == (y > 0.5); hits_h += (h > 0.5) == (y > 0.5)
+    m = len(ys)
+    out = {"folds": m, "brier_cal": round(_brier(pc, ys), 4), "brier_heur": round(_brier(ph, ys), 4),
+           "brier_naive": round(_brier(pb, ys), 4), "acc_cal": round(hits_c / m, 3), "acc_heur": round(hits_h / m, 3)}
+    out["passes"] = out["brier_cal"] <= out["brier_heur"] and out["brier_cal"] <= out["brier_naive"] + 0.005
+    return out
+
+
 def calibrate(entries):
-    """Kalibrasi Platt dengan prior: cocokkan P(naik) = sigmoid(a + b*skor) ke hasil nyata.
-    Aktif hanya bila sudah ada CAL_MIN_N hari dinilai; di bawah itu tetap memakai parameter heuristik."""
+    """Kalibrasi temperature scaling, divalidasi walk-forward. Aktif hanya bila n >= CAL_MIN_N DAN skor Brier
+    out-of-sample lebih baik dari heuristik awal; bila tidak, model tetap heuristik dan alasannya dilaporkan."""
     data = [(e["score10"], 1.0 if e["outcome"]["change_pct"] > 0 else 0.0) for e in entries
             if e.get("outcome") and not e.get("late") and e.get("score10") is not None]
     n = len(data)
-    info = {"active": False, "n": n, "min_n": CAL_MIN_N, "a": PRIOR_A, "b": PRIOR_B,
-            "brier": None, "brier_naive": None, "base_rate": None}
+    info = {"active": False, "n": n, "min_n": CAL_MIN_N, "a": PRIOR_A, "b": PRIOR_B, "T": 1.0, "method": "temperature",
+            "brier": None, "brier_naive": None, "base_rate": None, "walk_forward": None, "reason": None}
     if n:
         base = sum(y for _, y in data) / n
         info["base_rate"] = round(base, 3)
         info["brier_naive"] = round(sum((base - y) ** 2 for _, y in data) / n, 4)
-        ps = [clamp(1 / (1 + math.exp(-(PRIOR_A + PRIOR_B * x))), 0.18, 0.82) for x, _ in data]
-        info["brier"] = round(sum((p - y) ** 2 for p, (_, y) in zip(ps, data)) / n, 4)
-    first = min((e["date"] for e in entries if e.get("outcome") and not e.get("late")), default=None)
-    last = max((e["date"] for e in entries if e.get("outcome") and not e.get("late")), default=None)
-    info.update(first_date=first, last_date=last)
+        info["brier"] = round(_brier([_tp(x, 1.0) for x, _ in data], [y for _, y in data]), 4)
+    dates = [e["date"] for e in entries if e.get("outcome") and not e.get("late")]
+    info.update(first_date=min(dates, default=None), last_date=max(dates, default=None))
     if n < CAL_MIN_N:
+        info["reason"] = f"Data baru {n} dari {CAL_MIN_N} hari."
         return info
-    la, lb = 5.0, 200.0  # kekuatan prior: menahan parameter dekat nilai awal saat data masih sedikit
-    a, b = PRIOR_A, PRIOR_B
-    for _ in range(50):
-        ga, gb = la * (a - PRIOR_A), lb * (b - PRIOR_B)
-        haa, hab, hbb = la, 0.0, lb
-        for x, y in data:
-            p = 1 / (1 + math.exp(-(a + b * x)))
-            ga += (p - y); gb += (p - y) * x
-            w = p * (1 - p)
-            haa += w; hab += w * x; hbb += w * x * x
-        det = haa * hbb - hab * hab
-        if det <= 1e-9:
-            break
-        da, db = (hbb * ga - hab * gb) / det, (haa * gb - hab * ga) / det
-        a, b = a - da, b - db
-        if abs(da) + abs(db) < 1e-7:
-            break
-    a, b = clamp(a, -0.6, 0.6), clamp(b, 0.0, 0.5)  # tanda negatif dilarang: skor bearish tidak boleh menaikkan peluang
-    ps = [clamp(1 / (1 + math.exp(-(a + b * x))), 0.18, 0.82) for x, _ in data]
-    info.update(active=True, a=round(a, 4), b=round(b, 4),
-                brier_fit=round(sum((p - y) ** 2 for p, (_, y) in zip(ps, data)) / n, 4))
+    wf = walk_forward(data)
+    info["walk_forward"] = wf
+    T = _fit_T(data)
+    info["T"] = round(T, 3)
+    info["brier_fit"] = round(_brier([_tp(x, T) for x, _ in data], [y for _, y in data]), 4)
+    if wf and wf["passes"]:
+        info["active"] = True
+        info["reason"] = "Lolos validasi walk-forward: Brier out-of-sample lebih baik dari heuristik."
+    else:
+        info["T"] = 1.0
+        info["reason"] = "Belum lolos validasi walk-forward (tidak mengalahkan heuristik/tingkat dasar), tetap memakai heuristik."
     return info
 
 
@@ -1357,8 +1390,7 @@ def compose(factors, events, now, calib=None, structure=None, fed_overlay=0.0, m
             breaker = {"active": True, "raw_score": score10, "side": "bearish_dibatalkan",
                        "reason": "Bias bearish kuat, tetapi struktur harga NQ berbalik: " + " ".join(structure["notes"][:2])}
             score10 = -2.0
-    ca, cb = (calib["a"], calib["b"]) if calib and calib.get("active") else (PRIOR_A, PRIOR_B)
-    p_up = clamp(1 / (1 + math.exp(-(ca + cb * score10))), 0.18, 0.82)
+    p_up = _tp(score10, calib["T"] if calib and calib.get("active") else 1.0)
 
     side = 1 if score10 >= 0 else -1
     active = [f for f in avail if abs(f["signal"]) >= 0.25]
@@ -1984,7 +2016,7 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
         calib = calibrate(entries)  # hitung ulang setelah hasil sesi yang baru selesai masuk
         log = load_calib_log(history_path)
         today = now.astimezone(WIB).date().isoformat()
-        snap = {"date": today, "n": calib["n"], "active": calib["active"], "a": calib["a"], "b": calib["b"],
+        snap = {"date": today, "n": calib["n"], "active": calib["active"], "a": calib["a"], "b": calib["b"], "T": calib["T"],
                 "brier": calib["brier"], "brier_naive": calib["brier_naive"]}
         if log and log[-1].get("date") == today:
             log[-1] = snap
@@ -2014,7 +2046,7 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
         "fetched_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "feeds": market.get("_feeds") or {}, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
         "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds", "mag7_earnings", "cot_rows", "hourly_x")}, "news_stats": ns, "items": items, "news_feed": news_feed_out(clusters), "llm_summary": None,
-        "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.3f+%.3f*skor)))" % (calib["a"], calib["b"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
+        "methodology": {"weights": {k: FINFO[k][1] for k in FACTOR_ORDER}, "p_up_formula": "1/(1+exp(-(%.2f+%.2f*skor)/T)), T=%.2f" % (calib["a"], calib["b"], calib["T"]) + (" (terkalibrasi)" if calib["active"] else " (heuristik awal)"),
                         "p_up_range": [0.18, 0.82]},
     }
     if use_llm:
