@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-13T01:18:32+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-13T01:19:32+07:00 · sesi Kamis 12 Nov (berjalan)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 73% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 69%, 64% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 28,398–28,452. Skor dipangkas dari -7.5 menjadi -2.0.
 
 ## Alasan utama
-- **Berita berbobot** (−1,89): Skor rata-rata −1,51 dari 31 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (−1,00): 5,111% (+11,3 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (+0,38): +4,73% dalam 5 sesi; 8,1% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
-- **Minyak Brent** (−0,31): $95,08 (+2,50% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
+- **Berita berbobot** (−2,00): Skor rata-rata −1,60 dari 30 kejadian bernilai; 23% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Yield obligasi 10 tahun** (−1,00): 5,107% (+10,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Tren Nasdaq 5 sesi** (+0,38): +4,77% dalam 5 sesi; 8,1% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Minyak Brent** (−0,32): $95,12 (+2,54% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,51 dari 31 kejadian bernilai; 26% bobot bullish | −1,26 | 30% | −1,89 |
-| Futures Nasdaq-100 | 0,00% dari penutupan sebelumnya (28.472,25) | 0,00 | 20% | 0,00 |
-| Futures S&P 500 | +0,09% dari penutupan sebelumnya (7.647,50) | +0,22 | 5% | +0,06 |
-| Semikonduktor (SOX) | −0,29% dari penutupan sebelumnya (10.533,55) | −0,29 | 10% | −0,14 |
-| Yield obligasi 10 tahun | 5,111% (+11,3 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 17,66 (+1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 27,25 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $95,08 (+2,50% dari sesi sebelumnya) | −1,25 | 5% | −0,31 |
+| Berita berbobot | skor rata-rata −1,60 dari 30 kejadian bernilai; 23% bobot bullish | −1,33 | 30% | −2,00 |
+| Futures Nasdaq-100 | +0,03% dari penutupan sebelumnya (28.480,50) | +0,06 | 20% | +0,06 |
+| Futures S&P 500 | +0,10% dari penutupan sebelumnya (7.648,25) | +0,25 | 5% | +0,06 |
+| Semikonduktor (SOX) | −0,16% dari penutupan sebelumnya (10.546,81) | −0,16 | 10% | −0,08 |
+| Yield obligasi 10 tahun | 5,107% (+10,9 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
+| VIX (volatilitas) | 17,56 (+0,4% dari sesi sebelumnya); VXN (Nasdaq-100) 27,25 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $95,12 (+2,54% dari sesi sebelumnya) | −1,27 | 5% | −0,32 |
 | Indeks dolar | +0,28% dari penutupan sebelumnya (103,20) | +0,70 | 5% | +0,18 |
-| Tren Nasdaq 5 sesi | +4,73% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| Tren Nasdaq 5 sesi | +4,77% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.466 (0,00%).
+Perkiraan pembukaan dari futures: 25.474 (+0,03%).
 Rentang wajar 1σ (VXN): 25.029 sampai 25.903.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 25.029 sampai 25.903.
 - **−1,7** Wall Street Plunges as Nvidia CEO Jensen Huang Quits (HDFC Sky). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Export Controls Were Supposed to Keep AI Chips Out of China. The Rental Loophole Shows Why They Haven't (24/7 Wall St.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,6** Big Tech Stocks Today: Nvidia and Meta Fall as Microsoft Rises Amid AI Selloff (Coinpaper). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,6** Stock Market Today, November 12, 2026 : Nvidia Stock Tumbles After Jensen Huang Exit; AI Shares Face Leadership Shock (Eurasia Business News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,5** Stock Market Today, November 12, 2026 : Nvidia Stock Tumbles After Jensen Huang Exit; AI Shares Face Leadership Shock (Eurasia Business News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Greer Says Nvidia 'Structurally Important' as Washington Weighs Chip Export Curbs (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** Eurozone yields hold near 1-week highs; Investors weigh hawkish Fed bets (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
