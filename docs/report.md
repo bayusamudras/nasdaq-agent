@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T20:14:06+07:00 · sesi Kamis 12 Nov (pra-buka)_
+_Diperbarui 2026-11-12T20:15:06+07:00 · sesi Kamis 12 Nov (pra-buka)_
 
-Peluang indeks naik **26%**, turun **74%** (skor −7,4 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **27%**, turun **73%** (skor −7,3 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,06% dari penutupan sebelumnya (28.172,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
@@ -16,9 +16,9 @@ Peluang indeks naik **26%**, turun **74%** (skor −7,4 dari ±10, keyakinan 80%
 | Futures S&P 500 | −0,46% dari penutupan sebelumnya (7.605,25) | −1,15 | 5% | −0,29 |
 | Semikonduktor (SOX) | +5,66% dari penutupan sebelumnya (10.564,11) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
-| VIX (volatilitas) | 18,39 (+5,2% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $92,21 (−0,59% dari sesi sebelumnya) | +0,29 | 5% | +0,07 |
-| Indeks dolar | 0,00% dari penutupan sebelumnya (102,92) | 0,00 | 5% | 0,00 |
+| VIX (volatilitas) | 18,36 (+5,0% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $92,11 (−0,70% dari sesi sebelumnya) | +0,35 | 5% | +0,09 |
+| Indeks dolar | +0,02% dari penutupan sebelumnya (102,93) | +0,05 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | −1,05% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | −0,70 | 5% | −0,18 |
 
 ## Level hari ini
@@ -32,7 +32,7 @@ Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 - **−1,6** AM Markets Need to Know: Nvidia CEO faces pressure, EU delays EV tariffs, and more (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,3** U.S. Set to Tighten AI Chip Export Curbs on Singapore, Southeast Asia (Seoul Economic Daily). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,3** Taiwan's Taiex drops nearly 3%: Asian stocks close lower as Nvidia's CEO turmoil hits chipmakers (MLQ.ai). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **+1,2** Is Strong Earnings Guidance Altering The Investment Case For Avnet (AVT)? (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,1** Is Strong Earnings Guidance Altering The Investment Case For Avnet (AVT)? (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Fed likely to wait on another rate hike as inflation pressures mount (WCIV). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,0** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,0** Tetra Tech Beat Q4 EPS Forecasts, And Shares Jumped (Finimize). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
