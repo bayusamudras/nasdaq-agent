@@ -1,30 +1,31 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T23:15:38+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-12T23:16:38+07:00 · sesi Kamis 12 Nov (berjalan)_
 
-Peluang indeks naik **29%**, turun **71%** (skor −6,5 dari ±10, keyakinan 75%, 56% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 70%, 45% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,74): Skor rata-rata −1,39 dari 34 kejadian bernilai; 30% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (−1,00): 5,072% (+7,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (+0,38): +5,08% dalam 5 sesi; 7,8% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
-- **Semikonduktor (SOX)** (+0,34): +0,68% dari penutupan sebelumnya (10.636,38). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−1,67): Skor rata-rata −1,34 dari 32 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Yield obligasi 10 tahun** (−1,00): 5,070% (+7,2 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures Nasdaq-100** (+0,48): +0,24% dari penutupan sebelumnya (28.541,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+0,44): +0,88% dari penutupan sebelumnya (10.657,04). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (+0,38): +5,10% dalam 5 sesi; 7,8% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,39 dari 34 kejadian bernilai; 30% bobot bullish | −1,16 | 30% | −1,74 |
-| Futures Nasdaq-100 | +0,07% dari penutupan sebelumnya (28.493,50) | +0,14 | 20% | +0,14 |
-| Futures S&P 500 | +0,11% dari penutupan sebelumnya (7.648,75) | +0,27 | 5% | +0,07 |
-| Semikonduktor (SOX) | +0,68% dari penutupan sebelumnya (10.636,38) | +0,68 | 10% | +0,34 |
-| Yield obligasi 10 tahun | 5,072% (+7,4 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 17,51 (+0,1% dari sesi sebelumnya); VXN (Nasdaq-100) 27,32 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $93,69 (+1,00% dari sesi sebelumnya) | −0,50 | 5% | −0,12 |
-| Indeks dolar | +0,22% dari penutupan sebelumnya (103,14) | +0,55 | 5% | +0,14 |
-| Tren Nasdaq 5 sesi | +5,08% dalam 5 sesi; 7,8% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| Berita berbobot | skor rata-rata −1,34 dari 32 kejadian bernilai; 31% bobot bullish | −1,11 | 30% | −1,67 |
+| Futures Nasdaq-100 | +0,24% dari penutupan sebelumnya (28.541,75) | +0,48 | 20% | +0,48 |
+| Futures S&P 500 | +0,21% dari penutupan sebelumnya (7.656,25) | +0,52 | 5% | +0,13 |
+| Semikonduktor (SOX) | +0,88% dari penutupan sebelumnya (10.657,04) | +0,88 | 10% | +0,44 |
+| Yield obligasi 10 tahun | 5,070% (+7,2 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
+| VIX (volatilitas) | 17,60 (+0,6% dari sesi sebelumnya); VXN (Nasdaq-100) 27,31 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $93,68 (+0,99% dari sesi sebelumnya) | −0,49 | 5% | −0,12 |
+| Indeks dolar | +0,24% dari penutupan sebelumnya (103,15) | +0,60 | 5% | +0,15 |
+| Tren Nasdaq 5 sesi | +5,10% dalam 5 sesi; 7,8% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.484 (+0,07%).
+Perkiraan pembukaan dari futures: 25.527 (+0,24%).
 Rentang wajar 1σ (VXN): 25.028 sampai 25.904.
 
 ## Berita paling berdampak
@@ -38,8 +39,8 @@ Rentang wajar 1σ (VXN): 25.028 sampai 25.904.
 - **−1,6** Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Nebius Tumbles 14% on Soft Guidance and Bigger Spending Plans; CoreWeave Sinks 10%, IREN Drops 7% (24/7 Wall St.). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** AM Markets Need to Know: Nvidia CEO faces pressure, EU delays EV tariffs, and more (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,3** Nebius Raises Capex to $27 Billion as Capacity Delays Shift Revenue (Securities.io). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,2** Oil Tanker Explosion Reported Again in Strait of Hormuz; International Crude Prices Spike Intraday (BigGo Finance). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−1,2** Trump Says No Iran Deal Needed; Oil Prices Jump (Investor's Business Daily). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
