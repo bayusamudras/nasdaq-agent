@@ -1,32 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T00:15:02+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-13T00:16:02+07:00 · sesi Kamis 12 Nov (berjalan)_
 
-Peluang indeks naik **28%**, turun **72%** (skor −7,0 dari ±10, keyakinan 75%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **28%**, turun **72%** (skor −7,0 dari ±10, keyakinan 80%, 69% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,77): Skor rata-rata −1,41 dari 29 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,69): Skor rata-rata −1,35 dari 31 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,101% (+10,3 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (+0,38): +4,83% dalam 5 sesi; 8,1% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Tren Nasdaq 5 sesi** (+0,38): +4,73% dalam 5 sesi; 8,1% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Semikonduktor (SOX)** (−0,30): −0,61% dari penutupan sebelumnya (10.499,93). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,41 dari 29 kejadian bernilai; 27% bobot bullish | −1,18 | 30% | −1,77 |
-| Futures Nasdaq-100 | +0,13% dari penutupan sebelumnya (28.510,00) | +0,26 | 20% | +0,26 |
-| Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.653,75) | +0,42 | 5% | +0,11 |
-| Semikonduktor (SOX) | −0,41% dari penutupan sebelumnya (10.520,98) | −0,41 | 10% | −0,20 |
+| Berita berbobot | skor rata-rata −1,35 dari 31 kejadian bernilai; 28% bobot bullish | −1,13 | 30% | −1,69 |
+| Futures Nasdaq-100 | +0,12% dari penutupan sebelumnya (28.507,00) | +0,24 | 20% | +0,24 |
+| Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.653,25) | +0,42 | 5% | +0,11 |
+| Semikonduktor (SOX) | −0,61% dari penutupan sebelumnya (10.499,93) | −0,61 | 10% | −0,30 |
 | Yield obligasi 10 tahun | 5,101% (+10,3 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 17,61 (+0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 27,19 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $93,83 (+1,15% dari sesi sebelumnya) | −0,57 | 5% | −0,14 |
-| Indeks dolar | +0,21% dari penutupan sebelumnya (103,12) | +0,52 | 5% | +0,13 |
-| Tren Nasdaq 5 sesi | +4,83% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 17,60 (+0,6% dari sesi sebelumnya); VXN (Nasdaq-100) 27,19 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $93,93 (+1,26% dari sesi sebelumnya) | −0,63 | 5% | −0,16 |
+| Indeks dolar | +0,23% dari penutupan sebelumnya (103,14) | +0,57 | 5% | +0,14 |
+| Tren Nasdaq 5 sesi | +4,73% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.499 (+0,13%).
+Perkiraan pembukaan dari futures: 25.497 (+0,12%).
 Rentang wajar 1σ (VXN): 25.030 sampai 25.902.
 
 ## Berita paling berdampak
+- **−2,5** U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−2,5** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,9** How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** Export Controls Were Supposed to Keep AI Chips Out of China. The Rental Loophole Shows Why They Haven't (24/7 Wall St.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
@@ -38,7 +40,6 @@ Rentang wajar 1σ (VXN): 25.030 sampai 25.902.
 - **−1,5** Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Nebius Tumbles 14% on Soft Guidance and Bigger Spending Plans; CoreWeave Sinks 10%, IREN Drops 7% (24/7 Wall St.). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** AM Markets Need to Know: Nvidia CEO faces pressure, EU delays EV tariffs, and more (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,1** Oil Tanker Explosion Reported Again in Strait of Hormuz; International Crude Prices Spike Intraday (BigGo Finance). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
