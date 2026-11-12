@@ -1,40 +1,40 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T03:42:19+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-13T03:43:19+07:00 · sesi Kamis 12 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,10): Skor rata-rata −1,68 dari 28 kejadian bernilai; 19% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−1,16): −0,58% dari penutupan sebelumnya (28.307,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,12): −0,56% dari penutupan sebelumnya (28.313,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Semikonduktor (SOX)** (−0,47): −0,94% dari penutupan sebelumnya (10.464,94). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Minyak Brent** (−0,38): $96,04 (+3,54% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
+- **Semikonduktor (SOX)** (−0,46): −0,92% dari penutupan sebelumnya (10.467,15). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Minyak Brent** (−0,38): $96,12 (+3,62% dari sesi sebelumnya). Minyak tinggi atau naik, memperbesar tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,68 dari 28 kejadian bernilai; 19% bobot bullish | −1,40 | 30% | −2,10 |
-| Futures Nasdaq-100 | −0,58% dari penutupan sebelumnya (28.307,75) | −1,16 | 20% | −1,16 |
-| Futures S&P 500 | −0,39% dari penutupan sebelumnya (7.611,00) | −0,97 | 5% | −0,24 |
-| Semikonduktor (SOX) | −0,94% dari penutupan sebelumnya (10.464,94) | −0,94 | 10% | −0,47 |
+| Futures Nasdaq-100 | −0,56% dari penutupan sebelumnya (28.313,75) | −1,12 | 20% | −1,12 |
+| Futures S&P 500 | −0,38% dari penutupan sebelumnya (7.611,75) | −0,95 | 5% | −0,24 |
+| Semikonduktor (SOX) | −0,92% dari penutupan sebelumnya (10.467,15) | −0,92 | 10% | −0,46 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 18,68 (+6,8% dari sesi sebelumnya); VXN (Nasdaq-100) 28,34 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $96,04 (+3,54% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
-| Indeks dolar | +0,26% dari penutupan sebelumnya (103,17) | +0,65 | 5% | +0,16 |
+| VIX (volatilitas) | 18,72 (+7,0% dari sesi sebelumnya); VXN (Nasdaq-100) 28,38 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $96,12 (+3,62% dari sesi sebelumnya) | −1,50 | 5% | −0,38 |
+| Indeks dolar | +0,26% dari penutupan sebelumnya (103,18) | +0,65 | 5% | +0,16 |
 | Tren Nasdaq 5 sesi | +4,21% dalam 5 sesi; 8,6% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.318 (−0,58%).
-Rentang wajar 1σ (VXN): 25.012 sampai 25.921.
+Perkiraan pembukaan dari futures: 25.324 (−0,56%).
+Rentang wajar 1σ (VXN): 25.011 sampai 25.921.
 
 ## Berita paling berdampak
 - **−2,4** 10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,3** Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook (CNBC). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−2,2** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−2,0** U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,9** U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,6** Prediction: Nvidia's Plunging Stock Price Is the Beginning of a Broader Stock Market Crash. Here's What Warren Buffett Would Do. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,6** Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,5** Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Nvidia stock tumbles as CEO Jensen Huang steps down, dragging down other AI names (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Export Controls Were Supposed to Keep AI Chips Out of China. The Rental Loophole Shows Why They Haven't (24/7 Wall St.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
