@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T00:12:02+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-13T00:13:02+07:00 · sesi Kamis 12 Nov (berjalan)_
 
-Peluang indeks naik **28%**, turun **72%** (skor −6,9 dari ±10, keyakinan 75%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **27%**, turun **73%** (skor −7,1 dari ±10, keyakinan 80%, 69% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,84): Skor rata-rata −1,47 dari 29 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (−1,00): 5,097% (+9,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (+0,48): +0,24% dari penutupan sebelumnya (28.542,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Tren Nasdaq 5 sesi** (+0,38): +4,77% dalam 5 sesi; 8,1% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Berita berbobot** (−1,77): Skor rata-rata −1,41 dari 29 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Yield obligasi 10 tahun** (−1,00): 5,099% (+10,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Tren Nasdaq 5 sesi** (+0,38): +4,73% dalam 5 sesi; 8,1% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Semikonduktor (SOX)** (−0,30): −0,60% dari penutupan sebelumnya (10.500,30). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,47 dari 29 kejadian bernilai; 25% bobot bullish | −1,23 | 30% | −1,84 |
-| Futures Nasdaq-100 | +0,24% dari penutupan sebelumnya (28.542,25) | +0,48 | 20% | +0,48 |
-| Futures S&P 500 | +0,23% dari penutupan sebelumnya (7.658,25) | +0,57 | 5% | +0,14 |
-| Semikonduktor (SOX) | −0,51% dari penutupan sebelumnya (10.510,05) | −0,51 | 10% | −0,26 |
-| Yield obligasi 10 tahun | 5,097% (+9,9 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 17,56 (+0,4% dari sesi sebelumnya); VXN (Nasdaq-100) 27,19 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $94,03 (+1,37% dari sesi sebelumnya) | −0,69 | 5% | −0,17 |
-| Indeks dolar | +0,23% dari penutupan sebelumnya (103,15) | +0,57 | 5% | +0,14 |
-| Tren Nasdaq 5 sesi | +4,77% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| Berita berbobot | skor rata-rata −1,41 dari 29 kejadian bernilai; 27% bobot bullish | −1,18 | 30% | −1,77 |
+| Futures Nasdaq-100 | +0,11% dari penutupan sebelumnya (28.503,50) | +0,22 | 20% | +0,22 |
+| Futures S&P 500 | +0,15% dari penutupan sebelumnya (7.651,75) | +0,37 | 5% | +0,09 |
+| Semikonduktor (SOX) | −0,60% dari penutupan sebelumnya (10.500,30) | −0,60 | 10% | −0,30 |
+| Yield obligasi 10 tahun | 5,099% (+10,1 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
+| VIX (volatilitas) | 17,58 (+0,5% dari sesi sebelumnya); VXN (Nasdaq-100) 27,20 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $93,86 (+1,19% dari sesi sebelumnya) | −0,59 | 5% | −0,15 |
+| Indeks dolar | +0,23% dari penutupan sebelumnya (103,14) | +0,57 | 5% | +0,14 |
+| Tren Nasdaq 5 sesi | +4,73% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.527 (+0,24%).
-Rentang wajar 1σ (VXN): 25.030 sampai 25.902.
+Perkiraan pembukaan dari futures: 25.494 (+0,11%).
+Rentang wajar 1σ (VXN): 25.030 sampai 25.903.
 
 ## Berita paling berdampak
 - **−2,5** CoreWeave Finds a Workaround to Capital Constraints—for Now (WSJ). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
