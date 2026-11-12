@@ -1,39 +1,39 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T22:43:59+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-12T22:44:59+07:00 · sesi Kamis 12 Nov (berjalan)_
 
-Peluang indeks naik **20%**, turun **80%** (skor −9,8 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **20%**, turun **80%** (skor −9,5 dari ±10, keyakinan 80%, 90% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,88): Skor rata-rata −1,50 dari 34 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−1,42): −0,71% dari penutupan sebelumnya (28.270,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,65): Skor rata-rata −1,32 dari 35 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−1,38): −0,69% dari penutupan sebelumnya (28.275,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Yield obligasi 10 tahun** (−1,00): 5,068% (+7,0 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Semikonduktor (SOX)** (−0,50): −1,00% dari penutupan sebelumnya (10.458,12). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Tren Nasdaq 5 sesi** (+0,38): +4,37% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Semikonduktor (SOX)** (−0,46): −0,92% dari penutupan sebelumnya (10.466,91). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (+0,38): +4,36% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,50 dari 34 kejadian bernilai; 28% bobot bullish | −1,25 | 30% | −1,88 |
-| Futures Nasdaq-100 | −0,71% dari penutupan sebelumnya (28.270,50) | −1,42 | 20% | −1,42 |
-| Futures S&P 500 | −0,33% dari penutupan sebelumnya (7.615,50) | −0,82 | 5% | −0,20 |
-| Semikonduktor (SOX) | −1,00% dari penutupan sebelumnya (10.458,12) | −1,00 | 10% | −0,50 |
+| Berita berbobot | skor rata-rata −1,32 dari 35 kejadian bernilai; 28% bobot bullish | −1,10 | 30% | −1,65 |
+| Futures Nasdaq-100 | −0,69% dari penutupan sebelumnya (28.275,50) | −1,38 | 20% | −1,38 |
+| Futures S&P 500 | −0,31% dari penutupan sebelumnya (7.616,50) | −0,77 | 5% | −0,19 |
+| Semikonduktor (SOX) | −0,92% dari penutupan sebelumnya (10.466,91) | −0,92 | 10% | −0,46 |
 | Yield obligasi 10 tahun | 5,068% (+7,0 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 18,31 (+4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 27,98 | −0,50 | 10% | −0,25 |
+| VIX (volatilitas) | 18,23 (+4,2% dari sesi sebelumnya); VXN (Nasdaq-100) 27,96 | −0,50 | 10% | −0,25 |
 | Minyak Brent | $93,50 (+0,80% dari sesi sebelumnya) | −0,40 | 5% | −0,10 |
-| Indeks dolar | +0,24% dari penutupan sebelumnya (103,15) | +0,60 | 5% | +0,15 |
-| Tren Nasdaq 5 sesi | +4,37% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,24% dari penutupan sebelumnya (103,16) | +0,60 | 5% | +0,15 |
+| Tren Nasdaq 5 sesi | +4,36% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.285 (−0,71%).
-Rentang wajar 1σ (VXN): 25.017 sampai 25.915.
+Perkiraan pembukaan dari futures: 25.290 (−0,69%).
+Rentang wajar 1σ (VXN): 25.018 sampai 25.915.
 
 ## Berita paling berdampak
-- **−3,2** Nebius falls 10% as company expects increased 2026 capex spend, issues weak outlook (CNBC). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−2,4** Treasury Selloff Accelerates, European Bonds Follow Suit (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−2,2** Nebius Plunges 15% as $7.3 Billion Capex Sparks Concern Despite 571% Q3 Revenue Surge (TradingKey). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−2,1** How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** Greer Says Nvidia 'Structurally Important' as Washington Weighs Chip Export Curbs (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,8** Oil Futures Slide as Trump Says New Strikes on Iran Unlikely (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,7** 10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,6** Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRW (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
