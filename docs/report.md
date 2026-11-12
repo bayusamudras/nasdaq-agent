@@ -1,38 +1,37 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T23:34:50+07:00 · sesi Kamis 12 Nov (berjalan)_
+_Diperbarui 2026-11-12T23:35:49+07:00 · sesi Kamis 12 Nov (berjalan)_
 
-Peluang indeks naik **32%**, turun **68%** (skor −5,7 dari ±10, keyakinan 72%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **32%**, turun **68%** (skor −5,7 dari ±10, keyakinan 70%, 45% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,65): Skor rata-rata −1,32 dari 31 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,53): Skor rata-rata −1,23 dari 31 kejadian bernilai; 33% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,072% (+7,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (+0,96): +0,48% dari penutupan sebelumnya (28.609,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Tren Nasdaq 5 sesi** (+0,38): +4,84% dalam 5 sesi; 8,0% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Futures Nasdaq-100** (+0,76): +0,38% dari penutupan sebelumnya (28.582,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Tren Nasdaq 5 sesi** (+0,38): +4,89% dalam 5 sesi; 8,0% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,32 dari 31 kejadian bernilai; 29% bobot bullish | −1,10 | 30% | −1,65 |
-| Futures Nasdaq-100 | +0,48% dari penutupan sebelumnya (28.609,25) | +0,96 | 20% | +0,96 |
-| Futures S&P 500 | +0,37% dari penutupan sebelumnya (7.668,75) | +0,92 | 5% | +0,23 |
-| Semikonduktor (SOX) | +0,23% dari penutupan sebelumnya (10.588,64) | +0,23 | 10% | +0,12 |
+| Berita berbobot | skor rata-rata −1,23 dari 31 kejadian bernilai; 33% bobot bullish | −1,02 | 30% | −1,53 |
+| Futures Nasdaq-100 | +0,38% dari penutupan sebelumnya (28.582,50) | +0,76 | 20% | +0,76 |
+| Futures S&P 500 | +0,32% dari penutupan sebelumnya (7.665,00) | +0,80 | 5% | +0,20 |
+| Semikonduktor (SOX) | +0,29% dari penutupan sebelumnya (10.594,29) | +0,29 | 10% | +0,14 |
 | Yield obligasi 10 tahun | 5,072% (+7,4 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 17,44 (−0,3% dari sesi sebelumnya); VXN (Nasdaq-100) 27,03 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $93,63 (+0,94% dari sesi sebelumnya) | −0,47 | 5% | −0,12 |
-| Indeks dolar | +0,25% dari penutupan sebelumnya (103,17) | +0,62 | 5% | +0,15 |
-| Tren Nasdaq 5 sesi | +4,84% dalam 5 sesi; 8,0% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 17,43 (−0,3% dari sesi sebelumnya); VXN (Nasdaq-100) 27,05 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $93,59 (+0,89% dari sesi sebelumnya) | −0,45 | 5% | −0,11 |
+| Indeks dolar | +0,27% dari penutupan sebelumnya (103,19) | +0,68 | 5% | +0,17 |
+| Tren Nasdaq 5 sesi | +4,89% dalam 5 sesi; 8,0% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.588 (+0,48%).
-Rentang wajar 1σ (VXN): 25.033 sampai 25.900.
+Perkiraan pembukaan dari futures: 25.563 (+0,38%).
+Rentang wajar 1σ (VXN): 25.032 sampai 25.900.
 
 ## Berita paling berdampak
 - **−3,0** Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook (CNBC). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−2,3** Treasury Selloff Accelerates, European Bonds Follow Suit (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,9** How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Greer Says Nvidia 'Structurally Important' as Washington Weighs Chip Export Curbs (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,7** Oil Futures Slide as Trump Says New Strikes on Iran Unlikely (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,6** 10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,6** Stock Market Today: Nvidia Rout Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRW (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Nvidia vs. AMD: Which Is the Better Artificial Intelligence (AI) Stock for 2027 After the Tech Sell-Off? (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -40,6 +39,7 @@ Rentang wajar 1σ (VXN): 25.033 sampai 25.900.
 - **−1,3** AM Markets Need to Know: Nvidia CEO faces pressure, EU delays EV tariffs, and more (TradingView). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Oil Tanker Explosion Reported Again in Strait of Hormuz; International Crude Prices Spike Intraday (BigGo Finance). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,1** Trump Says No Iran Deal Needed; Oil Prices Jump (Investor's Business Daily). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **+1,0** Oil prices fall due to increased production despite tensions in Hormuz (Inspenet). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
