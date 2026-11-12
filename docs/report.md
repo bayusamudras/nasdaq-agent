@@ -1,21 +1,21 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-12T12:08:50+07:00 · sesi Kamis 12 Nov (pra-buka)_
+_Diperbarui 2026-11-12T12:09:50+07:00 · sesi Kamis 12 Nov (pra-buka)_
 
-Peluang indeks naik **50%**, turun **50%** (skor −1,0 dari ±10, keyakinan 48%, 23% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **49%**, turun **51%** (skor −1,1 dari ±10, keyakinan 48%, 23% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,34% dari penutupan sebelumnya (28.208,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,35% dari penutupan sebelumnya (28.211,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +5,66% dari penutupan sebelumnya (10.564,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +0,91% dari penutupan sebelumnya (7.612,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +0,91% dari penutupan sebelumnya (7.613,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **VIX (volatilitas)** (+0,50): 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 - **Indeks dolar** (+0,47): +0,75% dari penutupan sebelumnya (103,00). Dolar melemah, melonggarkan kondisi keuangan global.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,12 dari 37 kejadian bernilai; 54% bobot bullish | −0,10 | 30% | −0,15 |
-| Futures Nasdaq-100 | +1,34% dari penutupan sebelumnya (28.208,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,91% dari penutupan sebelumnya (7.612,75) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,21 dari 39 kejadian bernilai; 52% bobot bullish | −0,18 | 30% | −0,27 |
+| Futures Nasdaq-100 | +1,35% dari penutupan sebelumnya (28.211,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,91% dari penutupan sebelumnya (7.613,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +5,66% dari penutupan sebelumnya (10.564,11) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
 | VIX (volatilitas) | 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | +1,00 | 10% | +0,50 |
@@ -25,7 +25,7 @@ Peluang indeks naik **50%**, turun **50%** (skor −1,0 dari ±10, keyakinan 48%
 
 ## Level hari ini
 Pivot 25.481; resistensi 25.635 / 25.804; support 25.312 / 25.158.
-Perkiraan pembukaan dari futures: 25.807 (+1,34%).
+Perkiraan pembukaan dari futures: 25.810 (+1,35%).
 Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 
 ## Berita paling berdampak
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 - **+1,0** Dow, S&P 500, Nasdaq Futures Mixed As Tech Rebounds Despite Nvidia CEO Crisis: AMD, CSCO, AMAT In Focus (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,0** Inflation spreads across economy, putting pressure on Fed to accelerate rate hikes (WSET). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+0,9** Nasdaq jumps 1.6% as CoreWeave’s earnings beat leads a tech rebound (Quartz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+0,8** Gold climbs as dollar and Treasury yields retreat ahead of US inflation data and Fed guidance (VT Markets). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **−0,9** Blacklisted Chinese military-linked university bought Nvidia H200 chips - Report (The Times of India). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
