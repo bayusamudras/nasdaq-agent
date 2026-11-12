@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T13:30:43+07:00 · sesi Kamis 12 Nov (pra-buka)_
+_Diperbarui 2026-11-12T13:31:43+07:00 · sesi Kamis 12 Nov (pra-buka)_
 
 Peluang indeks naik **31%**, turun **69%** (skor −6,1 dari ±10, keyakinan 80%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,90): −0,95% dari penutupan sebelumnya (28.202,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,90): −0,95% dari penutupan sebelumnya (28.201,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +5,66% dari penutupan sebelumnya (10.564,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (+0,50): 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 
@@ -12,13 +12,13 @@ Peluang indeks naik **31%**, turun **69%** (skor −6,1 dari ±10, keyakinan 80%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,15 dari 37 kejadian bernilai; 53% bobot bullish | −0,12 | 30% | −0,18 |
-| Futures Nasdaq-100 | −0,95% dari penutupan sebelumnya (28.202,00) | −1,90 | 20% | −1,90 |
-| Futures S&P 500 | −0,40% dari penutupan sebelumnya (7.609,75) | −1,00 | 5% | −0,25 |
+| Futures Nasdaq-100 | −0,95% dari penutupan sebelumnya (28.201,50) | −1,90 | 20% | −1,90 |
+| Futures S&P 500 | −0,41% dari penutupan sebelumnya (7.609,50) | −1,02 | 5% | −0,26 |
 | Semikonduktor (SOX) | +5,66% dari penutupan sebelumnya (10.564,11) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
 | VIX (volatilitas) | 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | +1,00 | 10% | +0,50 |
-| Minyak Brent | $92,49 (−0,29% dari sesi sebelumnya) | +0,14 | 5% | +0,04 |
-| Indeks dolar | +0,09% dari penutupan sebelumnya (103,00) | +0,22 | 5% | +0,06 |
+| Minyak Brent | $92,50 (−0,28% dari sesi sebelumnya) | +0,14 | 5% | +0,04 |
+| Indeks dolar | +0,08% dari penutupan sebelumnya (103,00) | +0,20 | 5% | +0,05 |
 | Tren Nasdaq 5 sesi | −1,05% dalam 5 sesi; 8,1% di bawah puncak 52 minggu | −0,70 | 5% | −0,18 |
 
 ## Level hari ini
@@ -34,7 +34,7 @@ Rentang wajar 1σ (VXN): 25.037 sampai 25.895.
 - **−1,1** Data centers to be major capex avenue in 3-5 years says Citi’s Neeraj Kumar (Moneycontrol.com). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,0** Tetra Tech surges 11% on earnings beat and strong guidance By Investing.com (Investing.com South Africa). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** AI Sell-Off: Buy ANET, TSM & MU to Make Up for NVIDIA Losses (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,0** COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−0,9** COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** Inflation spreads across economy, putting pressure on Fed to accelerate rate hikes (WTOV). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+0,8** Nasdaq jumps 1.6% as CoreWeave’s earnings beat leads a tech rebound (Quartz). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,8** Nvidia stock plunges 8.6%, but AMD and Broadcom rally. Which chip stocks are worth buying? (investingLive). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
