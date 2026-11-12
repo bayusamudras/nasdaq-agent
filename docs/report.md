@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-12T13:26:44+07:00 · sesi Kamis 12 Nov (pra-buka)_
+_Diperbarui 2026-11-12T13:27:43+07:00 · sesi Kamis 12 Nov (pra-buka)_
 
 Peluang indeks naik **30%**, turun **70%** (skor −6,3 dari ±10, keyakinan 80%, 78% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,86): −0,93% dari penutupan sebelumnya (28.209,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,86): −0,93% dari penutupan sebelumnya (28.208,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +5,66% dari penutupan sebelumnya (10.564,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (+0,50): 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74. Volatilitas rendah atau turun, tanda investor tenang dan berani mengambil risiko.
 - **Berita berbobot** (−0,41): Skor rata-rata −0,33 dari 39 kejadian bernilai; 48% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
@@ -13,8 +13,8 @@ Peluang indeks naik **30%**, turun **70%** (skor −6,3 dari ±10, keyakinan 80%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,33 dari 39 kejadian bernilai; 48% bobot bullish | −0,27 | 30% | −0,41 |
-| Futures Nasdaq-100 | −0,93% dari penutupan sebelumnya (28.209,75) | −1,86 | 20% | −1,86 |
-| Futures S&P 500 | −0,40% dari penutupan sebelumnya (7.610,00) | −1,00 | 5% | −0,25 |
+| Futures Nasdaq-100 | −0,93% dari penutupan sebelumnya (28.208,75) | −1,86 | 20% | −1,86 |
+| Futures S&P 500 | −0,40% dari penutupan sebelumnya (7.609,75) | −1,00 | 5% | −0,25 |
 | Semikonduktor (SOX) | +5,66% dari penutupan sebelumnya (10.564,11) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,998% (+1,5 bp dari sesi sebelumnya) | −0,38 | 10% | −0,19 |
 | VIX (volatilitas) | 17,49 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 26,74 | +1,00 | 10% | +0,50 |
