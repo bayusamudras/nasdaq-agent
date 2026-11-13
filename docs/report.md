@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-14T02:14:48+07:00 · sesi Jumat 13 Nov (berjalan)_
+_Diperbarui 2026-11-14T02:15:48+07:00 · sesi Jumat 13 Nov (berjalan)_
 
 Peluang indeks naik **41%**, turun **59%** (skor −3,4 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−2,11): Skor rata-rata −1,69 dari 30 kejadian bernilai; 24% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−2,00): −1,29% dari penutupan sebelumnya (28.017,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −3,73% dari penutupan sebelumnya (10.115,20). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−2,11): Skor rata-rata −1,69 dari 31 kejadian bernilai; 23% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −1,33% dari penutupan sebelumnya (28.008,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −3,62% dari penutupan sebelumnya (10.126,78). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,78): 5,145% (+4,2 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (+0,37): +2,21% dalam 5 sesi; 9,4% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,69 dari 30 kejadian bernilai; 24% bobot bullish | −1,41 | 30% | −2,11 |
-| Futures Nasdaq-100 | −1,29% dari penutupan sebelumnya (28.017,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,54% dari penutupan sebelumnya (7.574,50) | −1,35 | 5% | −0,34 |
-| Semikonduktor (SOX) | −3,73% dari penutupan sebelumnya (10.115,20) | −2,00 | 10% | −1,00 |
+| Berita berbobot | skor rata-rata −1,69 dari 31 kejadian bernilai; 23% bobot bullish | −1,41 | 30% | −2,11 |
+| Futures Nasdaq-100 | −1,33% dari penutupan sebelumnya (28.008,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,55% dari penutupan sebelumnya (7.573,25) | −1,38 | 5% | −0,34 |
+| Semikonduktor (SOX) | −3,62% dari penutupan sebelumnya (10.126,78) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,145% (+4,2 bp dari sesi sebelumnya) | −1,55 | 10% | −0,78 |
-| VIX (volatilitas) | 19,25 (+2,9% dari sesi sebelumnya); VXN (Nasdaq-100) 29,54 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,93 (+0,11% dari sesi sebelumnya) | −0,06 | 5% | −0,01 |
+| VIX (volatilitas) | 19,30 (+3,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,61 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $95,89 (+0,07% dari sesi sebelumnya) | −0,04 | 5% | −0,01 |
 | Indeks dolar | +0,21% dari penutupan sebelumnya (103,39) | +0,52 | 5% | +0,13 |
-| Tren Nasdaq 5 sesi | +2,21% dalam 5 sesi; 9,4% di bawah puncak 52 minggu | +1,47 | 5% | +0,37 |
+| Tren Nasdaq 5 sesi | +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.039 (−1,29%).
-Rentang wajar 1σ (VXN): 24.894 sampai 25.838.
+Perkiraan pembukaan dari futures: 25.029 (−1,33%).
+Rentang wajar 1σ (VXN): 24.893 sampai 25.839.
 
 ## Berita paling berdampak
 - **−4,3** Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
@@ -36,11 +36,11 @@ Rentang wajar 1σ (VXN): 24.894 sampai 25.838.
 - **+1,6** The Fed expected rate cuts this year. Now it’s bracing for another inflation fight (CNBC). Peluang pelonggaran menurunkan biaya modal dan menopang valuasi saham growth.
 - **−1,6** Why Are Nvidia, AMD and Broadcom Stocks Falling Today? AI Chip Selloff Deepens (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Nvidia's Stock Plunge Drags Down KOSPI and Korean Semiconductor Giants (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,4** Mass smuggling of Nvidia AI GPUs could be the underlying cause of Jensen Huang's departure, analysts claim — more than 1.5 gigawatts of banned chips tracked to China despite export controls (Yahoo). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,2** Oil Futures Slide as Trump Says New Strikes on Iran Unlikely (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **+1,2** Cisco: Accelerating Growth Drives Big Earnings Beat (NASDAQ:CSCO) (Seeking Alpha). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** China could cap rare earths sales if US expands chip curbs over Nvidia: analysts (South China Morning Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,1** US Treasuries set for worst week since Trump’s ‘liberation day’ (Financial Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
