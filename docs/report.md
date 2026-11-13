@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-13T19:51:16+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T19:52:16+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
-Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 80%, 87% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 80%, 86% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−1,84): Skor rata-rata −1,48 dari 25 kejadian bernilai; 21% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
@@ -12,13 +12,13 @@ Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 80%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,48 dari 25 kejadian bernilai; 21% bobot bullish | −1,23 | 30% | −1,84 |
-| Futures Nasdaq-100 | +0,03% dari penutupan sebelumnya (28.392,75) | +0,06 | 20% | +0,06 |
-| Futures S&P 500 | +0,20% dari penutupan sebelumnya (7.630,75) | +0,50 | 5% | +0,12 |
+| Futures Nasdaq-100 | +0,03% dari penutupan sebelumnya (28.392,00) | +0,06 | 20% | +0,06 |
+| Futures S&P 500 | +0,21% dari penutupan sebelumnya (7.631,00) | +0,52 | 5% | +0,13 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 18,24 (−2,5% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $96,33 (+0,53% dari sesi sebelumnya) | −0,27 | 5% | −0,07 |
-| Indeks dolar | +0,05% dari penutupan sebelumnya (103,22) | +0,12 | 5% | +0,03 |
+| VIX (volatilitas) | 18,30 (−2,1% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $96,26 (+0,46% dari sesi sebelumnya) | −0,23 | 5% | −0,06 |
+| Indeks dolar | +0,07% dari penutupan sebelumnya (103,24) | +0,18 | 5% | +0,04 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
