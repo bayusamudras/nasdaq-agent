@@ -1,25 +1,25 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T13:43:22+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T13:44:21+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
-Peluang indeks naik **26%**, turun **74%** (skor −7,7 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **25%**, turun **75%** (skor −7,7 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,56): Skor rata-rata −2,05 dari 25 kejadian bernilai; 16% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (−0,56): −0,28% dari penutupan sebelumnya (28.306,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−0,56): −0,28% dari penutupan sebelumnya (28.306,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −2,05 dari 25 kejadian bernilai; 16% bobot bullish | −1,71 | 30% | −2,56 |
-| Futures Nasdaq-100 | −0,28% dari penutupan sebelumnya (28.306,00) | −0,56 | 20% | −0,56 |
-| Futures S&P 500 | −0,11% dari penutupan sebelumnya (7.607,00) | −0,27 | 5% | −0,07 |
+| Futures Nasdaq-100 | −0,28% dari penutupan sebelumnya (28.306,25) | −0,56 | 20% | −0,56 |
+| Futures S&P 500 | −0,11% dari penutupan sebelumnya (7.607,25) | −0,27 | 5% | −0,07 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,70 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $96,30 (+0,50% dari sesi sebelumnya) | −0,25 | 5% | −0,06 |
-| Indeks dolar | +0,03% dari penutupan sebelumnya (103,20) | +0,07 | 5% | +0,02 |
+| Minyak Brent | $96,35 (+0,55% dari sesi sebelumnya) | −0,28 | 5% | −0,07 |
+| Indeks dolar | +0,01% dari penutupan sebelumnya (103,19) | +0,02 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
@@ -28,7 +28,7 @@ Perkiraan pembukaan dari futures: 25.295 (−0,28%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
-- **−5,0** Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−4,9** Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,2** 10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,1** Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook (CNBC). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,1** Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk (Yahoo Finance). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
