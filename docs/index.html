@@ -523,6 +523,10 @@ body { font-size: 14.5px; line-height: 1.6; }
         <h3>Peta level NQ: FVG dan volume profile</h3>
         <div id="smcBox"></div>
       </section>
+<section class="card" id="vol">
+        <h3>Volatilitas dan breadth</h3>
+        <div id="volBox"></div>
+      </section>
 <section class="card" id="inter">
         <h3>Korelasi intermarket</h3>
         <div id="interBox"></div>
@@ -541,6 +545,9 @@ body { font-size: 14.5px; line-height: 1.6; }
           <label>Rencana arah<select id="mrDir"><option value="">pilih…</option><option value="sell">Sell</option><option value="buy">Buy</option></select></label>
           <label>Stop (poin)<input id="mrStop" type="number" min="1" step="any" value="30" inputmode="decimal"></label>
           <label>Kontrak<input id="mrQty" type="number" min="1" step="1" value="2" inputmode="numeric"></label>
+          <label>Ekuitas ($)<input id="mrEq" type="number" min="0" step="any" value="" placeholder="mis. 25000" inputmode="decimal"></label>
+          <label>Risiko per trade (%)<input id="mrRisk" type="number" min="0.1" step="0.1" value="1" inputmode="decimal"></label>
+          <label>Reward : risk<input id="mrRR" type="number" min="0.5" step="0.1" value="2" inputmode="decimal"></label>
         </div>
         <div id="mrBox"><p class="empty">memuat…</p></div>
       </section><section class="card" id="entry">
@@ -793,6 +800,24 @@ function render() {
 
   renderHero();
 
+  /* Volatilitas dan breadth Nasdaq-100 */
+  var VL = R.volatility, B1 = R.breadth100, vh = "";
+  if (VL && VL.term) {
+    var T = VL.term, tc = T.state === "backwardation" ? "down" : T.state === "contango" ? "up" : "";
+    vh += '<div class="mini"><div><div class="k">VIX 9 hari</div><div class="v">' + (T.vix9d != null ? num(T.vix9d, 2) : "n/a") + '</div></div><div><div class="k">VIX spot</div><div class="v">' + num(T.vix, 2) + '</div></div><div><div class="k">VIX 3 bulan</div><div class="v">' + num(T.vix3m, 2) + '</div></div><div><div class="k">Kurva</div><div class="v ' + tc + '" style="font-size:15px">' + esc(T.state) + '</div><div class="d">' + (T.slope_pct > 0 ? "+" : "") + T.slope_pct + "% ke 3 bulan</div></div></div><p class=\"note\">" + esc(T.text) + "</p>";
+  }
+  if (VL && VL.skew) vh += '<p class="note"><b>SKEW ' + VL.skew.last + " (" + esc(VL.skew.state) + ")</b>. " + esc(VL.skew.text) + " <span class=\"cap\">" + esc(VL.skew.caveat) + "</span></p>";
+  if (B1) {
+    vh += '<div class="esec">Breadth Nasdaq-100 (' + B1.universe + " saham, " + esc(B1.date) + ')</div><div class="mini"><div><div class="k">Di atas MA50</div><div class="v ' + (B1.pct_ma50 >= 60 ? "up" : B1.pct_ma50 < 40 ? "down" : "") + '">' + num(B1.pct_ma50, 1) + '%</div></div><div><div class="k">Di atas MA200</div><div class="v">' + (B1.pct_ma200 != null ? num(B1.pct_ma200, 1) + "%" : "n/a") + '</div></div><div><div class="k">Naik / turun</div><div class="v">' + B1.adv + " / " + B1.dec + '</div></div><div><div class="k">McClellan</div><div class="v ' + cls(B1.mcclellan) + '">' + fmt(B1.mcclellan, 1) + '</div><div class="d">' + esc(B1.mcclellan_dir) + '</div></div><div><div class="k">High / low 20 hari</div><div class="v">' + B1.new_highs + " / " + B1.new_lows + "</div></div></div>";
+    if (B1.ad_line && B1.ad_line.length > 3) {
+      var lo = Math.min.apply(null, B1.ad_line), hi = Math.max.apply(null, B1.ad_line), rg = hi - lo || 1, pts = B1.ad_line.map(function (v, i) { return (i / (B1.ad_line.length - 1) * 300).toFixed(1) + "," + (46 - (v - lo) / rg * 40).toFixed(1); }).join(" ");
+      vh += '<svg viewBox="0 0 300 52" width="100%" height="52" role="img" aria-label="Garis advance-decline 30 hari"><polyline points="' + pts + '" fill="none" stroke="var(--blue)" stroke-width="2"/></svg><p class="cap">Garis advance-decline kumulatif 30 hari terakhir.</p>';
+    }
+    vh += '<p class="note">' + esc(B1.text) + (B1.stale ? " (data cache, belum berhasil diperbarui)" : "") + "</p>";
+  }
+  if (!vh) vh = '<p class="empty">Data volatilitas dan breadth belum tersedia.</p>';
+  $("volBox").innerHTML = vh;
+
   /* Korelasi intermarket */
   var IM = R.intermarket, ih = "";
   if (IM) {
@@ -900,6 +925,7 @@ function render() {
       if (C.walk_forward) { var W = C.walk_forward; h += "</p><p class=\"cap\"><b>Validasi walk-forward</b> (" + W.folds + " hari diuji out-of-sample, tiap hari diprediksi hanya dari data sebelumnya): Brier terkalibrasi " + W.brier_cal + " · heuristik " + W.brier_heur + " · tebakan dasar " + W.brier_naive + ". Akurasi arah " + Math.round(W.acc_cal * 100) + "% vs " + Math.round(W.acc_heur * 100) + "%. " + (W.passes ? "Lolos." : "Tidak lolos."); }
       if (C.first_date) h += " Data dari " + esc(C.first_date) + " sampai " + esc(C.last_date) + ".";
       h += "</p>";
+      if (C.hit_ci) h += '<p class="cap"><b>Akurasi arah</b> ' + Math.round(C.hit_rate * 100) + "% dari " + C.hit_n + " hari; selang kepercayaan 95%: " + Math.round(C.hit_ci[0] * 100) + "–" + Math.round(C.hit_ci[1] * 100) + "%." + (C.hit_ci[0] <= 0.5 ? " Selang masih mencakup 50%, artinya belum bisa dibedakan dari tebakan acak." : "") + (C.ic != null ? " Korelasi skor dengan return (IC): " + C.ic + "." : "") + "</p>";
       if (C.brier != null) h += '<p class="cap">Brier ' + C.brier + " vs " + C.brier_naive + " bila hanya menebak laju dasar" + (C.brier < C.brier_naive ? " (lebih baik)." : " (belum lebih baik dari tebakan dasar).") + "</p>";
       if (C.log && C.log.length > 1 && C.log[C.log.length - 1].T != null) h += '<p class="cap">Riwayat T: ' + C.log.slice(-8).map(function (x) { return x.T; }).join(" → ") + "</p>";
       if (C.updated_at) h += '<p class="cap">Dihitung ulang ' + esc(C.updated_at.replace("T", " ").slice(0, 16)) + " WIB.</p>";
@@ -1220,8 +1246,8 @@ function renderHero() {
 /* ===== Risiko jika entry sekarang (aturan dari rekap trade pemilik) ===== */
 var MRK = "nq_myrisk";
 function mrLoad() { try { return JSON.parse(localStorage.getItem(MRK) || "{}"); } catch (e) { return {}; } }
-function mrSave() { try { localStorage.setItem(MRK, JSON.stringify({ dir: $("mrDir").value, stop: $("mrStop").value, qty: $("mrQty").value })); } catch (e) {} }
-(function () { var s = mrLoad(); if (s.dir) $("mrDir").value = s.dir; if (s.stop) $("mrStop").value = s.stop; if (s.qty) $("mrQty").value = s.qty; ["mrDir", "mrStop", "mrQty"].forEach(function (i) { $(i).addEventListener("input", function () { mrSave(); myRisk(); }); }); })();
+function mrSave() { try { localStorage.setItem(MRK, JSON.stringify({ dir: $("mrDir").value, stop: $("mrStop").value, qty: $("mrQty").value, eq: $("mrEq").value, risk: $("mrRisk").value, rr: $("mrRR").value })); } catch (e) {} }
+(function () { var s = mrLoad(); if (s.dir) $("mrDir").value = s.dir; if (s.stop) $("mrStop").value = s.stop; if (s.qty) $("mrQty").value = s.qty; if (s.eq) $("mrEq").value = s.eq; if (s.risk) $("mrRisk").value = s.risk; if (s.rr) $("mrRR").value = s.rr; ["mrDir", "mrStop", "mrQty", "mrEq", "mrRisk", "mrRR"].forEach(function (i) { $(i).addEventListener("input", function () { mrSave(); myRisk(); }); }); })();
 function wib(t) { return new Date(t).toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Jakarta" }).replace(".", ":"); }
 function myRisk() {
   var box = $("mrBox"); if (!box || !R || !R.verdict) return;
@@ -1265,6 +1291,16 @@ function myRisk() {
     var sig = px * (((R.levels && R.levels.sigma_pct) || 1.8) / 100), pct = stop / px * 100, usd = stop * 2 * qty;
     add(pct < 0.12 ? "hati" : "aman", "Ukuran stop", "Stop " + stop + " poin = " + pct.toFixed(2) + "% harga (risiko ±$" + num(usd) + " untuk " + qty + " kontrak MNQ, $2 per poin). Rentang normal 1σ hari ini sekitar ±" + num(sig) + " poin NQ" + (pct < 0.12 ? ", jadi stop sesempit ini mudah tersapu oleh wick rilis atau pembukaan (stop di catatan Anda 17–32 poin)." : "."));
   }
+  // 6b. ukuran posisi: volatility targeting, Kelly pecahan, VaR/CVaR
+  var eq = +$("mrEq").value, rk = +$("mrRisk").value, rr = +$("mrRR").value;
+  if (px && stop > 0 && eq > 0 && rk > 0) {
+    var budget = eq * rk / 100, maxQ = Math.floor(budget / (stop * 2));
+    var sg = px * (((R.levels && R.levels.sigma_pct) || 1.8) / 100), var95 = 1.645 * sg * 2 * qty, es = 2.063 * sg * 2 * qty;
+    var pw = dir === "sell" ? 1 - v.p_up : dir === "buy" ? v.p_up : null, kt = "";
+    if (pw != null && rr > 0) { var fk = (pw * rr - (1 - pw)) / rr; kt = fk <= 0 ? " Kelly: peluang " + Math.round(pw * 100) + "% dengan RR " + rr + " tidak memberi keunggulan (f* ≤ 0), jadi ukuran ideal nol." : (R.track_record && R.track_record.calibration && R.track_record.calibration.active ? " Seperempat Kelly " + (fk * 25).toFixed(1) + "% ekuitas (peluang " + Math.round(pw * 100) + "% terkalibrasi); jangan melebihi batas risiko Anda." : " Kelly diabaikan: peluang " + Math.round(pw * 100) + "% masih heuristik dan belum terkalibrasi, sehingga Kelly (" + (fk * 100).toFixed(0) + "% ekuitas) terlalu optimistis. Pakai batas risiko per trade saja."); }
+    add(maxQ < 1 ? "bahaya" : qty > maxQ ? "hati" : "aman", "Ukuran posisi", "Risiko " + rk + "% dari $" + num(eq) + " = $" + num(budget) + ", stop " + stop + " poin ($" + num(stop * 2) + " per kontrak) → maksimal " + maxQ + " kontrak" + (qty > maxQ ? " (Anda memasukkan " + qty + ")" : "") + "." + kt);
+    add(var95 > budget * 3 ? "hati" : "aman", "Skenario rugi 1 hari", "Bila ditahan sehari penuh: VaR 95% ≈ $" + num(var95) + " dan CVaR (rata-rata hari terburuk 5%) ≈ $" + num(es) + " untuk " + qty + " kontrak, yaitu " + (es / eq * 100).toFixed(1) + "% ekuitas, berdasarkan rentang 1σ ±" + num(sg) + " poin. Stop bisa terlewati saat gap.");
+  } else add("hati", "Ukuran posisi", "Isi ekuitas, risiko per trade, dan reward:risk untuk menghitung jumlah kontrak maksimal, Kelly pecahan, dan VaR/CVaR.");
   // 7. peringatan agen
   add(E.n_kritis ? "bahaya" : E.n_waspada ? "hati" : "aman", "Peringatan agen", E.n_kritis + " kritis, " + E.n_waspada + " waspada. " + ((E.items || []).filter(function (w) { return w.when === "now" && w.sev !== "info"; }).slice(0, 3).map(function (w) { return w.title; }).join("; ") || "Tidak ada yang menonjol."));
   var nb = rows.filter(function (r) { return r.l === "bahaya"; }).length, nh = rows.filter(function (r) { return r.l === "hati"; }).length;

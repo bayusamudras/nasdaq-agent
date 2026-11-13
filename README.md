@@ -28,3 +28,9 @@ Bukan nasihat investasi.
 - Kalibrasi memakai **temperature scaling**: satu parameter T membagi logit peluang heuristik, dicari dengan meminimalkan log-loss (stdlib murni, tanpa scikit-learn).
 - Kalibrasi baru aktif bila ≥30 hari dinilai **dan** lolos **validasi walk-forward** (tiap hari diprediksi hanya dari data sebelumnya; Brier harus lebih baik dari heuristik dan dari tebakan laju dasar). Hasilnya tampil di dashboard.
 - Dashboard: palet perintah (Ctrl/⌘+K), ekspor JSON/CSV, urutan kartu berorientasi keputusan (bias → risiko → sesi → faktor/berita → detail).
+
+## Analisis lebih tajam (volatilitas, breadth, risiko)
+- **Struktur term VIX** (VIX 9 hari, spot, 3 bulan; contango atau backwardation) dan **SKEW** (tail risk, dihitung dari S&P 500).
+- **Breadth Nasdaq-100** dihitung sendiri dari ±95 saham: advance/decline, McClellan Oscillator (EMA19−EMA39), % di atas MA50/MA200, high/low 20 hari. Di-cache `docs/breadth.json`, diperbarui tiap 4 jam.
+- **Kalibrasi**: ditambah korelasi skor-return (IC) dan selang kepercayaan Wilson 95% untuk akurasi arah.
+- **Risiko posisi** (kartu "Risiko jika entry sekarang"): kontrak maksimal dari volatility targeting, Kelly pecahan (hanya bila peluang sudah terkalibrasi), VaR/CVaR 1 hari dari rentang 1σ.

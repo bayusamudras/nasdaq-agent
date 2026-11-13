@@ -283,7 +283,7 @@ FACTOR_ORDER = ["news", "nq_fut", "es_fut", "sox", "yield", "vix", "oil", "dxy",
 
 SYMS = {"nq_fut": "NQ=F", "es_fut": "ES=F", "sox": "^SOX", "vix": "^VIX", "vxn": "^VXN",
         "yield10": "^TNX", "brent": "BZ=F", "dxy": "DX-Y.NYB", "nvda": "NVDA",
-        "irx": "^IRX", "fvx": "^FVX", "qqqe": "QQQE", "soxx": "SOXX", "qqq_y": "QQQ"}
+        "irx": "^IRX", "fvx": "^FVX", "vix3m": "^VIX3M", "vix9d": "^VIX9D", "skew": "^SKEW", "qqqe": "QQQE", "soxx": "SOXX", "qqq_y": "QQQ"}
 
 DEMO = [
     {"title": "Meta posts first cash outflow in a decade, plans non-voting share issue to raise capital", "source": "Reuters"},
@@ -732,6 +732,129 @@ def breadth(market):
     return {"qqq": q.get("change_pct"), "qqqe": e.get("change_pct"), "soxx": (so or {}).get("change_pct"),
             "qqq5": q.get("change5_pct"), "qqqe5": e.get("change5_pct"), "soxx5": (so or {}).get("change5_pct"),
             "rel1": rel1, "rel5": rel5, "state": state, "text": text}
+
+
+# ---------------------------------------------------------------------------
+# Volatilitas (struktur term VIX, SKEW) dan breadth Nasdaq-100 (A/D, McClellan, % di atas MA)
+# ---------------------------------------------------------------------------
+N100 = ("AAPL MSFT NVDA AMZN META GOOGL GOOG AVGO TSLA COST NFLX ASML PEP AZN AMD LIN TMUS ADBE CSCO QCOM TXN INTU AMGN ISRG BKNG "
+        "AMAT HON CMCSA VRTX PANW ADP ADI GILD MU LRCX SBUX MELI REGN KLAC SNPS CDNS CRWD MDLZ PYPL CTAS MAR ABNB ORLY CEG MRVL FTNT "
+        "DASH WDAY ROP ADSK NXPI PCAR CPRT MNST CHTR AEP PAYX FAST KDP ROST ODFL EXC IDXX CCEP TTD KHC EA VRSK CTSH XEL LULU GEHC "
+        "DDOG FANG CSGP BKR ON TEAM BIIB DXCM CDW ZS GFS MDB ARM WBD TTWO PLTR APP AXON SHOP PDD INTC TRI DLTR").split()
+
+
+def analyze_vol(market):
+    v, v3, v9, sk = market.get("vix"), market.get("vix3m"), market.get("vix9d"), market.get("skew")
+    out = {"term": None, "skew": None}
+    if v and v3 and v.get("last") and v3.get("last"):
+        slope = round((v3["last"] / v["last"] - 1) * 100, 1)
+        short = round((v9["last"] / v["last"] - 1) * 100, 1) if v9 and v9.get("last") else None
+        state = "backwardation" if slope < 0 else "datar" if slope < 3 else "contango"
+        text = {"backwardation": "VIX spot di atas VIX 3 bulan: stres jangka pendek, pasar membayar mahal perlindungan sekarang. Sering menyertai penurunan tajam, kadang dekat dasar kepanikan.",
+                "datar": "Kurva volatilitas hampir datar: ketenangan mulai berkurang, pasar belum panik.",
+                "contango": "VIX 3 bulan di atas spot: struktur normal, pasar relatif tenang."}[state]
+        out["term"] = {"vix9d": v9.get("last") if v9 else None, "vix": v["last"], "vix3m": v3["last"], "slope_pct": slope,
+                       "short_pct": short, "state": state, "text": text}
+    if sk and sk.get("last"):
+        s = sk["last"]
+        st = "tinggi" if s > 140 else "rendah" if s < 115 else "normal"
+        out["skew"] = {"last": round(s, 1), "change_pct": sk.get("change_pct"), "state": st,
+                       "text": {"tinggi": "SKEW tinggi: permintaan lindung nilai ekor (tail risk) meningkat, investor besar membeli proteksi jatuh dalam.",
+                                "rendah": "SKEW rendah: kepuasan diri (complacency), sedikit yang membeli proteksi ekor.",
+                                "normal": "SKEW di kisaran normal."}[st],
+                       "caveat": "SKEW dihitung dari opsi S&P 500, bukan Nasdaq."}
+    return out if (out["term"] or out["skew"]) else None
+
+
+def _ema(xs, span):
+    k, e, o = 2 / (span + 1), None, []
+    for x in xs:
+        e = x if e is None else x * k + e * (1 - k)
+        o.append(e)
+    return o
+
+
+def compute_breadth100(series):
+    """series: {ticker: {tanggal: penutupan}}. Hitung A/D, McClellan, % di atas MA50/MA200, new high/low 20 hari."""
+    tk = [t for t, s in series.items() if len(s) >= 60]
+    if len(tk) < 50:
+        return None
+    dates = sorted({d for t in tk for d in series[t]})
+    cl = {t: [series[t].get(d) for d in dates] for t in tk}
+    net, adl, run = [], [], 0
+    a = dcl = 0
+    for i in range(1, len(dates)):
+        a = dcl = 0
+        for t in tk:
+            c, p = cl[t][i], cl[t][i - 1]
+            if c is None or p is None:
+                continue
+            a += c > p; dcl += c < p
+        net.append(a - dcl); run += a - dcl; adl.append(run)
+    osc = [x - y for x, y in zip(_ema(net, 19), _ema(net, 39))]
+    ab50 = ab200 = n50 = n200 = nh = nl = 0
+    for t in tk:
+        xs = [c for c in cl[t] if c is not None]
+        if len(xs) >= 50:
+            n50 += 1; ab50 += xs[-1] > sum(xs[-50:]) / 50
+        if len(xs) >= 200:
+            n200 += 1; ab200 += xs[-1] > sum(xs[-200:]) / 200
+        if len(xs) >= 21:
+            nh += xs[-1] >= max(xs[-20:]); nl += xs[-1] <= min(xs[-20:])
+    p50 = round(ab50 / n50 * 100, 1) if n50 else None
+    p200 = round(ab200 / n200 * 100, 1) if n200 else None
+    mc = round(osc[-1], 1) if osc else None
+    state = ("washout" if p50 is not None and p50 < 20 else "lemah" if p50 is not None and p50 < 40 else
+             "sehat" if p50 is not None and p50 >= 60 else "netral")
+    text = {"washout": "Kurang dari 20% saham di atas MA50: kondisi washout, sering mendekati titik jenuh jual namun belum tentu dasar.",
+            "lemah": "Mayoritas saham di bawah MA50: penurunan meluas, reli indeks yang tidak didukung saham mudah gagal.",
+            "netral": "Partisipasi saham sedang: tidak ada kelemahan atau kekuatan yang mencolok.",
+            "sehat": "Lebih dari 60% saham di atas MA50: tren didukung banyak saham, lebih tahan lama."}[state]
+    return {"universe": len(tk), "adv": a, "dec": dcl, "net_adv": net[-1] if net else None, "pct_ma50": p50, "pct_ma200": p200,
+            "new_highs": int(nh), "new_lows": int(nl), "mcclellan": mc, "mcclellan_dir": ("naik" if len(osc) > 1 and osc[-1] > osc[-2] else "turun"),
+            "ad_line": adl[-30:], "date": dates[-1], "state": state, "text": text}
+
+
+def fetch_breadth100():
+    from concurrent.futures import ThreadPoolExecutor
+
+    def one(t):
+        try:
+            rows = _series(_yahoo(t, "1y"))
+            return t, {to_et(dt.datetime.fromtimestamp(r["t"], UTC)).date().isoformat(): r["c"] for r in rows}
+        except Exception:  # noqa: BLE001
+            return t, {}
+    with ThreadPoolExecutor(8) as ex:
+        res = dict(ex.map(one, N100))
+    return compute_breadth100(res)
+
+
+def load_breadth(path, now, injected=None):
+    """Cache di docs/breadth.json; ambil ulang tiap 4 jam (100 permintaan Yahoo, jadi tidak tiap menit)."""
+    if injected is not None:
+        return injected or None
+    cache = None
+    if path and os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                cache = json.load(f)
+        except Exception:  # noqa: BLE001
+            cache = None
+    fa = parse_time(cache.get("fetched_at")) if cache else None
+    if cache and fa and (now - fa).total_seconds() < 4 * 3600:
+        return cache
+    try:
+        res = fetch_breadth100()
+        if not res:
+            raise RuntimeError("data konstituen kurang dari 50 saham")
+        res["fetched_at"] = now.isoformat(timespec="minutes")
+        if path:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(res, f, ensure_ascii=False)
+        return res
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] breadth100: {e}", file=sys.stderr)
+        return {**cache, "stale": True} if cache else None
 
 
 def volume_anomaly(bars):
@@ -1351,6 +1474,16 @@ def calibrate(entries):
         info["base_rate"] = round(base, 3)
         info["brier_naive"] = round(sum((base - y) ** 2 for _, y in data) / n, 4)
         info["brier"] = round(_brier([_tp(x, 1.0) for x, _ in data], [y for _, y in data]), 4)
+    if n >= 8:
+        xs, ys2 = [x for x, _ in data], [e["outcome"]["change_pct"] for e in entries if e.get("outcome") and not e.get("late") and e.get("score10") is not None]
+        mx, my = sum(xs) / n, sum(ys2) / n
+        sx = sum((x - mx) ** 2 for x in xs) ** 0.5; sy = sum((y - my) ** 2 for y in ys2) ** 0.5
+        info["ic"] = round(sum((x - mx) * (y - my) for x, y in zip(xs, ys2)) / (sx * sy), 3) if sx and sy else None
+        hits = sum(1 for x, y in zip(xs, ys2) if x != 0 and (x > 0) == (y > 0)); m_ = sum(1 for x in xs if x != 0)
+        if m_:
+            p, z = hits / m_, 1.96
+            c = (p + z * z / (2 * m_)) / (1 + z * z / m_); h = z * ((p * (1 - p) / m_ + z * z / (4 * m_ * m_)) ** 0.5) / (1 + z * z / m_)
+            info["hit_rate"] = round(p, 3); info["hit_ci"] = [round(max(0, c - h), 3), round(min(1, c + h), 3)]; info["hit_n"] = m_
     dates = [e["date"] for e in entries if e.get("outcome") and not e.get("late")]
     info.update(first_date=min(dates, default=None), last_date=max(dates, default=None))
     if n < CAL_MIN_N:
@@ -1822,7 +1955,7 @@ def analyze_intermarket(market):
             "note": "Korelasi dihitung dari return per jam 24 jam terakhir; ambang 'terbalik' = berlawanan dengan hubungan normal pada |r| > 0,3."}
 
 
-def build_entry_warnings(now, verdict, market, levels, structure, smc, vp, options, volume, regime, brd, events, radar, ew, feeds, items, inter=None):
+def build_entry_warnings(now, verdict, market, levels, structure, smc, vp, options, volume, regime, brd, events, radar, ew, feeds, items, inter=None, vol=None, b100=None):
     """Daftar peringatan sebelum entry: apa yang SEDANG terjadi dan apa yang AKAN terjadi di pasar Nasdaq."""
     W = []
     def add(when, sev, cat, title, text, action=None):
@@ -1835,6 +1968,12 @@ def build_entry_warnings(now, verdict, market, levels, structure, smc, vp, optio
     wd = et.weekday()
 
     # ---- SEDANG TERJADI ----
+    if vol and vol.get("term") and vol["term"]["state"] == "backwardation":
+        add("now", "waspada", "Volatilitas", "VIX backwardation (%+.1f%% ke VIX 3 bulan)" % vol["term"]["slope_pct"], vol["term"]["text"], "Perkecil ukuran posisi: gerak intrahari cenderung lebih liar.")
+    if vol and vol.get("skew") and vol["skew"]["state"] == "tinggi":
+        add("now", "waspada", "Volatilitas", "SKEW tinggi (%s)" % vol["skew"]["last"], vol["skew"]["text"])
+    if b100 and b100.get("state") in ("washout", "lemah"):
+        add("now", "waspada", "Breadth", "Hanya %s%% saham Nasdaq-100 di atas MA50" % b100["pct_ma50"], b100["text"])
     for g in verdict.get("gates", []):
         if g["active"]:
             add("now", "kritis", "Pengunci bias", g["name"] + " aktif", g.get("note", ""), "Skor sudah dipangkas otomatis. Tunggu konfirmasi sebelum entry searah bias awal.")
@@ -1995,11 +2134,14 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     items = news_items_out(clusters)
     tr = track_record([])
     hb = market.get("nq_hourly")
-    extras = {"rates": rate_expectations(market), "breadth": breadth(market), "options": market.get("options"),
+    br_path = os.path.join(os.path.dirname(history_path) or ".", "breadth.json") if history_path else None
+    b100 = load_breadth(br_path, now, market.get("breadth100"))
+    vol = analyze_vol(market)
+    extras = {"rates": rate_expectations(market), "breadth": breadth(market), "breadth100": b100, "volatility": vol, "options": market.get("options"),
               "volume": volume_anomaly(hb), "volume_profile": volume_profile(hb), "smc": fvg_map(hb)}
     inter = analyze_intermarket(market)
     entry = build_entry_warnings(now, verdict, market, levels, structure, extras["smc"], extras["volume_profile"], market.get("options"),
-                                 extras["volume"], regime, extras["breadth"], events, radar, ew, market.get("_feeds") or {}, items, inter)
+                                 extras["volume"], regime, extras["breadth"], events, radar, ew, market.get("_feeds") or {}, items, inter, vol, b100)
     alerts = []
     if history_path:
         state = load_state(history_path)
