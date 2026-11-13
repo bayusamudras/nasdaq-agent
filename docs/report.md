@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T22:12:05+07:00 · sesi Jumat 13 Nov (berjalan)_
+_Diperbarui 2026-11-13T22:13:05+07:00 · sesi Jumat 13 Nov (berjalan)_
 
-Peluang indeks naik **26%**, turun **74%** (skor −7,5 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **27%**, turun **73%** (skor −7,2 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−2,17): Skor rata-rata −1,74 dari 27 kejadian bernilai; 21% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−2,00): −1,21% dari penutupan sebelumnya (28.040,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −4,97% dari penutupan sebelumnya (9.984,50). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−2,44): Skor rata-rata −1,96 dari 26 kejadian bernilai; 14% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −1,40% dari penutupan sebelumnya (27.985,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −5,01% dari penutupan sebelumnya (9.980,52). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,93): 5,157% (+5,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (−0,33): −0,53% dari penutupan sebelumnya (7.574,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,41): −0,65% dari penutupan sebelumnya (7.565,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,74 dari 27 kejadian bernilai; 21% bobot bullish | −1,45 | 30% | −2,17 |
-| Futures Nasdaq-100 | −1,21% dari penutupan sebelumnya (28.040,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,53% dari penutupan sebelumnya (7.574,75) | −1,32 | 5% | −0,33 |
-| Semikonduktor (SOX) | −4,97% dari penutupan sebelumnya (9.984,50) | −2,00 | 10% | −1,00 |
+| Berita berbobot | skor rata-rata −1,96 dari 26 kejadian bernilai; 14% bobot bullish | −1,63 | 30% | −2,44 |
+| Futures Nasdaq-100 | −1,40% dari penutupan sebelumnya (27.985,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,65% dari penutupan sebelumnya (7.565,50) | −1,62 | 5% | −0,41 |
+| Semikonduktor (SOX) | −5,01% dari penutupan sebelumnya (9.980,52) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,157% (+5,4 bp dari sesi sebelumnya) | −1,85 | 10% | −0,93 |
-| VIX (volatilitas) | 19,37 (+3,6% dari sesi sebelumnya); VXN (Nasdaq-100) 29,28 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $96,81 (+1,03% dari sesi sebelumnya) | −0,52 | 5% | −0,13 |
-| Indeks dolar | 0,00% dari penutupan sebelumnya (103,17) | 0,00 | 5% | 0,00 |
-| Tren Nasdaq 5 sesi | +1,74% dalam 5 sesi; 9,8% di bawah puncak 52 minggu | +1,16 | 5% | +0,29 |
+| VIX (volatilitas) | 19,29 (+3,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,19 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $96,80 (+1,02% dari sesi sebelumnya) | −0,51 | 5% | −0,13 |
+| Indeks dolar | −0,01% dari penutupan sebelumnya (103,16) | −0,02 | 5% | −0,01 |
+| Tren Nasdaq 5 sesi | +1,70% dalam 5 sesi; 9,8% di bawah puncak 52 minggu | +1,13 | 5% | +0,28 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.059 (−1,21%).
-Rentang wajar 1σ (VXN): 24.898 sampai 25.834.
+Perkiraan pembukaan dari futures: 25.011 (−1,40%).
+Rentang wajar 1σ (VXN): 24.900 sampai 25.833.
 
 ## Berita paling berdampak
 - **−3,9** Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
@@ -37,10 +37,10 @@ Rentang wajar 1σ (VXN): 24.898 sampai 25.834.
 - **−1,6** Oil Futures Slide as Trump Says New Strikes on Iran Unlikely (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,6** China could cap rare earths sales if US expands chip curbs over Nvidia: analysts (South China Morning Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** China warns US against imposing more chip export restrictions (NewsBytes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,2** Dollar forecast: NFP provides dollar, already supported amid tech sell-off, additional boost (FOREX.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Nebius increases capex for AI infrastructure, plans India data centers (ET Datacenters). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,0** Rates, Oil, AI Valuations and Politics: What Drives a Sharp US Sell-Off? (Longbridge). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** US 10-Year Treasury Yield Rises 1.8 Basis Points to 5.12% Early Friday, Highest Level in More Than Three Weeks (marketscreener.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−0,9** Oil prices rise more than 1% after Trump comments on Iran (Middle East Monitor). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
