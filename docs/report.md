@@ -1,35 +1,35 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T16:15:19+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T16:16:19+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **22%**, turun **78%** (skor −8,8 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,00): Skor rata-rata −1,60 dari 27 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (−0,52): −0,26% dari penutupan sebelumnya (28.310,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−0,56): −0,28% dari penutupan sebelumnya (28.306,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,60 dari 27 kejadian bernilai; 27% bobot bullish | −1,33 | 30% | −2,00 |
-| Futures Nasdaq-100 | −0,26% dari penutupan sebelumnya (28.310,25) | −0,52 | 20% | −0,52 |
-| Futures S&P 500 | −0,06% dari penutupan sebelumnya (7.611,00) | −0,15 | 5% | −0,04 |
+| Futures Nasdaq-100 | −0,28% dari penutupan sebelumnya (28.306,25) | −0,56 | 20% | −0,56 |
+| Futures S&P 500 | −0,04% dari penutupan sebelumnya (7.612,25) | −0,10 | 5% | −0,03 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 18,95 (+1,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $96,15 (+0,34% dari sesi sebelumnya) | −0,17 | 5% | −0,04 |
-| Indeks dolar | −0,03% dari penutupan sebelumnya (103,14) | −0,07 | 5% | −0,02 |
+| VIX (volatilitas) | 18,92 (+1,2% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $96,07 (+0,26% dari sesi sebelumnya) | −0,13 | 5% | −0,03 |
+| Indeks dolar | −0,02% dari penutupan sebelumnya (103,15) | −0,05 | 5% | −0,01 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.300 (−0,26%).
+Perkiraan pembukaan dari futures: 25.295 (−0,28%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
 - **−5,8** Treasury yields rise as traders strengthen Fed rate hike bets (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−4,2** Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−4,1** Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,5** Silver Price Forecast: XAG/USD Rises To Near $50.50 Despite Fed Rate Hike Bets - TalkMarkets (Howl.Link). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,2** Oil heads for second weekly loss as fears of Middle East escalation ease (سانا). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **+1,0** Oil Prices Rebound as Middle East Supply Risks Persist (WSJ). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
