@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-13T21:08:44+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T21:09:44+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 73%, 73% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -12,18 +12,18 @@ Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 73%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,36 dari 25 kejadian bernilai; 31% bobot bullish | −1,13 | 30% | −1,69 |
-| Futures Nasdaq-100 | +0,12% dari penutupan sebelumnya (28.419,50) | +0,24 | 20% | +0,24 |
-| Futures S&P 500 | +0,40% dari penutupan sebelumnya (7.645,75) | +1,00 | 5% | +0,25 |
+| Futures Nasdaq-100 | +0,11% dari penutupan sebelumnya (28.416,50) | +0,22 | 20% | +0,22 |
+| Futures S&P 500 | +0,40% dari penutupan sebelumnya (7.645,50) | +1,00 | 5% | +0,25 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,139% (+3,6 bp dari sesi sebelumnya) | −1,40 | 10% | −0,70 |
-| VIX (volatilitas) | 18,00 (−3,7% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $96,87 (+1,10% dari sesi sebelumnya) | −0,55 | 5% | −0,14 |
-| Indeks dolar | +0,05% dari penutupan sebelumnya (103,22) | +0,12 | 5% | +0,03 |
+| VIX (volatilitas) | 17,97 (−3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $96,72 (+0,94% dari sesi sebelumnya) | −0,47 | 5% | −0,12 |
+| Indeks dolar | +0,06% dari penutupan sebelumnya (103,23) | +0,15 | 5% | +0,04 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.397 (+0,12%).
+Perkiraan pembukaan dari futures: 25.394 (+0,11%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
