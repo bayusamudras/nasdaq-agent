@@ -1,27 +1,27 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-14T01:47:37+07:00 · sesi Jumat 13 Nov (berjalan)_
+_Diperbarui 2026-11-14T01:48:37+07:00 · sesi Jumat 13 Nov (berjalan)_
 
-Peluang indeks naik **42%**, turun **58%** (skor −3,1 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **41%**, turun **59%** (skor −3,2 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,48% dari penutupan sebelumnya (27.965,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,88): Skor rata-rata −1,49 dari 32 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −4,17% dari penutupan sebelumnya (10.068,82). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,70): 5,139% (+3,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (−0,40): −0,64% dari penutupan sebelumnya (7.566,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,48% dari penutupan sebelumnya (27.965,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,94): Skor rata-rata −1,54 dari 33 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (−1,00): −4,21% dari penutupan sebelumnya (10.064,37). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,72): 5,141% (+3,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures S&P 500** (−0,40): −0,64% dari penutupan sebelumnya (7.566,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,49 dari 32 kejadian bernilai; 26% bobot bullish | −1,25 | 30% | −1,88 |
-| Futures Nasdaq-100 | −1,48% dari penutupan sebelumnya (27.965,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,64% dari penutupan sebelumnya (7.566,50) | −1,60 | 5% | −0,40 |
-| Semikonduktor (SOX) | −4,17% dari penutupan sebelumnya (10.068,82) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,139% (+3,6 bp dari sesi sebelumnya) | −1,40 | 10% | −0,70 |
-| VIX (volatilitas) | 19,57 (+4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 29,74 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,98 (+0,17% dari sesi sebelumnya) | −0,09 | 5% | −0,02 |
+| Berita berbobot | skor rata-rata −1,54 dari 33 kejadian bernilai; 25% bobot bullish | −1,29 | 30% | −1,94 |
+| Futures Nasdaq-100 | −1,48% dari penutupan sebelumnya (27.965,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,64% dari penutupan sebelumnya (7.566,25) | −1,60 | 5% | −0,40 |
+| Semikonduktor (SOX) | −4,21% dari penutupan sebelumnya (10.064,37) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,141% (+3,8 bp dari sesi sebelumnya) | −1,45 | 10% | −0,72 |
+| VIX (volatilitas) | 19,59 (+4,8% dari sesi sebelumnya); VXN (Nasdaq-100) 29,74 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $96,15 (+0,34% dari sesi sebelumnya) | −0,17 | 5% | −0,04 |
 | Indeks dolar | +0,20% dari penutupan sebelumnya (103,38) | +0,50 | 5% | +0,12 |
-| Tren Nasdaq 5 sesi | +2,11% dalam 5 sesi; 9,5% di bawah puncak 52 minggu | +1,41 | 5% | +0,35 |
+| Tren Nasdaq 5 sesi | +2,09% dalam 5 sesi; 9,5% di bawah puncak 52 minggu | +1,39 | 5% | +0,35 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
@@ -33,6 +33,7 @@ Rentang wajar 1σ (VXN): 24.891 sampai 25.841.
 - **−3,3** Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5% (The Motley Fool). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,8** 10-Year Treasury yield spikes on hot inflation read, Nvidia leads chip stocks lower: AlphaCheck (Yahoo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,6** The Fed expected rate cuts this year. Now it’s bracing for another inflation fight (CNBC). Peluang pelonggaran menurunkan biaya modal dan menopang valuasi saham growth.
+- **−1,6** Why Are Nvidia, AMD and Broadcom Stocks Falling Today? AI Chip Selloff Deepens (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Nvidia's Stock Plunge Drags Down KOSPI and Korean Semiconductor Giants (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,3** Oil Futures Slide as Trump Says New Strikes on Iran Unlikely (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
@@ -40,7 +41,6 @@ Rentang wajar 1σ (VXN): 24.891 sampai 25.841.
 - **−1,2** China could cap rare earths sales if US expands chip curbs over Nvidia: analysts (South China Morning Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** US Treasuries set for worst week since Trump’s ‘liberation day’ (Financial Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,0** Applied Materials Drops 6% Despite Beat-and-Raise Quarter as JPMorgan and Goldman Sachs Cut Price Targets; KLA Falls 6%, Lam Research Retreats 5% (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
