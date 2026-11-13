@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-14T05:28:53+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-14T05:29:53+07:00 · sesi Senin 16 Nov (pra-buka)_
 
-Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **38%**, turun **62%** (skor −3,9 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,61% dari penutupan sebelumnya (27.927,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
