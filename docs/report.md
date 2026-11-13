@@ -1,9 +1,7 @@
-# Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-13T10:34:09+07:00 · sesi Jumat 13 Nov (pra-buka)_
+# Bias Nasdaq: BEARISH
+_Diperbarui 2026-11-13T10:35:10+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 70%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
-
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 28,398–28,452. Skor dipangkas dari -6.9 menjadi -2.0.
+Peluang indeks naik **28%**, turun **72%** (skor −7,0 dari ±10, keyakinan 80%, 86% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,10): Skor rata-rata −1,68 dari 27 kejadian bernilai; 16% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
@@ -14,8 +12,8 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 70%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,68 dari 27 kejadian bernilai; 16% bobot bullish | −1,40 | 30% | −2,10 |
-| Futures Nasdaq-100 | +0,14% dari penutupan sebelumnya (28.425,50) | +0,28 | 20% | +0,28 |
-| Futures S&P 500 | +0,21% dari penutupan sebelumnya (7.631,50) | +0,52 | 5% | +0,13 |
+| Futures Nasdaq-100 | +0,11% dari penutupan sebelumnya (28.416,75) | +0,22 | 20% | +0,22 |
+| Futures S&P 500 | +0,21% dari penutupan sebelumnya (7.631,00) | +0,52 | 5% | +0,13 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,70 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
@@ -25,7 +23,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 70%
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.402 (+0,14%).
+Perkiraan pembukaan dari futures: 25.394 (+0,11%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
