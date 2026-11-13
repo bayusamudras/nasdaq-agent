@@ -1,11 +1,11 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-14T05:18:53+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-14T05:19:53+07:00 · sesi Senin 16 Nov (pra-buka)_
 
-Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **39%**, turun **61%** (skor −3,7 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,61% dari penutupan sebelumnya (27.927,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,92): Skor rata-rata −1,54 dari 32 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,75): Skor rata-rata −1,41 dari 31 kejadian bernilai; 30% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Futures S&P 500** (−0,44): −0,71% dari penutupan sebelumnya (7.561,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -13,7 +13,7 @@ Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 80%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,54 dari 32 kejadian bernilai; 28% bobot bullish | −1,28 | 30% | −1,92 |
+| Berita berbobot | skor rata-rata −1,41 dari 31 kejadian bernilai; 30% bobot bullish | −1,17 | 30% | −1,75 |
 | Futures Nasdaq-100 | −1,61% dari penutupan sebelumnya (27.927,25) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −0,71% dari penutupan sebelumnya (7.561,00) | −1,77 | 5% | −0,44 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
@@ -31,7 +31,6 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 ## Berita paling berdampak
 - **−3,5** Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−2,6** Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5% (The Motley Fool). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−2,5** Fed Chair Kevin Warsh to Confront AI Bubble and Job Loss Risks as Wall Street Tech Selloff Deepens (Coinpaper). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,9** U.S., Eurozone Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,8** Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** 10-Year Treasury yield spikes on hot inflation read, Nvidia leads chip stocks lower: AlphaCheck (Yahoo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
@@ -41,6 +40,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **+1,3** Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Nvidia's Stock Plunge Drags Down KOSPI and Korean Semiconductor Giants (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Oil Prices Extend Gains on Escalating Middle East Hostilities (EnergyNow). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
+- **+1,0** Cisco: Accelerating Growth Drives Big Earnings Beat (NASDAQ:CSCO) (Seeking Alpha). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
