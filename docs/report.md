@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-14T05:19:53+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-14T05:20:53+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **39%**, turun **61%** (skor −3,7 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **+1,3** Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Nvidia's Stock Plunge Drags Down KOSPI and Korean Semiconductor Giants (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Oil Prices Extend Gains on Escalating Middle East Hostilities (EnergyNow). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
-- **+1,0** Cisco: Accelerating Growth Drives Big Earnings Beat (NASDAQ:CSCO) (Seeking Alpha). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+0,9** Cisco: Accelerating Growth Drives Big Earnings Beat (NASDAQ:CSCO) (Seeking Alpha). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
