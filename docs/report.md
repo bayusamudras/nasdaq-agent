@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T11:30:27+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T11:31:27+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
-Peluang indeks naik **27%**, turun **73%** (skor −7,2 dari ±10, keyakinan 80%, 92% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **27%**, turun **73%** (skor −7,1 dari ±10, keyakinan 80%, 92% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,07): Skor rata-rata −1,65 dari 26 kejadian bernilai; 16% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
@@ -12,18 +12,18 @@ Peluang indeks naik **27%**, turun **73%** (skor −7,2 dari ±10, keyakinan 80%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,65 dari 26 kejadian bernilai; 16% bobot bullish | −1,38 | 30% | −2,07 |
-| Futures Nasdaq-100 | −0,10% dari penutupan sebelumnya (28.356,50) | −0,20 | 20% | −0,20 |
-| Futures S&P 500 | +0,06% dari penutupan sebelumnya (7.619,50) | +0,15 | 5% | +0,04 |
+| Futures Nasdaq-100 | −0,04% dari penutupan sebelumnya (28.373,50) | −0,08 | 20% | −0,08 |
+| Futures S&P 500 | +0,08% dari penutupan sebelumnya (7.621,25) | +0,20 | 5% | +0,05 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,70 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,67 (−0,16% dari sesi sebelumnya) | +0,08 | 5% | +0,02 |
+| Minyak Brent | $95,63 (−0,20% dari sesi sebelumnya) | +0,10 | 5% | +0,03 |
 | Indeks dolar | +0,01% dari penutupan sebelumnya (103,18) | +0,02 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.341 (−0,10%).
+Perkiraan pembukaan dari futures: 25.356 (−0,04%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
@@ -35,7 +35,7 @@ Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 - **−1,1** Export Controls Were Supposed to Keep AI Chips Out of China. The Rental Loophole Shows Why They Haven’t (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** Prediction: Nvidia's Plunging Stock Price Is the Beginning of a Broader Stock Market Crash. Here's What Warren Buffett Would Do. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−0,9** Stock Market Today, Nov. 12: Nebius Group Sinks Nearly 17% After Lowering 2026 Outlook (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,8** Stock Market Today, Nov. 12: Nebius Group Sinks Nearly 17% After Lowering 2026 Outlook (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Oil Prices Drop as Traders Look for US-Iran Talks Progress (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,8** Wall Street Plunges as Nvidia CEO Jensen Huang Quits (HDFC Sky). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Big Tech Stocks Today: Nvidia and Meta Fall as Microsoft Rises Amid AI Selloff (Coinpaper). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
