@@ -1,35 +1,35 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T14:05:30+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T14:06:30+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
-Peluang indeks naik **22%**, turun **78%** (skor −9,1 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **22%**, turun **78%** (skor −9,0 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,33): Skor rata-rata −1,86 dari 26 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (−0,46): −0,23% dari penutupan sebelumnya (28.318,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−0,38): −0,19% dari penutupan sebelumnya (28.330,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,86 dari 26 kejadian bernilai; 20% bobot bullish | −1,55 | 30% | −2,33 |
-| Futures Nasdaq-100 | −0,23% dari penutupan sebelumnya (28.318,50) | −0,46 | 20% | −0,46 |
-| Futures S&P 500 | −0,10% dari penutupan sebelumnya (7.607,75) | −0,25 | 5% | −0,06 |
+| Futures Nasdaq-100 | −0,19% dari penutupan sebelumnya (28.330,50) | −0,38 | 20% | −0,38 |
+| Futures S&P 500 | −0,08% dari penutupan sebelumnya (7.609,00) | −0,20 | 5% | −0,05 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,70 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
 | Minyak Brent | $96,50 (+0,71% dari sesi sebelumnya) | −0,35 | 5% | −0,09 |
-| Indeks dolar | −0,03% dari penutupan sebelumnya (103,14) | −0,07 | 5% | −0,02 |
+| Indeks dolar | −0,05% dari penutupan sebelumnya (103,12) | −0,12 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.308 (−0,23%).
+Perkiraan pembukaan dari futures: 25.318 (−0,19%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
 - **−4,8** Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,8** Silver Price Forecast: XAG/USD Rises To Near $50.50 Despite Fed Rate Hike Bets - TalkMarkets (Howl.Link). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,7** Silver Price Forecast: XAG/USD Rises To Near $50.50 Despite Fed Rate Hike Bets - TalkMarkets (Howl.Link). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,2** 10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,1** Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook (CNBC). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,0** Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk (Yahoo Finance). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
