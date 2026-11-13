@@ -26,6 +26,7 @@ jobs:
       ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
       ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
       ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+      FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -51,7 +52,7 @@ jobs:
           while [ "$SECONDS" -lt "$END" ]; do
             START=$SECONDS
             python agent.py --out docs || echo "agen gagal pada putaran ini"
-            git add docs/report.json docs/report.md docs/history.json docs/history.csv docs/cot.json docs/breadth.json
+            for f in docs/report.json docs/report.md docs/history.json docs/history.csv docs/cot.json docs/breadth.json docs/backtest.json; do if [ -f "$f" ]; then git add "$f"; fi; done
             if ! git diff --cached --quiet; then
               git commit -q -m "Update laporan Nasdaq"
               for i in 1 2 3; do

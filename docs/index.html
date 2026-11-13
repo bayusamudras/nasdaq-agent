@@ -482,8 +482,14 @@ body { font-size: 14.5px; line-height: 1.6; }
       </div>
     </div>
   </section>
-  <nav class="tabbar" id="tabbar" aria-label="Bagian dashboard"><button type="button" data-tab="berita">Faktor &amp; berita</button><button type="button" data-tab="pasar">Pasar &amp; level</button><button type="button" data-tab="eksekusi">Eksekusi &amp; risiko</button><button type="button" data-tab="kinerja">Kinerja &amp; status</button><a href="news.html">Berita terbaru ↗</a></nav>
+  <nav class="tabbar" id="tabbar" aria-label="Bagian dashboard"><button type="button" data-tab="berita">Faktor &amp; berita</button><button type="button" data-tab="pasar">Pasar &amp; level</button><button type="button" data-tab="eksekusi">Eksekusi &amp; risiko</button><button type="button" data-tab="kinerja">Kinerja &amp; status</button><button type="button" data-tab="api">API &amp; integrasi</button><a href="news.html">Berita terbaru ↗</a></nav>
   <div class="tabbody">
+<div class="tabpane" id="tab-api" data-pane="api"><section class="card" id="apimenu">
+        <h3>API dan integrasi</h3>
+        <p class="note">Kunci API <b>tidak bisa diketik di halaman ini</b>: halaman ini publik, sehingga kunci yang dimasukkan di sini akan terlihat orang lain. Kunci disimpan sebagai <b>GitHub Secrets</b>, lalu agen membacanya sendiri. Tombol "Isi di GitHub" membuka formulir secret yang namanya sudah terisi; Anda hanya menempel nilainya. Status di bawah diperbarui otomatis oleh agen tiap menit.</p>
+        <div id="apiBox"><p class="empty">memuat…</p></div>
+      </section>
+<section class="card" id="fredbox"><h3>Data dari FRED</h3><div id="fredInfo"></div></section></div>
 <div class="tabpane" id="tab-berita" data-pane="berita"><section class="card" id="proyeksi">
         <h3>Proyeksi harga dari berita dan faktor</h3>
         <div id="forecast"></div>
@@ -572,7 +578,9 @@ body { font-size: 14.5px; line-height: 1.6; }
         <h3>Jurnal eksekusi</h3>
         <div id="journalBox"></div>
       </section></div>
-<div class="tabpane" id="tab-kinerja" data-pane="kinerja"><section class="card" id="rekap"><h3>Rekap trade Anda</h3><div id="rekapBox"><p class="empty">memuat…</p></div></section><section class="card">
+<div class="tabpane" id="tab-kinerja" data-pane="kinerja"><section class="card" id="btcard"><h3>Backtest faktor harga</h3><div id="btBox"><p class="empty">belum tersedia</p></div></section>
+<section class="card" id="rekap"><h3>Rekap trade Anda</h3><p class="cap">Disimpan hanya di browser ini (tidak masuk repo publik).</p><div id="rekapBox"></div>
+<details><summary class="cap" style="cursor:pointer">Impor rekap (JSON)</summary><textarea id="rekapIn" rows="5" style="width:100%;margin-top:8px;font:inherit;font-size:12px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px" placeholder='{"style":"...","trades":[{"date":"","dir":"sell","setup":"","seen":"","lesson":""}]}'></textarea><button type="button" id="rekapSave" class="logbtn">Simpan rekap</button> <button type="button" id="rekapDel" class="logbtn" style="background:var(--surface);color:var(--ink);border:1px solid var(--line)">Hapus</button></details></section><section class="card">
         <h3>Rekam jejak agen</h3>
         <div id="track"></div>
       </section>
@@ -799,6 +807,24 @@ function render() {
   } else $("entryBox").innerHTML = '<p class="empty">Peringatan sebelum entry muncul setelah agen v2 berjalan.</p>';
 
   renderHero();
+
+  /* API dan integrasi, FRED, backtest */
+  var IG = R.integrations || [];
+  $("apiBox").innerHTML = IG.length ? IG.map(function (g) {
+    var st = g.set ? '<span class="liq tinggi">✓ Sudah terisi</span>' : '<span class="liq rendah">Belum terisi</span>';
+    var fd = g.set && g.feed_ok === false ? ' <span class="liq rendah">tapi data gagal: ' + esc(g.feed_err || "error") + "</span>" : g.set && g.feed_ok ? ' <span class="liq tinggi">data masuk</span>' : "";
+    return '<div class="rk"><div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center"><b style="margin:0">' + esc(g.name) + "</b><span>" + st + fd + "</span></div>" +
+      "<small>Untuk apa: " + esc(g.purpose) + "</small>" + (g.set ? "" : "<small>Jika kosong: " + esc(g.if_empty) + "</small><small>Cara dapat: " + esc(g.get) + "</small>") +
+      "<small>Nama secret: <code>" + esc(g.env.join(", ")) + "</code></small>" + (g.set ? "" : '<p style="margin:8px 0 0"><a class="logbtn" style="display:inline-block;text-decoration:none" href="' + esc(g.link) + '" target="_blank" rel="noopener">Isi di GitHub ↗</a></p>') + "</div>";
+  }).join("") : '<p class="empty">Laporan lama belum memuat status integrasi.</p>';
+  var FR = R.fred;
+  $("fredInfo").innerHTML = FR ? '<div class="mini"><div><div class="k">Target suku bunga Fed</div><div class="v" style="font-size:16px">' + esc((R.market && R.market.fed && R.market.fed.range) || "n/a") + '</div></div><div><div class="k">Yield 2 tahun (asli)</div><div class="v">' + num(FR.dgs2, 2) + '%</div></div><div><div class="k">Yield 10 tahun</div><div class="v">' + num(FR.dgs10, 2) + '%</div></div><div><div class="k">Selisih 10y−2y</div><div class="v ' + cls(FR.spread_2s10s) + '">' + num(FR.spread_2s10s, 2) + '</div></div></div><p class="cap">Per ' + esc(FR.asof || "") + ". Jadwal rilis CPI, tenaga kerja, PPI, ritel, PCE, dan PDB ikut diambil dari FRED menggantikan daftar manual.</p>" : '<p class="empty">Isi <code>FRED_API_KEY</code> untuk menampilkan suku bunga Fed, yield 2 tahun asli, dan jadwal rilis resmi.</p>';
+  var BT = R.backtest;
+  $("btBox").innerHTML = BT ? '<p class="note"><b>' + esc(BT.verdict) + "</b></p><div class=\"mini\"><div><div class=\"k\">Hari diuji</div><div class=\"v\">" + BT.n + '</div><div class="d">' + esc(BT.from) + " s/d " + esc(BT.to) + '</div></div><div><div class="k">Akurasi arah</div><div class="v">' + Math.round(BT.hit_rate * 100) + '%</div><div class="d">95%: ' + Math.round(BT.hit_ci[0] * 100) + "–" + Math.round(BT.hit_ci[1] * 100) + '%</div></div><div><div class="k">Pasar naik</div><div class="v">' + Math.round(BT.base_up * 100) + '%</div><div class="d">tingkat dasar</div></div><div><div class="k">IC</div><div class="v ' + cls(BT.ic) + '">' + BT.ic + "</div></div></div>" +
+    (BT.buckets && BT.buckets.length ? '<div class="scroll"><table><thead><tr><th>Skor</th><th>Hari</th><th>Naik besoknya</th><th>Rata-rata</th></tr></thead><tbody>' + BT.buckets.map(function (b) { return "<tr><td>" + esc(b.label) + "</td><td>" + b.n + "</td><td>" + b.up_pct + '%</td><td class="' + cls(b.mean_ret) + '">' + b.mean_ret + "%</td></tr>"; }).join("") + "</tbody></table></div>" : "") +
+    (BT.strategy ? '<p class="cap">Strategi sederhana mengikuti tanda skor (|skor| ≥ 1,5): ' + BT.strategy.trades + " hari, menang " + Math.round((BT.strategy.win_rate || 0) * 100) + "%, total " + BT.strategy.total_pct + "%, profit factor " + (BT.strategy.profit_factor == null ? "n/a" : BT.strategy.profit_factor) + ", drawdown maks " + BT.strategy.max_dd_pct + "%; beli-dan-tahan " + BT.strategy.buy_hold_pct + "%.</p>" : "") +
+    (BT.by_factor && BT.by_factor.length ? '<p class="cap">Korelasi tiap faktor dengan return besok: ' + BT.by_factor.map(function (f) { return esc(f.key) + " " + f.ic; }).join(" · ") + ".</p>" : "") +
+    '<p class="cap">' + esc(BT.caveat) + "</p>" : '<p class="empty">Backtest dihitung agen setelah putaran pertama (butuh data historis Yahoo), lalu diperbarui tiap 24 jam.</p>';
 
   /* Volatilitas dan breadth Nasdaq-100 */
   var VL = R.volatility, B1 = R.breadth100, vh = "";
@@ -1312,9 +1338,13 @@ function myRisk() {
   var hs = $("heroRisk"); if (hs) { hs.className = "echip " + (cls2 === "bahaya" ? "kritis" : cls2 === "hati" ? "waspada" : "aman"); hs.innerHTML = (cls2 === "bahaya" ? "⛔ " : cls2 === "hati" ? "⚠ " : "✓ ") + "Entry sekarang: " + head.toLowerCase() + " →"; }
 }
 setInterval(myRisk, 1000);
-fetch("trades.json?t=" + Date.now()).then(function (r) { return r.json(); }).then(function (T) {
-  $("rekapBox").innerHTML = '<p class="note">' + esc(T.style) + "</p>" + T.trades.map(function (t) { return '<div class="rk"><b>' + esc(t.date) + " · " + esc(t.dir.toUpperCase()) + "</b>" + esc(t.setup) + "<small>Terlihat: " + esc(t.seen) + "</small><small>Pelajaran: " + esc(t.lesson) + "</small></div>"; }).join("") + '<p class="cap">' + esc(T.note) + "</p>";
-}).catch(function () { $("rekapBox").innerHTML = '<p class="empty">Rekap tidak dapat dimuat.</p>'; });
+function rekapRender() {
+  var T = null; try { T = JSON.parse(localStorage.getItem("nq_recap_v1") || "null"); } catch (e) {}
+  $("rekapBox").innerHTML = T && T.trades ? (T.style ? '<p class="note">' + esc(T.style) + "</p>" : "") + T.trades.map(function (t) { return '<div class="rk"><b>' + esc(t.date || "") + " · " + esc(String(t.dir || "").toUpperCase()) + "</b>" + esc(t.setup || "") + "<small>Terlihat: " + esc(t.seen || "") + "</small><small>Pelajaran: " + esc(t.lesson || "") + "</small></div>"; }).join("") + (T.note ? '<p class="cap">' + esc(T.note) + "</p>" : "") : '<p class="empty">Belum ada rekap. Impor JSON di bawah.</p>';
+}
+$("rekapSave").addEventListener("click", function () { try { var o = JSON.parse($("rekapIn").value); if (!o.trades) throw 0; localStorage.setItem("nq_recap_v1", JSON.stringify(o)); $("rekapIn").value = ""; rekapRender(); } catch (e) { alert("JSON tidak valid. Pastikan ada kunci \"trades\"."); } });
+$("rekapDel").addEventListener("click", function () { try { localStorage.removeItem("nq_recap_v1"); } catch (e) {} rekapRender(); });
+rekapRender();
 
 async function tick() {
   var r = await load();

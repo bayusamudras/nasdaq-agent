@@ -34,3 +34,10 @@ Bukan nasihat investasi.
 - **Breadth Nasdaq-100** dihitung sendiri dari ±95 saham: advance/decline, McClellan Oscillator (EMA19−EMA39), % di atas MA50/MA200, high/low 20 hari. Di-cache `docs/breadth.json`, diperbarui tiap 4 jam.
 - **Kalibrasi**: ditambah korelasi skor-return (IC) dan selang kepercayaan Wilson 95% untuk akurasi arah.
 - **Risiko posisi** (kartu "Risiko jika entry sekarang"): kontrak maksimal dari volatility targeting, Kelly pecahan (hanya bila peluang sudah terkalibrasi), VaR/CVaR 1 hari dari rentang 1σ.
+
+## Menu API & integrasi, backtest, tes
+- Tab **API & integrasi** di dashboard menampilkan tiap kunci opsional (Anthropic, Alpaca, webhook, FRED): fungsinya, apa yang terjadi bila kosong, dan status **sudah terisi / belum**. Nilai kunci tidak pernah masuk laporan. Kunci diisi lewat **GitHub Secrets** (halaman publik tidak boleh menerima kunci); tombol "Isi di GitHub" membuka formulir dengan nama secret yang sudah benar.
+- `FRED_API_KEY` (gratis) mengaktifkan suku bunga Fed aktual, yield 2 tahun asli, dan tanggal rilis resmi CPI, tenaga kerja, PPI, ritel, PCE, PDB.
+- `backtest.py`: backtest faktor harga (berita netral) 5 tahun terakhir, di-cache 24 jam di `docs/backtest.json`.
+- `tests/` dan `.github/workflows/ci.yml`: tes otomatis (unittest) tiap push.
+- Rekap trade pribadi disimpan di localStorage browser, bukan di repo publik.

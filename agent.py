@@ -857,6 +857,123 @@ def load_breadth(path, now, injected=None):
         return {**cache, "stale": True} if cache else None
 
 
+# ---------------------------------------------------------------------------
+# FRED (opsional, butuh FRED_API_KEY), integrasi, backtest harian
+# ---------------------------------------------------------------------------
+FRED_RELEASES = {
+    10: ("CPI", "08:30", "tinggi", "Inflasi konsumen menentukan arah suku bunga Fed. Angka panas menekan saham teknologi lewat yield."),
+    50: ("Laporan tenaga kerja (nonfarm payrolls)", "08:30", "tinggi", "Data tunggal paling berpengaruh bagi arah suku bunga. Terlalu panas menaikkan yield, terlalu lemah memicu kekhawatiran resesi."),
+    46: ("PPI", "08:30", "sedang", "Harga di tingkat produsen. Memberi petunjuk awal arah inflasi konsumen berikutnya."),
+    9: ("Penjualan ritel", "08:30", "sedang", "Mengukur kekuatan konsumen. Data kuat memperkuat sikap Fed yang ketat."),
+    54: ("PCE (pendapatan dan pengeluaran pribadi)", "08:30", "tinggi", "PCE adalah ukuran inflasi pilihan Fed."),
+    53: ("PDB", "08:30", "tinggi", "Pertumbuhan ekonomi dan penentu ekspektasi laba."),
+}
+FRED_REPLACES = ("CPI", "tenaga kerja", "PPI", "Penjualan ritel", "PCE", "PDB")
+
+
+def _fred(path, key, **params):
+    q = urllib.parse.urlencode({**params, "api_key": key, "file_type": "json"})
+    return json.loads(_http(f"https://api.stlouisfed.org/fred/{path}?{q}"))
+
+
+def _fred_last(series, key):
+    obs = _fred("series/observations", key, series_id=series, sort_order="desc", limit=7).get("observations", [])
+    for o in obs:
+        try:
+            return float(o["value"]), o["date"]
+        except (ValueError, KeyError):
+            continue
+    return None, None
+
+
+def fetch_fred(now):
+    """Suku bunga Fed aktual, yield 2 tahun, dan jadwal rilis data resmi. Hanya dipanggil bila FRED_API_KEY terisi."""
+    key = os.environ.get("FRED_API_KEY")
+    if not key:
+        return None
+    out = {"events": []}
+    hi, _ = _fred_last("DFEDTARU", key)
+    lo, _ = _fred_last("DFEDTARL", key)
+    d2, asof = _fred_last("DGS2", key)
+    d10, _ = _fred_last("DGS10", key)
+    if hi is not None and lo is not None:
+        out["fed_range"] = f"{lo:.2f}–{hi:.2f}%".replace(".", ",")
+    if d2 is not None:
+        out["dgs2"], out["asof"] = d2, asof
+    if d2 is not None and d10 is not None:
+        out["dgs10"], out["spread_2s10s"] = d10, round(d10 - d2, 2)
+    today = to_et(now).date()
+    for rid, (name, hhmm, impact, why) in FRED_RELEASES.items():
+        try:
+            rows = _fred("release/dates", key, release_id=rid, realtime_start=today.isoformat(), realtime_end="9999-12-31",
+                         include_release_dates_with_no_data="true", sort_order="asc", limit=3).get("release_dates", [])
+        except Exception as e:  # noqa: BLE001
+            print(f"[warn] FRED rilis {rid}: {e}", file=sys.stderr)
+            continue
+        for r in rows:
+            if r.get("date", "") >= today.isoformat():
+                out["events"].append((r["date"], hhmm, name, impact, True, why))
+                break
+    return out
+
+
+def integrations(feeds):
+    """Status integrasi opsional. Hanya melaporkan terisi atau belum; nilai kunci tidak pernah dibaca ke laporan."""
+    def has(*names):
+        return all(bool(os.environ.get(n)) for n in names)
+    base = "https://github.com/bayusamudras/nasdaq-agent/settings/secrets/actions/new?name="
+    items = [
+        {"id": "anthropic", "name": "Anthropic (Claude)", "env": ["ANTHROPIC_API_KEY"], "set": has("ANTHROPIC_API_KEY"), "feed": None,
+         "purpose": "Menulis ringkasan naratif harian dari berita dan faktor.",
+         "if_empty": "Ringkasan memakai templat otomatis; skor dan semua panel lain tidak terpengaruh.", "link": base + "ANTHROPIC_API_KEY",
+         "get": "console.anthropic.com → API keys (berbayar per pemakaian)"},
+        {"id": "alpaca", "name": "Alpaca (harga QQQ real-time)", "env": ["ALPACA_KEY_ID", "ALPACA_SECRET_KEY"], "set": has("ALPACA_KEY_ID", "ALPACA_SECRET_KEY"), "feed": "alpaca",
+         "purpose": "Harga QQQ langsung dari bursa IEX untuk membandingkan dengan data Yahoo yang tertunda.",
+         "if_empty": "Harga QQQ memakai Yahoo (tertunda beberapa menit); panel lain tidak terpengaruh.", "link": base + "ALPACA_KEY_ID",
+         "get": "alpaca.markets → Paper Trading → API Keys (gratis). Isi dua secret: ALPACA_KEY_ID dan ALPACA_SECRET_KEY"},
+        {"id": "webhook", "name": "Webhook notifikasi (Discord/Slack)", "env": ["ALERT_WEBHOOK_URL"], "set": has("ALERT_WEBHOOK_URL"), "feed": None,
+         "purpose": "Mengirim pesan ke ponsel Anda saat bias berbalik arah atau skor berubah tajam.",
+         "if_empty": "Tidak ada notifikasi; Anda hanya melihat perubahan saat membuka dashboard.", "link": base + "ALERT_WEBHOOK_URL",
+         "get": "Discord: Server Settings → Integrations → Webhooks → Copy URL (gratis)"},
+        {"id": "fred", "name": "FRED (data resmi The Fed St. Louis)", "env": ["FRED_API_KEY"], "set": has("FRED_API_KEY"), "feed": "fred",
+         "purpose": "Suku bunga Fed aktual, yield 2 tahun asli (bukan proksi), dan tanggal rilis CPI, tenaga kerja, PPI, ritel, PCE, PDB otomatis.",
+         "if_empty": "Suku bunga Fed dan jadwal rilis memakai daftar manual di kode (harus diperbarui tiap bulan).", "link": base + "FRED_API_KEY",
+         "get": "fred.stlouisfed.org → My Account → API Keys (gratis)"},
+    ]
+    for it in items:
+        f = feeds.get(it["feed"]) if it["feed"] else None
+        it["feed_ok"] = f["ok"] if f else None
+        it["feed_err"] = f.get("err") if f else None
+    return items
+
+
+def load_backtest(path, now):
+    """Backtest faktor harga, di-cache 24 jam di docs/backtest.json."""
+    cache = None
+    if path and os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                cache = json.load(f)
+        except Exception:  # noqa: BLE001
+            cache = None
+    fa = parse_time(cache.get("fetched_at")) if cache else None
+    if cache and fa and (now - fa).total_seconds() < 24 * 3600:
+        return cache
+    try:
+        import backtest
+        res = backtest.run()
+        if not res:
+            raise RuntimeError("data historis tidak cukup")
+        res["fetched_at"] = now.isoformat(timespec="minutes")
+        if path:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(res, f, ensure_ascii=False)
+        return res
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] backtest: {e}", file=sys.stderr)
+        return {**cache, "stale": True} if cache else None
+
+
 def volume_anomaly(bars):
     """Proksi jejak blok besar: lonjakan volume per jam NQ relatif terhadap 48 jam sebelumnya."""
     vs = [b for b in (bars or []) if b.get("v")]
@@ -1120,6 +1237,15 @@ def fetch_market(now):
             mark("alpaca", True)
     except Exception as e:  # noqa: BLE001
         print(f"[warn] Alpaca: {e}", file=sys.stderr); mark("alpaca", False, e)
+    try:
+        fr = fetch_fred(now)
+        if fr:
+            m["fred"] = fr
+            if fr.get("fed_range"):
+                m["fed"]["range"] = fr["fed_range"]
+            mark("fred", True)
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] FRED: {e}", file=sys.stderr); mark("fred", False, e)
     try:
         m["mag7_earnings"] = fetch_mag7_earnings()
         mark("mag7_earnings", True)
@@ -1398,10 +1524,13 @@ def build_factors(ns, market):
     return F
 
 
-def upcoming_events(now, extra=None, limit=8):
+def upcoming_events(now, extra=None, limit=8, fred=None):
     out = list(extra or [])
     has_aapl = any("(AAPL)" in e["name"] for e in out)
-    for date, hhmm, name, impact, confirmed, why in EVENTS:
+    fred_ev = (fred or {}).get("events") or []
+    for date, hhmm, name, impact, confirmed, why in list(EVENTS) + list(fred_ev):
+        if fred_ev and (date, hhmm, name, impact, confirmed, why) in EVENTS and any(k in name for k in FRED_REPLACES):
+            continue  # tanggal resmi dari FRED menggantikan daftar manual untuk rilis yang sama
         start = et_to_utc(date, hhmm or "09:00")
         end_of_day = et_to_utc(date, "23:59")
         if end_of_day < now or (has_aapl and "Apple" in name):
@@ -2120,7 +2249,7 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     news_clusters = [c for c in clusters if id(c) not in fed_ids]  # Fed Speak dihitung lewat overlay, bukan dua kali
     ns = news_stats(news_clusters)
     factors = build_factors(ns, market)
-    events = upcoming_events(now, mag7_events(market, now))
+    events = upcoming_events(now, mag7_events(market, now), fred=market.get("fred"))
     entries = load_history(history_path) if history_path else []
     calib = calibrate(entries)
     cot_path = os.path.join(os.path.dirname(history_path) or ".", "cot.json") if history_path else None
@@ -2137,7 +2266,9 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     br_path = os.path.join(os.path.dirname(history_path) or ".", "breadth.json") if history_path else None
     b100 = load_breadth(br_path, now, market.get("breadth100"))
     vol = analyze_vol(market)
-    extras = {"rates": rate_expectations(market), "breadth": breadth(market), "breadth100": b100, "volatility": vol, "options": market.get("options"),
+    bt_path = os.path.join(os.path.dirname(history_path) or ".", "backtest.json") if history_path else None
+    bt = load_backtest(bt_path, now) if history_path else None
+    extras = {"rates": rate_expectations(market), "breadth": breadth(market), "breadth100": b100, "volatility": vol, "backtest": bt, "fred": {k: v for k, v in (market.get("fred") or {}).items() if k != "events"} or None, "options": market.get("options"),
               "volume": volume_anomaly(hb), "volume_profile": volume_profile(hb), "smc": fvg_map(hb)}
     inter = analyze_intermarket(market)
     entry = build_entry_warnings(now, verdict, market, levels, structure, extras["smc"], extras["volume_profile"], market.get("options"),
@@ -2184,7 +2315,7 @@ def build_report(raw, market, now, history_path=None, use_llm=True):
     report = {
         "version": VERSION, "generated_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "session": session_info(now), "verdict": verdict, "factors": factors, "reasons": make_reasons(factors),
-        "entry_warnings": entry, "intermarket": inter, "regime": regime, "structure": structure, "fed_radar": radar, "cot": cot_an, "earnings_week": ew, **extras, "alerts": alerts,
+        "integrations": integrations(market.get("_feeds") or {}), "entry_warnings": entry, "intermarket": inter, "regime": regime, "structure": structure, "fed_radar": radar, "cot": cot_an, "earnings_week": ew, **extras, "alerts": alerts,
         "fetched_at": now.astimezone(WIB).isoformat(timespec="seconds"),
         "feeds": market.get("_feeds") or {}, "levels": levels, "forecast": build_forecast(market, levels, verdict, factors, items), "scenarios": make_scenarios(market, levels, events, factors), "events": events,
         "track_record": tr, "market": {k: v for k, v in market.items() if k not in ("nq_hourly", "options", "_feeds", "mag7_earnings", "cot_rows", "hourly_x")}, "news_stats": ns, "items": items, "news_feed": news_feed_out(clusters), "llm_summary": None,
