@@ -1,37 +1,37 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-14T03:03:07+07:00 · sesi Jumat 13 Nov (berjalan)_
+_Diperbarui 2026-11-14T03:04:07+07:00 · sesi Jumat 13 Nov (berjalan)_
 
-Peluang indeks naik **41%**, turun **59%** (skor −3,4 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **41%**, turun **59%** (skor −3,3 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,47% dari penutupan sebelumnya (27.967,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,43% dari penutupan sebelumnya (27.977,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Berita berbobot** (−1,89): Skor rata-rata −1,52 dari 30 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −3,66% dari penutupan sebelumnya (10.122,26). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Semikonduktor (SOX)** (−1,00): −3,60% dari penutupan sebelumnya (10.128,53). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,83): 5,149% (+4,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (−0,40): −0,64% dari penutupan sebelumnya (7.566,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,39): −0,62% dari penutupan sebelumnya (7.568,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,52 dari 30 kejadian bernilai; 26% bobot bullish | −1,26 | 30% | −1,89 |
-| Futures Nasdaq-100 | −1,47% dari penutupan sebelumnya (27.967,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,64% dari penutupan sebelumnya (7.566,75) | −1,60 | 5% | −0,40 |
-| Semikonduktor (SOX) | −3,66% dari penutupan sebelumnya (10.122,26) | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | −1,43% dari penutupan sebelumnya (27.977,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,62% dari penutupan sebelumnya (7.568,00) | −1,55 | 5% | −0,39 |
+| Semikonduktor (SOX) | −3,60% dari penutupan sebelumnya (10.128,53) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,149% (+4,6 bp dari sesi sebelumnya) | −1,65 | 10% | −0,83 |
-| VIX (volatilitas) | 19,11 (+2,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,29 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,81 (−0,01% dari sesi sebelumnya) | +0,01 | 5% | 0,00 |
+| VIX (volatilitas) | 19,08 (+2,0% dari sesi sebelumnya); VXN (Nasdaq-100) 29,29 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $95,83 (+0,01% dari sesi sebelumnya) | −0,01 | 5% | 0,00 |
 | Indeks dolar | +0,24% dari penutupan sebelumnya (103,42) | +0,60 | 5% | +0,15 |
-| Tren Nasdaq 5 sesi | +2,22% dalam 5 sesi; 9,4% di bawah puncak 52 minggu | +1,48 | 5% | +0,37 |
+| Tren Nasdaq 5 sesi | +2,25% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 24.993 (−1,47%).
+Perkiraan pembukaan dari futures: 25.003 (−1,43%).
 Rentang wajar 1σ (VXN): 24.898 sampai 25.834.
 
 ## Berita paling berdampak
 - **−4,1** Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−3,0** Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5% (The Motley Fool). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−2,3** U.S., Eurozone Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−2,2** U.S., Eurozone Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,7** 10-Year Treasury yield spikes on hot inflation read, Nvidia leads chip stocks lower: AlphaCheck (Yahoo Finance). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,5** The Fed expected rate cuts this year. Now it’s bracing for another inflation fight (CNBC). Peluang pelonggaran menurunkan biaya modal dan menopang valuasi saham growth.
 - **−1,5** Why Are Nvidia, AMD and Broadcom Stocks Falling Today? AI Chip Selloff Deepens (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
