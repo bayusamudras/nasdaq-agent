@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T22:20:05+07:00 · sesi Jumat 13 Nov (berjalan)_
+_Diperbarui 2026-11-13T22:21:05+07:00 · sesi Jumat 13 Nov (berjalan)_
 
-Peluang indeks naik **28%**, turun **72%** (skor −6,8 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **28%**, turun **72%** (skor −7,0 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,13): Skor rata-rata −1,71 dari 28 kejadian bernilai; 18% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−2,00): −1,67% dari penutupan sebelumnya (27.911,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −5,42% dari penutupan sebelumnya (9.937,47). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,80): 5,147% (+4,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (−0,50): −0,81% dari penutupan sebelumnya (7.553,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,81% dari penutupan sebelumnya (27.872,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −5,50% dari penutupan sebelumnya (9.928,72). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,91): 5,156% (+5,3 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures S&P 500** (−0,50): −0,91% dari penutupan sebelumnya (7.546,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,71 dari 28 kejadian bernilai; 18% bobot bullish | −1,42 | 30% | −2,13 |
-| Futures Nasdaq-100 | −1,67% dari penutupan sebelumnya (27.911,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,81% dari penutupan sebelumnya (7.553,75) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −5,42% dari penutupan sebelumnya (9.937,47) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,147% (+4,4 bp dari sesi sebelumnya) | −1,60 | 10% | −0,80 |
-| VIX (volatilitas) | 19,86 (+6,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,73 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $96,77 (+0,99% dari sesi sebelumnya) | −0,49 | 5% | −0,12 |
-| Indeks dolar | +0,04% dari penutupan sebelumnya (103,21) | +0,10 | 5% | +0,03 |
-| Tren Nasdaq 5 sesi | +1,52% dalam 5 sesi; 10,0% di bawah puncak 52 minggu | +1,01 | 5% | +0,25 |
+| Futures Nasdaq-100 | −1,81% dari penutupan sebelumnya (27.872,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,91% dari penutupan sebelumnya (7.546,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −5,50% dari penutupan sebelumnya (9.928,72) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,156% (+5,3 bp dari sesi sebelumnya) | −1,82 | 10% | −0,91 |
+| VIX (volatilitas) | 19,62 (+4,9% dari sesi sebelumnya); VXN (Nasdaq-100) 29,65 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $96,63 (+0,85% dari sesi sebelumnya) | −0,42 | 5% | −0,11 |
+| Indeks dolar | +0,03% dari penutupan sebelumnya (103,20) | +0,07 | 5% | +0,02 |
+| Tren Nasdaq 5 sesi | +1,45% dalam 5 sesi; 10,1% di bawah puncak 52 minggu | +0,47 | 5% | +0,12 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 24.942 (−1,67%).
-Rentang wajar 1σ (VXN): 24.891 sampai 25.841.
+Perkiraan pembukaan dari futures: 24.907 (−1,81%).
+Rentang wajar 1σ (VXN): 24.892 sampai 25.840.
 
 ## Berita paling berdampak
 - **−3,9** Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
