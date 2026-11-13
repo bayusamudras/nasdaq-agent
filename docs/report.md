@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T18:11:36+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T18:12:36+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **25%**, turun **75%** (skor −7,8 dari ±10, keyakinan 80%, 86% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -12,12 +12,12 @@ Peluang indeks naik **25%**, turun **75%** (skor −7,8 dari ±10, keyakinan 80%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,57 dari 27 kejadian bernilai; 30% bobot bullish | −1,31 | 30% | −1,97 |
-| Futures Nasdaq-100 | +0,06% dari penutupan sebelumnya (28.402,50) | +0,12 | 20% | +0,12 |
-| Futures S&P 500 | +0,18% dari penutupan sebelumnya (7.629,25) | +0,45 | 5% | +0,11 |
+| Futures Nasdaq-100 | +0,06% dari penutupan sebelumnya (28.401,00) | +0,12 | 20% | +0,12 |
+| Futures S&P 500 | +0,19% dari penutupan sebelumnya (7.629,75) | +0,47 | 5% | +0,12 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 18,32 (−2,0% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,74 (−0,08% dari sesi sebelumnya) | +0,04 | 5% | +0,01 |
+| VIX (volatilitas) | 18,34 (−1,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $95,72 (−0,10% dari sesi sebelumnya) | +0,05 | 5% | +0,01 |
 | Indeks dolar | +0,08% dari penutupan sebelumnya (103,25) | +0,20 | 5% | +0,05 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
@@ -27,7 +27,7 @@ Perkiraan pembukaan dari futures: 25.381 (+0,06%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
-- **−5,1** Treasury yields rise as traders strengthen Fed rate hike bets (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−5,0** Treasury yields rise as traders strengthen Fed rate hike bets (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−4,6** Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−2,4** Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,3** US 10-Year Treasury Yield Rises 1.8 Basis Points to 5.12% Early Friday, Highest Level in More Than Three Weeks (marketscreener.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
