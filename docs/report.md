@@ -1,10 +1,10 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T12:59:12+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T13:00:12+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **28%**, turun **72%** (skor −7,0 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−1,88): Skor rata-rata −1,49 dari 24 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,89): Skor rata-rata −1,51 dari 25 kejadian bernilai; 19% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Futures Nasdaq-100** (−0,48): −0,24% dari penutupan sebelumnya (28.315,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
@@ -12,7 +12,7 @@ Peluang indeks naik **28%**, turun **72%** (skor −7,0 dari ±10, keyakinan 80%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,49 dari 24 kejadian bernilai; 20% bobot bullish | −1,25 | 30% | −1,88 |
+| Berita berbobot | skor rata-rata −1,51 dari 25 kejadian bernilai; 19% bobot bullish | −1,26 | 30% | −1,89 |
 | Futures Nasdaq-100 | −0,24% dari penutupan sebelumnya (28.315,00) | −0,48 | 20% | −0,48 |
 | Futures S&P 500 | −0,06% dari penutupan sebelumnya (7.611,00) | −0,15 | 5% | −0,04 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
