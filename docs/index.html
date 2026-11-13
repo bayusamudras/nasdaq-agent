@@ -403,6 +403,18 @@ body { font-size: 14.5px; line-height: 1.6; }
 .titlebar { padding: 4px 2px; }
 @media (max-width: 820px) { .titlebar { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; } .titlebar .clock { justify-self: auto; white-space: normal; text-align: center; font-size: 12px; } .titlebar .tbtn { margin: 0; } .titlebar h1 { font-size: 22px; } }
 @media (max-width: 560px) { .herol, .heror { padding: 18px 14px; } .hero .kpis { padding: 14px 6px; } }
+.fgrid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 12px; }
+.fgrid3 label { font-size: 12px; color: var(--muted); }
+.fgrid3 select, .fgrid3 input { display: block; width: 100%; margin-top: 4px; font: inherit; font-size: 14px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; }
+.mrv { border-radius: 14px; padding: 12px 16px; font-weight: 800; font-size: 17px; margin-bottom: 8px; }
+.mrv.bahaya { background: var(--bear-soft); color: var(--bear); border: 1px solid rgba(255,138,138,.45); }
+.mrv.hati { background: var(--flat-soft); color: var(--flat); border: 1px solid rgba(241,198,120,.4); }
+.mrv.aman { background: var(--bull-soft); color: var(--bull); border: 1px solid rgba(25,224,191,.4); }
+.mr { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 10px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 13.5px; }
+.mr .st { font-size: 11px; font-weight: 700; text-align: center; padding: 3px 0; border-radius: 999px; height: fit-content; }
+.mr .st.bahaya { background: var(--bear-soft); color: var(--bear); } .mr .st.hati { background: var(--flat-soft); color: var(--flat); } .mr .st.aman { background: var(--bull-soft); color: var(--bull); }
+.rk { border-top: 1px solid var(--line); padding: 10px 0; font-size: 13.5px; } .rk:first-of-type { border-top: 0; }
+.rk b { display: block; } .rk small { display: block; color: var(--muted); margin-top: 2px; font-size: 12.5px; }
 </style>
 </head>
 <body>
@@ -459,6 +471,7 @@ body { font-size: 14.5px; line-height: 1.6; }
         <ul class="reasons" id="reasons"></ul>
       </div>
       <div class="heror" id="happen">
+        <a class="echip" id="heroRisk" href="#myrisk" style="display:block">memuat risiko entry…</a>
         <div class="hsess" id="heroSess"><span class="k">Sesi</span> memuat…</div>
         <h4>Apa yang terjadi</h4>
         <div id="heroNews"><p class="empty">memuat…</p></div>
@@ -522,7 +535,15 @@ body { font-size: 14.5px; line-height: 1.6; }
         <h3>Rezim pasar dan struktur harga</h3>
         <div id="regime"></div>
       </section></div>
-<div class="tabpane" id="tab-eksekusi" data-pane="eksekusi"><section class="card" id="entry">
+<div class="tabpane" id="tab-eksekusi" data-pane="eksekusi"><section class="card" id="myrisk">
+        <h3>Risiko jika entry sekarang</h3>
+        <div class="fgrid3">
+          <label>Rencana arah<select id="mrDir"><option value="">pilih…</option><option value="sell">Sell</option><option value="buy">Buy</option></select></label>
+          <label>Stop (poin)<input id="mrStop" type="number" min="1" step="any" value="30" inputmode="decimal"></label>
+          <label>Kontrak<input id="mrQty" type="number" min="1" step="1" value="2" inputmode="numeric"></label>
+        </div>
+        <div id="mrBox"><p class="empty">memuat…</p></div>
+      </section><section class="card" id="entry">
         <h3>Peringatan sebelum entry</h3>
         <div id="ntw"></div>
         <div id="entryBox"></div>
@@ -544,7 +565,7 @@ body { font-size: 14.5px; line-height: 1.6; }
         <h3>Jurnal eksekusi</h3>
         <div id="journalBox"></div>
       </section></div>
-<div class="tabpane" id="tab-kinerja" data-pane="kinerja"><section class="card">
+<div class="tabpane" id="tab-kinerja" data-pane="kinerja"><section class="card" id="rekap"><h3>Rekap trade Anda</h3><div id="rekapBox"><p class="empty">memuat…</p></div></section><section class="card">
         <h3>Rekam jejak agen</h3>
         <div id="track"></div>
       </section>
@@ -1195,6 +1216,69 @@ function renderHero() {
     return '<div class="hn"><i class="' + (n.score > 0 ? "u" : "d") + '"></i><div><b>' + esc(n.title) + "</b><small>" + esc(n.why || n.label || "") + "</small></div></div>";
   }).join("") + '<a class="cap" href="news.html">Semua berita terbaru →</a>' : '<p class="empty">Belum ada berita yang menggerakkan skor.</p>';
 }
+
+/* ===== Risiko jika entry sekarang (aturan dari rekap trade pemilik) ===== */
+var MRK = "nq_myrisk";
+function mrLoad() { try { return JSON.parse(localStorage.getItem(MRK) || "{}"); } catch (e) { return {}; } }
+function mrSave() { try { localStorage.setItem(MRK, JSON.stringify({ dir: $("mrDir").value, stop: $("mrStop").value, qty: $("mrQty").value })); } catch (e) {} }
+(function () { var s = mrLoad(); if (s.dir) $("mrDir").value = s.dir; if (s.stop) $("mrStop").value = s.stop; if (s.qty) $("mrQty").value = s.qty; ["mrDir", "mrStop", "mrQty"].forEach(function (i) { $(i).addEventListener("input", function () { mrSave(); myRisk(); }); }); })();
+function wib(t) { return new Date(t).toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Jakarta" }).replace(".", ":"); }
+function myRisk() {
+  var box = $("mrBox"); if (!box || !R || !R.verdict) return;
+  var now = Date.now(), v = R.verdict, E = R.entry_warnings || { n_kritis: 0, n_waspada: 0 }, S = R.smc, rows = [];
+  var add = function (lvl, title, text) { rows.push({ l: lvl, t: title, x: text }); };
+  // 1. jendela rilis data dan pembukaan AS (pelajaran trade 13 Okt 20:30: jangan masuk/menahan saat lonjakan)
+  var pts = ((R.events || []).filter(function (e) { return e.time_known; }).map(function (e) { return { n: e.name, t: new Date(e.start_utc).getTime() }; }));
+  var ms = etMilestones(now); ms.forEach(function (m) { if (m.n.indexOf("Pembukaan") === 0) pts.push({ n: "Pembukaan bursa AS", t: m.t }); });
+  pts = pts.filter(function (p) { return !isNaN(p.t) && p.t > now - 15 * 60000; }).sort(function (a, b) { return a.t - b.t; });
+  var inw = pts.filter(function (p) { return Math.abs(p.t - now) <= 15 * 60000; })[0], nx = pts[0];
+  if (inw) add("bahaya", "Jam rilis", "Sedang di jendela ±15 menit sekitar " + inw.n + " (" + wib(inw.t) + " WIB). Lonjakan dan sapuan stop paling sering terjadi sekarang.");
+  else if (nx && nx.t - now <= 3 * 3600000) add("hati", "Jam rilis", nx.n + " pada " + wib(nx.t) + " WIB, dalam " + fmtCd(nx.t - now) + ". Entry sekarang berarti menahan posisi melewati rilis; jendela terlarang " + wib(nx.t - 15 * 60000) + "–" + wib(nx.t + 15 * 60000) + " WIB.");
+  else add("aman", "Jam rilis", "Tidak ada rilis atau pembukaan dalam 3 jam ke depan.");
+  var us = pts.filter(function (p) { return p.n === "Pembukaan bursa AS"; })[0];
+  if (us && us.t - now > 0 && us.t - now <= 3 * 3600000 && (!nx || nx.n !== "Pembukaan bursa AS")) add("hati", "Pembukaan AS", "Bursa AS buka " + wib(us.t) + " WIB (dalam " + fmtCd(us.t - now) + "). Sejak DST berakhir 1 Nov, pembukaan 21:30 WIB, bukan 20:30 seperti di catatan trade 13 Okt Anda.");
+  // 2. sesi / likuiditas
+  var act = activeSession(now);
+  add(act.liq === "tutup" ? "bahaya" : act.liq === "rendah" ? "hati" : "aman", "Likuiditas", act.n + ": " + act.note);
+  // 3. akhir pekan
+  var p = parts("America/New_York", now), mins = p.h * 60 + p.mi;
+  if (p.wd === "Fri" && mins >= 15 * 60) add("bahaya", "Akhir pekan", "Jumat setelah 15:00 ET: spread melebar dan menahan posisi berarti menanggung gap pembukaan Minggu.");
+  else if (p.wd === "Fri") add("hati", "Akhir pekan", "Hari Jumat. Posisi yang ditahan sampai tutup menanggung gap pembukaan mingguan (gap itu sering diisi, seperti di catatan 17 Okt Anda).");
+  // 4. arah vs bias agen
+  var dir = $("mrDir").value, bear = /BEAR/.test(v.bias), bull = /BULL/.test(v.bias);
+  if (!dir) add("hati", "Arah", "Pilih rencana arah di atas agar keselarasan dengan bias agen bisa dinilai. Bias agen: " + v.bias + " (skor " + fmt(v.score10) + ", peluang naik " + Math.round(v.p_up * 100) + "%).");
+  else if ((dir === "sell" && bear) || (dir === "buy" && bull)) add("aman", "Arah", "Rencana " + dir + " searah bias agen (" + v.bias + ", skor " + fmt(v.score10) + "). Kekuatan bias " + (Math.abs(v.score10) < 5 ? "masih tipis, jadi searah bukan jaminan." : "kuat."));
+  else if (v.bias === "NETRAL") add("hati", "Arah", "Bias agen netral: tidak ada keunggulan arah dari fundamental.");
+  else add("bahaya", "Arah", "Rencana " + dir + " melawan bias agen (" + v.bias + ", skor " + fmt(v.score10) + ").");
+  // 5. lokasi harga
+  if (S && S.zone) {
+    var zone = S.zone, pos = S.position_pct;
+    if (dir === "sell" && zone === "discount") add("hati", "Lokasi harga", "Sell di zona discount (" + pos + "% dari rentang 48 jam): berisiko memantul ke equilibrium " + num(S.equilibrium) + ".");
+    else if (dir === "buy" && zone === "premium") add("hati", "Lokasi harga", "Buy di zona premium (" + pos + "% dari rentang): berisiko turun balik ke equilibrium " + num(S.equilibrium) + ".");
+    else add("aman", "Lokasi harga", "Harga di zona " + zone + " (" + pos + "% dari rentang 48 jam)" + (dir ? ", cocok untuk " + dir + "." : "."));
+    var nq = R.market && R.market.nq_fut && R.market.nq_fut.last;
+    (S.gaps || []).forEach(function (g) { if (nq && ((dir === "sell" && g.kind === "bullish" && nq - g.top < 40 && nq > g.top) || (dir === "buy" && g.kind === "bearish" && g.bottom - nq < 40 && g.bottom > nq))) add("hati", "FVG", "Ada FVG " + g.kind + " " + num(g.bottom) + "–" + num(g.top) + " tepat di jalur target (" + Math.round(Math.abs(nq - (dir === "sell" ? g.top : g.bottom))) + " poin dari harga): sering jadi penahan atau pemantul."); });
+  }
+  // 6. ukuran stop vs noise
+  var px = R.market && R.market.nq_fut && R.market.nq_fut.last, stop = +$("mrStop").value, qty = +$("mrQty").value || 1;
+  if (px && stop > 0) {
+    var sig = px * (((R.levels && R.levels.sigma_pct) || 1.8) / 100), pct = stop / px * 100, usd = stop * 2 * qty;
+    add(pct < 0.12 ? "hati" : "aman", "Ukuran stop", "Stop " + stop + " poin = " + pct.toFixed(2) + "% harga (risiko ±$" + num(usd) + " untuk " + qty + " kontrak MNQ, $2 per poin). Rentang normal 1σ hari ini sekitar ±" + num(sig) + " poin NQ" + (pct < 0.12 ? ", jadi stop sesempit ini mudah tersapu oleh wick rilis atau pembukaan (stop di catatan Anda 17–32 poin)." : "."));
+  }
+  // 7. peringatan agen
+  add(E.n_kritis ? "bahaya" : E.n_waspada ? "hati" : "aman", "Peringatan agen", E.n_kritis + " kritis, " + E.n_waspada + " waspada. " + ((E.items || []).filter(function (w) { return w.when === "now" && w.sev !== "info"; }).slice(0, 3).map(function (w) { return w.title; }).join("; ") || "Tidak ada yang menonjol."));
+  var nb = rows.filter(function (r) { return r.l === "bahaya"; }).length, nh = rows.filter(function (r) { return r.l === "hati"; }).length;
+  var cls2 = nb ? "bahaya" : nh >= 2 ? "hati" : "aman";
+  var head = nb ? "TUNDA ENTRY: " + nb + " hambatan serius" : nh >= 2 ? "HATI-HATI: " + nh + " risiko aktif" : "Tidak ada hambatan besar saat ini";
+  var order = { bahaya: 0, hati: 1, aman: 2 };
+  rows.sort(function (a, b) { return order[a.l] - order[b.l]; });
+  box.innerHTML = '<div class="mrv ' + cls2 + '">' + head + '</div>' + rows.map(function (r) { return '<div class="mr"><span class="st ' + r.l + '">' + (r.l === "bahaya" ? "BAHAYA" : r.l === "hati" ? "WASPADA" : "OK") + "</span><div><b>" + esc(r.t) + "</b> " + esc(r.x) + "</div></div>"; }).join("") + '<p class="cap">Daftar periksa otomatis, diperbarui tiap detik dan tiap laporan baru. Aturan diturunkan dari rekap trade Anda dan model agen; bukan saran beli atau jual.</p>';
+  var hs = $("heroRisk"); if (hs) { hs.className = "echip " + (cls2 === "bahaya" ? "kritis" : cls2 === "hati" ? "waspada" : "aman"); hs.innerHTML = (cls2 === "bahaya" ? "⛔ " : cls2 === "hati" ? "⚠ " : "✓ ") + "Entry sekarang: " + head.toLowerCase() + " →"; }
+}
+setInterval(myRisk, 1000);
+fetch("trades.json?t=" + Date.now()).then(function (r) { return r.json(); }).then(function (T) {
+  $("rekapBox").innerHTML = '<p class="note">' + esc(T.style) + "</p>" + T.trades.map(function (t) { return '<div class="rk"><b>' + esc(t.date) + " · " + esc(t.dir.toUpperCase()) + "</b>" + esc(t.setup) + "<small>Terlihat: " + esc(t.seen) + "</small><small>Pelajaran: " + esc(t.lesson) + "</small></div>"; }).join("") + '<p class="cap">' + esc(T.note) + "</p>";
+}).catch(function () { $("rekapBox").innerHTML = '<p class="empty">Rekap tidak dapat dimuat.</p>'; });
 
 async function tick() {
   var r = await load();
