@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-14T06:34:30+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-14T06:35:30+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **28%**, turun **72%** (skor −6,8 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **−1,2** Bessent blames Commerce Dept over lack of export controls for Nvidia partner Megaspeed (WHBL News). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,2** The Fed expected rate cuts this year. Now it’s bracing for another inflation fight (CNBC). Peluang pelonggaran menurunkan biaya modal dan menopang valuasi saham growth.
 - **−1,2** Why Are Nvidia, AMD and Broadcom Stocks Falling Today? AI Chip Selloff Deepens (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,2** Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,1** Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Nebius Sinks 13% as Baird and BofA Slash Price Targets Over Data Center Delays; CoreWeave Tumbles 11%, NVIDIA Falls 4% (24/7 Wall St.). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
