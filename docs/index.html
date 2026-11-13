@@ -352,12 +352,61 @@ dialog input, dialog select, dialog textarea { display: block; width: 100%; marg
 #cmdList div { padding: 9px 12px; border-radius: 10px; cursor: pointer; display: flex; justify-content: space-between; gap: 10px; font-size: 14px; }
 #cmdList div small { color: var(--muted); }
 #cmdList div.sel, #cmdList div:hover { background: var(--blue-soft); }
+
+/* ===== Tampilan v3: hero menyatu, tab, ritme visual ===== */
+:root { --r: 20px; --pad: 22px; }
+body { font-size: 14.5px; line-height: 1.6; }
+.tower { gap: 18px; }
+.card { border-radius: var(--r); padding: var(--pad); box-shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 12px 32px rgba(3,6,18,.28); }
+.card > h3 { margin-bottom: 14px; font-size: 16px; }
+.hero { padding: 0; overflow: hidden; background: linear-gradient(160deg, var(--card-2) 0%, var(--card) 55%); position: relative; }
+.hero::before { content: ""; position: absolute; inset: -40% -10% auto auto; width: 60%; height: 90%; background: radial-gradient(closest-side, rgba(143,165,255,.16), transparent); pointer-events: none; }
+.hero .kpis { position: relative; padding: 18px 10px; border-bottom: 1px solid var(--line); background: rgba(10,14,30,.25); }
+.herogrid { position: relative; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 0; }
+.herol { padding: 24px 26px 26px; border-right: 1px solid var(--line); min-width: 0; }
+.heror { padding: 24px 26px 26px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+@media (max-width: 960px) { .herogrid { grid-template-columns: minmax(0, 1fr); } .herol { border-right: 0; border-bottom: 1px solid var(--line); padding: 20px 18px; } .heror { padding: 20px 18px; } }
+.hh, .heror h4 { font-size: 12px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); margin: 6px 0 2px; }
+.hh { margin-top: 0; }
+.herol .verdict-top { grid-template-columns: minmax(0, 1fr); gap: 14px; margin-top: 8px; }
+.herol .bias { font-size: clamp(48px, 7vw, 72px); }
+.hsess { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 10px 14px; font-size: 13.5px; }
+.hsess .k { color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: .08em; }
+.hsess.ntwon { background: var(--bear-soft); border-color: rgba(255,142,158,.45); color: var(--bear); font-weight: 700; }
+.hn { display: grid; grid-template-columns: 6px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+.hn:first-child { border-top: 0; padding-top: 2px; }
+.hn i { border-radius: 3px; background: var(--muted); } .hn i.u { background: var(--bull); } .hn i.d { background: var(--bear); }
+.hn b { font-weight: 600; font-size: 14px; line-height: 1.4; display: block; }
+.hn small { color: var(--muted); font-size: 12.5px; display: block; margin-top: 2px; }
+.herol .reasons { margin: 0; grid-template-columns: 1fr; gap: 8px; }
+.herol .reasons li { padding: 9px 12px; font-size: 13px; }
+.scnrow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 4px; }
+@media (max-width: 560px) { .scnrow { grid-template-columns: 1fr; } }
+.scnrow .scn { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
+.scnrow .scn h4 { margin: 0 0 6px; }
+.scnrow .scn.b h4 { color: var(--bull); } .scnrow .scn.r h4 { color: var(--bear); }
+.scnrow ul { font-size: 12.5px; padding-left: 16px; gap: 4px; }
+.tabbar { position: sticky; top: 8px; z-index: 6; display: flex; gap: 6px; align-items: center; overflow-x: auto; scrollbar-width: none; padding: 6px; background: color-mix(in srgb, var(--card) 88%, transparent); backdrop-filter: blur(10px); border: 1px solid var(--line); border-radius: 999px; width: fit-content; max-width: 100%; margin: 0 auto; }
+.tabbar::-webkit-scrollbar { display: none; }
+.tabbar button, .tabbar a { flex: none; font: inherit; font-size: 13.5px; font-weight: 600; padding: 9px 18px; border-radius: 999px; border: 0; background: transparent; color: var(--muted); cursor: pointer; text-decoration: none; white-space: nowrap; }
+.tabbar button:hover, .tabbar a:hover { color: var(--ink); background: var(--surface); }
+.tabbar button[aria-selected="true"] { background: var(--blue); color: #0f1424; }
+.tabpane { display: none; columns: 2 440px; column-gap: 18px; }
+.tabpane.on { display: block; }
+.tabpane > .card { break-inside: avoid; margin: 0 0 18px; display: inline-block; width: 100%; }
+@media (max-width: 700px) { .tabpane { columns: 1; } .card { padding: 18px 16px; } }
+.card .cap, .card .note { color: var(--muted); }
+.stats { gap: 8px 18px; }
+.logbtn { border-radius: 999px; padding: 10px 20px; }
+.titlebar { padding: 4px 2px; }
+@media (max-width: 820px) { .titlebar { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; } .titlebar .clock { justify-self: auto; white-space: normal; text-align: center; font-size: 12px; } .titlebar .tbtn { margin: 0; } .titlebar h1 { font-size: 22px; } }
+@media (max-width: 560px) { .herol, .heror { padding: 18px 14px; } .hero .kpis { padding: 14px 6px; } }
 </style>
 </head>
 <body>
 <nav class="side" aria-label="Navigasi">
   <div class="logo">N</div>
-  <a href="#bias"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>Bias</a>
+  <a href="#home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>Bias</a>
   <a href="#entry"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 16H3zM12 10v4M12 17h.01"/></svg>Risiko</a>
   <a href="#faktor"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Faktor</a>
   <a href="#berita"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H4zM17 9h3v10h-3M8 9h5M8 13h5"/></svg>Berita</a>
@@ -375,17 +424,18 @@ dialog input, dialog select, dialog textarea { display: block; width: 100%; marg
 
   <div id="banner" role="status" aria-live="polite"></div>
 
-  <section class="card kpis" aria-label="Data pasar terakhir">
+  
+
+  <section class="card hero" id="home">
+    <section class="kpis" aria-label="Data pasar terakhir">
     <div class="kpi"><div class="k">Nasdaq Comp</div><div class="v num" id="kNas">–</div><div class="d" id="kNasD"></div></div>
     <div class="kpi"><div class="k" id="kNqK">Futures NQ</div><div class="v num" id="kNq">–</div><div class="d" id="kNqD"></div></div>
     <div class="kpi"><div class="k">VIX</div><div class="v num" id="kVix">–</div><div class="d" id="kVixD"></div></div>
     <div class="kpi"><div class="k">Yield 10 th</div><div class="v num" id="kYld">–</div><div class="d" id="kYldD"></div></div>
   </section>
-
-  <div class="grid2">
-    <div class="col">
-      <section class="card" id="bias">
-        <h3>Bias hari ini</h3>
+    <div class="herogrid">
+      <div class="herol" id="bias">
+        <h4 class="hh">Bias hari ini</h4>
         <div class="verdict-top">
           <div>
             <span class="badge" id="badge">Vonis gabungan</span>
@@ -403,21 +453,27 @@ dialog input, dialog select, dialog textarea { display: block; width: 100%; marg
         <div id="warns"></div>
         <button type="button" class="logbtn" data-log>＋ Log This Setup</button>
         <div id="ai"></div>
+        <h4 class="hh" style="margin-top:20px">Alasan utama</h4>
+        <ul class="reasons" id="reasons"></ul>
+      </div>
+      <div class="heror" id="happen">
+        <div class="hsess" id="heroSess"><span class="k">Sesi</span> memuat…</div>
+        <h4>Apa yang terjadi</h4>
+        <div id="heroNews"><p class="empty">memuat…</p></div>
+        <div class="scnrow">
+          <div class="scn b"><h4>Pembalik ke bullish</h4><ul id="scnBull"></ul></div>
+          <div class="scn r"><h4>Penguat bearish</h4><ul id="scnBear"></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <nav class="tabbar" id="tabbar" aria-label="Bagian dashboard"><button type="button" data-tab="berita">Faktor &amp; berita</button><button type="button" data-tab="pasar">Pasar &amp; level</button><button type="button" data-tab="eksekusi">Eksekusi &amp; risiko</button><button type="button" data-tab="kinerja">Kinerja &amp; status</button><a href="news.html">Berita terbaru ↗</a></nav>
+  <div class="tabbody">
+<div class="tabpane" id="tab-berita" data-pane="berita"><section class="card" id="proyeksi">
+        <h3>Proyeksi harga dari berita dan faktor</h3>
+        <div id="forecast"></div>
       </section>
-
-      <section class="card" id="entry">
-        <h3>Peringatan sebelum entry</h3>
-        <div id="ntw"></div>
-        <div id="entryBox"></div>
-        <button type="button" class="logbtn" data-log>＋ Log This Setup</button>
-      </section>
-
-      <section class="card" id="sesi">
-        <h3>Sesi dan waktu eksekusi</h3>
-        <div id="sessBox"><p class="empty">memuat…</p></div>
-      </section>
-
-      <section class="card" id="faktor">
+<section class="card" id="faktor">
         <h3>Papan faktor: apa saja yang membentuk bias</h3>
         <p class="note">Tiap faktor diberi sinyal −2 sampai +2, dikali bobot. Batang menunjukkan sumbangan ke skor akhir (kiri bearish, kanan bullish).</p>
         <div id="factors"></div>
@@ -425,8 +481,7 @@ dialog input, dialog select, dialog textarea { display: block; width: 100%; marg
         <p class="note">Aturan ini bisa memangkas skor akhir bila ada anomali, supaya bias tidak memaksakan berita saat sinyal lain berlawanan.</p>
         <div id="gates"></div>
       </section>
-
-      <section class="card" id="berita">
+<section class="card" id="berita">
         <div class="sechead">
           <h3>Berita dan kenapa berdampak</h3>
           <div class="filters" role="group" aria-label="Filter berita">
@@ -441,83 +496,62 @@ dialog input, dialog select, dialog textarea { display: block; width: 100%; marg
         <p class="note">Berita yang sama dari banyak media digabung (kemiripan kata atau teks ≥80%) dan dihitung satu kali dengan bonus konfirmasi kecil. Bobot memperhitungkan kredibilitas sumber dan usia berita.</p>
         <div id="news"></div>
       </section>
-
-      <section class="card" id="proyeksi">
-        <h3>Proyeksi harga dari berita dan faktor</h3>
-        <div id="forecast"></div>
-      </section>
-
-      <section class="card" id="makro">
+<section class="card" id="makro">
         <h3>Makro dan market breadth</h3>
         <div id="macro"></div>
-      </section>
-
-      <section class="card" id="inter">
-        <h3>Korelasi intermarket</h3>
-        <div id="interBox"></div>
-      </section>
-
-      <section class="card" id="opsi">
-        <h3>Opsi dan likuiditas</h3>
-        <div id="options"></div>
-      </section>
-
-      <section class="card">
-        <h3>Alasan utama</h3>
-        <ul class="reasons" id="reasons"></ul>
-      </section>
-
-      
-
-      
-    </div>
-
-    <div class="col">
-      <section class="card" id="level">
+      </section></div>
+<div class="tabpane" id="tab-pasar" data-pane="pasar"><section class="card" id="level">
         <h3>Peta level Nasdaq Composite</h3>
         <div id="levels"></div>
       </section>
-
-      <section class="card scn b"><h3>Pembalik ke bullish</h3><ul id="scnBull"></ul></section>
-      <section class="card scn r"><h3>Penguat bearish</h3><ul id="scnBear"></ul></section>
-
-      <section class="card" id="smc">
+<section class="card" id="smc">
         <h3>Peta level NQ: FVG dan volume profile</h3>
         <div id="smcBox"></div>
       </section>
-
-      <section class="card" id="jurnal">
-        <h3>Jurnal eksekusi</h3>
-        <div id="journalBox"></div>
+<section class="card" id="inter">
+        <h3>Korelasi intermarket</h3>
+        <div id="interBox"></div>
       </section>
-
-      <section class="card" id="peringatan">
-        <h3>Peringatan pergeseran bias</h3>
-        <div id="alerts"></div>
+<section class="card" id="opsi">
+        <h3>Opsi dan likuiditas</h3>
+        <div id="options"></div>
       </section>
-
-      <section class="card" id="rezim">
+<section class="card" id="rezim">
         <h3>Rezim pasar dan struktur harga</h3>
         <div id="regime"></div>
+      </section></div>
+<div class="tabpane" id="tab-eksekusi" data-pane="eksekusi"><section class="card" id="entry">
+        <h3>Peringatan sebelum entry</h3>
+        <div id="ntw"></div>
+        <div id="entryBox"></div>
+        <button type="button" class="logbtn" data-log>＋ Log This Setup</button>
       </section>
-
-      <section class="card" id="kalender">
+<section class="card" id="sesi">
+        <h3>Sesi dan waktu eksekusi</h3>
+        <div id="sessBox"><p class="empty">memuat…</p></div>
+      </section>
+<section class="card" id="kalender">
         <h3>Kalender risiko</h3>
         <div id="events"></div>
       </section>
-
-      <section class="card">
+<section class="card" id="peringatan">
+        <h3>Peringatan pergeseran bias</h3>
+        <div id="alerts"></div>
+      </section>
+<section class="card" id="jurnal">
+        <h3>Jurnal eksekusi</h3>
+        <div id="journalBox"></div>
+      </section></div>
+<div class="tabpane" id="tab-kinerja" data-pane="kinerja"><section class="card">
         <h3>Rekam jejak agen</h3>
         <div id="track"></div>
       </section>
-
-      <section class="card">
+<section class="card">
         <h3>Status agen</h3>
         <p class="note" id="status"></p>
         <div class="feeds" id="feedbox"></div>
         <details><summary>Cara model bekerja</summary><div id="method"></div></details>
-      </section>
-    </div>
+      </section></div>
   </div>
   <footer>Analisis berita dan data pasar publik, bukan nasihat investasi. Peluang adalah perkiraan heuristik yang belum dikalibrasi.</footer>
 </div>
@@ -733,6 +767,8 @@ function render() {
     $("entryBox").innerHTML = eh;
     $("warns").innerHTML = (v.warnings || []).length || EW.n_kritis || EW.n_waspada ? '<a class="echip ' + EW.status + '" href="#entry">' + (EW.status === "kritis" ? "⛔" : "⚠") + " " + EW.n_kritis + " kritis · " + EW.n_waspada + " waspada · " + EW.n_next + ' jadwal. Lihat peringatan sebelum entry →</a>' : '<a class="echip aman" href="#entry">✓ Tidak ada risiko menonjol. Lihat daftar periksa →</a>';
   } else $("entryBox").innerHTML = '<p class="empty">Peringatan sebelum entry muncul setelah agen v2 berjalan.</p>';
+
+  renderHero();
 
   /* Korelasi intermarket */
   var IM = R.intermarket, ih = "";
@@ -1000,6 +1036,7 @@ function sessTick() {
     return '<div class="ev"><div class="t">' + new Date(n.a).toLocaleString("id-ID", { weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Jakarta" }).replace(/\./g, ":") + '</div><div><b>' + esc(n.name) + '</b><div class="cap" style="margin:2px 0 0">' + esc(evNote(n.t)) + "</div></div></div>";
   }).join("");
   box.innerHTML = html;
+  var hs = $("heroSess"); if (hs) { hs.className = "hsess" + (live ? " ntwon" : ""); hs.innerHTML = live ? "⛔ NO-TRADE WINDOW · " + esc(live.name) + " · sisa " + fmtCd(live.b - now) : '<span class="k">Sesi</span><b>' + esc(act.n) + '</b><span class="liq ' + act.liq + '">' + (act.liq === "tutup" ? "tutup" : "likuiditas " + act.liq) + "</span>" + (ml[0] ? '<span class="k">' + esc(ml[0].n) + '</span><span class="cd">' + fmtCd(ml[0].t - now) + "</span>" : ""); }
   // strip di kartu peringatan entry
   var nb = $("ntw"); if (nb) nb.innerHTML = live ? '<div class="ntwbar">⛔ NO-TRADE WINDOW AKTIF: ' + esc(live.name) + " · sisa " + fmtCd(live.b - now) + "</div>" : "";
 }
@@ -1134,6 +1171,28 @@ $("cmdIn").addEventListener("keydown", function (e) {
 });
 $("cmdList").addEventListener("click", function (e) { var r = e.target.closest("[data-ci]"); if (r) cmdRun(+r.getAttribute("data-ci")); });
 document.addEventListener("keydown", function (e) { if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") { e.preventDefault(); cmdOpen(); } });
+
+/* ===== Tab + ringkasan hero ===== */
+var TABKEY = "nq_tab";
+function setTab(k) {
+  var ok = false; document.querySelectorAll(".tabpane").forEach(function (p) { var on = p.getAttribute("data-pane") === k; p.classList.toggle("on", on); if (on) ok = true; });
+  if (!ok) { k = "berita"; $("tab-berita").classList.add("on"); }
+  document.querySelectorAll("#tabbar button").forEach(function (b) { b.setAttribute("aria-selected", b.getAttribute("data-tab") === k ? "true" : "false"); });
+  try { localStorage.setItem(TABKEY, k); } catch (e) {}
+}
+function tabFor(id) { var e = document.getElementById(id); var p = e && e.closest(".tabpane"); return p && p.getAttribute("data-pane"); }
+document.addEventListener("click", function (ev) {
+  var b = ev.target.closest && ev.target.closest("#tabbar button"); if (b) setTab(b.getAttribute("data-tab"));
+  var a = ev.target.closest && ev.target.closest('a[href^="#"]'); if (a) { var id = a.getAttribute("href").slice(1), t = tabFor(id); if (t) { setTab(t); setTimeout(function () { var e = document.getElementById(id); if (e) e.scrollIntoView({ behavior: "smooth", block: "start" }); }, 30); ev.preventDefault(); } }
+});
+var t0 = "berita"; try { t0 = localStorage.getItem(TABKEY) || "berita"; } catch (e) {}
+setTab(t0);
+function renderHero() {
+  var it = ((R && (R.items || R.news_feed)) || []).filter(function (n) { return n.score; }).slice(0, 4);
+  $("heroNews").innerHTML = it.length ? it.map(function (n) {
+    return '<div class="hn"><i class="' + (n.score > 0 ? "u" : "d") + '"></i><div><b>' + esc(n.title) + "</b><small>" + esc(n.why || n.label || "") + "</small></div></div>";
+  }).join("") + '<a class="cap" href="news.html">Semua berita terbaru →</a>' : '<p class="empty">Belum ada berita yang menggerakkan skor.</p>';
+}
 
 async function tick() {
   var r = await load();
