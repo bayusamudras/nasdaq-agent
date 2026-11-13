@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-13T10:00:00+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T10:01:00+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 70%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -8,15 +8,15 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 70%
 ## Alasan utama
 - **Berita berbobot** (−2,06): Skor rata-rata −1,64 dari 28 kejadian bernilai; 17% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (+0,84): +0,42% dari penutupan sebelumnya (28.503,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+0,78): +0,39% dari penutupan sebelumnya (28.496,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,64 dari 28 kejadian bernilai; 17% bobot bullish | −1,37 | 30% | −2,06 |
-| Futures Nasdaq-100 | +0,42% dari penutupan sebelumnya (28.503,25) | +0,84 | 20% | +0,84 |
-| Futures S&P 500 | +0,30% dari penutupan sebelumnya (7.638,00) | +0,75 | 5% | +0,19 |
+| Futures Nasdaq-100 | +0,39% dari penutupan sebelumnya (28.496,00) | +0,78 | 20% | +0,78 |
+| Futures S&P 500 | +0,29% dari penutupan sebelumnya (7.637,25) | +0,72 | 5% | +0,18 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,70 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
@@ -26,7 +26,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 70%
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.473 (+0,42%).
+Perkiraan pembukaan dari futures: 25.465 (+0,39%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
@@ -37,7 +37,7 @@ Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 - **−1,2** Export Controls Were Supposed to Keep AI Chips Out of China. The Rental Loophole Shows Why They Haven’t (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** 10-Year Treasury Yield Climbs to 4.98%, Nearing the 5% Threshold Again (24/7 Wall St.). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,1** Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk (Crude Oil Prices Today | OilPrice.com). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
-- **−1,1** Prediction: Nvidia's Plunging Stock Price Is the Beginning of a Broader Stock Market Crash. Here's What Warren Buffett Would Do. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** Prediction: Nvidia's Plunging Stock Price Is the Beginning of a Broader Stock Market Crash. Here's What Warren Buffett Would Do. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Stock Market Today, Nov. 12: Nebius Group Sinks Nearly 17% After Lowering 2026 Outlook (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Oil Prices Drop as Traders Look for US-Iran Talks Progress (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,9** Wall Street Plunges as Nvidia CEO Jensen Huang Quits (HDFC Sky). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
