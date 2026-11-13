@@ -1,29 +1,29 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T11:35:27+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T11:36:37+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **27%**, turun **73%** (skor −7,2 dari ±10, keyakinan 80%, 92% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−2,07): Skor rata-rata −1,65 dari 26 kejadian bernilai; 16% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−2,03): Skor rata-rata −1,62 dari 26 kejadian bernilai; 16% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,65 dari 26 kejadian bernilai; 16% bobot bullish | −1,38 | 30% | −2,07 |
-| Futures Nasdaq-100 | −0,10% dari penutupan sebelumnya (28.356,50) | −0,20 | 20% | −0,20 |
-| Futures S&P 500 | +0,05% dari penutupan sebelumnya (7.619,25) | +0,12 | 5% | +0,03 |
+| Berita berbobot | skor rata-rata −1,62 dari 26 kejadian bernilai; 16% bobot bullish | −1,35 | 30% | −2,03 |
+| Futures Nasdaq-100 | −0,09% dari penutupan sebelumnya (28.359,00) | −0,18 | 20% | −0,18 |
+| Futures S&P 500 | +0,06% dari penutupan sebelumnya (7.619,50) | +0,15 | 5% | +0,04 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,70 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,74 (−0,08% dari sesi sebelumnya) | +0,04 | 5% | +0,01 |
+| Minyak Brent | $95,75 (−0,07% dari sesi sebelumnya) | +0,04 | 5% | +0,01 |
 | Indeks dolar | +0,01% dari penutupan sebelumnya (103,18) | +0,02 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.341 (−0,10%).
+Perkiraan pembukaan dari futures: 25.343 (−0,09%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
@@ -37,8 +37,8 @@ Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 - **+0,9** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,8** Stock Market Today, Nov. 12: Nebius Group Sinks Nearly 17% After Lowering 2026 Outlook (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Oil Prices Drop as Traders Look for US-Iran Talks Progress (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
-- **−0,8** Wall Street Plunges as Nvidia CEO Jensen Huang Quits (HDFC Sky). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Big Tech Stocks Today: Nvidia and Meta Fall as Microsoft Rises Amid AI Selloff (Coinpaper). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,8** Treasury Yields Breach 5.13%, Wall Street Warns Stocks Underestimate Risk of Three Straight Fed Hikes (BigGo Finance). Peretasan besar mengguncang kepercayaan pada aset digital dan menurunkan selera risiko, terutama di kripto dan saham terkait. Dampak ke Nasdaq biasanya terbatas kecuali menyangkut perusahaan besar.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
