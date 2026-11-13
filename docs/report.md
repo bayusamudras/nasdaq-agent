@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-14T00:21:00+07:00 · sesi Jumat 13 Nov (berjalan)_
+_Diperbarui 2026-11-14T00:22:00+07:00 · sesi Jumat 13 Nov (berjalan)_
 
-Peluang indeks naik **41%**, turun **59%** (skor −3,3 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,55% dari penutupan sebelumnya (27.944,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,78): Skor rata-rata −1,43 dari 27 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −4,62% dari penutupan sebelumnya (10.021,17). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,62): 5,133% (+3,0 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (−0,45): −0,72% dari penutupan sebelumnya (7.560,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Berita berbobot** (−2,00): Skor rata-rata −1,60 dari 25 kejadian bernilai; 23% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −1,62% dari penutupan sebelumnya (27.925,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −4,77% dari penutupan sebelumnya (10.005,40). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,70): 5,139% (+3,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures S&P 500** (−0,46): −0,74% dari penutupan sebelumnya (7.558,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,43 dari 27 kejadian bernilai; 28% bobot bullish | −1,19 | 30% | −1,78 |
-| Futures Nasdaq-100 | −1,55% dari penutupan sebelumnya (27.944,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,72% dari penutupan sebelumnya (7.560,50) | −1,80 | 5% | −0,45 |
-| Semikonduktor (SOX) | −4,62% dari penutupan sebelumnya (10.021,17) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,133% (+3,0 bp dari sesi sebelumnya) | −1,25 | 10% | −0,62 |
-| VIX (volatilitas) | 20,04 (+7,2% dari sesi sebelumnya); VXN (Nasdaq-100) 30,24 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,71 (−0,11% dari sesi sebelumnya) | +0,06 | 5% | +0,01 |
-| Indeks dolar | +0,18% dari penutupan sebelumnya (103,35) | +0,45 | 5% | +0,11 |
-| Tren Nasdaq 5 sesi | +1,85% dalam 5 sesi; 9,7% di bawah puncak 52 minggu | +1,23 | 5% | +0,31 |
+| Berita berbobot | skor rata-rata −1,60 dari 25 kejadian bernilai; 23% bobot bullish | −1,33 | 30% | −2,00 |
+| Futures Nasdaq-100 | −1,62% dari penutupan sebelumnya (27.925,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,74% dari penutupan sebelumnya (7.558,75) | −1,85 | 5% | −0,46 |
+| Semikonduktor (SOX) | −4,77% dari penutupan sebelumnya (10.005,40) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,139% (+3,6 bp dari sesi sebelumnya) | −1,40 | 10% | −0,70 |
+| VIX (volatilitas) | 19,79 (+5,8% dari sesi sebelumnya); VXN (Nasdaq-100) 30,06 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $95,62 (−0,21% dari sesi sebelumnya) | +0,10 | 5% | +0,03 |
+| Indeks dolar | +0,19% dari penutupan sebelumnya (103,36) | +0,47 | 5% | +0,12 |
+| Tren Nasdaq 5 sesi | +1,76% dalam 5 sesi; 9,8% di bawah puncak 52 minggu | +1,17 | 5% | +0,29 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 24.973 (−1,55%).
-Rentang wajar 1σ (VXN): 24.883 sampai 25.849.
+Perkiraan pembukaan dari futures: 24.955 (−1,62%).
+Rentang wajar 1σ (VXN): 24.886 sampai 25.846.
 
 ## Berita paling berdampak
 - **−4,9** Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
@@ -36,7 +36,7 @@ Rentang wajar 1σ (VXN): 24.883 sampai 25.849.
 - **−1,6** Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,4** Oil Futures Slide as Trump Says New Strikes on Iran Unlikely (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **+1,4** Cisco: Accelerating Growth Drives Big Earnings Beat (NASDAQ:CSCO) (Seeking Alpha). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,4** China could cap rare earths sales if US expands chip curbs over Nvidia: analysts (South China Morning Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,3** China could cap rare earths sales if US expands chip curbs over Nvidia: analysts (South China Morning Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,3** US Treasuries set for worst week since Trump’s ‘liberation day’ (Financial Times). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** China warns US against imposing more chip export restrictions (NewsBytes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,1** Applied Materials Drops 6% Despite Beat-and-Raise Quarter as JPMorgan and Goldman Sachs Cut Price Targets; KLA Falls 6%, Lam Research Retreats 5% (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
