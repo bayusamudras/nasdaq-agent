@@ -1,29 +1,29 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T18:00:36+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T18:01:36+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
-Peluang indeks naik **24%**, turun **76%** (skor −8,2 dari ±10, keyakinan 80%, 80% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **24%**, turun **76%** (skor −8,1 dari ±10, keyakinan 80%, 80% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−2,16): Skor rata-rata −1,72 dari 27 kejadian bernilai; 24% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−2,11): Skor rata-rata −1,70 dari 26 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,72 dari 27 kejadian bernilai; 24% bobot bullish | −1,44 | 30% | −2,16 |
-| Futures Nasdaq-100 | −0,02% dari penutupan sebelumnya (28.379,75) | −0,04 | 20% | −0,04 |
-| Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.628,50) | +0,42 | 5% | +0,11 |
+| Berita berbobot | skor rata-rata −1,70 dari 26 kejadian bernilai; 25% bobot bullish | −1,41 | 30% | −2,11 |
+| Futures Nasdaq-100 | −0,01% dari penutupan sebelumnya (28.382,75) | −0,02 | 20% | −0,02 |
+| Futures S&P 500 | +0,18% dari penutupan sebelumnya (7.628,75) | +0,45 | 5% | +0,11 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
-| VIX (volatilitas) | 18,36 (−1,8% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,75 (−0,07% dari sesi sebelumnya) | +0,04 | 5% | +0,01 |
-| Indeks dolar | +0,10% dari penutupan sebelumnya (103,28) | +0,25 | 5% | +0,06 |
+| VIX (volatilitas) | 18,35 (−1,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $95,74 (−0,08% dari sesi sebelumnya) | +0,04 | 5% | +0,01 |
+| Indeks dolar | +0,10% dari penutupan sebelumnya (103,27) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.361 (−0,02%).
+Perkiraan pembukaan dari futures: 25.364 (−0,01%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
@@ -38,7 +38,7 @@ Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 - **−0,7** Trump Says 'No Need for a Deal With Iran' as Oil Prices Jump More Than 2.6%, Brent Nears $96 (BigGo Finance). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−0,7** Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls (Atlantic Council). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,7** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−0,7** Export Controls Were Supposed to Keep AI Chips Out of China. The Rental Loophole Shows Why They Haven’t (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,6** Prediction: Nvidia's Plunging Stock Price Is the Beginning of a Broader Stock Market Crash. Here's What Warren Buffett Would Do. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
