@@ -1,11 +1,11 @@
-# Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-14T06:22:30+07:00 · sesi Senin 16 Nov (pra-buka)_
+# Bias Nasdaq: BEARISH
+_Diperbarui 2026-11-14T06:23:30+07:00 · sesi Senin 16 Nov (pra-buka)_
 
-Peluang indeks naik **39%**, turun **61%** (skor −3,8 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **29%**, turun **71%** (skor −6,6 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,61% dari penutupan sebelumnya (27.927,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,64): Skor rata-rata −1,30 dari 34 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,48): Skor rata-rata −1,19 dari 35 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Futures S&P 500** (−0,44): −0,71% dari penutupan sebelumnya (7.561,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -13,7 +13,7 @@ Peluang indeks naik **39%**, turun **61%** (skor −3,8 dari ±10, keyakinan 80%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,30 dari 34 kejadian bernilai; 29% bobot bullish | −1,09 | 30% | −1,64 |
+| Berita berbobot | skor rata-rata −1,19 dari 35 kejadian bernilai; 32% bobot bullish | −0,99 | 30% | −1,48 |
 | Futures Nasdaq-100 | −1,61% dari penutupan sebelumnya (27.927,25) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −0,71% dari penutupan sebelumnya (7.561,00) | −1,77 | 5% | −0,44 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
@@ -30,6 +30,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
 - **−4,6** Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields (Bloomberg). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,8** The AI boom has handed the Fed an inflation problem that rate hikes may not fix (www.marketplace.org). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,8** U.S., Eurozone Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,7** Nasdaq falls as chip stocks slump after Nvidia CEO Huang resigns; Dow inches up (Chosunbiz). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -40,7 +41,6 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **−1,2** Why Are Nvidia, AMD and Broadcom Stocks Falling Today? AI Chip Selloff Deepens (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,2** Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Nebius Sinks 13% as Baird and BofA Slash Price Targets Over Data Center Delays; CoreWeave Tumbles 11%, NVIDIA Falls 4% (24/7 Wall St.). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,1** Oil Prices Rise for a Fifth Day on Supply Concerns Amid Chokepoint Threats (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
