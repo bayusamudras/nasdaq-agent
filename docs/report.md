@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T22:04:05+07:00 · sesi Jumat 13 Nov (berjalan)_
+_Diperbarui 2026-11-13T22:05:05+07:00 · sesi Jumat 13 Nov (berjalan)_
 
-Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **31%**, turun **69%** (skor −5,9 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−2,00): Skor rata-rata −1,60 dari 25 kejadian bernilai; 24% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−1,50): −0,75% dari penutupan sebelumnya (28.171,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −4,34% dari penutupan sebelumnya (10.050,95). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,99): 5,162% (+5,9 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (+0,35): +2,10% dalam 5 sesi; 9,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Futures Nasdaq-100** (−1,46): −0,73% dari penutupan sebelumnya (28.177,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −4,26% dari penutupan sebelumnya (10.059,00). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,93): 5,157% (+5,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Tren Nasdaq 5 sesi** (+0,36): +2,14% dalam 5 sesi; 9,4% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,60 dari 25 kejadian bernilai; 24% bobot bullish | −1,33 | 30% | −2,00 |
-| Futures Nasdaq-100 | −0,75% dari penutupan sebelumnya (28.171,75) | −1,50 | 20% | −1,50 |
-| Futures S&P 500 | −0,25% dari penutupan sebelumnya (7.596,50) | −0,62 | 5% | −0,15 |
-| Semikonduktor (SOX) | −4,34% dari penutupan sebelumnya (10.050,95) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,162% (+5,9 bp dari sesi sebelumnya) | −1,98 | 10% | −0,99 |
-| VIX (volatilitas) | 18,79 (+0,5% dari sesi sebelumnya); VXN (Nasdaq-100) 28,71 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $97,02 (+1,25% dari sesi sebelumnya) | −0,62 | 5% | −0,15 |
-| Indeks dolar | −0,01% dari penutupan sebelumnya (103,16) | −0,02 | 5% | −0,01 |
-| Tren Nasdaq 5 sesi | +2,10% dalam 5 sesi; 9,5% di bawah puncak 52 minggu | +1,40 | 5% | +0,35 |
+| Futures Nasdaq-100 | −0,73% dari penutupan sebelumnya (28.177,75) | −1,46 | 20% | −1,46 |
+| Futures S&P 500 | −0,24% dari penutupan sebelumnya (7.596,75) | −0,60 | 5% | −0,15 |
+| Semikonduktor (SOX) | −4,26% dari penutupan sebelumnya (10.059,00) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,157% (+5,4 bp dari sesi sebelumnya) | −1,85 | 10% | −0,93 |
+| VIX (volatilitas) | 19,03 (+1,8% dari sesi sebelumnya); VXN (Nasdaq-100) 28,85 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $97,09 (+1,33% dari sesi sebelumnya) | −0,67 | 5% | −0,17 |
+| Indeks dolar | −0,02% dari penutupan sebelumnya (103,15) | −0,05 | 5% | −0,01 |
+| Tren Nasdaq 5 sesi | +2,14% dalam 5 sesi; 9,4% di bawah puncak 52 minggu | +1,43 | 5% | +0,36 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.176 (−0,75%).
-Rentang wajar 1σ (VXN): 24.907 sampai 25.825.
+Perkiraan pembukaan dari futures: 25.181 (−0,73%).
+Rentang wajar 1σ (VXN): 24.905 sampai 25.827.
 
 ## Berita paling berdampak
 - **−3,9** Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
