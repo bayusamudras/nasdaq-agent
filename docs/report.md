@@ -1,30 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-13T21:29:44+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T21:30:44+07:00 · sesi Jumat 13 Nov (berjalan)_
 
-Peluang indeks naik **42%**, turun **58%** (skor −3,0 dari ±10, keyakinan 73%, 68% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **45%**, turun **55%** (skor −2,3 dari ±10, keyakinan 67%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−2,03): Skor rata-rata −1,61 dari 26 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (−0,85): 5,151% (+4,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures Nasdaq-100** (+0,60): +0,30% dari penutupan sebelumnya (28.469,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Berita berbobot** (−2,00): Skor rata-rata −1,59 dari 26 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Yield obligasi 10 tahun** (−0,83): 5,149% (+4,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures Nasdaq-100** (+0,48): +0,24% dari penutupan sebelumnya (28.453,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−0,48): −0,97% dari penutupan sebelumnya (10.404,28). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (+0,38): +3,30% dalam 5 sesi; 8,4% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,61 dari 26 kejadian bernilai; 25% bobot bullish | −1,35 | 30% | −2,03 |
-| Futures Nasdaq-100 | +0,30% dari penutupan sebelumnya (28.469,75) | +0,60 | 20% | +0,60 |
-| Futures S&P 500 | +0,47% dari penutupan sebelumnya (7.651,25) | +1,17 | 5% | +0,29 |
-| Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
-| Yield obligasi 10 tahun | 5,151% (+4,8 bp dari sesi sebelumnya) | −1,70 | 10% | −0,85 |
-| VIX (volatilitas) | 18,03 (−3,6% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $96,74 (+0,96% dari sesi sebelumnya) | −0,48 | 5% | −0,12 |
-| Indeks dolar | +0,05% dari penutupan sebelumnya (103,22) | +0,12 | 5% | +0,03 |
-| Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
+| Berita berbobot | skor rata-rata −1,59 dari 26 kejadian bernilai; 26% bobot bullish | −1,33 | 30% | −2,00 |
+| Futures Nasdaq-100 | +0,24% dari penutupan sebelumnya (28.453,50) | +0,48 | 20% | +0,48 |
+| Futures S&P 500 | +0,42% dari penutupan sebelumnya (7.647,50) | +1,05 | 5% | +0,26 |
+| Semikonduktor (SOX) | −0,97% dari penutupan sebelumnya (10.404,28) | −0,97 | 10% | −0,48 |
+| Yield obligasi 10 tahun | 5,149% (+4,6 bp dari sesi sebelumnya) | −1,65 | 10% | −0,83 |
+| VIX (volatilitas) | 17,98 (−3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $96,84 (+1,06% dari sesi sebelumnya) | −0,53 | 5% | −0,13 |
+| Indeks dolar | +0,07% dari penutupan sebelumnya (103,25) | +0,18 | 5% | +0,04 |
+| Tren Nasdaq 5 sesi | +3,30% dalam 5 sesi; 8,4% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.442 (+0,30%).
+Perkiraan pembukaan dari futures: 25.427 (+0,24%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
@@ -35,11 +36,11 @@ Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 - **−1,7** Oil Futures Slide as Trump Says New Strikes on Iran Unlikely (WSJ). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,6** China could cap rare earths sales if US expands chip curbs over Nvidia: analysts (South China Morning Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,5** China warns US against imposing more chip export restrictions (NewsBytes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,2** Dollar forecast: NFP provides dollar, already supported amid tech sell-off, additional boost (FOREX.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Rates, Oil, AI Valuations and Politics: What Drives a Sharp US Sell-Off? (Longbridge). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Oil prices rise more than 1% after Trump comments on Iran (Middle East Monitor). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−0,8** Treasury Selloff Accelerates, European Bonds Follow Suit (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk (Yahoo Finance). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
+- **+0,6** Anthropic prices its IPO six days after a court filing targets frontier AI (Wealth Professional). IPO perusahaan AI memvalidasi valuasi sektor dan menarik dana ke tema AI. Namun pasokan saham baru juga menyedot likuiditas.
 
 ## Kalender risiko
 - 2026-11-13: PPI Oktober (sedang)
