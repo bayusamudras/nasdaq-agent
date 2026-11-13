@@ -1,31 +1,31 @@
-# Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-13T20:50:33+07:00 · sesi Jumat 13 Nov (pra-buka)_
+# Bias Nasdaq: BEARISH TIPIS
+_Diperbarui 2026-11-13T20:51:34+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
-Peluang indeks naik **50%**, turun **50%** (skor −1,1 dari ±10, keyakinan 63%, 56% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 64%, 56% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−1,98): Skor rata-rata −1,58 dari 27 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+0,94): +0,47% dari penutupan sebelumnya (28.519,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Yield obligasi 10 tahun** (−0,45): 5,119% (+1,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (+0,38): +0,60% dari penutupan sebelumnya (7.660,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+0,82): +0,41% dari penutupan sebelumnya (28.500,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Yield obligasi 10 tahun** (−0,50): 5,123% (+2,0 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Futures S&P 500** (+0,34): +0,55% dari penutupan sebelumnya (7.657,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,58 dari 27 kejadian bernilai; 26% bobot bullish | −1,32 | 30% | −1,98 |
-| Futures Nasdaq-100 | +0,47% dari penutupan sebelumnya (28.519,00) | +0,94 | 20% | +0,94 |
-| Futures S&P 500 | +0,60% dari penutupan sebelumnya (7.660,75) | +1,50 | 5% | +0,38 |
+| Futures Nasdaq-100 | +0,41% dari penutupan sebelumnya (28.500,50) | +0,82 | 20% | +0,82 |
+| Futures S&P 500 | +0,55% dari penutupan sebelumnya (7.657,50) | +1,38 | 5% | +0,34 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
-| Yield obligasi 10 tahun | 5,119% (+1,6 bp dari sesi sebelumnya) | −0,90 | 10% | −0,45 |
-| VIX (volatilitas) | 17,71 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | +0,50 | 10% | +0,25 |
-| Minyak Brent | $96,19 (+0,39% dari sesi sebelumnya) | −0,20 | 5% | −0,05 |
-| Indeks dolar | −0,03% dari penutupan sebelumnya (103,14) | −0,07 | 5% | −0,02 |
+| Yield obligasi 10 tahun | 5,123% (+2,0 bp dari sesi sebelumnya) | −1,00 | 10% | −0,50 |
+| VIX (volatilitas) | 17,75 (−5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | +0,50 | 10% | +0,25 |
+| Minyak Brent | $96,23 (+0,43% dari sesi sebelumnya) | −0,21 | 5% | −0,05 |
+| Indeks dolar | −0,02% dari penutupan sebelumnya (103,15) | −0,05 | 5% | −0,01 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.485 (+0,47%).
+Perkiraan pembukaan dari futures: 25.470 (+0,41%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
@@ -34,7 +34,7 @@ Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 - **+2,3** The Fed expected rate cuts this year. Now it’s bracing for another inflation fight (CNBC). Peluang pelonggaran menurunkan biaya modal dan menopang valuasi saham growth.
 - **−2,0** Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,7** China could cap rare earths sales if US expands chip curbs over Nvidia: analysts (South China Morning Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,6** China warns US against imposing more chip export restrictions (NewsBytes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,5** China warns US against imposing more chip export restrictions (NewsBytes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Rates, Oil, AI Valuations and Politics: What Drives a Sharp US Sell-Off? (Longbridge). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** US 10-Year Treasury Yield Rises 1.8 Basis Points to 5.12% Early Friday, Highest Level in More Than Three Weeks (marketscreener.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,0** Oil prices rise more than 1% after Trump comments on Iran (Middle East Monitor). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
