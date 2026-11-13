@@ -1,19 +1,19 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T10:56:17+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T10:57:17+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
-Peluang indeks naik **28%**, turun **72%** (skor −7,0 dari ±10, keyakinan 80%, 86% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **27%**, turun **73%** (skor −7,2 dari ±10, keyakinan 80%, 86% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Berita berbobot** (−2,17): Skor rata-rata −1,74 dari 25 kejadian bernilai; 14% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−2,31): Skor rata-rata −1,84 dari 25 kejadian bernilai; 12% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,74 dari 25 kejadian bernilai; 14% bobot bullish | −1,45 | 30% | −2,17 |
-| Futures Nasdaq-100 | +0,09% dari penutupan sebelumnya (28.411,25) | +0,18 | 20% | +0,18 |
-| Futures S&P 500 | +0,19% dari penutupan sebelumnya (7.629,50) | +0,47 | 5% | +0,12 |
+| Berita berbobot | skor rata-rata −1,84 dari 25 kejadian bernilai; 12% bobot bullish | −1,54 | 30% | −2,31 |
+| Futures Nasdaq-100 | +0,09% dari penutupan sebelumnya (28.408,75) | +0,18 | 20% | +0,18 |
+| Futures S&P 500 | +0,18% dari penutupan sebelumnya (7.629,00) | +0,45 | 5% | +0,11 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,70 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
