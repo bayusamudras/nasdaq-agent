@@ -1,35 +1,35 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-13T16:58:29+07:00 · sesi Jumat 13 Nov (pra-buka)_
+_Diperbarui 2026-11-13T16:59:29+07:00 · sesi Jumat 13 Nov (pra-buka)_
 
 Peluang indeks naik **24%**, turun **76%** (skor −8,3 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Berita berbobot** (−1,86): Skor rata-rata −1,49 dari 28 kejadian bernilai; 30% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−1,00): 5,103% (+10,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures Nasdaq-100** (−0,40): −0,20% dari penutupan sebelumnya (28.328,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Tren Nasdaq 5 sesi** (+0,38): +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
-- **Futures Nasdaq-100** (−0,36): −0,18% dari penutupan sebelumnya (28.334,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,49 dari 28 kejadian bernilai; 30% bobot bullish | −1,24 | 30% | −1,86 |
-| Futures Nasdaq-100 | −0,18% dari penutupan sebelumnya (28.334,50) | −0,36 | 20% | −0,36 |
-| Futures S&P 500 | +0,05% dari penutupan sebelumnya (7.619,00) | +0,12 | 5% | +0,03 |
+| Futures Nasdaq-100 | −0,20% dari penutupan sebelumnya (28.328,25) | −0,40 | 20% | −0,40 |
+| Futures S&P 500 | +0,04% dari penutupan sebelumnya (7.618,50) | +0,10 | 5% | +0,03 |
 | Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (10.506,67) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,103% (+10,5 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 18,52 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 28,55 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,90 (+0,08% dari sesi sebelumnya) | −0,04 | 5% | −0,01 |
+| Minyak Brent | $95,82 (0,00% dari sesi sebelumnya) | 0,00 | 5% | 0,00 |
 | Indeks dolar | +0,04% dari penutupan sebelumnya (103,21) | +0,10 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | +4,32% dalam 5 sesi; 8,5% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.344; resistensi 25.619 / 25.873; support 25.091 / 24.815.
-Perkiraan pembukaan dari futures: 25.320 (−0,18%).
+Perkiraan pembukaan dari futures: 25.315 (−0,20%).
 Rentang wajar 1σ (VXN): 24.910 sampai 25.822.
 
 ## Berita paling berdampak
 - **−5,5** Treasury yields rise as traders strengthen Fed rate hike bets (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−4,0** Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−3,9** Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over (Bloomberg.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,4** Silver Price Forecast: XAG/USD Rises To Near $50.50 Despite Fed Rate Hike Bets - TalkMarkets (Howl.Link). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** Oil prices rise more than 1% after Trump comments on Iran (Middle East Monitor). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+0,9** Oil Prices Rebound as Middle East Supply Risks Persist (WSJ). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
