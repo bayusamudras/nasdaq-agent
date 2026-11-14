@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-15T06:54:03+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-15T06:59:02+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,882–28,066. Liquidity sweep di bawah 27,720 lalu ditolak (5 jam lalu). Skor dipangkas dari -6.3 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,882–28,066. Liquidity sweep di bawah 27,720 lalu ditolak (5 jam lalu). Skor dipangkas dari -6.5 menjadi -2.0.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,23% dari penutupan sebelumnya (28.034,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,96): Skor rata-rata −0,77 dari 25 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Berita berbobot** (−0,83): Skor rata-rata −0,66 dari 27 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,66 dari 27 kejadian bernilai; 46% bobot bullish | −0,55 | 30% | −0,83 |
+| Berita berbobot | skor rata-rata −0,77 dari 25 kejadian bernilai; 43% bobot bullish | −0,64 | 30% | −0,96 |
 | Futures Nasdaq-100 | −1,23% dari penutupan sebelumnya (28.034,75) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −0,42% dari penutupan sebelumnya (7.583,00) | −1,05 | 5% | −0,26 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **+0,6** Rally Shaky, But Many Stocks Are Setting Up. What Should You Do? (Investor's Business Daily). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,5** Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,5** Why the AI capex cycle has now become an economic cycle (T. Rowe Price). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−0,5** Nebius Plunges Nearly 17% in a Single Day as Neocloud Stocks Take a Triple Hit From Guidance, Nvidia Leadership Change and Nscale Losses (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,5** China warns US against new chip export restrictions — CBS News (UA.NEWS). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
