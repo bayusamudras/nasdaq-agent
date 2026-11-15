@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-15T16:52:53+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-15T16:57:54+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 28,096–28,376. Harga tertahan di bullish FVG 27,952–27,961. Skor dipangkas dari -5.7 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 28,096–28,376. Harga tertahan di bullish FVG 27,952–27,961. Skor dipangkas dari -5.8 menjadi -2.0.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,23% dari penutupan sebelumnya (28.034,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Berita berbobot** (−0,66): Skor rata-rata −0,53 dari 30 kejadian bernilai; 48% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,77): Skor rata-rata −0,61 dari 29 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,53 dari 30 kejadian bernilai; 48% bobot bullish | −0,44 | 30% | −0,66 |
+| Berita berbobot | skor rata-rata −0,61 dari 29 kejadian bernilai; 45% bobot bullish | −0,51 | 30% | −0,77 |
 | Futures Nasdaq-100 | −1,23% dari penutupan sebelumnya (28.034,75) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −0,42% dari penutupan sebelumnya (7.583,00) | −1,05 | 5% | −0,26 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
@@ -32,7 +32,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
 - **−1,6** Big Tech AI Capex Up 66% in Three Years, but Free Cash Flow Plunges 84% — Hyundai Research Institute Warns of 2028 Correction (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−1,3** Tom Lee Points to AI Stock Slide, Anthropic IPO and Binance Fallout as Crypto Selloff Drivers (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** Tom Lee Points to AI Stock Slide, Anthropic IPO and Binance Fallout as Crypto Selloff Drivers (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,2** Earnings Beat Could Be A Big Moment For Quanta Services Stock (PWR) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Dollar forecast: NFP provides dollar, already supported amid tech sell-off, additional boost (FOREX.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Tom Lee: Crypto Market Pressure May Be Linked to AI Stock Selloffs, Anthropic IPO Funding and Hack-Related Fund Releases (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
