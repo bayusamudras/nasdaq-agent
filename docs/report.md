@@ -1,19 +1,19 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T01:35:44+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-16T01:40:44+07:00 · sesi Senin 16 Nov (pra-buka)_
 
-Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,23% dari penutupan sebelumnya (28.034,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Berita berbobot** (−0,54): Skor rata-rata −0,43 dari 24 kejadian bernilai; 49% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,63): Skor rata-rata −0,50 dari 23 kejadian bernilai; 47% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,43 dari 24 kejadian bernilai; 49% bobot bullish | −0,36 | 30% | −0,54 |
+| Berita berbobot | skor rata-rata −0,50 dari 23 kejadian bernilai; 47% bobot bullish | −0,42 | 30% | −0,63 |
 | Futures Nasdaq-100 | −1,23% dari penutupan sebelumnya (28.034,75) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −0,42% dari penutupan sebelumnya (7.583,00) | −1,05 | 5% | −0,26 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
@@ -29,7 +29,7 @@ Perkiraan pembukaan dari futures: 24.827 (−1,23%).
 Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
-- **−1,5** Is the AI Infrastructure Bubble Bursting? $4.2 Trillion Wiped Off Data Center Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,4** Is the AI Infrastructure Bubble Bursting? $4.2 Trillion Wiped Off Data Center Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** These 3 Dividend Stocks Just Reported Strong Earnings. Here's the One I'm Buying Now. (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Technology Stocks Remain Central to S&P 500 Performance Despite AI-Related Sell-Off (Yahoo Finance UK). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -37,10 +37,10 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **−0,8** Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump (FXEmpire). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−0,7** Tom Lee Points to AI Stock Slide, Anthropic IPO and Binance Fallout as Crypto Selloff Drivers (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,7** Earnings Beat Could Be A Big Moment For Quanta Services Stock (PWR) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−0,7** What might come first: a stock market crash or boom? (The Twelfth Magpie). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,6** What might come first: a stock market crash or boom? (The Twelfth Magpie). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,6** Dollar forecast: NFP provides dollar, already supported amid tech sell-off, additional boost (FOREX.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,6** Tom Lee Reveals Three Possible Reasons Behind Crypto Market Crash (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,6** Is Interactive Brokers (IBKR) Stock a Buy After a 71% Dividend Increase? (The Motley Fool). Buyback mengurangi jumlah saham beredar dan menopang laba per saham. Stock split memperluas basis investor ritel.
+- **−0,6** Tom Lee: Crypto Market Pressure May Be Linked to AI Stock Selloffs, Anthropic IPO Funding and Hack-Related Fund Releases (Binance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
