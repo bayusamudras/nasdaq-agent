@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-15T09:40:01+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-15T09:45:09+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 28,096–28,376. Liquidity sweep di bawah 27,720 lalu ditolak (5 jam lalu). Skor dipangkas dari -6.6 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 28,096–28,376. Liquidity sweep di bawah 27,720 lalu ditolak (5 jam lalu). Skor dipangkas dari -6.5 menjadi -2.0.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,23% dari penutupan sebelumnya (28.034,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Berita berbobot** (−0,68): Skor rata-rata −0,54 dari 23 kejadian bernilai; 47% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,60): Skor rata-rata −0,48 dari 23 kejadian bernilai; 48% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,54 dari 23 kejadian bernilai; 47% bobot bullish | −0,45 | 30% | −0,68 |
+| Berita berbobot | skor rata-rata −0,48 dari 23 kejadian bernilai; 48% bobot bullish | −0,40 | 30% | −0,60 |
 | Futures Nasdaq-100 | −1,23% dari penutupan sebelumnya (28.034,75) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −0,42% dari penutupan sebelumnya (7.583,00) | −1,05 | 5% | −0,26 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
@@ -34,6 +34,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **−0,9** Dollar forecast: NFP provides dollar, already supported amid tech sell-off, additional boost (FOREX.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Fed likely to wait on another rate hike as inflation pressures mount (The National Desk). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+0,7** NVIDIA Q1 FY2027: Revenue $81.6B Beat, Data Center +92%, but August 26 Guidance Test Will Prove Sustainability (TradingKey). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+0,6** Cisco Stock After Earnings Beat Has The Bull Case Changed? (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+0,6** Nvidia earnings, Anthropic IPO and US-China summit to test rebound hopes (Chosunbiz). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,6** Rally Shaky, But Many Stocks Are Setting Up. What Should You Do? (Investor's Business Daily). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,6** Fed's Collins says gradual rate hikes best to manage economic risks (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -42,7 +43,6 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **−0,6** Is the US Stock Selloff Over? Wall Street Debates AI Bubble as S&P 500, Chip Stocks Diverge for 2027 (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,5** A Larger-Than-Normal Fed Rate Hike in December Now Looks More Likely. Here's Why. (The Motley Fool). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,5** Nvidia Scandal Deals Blow to Trump’s Tariff Strategy (Newsweek). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,4** Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
