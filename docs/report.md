@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T06:02:33+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-16T06:07:32+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −1,23% dari penutupan sebelumnya (28.034,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,25): Skor rata-rata −0,99 dari 19 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,32): Skor rata-rata −1,06 dari 21 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
@@ -15,7 +15,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,99 dari 19 kejadian bernilai; 32% bobot bullish | −0,83 | 30% | −1,25 |
+| Berita berbobot | skor rata-rata −1,06 dari 21 kejadian bernilai; 31% bobot bullish | −0,88 | 30% | −1,32 |
 | Futures Nasdaq-100 | −1,23% dari penutupan sebelumnya (28.034,75) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −0,42% dari penutupan sebelumnya (7.583,00) | −1,05 | 5% | −0,26 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
@@ -32,17 +32,17 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
 - **−1,6** Nvidia CEO Jensen Huang Resigns as Stock Tanks. Here Are the Next Steps for Investors. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,1** Earnings Beat Could Be A Big Moment For Onto Innovation Stock (ONTO) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,2** Earnings Beat Could Be A Big Moment For Onto Innovation Stock (ONTO) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **−1,1** Is the AI Infrastructure Bubble Bursting? $4.2 Trillion Wiped Off Data Center Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump (FXEmpire). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−0,8** History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,8** Tom Lee cites three possible reasons behind crypto selloff: Huang, Anthropic, Binance (디지털투데이). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,7** Tom Lee cites three possible reasons behind crypto selloff: Huang, Anthropic, Binance (디지털투데이). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Warren Buffett stock market warning: What history reveals about crashes (Beinsure). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,6** Big Tech AI Capex Up 66% in Three Years, but Free Cash Flow Plunges 84% — Hyundai Research Institute Warns of 2028 Correction (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−0,6** Trump to Stay Silent on 'Jensen Huang Scandal' at U.S.-China Summit; Semiconductor Curbs Off the Table (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,5** Tom Lee Points to AI Stock Slide, Anthropic IPO and Binance Fallout as Crypto Selloff Drivers (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,5** What might come first: a stock market crash or boom? (The Twelfth Magpie). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,5** Tom Lee reveals 5 reasons behind crypto crash, says supercycle is not over (Crypto News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,5** Dollar forecast: NFP provides dollar, already supported amid tech sell-off, additional boost (FOREX.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
