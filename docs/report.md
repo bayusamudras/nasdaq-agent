@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-16T19:34:36+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-16T19:35:36+07:00 · sesi Senin 16 Nov (pra-buka)_
 
-Peluang indeks naik **30%**, turun **70%** (skor −6,3 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **30%**, turun **70%** (skor −6,2 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,49% dari penutupan sebelumnya (27.617,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,50% dari penutupan sebelumnya (27.614,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Berita berbobot** (−0,61): Skor rata-rata −0,50 dari 31 kejadian bernilai; 47% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,44): −0,70% dari penutupan sebelumnya (7.529,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,44): −0,71% dari penutupan sebelumnya (7.529,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,50 dari 31 kejadian bernilai; 47% bobot bullish | −0,41 | 30% | −0,61 |
-| Futures Nasdaq-100 | −1,49% dari penutupan sebelumnya (27.617,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,70% dari penutupan sebelumnya (7.529,75) | −1,75 | 5% | −0,44 |
+| Futures Nasdaq-100 | −1,50% dari penutupan sebelumnya (27.614,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,71% dari penutupan sebelumnya (7.529,50) | −1,77 | 5% | −0,44 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,154% (+5,1 bp dari sesi sebelumnya) | −1,77 | 10% | −0,89 |
-| VIX (volatilitas) | 20,54 (+6,4% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $94,83 (−1,05% dari sesi sebelumnya) | +0,53 | 5% | +0,13 |
+| VIX (volatilitas) | 20,63 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $94,80 (−1,09% dari sesi sebelumnya) | +0,55 | 5% | +0,14 |
 | Indeks dolar | +0,04% dari penutupan sebelumnya (103,45) | +0,10 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 24.762 (−1,49%).
+Perkiraan pembukaan dari futures: 24.759 (−1,50%).
 Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
@@ -37,7 +37,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **+1,2** Treasury yields fall as investors await comments from Fed Chairman Warsh (CNBC). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,2** Silver Falls Below $50: Hawkish Fed Bets, Rising Yields And Dollar Trigger Fresh Selloff (TradingView). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,1** Anthropic’s IPO, OpenAI’s Losses, Nvidia’s Earnings: Why Jensen Huang May Still Beat Them All to the Headlines (CXOToday.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,1** Japan's Nikkei Stock Average falls back as semiconductor shares slump; investors cautious ahead of Nvidia earnings (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** Japan's Nikkei Stock Average falls back as semiconductor shares slump; investors cautious ahead of Nvidia earnings (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** KOSPI and KOSDAQ Plunge Over 3% Amid Semiconductor Stock Weakness (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** [Closing Market] KOSPI Plunges 3.6%, Barely Holding 5,100 Range (Businesskorea). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** KOSPI Plunges 3% on Nvidia Risk; Foreigners Net Sell 852 Billion Won (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
