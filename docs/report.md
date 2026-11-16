@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T21:55:36+07:00 · sesi Senin 16 Nov (berjalan)_
+_Diperbarui 2026-11-16T21:56:46+07:00 · sesi Senin 16 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,711–27,734. Liquidity sweep di bawah 27,554 lalu ditolak (1 jam lalu). Skor dipangkas dari -5.2 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,711–27,734. Liquidity sweep di bawah 27,554 lalu ditolak (1 jam lalu). Skor dipangkas dari -5.3 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,27% dari penutupan sebelumnya (27.679,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −4,17% dari penutupan sebelumnya (9.723,62). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,53): Skor rata-rata −0,43 dari 35 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Tren Nasdaq 5 sesi** (−0,44): −1,90% dalam 5 sesi; 10,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures S&P 500** (−0,41): −0,66% dari penutupan sebelumnya (7.532,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,37% dari penutupan sebelumnya (27.652,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −4,14% dari penutupan sebelumnya (9.726,17). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,56): Skor rata-rata −0,45 dari 33 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (−0,47): −0,75% dari penutupan sebelumnya (7.525,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,43): −1,85% dalam 5 sesi; 10,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,43 dari 35 kejadian bernilai; 46% bobot bullish | −0,35 | 30% | −0,53 |
-| Futures Nasdaq-100 | −1,27% dari penutupan sebelumnya (27.679,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,66% dari penutupan sebelumnya (7.532,75) | −1,65 | 5% | −0,41 |
-| Semikonduktor (SOX) | −4,17% dari penutupan sebelumnya (9.723,62) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,129% (−2,5 bp dari sesi sebelumnya) | +0,05 | 10% | +0,03 |
-| VIX (volatilitas) | 21,01 (+8,9% dari sesi sebelumnya); VXN (Nasdaq-100) 31,53 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $93,65 (−2,29% dari sesi sebelumnya) | +1,15 | 5% | +0,29 |
-| Indeks dolar | +0,09% dari penutupan sebelumnya (103,50) | +0,22 | 5% | +0,06 |
-| Tren Nasdaq 5 sesi | −1,90% dalam 5 sesi; 10,6% di bawah puncak 52 minggu | −1,77 | 5% | −0,44 |
+| Berita berbobot | skor rata-rata −0,45 dari 33 kejadian bernilai; 46% bobot bullish | −0,37 | 30% | −0,56 |
+| Futures Nasdaq-100 | −1,37% dari penutupan sebelumnya (27.652,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,75% dari penutupan sebelumnya (7.525,75) | −1,88 | 5% | −0,47 |
+| Semikonduktor (SOX) | −4,14% dari penutupan sebelumnya (9.726,17) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,127% (−2,7 bp dari sesi sebelumnya) | +0,07 | 10% | +0,04 |
+| VIX (volatilitas) | 21,16 (+9,6% dari sesi sebelumnya); VXN (Nasdaq-100) 31,01 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $93,64 (−2,30% dari sesi sebelumnya) | +1,15 | 5% | +0,29 |
+| Indeks dolar | +0,08% dari penutupan sebelumnya (103,50) | +0,20 | 5% | +0,05 |
+| Tren Nasdaq 5 sesi | −1,85% dalam 5 sesi; 10,6% di bawah puncak 52 minggu | −1,73 | 5% | −0,43 |
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 24.817 (−1,27%).
-Rentang wajar 1σ (VXN): 24.637 sampai 25.636.
+Perkiraan pembukaan dari futures: 24.792 (−1,37%).
+Rentang wajar 1σ (VXN): 24.645 sampai 25.627.
 
 ## Berita paling berdampak
 - **−1,6** Stock Market Today: Jensen Huang Eyes a Comeback as Nvidia Closes Its Worst Week Since April 2025 (ChartMill). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
