@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T09:34:51+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-16T09:36:08+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 80%, 86% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -13,12 +13,12 @@ Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 80%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,81 dari 25 kejadian bernilai; 39% bobot bullish | −0,68 | 30% | −1,02 |
-| Futures Nasdaq-100 | +0,03% dari penutupan sebelumnya (28.043,75) | +0,06 | 20% | +0,06 |
-| Futures S&P 500 | +0,05% dari penutupan sebelumnya (7.586,50) | +0,12 | 5% | +0,03 |
+| Futures Nasdaq-100 | +0,03% dari penutupan sebelumnya (28.043,00) | +0,06 | 20% | +0,06 |
+| Futures S&P 500 | +0,03% dari penutupan sebelumnya (7.585,25) | +0,07 | 5% | +0,02 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,154% (+5,1 bp dari sesi sebelumnya) | −1,77 | 10% | −0,89 |
 | VIX (volatilitas) | 19,30 (+3,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,15 (−0,72% dari sesi sebelumnya) | +0,36 | 5% | +0,09 |
+| Minyak Brent | $95,20 (−0,67% dari sesi sebelumnya) | +0,34 | 5% | +0,09 |
 | Indeks dolar | +0,03% dari penutupan sebelumnya (103,44) | +0,07 | 5% | +0,02 |
 | Tren Nasdaq 5 sesi | +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
@@ -34,7 +34,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **+0,8** Earnings Beat Could Be A Big Moment For Onto Innovation Stock (ONTO) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,8** Is the AI Infrastructure Bubble Bursting? $4.2 Trillion Wiped Off Data Center Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Today’s Key Economic and Crypto Events: Kevin Warsh Speech, Japan Q3 GDP, ENJ Upgrade (bloomingbit). Kenaikan peringkat menarik arus dana institusi ke saham itu. Dampak ke indeks kecil kecuali emitennya mega-cap.
-- **−0,8** Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump (FXEmpire). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−0,7** Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump (FXEmpire). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+0,6** Consumer Defensive Stocks Extend Winning Streak To 6 Weeks As SPY, QQQ Rebound: TTD, CHTR, TSLA Lead Gains (TradingView). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,6** Tom Lee cites three possible reasons behind crypto selloff: Huang, Anthropic, Binance (디지털투데이). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,6** Warren Buffett stock market warning: What history reveals about crashes (Beinsure). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
