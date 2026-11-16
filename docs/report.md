@@ -1,37 +1,38 @@
-# Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T08:05:16+07:00 · sesi Senin 16 Nov (pra-buka)_
+# Bias Nasdaq: NETRAL
+_Diperbarui 2026-11-16T08:06:16+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **48%**, turun **52%** (skor −1,5 dari ±10, keyakinan 67%, 63% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
+- **Futures Nasdaq-100** (+1,04): +0,52% dari penutupan sebelumnya (28.180,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures Nasdaq-100** (+0,96): +0,48% dari penutupan sebelumnya (28.169,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−0,94): Skor rata-rata −0,76 dari 23 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−0,99): Skor rata-rata −0,79 dari 25 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,76 dari 23 kejadian bernilai; 40% bobot bullish | −0,63 | 30% | −0,94 |
-| Futures Nasdaq-100 | +0,48% dari penutupan sebelumnya (28.169,00) | +0,96 | 20% | +0,96 |
-| Futures S&P 500 | +0,23% dari penutupan sebelumnya (7.600,25) | +0,57 | 5% | +0,14 |
+| Berita berbobot | skor rata-rata −0,79 dari 25 kejadian bernilai; 40% bobot bullish | −0,66 | 30% | −0,99 |
+| Futures Nasdaq-100 | +0,52% dari penutupan sebelumnya (28.180,50) | +1,04 | 20% | +1,04 |
+| Futures S&P 500 | +0,24% dari penutupan sebelumnya (7.601,25) | +0,60 | 5% | +0,15 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,154% (+5,1 bp dari sesi sebelumnya) | −1,77 | 10% | −0,89 |
 | VIX (volatilitas) | 19,30 (+3,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,27 (−0,59% dari sesi sebelumnya) | +0,29 | 5% | +0,07 |
-| Indeks dolar | +0,01% dari penutupan sebelumnya (103,42) | +0,02 | 5% | +0,01 |
+| Minyak Brent | $95,25 (−0,62% dari sesi sebelumnya) | +0,31 | 5% | +0,08 |
+| Indeks dolar | 0,00% dari penutupan sebelumnya (103,41) | 0,00 | 5% | 0,00 |
 | Tren Nasdaq 5 sesi | +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 25.257 (+0,48%).
+Perkiraan pembukaan dari futures: 25.267 (+0,52%).
 Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
 - **−1,8** Today’s Market Recap: Nasdaq Falls Nearly 1%, Nvidia Drops Over 2%, AMD Slumps Over 8%; SpaceX Starship Completes First Orbital Return Catch (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** U.S., Eurozone Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+0,9** Earnings Beat Could Be A Big Moment For Onto Innovation Stock (ONTO) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **−0,9** Is the AI Infrastructure Bubble Bursting? $4.2 Trillion Wiped Off Data Center Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Today’s Key Economic and Crypto Events: Kevin Warsh Speech, Japan Q3 GDP, ENJ Upgrade (bloomingbit). Kenaikan peringkat menarik arus dana institusi ke saham itu. Dampak ke indeks kecil kecuali emitennya mega-cap.
 - **−0,8** Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump (FXEmpire). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−0,7** History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -40,7 +41,6 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **+0,6** KOSPI, which is seeking a rebound after overcoming its recent sharp decline, is expected to try to r.. (매일경제). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,6** Big Tech AI Capex Up 66% in Three Years, but Free Cash Flow Plunges 84% — Hyundai Research Institute Warns of 2028 Correction (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−0,5** Trump to Stay Silent on 'Jensen Huang Scandal' at U.S.-China Summit; Semiconductor Curbs Off the Table (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,4** Tom Lee Points to AI Stock Slide, Anthropic IPO and Binance Fallout as Crypto Selloff Drivers (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
