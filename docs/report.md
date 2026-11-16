@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-17T01:04:00+07:00 · sesi Senin 16 Nov (berjalan)_
+_Diperbarui 2026-11-17T01:05:00+07:00 · sesi Senin 16 Nov (berjalan)_
 
-Peluang indeks naik **28%**, turun **72%** (skor −6,9 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **28%**, turun **72%** (skor −6,8 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,10% dari penutupan sebelumnya (27.446,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,86): Skor rata-rata −1,49 dari 38 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −4,60% dari penutupan sebelumnya (9.679,17). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −1,42% dari penutupan sebelumnya (7.475,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **VIX (volatilitas)** (−0,50): 21,84 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 32,10. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (−2,00): −2,16% dari penutupan sebelumnya (27.429,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,83): Skor rata-rata −1,46 dari 38 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (−1,00): −4,68% dari penutupan sebelumnya (9.671,09). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,45% dari penutupan sebelumnya (7.472,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **VIX (volatilitas)** (−0,50): 21,81 (+13,0% dari sesi sebelumnya); VXN (Nasdaq-100) 32,09. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,49 dari 38 kejadian bernilai; 28% bobot bullish | −1,24 | 30% | −1,86 |
-| Futures Nasdaq-100 | −2,10% dari penutupan sebelumnya (27.446,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,42% dari penutupan sebelumnya (7.475,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −4,60% dari penutupan sebelumnya (9.679,17) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,133% (−2,1 bp dari sesi sebelumnya) | +0,01 | 10% | +0,01 |
-| VIX (volatilitas) | 21,84 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 32,10 | −1,00 | 10% | −0,50 |
-| Minyak Brent | $93,08 (−2,88% dari sesi sebelumnya) | +1,44 | 5% | +0,36 |
+| Berita berbobot | skor rata-rata −1,46 dari 38 kejadian bernilai; 27% bobot bullish | −1,22 | 30% | −1,83 |
+| Futures Nasdaq-100 | −2,16% dari penutupan sebelumnya (27.429,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,45% dari penutupan sebelumnya (7.472,75) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −4,68% dari penutupan sebelumnya (9.671,09) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,135% (−1,9 bp dari sesi sebelumnya) | −0,03 | 10% | −0,01 |
+| VIX (volatilitas) | 21,81 (+13,0% dari sesi sebelumnya); VXN (Nasdaq-100) 32,09 | −1,00 | 10% | −0,50 |
+| Minyak Brent | $93,09 (−2,87% dari sesi sebelumnya) | +1,44 | 5% | +0,36 |
 | Indeks dolar | +0,14% dari penutupan sebelumnya (103,55) | +0,35 | 5% | +0,09 |
-| Tren Nasdaq 5 sesi | −2,62% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −2,66% dalam 5 sesi; 11,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 24.608 (−2,10%).
-Rentang wajar 1σ (VXN): 24.628 sampai 25.645.
+Perkiraan pembukaan dari futures: 24.593 (−2,16%).
+Rentang wajar 1σ (VXN): 24.628 sampai 25.644.
 
 ## Berita paling berdampak
 - **−3,1** Live Take | Semiconductor Index Plunges 5% as AI Capex Forecasts Slashed. More Pain Ahead? (Moomoo). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
