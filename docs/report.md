@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T23:05:15+07:00 · sesi Senin 16 Nov (berjalan)_
+_Diperbarui 2026-11-16T23:06:14+07:00 · sesi Senin 16 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,711–27,734. Liquidity sweep di bawah 27,486 lalu ditolak (1 jam lalu). Skor dipangkas dari -7.0 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,66% dari penutupan sebelumnya (27.569,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,71% dari penutupan sebelumnya (27.555,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Berita berbobot** (−1,77): Skor rata-rata −1,42 dari 40 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −4,38% dari penutupan sebelumnya (9.701,51). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −0,92% dari penutupan sebelumnya (7.513,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,47): −2,09% dalam 5 sesi; 10,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Semikonduktor (SOX)** (−1,00): −4,36% dari penutupan sebelumnya (9.703,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −0,97% dari penutupan sebelumnya (7.509,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,47): −2,06% dalam 5 sesi; 10,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,42 dari 40 kejadian bernilai; 28% bobot bullish | −1,18 | 30% | −1,77 |
-| Futures Nasdaq-100 | −1,66% dari penutupan sebelumnya (27.569,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,92% dari penutupan sebelumnya (7.513,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −4,38% dari penutupan sebelumnya (9.701,51) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,131% (−2,3 bp dari sesi sebelumnya) | +0,03 | 10% | +0,01 |
-| VIX (volatilitas) | 21,04 (+9,0% dari sesi sebelumnya); VXN (Nasdaq-100) 31,75 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $93,66 (−2,27% dari sesi sebelumnya) | +1,14 | 5% | +0,28 |
-| Indeks dolar | +0,14% dari penutupan sebelumnya (103,55) | +0,35 | 5% | +0,09 |
-| Tren Nasdaq 5 sesi | −2,09% dalam 5 sesi; 10,8% di bawah puncak 52 minggu | −1,89 | 5% | −0,47 |
+| Futures Nasdaq-100 | −1,71% dari penutupan sebelumnya (27.555,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,97% dari penutupan sebelumnya (7.509,75) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −4,36% dari penutupan sebelumnya (9.703,59) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,129% (−2,5 bp dari sesi sebelumnya) | +0,05 | 10% | +0,03 |
+| VIX (volatilitas) | 20,92 (+8,4% dari sesi sebelumnya); VXN (Nasdaq-100) 31,49 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $93,70 (−2,23% dari sesi sebelumnya) | +1,11 | 5% | +0,28 |
+| Indeks dolar | +0,13% dari penutupan sebelumnya (103,55) | +0,33 | 5% | +0,08 |
+| Tren Nasdaq 5 sesi | −2,06% dalam 5 sesi; 10,8% di bawah puncak 52 minggu | −1,87 | 5% | −0,47 |
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 24.719 (−1,66%).
-Rentang wajar 1σ (VXN): 24.634 sampai 25.639.
+Perkiraan pembukaan dari futures: 24.706 (−1,71%).
+Rentang wajar 1σ (VXN): 24.638 sampai 25.635.
 
 ## Berita paling berdampak
 - **−3,6** Live Take | Semiconductor Index Plunges 5% as AI Capex Forecasts Slashed. More Pain Ahead? (Moomoo). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
