@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T21:58:45+07:00 · sesi Senin 16 Nov (berjalan)_
+_Diperbarui 2026-11-16T21:59:45+07:00 · sesi Senin 16 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 27,711–27,734. Liquidity sweep di bawah 27,554 lalu ditolak (1 jam lalu). Skor dipangkas dari -5.4 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,57% dari penutupan sebelumnya (27.595,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −3,85% dari penutupan sebelumnya (9.755,91). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−2,00): −1,38% dari penutupan sebelumnya (27.648,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −4,17% dari penutupan sebelumnya (9.723,33). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,57): Skor rata-rata −0,45 dari 35 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −0,87% dari penutupan sebelumnya (7.517,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,44): −1,89% dalam 5 sesi; 10,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (−0,47): −0,75% dari penutupan sebelumnya (7.525,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,46): −2,02% dalam 5 sesi; 10,7% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,45 dari 35 kejadian bernilai; 44% bobot bullish | −0,38 | 30% | −0,57 |
-| Futures Nasdaq-100 | −1,57% dari penutupan sebelumnya (27.595,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,87% dari penutupan sebelumnya (7.517,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −3,85% dari penutupan sebelumnya (9.755,91) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,133% (−2,1 bp dari sesi sebelumnya) | +0,01 | 10% | +0,01 |
-| VIX (volatilitas) | 20,58 (+6,6% dari sesi sebelumnya); VXN (Nasdaq-100) 31,29 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $93,57 (−2,37% dari sesi sebelumnya) | +1,19 | 5% | +0,30 |
-| Indeks dolar | +0,07% dari penutupan sebelumnya (103,48) | +0,18 | 5% | +0,04 |
-| Tren Nasdaq 5 sesi | −1,89% dalam 5 sesi; 10,6% di bawah puncak 52 minggu | −1,76 | 5% | −0,44 |
+| Futures Nasdaq-100 | −1,38% dari penutupan sebelumnya (27.648,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,75% dari penutupan sebelumnya (7.525,75) | −1,88 | 5% | −0,47 |
+| Semikonduktor (SOX) | −4,17% dari penutupan sebelumnya (9.723,33) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,137% (−1,7 bp dari sesi sebelumnya) | −0,08 | 10% | −0,04 |
+| VIX (volatilitas) | 20,50 (+6,2% dari sesi sebelumnya); VXN (Nasdaq-100) 31,20 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $93,58 (−2,36% dari sesi sebelumnya) | +1,18 | 5% | +0,29 |
+| Indeks dolar | +0,07% dari penutupan sebelumnya (103,49) | +0,18 | 5% | +0,04 |
+| Tren Nasdaq 5 sesi | −2,02% dalam 5 sesi; 10,7% di bawah puncak 52 minggu | −1,85 | 5% | −0,46 |
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 24.742 (−1,57%).
-Rentang wajar 1σ (VXN): 24.641 sampai 25.632.
+Perkiraan pembukaan dari futures: 24.789 (−1,38%).
+Rentang wajar 1σ (VXN): 24.642 sampai 25.630.
 
 ## Berita paling berdampak
 - **−1,6** Stock Market Today: Jensen Huang Eyes a Comeback as Nvidia Closes Its Worst Week Since April 2025 (ChartMill). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
