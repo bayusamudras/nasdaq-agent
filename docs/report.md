@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T10:10:23+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-16T10:11:23+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -8,13 +8,14 @@ Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 80%
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
+- **Futures Nasdaq-100** (−0,30): −0,15% dari penutupan sebelumnya (27.994,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,36 dari 25 kejadian bernilai; 25% bobot bullish | −1,13 | 30% | −1,69 |
-| Futures Nasdaq-100 | −0,13% dari penutupan sebelumnya (27.998,25) | −0,26 | 20% | −0,26 |
-| Futures S&P 500 | −0,03% dari penutupan sebelumnya (7.581,00) | −0,07 | 5% | −0,02 |
+| Futures Nasdaq-100 | −0,15% dari penutupan sebelumnya (27.994,00) | −0,30 | 20% | −0,30 |
+| Futures S&P 500 | −0,06% dari penutupan sebelumnya (7.578,75) | −0,15 | 5% | −0,04 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,154% (+5,1 bp dari sesi sebelumnya) | −1,77 | 10% | −0,89 |
 | VIX (volatilitas) | 19,30 (+3,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
@@ -24,7 +25,7 @@ Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 80%
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 25.104 (−0,13%).
+Perkiraan pembukaan dari futures: 25.099 (−0,15%).
 Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
