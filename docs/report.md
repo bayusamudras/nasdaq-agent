@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T18:46:27+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-16T18:47:27+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 78%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 27,770–27,774. Skor dipangkas dari -6.6 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 27,770–27,774. Skor dipangkas dari -6.7 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,64): −0,82% dari penutupan sebelumnya (27.806,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,72): −0,86% dari penutupan sebelumnya (27.793,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Berita berbobot** (−0,80): Skor rata-rata −0,64 dari 32 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
@@ -16,18 +16,18 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 78%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,64 dari 32 kejadian bernilai; 45% bobot bullish | −0,53 | 30% | −0,80 |
-| Futures Nasdaq-100 | −0,82% dari penutupan sebelumnya (27.806,00) | −1,64 | 20% | −1,64 |
-| Futures S&P 500 | −0,30% dari penutupan sebelumnya (7.560,25) | −0,75 | 5% | −0,19 |
+| Futures Nasdaq-100 | −0,86% dari penutupan sebelumnya (27.793,25) | −1,72 | 20% | −1,72 |
+| Futures S&P 500 | −0,33% dari penutupan sebelumnya (7.558,25) | −0,82 | 5% | −0,20 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,154% (+5,1 bp dari sesi sebelumnya) | −1,77 | 10% | −0,89 |
-| VIX (volatilitas) | 19,97 (+3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $95,22 (−0,65% dari sesi sebelumnya) | +0,33 | 5% | +0,08 |
-| Indeks dolar | +0,11% dari penutupan sebelumnya (103,52) | +0,27 | 5% | +0,07 |
+| VIX (volatilitas) | 19,96 (+3,4% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $95,14 (−0,73% dari sesi sebelumnya) | +0,36 | 5% | +0,09 |
+| Indeks dolar | +0,10% dari penutupan sebelumnya (103,52) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 24.930 (−0,82%).
+Perkiraan pembukaan dari futures: 24.920 (−0,86%).
 Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **−1,1** KOSPI and KOSDAQ Plunge Over 3% Amid Semiconductor Stock Weakness (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** [Closing Market] KOSPI Plunges 3.6%, Barely Holding 5,100 Range (Businesskorea). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** KOSPI Plunges 3% on Nvidia Risk; Foreigners Net Sell 852 Billion Won (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** Today’s Market Recap: Nasdaq Falls Nearly 1%, Nvidia Drops Over 2%, AMD Slumps Over 8%; SpaceX Starship Completes First Orbital Return Catch (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,8** Today’s Market Recap: Nasdaq Falls Nearly 1%, Nvidia Drops Over 2%, AMD Slumps Over 8%; SpaceX Starship Completes First Orbital Return Catch (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
