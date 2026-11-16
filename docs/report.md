@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-16T17:55:10+07:00 · sesi Senin 16 Nov (pra-buka)_
+_Diperbarui 2026-11-16T17:56:10+07:00 · sesi Senin 16 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -17,7 +17,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 80%
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,17 dari 29 kejadian bernilai; 31% bobot bullish | −0,97 | 30% | −1,45 |
 | Futures Nasdaq-100 | −1,00% dari penutupan sebelumnya (27.755,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,37% dari penutupan sebelumnya (7.555,00) | −0,92 | 5% | −0,23 |
+| Futures S&P 500 | −0,36% dari penutupan sebelumnya (7.555,50) | −0,90 | 5% | −0,22 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,154% (+5,1 bp dari sesi sebelumnya) | −1,77 | 10% | −0,89 |
 | VIX (volatilitas) | 19,98 (+3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
@@ -31,7 +31,7 @@ Perkiraan pembukaan dari futures: 24.885 (−1,00%).
 Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
-- **−2,3** Asian chip stocks tumble ahead of Nvidia Q3 earnings (Cryptonews.net). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−2,2** Asian chip stocks tumble ahead of Nvidia Q3 earnings (Cryptonews.net). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,9** Morning Bid: AI selloff resumes as Nvidia earnings loom (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** TSMC (NYSE:TSM) Stock in Focus as Taiwan Market Plunges 6% Ahead of Nvidia Earnings (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Nasdaq futures fall nearly 1% as Taiwan's chip rout deepens before Nvidia results, while European futures edge up (MLQ.ai). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
