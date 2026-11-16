@@ -1,11 +1,11 @@
-# Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-16T07:15:56+07:00 · sesi Senin 16 Nov (pra-buka)_
+# Bias Nasdaq: BEARISH TIPIS
+_Diperbarui 2026-11-16T07:16:56+07:00 · sesi Senin 16 Nov (pra-buka)_
 
-Peluang indeks naik **49%**, turun **51%** (skor −1,2 dari ±10, keyakinan 68%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 70%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,46): +0,73% dari penutupan sebelumnya (28.239,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,17): Skor rata-rata −0,94 dari 26 kejadian bernilai; 37% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+1,36): +0,68% dari penutupan sebelumnya (28.225,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,05): Skor rata-rata −0,84 dari 25 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,89): 5,154% (+5,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
@@ -13,9 +13,9 @@ Peluang indeks naik **49%**, turun **51%** (skor −1,2 dari ±10, keyakinan 68%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,94 dari 26 kejadian bernilai; 37% bobot bullish | −0,78 | 30% | −1,17 |
-| Futures Nasdaq-100 | +0,73% dari penutupan sebelumnya (28.239,50) | +1,46 | 20% | +1,46 |
-| Futures S&P 500 | +0,36% dari penutupan sebelumnya (7.610,00) | +0,90 | 5% | +0,22 |
+| Berita berbobot | skor rata-rata −0,84 dari 25 kejadian bernilai; 38% bobot bullish | −0,70 | 30% | −1,05 |
+| Futures Nasdaq-100 | +0,68% dari penutupan sebelumnya (28.225,00) | +1,36 | 20% | +1,36 |
+| Futures S&P 500 | +0,34% dari penutupan sebelumnya (7.608,75) | +0,85 | 5% | +0,21 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,154% (+5,1 bp dari sesi sebelumnya) | −1,77 | 10% | −0,89 |
 | VIX (volatilitas) | 19,30 (+3,2% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
@@ -25,7 +25,7 @@ Peluang indeks naik **49%**, turun **51%** (skor −1,2 dari ±10, keyakinan 68%
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 25.320 (+0,73%).
+Perkiraan pembukaan dari futures: 25.307 (+0,68%).
 Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
@@ -33,9 +33,9 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **−1,3** U.S., Eurozone Bond Yields Rise (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,0** Earnings Beat Could Be A Big Moment For Onto Innovation Stock (ONTO) (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** Is the AI Infrastructure Bubble Bursting? $4.2 Trillion Wiped Off Data Center Stocks (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** Fed rate hikes could stretch into 2027 as darker threats loom (TheStreet). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,0** Today’s Key Economic and Crypto Events: Kevin Warsh Speech, Japan Q3 GDP, ENJ Upgrade (bloomingbit). Kenaikan peringkat menarik arus dana institusi ke saham itu. Dampak ke indeks kecil kecuali emitennya mega-cap.
 - **−0,8** Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump (FXEmpire). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−0,8** Gold slumps 4.5% to $3,883 as dollar, bond yields climb (Kuwait Times). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−0,7** History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Tom Lee cites three possible reasons behind crypto selloff: Huang, Anthropic, Binance (디지털투데이). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Warren Buffett stock market warning: What history reveals about crashes (Beinsure). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
