@@ -1,35 +1,36 @@
-# Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-16T21:01:12+07:00 · sesi Senin 16 Nov (pra-buka)_
+# Bias Nasdaq: BEARISH TIPIS
+_Diperbarui 2026-11-16T21:02:29+07:00 · sesi Senin 16 Nov (pra-buka)_
 
-Peluang indeks naik **34%**, turun **66%** (skor −5,3 dari ±10, keyakinan 80%, 83% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **35%**, turun **65%** (skor −5,0 dari ±10, keyakinan 80%, 83% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,41% dari penutupan sebelumnya (27.639,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,44% dari penutupan sebelumnya (27.629,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −3,43% dari penutupan sebelumnya (10.146,32). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,81): Skor rata-rata −0,64 dari 31 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,42): −0,67% dari penutupan sebelumnya (7.532,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,44): −0,70% dari penutupan sebelumnya (7.530,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Berita berbobot** (−0,42): Skor rata-rata −0,34 dari 33 kejadian bernilai; 50% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (+0,38): +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu. Indeks menguat selama lima sesi terakhir, dan momentum beli cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,64 dari 31 kejadian bernilai; 43% bobot bullish | −0,54 | 30% | −0,81 |
-| Futures Nasdaq-100 | −1,41% dari penutupan sebelumnya (27.639,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,67% dari penutupan sebelumnya (7.532,25) | −1,68 | 5% | −0,42 |
+| Berita berbobot | skor rata-rata −0,34 dari 33 kejadian bernilai; 50% bobot bullish | −0,28 | 30% | −0,42 |
+| Futures Nasdaq-100 | −1,44% dari penutupan sebelumnya (27.629,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,70% dari penutupan sebelumnya (7.530,25) | −1,75 | 5% | −0,44 |
 | Semikonduktor (SOX) | −3,43% dari penutupan sebelumnya (10.146,32) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,133% (−2,1 bp dari sesi sebelumnya) | +0,01 | 10% | +0,01 |
-| VIX (volatilitas) | 20,62 (+6,8% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
-| Minyak Brent | $94,14 (−1,77% dari sesi sebelumnya) | +0,89 | 5% | +0,22 |
+| Yield obligasi 10 tahun | 5,137% (−1,7 bp dari sesi sebelumnya) | −0,08 | 10% | −0,04 |
+| VIX (volatilitas) | 20,64 (+6,9% dari sesi sebelumnya); VXN (Nasdaq-100) 29,38 | −0,50 | 10% | −0,25 |
+| Minyak Brent | $94,20 (−1,71% dari sesi sebelumnya) | +0,85 | 5% | +0,21 |
 | Indeks dolar | +0,10% dari penutupan sebelumnya (103,51) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | +2,27% dalam 5 sesi; 9,3% di bawah puncak 52 minggu | +1,50 | 5% | +0,38 |
 
 ## Level hari ini
 Pivot 25.144; resistensi 25.415 / 25.695; support 24.865 / 24.593.
-Perkiraan pembukaan dari futures: 24.782 (−1,41%).
+Perkiraan pembukaan dari futures: 24.774 (−1,44%).
 Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 
 ## Berita paling berdampak
 - **−1,7** AI Infrastructure Boom Hits the Brakes: SemiAnalysis Slashes 2028 Capex Forecast by Nearly 30%, Nvidia the Biggest Casualty (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **+1,6** SoFi: Earnings Beat, But The Bigger Surprise May Come In 2027 (NASDAQ:SOFI) (Seeking Alpha). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,6** Asian chip stocks tumble ahead of Nvidia Q3 earnings (Cryptonews.net). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** TSMC (NYSE:TSM) Stock in Focus as Taiwan Market Plunges 6% Ahead of Nvidia Earnings (Stocks Down Under). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Japan’s Bond Yields Climb As Fed And BOJ Stay Hawkish (Finimize). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -40,7 +41,6 @@ Rentang wajar 1σ (VXN): 24.671 sampai 25.601.
 - **+1,0** Anthropic’s IPO, OpenAI’s Losses, Nvidia’s Earnings: Why Jensen Huang May Still Beat Them All to the Headlines (CXOToday.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,9** Japan's Nikkei Stock Average falls back as semiconductor shares slump; investors cautious ahead of Nvidia earnings (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** KOSPI and KOSDAQ Plunge Over 3% Amid Semiconductor Stock Weakness (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** [Closing Market] KOSPI Plunges 3.6%, Barely Holding 5,100 Range (Businesskorea). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
