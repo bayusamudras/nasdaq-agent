@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T05:13:25+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T05:14:25+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
-Peluang indeks naik **37%**, turun **63%** (skor −4,3 dari ±10, keyakinan 66%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 66%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA), Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
+- **Berita berbobot** (−1,33): Skor rata-rata −1,07 dari 26 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures Nasdaq-100** (−1,16): −0,58% dari penutupan sebelumnya (27.126,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 25 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,85): 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Futures S&P 500** (−0,50): −0,97% dari penutupan sebelumnya (7.366,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -15,7 +15,7 @@ Peluang indeks naik **37%**, turun **63%** (skor −4,3 dari ±10, keyakinan 66%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,90 dari 25 kejadian bernilai; 38% bobot bullish | −0,75 | 30% | −1,12 |
+| Berita berbobot | skor rata-rata −1,07 dari 26 kejadian bernilai; 32% bobot bullish | −0,89 | 30% | −1,33 |
 | Futures Nasdaq-100 | −0,58% dari penutupan sebelumnya (27.126,00) | −1,16 | 20% | −1,16 |
 | Futures S&P 500 | −0,97% dari penutupan sebelumnya (7.366,50) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
