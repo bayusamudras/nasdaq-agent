@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-18T02:24:05+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-18T02:25:15+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **31%**, turun **69%** (skor −5,9 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,94): −0,97% dari penutupan sebelumnya (27.018,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,27): Skor rata-rata −1,02 dari 23 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,85): 26,12 (+14,0% dari sesi sebelumnya); VXN (Nasdaq-100) 35,92. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,14% dari penutupan sebelumnya (7.354,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,19% dalam 5 sesi; 12,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−1,86): −0,93% dari penutupan sebelumnya (27.031,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 23 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,85): 25,94 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 35,90. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,09% dari penutupan sebelumnya (7.358,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,25% dalam 5 sesi; 12,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,02 dari 23 kejadian bernilai; 42% bobot bullish | −0,85 | 30% | −1,27 |
-| Futures Nasdaq-100 | −0,97% dari penutupan sebelumnya (27.018,50) | −1,94 | 20% | −1,94 |
-| Futures S&P 500 | −1,14% dari penutupan sebelumnya (7.354,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,86% dari penutupan sebelumnya (9.528,00) | −0,86 | 10% | −0,43 |
+| Berita berbobot | skor rata-rata −0,90 dari 23 kejadian bernilai; 44% bobot bullish | −0,75 | 30% | −1,12 |
+| Futures Nasdaq-100 | −0,93% dari penutupan sebelumnya (27.031,00) | −1,86 | 20% | −1,86 |
+| Futures S&P 500 | −1,09% dari penutupan sebelumnya (7.358,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −0,95% dari penutupan sebelumnya (9.519,12) | −0,95 | 10% | −0,47 |
 | Yield obligasi 10 tahun | 5,107% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 26,12 (+14,0% dari sesi sebelumnya); VXN (Nasdaq-100) 35,92 | −1,70 | 10% | −0,85 |
+| VIX (volatilitas) | 25,94 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 35,90 | −1,70 | 10% | −0,85 |
 | Minyak Brent | $93,41 (+1,05% dari sesi sebelumnya) | −0,53 | 5% | −0,13 |
-| Indeks dolar | −0,08% dari penutupan sebelumnya (103,47) | −0,20 | 5% | −0,05 |
-| Tren Nasdaq 5 sesi | −3,19% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | −0,09% dari penutupan sebelumnya (103,46) | −0,22 | 5% | −0,06 |
+| Tren Nasdaq 5 sesi | −3,25% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.272 (−0,97%).
+Perkiraan pembukaan dari futures: 24.282 (−0,93%).
 Rentang wajar 1σ (VXN): 23.955 sampai 25.064.
 
 ## Berita paling berdampak
