@@ -1,42 +1,42 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-17T23:36:15+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-17T23:37:15+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **28%**, turun **72%** (skor −7,0 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **28%**, turun **72%** (skor −6,9 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,32% dari penutupan sebelumnya (26.923,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,72): Skor rata-rata −1,38 dari 20 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,85): 25,43 (+11,0% dari sesi sebelumnya); VXN (Nasdaq-100) 35,08. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Semikonduktor (SOX)** (−0,77): −1,53% dari penutupan sebelumnya (9.463,83). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −1,19% dari penutupan sebelumnya (7.350,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,26% dari penutupan sebelumnya (26.940,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,71): Skor rata-rata −1,36 dari 21 kejadian bernilai; 30% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,85): 25,38 (+10,8% dari sesi sebelumnya); VXN (Nasdaq-100) 34,86. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,68): −1,36% dari penutupan sebelumnya (9.480,12). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,18% dari penutupan sebelumnya (7.351,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,38 dari 20 kejadian bernilai; 31% bobot bullish | −1,15 | 30% | −1,72 |
-| Futures Nasdaq-100 | −1,32% dari penutupan sebelumnya (26.923,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,19% dari penutupan sebelumnya (7.350,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,53% dari penutupan sebelumnya (9.463,83) | −1,53 | 10% | −0,77 |
-| Yield obligasi 10 tahun | 5,111% (−1,0 bp dari sesi sebelumnya) | −0,25 | 10% | −0,12 |
-| VIX (volatilitas) | 25,43 (+11,0% dari sesi sebelumnya); VXN (Nasdaq-100) 35,08 | −1,70 | 10% | −0,85 |
+| Berita berbobot | skor rata-rata −1,36 dari 21 kejadian bernilai; 30% bobot bullish | −1,14 | 30% | −1,71 |
+| Futures Nasdaq-100 | −1,26% dari penutupan sebelumnya (26.940,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,18% dari penutupan sebelumnya (7.351,25) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,36% dari penutupan sebelumnya (9.480,12) | −1,36 | 10% | −0,68 |
+| Yield obligasi 10 tahun | 5,105% (−1,6 bp dari sesi sebelumnya) | −0,10 | 10% | −0,05 |
+| VIX (volatilitas) | 25,38 (+10,8% dari sesi sebelumnya); VXN (Nasdaq-100) 34,86 | −1,70 | 10% | −0,85 |
 | Minyak Brent | $93,42 (+1,06% dari sesi sebelumnya) | −0,53 | 5% | −0,13 |
-| Indeks dolar | −0,12% dari penutupan sebelumnya (103,43) | −0,30 | 5% | −0,07 |
-| Tren Nasdaq 5 sesi | −3,62% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | −0,13% dari penutupan sebelumnya (103,42) | −0,33 | 5% | −0,08 |
+| Tren Nasdaq 5 sesi | −3,53% dalam 5 sesi; 12,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.186 (−1,32%).
-Rentang wajar 1σ (VXN): 23.968 sampai 25.051.
+Perkiraan pembukaan dari futures: 24.201 (−1,26%).
+Rentang wajar 1σ (VXN): 23.972 sampai 25.048.
 
 ## Berita paling berdampak
 - **−2,0** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Stock Market Today: Nvidia’s Board Shuts the Door on Huang as Chip Stocks Sink Before a Make-or-Break AI Week (ChartMill). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Is the US Stock Selloff Over? Wall Street Debates AI Bubble as S&P 500, Chip Stocks Diverge for 2027 (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,8** Trump Says Thailand To Scrap Tariffs On US Exports Under Trade Deal (Forbes Middle East). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+0,8** [New York Stock Market] All Lower Despite Semiconductor Rebound (아시아경제). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,8** Nvidia Sets Up Board Committee To Oversee National Security, Chip Export Controls — Names Suzanne Nora Johnson Chair (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,8** Nvidia Forms Export Control Board Committee After Chip Curbs (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,7** What is on the table when Trump meets Xi in Shenzhen: chips, tariffs and the January truce deadline (MLQ.ai). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,7** Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Fears Britain's 'jobs pipeline is running dry' as vacancies tumble again and wages are hit by inflation - despite unexpected unemployment dip (Daily Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
