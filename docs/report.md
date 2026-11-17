@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-18T02:25:15+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-18T02:26:15+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **31%**, turun **69%** (skor −5,9 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,86): −0,93% dari penutupan sebelumnya (27.031,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,96): −0,98% dari penutupan sebelumnya (27.017,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 23 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,85): 25,94 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 35,90. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,09% dari penutupan sebelumnya (7.358,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,25% dalam 5 sesi; 12,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **VIX (volatilitas)** (−0,85): 25,85 (+12,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,86. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,53): −1,06% dari penutupan sebelumnya (9.508,85). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,12% dari penutupan sebelumnya (7.356,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,90 dari 23 kejadian bernilai; 44% bobot bullish | −0,75 | 30% | −1,12 |
-| Futures Nasdaq-100 | −0,93% dari penutupan sebelumnya (27.031,00) | −1,86 | 20% | −1,86 |
-| Futures S&P 500 | −1,09% dari penutupan sebelumnya (7.358,00) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,95% dari penutupan sebelumnya (9.519,12) | −0,95 | 10% | −0,47 |
+| Futures Nasdaq-100 | −0,98% dari penutupan sebelumnya (27.017,00) | −1,96 | 20% | −1,96 |
+| Futures S&P 500 | −1,12% dari penutupan sebelumnya (7.356,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,06% dari penutupan sebelumnya (9.508,85) | −1,06 | 10% | −0,53 |
 | Yield obligasi 10 tahun | 5,107% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 25,94 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 35,90 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $93,41 (+1,05% dari sesi sebelumnya) | −0,53 | 5% | −0,13 |
+| VIX (volatilitas) | 25,85 (+12,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,86 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $93,42 (+1,06% dari sesi sebelumnya) | −0,53 | 5% | −0,13 |
 | Indeks dolar | −0,09% dari penutupan sebelumnya (103,46) | −0,22 | 5% | −0,06 |
-| Tren Nasdaq 5 sesi | −3,25% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −3,27% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.282 (−0,93%).
-Rentang wajar 1σ (VXN): 23.955 sampai 25.064.
+Perkiraan pembukaan dari futures: 24.270 (−0,98%).
+Rentang wajar 1σ (VXN): 23.956 sampai 25.063.
 
 ## Berita paling berdampak
 - **−1,7** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
