@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T05:27:25+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T05:28:25+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,3 dari ±10, keyakinan 65%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
