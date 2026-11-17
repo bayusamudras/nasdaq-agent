@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-17T15:38:58+07:00 · sesi Selasa 17 Nov (pra-buka)_
+_Diperbarui 2026-11-17T15:39:58+07:00 · sesi Selasa 17 Nov (pra-buka)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 72%, 86% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,00): Skor rata-rata −1,60 dari 31 kejadian bernilai; 22% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,94): Skor rata-rata −1,54 dari 32 kejadian bernilai; 23% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −5,28% dari penutupan sebelumnya (9.610,65). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 23,05 (+0,6% dari sesi sebelumnya); VXN (Nasdaq-100) 32,90. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 11,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -14,7 +14,7 @@ Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 72%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,60 dari 31 kejadian bernilai; 22% bobot bullish | −1,33 | 30% | −2,00 |
+| Berita berbobot | skor rata-rata −1,54 dari 32 kejadian bernilai; 23% bobot bullish | −1,29 | 30% | −1,94 |
 | Futures Nasdaq-100 | +0,10% dari penutupan sebelumnya (27.311,75) | +0,20 | 20% | +0,20 |
 | Futures S&P 500 | −0,15% dari penutupan sebelumnya (7.428,00) | −0,37 | 5% | −0,09 |
 | Semikonduktor (SOX) | −5,28% dari penutupan sebelumnya (9.610,65) | −2,00 | 10% | −1,00 |
