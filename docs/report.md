@@ -1,33 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-17T21:51:19+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-17T21:52:38+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 72%, 87% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **38%**, turun **62%** (skor −4,1 dari ±10, keyakinan 62%, 67% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,42): Skor rata-rata −1,94 dari 28 kejadian bernilai; 16% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 23,09 (+0,8% dari sesi sebelumnya); VXN (Nasdaq-100) 32,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Yield obligasi 10 tahun** (−0,53): 5,143% (+2,2 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Tren Nasdaq 5 sesi** (−0,50): −2,37% dalam 5 sesi; 11,7% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Berita berbobot** (−2,50): Skor rata-rata −2,00 dari 25 kejadian bernilai; 15% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 23,06 (+0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 32,59. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Yield obligasi 10 tahun** (−0,50): 5,141% (+2,0 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Tren Nasdaq 5 sesi** (−0,50): −2,49% dalam 5 sesi; 11,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+0,46): +0,23% dari penutupan sebelumnya (27.347,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,94 dari 28 kejadian bernilai; 16% bobot bullish | −1,61 | 30% | −2,42 |
-| Futures Nasdaq-100 | +0,03% dari penutupan sebelumnya (27.293,00) | +0,06 | 20% | +0,06 |
-| Futures S&P 500 | −0,18% dari penutupan sebelumnya (7.425,50) | −0,45 | 5% | −0,11 |
-| Semikonduktor (SOX) | +0,59% dari penutupan sebelumnya (9.667,23) | +0,59 | 10% | +0,29 |
-| Yield obligasi 10 tahun | 5,143% (+2,2 bp dari sesi sebelumnya) | −1,05 | 10% | −0,53 |
-| VIX (volatilitas) | 23,09 (+0,8% dari sesi sebelumnya); VXN (Nasdaq-100) 32,44 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $93,75 (+1,42% dari sesi sebelumnya) | −0,71 | 5% | −0,18 |
+| Berita berbobot | skor rata-rata −2,00 dari 25 kejadian bernilai; 15% bobot bullish | −1,67 | 30% | −2,50 |
+| Futures Nasdaq-100 | +0,23% dari penutupan sebelumnya (27.347,75) | +0,46 | 20% | +0,46 |
+| Futures S&P 500 | −0,07% dari penutupan sebelumnya (7.433,50) | −0,18 | 5% | −0,04 |
+| Semikonduktor (SOX) | +0,26% dari penutupan sebelumnya (9.635,92) | +0,26 | 10% | +0,13 |
+| Yield obligasi 10 tahun | 5,141% (+2,0 bp dari sesi sebelumnya) | −1,00 | 10% | −0,50 |
+| VIX (volatilitas) | 23,06 (+0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 32,59 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $93,83 (+1,50% dari sesi sebelumnya) | −0,75 | 5% | −0,19 |
 | Indeks dolar | +0,08% dari penutupan sebelumnya (103,63) | +0,20 | 5% | +0,05 |
-| Tren Nasdaq 5 sesi | −2,37% dalam 5 sesi; 11,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −2,49% dalam 5 sesi; 11,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.517 (+0,03%).
-Rentang wajar 1σ (VXN): 24.009 sampai 25.011.
+Perkiraan pembukaan dari futures: 24.566 (+0,23%).
+Rentang wajar 1σ (VXN): 24.007 sampai 25.013.
 
 ## Berita paling berdampak
 - **−2,3** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -40,8 +41,8 @@ Rentang wajar 1σ (VXN): 24.009 sampai 25.011.
 - **−0,8** Nvidia Plunges 4%, Dragging New York Stocks Down With It; Fear Gauge Breaches 20 Again (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** What is on the table when Trump meets Xi in Shenzhen: chips, tariffs and the January truce deadline (MLQ.ai). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,8** Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,8** China chip stocks buck market slump as full fab utilization meets surge in Chinese-made AI chips; Guolin Technology hits 20% limit-up (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Fears Britain's 'jobs pipeline is running dry' as vacancies tumble again and wages are hit by inflation - despite unexpected unemployment dip (Daily Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,6** Asian Stocks on Edge After US Tech Rout as Nvidia Earnings, Anthropic IPO Loom (bloomingbit). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
