@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-18T00:38:06+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-18T00:39:06+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **31%**, turun **69%** (skor −5,9 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **32%**, turun **68%** (skor −5,8 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,98): −0,99% dari penutupan sebelumnya (27.015,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,65): Skor rata-rata −1,32 dari 22 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 24,75 (+8,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,11. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −0,95% dari penutupan sebelumnya (7.368,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,06% dalam 5 sesi; 12,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−1,82): −0,91% dari penutupan sebelumnya (27.035,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,60): Skor rata-rata −1,28 dari 21 kejadian bernilai; 33% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 24,78 (+8,2% dari sesi sebelumnya); VXN (Nasdaq-100) 34,28. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −0,93% dari penutupan sebelumnya (7.370,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,20% dalam 5 sesi; 12,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,32 dari 22 kejadian bernilai; 32% bobot bullish | −1,10 | 30% | −1,65 |
-| Futures Nasdaq-100 | −0,99% dari penutupan sebelumnya (27.015,50) | −1,98 | 20% | −1,98 |
-| Futures S&P 500 | −0,95% dari penutupan sebelumnya (7.368,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,26% dari penutupan sebelumnya (9.586,05) | −0,26 | 10% | −0,13 |
-| Yield obligasi 10 tahun | 5,101% (−2,0 bp dari sesi sebelumnya) | 0,00 | 10% | 0,00 |
-| VIX (volatilitas) | 24,75 (+8,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,11 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $93,07 (+0,68% dari sesi sebelumnya) | −0,34 | 5% | −0,09 |
-| Indeks dolar | −0,14% dari penutupan sebelumnya (103,41) | −0,35 | 5% | −0,09 |
-| Tren Nasdaq 5 sesi | −3,06% dalam 5 sesi; 12,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,28 dari 21 kejadian bernilai; 33% bobot bullish | −1,07 | 30% | −1,60 |
+| Futures Nasdaq-100 | −0,91% dari penutupan sebelumnya (27.035,50) | −1,82 | 20% | −1,82 |
+| Futures S&P 500 | −0,93% dari penutupan sebelumnya (7.370,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −0,55% dari penutupan sebelumnya (9.557,53) | −0,55 | 10% | −0,28 |
+| Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
+| VIX (volatilitas) | 24,78 (+8,2% dari sesi sebelumnya); VXN (Nasdaq-100) 34,28 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $92,84 (+0,43% dari sesi sebelumnya) | −0,21 | 5% | −0,05 |
+| Indeks dolar | −0,14% dari penutupan sebelumnya (103,40) | −0,35 | 5% | −0,09 |
+| Tren Nasdaq 5 sesi | −3,20% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.267 (−0,99%).
-Rentang wajar 1σ (VXN): 23.983 sampai 25.036.
+Perkiraan pembukaan dari futures: 24.287 (−0,91%).
+Rentang wajar 1σ (VXN): 23.980 sampai 25.039.
 
 ## Berita paling berdampak
 - **−1,9** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -40,9 +40,9 @@ Rentang wajar 1σ (VXN): 23.983 sampai 25.036.
 - **−0,7** Nvidia Forms Export Control Board Committee After Chip Curbs (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,7** Samsung, TSMC Stocks Slide as U.S. Tightens AI Chip Curbs on China (TipRanks). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,7** Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **+0,6** Gold struggles to rebound from one-year low as US dollar, yields advance (Kitco). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,6** Fears Britain's 'jobs pipeline is running dry' as vacancies tumble again and wages are hit by inflation - despite unexpected unemployment dip (Daily Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,5** Treasury yields rise as investors parse retail sales data (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−0,4** China, Canada Agree to Extend Mutual Tariff Relief for Two Years as Ties Improve (bloomingbit). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
