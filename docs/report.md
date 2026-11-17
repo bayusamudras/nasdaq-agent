@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T05:54:33+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T05:55:33+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
 Peluang indeks naik **39%**, turun **61%** (skor −3,8 dari ±10, keyakinan 64%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -34,7 +34,7 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **+2,5** Nvidia shares rebound as earnings, forecasts beat estimates (Capital Brief). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,7** [New York Stock Market] Plunges for Second Straight Session Ahead of Nvidia Earnings (아시아경제). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,7** Nvidia’s earnings beat overshadowed by Huang drama (AFR). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+1,7** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,6** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,3** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Dow Slides 1.4% as Salesforce Leads Software Rout Before Anthropic IPO: Stock Market Today (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Warsh Lays Out Three AI Scenarios: Boom, Mass Unemployment, Bubble Burst — Warns of Valuation Downgrade Risk (BigGo Finance). Penurunan peringkat menggerakkan arus dana institusi keluar dari saham itu. Dampak ke indeks kecil kecuali emitennya mega-cap.
