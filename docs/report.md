@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-17T23:27:15+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-17T23:28:15+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **29%**, turun **71%** (skor −6,5 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **29%**, turun **71%** (skor −6,6 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,28% dari penutupan sebelumnya (26.934,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,68): Skor rata-rata −1,34 dari 21 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 24,66 (+7,6% dari sesi sebelumnya); VXN (Nasdaq-100) 34,32. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,14% dari penutupan sebelumnya (7.354,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,41% dalam 5 sesi; 12,7% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−2,00): −1,21% dari penutupan sebelumnya (26.952,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,81): Skor rata-rata −1,45 dari 21 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 24,78 (+8,2% dari sesi sebelumnya); VXN (Nasdaq-100) 34,35. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,11% dari penutupan sebelumnya (7.356,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,34% dalam 5 sesi; 12,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,34 dari 21 kejadian bernilai; 31% bobot bullish | −1,12 | 30% | −1,68 |
-| Futures Nasdaq-100 | −1,28% dari penutupan sebelumnya (26.934,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,14% dari penutupan sebelumnya (7.354,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,97% dari penutupan sebelumnya (9.517,58) | −0,97 | 10% | −0,48 |
+| Berita berbobot | skor rata-rata −1,45 dari 21 kejadian bernilai; 29% bobot bullish | −1,21 | 30% | −1,81 |
+| Futures Nasdaq-100 | −1,21% dari penutupan sebelumnya (26.952,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,11% dari penutupan sebelumnya (7.356,75) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −0,83% dari penutupan sebelumnya (9.531,21) | −0,83 | 10% | −0,41 |
 | Yield obligasi 10 tahun | 5,115% (−0,6 bp dari sesi sebelumnya) | −0,35 | 10% | −0,18 |
-| VIX (volatilitas) | 24,66 (+7,6% dari sesi sebelumnya); VXN (Nasdaq-100) 34,32 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $93,52 (+1,17% dari sesi sebelumnya) | −0,58 | 5% | −0,14 |
-| Indeks dolar | −0,11% dari penutupan sebelumnya (103,43) | −0,27 | 5% | −0,07 |
-| Tren Nasdaq 5 sesi | −3,41% dalam 5 sesi; 12,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 24,78 (+8,2% dari sesi sebelumnya); VXN (Nasdaq-100) 34,35 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $93,47 (+1,11% dari sesi sebelumnya) | −0,56 | 5% | −0,14 |
+| Indeks dolar | −0,11% dari penutupan sebelumnya (103,44) | −0,27 | 5% | −0,07 |
+| Tren Nasdaq 5 sesi | −3,34% dalam 5 sesi; 12,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.196 (−1,28%).
-Rentang wajar 1σ (VXN): 23.980 sampai 25.040.
+Perkiraan pembukaan dari futures: 24.213 (−1,21%).
+Rentang wajar 1σ (VXN): 23.979 sampai 25.040.
 
 ## Berita paling berdampak
 - **−2,1** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -40,9 +40,9 @@ Rentang wajar 1σ (VXN): 23.980 sampai 25.040.
 - **−0,7** Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Fears Britain's 'jobs pipeline is running dry' as vacancies tumble again and wages are hit by inflation - despite unexpected unemployment dip (Daily Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,6** Treasury yields rise as investors parse retail sales data (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−0,6** Asian Stocks on Edge After US Tech Rout as Nvidia Earnings, Anthropic IPO Loom (bloomingbit). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,5** China, Canada Agree to Extend Mutual Tariff Relief for Two Years as Ties Improve (bloomingbit). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,5** Warsh's First Big Test: Stubborn Inflation Pushes Toward a Rate Hike as White House Presses for a Hold (BigGo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−0,5** Macquarie Warns of Data Center Exuberance Amid Capex Super Cycle (Bloomberg.com). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
