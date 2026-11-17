@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-18T02:50:15+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-18T02:51:15+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **31%**, turun **69%** (skor −6,1 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,22% dari penutupan sebelumnya (26.950,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,20): Skor rata-rata −0,95 dari 25 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,85): 26,07 (+13,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,15. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Semikonduktor (SOX)** (−0,65): −1,30% dari penutupan sebelumnya (9.486,14). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −1,28% dari penutupan sebelumnya (7.343,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,23% dari penutupan sebelumnya (26.950,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,08): Skor rata-rata −0,87 dari 24 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,85): 26,05 (+13,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,15. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,62): −1,23% dari penutupan sebelumnya (9.492,54). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,29% dari penutupan sebelumnya (7.343,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,95 dari 25 kejadian bernilai; 42% bobot bullish | −0,80 | 30% | −1,20 |
-| Futures Nasdaq-100 | −1,22% dari penutupan sebelumnya (26.950,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,28% dari penutupan sebelumnya (7.343,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,30% dari penutupan sebelumnya (9.486,14) | −1,30 | 10% | −0,65 |
+| Berita berbobot | skor rata-rata −0,87 dari 24 kejadian bernilai; 45% bobot bullish | −0,72 | 30% | −1,08 |
+| Futures Nasdaq-100 | −1,23% dari penutupan sebelumnya (26.950,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,29% dari penutupan sebelumnya (7.343,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,23% dari penutupan sebelumnya (9.492,54) | −1,23 | 10% | −0,62 |
 | Yield obligasi 10 tahun | 5,099% (−2,2 bp dari sesi sebelumnya) | +0,02 | 10% | +0,01 |
-| VIX (volatilitas) | 26,07 (+13,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,15 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $92,99 (+0,59% dari sesi sebelumnya) | −0,29 | 5% | −0,07 |
+| VIX (volatilitas) | 26,05 (+13,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,15 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $92,95 (+0,55% dari sesi sebelumnya) | −0,28 | 5% | −0,07 |
 | Indeks dolar | −0,09% dari penutupan sebelumnya (103,46) | −0,22 | 5% | −0,06 |
-| Tren Nasdaq 5 sesi | −3,41% dalam 5 sesi; 12,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −3,35% dalam 5 sesi; 12,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.211 (−1,22%).
+Perkiraan pembukaan dari futures: 24.208 (−1,23%).
 Rentang wajar 1σ (VXN): 23.952 sampai 25.068.
 
 ## Berita paling berdampak
