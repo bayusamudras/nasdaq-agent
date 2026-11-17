@@ -1,21 +1,21 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T05:31:25+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T05:32:25+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
-Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 64%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **38%**, turun **62%** (skor −4,1 dari ±10, keyakinan 65%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA), Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−1,16): −0,58% dari penutupan sebelumnya (27.126,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−0,85): Skor rata-rata −0,68 dari 26 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,85): 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Berita berbobot** (−0,66): Skor rata-rata −0,53 dari 23 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (−0,50): −0,97% dari penutupan sebelumnya (7.366,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,53 dari 23 kejadian bernilai; 45% bobot bullish | −0,44 | 30% | −0,66 |
+| Berita berbobot | skor rata-rata −0,68 dari 26 kejadian bernilai; 42% bobot bullish | −0,57 | 30% | −0,85 |
 | Futures Nasdaq-100 | −0,58% dari penutupan sebelumnya (27.126,00) | −1,16 | 20% | −1,16 |
 | Futures S&P 500 | −0,97% dari penutupan sebelumnya (7.366,50) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
@@ -41,8 +41,8 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **+0,8** Anthropic promises to pursue humanity's benefit. Its IPO filing gives it wiggle room (BNN Bloomberg). IPO perusahaan AI memvalidasi valuasi sektor dan menarik dana ke tema AI. Namun pasokan saham baru juga menyedot likuiditas.
 - **−0,6** Taiwan Semiconductor Falls 4% as U.S. Tightens AI Chip Curbs on China; Intel Drops 3%, AMD Slides 2% (24/7 Wall St.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,6** Is the US Stock Selloff Over? Wall Street Debates AI Bubble as S&P 500, Chip Stocks Diverge for 2027 (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,6** U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz (gCaptain). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
-- **−0,5** Samsung, TSMC Stocks Slide as U.S. Tightens AI Chip Curbs on China (TipRanks). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,6** New Export Restrictions Imposed on AI Chips (Sandler, Travis & Rosenberg, P.A.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,6** Trump Says Thailand To Scrap Tariffs On US Exports Under Trade Deal (Forbes Middle East). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
