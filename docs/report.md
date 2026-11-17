@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T05:46:33+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T05:47:34+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,2 dari ±10, keyakinan 65%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **−0,6** Is the US Stock Selloff Over? Wall Street Debates AI Bubble as S&P 500, Chip Stocks Diverge for 2027 (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,6** New Export Restrictions Imposed on AI Chips (Sandler, Travis & Rosenberg, P.A.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,6** Trump Says Thailand To Scrap Tariffs On US Exports Under Trade Deal (Forbes Middle East). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,6** U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz (gCaptain). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
+- **−0,5** U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz (gCaptain). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 
 ## Kalender risiko
 - 2026-11-17: Penjualan ritel (sedang)
