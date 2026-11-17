@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-17T23:17:15+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-17T23:18:15+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **28%**, turun **72%** (skor −6,9 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **28%**, turun **72%** (skor −6,8 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Berita berbobot** (−2,08): Skor rata-rata −1,67 dari 20 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−2,00): −1,04% dari penutupan sebelumnya (27.001,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−0,60): 25,00 (+9,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,32. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −0,99% dari penutupan sebelumnya (7.365,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,37% dalam 5 sesi; 12,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−2,00): −1,16% dari penutupan sebelumnya (26.966,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−0,60): 25,05 (+9,3% dari sesi sebelumnya); VXN (Nasdaq-100) 34,30. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,09% dari penutupan sebelumnya (7.358,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,27% dalam 5 sesi; 12,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,67 dari 20 kejadian bernilai; 25% bobot bullish | −1,39 | 30% | −2,08 |
-| Futures Nasdaq-100 | −1,04% dari penutupan sebelumnya (27.001,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,99% dari penutupan sebelumnya (7.365,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,89% dari penutupan sebelumnya (9.524,87) | −0,89 | 10% | −0,45 |
-| Yield obligasi 10 tahun | 5,119% (−0,2 bp dari sesi sebelumnya) | −0,45 | 10% | −0,22 |
-| VIX (volatilitas) | 25,00 (+9,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,32 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $93,55 (+1,20% dari sesi sebelumnya) | −0,60 | 5% | −0,15 |
-| Indeks dolar | −0,04% dari penutupan sebelumnya (103,51) | −0,10 | 5% | −0,03 |
-| Tren Nasdaq 5 sesi | −3,37% dalam 5 sesi; 12,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −1,16% dari penutupan sebelumnya (26.966,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,09% dari penutupan sebelumnya (7.358,25) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −0,81% dari penutupan sebelumnya (9.533,06) | −0,81 | 10% | −0,41 |
+| Yield obligasi 10 tahun | 5,113% (−0,8 bp dari sesi sebelumnya) | −0,30 | 10% | −0,15 |
+| VIX (volatilitas) | 25,05 (+9,3% dari sesi sebelumnya); VXN (Nasdaq-100) 34,30 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $93,56 (+1,21% dari sesi sebelumnya) | −0,60 | 5% | −0,15 |
+| Indeks dolar | −0,06% dari penutupan sebelumnya (103,49) | −0,15 | 5% | −0,04 |
+| Tren Nasdaq 5 sesi | −3,27% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.255 (−1,04%).
-Rentang wajar 1σ (VXN): 23.980 sampai 25.040.
+Perkiraan pembukaan dari futures: 24.225 (−1,16%).
+Rentang wajar 1σ (VXN): 23.980 sampai 25.039.
 
 ## Berita paling berdampak
 - **−2,1** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
