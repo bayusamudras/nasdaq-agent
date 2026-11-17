@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-18T03:22:35+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-18T03:23:35+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **32%**, turun **68%** (skor −5,9 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **31%**, turun **69%** (skor −6,0 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,38% dari penutupan sebelumnya (26.906,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,08): Skor rata-rata −0,86 dari 23 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,85): 26,79 (+16,9% dari sesi sebelumnya); VXN (Nasdaq-100) 36,59. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Semikonduktor (SOX)** (−0,55): −1,10% dari penutupan sebelumnya (9.504,75). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −1,42% dari penutupan sebelumnya (7.333,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,43% dari penutupan sebelumnya (26.895,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,19): Skor rata-rata −0,94 dari 26 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,85): 26,86 (+17,2% dari sesi sebelumnya); VXN (Nasdaq-100) 36,60. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,56): −1,13% dari penutupan sebelumnya (9.501,96). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,45% dari penutupan sebelumnya (7.331,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,86 dari 23 kejadian bernilai; 46% bobot bullish | −0,72 | 30% | −1,08 |
-| Futures Nasdaq-100 | −1,38% dari penutupan sebelumnya (26.906,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,42% dari penutupan sebelumnya (7.333,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,10% dari penutupan sebelumnya (9.504,75) | −1,10 | 10% | −0,55 |
+| Berita berbobot | skor rata-rata −0,94 dari 26 kejadian bernilai; 42% bobot bullish | −0,79 | 30% | −1,19 |
+| Futures Nasdaq-100 | −1,43% dari penutupan sebelumnya (26.895,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,45% dari penutupan sebelumnya (7.331,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,13% dari penutupan sebelumnya (9.501,96) | −1,13 | 10% | −0,56 |
 | Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
-| VIX (volatilitas) | 26,79 (+16,9% dari sesi sebelumnya); VXN (Nasdaq-100) 36,59 | −1,70 | 10% | −0,85 |
+| VIX (volatilitas) | 26,86 (+17,2% dari sesi sebelumnya); VXN (Nasdaq-100) 36,60 | −1,70 | 10% | −0,85 |
 | Minyak Brent | $92,62 (+0,19% dari sesi sebelumnya) | −0,10 | 5% | −0,03 |
-| Indeks dolar | −0,05% dari penutupan sebelumnya (103,50) | −0,12 | 5% | −0,03 |
-| Tren Nasdaq 5 sesi | −3,35% dalam 5 sesi; 12,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | −0,04% dari penutupan sebelumnya (103,51) | −0,10 | 5% | −0,03 |
+| Tren Nasdaq 5 sesi | −3,36% dalam 5 sesi; 12,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.172 (−1,38%).
+Perkiraan pembukaan dari futures: 24.159 (−1,43%).
 Rentang wajar 1σ (VXN): 23.945 sampai 25.075.
 
 ## Berita paling berdampak
