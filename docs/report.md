@@ -1,12 +1,12 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-18T06:53:31+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T06:54:31+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
-Peluang indeks naik **55%**, turun **46%** (skor +0,1 dari ±10, keyakinan 47%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **54%**, turun **46%** (skor +0,1 dari ±10, keyakinan 47%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,56): +0,78% dari penutupan sebelumnya (27.496,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,52): +0,76% dari penutupan sebelumnya (27.491,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−0,85): 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
@@ -14,8 +14,8 @@ Peluang indeks naik **55%**, turun **46%** (skor +0,1 dari ±10, keyakinan 47%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,18 dari 24 kejadian bernilai; 45% bobot bullish | −0,15 | 30% | −0,22 |
-| Futures Nasdaq-100 | +0,78% dari penutupan sebelumnya (27.496,25) | +1,56 | 20% | +1,56 |
-| Futures S&P 500 | −0,32% dari penutupan sebelumnya (7.415,00) | −0,80 | 5% | −0,20 |
+| Futures Nasdaq-100 | +0,76% dari penutupan sebelumnya (27.491,50) | +1,52 | 20% | +1,52 |
+| Futures S&P 500 | −0,33% dari penutupan sebelumnya (7.414,50) | −0,82 | 5% | −0,20 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
 | Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
 | VIX (volatilitas) | 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,70 | 10% | −0,85 |
@@ -25,7 +25,7 @@ Peluang indeks naik **55%**, turun **46%** (skor +0,1 dari ±10, keyakinan 47%, 
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.518 (+0,78%).
+Perkiraan pembukaan dari futures: 24.513 (+0,76%).
 Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
@@ -33,7 +33,7 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **+2,4** Nvidia shares rebound as earnings, forecasts beat estimates (Capital Brief). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,6** AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat (AOL.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,6** [New York Stock Market] Plunges for Second Straight Session Ahead of Nvidia Earnings (아시아경제). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,6** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,5** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Stock Market Today, Nov. 17: Grab Holdings Shares Slip Amid Broader Stock Market Sell-Off (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Dow Slides 1.4% as Salesforce Leads Software Rout Before Anthropic IPO: Stock Market Today (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
