@@ -1,40 +1,40 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-18T02:48:15+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-18T02:49:15+07:00 · sesi Selasa 17 Nov (berjalan)_
 
 Peluang indeks naik **31%**, turun **69%** (skor −6,1 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,18% dari penutupan sebelumnya (26.962,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,19): Skor rata-rata −0,95 dari 24 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,85): 26,07 (+13,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,14. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Semikonduktor (SOX)** (−0,55): −1,10% dari penutupan sebelumnya (9.505,23). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −1,25% dari penutupan sebelumnya (7.345,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,22% dari penutupan sebelumnya (26.951,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,20): Skor rata-rata −0,95 dari 25 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,85): 26,04 (+13,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,15. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,62): −1,24% dari penutupan sebelumnya (9.491,68). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,28% dari penutupan sebelumnya (7.344,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,95 dari 24 kejadian bernilai; 43% bobot bullish | −0,79 | 30% | −1,19 |
-| Futures Nasdaq-100 | −1,18% dari penutupan sebelumnya (26.962,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,25% dari penutupan sebelumnya (7.345,75) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,10% dari penutupan sebelumnya (9.505,23) | −1,10 | 10% | −0,55 |
-| Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
-| VIX (volatilitas) | 26,07 (+13,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,14 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $93,01 (+0,62% dari sesi sebelumnya) | −0,31 | 5% | −0,08 |
+| Berita berbobot | skor rata-rata −0,95 dari 25 kejadian bernilai; 42% bobot bullish | −0,80 | 30% | −1,20 |
+| Futures Nasdaq-100 | −1,22% dari penutupan sebelumnya (26.951,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,28% dari penutupan sebelumnya (7.344,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,24% dari penutupan sebelumnya (9.491,68) | −1,24 | 10% | −0,62 |
+| Yield obligasi 10 tahun | 5,101% (−2,0 bp dari sesi sebelumnya) | 0,00 | 10% | 0,00 |
+| VIX (volatilitas) | 26,04 (+13,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,15 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $93,02 (+0,63% dari sesi sebelumnya) | −0,32 | 5% | −0,08 |
 | Indeks dolar | −0,09% dari penutupan sebelumnya (103,46) | −0,22 | 5% | −0,06 |
-| Tren Nasdaq 5 sesi | −3,31% dalam 5 sesi; 12,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −3,36% dalam 5 sesi; 12,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.221 (−1,18%).
+Perkiraan pembukaan dari futures: 24.211 (−1,22%).
 Rentang wajar 1σ (VXN): 23.952 sampai 25.068.
 
 ## Berita paling berdampak
 - **−1,6** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Dow Slides 1.4% as Salesforce Leads Software Rout Before Anthropic IPO: Stock Market Today (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Warsh Lays Out Three AI Scenarios: Boom, Mass Unemployment, Bubble Burst — Warns of Valuation Downgrade Risk (BigGo Finance). Penurunan peringkat menggerakkan arus dana institusi keluar dari saham itu. Dampak ke indeks kecil kecuali emitennya mega-cap.
-- **−1,3** Stock Market Today: Nvidia’s Board Shuts the Door on Huang as Chip Stocks Sink Before a Make-or-Break AI Week (ChartMill). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** Stock Market Today: Nvidia’s Board Shuts the Door on Huang as Chip Stocks Sink Before a Make-or-Break AI Week (ChartMill). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Anthropic promises to pursue humanity's benefit. Its IPO filing gives it wiggle room (BNN Bloomberg). IPO perusahaan AI memvalidasi valuasi sektor dan menarik dana ke tema AI. Namun pasokan saham baru juga menyedot likuiditas.
 - **−0,8** Taiwan Semiconductor Falls 4% as U.S. Tightens AI Chip Curbs on China; Intel Drops 3%, AMD Slides 2% (24/7 Wall St.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,7** Is the US Stock Selloff Over? Wall Street Debates AI Bubble as S&P 500, Chip Stocks Diverge for 2027 (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
