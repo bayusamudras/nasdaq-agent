@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T04:14:58+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T04:15:58+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
-Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 65%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 66%, 88% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA), Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−1,33): Skor rata-rata −1,06 dari 23 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−0,96): −0,48% dari penutupan sebelumnya (27.153,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−0,85): 25,64 (+11,9% dari sesi sebelumnya); VXN (Nasdaq-100) 35,32. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −0,97% dari penutupan sebelumnya (7.366,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Berita berbobot** (−1,29): Skor rata-rata −1,03 dari 24 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−1,14): −0,57% dari penutupan sebelumnya (27.129,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−0,85): 25,51 (+11,3% dari sesi sebelumnya); VXN (Nasdaq-100) 35,09. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,01% dari penutupan sebelumnya (7.363,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,06 dari 23 kejadian bernilai; 39% bobot bullish | −0,89 | 30% | −1,33 |
-| Futures Nasdaq-100 | −0,48% dari penutupan sebelumnya (27.153,25) | −0,96 | 20% | −0,96 |
-| Futures S&P 500 | −0,97% dari penutupan sebelumnya (7.366,75) | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,03 dari 24 kejadian bernilai; 40% bobot bullish | −0,86 | 30% | −1,29 |
+| Futures Nasdaq-100 | −0,57% dari penutupan sebelumnya (27.129,75) | −1,14 | 20% | −1,14 |
+| Futures S&P 500 | −1,01% dari penutupan sebelumnya (7.363,50) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
 | Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
-| VIX (volatilitas) | 25,64 (+11,9% dari sesi sebelumnya); VXN (Nasdaq-100) 35,32 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $92,88 (+0,48% dari sesi sebelumnya) | −0,24 | 5% | −0,06 |
+| VIX (volatilitas) | 25,51 (+11,3% dari sesi sebelumnya); VXN (Nasdaq-100) 35,09 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $92,93 (+0,53% dari sesi sebelumnya) | −0,27 | 5% | −0,07 |
 | Indeks dolar | −0,04% dari penutupan sebelumnya (103,51) | −0,10 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.212 (−0,48%).
-Rentang wajar 1σ (VXN): 23.787 sampai 24.870.
+Perkiraan pembukaan dari futures: 24.190 (−0,57%).
+Rentang wajar 1σ (VXN): 23.791 sampai 24.866.
 
 ## Berita paling berdampak
 - **−1,5** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
