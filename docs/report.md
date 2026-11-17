@@ -1,39 +1,39 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-17T22:50:55+07:00 · sesi Selasa 17 Nov (berjalan)_
+_Diperbarui 2026-11-17T22:51:56+07:00 · sesi Selasa 17 Nov (berjalan)_
 
-Peluang indeks naik **27%**, turun **73%** (skor −7,2 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **26%**, turun **74%** (skor −7,4 dari ±10, keyakinan 80%, 100% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (NVDA); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,31% dari penutupan sebelumnya (26.928,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,89): Skor rata-rata −1,51 dari 21 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −2,42% dari penutupan sebelumnya (9.377,92). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 24,01 (+4,8% dari sesi sebelumnya); VXN (Nasdaq-100) 33,40. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,00% dari penutupan sebelumnya (7.364,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Berita berbobot** (−2,00): Skor rata-rata −1,60 dari 22 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −1,46% dari penutupan sebelumnya (26.887,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −3,00% dari penutupan sebelumnya (9.322,07). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,60): 24,18 (+5,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,57. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,15% dari penutupan sebelumnya (7.353,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,51 dari 21 kejadian bernilai; 27% bobot bullish | −1,26 | 30% | −1,89 |
-| Futures Nasdaq-100 | −1,31% dari penutupan sebelumnya (26.928,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,00% dari penutupan sebelumnya (7.364,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −2,42% dari penutupan sebelumnya (9.377,92) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 5,121% (0,0 bp dari sesi sebelumnya) | −0,50 | 10% | −0,25 |
-| VIX (volatilitas) | 24,01 (+4,8% dari sesi sebelumnya); VXN (Nasdaq-100) 33,40 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $93,02 (+0,63% dari sesi sebelumnya) | −0,32 | 5% | −0,08 |
-| Indeks dolar | 0,00% dari penutupan sebelumnya (103,55) | 0,00 | 5% | 0,00 |
-| Tren Nasdaq 5 sesi | −3,86% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,60 dari 22 kejadian bernilai; 25% bobot bullish | −1,33 | 30% | −2,00 |
+| Futures Nasdaq-100 | −1,46% dari penutupan sebelumnya (26.887,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,15% dari penutupan sebelumnya (7.353,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −3,00% dari penutupan sebelumnya (9.322,07) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 5,123% (+0,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
+| VIX (volatilitas) | 24,18 (+5,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,57 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $93,03 (+0,64% dari sesi sebelumnya) | −0,32 | 5% | −0,08 |
+| Indeks dolar | −0,07% dari penutupan sebelumnya (103,48) | −0,18 | 5% | −0,04 |
+| Tren Nasdaq 5 sesi | −4,11% dalam 5 sesi; 13,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.617; resistensi 24.774 / 25.039; support 24.353 / 24.196.
-Perkiraan pembukaan dari futures: 24.189 (−1,31%).
-Rentang wajar 1σ (VXN): 23.994 sampai 25.025.
+Perkiraan pembukaan dari futures: 24.152 (−1,46%).
+Rentang wajar 1σ (VXN): 23.991 sampai 25.028.
 
 ## Berita paling berdampak
 - **−2,2** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Stock Market Today: Nvidia’s Board Shuts the Door on Huang as Chip Stocks Sink Before a Make-or-Break AI Week (ChartMill). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,0** Is the US Stock Selloff Over? Wall Street Debates AI Bubble as S&P 500, Chip Stocks Diverge for 2027 (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,9** Is the US Stock Selloff Over? Wall Street Debates AI Bubble as S&P 500, Chip Stocks Diverge for 2027 (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** [New York Stock Market] All Lower Despite Semiconductor Rebound (아시아경제). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,8** Nvidia Sets Up Board Committee To Oversee National Security, Chip Export Controls — Names Suzanne Nora Johnson Chair (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,8** Nvidia Forms Export Control Board Committee After Chip Curbs (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
