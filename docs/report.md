@@ -1,33 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T03:50:19+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T03:51:38+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 42%, 33% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **55%** (skor −2,1 dari ±10, keyakinan 47%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+0,90): +0,45% dari penutupan sebelumnya (27.196,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **VIX (volatilitas)** (−0,60): 24,73 (−2,9% dari sesi sebelumnya); VXN (Nasdaq-100) 33,62. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,11% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+0,70): +0,35% dari penutupan sebelumnya (27.171,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **VIX (volatilitas)** (−0,60): 24,69 (−3,0% dari sesi sebelumnya); VXN (Nasdaq-100) 33,59. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,18% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Minyak Brent** (+0,38): $88,88 (−4,57% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Berita berbobot** (+0,33): Skor rata-rata +0,26 dari 31 kejadian bernilai; 56% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,21 dari 32 kejadian bernilai; 54% bobot bullish | +0,18 | 30% | +0,27 |
-| Futures Nasdaq-100 | +0,45% dari penutupan sebelumnya (27.196,50) | +0,90 | 20% | +0,90 |
-| Futures S&P 500 | −0,16% dari penutupan sebelumnya (7.347,00) | −0,40 | 5% | −0,10 |
-| Semikonduktor (SOX) | −0,24% dari penutupan sebelumnya (9.619,85) | −0,24 | 10% | −0,12 |
+| Berita berbobot | skor rata-rata +0,26 dari 31 kejadian bernilai; 56% bobot bullish | +0,22 | 30% | +0,33 |
+| Futures Nasdaq-100 | +0,35% dari penutupan sebelumnya (27.171,25) | +0,70 | 20% | +0,70 |
+| Futures S&P 500 | −0,22% dari penutupan sebelumnya (7.342,50) | −0,55 | 5% | −0,14 |
+| Semikonduktor (SOX) | −0,39% dari penutupan sebelumnya (9.605,30) | −0,39 | 10% | −0,20 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
-| VIX (volatilitas) | 24,73 (−2,9% dari sesi sebelumnya); VXN (Nasdaq-100) 33,62 | −1,20 | 10% | −0,60 |
+| VIX (volatilitas) | 24,69 (−3,0% dari sesi sebelumnya); VXN (Nasdaq-100) 33,59 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $88,88 (−4,57% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,28% dari penutupan sebelumnya (103,78) | +0,70 | 5% | +0,18 |
-| Tren Nasdaq 5 sesi | −4,11% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.438 (+0,45%).
-Rentang wajar 1σ (VXN): 23.813 sampai 24.844.
+Perkiraan pembukaan dari futures: 24.414 (+0,35%).
+Rentang wajar 1σ (VXN): 23.814 sampai 24.843.
 
 ## Berita paling berdampak
 - **−1,7** When Will the AI Bubble Burst? Strategists Predict 2027 to 2028, Goldman Sachs Sees Capex Hitting $1.4 Trillion (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
@@ -37,10 +38,10 @@ Rentang wajar 1σ (VXN): 23.813 sampai 24.844.
 - **−1,3** Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,3** US Stocks Diverge: Dow Falls 369 Points in Continued Slide, Nvidia's Strong Earnings Underpin Nasdaq (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,2** Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−1,2** Has a Stock Market Crash Started? Here's What Sobering Lessons From the Dot-Com Bust Say Comes Next (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** ‘Almost all’ US Fed policymakers saw further interest rate hikes as likely (The Straits Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** Couple of policymakers see more than a 25 bp rate hike in December - Fed minutes (StreetInsider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−0,9** Has a Stock Market Crash Started? Here's What Sobering Lessons From the Dot-Com Bust Say Comes Next (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** The Bond Rally Has Yet to Break the Downtrend (https://www.connectmoney.com/). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 
 ## Kalender risiko
