@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T23:00:14+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-18T23:01:14+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 41%, 29% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **48%**, turun **52%** (skor −1,6 dari ±10, keyakinan 39%, 29% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (+0,84): Skor rata-rata +0,67 dari 28 kejadian bernilai; 68% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 25,22 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 34,06. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,20% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $89,36 (−4,06% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Berita berbobot** (+1,26): Skor rata-rata +1,00 dari 23 kejadian bernilai; 76% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 25,28 (−0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 34,08. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,25% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $89,37 (−4,05% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,67 dari 28 kejadian bernilai; 68% bobot bullish | +0,56 | 30% | +0,84 |
-| Futures Nasdaq-100 | −0,09% dari penutupan sebelumnya (27.051,50) | −0,18 | 20% | −0,18 |
-| Futures S&P 500 | −0,43% dari penutupan sebelumnya (7.327,50) | −1,07 | 5% | −0,27 |
-| Semikonduktor (SOX) | +0,24% dari penutupan sebelumnya (9.666,47) | +0,24 | 10% | +0,12 |
+| Berita berbobot | skor rata-rata +1,00 dari 23 kejadian bernilai; 76% bobot bullish | +0,84 | 30% | +1,26 |
+| Futures Nasdaq-100 | +0,08% dari penutupan sebelumnya (27.096,75) | +0,16 | 20% | +0,16 |
+| Futures S&P 500 | −0,34% dari penutupan sebelumnya (7.334,00) | −0,85 | 5% | −0,21 |
+| Semikonduktor (SOX) | +0,19% dari penutupan sebelumnya (9.660,94) | +0,19 | 10% | +0,10 |
 | Yield obligasi 10 tahun | 5,072% (−3,1 bp dari sesi sebelumnya) | +0,28 | 10% | +0,14 |
-| VIX (volatilitas) | 25,22 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 34,06 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $89,36 (−4,06% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,32% dari penutupan sebelumnya (103,82) | +0,80 | 5% | +0,20 |
-| Tren Nasdaq 5 sesi | −4,20% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 25,28 (−0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 34,08 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $89,37 (−4,05% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,33% dari penutupan sebelumnya (103,83) | +0,82 | 5% | +0,20 |
+| Tren Nasdaq 5 sesi | −4,25% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.306 (−0,09%).
-Rentang wajar 1σ (VXN): 23.806 sampai 24.850.
+Perkiraan pembukaan dari futures: 24.348 (+0,08%).
+Rentang wajar 1σ (VXN): 23.806 sampai 24.851.
 
 ## Berita paling berdampak
 - **+1,9** Stock Market Today: Nasdaq, S&P 500 Futures Rise as Nvidia Shares Jump After Strong Earnings Report; Anthropic IPO on Deck (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
