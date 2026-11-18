@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T08:48:16+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T08:49:16+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
-Peluang indeks naik **45%**, turun **55%** (skor −2,3 dari ±10, keyakinan 65%, 82% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **45%**, turun **55%** (skor −2,2 dari ±10, keyakinan 60%, 71% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
@@ -14,22 +14,22 @@ Peluang indeks naik **45%**, turun **55%** (skor −2,3 dari ±10, keyakinan 65%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,14 dari 28 kejadian bernilai; 48% bobot bullish | −0,11 | 30% | −0,17 |
-| Futures Nasdaq-100 | −0,13% dari penutupan sebelumnya (27.249,75) | −0,26 | 20% | −0,26 |
+| Futures Nasdaq-100 | −0,10% dari penutupan sebelumnya (27.257,25) | −0,20 | 20% | −0,20 |
 | Futures S&P 500 | −0,69% dari penutupan sebelumnya (7.387,50) | −1,72 | 5% | −0,43 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
 | Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
 | VIX (volatilitas) | 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,70 | 10% | −0,85 |
 | Minyak Brent | $92,92 (+0,52% dari sesi sebelumnya) | −0,26 | 5% | −0,07 |
-| Indeks dolar | +0,06% dari penutupan sebelumnya (103,61) | +0,15 | 5% | +0,04 |
+| Indeks dolar | +0,07% dari penutupan sebelumnya (103,62) | +0,18 | 5% | +0,04 |
 | Tren Nasdaq 5 sesi | −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.297 (−0,13%).
+Perkiraan pembukaan dari futures: 24.304 (−0,10%).
 Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
-- **+2,6** Asian Stocks to Fall, Nvidia Sales Outlook Beats: Markets Wrap (Bloomberg.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+2,5** Asian Stocks to Fall, Nvidia Sales Outlook Beats: Markets Wrap (Bloomberg.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+2,1** Nvidia shares rebound as earnings, forecasts beat estimates (Capital Brief). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,7** Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty (CoinDesk). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,7** Nvidia Turmoil Rattles Wall Street: The Numbers Behind the Chip Stock Slump (Around Prague). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
