@@ -1,34 +1,34 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-19T00:41:08+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T00:42:09+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **52%**, turun **48%** (skor −0,5 dari ±10, keyakinan 31%, 17% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **52%**, turun **48%** (skor −0,4 dari ±10, keyakinan 30%, 17% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,60): +0,80% dari penutupan sebelumnya (27.292,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,70): +0,85% dari penutupan sebelumnya (27.305,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (+0,70): Skor rata-rata +0,57 dari 28 kejadian bernilai; 68% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 23,85 (−6,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,27. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,12% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $88,41 (−5,08% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **VIX (volatilitas)** (−0,60): 23,82 (−6,4% dari sesi sebelumnya); VXN (Nasdaq-100) 33,21. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,10% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $88,49 (−4,99% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,57 dari 28 kejadian bernilai; 68% bobot bullish | +0,47 | 30% | +0,70 |
-| Futures Nasdaq-100 | +0,80% dari penutupan sebelumnya (27.292,75) | +1,60 | 20% | +1,60 |
-| Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.371,50) | +0,42 | 5% | +0,11 |
-| Semikonduktor (SOX) | −0,21% dari penutupan sebelumnya (9.622,18) | −0,21 | 10% | −0,11 |
+| Futures Nasdaq-100 | +0,85% dari penutupan sebelumnya (27.305,75) | +1,70 | 20% | +1,70 |
+| Futures S&P 500 | +0,20% dari penutupan sebelumnya (7.374,00) | +0,50 | 5% | +0,12 |
+| Semikonduktor (SOX) | −0,16% dari penutupan sebelumnya (9.627,53) | −0,16 | 10% | −0,08 |
 | Yield obligasi 10 tahun | 5,068% (−3,5 bp dari sesi sebelumnya) | +0,38 | 10% | +0,19 |
-| VIX (volatilitas) | 23,85 (−6,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,27 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,41 (−5,08% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 23,82 (−6,4% dari sesi sebelumnya); VXN (Nasdaq-100) 33,21 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $88,49 (−4,99% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,30% dari penutupan sebelumnya (103,80) | +0,75 | 5% | +0,19 |
-| Tren Nasdaq 5 sesi | −4,12% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −4,10% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.523 (+0,80%).
-Rentang wajar 1σ (VXN): 23.818 sampai 24.838.
+Perkiraan pembukaan dari futures: 24.535 (+0,85%).
+Rentang wajar 1σ (VXN): 23.819 sampai 24.837.
 
 ## Berita paling berdampak
 - **−2,0** Two-year Treasury note yield climbs as Waller warns that Fed may need to ‘shock people’ with half-point rate hike (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
