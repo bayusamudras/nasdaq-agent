@@ -1,37 +1,37 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T04:04:35+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T04:05:35+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,0 dari ±10, keyakinan 42%, 22% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **38%**, turun **62%** (skor −4,1 dari ±10, keyakinan 42%, 22% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,02): +0,51% dari penutupan sebelumnya (27.213,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **VIX (volatilitas)** (−0,60): 24,66 (−3,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,51. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+0,96): +0,48% dari penutupan sebelumnya (27.204,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **VIX (volatilitas)** (−0,60): 24,58 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,47. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Berita berbobot** (+0,38): Skor rata-rata +0,30 dari 30 kejadian bernilai; 54% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **Minyak Brent** (+0,38): $88,83 (−4,63% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $88,78 (−4,68% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,30 dari 30 kejadian bernilai; 54% bobot bullish | +0,25 | 30% | +0,38 |
-| Futures Nasdaq-100 | +0,51% dari penutupan sebelumnya (27.213,75) | +1,02 | 20% | +1,02 |
-| Futures S&P 500 | −0,15% dari penutupan sebelumnya (7.347,75) | −0,37 | 5% | −0,09 |
+| Futures Nasdaq-100 | +0,48% dari penutupan sebelumnya (27.204,75) | +0,96 | 20% | +0,96 |
+| Futures S&P 500 | −0,18% dari penutupan sebelumnya (7.346,00) | −0,45 | 5% | −0,11 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
-| VIX (volatilitas) | 24,66 (−3,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,51 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,83 (−4,63% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 24,58 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,47 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $88,78 (−4,68% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,27% dari penutupan sebelumnya (103,77) | +0,68 | 5% | +0,17 |
 | Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.554 (+0,51%).
-Rentang wajar 1σ (VXN): 23.914 sampai 24.946.
+Perkiraan pembukaan dari futures: 24.547 (+0,48%).
+Rentang wajar 1σ (VXN): 23.915 sampai 24.945.
 
 ## Berita paling berdampak
-- **−2,7** Fed Minutes Show Almost All Officials Expect More Rate Hikes (Bloomberg.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−2,6** Fed Minutes Show Almost All Officials Expect More Rate Hikes (Bloomberg.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,6** Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,9** Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,9** ‘Almost all’ US Fed policymakers saw further interest rate hikes as likely (The Straits Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
