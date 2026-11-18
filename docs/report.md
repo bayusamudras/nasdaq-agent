@@ -1,34 +1,34 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-19T01:47:32+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T01:48:32+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **51%**, turun **49%** (skor −0,7 dari ±10, keyakinan 31%, 17% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **51%**, turun **49%** (skor −0,8 dari ±10, keyakinan 32%, 18% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,28): +0,64% dari penutupan sebelumnya (27.247,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (+0,68): Skor rata-rata +0,54 dari 25 kejadian bernilai; 68% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 23,63 (−7,2% dari sesi sebelumnya); VXN (Nasdaq-100) 33,09. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −3,70% dalam 5 sesi; 11,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $88,47 (−5,01% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures Nasdaq-100** (+1,18): +0,59% dari penutupan sebelumnya (27.236,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (+0,72): Skor rata-rata +0,58 dari 26 kejadian bernilai; 70% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 23,67 (−7,0% dari sesi sebelumnya); VXN (Nasdaq-100) 33,07. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,76% dalam 5 sesi; 11,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $88,49 (−4,99% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,54 dari 25 kejadian bernilai; 68% bobot bullish | +0,45 | 30% | +0,68 |
-| Futures Nasdaq-100 | +0,64% dari penutupan sebelumnya (27.247,75) | +1,28 | 20% | +1,28 |
-| Futures S&P 500 | +0,11% dari penutupan sebelumnya (7.367,00) | +0,27 | 5% | +0,07 |
-| Semikonduktor (SOX) | +0,16% dari penutupan sebelumnya (9.658,42) | +0,16 | 10% | +0,08 |
+| Berita berbobot | skor rata-rata +0,58 dari 26 kejadian bernilai; 70% bobot bullish | +0,48 | 30% | +0,72 |
+| Futures Nasdaq-100 | +0,59% dari penutupan sebelumnya (27.236,00) | +1,18 | 20% | +1,18 |
+| Futures S&P 500 | +0,08% dari penutupan sebelumnya (7.365,00) | +0,20 | 5% | +0,05 |
+| Semikonduktor (SOX) | +0,05% dari penutupan sebelumnya (9.648,01) | +0,05 | 10% | +0,03 |
 | Yield obligasi 10 tahun | 5,060% (−4,3 bp dari sesi sebelumnya) | +0,57 | 10% | +0,28 |
-| VIX (volatilitas) | 23,63 (−7,2% dari sesi sebelumnya); VXN (Nasdaq-100) 33,09 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,47 (−5,01% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 23,67 (−7,0% dari sesi sebelumnya); VXN (Nasdaq-100) 33,07 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $88,49 (−4,99% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,25% dari penutupan sebelumnya (103,75) | +0,62 | 5% | +0,15 |
-| Tren Nasdaq 5 sesi | −3,70% dalam 5 sesi; 11,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −3,76% dalam 5 sesi; 11,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.484 (+0,64%).
-Rentang wajar 1σ (VXN): 23.821 sampai 24.836.
+Perkiraan pembukaan dari futures: 24.472 (+0,59%).
+Rentang wajar 1σ (VXN): 23.822 sampai 24.835.
 
 ## Berita paling berdampak
 - **−1,8** Two-year Treasury note yield climbs as Waller warns that Fed may need to ‘shock people’ with half-point rate hike (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 23.821 sampai 24.836.
 - **−0,8** Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Tumble As Customer Shock Clouds AI Outlook (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Fed Governor Christopher Waller hints at bigger rate hike (Washington Examiner). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,8** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,8** Stock Market Today, November 18, 2026: Nvidia Earnings Fail to Calm Investors as Gold and Oil Fall (Eurasia Business News). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **+0,7** Stock Market Today, November 18, 2026: Nvidia Earnings Fail to Calm Investors as Gold and Oil Fall (Eurasia Business News). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+0,7** Oil prices fall as higher US crude stocks temper supply risks (American Journal of Transportation). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 
 ## Kalender risiko
