@@ -1,48 +1,36 @@
-# Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T21:56:18+07:00 · sesi Rabu 18 Nov (berjalan)_
+# Bias Nasdaq: NETRAL
+_Diperbarui 2026-11-18T21:57:40+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 51%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **51%**, turun **49%** (skor −0,8 dari ±10, keyakinan 50%, 57% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−0,68): −0,34% dari penutupan sebelumnya (26.983,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−0,60): 25,68 (+0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 33,95. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Berita berbobot** (+0,51): Skor rata-rata +0,41 dari 27 kejadian bernilai; 61% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,13% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $88,99 (−4,46% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **VIX (volatilitas)** (−0,60): 25,90 (+1,7% dari sesi sebelumnya); VXN (Nasdaq-100) 34,43. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (−0,58): −0,29% dari penutupan sebelumnya (26.995,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,81% dalam 5 sesi; 11,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $89,18 (−4,25% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Semikonduktor (SOX)** (+0,34): +0,68% dari penutupan sebelumnya (9.708,03). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,41 dari 27 kejadian bernilai; 61% bobot bullish | +0,34 | 30% | +0,51 |
-| Futures Nasdaq-100 | −0,34% dari penutupan sebelumnya (26.983,75) | −0,68 | 20% | −0,68 |
-| Futures S&P 500 | −0,28% dari penutupan sebelumnya (7.338,50) | −0,70 | 5% | −0,18 |
-| Semikonduktor (SOX) | 0,00% dari penutupan sebelumnya (9.642,77) | 0,00 | 10% | 0,00 |
-| Yield obligasi 10 tahun | 5,074% (−2,9 bp dari sesi sebelumnya) | +0,22 | 10% | +0,11 |
-| VIX (volatilitas) | 25,68 (+0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 33,95 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,99 (−4,46% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,21% dari penutupan sebelumnya (103,71) | +0,52 | 5% | +0,13 |
-| Tren Nasdaq 5 sesi | −4,13% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata 0,00 dari 0 kejadian bernilai; 50% bobot bullish | 0,00 | 30% | 0,00 |
+| Futures Nasdaq-100 | −0,29% dari penutupan sebelumnya (26.995,75) | −0,58 | 20% | −0,58 |
+| Futures S&P 500 | −0,29% dari penutupan sebelumnya (7.337,50) | −0,72 | 5% | −0,18 |
+| Semikonduktor (SOX) | +0,68% dari penutupan sebelumnya (9.708,03) | +0,68 | 10% | +0,34 |
+| Yield obligasi 10 tahun | 5,064% (−3,9 bp dari sesi sebelumnya) | +0,47 | 10% | +0,23 |
+| VIX (volatilitas) | 25,90 (+1,7% dari sesi sebelumnya); VXN (Nasdaq-100) 34,43 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $89,18 (−4,25% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,22% dari penutupan sebelumnya (103,72) | +0,55 | 5% | +0,14 |
+| Tren Nasdaq 5 sesi | −3,81% dalam 5 sesi; 11,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.246 (−0,34%).
-Rentang wajar 1σ (VXN): 23.808 sampai 24.849.
+Perkiraan pembukaan dari futures: 24.258 (−0,29%).
+Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
-- **+1,6** AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,2** Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,0** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,9** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−0,9** Futures Mixed; Nvidia Tops, Fed's Waller Warns Of 'Shock' Rate Hike (Investor's Business Daily). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **+0,8** Nvidia shares rebound as earnings, outlook beat estimates (Capital Brief). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+0,8** Asia report: Tech stocks rebound after Nvidia earnings (Sharecast.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **+0,8** Dell stock rises as Nvidia rally lifts chipmakers, Citi backs shares (TradingView). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **+0,8** IREN, CoreWeave and Nebius Rally as Nvidia's Blowout Quarter Revives Neocloud Trade (BigGo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−0,7** Dow Drops Nearly 860 Points as Stock Market Selloff Deepens Ahead of Nvidia Earnings (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,7** Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty (CoinDesk). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+0,7** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 
 ## Kalender risiko
 - 2026-11-17: Laporan laba Nvidia (NVDA) (tinggi)
