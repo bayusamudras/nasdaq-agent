@@ -1,33 +1,33 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-18T19:47:41+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T19:48:42+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
-Peluang indeks naik **61%**, turun **39%** (skor +1,9 dari ±10, keyakinan 64%, 83% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 65%, 83% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,14): +0,57% dari penutupan sebelumnya (27.230,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (+0,98): Skor rata-rata +0,78 dari 26 kejadian bernilai; 64% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 24,26 (−4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+1,36): +0,68% dari penutupan sebelumnya (27.258,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (+0,85): Skor rata-rata +0,68 dari 25 kejadian bernilai; 62% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 24,20 (−5,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $90,21 (−3,15% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $90,30 (−3,05% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,78 dari 26 kejadian bernilai; 64% bobot bullish | +0,65 | 30% | +0,98 |
-| Futures Nasdaq-100 | +0,57% dari penutupan sebelumnya (27.230,25) | +1,14 | 20% | +1,14 |
-| Futures S&P 500 | +0,20% dari penutupan sebelumnya (7.374,00) | +0,50 | 5% | +0,12 |
+| Berita berbobot | skor rata-rata +0,68 dari 25 kejadian bernilai; 62% bobot bullish | +0,57 | 30% | +0,85 |
+| Futures Nasdaq-100 | +0,68% dari penutupan sebelumnya (27.258,75) | +1,36 | 20% | +1,36 |
+| Futures S&P 500 | +0,29% dari penutupan sebelumnya (7.380,25) | +0,72 | 5% | +0,18 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
 | Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
-| VIX (volatilitas) | 24,26 (−4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,21 (−3,15% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,35% dari penutupan sebelumnya (103,85) | +0,87 | 5% | +0,22 |
+| VIX (volatilitas) | 24,20 (−5,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,30 (−3,05% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,34% dari penutupan sebelumnya (103,84) | +0,85 | 5% | +0,21 |
 | Tren Nasdaq 5 sesi | −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.467 (+0,57%).
+Perkiraan pembukaan dari futures: 24.494 (+0,68%).
 Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
@@ -35,7 +35,6 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **+1,4** U.S. stock futures rise as Nvidia earnings beat lifts AI sentiment (TradingView). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,2** Stock Market Today: Nvidia (NVDA) Beats and Raises Without Huang as Software Stocks Buckle Under the Anthropic Threat (ChartMill). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Tumble As Customer Shock Clouds AI Outlook (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,1** Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead (Investor's Business Daily). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,0** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,0** AI Stocks Face Twin Test: Nvidia's Strong Earnings Fail to Sustain Buying, Anthropic IPO in Focus (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,0** Nvidia shares rebound as earnings, outlook beat estimates (Capital Brief). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -43,6 +42,7 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **+0,8** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+0,7** Oil Prices Decline as Rising US Inventories Offset Supply Risks From Iran Conflict (Yahoo Finance). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,6** Anthropic IPO signals AI market maturity, but investment bubble poses risks: OpenAI chairman (The Business Times). Kekhawatiran valuasi membuat investor lebih cepat menjual saat ada kabar buruk dan menahan pembelian saat kabar baik.
+- **−0,6** Trump faces escalating oil crisis over Iran blocking Strait of Hormuz (ABC News - Breaking News, Latest News and Videos). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 
 ## Kalender risiko
 - 2026-11-17: Laporan laba Nvidia (NVDA) (tinggi)
