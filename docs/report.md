@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-18T13:26:08+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T13:27:08+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
 Peluang indeks naik **56%**, turun **44%** (skor +0,6 dari ±10, keyakinan 57%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **56%**, turun **44%** (skor +0,6 dari ±10, keyakinan 57%, 
 
 ## Alasan utama
 - **VIX (volatilitas)** (−0,85): 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures Nasdaq-100** (+0,80): +0,40% dari penutupan sebelumnya (27.183,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+0,82): +0,41% dari penutupan sebelumnya (27.187,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Berita berbobot** (+0,35): Skor rata-rata +0,28 dari 23 kejadian bernilai; 57% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 
@@ -15,18 +15,18 @@ Peluang indeks naik **56%**, turun **44%** (skor +0,6 dari ±10, keyakinan 57%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,28 dari 23 kejadian bernilai; 57% bobot bullish | +0,23 | 30% | +0,35 |
-| Futures Nasdaq-100 | +0,40% dari penutupan sebelumnya (27.183,75) | +0,80 | 20% | +0,80 |
-| Futures S&P 500 | +0,18% dari penutupan sebelumnya (7.372,00) | +0,45 | 5% | +0,11 |
+| Futures Nasdaq-100 | +0,41% dari penutupan sebelumnya (27.187,25) | +0,82 | 20% | +0,82 |
+| Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.371,50) | +0,42 | 5% | +0,11 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
 | Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
 | VIX (volatilitas) | 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $92,31 (−0,89% dari sesi sebelumnya) | +0,45 | 5% | +0,11 |
+| Minyak Brent | $92,28 (−0,92% dari sesi sebelumnya) | +0,46 | 5% | +0,12 |
 | Indeks dolar | +0,17% dari penutupan sebelumnya (103,66) | +0,42 | 5% | +0,11 |
 | Tren Nasdaq 5 sesi | −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.426 (+0,40%).
+Perkiraan pembukaan dari futures: 24.428 (+0,41%).
 Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
