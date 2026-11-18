@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T04:23:44+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T04:24:44+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,1 dari ±10, keyakinan 42%, 22% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 42%, 22% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+0,82): +0,41% dari penutupan sebelumnya (27.186,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **VIX (volatilitas)** (−0,60): 24,54 (−3,6% dari sesi sebelumnya); VXN (Nasdaq-100) 33,19. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Berita berbobot** (+0,57): Skor rata-rata +0,46 dari 30 kejadian bernilai; 58% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+0,84): +0,42% dari penutupan sebelumnya (27.190,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (+0,72): Skor rata-rata +0,58 dari 32 kejadian bernilai; 61% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 24,53 (−3,6% dari sesi sebelumnya); VXN (Nasdaq-100) 33,16. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $89,00 (−4,44% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $89,03 (−4,41% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,46 dari 30 kejadian bernilai; 58% bobot bullish | +0,38 | 30% | +0,57 |
-| Futures Nasdaq-100 | +0,41% dari penutupan sebelumnya (27.186,00) | +0,82 | 20% | +0,82 |
-| Futures S&P 500 | −0,28% dari penutupan sebelumnya (7.338,75) | −0,70 | 5% | −0,18 |
+| Berita berbobot | skor rata-rata +0,58 dari 32 kejadian bernilai; 61% bobot bullish | +0,48 | 30% | +0,72 |
+| Futures Nasdaq-100 | +0,42% dari penutupan sebelumnya (27.190,00) | +0,84 | 20% | +0,84 |
+| Futures S&P 500 | −0,28% dari penutupan sebelumnya (7.338,25) | −0,70 | 5% | −0,18 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
-| VIX (volatilitas) | 24,54 (−3,6% dari sesi sebelumnya); VXN (Nasdaq-100) 33,19 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $89,00 (−4,44% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 24,53 (−3,6% dari sesi sebelumnya); VXN (Nasdaq-100) 33,16 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $89,03 (−4,41% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,29% dari penutupan sebelumnya (103,79) | +0,72 | 5% | +0,18 |
 | Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.530 (+0,41%).
-Rentang wajar 1σ (VXN): 23.919 sampai 24.941.
+Perkiraan pembukaan dari futures: 24.532 (+0,42%).
+Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 
 ## Berita paling berdampak
 - **−2,6** Fed Minutes Show Almost All Officials Expect More Rate Hikes (Bloomberg.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
