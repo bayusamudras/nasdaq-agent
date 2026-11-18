@@ -1,38 +1,37 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-18T20:39:02+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T20:40:02+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
-Peluang indeks naik **59%**, turun **41%** (skor +1,2 dari ±10, keyakinan 59%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **58%**, turun **42%** (skor +1,1 dari ±10, keyakinan 58%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,36): +0,68% dari penutupan sebelumnya (27.260,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (+0,93): Skor rata-rata +0,75 dari 25 kejadian bernilai; 63% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 24,65 (−3,2% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+1,40): +0,70% dari penutupan sebelumnya (27.263,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (+0,77): Skor rata-rata +0,61 dari 24 kejadian bernilai; 61% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 24,58 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Yield obligasi 10 tahun** (−0,43): 5,117% (+1,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,75 dari 25 kejadian bernilai; 63% bobot bullish | +0,62 | 30% | +0,93 |
-| Futures Nasdaq-100 | +0,68% dari penutupan sebelumnya (27.260,25) | +1,36 | 20% | +1,36 |
-| Futures S&P 500 | +0,24% dari penutupan sebelumnya (7.377,00) | +0,60 | 5% | +0,15 |
+| Berita berbobot | skor rata-rata +0,61 dari 24 kejadian bernilai; 61% bobot bullish | +0,51 | 30% | +0,77 |
+| Futures Nasdaq-100 | +0,70% dari penutupan sebelumnya (27.263,75) | +1,40 | 20% | +1,40 |
+| Futures S&P 500 | +0,25% dari penutupan sebelumnya (7.377,50) | +0,62 | 5% | +0,15 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
 | Yield obligasi 10 tahun | 5,117% (+1,4 bp dari sesi sebelumnya) | −0,85 | 10% | −0,43 |
-| VIX (volatilitas) | 24,65 (−3,2% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $89,87 (−3,51% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 24,58 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $89,79 (−3,60% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,30% dari penutupan sebelumnya (103,80) | +0,75 | 5% | +0,19 |
 | Tren Nasdaq 5 sesi | −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.494 (+0,68%).
+Perkiraan pembukaan dari futures: 24.499 (+0,70%).
 Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
 - **+2,6** Asian chip stocks rebound after Nvidia earnings beat expectations (Anadolu Ajansı). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+1,5** Nvidia Rises Over 3% Pre-Market as Q3 Results and Guidance Both Beat Expectations, Wall Street Bullish on Growth but Wary of Multiple Risks (TradingKey). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,2** Stock Market Today: Nvidia (NVDA) Beats and Raises Without Huang as Software Stocks Buckle Under the Anthropic Threat (ChartMill). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Tumble As Customer Shock Clouds AI Outlook (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -43,6 +42,7 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **+0,7** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+0,7** Oil Prices Decline as Rising US Inventories Offset Supply Risks From Iran Conflict (Yahoo Finance). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,6** Anthropic IPO signals AI market maturity, but investment bubble poses risks: OpenAI chairman (The Business Times). Kekhawatiran valuasi membuat investor lebih cepat menjual saat ada kabar buruk dan menahan pembelian saat kabar baik.
+- **−0,6** Trump faces escalating oil crisis over Iran blocking Strait of Hormuz (ABC News - Breaking News, Latest News and Videos). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 
 ## Kalender risiko
 - 2026-11-17: Laporan laba Nvidia (NVDA) (tinggi)
