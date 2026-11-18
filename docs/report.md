@@ -1,33 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T02:50:01+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T02:51:01+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **43%**, turun **57%** (skor −2,8 dari ±10, keyakinan 48%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **43%**, turun **57%** (skor −2,9 dari ±10, keyakinan 48%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **VIX (volatilitas)** (−0,60): 24,44 (−4,0% dari sesi sebelumnya); VXN (Nasdaq-100) 33,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,15% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures Nasdaq-100** (+0,46): +0,23% dari penutupan sebelumnya (27.137,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **VIX (volatilitas)** (−0,60): 24,49 (−3,8% dari sesi sebelumnya); VXN (Nasdaq-100) 33,54. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,24% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+0,48): +0,24% dari penutupan sebelumnya (27.140,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Minyak Brent** (+0,38): $89,10 (−4,34% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Semikonduktor (SOX)** (−0,36): −0,72% dari penutupan sebelumnya (9.573,54). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata 0,00 dari 29 kejadian bernilai; 51% bobot bullish | 0,00 | 30% | 0,00 |
-| Futures Nasdaq-100 | +0,23% dari penutupan sebelumnya (27.137,75) | +0,46 | 20% | +0,46 |
-| Futures S&P 500 | −0,31% dari penutupan sebelumnya (7.336,25) | −0,77 | 5% | −0,19 |
-| Semikonduktor (SOX) | −0,51% dari penutupan sebelumnya (9.593,79) | −0,51 | 10% | −0,26 |
+| Futures Nasdaq-100 | +0,24% dari penutupan sebelumnya (27.140,25) | +0,48 | 20% | +0,48 |
+| Futures S&P 500 | −0,30% dari penutupan sebelumnya (7.336,75) | −0,75 | 5% | −0,19 |
+| Semikonduktor (SOX) | −0,72% dari penutupan sebelumnya (9.573,54) | −0,72 | 10% | −0,36 |
 | Yield obligasi 10 tahun | 5,068% (−3,5 bp dari sesi sebelumnya) | +0,38 | 10% | +0,19 |
-| VIX (volatilitas) | 24,44 (−4,0% dari sesi sebelumnya); VXN (Nasdaq-100) 33,53 | −1,20 | 10% | −0,60 |
+| VIX (volatilitas) | 24,49 (−3,8% dari sesi sebelumnya); VXN (Nasdaq-100) 33,54 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $89,10 (−4,34% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,36% dari penutupan sebelumnya (103,87) | +0,90 | 5% | +0,22 |
-| Tren Nasdaq 5 sesi | −4,15% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | +0,37% dari penutupan sebelumnya (103,87) | +0,92 | 5% | +0,23 |
+| Tren Nasdaq 5 sesi | −4,24% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.384 (+0,23%).
-Rentang wajar 1σ (VXN): 23.815 sampai 24.842.
+Perkiraan pembukaan dari futures: 24.387 (+0,24%).
+Rentang wajar 1σ (VXN): 23.814 sampai 24.842.
 
 ## Berita paling berdampak
 - **−1,9** When Will the AI Bubble Burst? Strategists Predict 2027 to 2028, Goldman Sachs Sees Capex Hitting $1.4 Trillion (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
