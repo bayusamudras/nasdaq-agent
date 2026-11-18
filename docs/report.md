@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T02:26:42+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T02:27:42+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 46%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −1,9 dari ±10, keyakinan 42%, 33% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+0,70): +0,35% dari penutupan sebelumnya (27.171,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **VIX (volatilitas)** (−0,60): 24,39 (−4,2% dari sesi sebelumnya); VXN (Nasdaq-100) 33,57. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,00% dalam 5 sesi; 11,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $88,78 (−4,68% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures Nasdaq-100** (+0,74): +0,37% dari penutupan sebelumnya (27.175,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **VIX (volatilitas)** (−0,60): 24,21 (−4,9% dari sesi sebelumnya); VXN (Nasdaq-100) 33,27. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −3,93% dalam 5 sesi; 11,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $88,80 (−4,66% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 - **Berita berbobot** (+0,30): Skor rata-rata +0,24 dari 28 kejadian bernilai; 59% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,24 dari 28 kejadian bernilai; 59% bobot bullish | +0,20 | 30% | +0,30 |
-| Futures Nasdaq-100 | +0,35% dari penutupan sebelumnya (27.171,25) | +0,70 | 20% | +0,70 |
-| Futures S&P 500 | −0,17% dari penutupan sebelumnya (7.346,25) | −0,42 | 5% | −0,11 |
-| Semikonduktor (SOX) | −0,29% dari penutupan sebelumnya (9.615,11) | −0,29 | 10% | −0,14 |
+| Futures Nasdaq-100 | +0,37% dari penutupan sebelumnya (27.175,75) | +0,74 | 20% | +0,74 |
+| Futures S&P 500 | −0,19% dari penutupan sebelumnya (7.344,75) | −0,47 | 5% | −0,12 |
+| Semikonduktor (SOX) | −0,11% dari penutupan sebelumnya (9.632,37) | −0,11 | 10% | −0,06 |
 | Yield obligasi 10 tahun | 5,060% (−4,3 bp dari sesi sebelumnya) | +0,57 | 10% | +0,28 |
-| VIX (volatilitas) | 24,39 (−4,2% dari sesi sebelumnya); VXN (Nasdaq-100) 33,57 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,78 (−4,68% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,33% dari penutupan sebelumnya (103,83) | +0,82 | 5% | +0,20 |
-| Tren Nasdaq 5 sesi | −4,00% dalam 5 sesi; 11,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 24,21 (−4,9% dari sesi sebelumnya); VXN (Nasdaq-100) 33,27 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $88,80 (−4,66% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,34% dari penutupan sebelumnya (103,84) | +0,85 | 5% | +0,21 |
+| Tren Nasdaq 5 sesi | −3,93% dalam 5 sesi; 11,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.414 (+0,35%).
-Rentang wajar 1σ (VXN): 23.814 sampai 24.843.
+Perkiraan pembukaan dari futures: 24.418 (+0,37%).
+Rentang wajar 1σ (VXN): 23.818 sampai 24.838.
 
 ## Berita paling berdampak
 - **−1,9** When Will the AI Bubble Burst? Strategists Predict 2027 to 2028, Goldman Sachs Sees Capex Hitting $1.4 Trillion (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
