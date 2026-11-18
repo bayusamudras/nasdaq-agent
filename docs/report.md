@@ -1,33 +1,33 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-18T21:42:18+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-18T21:43:18+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **52%**, turun **48%** (skor −0,4 dari ±10, keyakinan 35%, 28% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **52%**, turun **48%** (skor −0,6 dari ±10, keyakinan 36%, 28% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,58): +0,79% dari penutupan sebelumnya (27.289,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,46): +0,73% dari penutupan sebelumnya (27.274,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−0,60): 24,33 (−4,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (+0,51): Skor rata-rata +0,41 dari 27 kejadian bernilai; 61% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,41% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $90,10 (−3,26% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,40% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Semikonduktor (SOX)** (−0,38): −0,76% dari penutupan sebelumnya (9.569,42). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,41 dari 27 kejadian bernilai; 61% bobot bullish | +0,34 | 30% | +0,51 |
-| Futures Nasdaq-100 | +0,79% dari penutupan sebelumnya (27.289,75) | +1,58 | 20% | +1,58 |
-| Futures S&P 500 | +0,35% dari penutupan sebelumnya (7.384,75) | +0,87 | 5% | +0,22 |
-| Semikonduktor (SOX) | −0,61% dari penutupan sebelumnya (9.584,06) | −0,61 | 10% | −0,30 |
+| Futures Nasdaq-100 | +0,73% dari penutupan sebelumnya (27.274,00) | +1,46 | 20% | +1,46 |
+| Futures S&P 500 | +0,33% dari penutupan sebelumnya (7.383,25) | +0,82 | 5% | +0,20 |
+| Semikonduktor (SOX) | −0,76% dari penutupan sebelumnya (9.569,42) | −0,76 | 10% | −0,38 |
 | Yield obligasi 10 tahun | 5,089% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 24,33 (−4,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,10 (−3,26% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Minyak Brent | $90,08 (−3,29% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,31% dari penutupan sebelumnya (103,81) | +0,77 | 5% | +0,19 |
-| Tren Nasdaq 5 sesi | −4,41% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −4,40% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.521 (+0,79%).
+Perkiraan pembukaan dari futures: 24.506 (+0,73%).
 Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
@@ -48,11 +48,11 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - 2026-11-17: Laporan laba Nvidia (NVDA) (tinggi)
 - 2026-11-18: Risalah rapat FOMC (rapat 27-28 Okt) (sedang)
 - 2026-11-18: Laporan laba Nvidia (setelah penutupan, perkiraan) (tinggi)
-- 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
-- 2026-11-25: PDB (tinggi)
-- 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
+- 2026-11-25: PCE Oktober dan PDB kuartal III (estimasi kedua) (tinggi)
 - 2026-12-09: Keputusan suku bunga FOMC (tinggi)
-- 2026-12-10: CPI (tinggi)
+- 2027-01-27: Laporan laba Microsoft (MSFT) (tinggi)
+- 2027-01-27: Laporan laba Meta (META) (tinggi)
+- 2027-01-27: Laporan laba Tesla (TSLA) (tinggi)
 
 ## Rekam jejak
 7 benar dari 11 prediksi terevaluasi.
