@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T02:19:42+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T02:20:42+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 48%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 47%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **VIX (volatilitas)** (−0,60): 23,91 (−6,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,15. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,02% dalam 5 sesi; 11,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures Nasdaq-100** (+0,38): +0,19% dari penutupan sebelumnya (27.127,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Minyak Brent** (+0,38): $88,73 (−4,73% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **VIX (volatilitas)** (−0,60): 24,12 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,27. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+0,50): +0,25% dari penutupan sebelumnya (27.143,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,04% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $88,64 (−4,83% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,23 dari 28 kejadian bernilai; 59% bobot bullish | +0,19 | 30% | +0,29 |
-| Futures Nasdaq-100 | +0,19% dari penutupan sebelumnya (27.127,00) | +0,38 | 20% | +0,38 |
-| Futures S&P 500 | −0,28% dari penutupan sebelumnya (7.338,50) | −0,70 | 5% | −0,18 |
-| Semikonduktor (SOX) | −0,57% dari penutupan sebelumnya (9.587,88) | −0,57 | 10% | −0,28 |
-| Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
-| VIX (volatilitas) | 23,91 (−6,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,15 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,73 (−4,73% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,34% dari penutupan sebelumnya (103,84) | +0,85 | 5% | +0,21 |
-| Tren Nasdaq 5 sesi | −4,02% dalam 5 sesi; 11,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | +0,25% dari penutupan sebelumnya (27.143,75) | +0,50 | 20% | +0,50 |
+| Futures S&P 500 | −0,23% dari penutupan sebelumnya (7.342,00) | −0,57 | 5% | −0,14 |
+| Semikonduktor (SOX) | −0,55% dari penutupan sebelumnya (9.589,81) | −0,55 | 10% | −0,28 |
+| Yield obligasi 10 tahun | 5,062% (−4,1 bp dari sesi sebelumnya) | +0,52 | 10% | +0,26 |
+| VIX (volatilitas) | 24,12 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,27 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $88,64 (−4,83% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,33% dari penutupan sebelumnya (103,83) | +0,82 | 5% | +0,20 |
+| Tren Nasdaq 5 sesi | −4,04% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.375 (+0,19%).
-Rentang wajar 1σ (VXN): 23.820 sampai 24.836.
+Perkiraan pembukaan dari futures: 24.389 (+0,25%).
+Rentang wajar 1σ (VXN): 23.818 sampai 24.838.
 
 ## Berita paling berdampak
 - **−1,9** When Will the AI Bubble Burst? Strategists Predict 2027 to 2028, Goldman Sachs Sees Capex Hitting $1.4 Trillion (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
