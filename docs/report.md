@@ -1,34 +1,34 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-18T22:25:04+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-18T22:26:04+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **54%**, turun **46%** (skor −0,1 dari ±10, keyakinan 31%, 20% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **55%**, turun **45%** (skor +0,3 dari ±10, keyakinan 60%, 83% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,12): +0,56% dari penutupan sebelumnya (27.228,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,34): +0,67% dari penutupan sebelumnya (27.257,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (+0,96): Skor rata-rata +0,77 dari 29 kejadian bernilai; 69% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 24,92 (−2,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,71. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,16% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $89,68 (−3,71% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **VIX (volatilitas)** (−0,60): 25,03 (−1,7% dari sesi sebelumnya); VXN (Nasdaq-100) 33,79. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,04% dalam 5 sesi; 11,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $89,71 (−3,68% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,77 dari 29 kejadian bernilai; 69% bobot bullish | +0,64 | 30% | +0,96 |
-| Futures Nasdaq-100 | +0,56% dari penutupan sebelumnya (27.228,25) | +1,12 | 20% | +1,12 |
-| Futures S&P 500 | +0,02% dari penutupan sebelumnya (7.360,50) | +0,05 | 5% | +0,01 |
-| Semikonduktor (SOX) | +0,22% dari penutupan sebelumnya (9.664,13) | +0,22 | 10% | +0,11 |
-| Yield obligasi 10 tahun | 5,089% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 24,92 (−2,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,71 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $89,68 (−3,71% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,27% dari penutupan sebelumnya (103,77) | +0,68 | 5% | +0,17 |
-| Tren Nasdaq 5 sesi | −4,16% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | +0,67% dari penutupan sebelumnya (27.257,00) | +1,34 | 20% | +1,34 |
+| Futures S&P 500 | +0,10% dari penutupan sebelumnya (7.366,00) | +0,25 | 5% | +0,06 |
+| Semikonduktor (SOX) | +0,42% dari penutupan sebelumnya (9.683,53) | +0,42 | 10% | +0,21 |
+| Yield obligasi 10 tahun | 5,086% (−1,7 bp dari sesi sebelumnya) | −0,08 | 10% | −0,04 |
+| VIX (volatilitas) | 25,03 (−1,7% dari sesi sebelumnya); VXN (Nasdaq-100) 33,79 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $89,71 (−3,68% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,28% dari penutupan sebelumnya (103,78) | +0,70 | 5% | +0,18 |
+| Tren Nasdaq 5 sesi | −4,04% dalam 5 sesi; 11,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.465 (+0,56%).
-Rentang wajar 1σ (VXN): 23.812 sampai 24.845.
+Perkiraan pembukaan dari futures: 24.491 (+0,67%).
+Rentang wajar 1σ (VXN): 23.811 sampai 24.846.
 
 ## Berita paling berdampak
 - **+1,6** AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
