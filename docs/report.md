@@ -1,34 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T22:59:14+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-18T23:00:14+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 49%, 44% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 41%, 29% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Berita berbobot** (+0,84): Skor rata-rata +0,67 dari 28 kejadian bernilai; 68% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 25,22 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 34,11. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,24% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures Nasdaq-100** (−0,40): −0,20% dari penutupan sebelumnya (27.020,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Minyak Brent** (+0,38): $89,21 (−4,22% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **VIX (volatilitas)** (−0,60): 25,22 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 34,06. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,20% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $89,36 (−4,06% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,67 dari 28 kejadian bernilai; 68% bobot bullish | +0,56 | 30% | +0,84 |
-| Futures Nasdaq-100 | −0,20% dari penutupan sebelumnya (27.020,50) | −0,40 | 20% | −0,40 |
-| Futures S&P 500 | −0,49% dari penutupan sebelumnya (7.323,00) | −1,22 | 5% | −0,30 |
-| Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,56) | +0,10 | 10% | +0,05 |
+| Futures Nasdaq-100 | −0,09% dari penutupan sebelumnya (27.051,50) | −0,18 | 20% | −0,18 |
+| Futures S&P 500 | −0,43% dari penutupan sebelumnya (7.327,50) | −1,07 | 5% | −0,27 |
+| Semikonduktor (SOX) | +0,24% dari penutupan sebelumnya (9.666,47) | +0,24 | 10% | +0,12 |
 | Yield obligasi 10 tahun | 5,072% (−3,1 bp dari sesi sebelumnya) | +0,28 | 10% | +0,14 |
-| VIX (volatilitas) | 25,22 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 34,11 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $89,21 (−4,22% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,33% dari penutupan sebelumnya (103,83) | +0,82 | 5% | +0,20 |
-| Tren Nasdaq 5 sesi | −4,24% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 25,22 (−0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 34,06 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $89,36 (−4,06% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,32% dari penutupan sebelumnya (103,82) | +0,80 | 5% | +0,20 |
+| Tren Nasdaq 5 sesi | −4,20% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.280 (−0,20%).
-Rentang wajar 1σ (VXN): 23.806 sampai 24.851.
+Perkiraan pembukaan dari futures: 24.306 (−0,09%).
+Rentang wajar 1σ (VXN): 23.806 sampai 24.850.
 
 ## Berita paling berdampak
 - **+1,9** Stock Market Today: Nasdaq, S&P 500 Futures Rise as Nvidia Shares Jump After Strong Earnings Report; Anthropic IPO on Deck (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
