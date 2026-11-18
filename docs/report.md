@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T00:17:58+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T00:18:58+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **47%**, turun **53%** (skor −1,6 dari ±10, keyakinan 40%, 30% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 43%, 38% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (+1,08): Skor rata-rata +0,86 dari 28 kejadian bernilai; 72% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 24,92 (−2,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,22% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $88,01 (−5,51% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
-- **Futures Nasdaq-100** (+0,32): +0,16% dari penutupan sebelumnya (27.118,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (+1,01): Skor rata-rata +0,80 dari 27 kejadian bernilai; 71% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 24,95 (−2,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,23% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $88,00 (−5,52% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Yield obligasi 10 tahun** (+0,31): 5,058% (−4,5 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,86 dari 28 kejadian bernilai; 72% bobot bullish | +0,72 | 30% | +1,08 |
-| Futures Nasdaq-100 | +0,16% dari penutupan sebelumnya (27.118,75) | +0,32 | 20% | +0,32 |
-| Futures S&P 500 | −0,24% dari penutupan sebelumnya (7.341,25) | −0,60 | 5% | −0,15 |
-| Semikonduktor (SOX) | −0,37% dari penutupan sebelumnya (9.607,67) | −0,37 | 10% | −0,19 |
+| Berita berbobot | skor rata-rata +0,80 dari 27 kejadian bernilai; 71% bobot bullish | +0,67 | 30% | +1,01 |
+| Futures Nasdaq-100 | +0,10% dari penutupan sebelumnya (27.102,75) | +0,20 | 20% | +0,20 |
+| Futures S&P 500 | −0,25% dari penutupan sebelumnya (7.340,25) | −0,62 | 5% | −0,15 |
+| Semikonduktor (SOX) | −0,37% dari penutupan sebelumnya (9.607,06) | −0,37 | 10% | −0,19 |
 | Yield obligasi 10 tahun | 5,058% (−4,5 bp dari sesi sebelumnya) | +0,62 | 10% | +0,31 |
-| VIX (volatilitas) | 24,92 (−2,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,12 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,01 (−5,51% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 24,95 (−2,0% dari sesi sebelumnya); VXN (Nasdaq-100) 34,12 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $88,00 (−5,52% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,33% dari penutupan sebelumnya (103,83) | +0,82 | 5% | +0,20 |
-| Tren Nasdaq 5 sesi | −4,22% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −4,23% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.367 (+0,16%).
+Perkiraan pembukaan dari futures: 24.353 (+0,10%).
 Rentang wajar 1σ (VXN): 23.805 sampai 24.851.
 
 ## Berita paling berdampak
@@ -35,14 +35,14 @@ Rentang wajar 1σ (VXN): 23.805 sampai 24.851.
 - **+1,8** Stock Market Today: Nasdaq, S&P 500 Futures Rise as Nvidia Shares Jump After Strong Earnings Report; Anthropic IPO on Deck (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,3** Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+1,2** Nvidia Rises Over 3% Pre-Market as Q3 Results and Guidance Both Beat Expectations, Wall Street Bullish on Growth but Wary of Multiple Risks (TradingKey). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,2** Has a Stock Market Crash Started? Here's What Sobering Lessons From the Dot-Com Bust Say Comes Next (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,1** Has a Stock Market Crash Started? Here's What Sobering Lessons From the Dot-Com Bust Say Comes Next (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** The Bond Rally Has Yet to Break the Downtrend (https://www.connectmoney.com/). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−0,9** Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Tumble As Customer Shock Clouds AI Outlook (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Fed Governor Christopher Waller hints at bigger rate hike (Washington Examiner). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Stock Market Today, November 18, 2026: Nvidia Earnings Fail to Calm Investors as Gold and Oil Fall (Eurasia Business News). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+0,8** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+0,8** NVIDIA's Strong Earnings Fail to Sustain AI Stock Buying; Anthropic IPO Becomes a Litmus Test (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **−0,7** Futures Mixed; Nvidia Tops, Fed's Waller Warns Of 'Shock' Rate Hike (Investor's Business Daily). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-11-17: Laporan laba Nvidia (NVDA) (tinggi)
