@@ -1,33 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T03:29:19+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T03:30:19+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,5 dari ±10, keyakinan 47%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **43%**, turun **57%** (skor −2,8 dari ±10, keyakinan 48%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **VIX (volatilitas)** (−0,60): 24,57 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,60. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures Nasdaq-100** (+0,56): +0,28% dari penutupan sebelumnya (27.152,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,21% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **VIX (volatilitas)** (−0,60): 24,51 (−3,7% dari sesi sebelumnya); VXN (Nasdaq-100) 33,59. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,32% dalam 5 sesi; 12,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+0,40): +0,20% dari penutupan sebelumnya (27.130,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (−0,38): −0,76% dari penutupan sebelumnya (9.569,68). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Minyak Brent** (+0,38): $88,88 (−4,57% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,14 dari 29 kejadian bernilai; 53% bobot bullish | +0,12 | 30% | +0,18 |
-| Futures Nasdaq-100 | +0,28% dari penutupan sebelumnya (27.152,50) | +0,56 | 20% | +0,56 |
-| Futures S&P 500 | −0,21% dari penutupan sebelumnya (7.343,50) | −0,52 | 5% | −0,13 |
-| Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (9.590,85) | −0,54 | 10% | −0,27 |
+| Futures Nasdaq-100 | +0,20% dari penutupan sebelumnya (27.130,25) | +0,40 | 20% | +0,40 |
+| Futures S&P 500 | −0,26% dari penutupan sebelumnya (7.340,00) | −0,65 | 5% | −0,16 |
+| Semikonduktor (SOX) | −0,76% dari penutupan sebelumnya (9.569,68) | −0,76 | 10% | −0,38 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
-| VIX (volatilitas) | 24,57 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,60 | −1,20 | 10% | −0,60 |
+| VIX (volatilitas) | 24,51 (−3,7% dari sesi sebelumnya); VXN (Nasdaq-100) 33,59 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $88,88 (−4,57% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,35% dari penutupan sebelumnya (103,85) | +0,87 | 5% | +0,22 |
-| Tren Nasdaq 5 sesi | −4,21% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | +0,32% dari penutupan sebelumnya (103,82) | +0,80 | 5% | +0,20 |
+| Tren Nasdaq 5 sesi | −4,32% dalam 5 sesi; 12,1% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.396 (+0,28%).
-Rentang wajar 1σ (VXN): 23.813 sampai 24.843.
+Perkiraan pembukaan dari futures: 24.377 (+0,20%).
+Rentang wajar 1σ (VXN): 23.814 sampai 24.843.
 
 ## Berita paling berdampak
 - **−1,8** When Will the AI Bubble Burst? Strategists Predict 2027 to 2028, Goldman Sachs Sees Capex Hitting $1.4 Trillion (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
