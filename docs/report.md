@@ -1,12 +1,12 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-18T13:45:08+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T13:46:08+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
-Peluang indeks naik **58%**, turun **42%** (skor +1,0 dari ±10, keyakinan 58%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **58%**, turun **42%** (skor +1,1 dari ±10, keyakinan 58%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,16): +0,58% dari penutupan sebelumnya (27.231,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,20): +0,60% dari penutupan sebelumnya (27.238,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−0,85): 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Berita berbobot** (+0,35): Skor rata-rata +0,28 dari 23 kejadian bernilai; 57% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
@@ -15,18 +15,18 @@ Peluang indeks naik **58%**, turun **42%** (skor +1,0 dari ±10, keyakinan 58%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,28 dari 23 kejadian bernilai; 57% bobot bullish | +0,23 | 30% | +0,35 |
-| Futures Nasdaq-100 | +0,58% dari penutupan sebelumnya (27.231,25) | +1,16 | 20% | +1,16 |
-| Futures S&P 500 | +0,24% dari penutupan sebelumnya (7.376,75) | +0,60 | 5% | +0,15 |
+| Futures Nasdaq-100 | +0,60% dari penutupan sebelumnya (27.238,75) | +1,20 | 20% | +1,20 |
+| Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.378,00) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +0,34% dari penutupan sebelumnya (9.642,88) | +0,34 | 10% | +0,17 |
 | Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
 | VIX (volatilitas) | 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $92,18 (−1,03% dari sesi sebelumnya) | +0,52 | 5% | +0,13 |
-| Indeks dolar | +0,20% dari penutupan sebelumnya (103,70) | +0,50 | 5% | +0,12 |
+| Minyak Brent | $92,12 (−1,10% dari sesi sebelumnya) | +0,55 | 5% | +0,14 |
+| Indeks dolar | +0,21% dari penutupan sebelumnya (103,71) | +0,52 | 5% | +0,13 |
 | Tren Nasdaq 5 sesi | −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.469 (+0,58%).
+Perkiraan pembukaan dari futures: 24.474 (+0,60%).
 Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
@@ -34,7 +34,7 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **−1,9** Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Tumble As Customer Shock Clouds AI Outlook (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,6** AI Stocks Face Twin Test: Nvidia's Strong Earnings Fail to Sustain Buying, Anthropic IPO in Focus (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,5** Nvidia shares rebound as earnings, forecasts beat estimates (Capital Brief). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+1,5** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,4** NVIDIA Q3 2027: $115.8 Billion Revenue, Six Straight Beats, and What Comes Next (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,2** Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty (CoinDesk). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** Semiconductor Sell-Off Drives Dow's 849-Point Plunge (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Stock Market Today, Nov. 17: Grab Holdings Shares Slip Amid Broader Stock Market Sell-Off (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
