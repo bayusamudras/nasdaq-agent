@@ -1,33 +1,33 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-18T21:40:02+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-18T21:41:18+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **51%**, turun **49%** (skor −0,7 dari ±10, keyakinan 36%, 28% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **51%**, turun **49%** (skor −0,9 dari ±10, keyakinan 37%, 28% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,36): +0,68% dari penutupan sebelumnya (27.259,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,42): +0,71% dari penutupan sebelumnya (27.267,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−0,60): 24,33 (−4,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,22% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,50% dalam 5 sesi; 12,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Semikonduktor (SOX)** (−0,47): −0,94% dari penutupan sebelumnya (9.552,50). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (+0,43): Skor rata-rata +0,35 dari 26 kejadian bernilai; 59% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **Minyak Brent** (+0,38): $90,07 (−3,30% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,35 dari 26 kejadian bernilai; 59% bobot bullish | +0,29 | 30% | +0,43 |
-| Futures Nasdaq-100 | +0,68% dari penutupan sebelumnya (27.259,25) | +1,36 | 20% | +1,36 |
-| Futures S&P 500 | +0,21% dari penutupan sebelumnya (7.374,75) | +0,52 | 5% | +0,13 |
-| Semikonduktor (SOX) | −0,44% dari penutupan sebelumnya (9.600,75) | −0,44 | 10% | −0,22 |
-| Yield obligasi 10 tahun | 5,085% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
+| Futures Nasdaq-100 | +0,71% dari penutupan sebelumnya (27.267,50) | +1,42 | 20% | +1,42 |
+| Futures S&P 500 | +0,24% dari penutupan sebelumnya (7.376,50) | +0,60 | 5% | +0,15 |
+| Semikonduktor (SOX) | −0,94% dari penutupan sebelumnya (9.552,50) | −0,94 | 10% | −0,47 |
+| Yield obligasi 10 tahun | 5,089% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 24,33 (−4,4% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,07 (−3,30% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,31% dari penutupan sebelumnya (103,81) | +0,77 | 5% | +0,19 |
-| Tren Nasdaq 5 sesi | −4,22% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Minyak Brent | $90,14 (−3,22% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,32% dari penutupan sebelumnya (103,82) | +0,80 | 5% | +0,20 |
+| Tren Nasdaq 5 sesi | −4,50% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.494 (+0,68%).
+Perkiraan pembukaan dari futures: 24.501 (+0,71%).
 Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 
 ## Berita paling berdampak
@@ -49,10 +49,10 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - 2026-11-18: Risalah rapat FOMC (rapat 27-28 Okt) (sedang)
 - 2026-11-18: Laporan laba Nvidia (setelah penutupan, perkiraan) (tinggi)
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
-- 2026-11-25: PDB (tinggi)
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
 - 2026-12-09: Keputusan suku bunga FOMC (tinggi)
 - 2026-12-10: CPI (tinggi)
+- 2026-12-15: PPI (sedang)
 
 ## Rekam jejak
 7 benar dari 11 prediksi terevaluasi.
