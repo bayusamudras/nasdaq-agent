@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T12:13:27+07:00 · sesi Rabu 18 Nov (pra-buka)_
+_Diperbarui 2026-11-18T12:14:27+07:00 · sesi Rabu 18 Nov (pra-buka)_
 
 Peluang indeks naik **48%**, turun **52%** (skor −1,5 dari ±10, keyakinan 46%, 44% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -22,7 +22,7 @@ Peluang indeks naik **48%**, turun **52%** (skor −1,5 dari ±10, keyakinan 46%
 | Yield obligasi 10 tahun | 5,103% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
 | VIX (volatilitas) | 25,46 (+11,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,44 | −1,70 | 10% | −0,85 |
 | Minyak Brent | $92,44 (−0,75% dari sesi sebelumnya) | +0,38 | 5% | +0,10 |
-| Indeks dolar | +0,12% dari penutupan sebelumnya (103,61) | +0,30 | 5% | +0,07 |
+| Indeks dolar | +0,12% dari penutupan sebelumnya (103,62) | +0,30 | 5% | +0,07 |
 | Tren Nasdaq 5 sesi | −2,94% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 23.801 sampai 24.856.
 - **−1,2** Semiconductor Sell-Off Drives Dow's 849-Point Plunge (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Stock Market Today, Nov. 17: Grab Holdings Shares Slip Amid Broader Stock Market Sell-Off (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Xi Opposes Protectionism, Urges Trade and Tech Cooperation as U.S. Tightens AI Chip Curbs on China (bloomingbit). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,9** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,8** Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Oil prices fall as higher US crude stocks temper supply risks (Reuters). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 
 ## Kalender risiko
