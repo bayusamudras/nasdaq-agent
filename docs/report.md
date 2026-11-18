@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T05:53:15+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T05:54:15+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,3 dari ±10, keyakinan 48%, 33% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -37,7 +37,7 @@ Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 - **+1,7** Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,7** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,7** Semiconductor investor sentiment has recovered somewhat due to strong earnings from semiconductor ma.. (매일경제). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,7** ‘Almost all’ US Fed policymakers saw further interest rate hikes as likely, minutes show (The Straits Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,6** ‘Almost all’ US Fed policymakers saw further interest rate hikes as likely, minutes show (The Straits Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,6** Couple of policymakers see more than a 25 bp rate hike in December - Fed minutes (StreetInsider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,6** Fed Officials Expect Further Interest Rate Hikes After Pausing Last Month (Realtor.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,5** Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
