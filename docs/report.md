@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-18T21:48:18+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-18T21:49:18+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **45%**, turun **55%** (skor −2,2 dari ±10, keyakinan 49%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 49%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **VIX (volatilitas)** (−0,60): 24,05 (−5,5% dari sesi sebelumnya); VXN (Nasdaq-100) 32,46. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,52% dalam 5 sesi; 12,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **VIX (volatilitas)** (−0,60): 24,21 (−4,9% dari sesi sebelumnya); VXN (Nasdaq-100) 32,52. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,59): −1,18% dari penutupan sebelumnya (9.528,83). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,62% dalam 5 sesi; 12,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Berita berbobot** (+0,43): Skor rata-rata +0,35 dari 26 kejadian bernilai; 59% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−0,41): −0,82% dari penutupan sebelumnya (9.564,17). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Minyak Brent** (+0,38): $89,59 (−3,81% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $89,65 (−3,75% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,35 dari 26 kejadian bernilai; 59% bobot bullish | +0,29 | 30% | +0,43 |
-| Futures Nasdaq-100 | +0,12% dari penutupan sebelumnya (27.108,00) | +0,24 | 20% | +0,24 |
+| Futures Nasdaq-100 | +0,11% dari penutupan sebelumnya (27.105,25) | +0,22 | 20% | +0,22 |
 | Futures S&P 500 | +0,03% dari penutupan sebelumnya (7.361,00) | +0,07 | 5% | +0,02 |
-| Semikonduktor (SOX) | −0,82% dari penutupan sebelumnya (9.564,17) | −0,82 | 10% | −0,41 |
-| Yield obligasi 10 tahun | 5,099% (−0,4 bp dari sesi sebelumnya) | −0,40 | 10% | −0,20 |
-| VIX (volatilitas) | 24,05 (−5,5% dari sesi sebelumnya); VXN (Nasdaq-100) 32,46 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $89,59 (−3,81% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,29% dari penutupan sebelumnya (103,79) | +0,72 | 5% | +0,18 |
-| Tren Nasdaq 5 sesi | −4,52% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,18% dari penutupan sebelumnya (9.528,83) | −1,18 | 10% | −0,59 |
+| Yield obligasi 10 tahun | 5,095% (−0,8 bp dari sesi sebelumnya) | −0,30 | 10% | −0,15 |
+| VIX (volatilitas) | 24,21 (−4,9% dari sesi sebelumnya); VXN (Nasdaq-100) 32,52 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $89,65 (−3,75% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,28% dari penutupan sebelumnya (103,78) | +0,70 | 5% | +0,18 |
+| Tren Nasdaq 5 sesi | −4,62% dalam 5 sesi; 12,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.358 (+0,12%).
-Rentang wajar 1σ (VXN): 23.831 sampai 24.826.
+Perkiraan pembukaan dari futures: 24.355 (+0,11%).
+Rentang wajar 1σ (VXN): 23.830 sampai 24.827.
 
 ## Berita paling berdampak
 - **+1,6** AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
