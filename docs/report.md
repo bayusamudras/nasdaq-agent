@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T03:28:19+07:00 · sesi Rabu 18 Nov (berjalan)_
+_Diperbarui 2026-11-19T03:29:19+07:00 · sesi Rabu 18 Nov (berjalan)_
 
-Peluang indeks naik **45%**, turun **55%** (skor −2,1 dari ±10, keyakinan 47%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,5 dari ±10, keyakinan 47%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: Laporan laba Nvidia (setelah penutupan, perkiraan); Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+0,76): +0,38% dari penutupan sebelumnya (27.179,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **VIX (volatilitas)** (−0,60): 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,60. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,17% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $88,86 (−4,60% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **VIX (volatilitas)** (−0,60): 24,57 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,60. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+0,56): +0,28% dari penutupan sebelumnya (27.152,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,21% dalam 5 sesi; 12,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $88,88 (−4,57% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,17 dari 29 kejadian bernilai; 54% bobot bullish | +0,15 | 30% | +0,22 |
-| Futures Nasdaq-100 | +0,38% dari penutupan sebelumnya (27.179,50) | +0,76 | 20% | +0,76 |
-| Futures S&P 500 | −0,16% dari penutupan sebelumnya (7.347,25) | −0,40 | 5% | −0,10 |
-| Semikonduktor (SOX) | −0,48% dari penutupan sebelumnya (9.596,49) | −0,48 | 10% | −0,24 |
+| Berita berbobot | skor rata-rata +0,14 dari 29 kejadian bernilai; 53% bobot bullish | +0,12 | 30% | +0,18 |
+| Futures Nasdaq-100 | +0,28% dari penutupan sebelumnya (27.152,50) | +0,56 | 20% | +0,56 |
+| Futures S&P 500 | −0,21% dari penutupan sebelumnya (7.343,50) | −0,52 | 5% | −0,13 |
+| Semikonduktor (SOX) | −0,54% dari penutupan sebelumnya (9.590,85) | −0,54 | 10% | −0,27 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
-| VIX (volatilitas) | 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,60 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,86 (−4,60% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,36% dari penutupan sebelumnya (103,86) | +0,90 | 5% | +0,22 |
-| Tren Nasdaq 5 sesi | −4,17% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 24,57 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,60 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $88,88 (−4,57% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,35% dari penutupan sebelumnya (103,85) | +0,87 | 5% | +0,22 |
+| Tren Nasdaq 5 sesi | −4,21% dalam 5 sesi; 12,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.288; resistensi 24.588 / 24.847; support 24.029 / 23.730.
-Perkiraan pembukaan dari futures: 24.421 (+0,38%).
+Perkiraan pembukaan dari futures: 24.396 (+0,28%).
 Rentang wajar 1σ (VXN): 23.813 sampai 24.843.
 
 ## Berita paling berdampak
@@ -37,9 +37,9 @@ Rentang wajar 1σ (VXN): 23.813 sampai 24.843.
 - **−1,4** Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,3** US Stocks Diverge: Dow Falls 369 Points in Continued Slide, Nvidia's Strong Earnings Underpin Nasdaq (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,3** Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **−1,2** Has a Stock Market Crash Started? Here's What Sobering Lessons From the Dot-Com Bust Say Comes Next (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike (CNBC). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** Couple of policymakers see more than a 25 bp rate hike in December - Fed minutes (StreetInsider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−0,9** Has a Stock Market Crash Started? Here's What Sobering Lessons From the Dot-Com Bust Say Comes Next (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** The Bond Rally Has Yet to Break the Downtrend (https://www.connectmoney.com/). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−0,8** Fitch Warns of AI Investment Return Gap: $1 Trillion in Capex Won't Be Covered by $500 Billion in Revenue (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 
