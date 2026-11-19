@@ -1,23 +1,23 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T13:24:55+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T13:25:54+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
-Peluang indeks naik **43%**, turun **57%** (skor −2,8 dari ±10, keyakinan 49%, 27% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **42%**, turun **57%** (skor −2,9 dari ±10, keyakinan 49%, 27% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,31% dari penutupan sebelumnya (27.543,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,36% dari penutupan sebelumnya (27.555,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−0,60): 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures S&P 500** (+0,47): +0,76% dari penutupan sebelumnya (7.396,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,48): +0,77% dari penutupan sebelumnya (7.397,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Minyak Brent** (+0,34): $89,42 (−2,75% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,21 dari 31 kejadian bernilai; 58% bobot bullish | +0,18 | 30% | +0,27 |
-| Futures Nasdaq-100 | +1,31% dari penutupan sebelumnya (27.543,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,76% dari penutupan sebelumnya (7.396,50) | +1,90 | 5% | +0,47 |
+| Berita berbobot | skor rata-rata +0,11 dari 32 kejadian bernilai; 56% bobot bullish | +0,09 | 30% | +0,13 |
+| Futures Nasdaq-100 | +1,36% dari penutupan sebelumnya (27.555,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,77% dari penutupan sebelumnya (7.397,00) | +1,93 | 5% | +0,48 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
 | VIX (volatilitas) | 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | −1,20 | 10% | −0,60 |
@@ -27,7 +27,7 @@ Peluang indeks naik **43%**, turun **57%** (skor −2,8 dari ±10, keyakinan 49%
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.750 (+1,31%).
+Perkiraan pembukaan dari futures: 24.762 (+1,36%).
 Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 
 ## Berita paling berdampak
@@ -41,8 +41,8 @@ Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 - **−1,1** Fed's Waller Wants a Half-Point Rate Hike in December. Warsh May Have to Promise Another One Instead. (The Wealth Advisor). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,1** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Chinese President Xi pledges tariff cuts as Russian counterpart Putin criticises sanctions ahead of talks with US President Trump (Asia News Network). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,0** UBS says the AI sell-off is a reset, not a collapse, and backs eurozone stocks and bonds (investingLive). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,0** Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+1,0** Semiconductor investor sentiment has recovered somewhat due to strong earnings from semiconductor ma.. (매일경제). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
