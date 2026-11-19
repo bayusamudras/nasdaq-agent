@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T05:10:22+07:00 · sesi Jumat 20 Nov (pra-buka)_
+_Diperbarui 2026-11-20T05:11:23+07:00 · sesi Jumat 20 Nov (pra-buka)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 91% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -22,7 +22,7 @@ Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80
 | Yield obligasi 10 tahun | 5,052% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 28,44 (+15,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,48 | −2,00 | 10% | −1,00 |
 | Minyak Brent | $90,05 (−2,07% dari sesi sebelumnya) | +1,03 | 5% | +0,26 |
-| Indeks dolar | +0,07% dari penutupan sebelumnya (103,94) | +0,18 | 5% | +0,04 |
+| Indeks dolar | +0,07% dari penutupan sebelumnya (103,93) | +0,18 | 5% | +0,04 |
 | Tren Nasdaq 5 sesi | −5,86% dalam 5 sesi; 13,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -33,7 +33,7 @@ Rentang wajar 1σ (VXN): 23.330 sampai 24.428.
 ## Berita paling berdampak
 - **−2,2** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (Reuters). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,8** Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **+1,8** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **+1,7** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,4** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,3** Iran Mounts About 14 Hormuz Attacks in November as Brent Crude Falls One-Fifth (https://houseofsaud.com/). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,3** Stock Market Today, Nov. 19: Dow Plunges 1,100 Points as the S&P 500 Suffers Its 6th Straight Day of Losses (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
