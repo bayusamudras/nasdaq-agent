@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T01:36:12+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T01:37:12+07:00 · sesi Kamis 19 Nov (berjalan)_
 
-Peluang indeks naik **21%**, turun **79%** (skor −9,4 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **20%**, turun **80%** (skor −9,5 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,38% dari penutupan sebelumnya (26.811,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−0,85): 27,78 (+13,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,16. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,34% dari penutupan sebelumnya (7.242,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,75% dalam 5 sesi; 12,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Berita berbobot** (−0,48): Skor rata-rata −0,39 dari 35 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −1,19% dari penutupan sebelumnya (26.862,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−0,85): 27,70 (+12,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,01. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Berita berbobot** (−0,60): Skor rata-rata −0,48 dari 37 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (−0,50): −1,20% dari penutupan sebelumnya (7.252,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,74% dalam 5 sesi; 12,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,39 dari 35 kejadian bernilai; 42% bobot bullish | −0,32 | 30% | −0,48 |
-| Futures Nasdaq-100 | −1,38% dari penutupan sebelumnya (26.811,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,34% dari penutupan sebelumnya (7.242,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,60% dari penutupan sebelumnya (9.595,25) | −0,60 | 10% | −0,30 |
+| Berita berbobot | skor rata-rata −0,48 dari 37 kejadian bernilai; 40% bobot bullish | −0,40 | 30% | −0,60 |
+| Futures Nasdaq-100 | −1,19% dari penutupan sebelumnya (26.862,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,20% dari penutupan sebelumnya (7.252,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −0,57% dari penutupan sebelumnya (9.597,98) | −0,57 | 10% | −0,28 |
 | Yield obligasi 10 tahun | 5,048% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
-| VIX (volatilitas) | 27,78 (+13,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,16 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $90,09 (−2,02% dari sesi sebelumnya) | +1,01 | 5% | +0,25 |
+| VIX (volatilitas) | 27,70 (+12,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,01 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $90,24 (−1,86% dari sesi sebelumnya) | +0,93 | 5% | +0,23 |
 | Indeks dolar | +0,01% dari penutupan sebelumnya (103,87) | +0,02 | 5% | +0,01 |
-| Tren Nasdaq 5 sesi | −4,75% dalam 5 sesi; 12,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −4,74% dalam 5 sesi; 12,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.093 (−1,38%).
-Rentang wajar 1σ (VXN): 23.873 sampai 24.986.
+Perkiraan pembukaan dari futures: 24.139 (−1,19%).
+Rentang wajar 1σ (VXN): 23.876 sampai 24.984.
 
 ## Berita paling berdampak
 - **+1,7** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -39,10 +39,10 @@ Rentang wajar 1σ (VXN): 23.873 sampai 24.986.
 - **+1,4** A $12.5M options bet on 10-year Treasury yields falling below 5% (Investing.com). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,4** Cybersecurity Stocks Rally On Palo Alto Earnings Beat, Raised Guidance (Investor's Business Daily). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **−1,4** Nasdaq sell-off deepens as investors search for a bottom (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (The Standard (HK)). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** Mag 7 Weekly: Nvidia Beat the Street. Leadership Still Owns the Week. (Money Morning). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,0** Nvidia stops shipping AI chips to China as pressure mounts over US export controls (The Indian Express). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
