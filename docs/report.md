@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T01:41:12+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T01:42:12+07:00 · sesi Kamis 19 Nov (berjalan)_
 
-Peluang indeks naik **20%**, turun **80%** (skor −9,6 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **20%**, turun **80%** (skor −9,7 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,24% dari penutupan sebelumnya (26.850,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−0,85): 27,39 (+11,5% dari sesi sebelumnya); VXN (Nasdaq-100) 35,95. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Berita berbobot** (−0,56): Skor rata-rata −0,44 dari 37 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −1,25% dari penutupan sebelumnya (26.847,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−0,85): 27,11 (+10,4% dari sesi sebelumnya); VXN (Nasdaq-100) 35,72. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Berita berbobot** (−0,61): Skor rata-rata −0,49 dari 37 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (−0,50): −1,22% dari penutupan sebelumnya (7.251,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,85% dalam 5 sesi; 12,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,86% dalam 5 sesi; 13,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,44 dari 37 kejadian bernilai; 41% bobot bullish | −0,37 | 30% | −0,56 |
-| Futures Nasdaq-100 | −1,24% dari penutupan sebelumnya (26.850,00) | −2,00 | 20% | −2,00 |
+| Berita berbobot | skor rata-rata −0,49 dari 37 kejadian bernilai; 39% bobot bullish | −0,41 | 30% | −0,61 |
+| Futures Nasdaq-100 | −1,25% dari penutupan sebelumnya (26.847,25) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −1,22% dari penutupan sebelumnya (7.251,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,80% dari penutupan sebelumnya (9.575,52) | −0,80 | 10% | −0,40 |
-| Yield obligasi 10 tahun | 5,048% (−1,8 bp dari sesi sebelumnya) | −0,05 | 10% | −0,03 |
-| VIX (volatilitas) | 27,39 (+11,5% dari sesi sebelumnya); VXN (Nasdaq-100) 35,95 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $90,06 (−2,06% dari sesi sebelumnya) | +1,03 | 5% | +0,26 |
-| Indeks dolar | +0,01% dari penutupan sebelumnya (103,87) | +0,02 | 5% | +0,01 |
-| Tren Nasdaq 5 sesi | −4,85% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −0,81% dari penutupan sebelumnya (9.574,63) | −0,81 | 10% | −0,41 |
+| Yield obligasi 10 tahun | 5,054% (−1,2 bp dari sesi sebelumnya) | −0,20 | 10% | −0,10 |
+| VIX (volatilitas) | 27,11 (+10,4% dari sesi sebelumnya); VXN (Nasdaq-100) 35,72 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $89,95 (−2,18% dari sesi sebelumnya) | +1,09 | 5% | +0,27 |
+| Indeks dolar | 0,00% dari penutupan sebelumnya (103,86) | 0,00 | 5% | 0,00 |
+| Tren Nasdaq 5 sesi | −4,86% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.127 (−1,24%).
-Rentang wajar 1σ (VXN): 23.877 sampai 24.983.
+Perkiraan pembukaan dari futures: 24.125 (−1,25%).
+Rentang wajar 1σ (VXN): 23.880 sampai 24.980.
 
 ## Berita paling berdampak
 - **+1,7** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 23.877 sampai 24.983.
 - **+1,4** Cybersecurity Stocks Rally On Palo Alto Earnings Beat, Raised Guidance (Investor's Business Daily). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,4** Nasdaq sell-off deepens as investors search for a bottom (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,4** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (The Standard (HK)). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,3** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (The Standard (HK)). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** Mag 7 Weekly: Nvidia Beat the Street. Leadership Still Owns the Week. (Money Morning). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
