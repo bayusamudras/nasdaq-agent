@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-20T00:34:45+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T00:35:45+07:00 · sesi Kamis 19 Nov (berjalan)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 77%, 93% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 78%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di atas 27,830 lalu ditolak (4 jam lalu). Liquidity sweep di bawah 26,922 lalu ditolak (1 jam lalu). Skor dipangkas dari -8.9 menjadi -2.0.
+**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di atas 27,830 lalu ditolak (4 jam lalu). Liquidity sweep di bawah 26,922 lalu ditolak (1 jam lalu). Skor dipangkas dari -8.1 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,40): −0,70% dari penutupan sebelumnya (26.997,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−1,00): 28,35 (+15,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,63. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Berita berbobot** (−0,61): Skor rata-rata −0,50 dari 35 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −0,88% dari penutupan sebelumnya (7.276,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,01% dalam 5 sesi; 12,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **VIX (volatilitas)** (−0,85): 27,58 (+12,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,27. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (−0,72): −0,36% dari penutupan sebelumnya (27.088,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−0,56): Skor rata-rata −0,44 dari 36 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,10% dalam 5 sesi; 12,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (−0,41): −0,65% dari penutupan sebelumnya (7.293,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,50 dari 35 kejadian bernilai; 40% bobot bullish | −0,41 | 30% | −0,61 |
-| Futures Nasdaq-100 | −0,70% dari penutupan sebelumnya (26.997,00) | −1,40 | 20% | −1,40 |
-| Futures S&P 500 | −0,88% dari penutupan sebelumnya (7.276,00) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,11% dari penutupan sebelumnya (9.641,93) | −0,11 | 10% | −0,06 |
-| Yield obligasi 10 tahun | 5,052% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 28,35 (+15,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,63 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,99 (−2,13% dari sesi sebelumnya) | +1,06 | 5% | +0,27 |
-| Indeks dolar | −0,04% dari penutupan sebelumnya (103,82) | −0,10 | 5% | −0,03 |
-| Tren Nasdaq 5 sesi | −4,01% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −0,44 dari 36 kejadian bernilai; 41% bobot bullish | −0,37 | 30% | −0,56 |
+| Futures Nasdaq-100 | −0,36% dari penutupan sebelumnya (27.088,75) | −0,72 | 20% | −0,72 |
+| Futures S&P 500 | −0,65% dari penutupan sebelumnya (7.293,00) | −1,62 | 5% | −0,41 |
+| Semikonduktor (SOX) | −0,25% dari penutupan sebelumnya (9.628,47) | −0,25 | 10% | −0,12 |
+| Yield obligasi 10 tahun | 5,060% (−0,6 bp dari sesi sebelumnya) | −0,35 | 10% | −0,18 |
+| VIX (volatilitas) | 27,58 (+12,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,27 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $90,07 (−2,04% dari sesi sebelumnya) | +1,02 | 5% | +0,26 |
+| Indeks dolar | −0,03% dari penutupan sebelumnya (103,83) | −0,07 | 5% | −0,02 |
+| Tren Nasdaq 5 sesi | −4,10% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.259 (−0,70%).
-Rentang wajar 1σ (VXN): 23.866 sampai 24.994.
+Perkiraan pembukaan dari futures: 24.342 (−0,36%).
+Rentang wajar 1σ (VXN): 23.872 sampai 24.988.
 
 ## Berita paling berdampak
 - **+1,9** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -41,8 +41,8 @@ Rentang wajar 1σ (VXN): 23.866 sampai 24.994.
 - **+1,5** Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,4** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (The Standard (HK)). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Qualcomm Shares Climb 4% as Tech Sector Defies Broad Market Selloff (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,1** Nvidia stops shipping AI chips to China as pressure mounts over US export controls (The Indian Express). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,1** Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on 100 Years of History. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **+1,1** [Walmart Q3 2027 Earnings Call] Walmart raises full-year guidance as e-commerce surges 23% and grocery share gains hit three-year high (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
