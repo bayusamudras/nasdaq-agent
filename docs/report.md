@@ -1,31 +1,31 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T19:01:49+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T19:02:49+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
-Peluang indeks naik **40%**, turun **60%** (skor −3,6 dari ±10, keyakinan 66%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **41%**, turun **59%** (skor −3,4 dari ±10, keyakinan 66%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,36% dari penutupan sebelumnya (27.827,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 25 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,31% dari penutupan sebelumnya (7.436,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +2,33% dari penutupan sebelumnya (27.821,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−0,89): Skor rata-rata −0,71 dari 29 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (+0,50): +1,30% dari penutupan sebelumnya (7.436,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $88,99 (−3,22% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $89,07 (−3,13% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,90 dari 25 kejadian bernilai; 28% bobot bullish | −0,75 | 30% | −1,12 |
-| Futures Nasdaq-100 | +2,36% dari penutupan sebelumnya (27.827,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,31% dari penutupan sebelumnya (7.436,75) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,71 dari 29 kejadian bernilai; 34% bobot bullish | −0,59 | 30% | −0,89 |
+| Futures Nasdaq-100 | +2,33% dari penutupan sebelumnya (27.821,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,30% dari penutupan sebelumnya (7.436,00) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
-| VIX (volatilitas) | 21,95 (−10,6% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $88,99 (−3,22% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,18% dari penutupan sebelumnya (103,68) | −0,45 | 5% | −0,11 |
+| VIX (volatilitas) | 21,92 (−10,8% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | 0,00 | 10% | 0,00 |
+| Minyak Brent | $89,07 (−3,13% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,18% dari penutupan sebelumnya (103,67) | −0,45 | 5% | −0,11 |
 | Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 25.006 (+2,36%).
+Perkiraan pembukaan dari futures: 24.999 (+2,33%).
 Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 
 ## Berita paling berdampak
@@ -36,11 +36,11 @@ Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 - **−1,1** Iran’s oil leverage is weakening. That could push it toward escalation (CNN). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,1** Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,1** Oil prices rise as Middle East shipping attacks counter supply surplus outlook (Reuters). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−1,0** Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead (Yahoo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,0** Oil prices rise on Hormuz shipping risks as surplus outlook caps gains (Anadolu Ajansı). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−0,9** AI Stock Market Bubble: Could Nvidia and Micron Face a Semiconductor Crash? (The Acquirer's Multiple). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Trump and Xi reaffirm trade balance and tariff cuts at Shenzhen summit (Chosunbiz). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,8** Couple of policymakers see more than a 25 bp rate hike in December - Fed minutes (Investing.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **+0,8** Dip-Buying Bets on Semiconductor and AI Stocks; Nvidia's Strong Earnings Fail to Lift Ceiling (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
