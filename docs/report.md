@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T21:53:48+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-19T21:54:48+07:00 · sesi Kamis 19 Nov (berjalan)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,0 dari ±10, keyakinan 67%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **38%**, turun **62%** (skor −3,9 dari ±10, keyakinan 67%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,22% dari penutupan sebelumnya (27.791,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +4,34% dari penutupan sebelumnya (10.071,68). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +2,21% dari penutupan sebelumnya (27.787,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +3,98% dari penutupan sebelumnya (10.037,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,84): Skor rata-rata −0,67 dari 32 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (−0,64): 5,097% (+3,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **VIX (volatilitas)** (−0,60): 22,67 (−7,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,51. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 22,83 (−7,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,67. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Yield obligasi 10 tahun** (−0,59): 5,093% (+2,7 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,67 dari 32 kejadian bernilai; 38% bobot bullish | −0,56 | 30% | −0,84 |
-| Futures Nasdaq-100 | +2,22% dari penutupan sebelumnya (27.791,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,04% dari penutupan sebelumnya (7.416,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +4,34% dari penutupan sebelumnya (10.071,68) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 5,097% (+3,1 bp dari sesi sebelumnya) | −1,27 | 10% | −0,64 |
-| VIX (volatilitas) | 22,67 (−7,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,51 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,45 (−1,63% dari sesi sebelumnya) | +0,81 | 5% | +0,20 |
-| Indeks dolar | −0,17% dari penutupan sebelumnya (103,68) | −0,42 | 5% | −0,11 |
-| Tren Nasdaq 5 sesi | −2,02% dalam 5 sesi; 10,3% di bawah puncak 52 minggu | −1,85 | 5% | −0,46 |
+| Futures Nasdaq-100 | +2,21% dari penutupan sebelumnya (27.787,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,06% dari penutupan sebelumnya (7.418,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +3,98% dari penutupan sebelumnya (10.037,11) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 5,093% (+2,7 bp dari sesi sebelumnya) | −1,18 | 10% | −0,59 |
+| VIX (volatilitas) | 22,83 (−7,0% dari sesi sebelumnya); VXN (Nasdaq-100) 30,67 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,52 (−1,56% dari sesi sebelumnya) | +0,78 | 5% | +0,20 |
+| Indeks dolar | −0,16% dari penutupan sebelumnya (103,70) | −0,40 | 5% | −0,10 |
+| Tren Nasdaq 5 sesi | −2,18% dalam 5 sesi; 10,5% di bawah puncak 52 minggu | −1,95 | 5% | −0,49 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.972 (+2,22%).
-Rentang wajar 1σ (VXN): 23.960 sampai 24.899.
+Perkiraan pembukaan dari futures: 24.970 (+2,21%).
+Rentang wajar 1σ (VXN): 23.958 sampai 24.902.
 
 ## Berita paling berdampak
 - **−2,3** Canadian Stock Market Today: TSX Futures Hold Steady As Hawkish Fed Lifts Dollar (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
