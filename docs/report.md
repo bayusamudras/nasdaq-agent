@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T17:33:22+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T17:34:22+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
 Peluang indeks naik **39%**, turun **61%** (skor −3,7 dari ±10, keyakinan 69%, 56% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,10% dari penutupan sebelumnya (27.756,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +2,10% dari penutupan sebelumnya (27.758,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−0,83): Skor rata-rata −0,66 dari 30 kejadian bernilai; 37% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,16% dari penutupan sebelumnya (7.425,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,16% dari penutupan sebelumnya (7.426,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **VIX (volatilitas)** (−0,35): 22,07 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 
@@ -14,12 +14,12 @@ Peluang indeks naik **39%**, turun **61%** (skor −3,7 dari ±10, keyakinan 69%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,66 dari 30 kejadian bernilai; 37% bobot bullish | −0,55 | 30% | −0,83 |
-| Futures Nasdaq-100 | +2,10% dari penutupan sebelumnya (27.756,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,16% dari penutupan sebelumnya (7.425,50) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +2,10% dari penutupan sebelumnya (27.758,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,16% dari penutupan sebelumnya (7.426,00) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
 | VIX (volatilitas) | 22,07 (−10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $89,63 (−2,52% dari sesi sebelumnya) | +1,26 | 5% | +0,32 |
+| Minyak Brent | $89,65 (−2,50% dari sesi sebelumnya) | +1,25 | 5% | +0,31 |
 | Indeks dolar | −0,19% dari penutupan sebelumnya (103,66) | −0,47 | 5% | −0,12 |
 | Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
@@ -33,7 +33,7 @@ Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 - **−1,4** Alphabet (GOOGL) Stock Could Be 47% Undervalued As AI Spending Fears Bite (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,2** Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,2** Oil prices rise as Middle East shipping attacks counter supply surplus outlook (Reuters). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **−1,2** Oil Hits Four-Week High as US-Iran Conflict Escalates (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−1,1** Oil Hits Four-Week High as US-Iran Conflict Escalates (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,1** Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead (Yahoo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,1** Oil prices rise on Hormuz shipping risks as surplus outlook caps gains (Anadolu Ajansı). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,0** AI Stock Market Bubble: Could Nvidia and Micron Face a Semiconductor Crash? (The Acquirer's Multiple). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
