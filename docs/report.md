@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-20T00:41:53+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T00:42:53+07:00 · sesi Kamis 19 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 78%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,28 +7,28 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 78%
 
 ## Alasan utama
 - **Berita berbobot** (−0,65): Skor rata-rata −0,51 dari 35 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−0,60): −0,30% dari penutupan sebelumnya (27.104,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−0,60): 25,82 (+5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,54. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,38% dalam 5 sesi; 12,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Semikonduktor (SOX)** (−0,43): −0,85% dari penutupan sebelumnya (9.570,83). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−0,60): −0,30% dari penutupan sebelumnya (27.106,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−0,60): 26,00 (+5,9% dari sesi sebelumnya); VXN (Nasdaq-100) 34,75. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,40% dalam 5 sesi; 12,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Semikonduktor (SOX)** (−0,41): −0,83% dari penutupan sebelumnya (9.572,63). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,51 dari 35 kejadian bernilai; 40% bobot bullish | −0,43 | 30% | −0,65 |
-| Futures Nasdaq-100 | −0,30% dari penutupan sebelumnya (27.104,00) | −0,60 | 20% | −0,60 |
-| Futures S&P 500 | −0,60% dari penutupan sebelumnya (7.296,25) | −1,50 | 5% | −0,38 |
-| Semikonduktor (SOX) | −0,85% dari penutupan sebelumnya (9.570,83) | −0,85 | 10% | −0,43 |
-| Yield obligasi 10 tahun | 5,068% (+0,2 bp dari sesi sebelumnya) | −0,55 | 10% | −0,28 |
-| VIX (volatilitas) | 25,82 (+5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 34,54 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,18 (−1,92% dari sesi sebelumnya) | +0,96 | 5% | +0,24 |
-| Indeks dolar | −0,03% dari penutupan sebelumnya (103,83) | −0,07 | 5% | −0,02 |
-| Tren Nasdaq 5 sesi | −4,38% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −0,30% dari penutupan sebelumnya (27.106,50) | −0,60 | 20% | −0,60 |
+| Futures S&P 500 | −0,60% dari penutupan sebelumnya (7.296,75) | −1,50 | 5% | −0,38 |
+| Semikonduktor (SOX) | −0,83% dari penutupan sebelumnya (9.572,63) | −0,83 | 10% | −0,41 |
+| Yield obligasi 10 tahun | 5,066% (0,0 bp dari sesi sebelumnya) | −0,50 | 10% | −0,25 |
+| VIX (volatilitas) | 26,00 (+5,9% dari sesi sebelumnya); VXN (Nasdaq-100) 34,75 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,22 (−1,88% dari sesi sebelumnya) | +0,94 | 5% | +0,23 |
+| Indeks dolar | −0,04% dari penutupan sebelumnya (103,82) | −0,10 | 5% | −0,03 |
+| Tren Nasdaq 5 sesi | −4,40% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
 Perkiraan pembukaan dari futures: 24.357 (−0,30%).
-Rentang wajar 1σ (VXN): 23.898 sampai 24.961.
+Rentang wajar 1σ (VXN): 23.895 sampai 24.965.
 
 ## Berita paling berdampak
 - **+1,8** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
