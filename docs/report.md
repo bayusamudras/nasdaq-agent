@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T00:24:45+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T00:25:45+07:00 · sesi Kamis 19 Nov (berjalan)_
 
-Peluang indeks naik **20%**, turun **80%** (skor −9,7 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **20%**, turun **80%** (skor −9,6 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,49% dari penutupan sebelumnya (26.782,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−1,00): 28,07 (+14,3% dari sesi sebelumnya); VXN (Nasdaq-100) 35,95. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,48% dari penutupan sebelumnya (7.232,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −4,35% dalam 5 sesi; 12,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−2,00): −1,54% dari penutupan sebelumnya (26.767,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−1,00): 28,36 (+15,5% dari sesi sebelumnya); VXN (Nasdaq-100) 36,23. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,52% dari penutupan sebelumnya (7.229,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −4,18% dalam 5 sesi; 12,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Berita berbobot** (−0,48): Skor rata-rata −0,39 dari 35 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,39 dari 35 kejadian bernilai; 43% bobot bullish | −0,32 | 30% | −0,48 |
-| Futures Nasdaq-100 | −1,49% dari penutupan sebelumnya (26.782,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,48% dari penutupan sebelumnya (7.232,00) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −0,61% dari penutupan sebelumnya (9.593,94) | −0,61 | 10% | −0,30 |
-| Yield obligasi 10 tahun | 5,060% (−0,6 bp dari sesi sebelumnya) | −0,35 | 10% | −0,18 |
-| VIX (volatilitas) | 28,07 (+14,3% dari sesi sebelumnya); VXN (Nasdaq-100) 35,95 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,75 (−2,39% dari sesi sebelumnya) | +1,20 | 5% | +0,30 |
-| Indeks dolar | 0,00% dari penutupan sebelumnya (103,86) | 0,00 | 5% | 0,00 |
-| Tren Nasdaq 5 sesi | −4,35% dalam 5 sesi; 12,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −1,54% dari penutupan sebelumnya (26.767,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,52% dari penutupan sebelumnya (7.229,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −0,42% dari penutupan sebelumnya (9.612,53) | −0,42 | 10% | −0,21 |
+| Yield obligasi 10 tahun | 5,058% (−0,8 bp dari sesi sebelumnya) | −0,30 | 10% | −0,15 |
+| VIX (volatilitas) | 28,36 (+15,5% dari sesi sebelumnya); VXN (Nasdaq-100) 36,23 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $89,86 (−2,27% dari sesi sebelumnya) | +1,14 | 5% | +0,28 |
+| Indeks dolar | −0,01% dari penutupan sebelumnya (103,85) | −0,02 | 5% | −0,01 |
+| Tren Nasdaq 5 sesi | −4,18% dalam 5 sesi; 12,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.066 (−1,49%).
-Rentang wajar 1σ (VXN): 23.877 sampai 24.983.
+Perkiraan pembukaan dari futures: 24.054 (−1,54%).
+Rentang wajar 1σ (VXN): 23.872 sampai 24.987.
 
 ## Berita paling berdampak
 - **+1,9** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
