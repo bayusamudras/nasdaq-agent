@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T11:13:03+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T11:14:02+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
 Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 49%, 27% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,26% dari penutupan sebelumnya (27.529,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,26% dari penutupan sebelumnya (27.530,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−0,60): 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Futures S&P 500** (+0,45): +0,72% dari penutupan sebelumnya (7.393,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
@@ -16,7 +16,7 @@ Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 49%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,21 dari 30 kejadian bernilai; 52% bobot bullish | +0,18 | 30% | +0,27 |
-| Futures Nasdaq-100 | +1,26% dari penutupan sebelumnya (27.529,25) | +2,00 | 20% | +2,00 |
+| Futures Nasdaq-100 | +1,26% dari penutupan sebelumnya (27.530,25) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,72% dari penutupan sebelumnya (7.393,50) | +1,80 | 5% | +0,45 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
