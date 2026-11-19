@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T10:48:53+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T10:49:53+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
-Peluang indeks naik **40%**, turun **60%** (skor −3,4 dari ±10, keyakinan 51%, 27% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **41%**, turun **59%** (skor −3,3 dari ±10, keyakinan 50%, 25% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,52): +0,76% dari penutupan sebelumnya (27.392,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,60): +0,80% dari penutupan sebelumnya (27.405,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−0,60): 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Minyak Brent** (+0,38): $89,05 (−3,15% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
@@ -15,23 +15,23 @@ Peluang indeks naik **40%**, turun **60%** (skor −3,4 dari ±10, keyakinan 51%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,16 dari 30 kejadian bernilai; 51% bobot bullish | +0,13 | 30% | +0,20 |
-| Futures Nasdaq-100 | +0,76% dari penutupan sebelumnya (27.392,75) | +1,52 | 20% | +1,52 |
-| Futures S&P 500 | +0,40% dari penutupan sebelumnya (7.370,00) | +1,00 | 5% | +0,25 |
+| Futures Nasdaq-100 | +0,80% dari penutupan sebelumnya (27.405,00) | +1,60 | 20% | +1,60 |
+| Futures S&P 500 | +0,44% dari penutupan sebelumnya (7.372,75) | +1,10 | 5% | +0,28 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
 | VIX (volatilitas) | 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $89,05 (−3,15% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,09% dari penutupan sebelumnya (103,95) | +0,22 | 5% | +0,06 |
+| Indeks dolar | +0,10% dari penutupan sebelumnya (103,96) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.616 (+0,76%).
+Perkiraan pembukaan dari futures: 24.625 (+0,80%).
 Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 
 ## Berita paling berdampak
 - **−1,9** Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,7** AI Stock Market Bubble: Could Nvidia and Micron Face a Semiconductor Crash? (The Acquirer's Multiple). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,6** AI Stock Market Bubble: Could Nvidia and Micron Face a Semiconductor Crash? (The Acquirer's Multiple). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Couple of policymakers see more than a 25 bp rate hike in December - Fed minutes (Investing.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,4** The Bond Rally Has Yet to Break the Downtrend (Connect CRE). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+1,4** Dip-Buying Bets on Semiconductor and AI Stocks; Nvidia's Strong Earnings Fail to Lift Ceiling (BigGo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
