@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T07:44:50+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T07:45:50+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
 Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 44%, 17% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,64% dari penutupan sebelumnya (27.520,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,67% dari penutupan sebelumnya (27.526,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−0,60): 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Berita berbobot** (+0,39): Skor rata-rata +0,31 dari 34 kejadian bernilai; 52% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
@@ -16,8 +16,8 @@ Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 44%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,31 dari 34 kejadian bernilai; 52% bobot bullish | +0,26 | 30% | +0,39 |
-| Futures Nasdaq-100 | +1,64% dari penutupan sebelumnya (27.520,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,41% dari penutupan sebelumnya (7.389,00) | +1,02 | 5% | +0,26 |
+| Futures Nasdaq-100 | +1,67% dari penutupan sebelumnya (27.526,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,42% dari penutupan sebelumnya (7.390,00) | +1,05 | 5% | +0,26 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
 | VIX (volatilitas) | 24,56 (−3,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | −1,20 | 10% | −0,60 |
@@ -27,7 +27,7 @@ Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 44%
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.831 (+1,64%).
+Perkiraan pembukaan dari futures: 24.838 (+1,67%).
 Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 - **−1,6** Morgan Stanley Projects $37 Billion in Nebius Capex. The Company Has Bigger Plans (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,5** Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh (The Motley Fool). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,5** Semiconductor investor sentiment has recovered somewhat due to strong earnings from semiconductor ma.. (매일경제). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,5** ‘Almost all’ US Fed policymakers saw further interest rate hikes as likely, minutes show (The Straits Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,4** ‘Almost all’ US Fed policymakers saw further interest rate hikes as likely, minutes show (The Straits Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,4** Couple of policymakers see more than a 25 bp rate hike in December - Fed minutes (StreetInsider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,4** Fed Officials Expect Further Interest Rate Hikes After Pausing Last Month (Realtor.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** When Will the AI Bubble Burst? Strategists Predict 2027 to 2028, Goldman Sachs Sees Capex Hitting $1.4 Trillion (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
