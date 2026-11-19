@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T02:59:44+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T03:00:44+07:00 · sesi Kamis 19 Nov (berjalan)_
 
-Peluang indeks naik **20%**, turun **80%** (skor −9,8 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,51% dari penutupan sebelumnya (26.775,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−0,88): −1,75% dari penutupan sebelumnya (9.484,08). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 26,98 (+9,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,65. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (−2,00): −1,62% dari penutupan sebelumnya (26.745,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −2,05% dari penutupan sebelumnya (9.455,00). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,85): 27,08 (+10,3% dari sesi sebelumnya); VXN (Nasdaq-100) 35,43. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (−0,51): Skor rata-rata −0,40 dari 33 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −1,46% dari penutupan sebelumnya (7.233,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −1,55% dari penutupan sebelumnya (7.226,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,40 dari 33 kejadian bernilai; 42% bobot bullish | −0,34 | 30% | −0,51 |
-| Futures Nasdaq-100 | −1,51% dari penutupan sebelumnya (26.775,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,46% dari penutupan sebelumnya (7.233,00) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,75% dari penutupan sebelumnya (9.484,08) | −1,75 | 10% | −0,88 |
+| Futures Nasdaq-100 | −1,62% dari penutupan sebelumnya (26.745,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,55% dari penutupan sebelumnya (7.226,75) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −2,05% dari penutupan sebelumnya (9.455,00) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,060% (−0,6 bp dari sesi sebelumnya) | −0,35 | 10% | −0,18 |
-| VIX (volatilitas) | 26,98 (+9,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,65 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $89,57 (−2,59% dari sesi sebelumnya) | +1,29 | 5% | +0,32 |
-| Indeks dolar | +0,04% dari penutupan sebelumnya (103,90) | +0,10 | 5% | +0,03 |
-| Tren Nasdaq 5 sesi | −5,52% dalam 5 sesi; 13,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 27,08 (+10,3% dari sesi sebelumnya); VXN (Nasdaq-100) 35,43 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $89,63 (−2,52% dari sesi sebelumnya) | +1,26 | 5% | +0,32 |
+| Indeks dolar | +0,06% dari penutupan sebelumnya (103,92) | +0,15 | 5% | +0,04 |
+| Tren Nasdaq 5 sesi | −5,64% dalam 5 sesi; 13,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.061 (−1,51%).
-Rentang wajar 1σ (VXN): 23.881 sampai 24.979.
+Perkiraan pembukaan dari futures: 24.034 (−1,62%).
+Rentang wajar 1σ (VXN): 23.885 sampai 24.975.
 
 ## Berita paling berdampak
 - **−2,5** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (Reuters). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
