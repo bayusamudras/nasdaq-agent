@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T03:43:54+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T03:44:54+07:00 · sesi Kamis 19 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,14% dari penutupan sebelumnya (26.604,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−1,00): 28,09 (+14,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,05. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Semikonduktor (SOX)** (−0,98): −1,95% dari penutupan sebelumnya (9.464,82). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −1,89% dari penutupan sebelumnya (7.201,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −5,68% dalam 5 sesi; 13,7% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−2,00): −2,15% dari penutupan sebelumnya (26.603,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−1,00): 28,21 (+14,9% dari sesi sebelumnya); VXN (Nasdaq-100) 36,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,93): −1,85% dari penutupan sebelumnya (9.474,43). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,90% dari penutupan sebelumnya (7.201,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −5,64% dalam 5 sesi; 13,7% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,33 dari 32 kejadian bernilai; 43% bobot bullish | −0,27 | 30% | −0,41 |
-| Futures Nasdaq-100 | −2,14% dari penutupan sebelumnya (26.604,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,89% dari penutupan sebelumnya (7.201,75) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,95% dari penutupan sebelumnya (9.464,82) | −1,95 | 10% | −0,98 |
+| Berita berbobot | skor rata-rata −0,30 dari 31 kejadian bernilai; 44% bobot bullish | −0,25 | 30% | −0,38 |
+| Futures Nasdaq-100 | −2,15% dari penutupan sebelumnya (26.603,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,90% dari penutupan sebelumnya (7.201,25) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,85% dari penutupan sebelumnya (9.474,43) | −1,85 | 10% | −0,93 |
 | Yield obligasi 10 tahun | 5,052% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 28,09 (+14,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,05 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,68 (−2,47% dari sesi sebelumnya) | +1,24 | 5% | +0,31 |
+| VIX (volatilitas) | 28,21 (+14,9% dari sesi sebelumnya); VXN (Nasdaq-100) 36,12 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $89,72 (−2,43% dari sesi sebelumnya) | +1,22 | 5% | +0,30 |
 | Indeks dolar | +0,03% dari penutupan sebelumnya (103,89) | +0,07 | 5% | +0,02 |
-| Tren Nasdaq 5 sesi | −5,68% dalam 5 sesi; 13,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −5,64% dalam 5 sesi; 13,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 23.907 (−2,14%).
-Rentang wajar 1σ (VXN): 23.875 sampai 24.985.
+Perkiraan pembukaan dari futures: 23.905 (−2,15%).
+Rentang wajar 1σ (VXN): 23.874 sampai 24.986.
 
 ## Berita paling berdampak
 - **−2,4** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (Reuters). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
