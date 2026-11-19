@@ -1,35 +1,35 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T18:17:32+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T18:18:31+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
 Peluang indeks naik **42%**, turun **58%** (skor −3,1 dari ±10, keyakinan 65%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,14% dari penutupan sebelumnya (27.768,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +2,18% dari penutupan sebelumnya (27.779,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−0,53): Skor rata-rata −0,42 dari 29 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +1,24% dari penutupan sebelumnya (7.431,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,26% dari penutupan sebelumnya (7.433,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,33): $89,55 (−2,61% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,34): $89,46 (−2,71% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,42 dari 29 kejadian bernilai; 42% bobot bullish | −0,35 | 30% | −0,53 |
-| Futures Nasdaq-100 | +2,14% dari penutupan sebelumnya (27.768,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,24% dari penutupan sebelumnya (7.431,25) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +2,18% dari penutupan sebelumnya (27.779,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,26% dari penutupan sebelumnya (7.433,00) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
 | VIX (volatilitas) | 21,98 (−10,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $89,55 (−2,61% dari sesi sebelumnya) | +1,30 | 5% | +0,33 |
+| Minyak Brent | $89,46 (−2,71% dari sesi sebelumnya) | +1,35 | 5% | +0,34 |
 | Indeks dolar | −0,24% dari penutupan sebelumnya (103,61) | −0,60 | 5% | −0,15 |
 | Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.953 (+2,14%).
+Perkiraan pembukaan dari futures: 24.962 (+2,18%).
 Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 
 ## Berita paling berdampak
-- **−2,0** Iran Keeps Up Unrelenting Attacks on Ships in the Strait of Hormuz (The New York Times). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
+- **−1,9** Iran Keeps Up Unrelenting Attacks on Ships in the Strait of Hormuz (The New York Times). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,6** Nvidia stops shipping AI chips to China as pressure mounts over US export controls (The Indian Express). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,3** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,1** Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
