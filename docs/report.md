@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T02:05:22+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T02:06:22+07:00 · sesi Kamis 19 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −9,9 dari ±10, keyakinan 80%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,52% dari penutupan sebelumnya (26.773,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−0,85): 27,75 (+13,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,20. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Semikonduktor (SOX)** (−0,80): −1,59% dari penutupan sebelumnya (9.499,67). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (−0,50): −1,40% dari penutupan sebelumnya (7.237,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,50% dari penutupan sebelumnya (26.780,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−0,85): 27,80 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 36,21. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,80): −1,59% dari penutupan sebelumnya (9.498,91). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −1,38% dari penutupan sebelumnya (7.239,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 - **Tren Nasdaq 5 sesi** (−0,50): −5,31% dalam 5 sesi; 13,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,40 dari 35 kejadian bernilai; 43% bobot bullish | −0,33 | 30% | −0,49 |
-| Futures Nasdaq-100 | −1,52% dari penutupan sebelumnya (26.773,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,40% dari penutupan sebelumnya (7.237,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,59% dari penutupan sebelumnya (9.499,67) | −1,59 | 10% | −0,80 |
-| Yield obligasi 10 tahun | 5,052% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 27,75 (+13,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,20 | −1,70 | 10% | −0,85 |
-| Minyak Brent | $89,66 (−2,49% dari sesi sebelumnya) | +1,25 | 5% | +0,31 |
+| Futures Nasdaq-100 | −1,50% dari penutupan sebelumnya (26.780,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,38% dari penutupan sebelumnya (7.239,25) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,59% dari penutupan sebelumnya (9.498,91) | −1,59 | 10% | −0,80 |
+| Yield obligasi 10 tahun | 5,050% (−1,6 bp dari sesi sebelumnya) | −0,10 | 10% | −0,05 |
+| VIX (volatilitas) | 27,80 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 36,21 | −1,70 | 10% | −0,85 |
+| Minyak Brent | $89,68 (−2,47% dari sesi sebelumnya) | +1,24 | 5% | +0,31 |
 | Indeks dolar | −0,01% dari penutupan sebelumnya (103,85) | −0,02 | 5% | −0,01 |
 | Tren Nasdaq 5 sesi | −5,31% dalam 5 sesi; 13,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.059 (−1,52%).
+Perkiraan pembukaan dari futures: 24.063 (−1,50%).
 Rentang wajar 1σ (VXN): 23.873 sampai 24.987.
 
 ## Berita paling berdampak
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 23.873 sampai 24.987.
 - **+1,4** Cybersecurity Stocks Rally On Palo Alto Earnings Beat, Raised Guidance (Investor's Business Daily). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,3** Nasdaq sell-off deepens as investors search for a bottom (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,2** Nebius Lifts 2026 CapEx View to $27B: Can Funding Keep Pace? (The Globe and Mail). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,1** Nebius Lifts 2026 CapEx View to $27B: Can Funding Keep Pace? (The Globe and Mail). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,1** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
