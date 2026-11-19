@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-20T00:58:53+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-20T00:59:54+07:00 · sesi Kamis 19 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 78%, 95% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di atas 27,830 lalu ditolak (4 jam lalu). Liquidity sweep di bawah 26,922 lalu ditolak (1 jam lalu). Skor dipangkas dari -9.5 menjadi -2.0.
+**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di atas 27,830 lalu ditolak (4 jam lalu). Liquidity sweep di bawah 26,922 lalu ditolak (1 jam lalu). Skor dipangkas dari -9.6 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,78): −0,89% dari penutupan sebelumnya (26.944,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−0,68): Skor rata-rata −0,54 dari 35 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 26,44 (+7,7% dari sesi sebelumnya); VXN (Nasdaq-100) 35,11. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −0,95% dari penutupan sebelumnya (7.270,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Semikonduktor (SOX)** (−0,50): −1,00% dari penutupan sebelumnya (9.555,90). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−1,90): −0,95% dari penutupan sebelumnya (26.928,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−0,65): Skor rata-rata −0,52 dari 34 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 26,48 (+7,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,21. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (−0,53): −1,06% dari penutupan sebelumnya (9.550,77). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (−0,50): −0,97% dari penutupan sebelumnya (7.269,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,54 dari 35 kejadian bernilai; 40% bobot bullish | −0,45 | 30% | −0,68 |
-| Futures Nasdaq-100 | −0,89% dari penutupan sebelumnya (26.944,25) | −1,78 | 20% | −1,78 |
-| Futures S&P 500 | −0,95% dari penutupan sebelumnya (7.270,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −1,00% dari penutupan sebelumnya (9.555,90) | −1,00 | 10% | −0,50 |
-| Yield obligasi 10 tahun | 5,064% (−0,2 bp dari sesi sebelumnya) | −0,45 | 10% | −0,22 |
-| VIX (volatilitas) | 26,44 (+7,7% dari sesi sebelumnya); VXN (Nasdaq-100) 35,11 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,03 (−2,09% dari sesi sebelumnya) | +1,04 | 5% | +0,26 |
+| Berita berbobot | skor rata-rata −0,52 dari 34 kejadian bernilai; 41% bobot bullish | −0,43 | 30% | −0,65 |
+| Futures Nasdaq-100 | −0,95% dari penutupan sebelumnya (26.928,50) | −1,90 | 20% | −1,90 |
+| Futures S&P 500 | −0,97% dari penutupan sebelumnya (7.269,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −1,06% dari penutupan sebelumnya (9.550,77) | −1,06 | 10% | −0,53 |
+| Yield obligasi 10 tahun | 5,062% (−0,4 bp dari sesi sebelumnya) | −0,40 | 10% | −0,20 |
+| VIX (volatilitas) | 26,48 (+7,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,21 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,02 (−2,10% dari sesi sebelumnya) | +1,05 | 5% | +0,26 |
 | Indeks dolar | −0,03% dari penutupan sebelumnya (103,83) | −0,07 | 5% | −0,02 |
-| Tren Nasdaq 5 sesi | −4,72% dalam 5 sesi; 12,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −4,78% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.212 (−0,89%).
-Rentang wajar 1σ (VXN): 23.890 sampai 24.970.
+Perkiraan pembukaan dari futures: 24.198 (−0,95%).
+Rentang wajar 1σ (VXN): 23.888 sampai 24.972.
 
 ## Berita paling berdampak
 - **+1,8** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 23.890 sampai 24.970.
 - **+1,5** Cybersecurity Stocks Rally On Palo Alto Earnings Beat, Raised Guidance (Investor's Business Daily). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,5** Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide (Bloomberg.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,4** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (The Standard (HK)). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,2** Nebius Lifts 2026 CapEx View to $27B: Can Funding Keep Pace? (The Globe and Mail). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,3** Nebius Lifts 2026 CapEx View to $27B: Can Funding Keep Pace? (The Globe and Mail). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,2** Qualcomm Shares Climb 4% as Tech Sector Defies Broad Market Selloff (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
