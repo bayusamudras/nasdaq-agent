@@ -1,36 +1,37 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T20:05:11+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T20:06:11+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,2 dari ±10, keyakinan 66%, 56% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 66%, 56% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,03% dari penutupan sebelumnya (27.738,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−0,98): Skor rata-rata −0,78 dari 31 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 22,28 (−9,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (+0,50): +1,17% dari penutupan sebelumnya (7.426,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +2,00% dari penutupan sebelumnya (27.730,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,17): Skor rata-rata −0,93 dari 31 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 22,31 (−9,2% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (+0,50): +1,15% dari penutupan sebelumnya (7.425,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,78 dari 31 kejadian bernilai; 31% bobot bullish | −0,65 | 30% | −0,98 |
-| Futures Nasdaq-100 | +2,03% dari penutupan sebelumnya (27.738,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,17% dari penutupan sebelumnya (7.426,25) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,93 dari 31 kejadian bernilai; 28% bobot bullish | −0,78 | 30% | −1,17 |
+| Futures Nasdaq-100 | +2,00% dari penutupan sebelumnya (27.730,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,15% dari penutupan sebelumnya (7.425,00) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
-| VIX (volatilitas) | 22,28 (−9,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,28 (−1,82% dari sesi sebelumnya) | +0,91 | 5% | +0,23 |
-| Indeks dolar | −0,17% dari penutupan sebelumnya (103,69) | −0,42 | 5% | −0,11 |
+| VIX (volatilitas) | 22,31 (−9,2% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,31 (−1,78% dari sesi sebelumnya) | +0,89 | 5% | +0,22 |
+| Indeks dolar | −0,16% dari penutupan sebelumnya (103,69) | −0,40 | 5% | −0,10 |
 | Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.926 (+2,03%).
+Perkiraan pembukaan dari futures: 24.918 (+2,00%).
 Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 
 ## Berita paling berdampak
+- **−1,8** Semiconductor Sell-Off: These Artificial Intelligence (AI) Chip Stocks Are Screaming Buys Before They Go Parabolic (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Iran Keeps Up Unrelenting Attacks on Ships in the Strait of Hormuz (The New York Times). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,4** Nvidia stops shipping AI chips to China as pressure mounts over US export controls (The Indian Express). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** Fed officials expect December rate hike (Northwest Arkansas Democrat-Gazette). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -42,7 +43,6 @@ Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 - **−1,0** Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead (Yahoo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** Oil prices rise on Hormuz shipping risks as surplus outlook caps gains (Anadolu Ajansı). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−0,9** AI Stock Market Bubble: Could Nvidia and Micron Face a Semiconductor Crash? (The Acquirer's Multiple). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** Nvidia Quant rating cut to Hold from Strong Buy as momentum weakens (TradingView). Penurunan peringkat menggerakkan arus dana institusi keluar dari saham itu. Dampak ke indeks kecil kecuali emitennya mega-cap.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
