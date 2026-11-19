@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T22:26:08+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-19T22:27:08+07:00 · sesi Kamis 19 Nov (berjalan)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 67%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,24% dari penutupan sebelumnya (27.524,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,23% dari penutupan sebelumnya (27.521,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,08): Skor rata-rata −0,86 dari 31 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +2,26% dari penutupan sebelumnya (9.870,99). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,69): 5,101% (+3,5 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **VIX (volatilitas)** (−0,60): 22,91 (−6,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,97. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (+1,00): +2,38% dari penutupan sebelumnya (9.882,51). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,64): 5,097% (+3,1 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **VIX (volatilitas)** (−0,60): 22,98 (−6,4% dari sesi sebelumnya); VXN (Nasdaq-100) 30,98. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,86 dari 31 kejadian bernilai; 31% bobot bullish | −0,72 | 30% | −1,08 |
-| Futures Nasdaq-100 | +1,24% dari penutupan sebelumnya (27.524,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,42% dari penutupan sebelumnya (7.371,25) | +1,05 | 5% | +0,26 |
-| Semikonduktor (SOX) | +2,26% dari penutupan sebelumnya (9.870,99) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 5,101% (+3,5 bp dari sesi sebelumnya) | −1,38 | 10% | −0,69 |
-| VIX (volatilitas) | 22,91 (−6,7% dari sesi sebelumnya); VXN (Nasdaq-100) 30,97 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,47 (−1,61% dari sesi sebelumnya) | +0,81 | 5% | +0,20 |
-| Indeks dolar | −0,05% dari penutupan sebelumnya (103,81) | −0,12 | 5% | −0,03 |
-| Tren Nasdaq 5 sesi | −3,18% dalam 5 sesi; 11,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | +1,23% dari penutupan sebelumnya (27.521,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,43% dari penutupan sebelumnya (7.372,25) | +1,07 | 5% | +0,27 |
+| Semikonduktor (SOX) | +2,38% dari penutupan sebelumnya (9.882,51) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 5,097% (+3,1 bp dari sesi sebelumnya) | −1,27 | 10% | −0,64 |
+| VIX (volatilitas) | 22,98 (−6,4% dari sesi sebelumnya); VXN (Nasdaq-100) 30,98 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,36 (−1,73% dari sesi sebelumnya) | +0,86 | 5% | +0,21 |
+| Indeks dolar | −0,03% dari penutupan sebelumnya (103,83) | −0,07 | 5% | −0,02 |
+| Tren Nasdaq 5 sesi | −3,13% dalam 5 sesi; 11,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.733 (+1,24%).
-Rentang wajar 1σ (VXN): 23.953 sampai 24.906.
+Perkiraan pembukaan dari futures: 24.730 (+1,23%).
+Rentang wajar 1σ (VXN): 23.953 sampai 24.907.
 
 ## Berita paling berdampak
 - **−2,2** Canadian Stock Market Today: TSX Futures Hold Steady As Hawkish Fed Lifts Dollar (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -38,7 +38,7 @@ Rentang wajar 1σ (VXN): 23.953 sampai 24.906.
 - **+1,2** Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide (Insurance Journal). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,2** Nvidia stops shipping AI chips to China as pressure mounts over US export controls (The Indian Express). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Oil prices head higher on fears of more strikes on Iran (Transport Topics). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
-- **−1,2** Fed officials expect December rate hike (Northwest Arkansas Democrat-Gazette). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,1** Fed officials expect December rate hike (Northwest Arkansas Democrat-Gazette). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,1** Nasdaq Forecast: Nvidia Earnings & Fed Rate Hike Risks (www.equiti.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,0** Prediction: A Stock Market Crash Is Coming. Here's What Investors Should Do Based on Warren Buffett's Proven Advice. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** 10 Best AI Penny Stocks To Buy After the AI Crash (Insider Monkey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
