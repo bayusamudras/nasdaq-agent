@@ -1,31 +1,30 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T15:36:34+07:00 · sesi Kamis 19 Nov (pra-buka)_
+_Diperbarui 2026-11-19T15:37:45+07:00 · sesi Kamis 19 Nov (pra-buka)_
 
-Peluang indeks naik **43%**, turun **57%** (skor −2,8 dari ±10, keyakinan 51%, 20% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,5 dari ±10, keyakinan 50%, 20% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,82% dari penutupan sebelumnya (27.682,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Futures S&P 500** (+0,50): +1,05% dari penutupan sebelumnya (7.417,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +1,87% dari penutupan sebelumnya (27.696,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures S&P 500** (+0,50): +1,08% dari penutupan sebelumnya (7.419,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,50): −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Berita berbobot** (−0,36): Skor rata-rata −0,29 dari 32 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Minyak Brent** (+0,33): $89,53 (−2,63% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,32): $89,59 (−2,57% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,29 dari 32 kejadian bernilai; 44% bobot bullish | −0,24 | 30% | −0,36 |
-| Futures Nasdaq-100 | +1,82% dari penutupan sebelumnya (27.682,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,05% dari penutupan sebelumnya (7.417,50) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,05 dari 31 kejadian bernilai; 50% bobot bullish | −0,04 | 30% | −0,06 |
+| Futures Nasdaq-100 | +1,87% dari penutupan sebelumnya (27.696,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,08% dari penutupan sebelumnya (7.419,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +0,10% dari penutupan sebelumnya (9.652,80) | +0,10 | 10% | +0,05 |
 | Yield obligasi 10 tahun | 5,066% (−3,7 bp dari sesi sebelumnya) | +0,43 | 10% | +0,21 |
 | VIX (volatilitas) | 21,98 (−10,5% dari sesi sebelumnya); VXN (Nasdaq-100) 33,12 | 0,00 | 10% | 0,00 |
-| Minyak Brent | $89,53 (−2,63% dari sesi sebelumnya) | +1,31 | 5% | +0,33 |
+| Minyak Brent | $89,59 (−2,57% dari sesi sebelumnya) | +1,28 | 5% | +0,32 |
 | Indeks dolar | −0,10% dari penutupan sebelumnya (103,75) | −0,25 | 5% | −0,06 |
 | Tren Nasdaq 5 sesi | −4,07% dalam 5 sesi; 11,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.874 (+1,82%).
+Perkiraan pembukaan dari futures: 24.887 (+1,87%).
 Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 
 ## Berita paling berdampak
@@ -40,7 +39,7 @@ Rentang wajar 1σ (VXN): 23.920 sampai 24.940.
 - **−1,0** Fed's Waller Wants a Half-Point Rate Hike in December. Warsh May Have to Promise Another One Instead. (The Wealth Advisor). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,0** Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead (The Motley Fool). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** Swiss Franc Short-term Outlook: USD/CHF Selloff Nears Critical Support Ahead of NFP (StoneX). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** Chinese President Xi pledges tariff cuts as Russian counterpart Putin criticises sanctions ahead of talks with US President Trump (Asia News Network). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,9** UBS says the AI sell-off is a reset, not a collapse, and backs eurozone stocks and bonds (investingLive). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
