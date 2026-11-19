@@ -1,14 +1,14 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-19T23:47:36+07:00 · sesi Kamis 19 Nov (berjalan)_
+_Diperbarui 2026-11-19T23:48:36+07:00 · sesi Kamis 19 Nov (berjalan)_
 
-Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 60%, 42% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **38%**, turun **62%** (skor −4,1 dari ±10, keyakinan 59%, 42% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,10): +0,55% dari penutupan sebelumnya (27.337,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+0,91): +1,82% dari penutupan sebelumnya (9.828,71). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 25,28 (+2,9% dari sesi sebelumnya); VXN (Nasdaq-100) 33,69. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+1,46): +0,73% dari penutupan sebelumnya (27.384,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+0,93): +1,86% dari penutupan sebelumnya (9.832,11). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,60): 25,13 (+2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,63. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,23% dalam 5 sesi; 11,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Yield obligasi 10 tahun** (−0,43): 5,080% (+1,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
@@ -16,22 +16,22 @@ Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 60%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,15 dari 40 kejadian bernilai; 49% bobot bullish | −0,12 | 30% | −0,18 |
-| Futures Nasdaq-100 | +0,55% dari penutupan sebelumnya (27.337,50) | +1,10 | 20% | +1,10 |
-| Futures S&P 500 | −0,06% dari penutupan sebelumnya (7.336,25) | −0,15 | 5% | −0,04 |
-| Semikonduktor (SOX) | +1,82% dari penutupan sebelumnya (9.828,71) | +1,82 | 10% | +0,91 |
+| Futures Nasdaq-100 | +0,73% dari penutupan sebelumnya (27.384,25) | +1,46 | 20% | +1,46 |
+| Futures S&P 500 | +0,05% dari penutupan sebelumnya (7.344,50) | +0,12 | 5% | +0,03 |
+| Semikonduktor (SOX) | +1,86% dari penutupan sebelumnya (9.832,11) | +1,86 | 10% | +0,93 |
 | Yield obligasi 10 tahun | 5,080% (+1,4 bp dari sesi sebelumnya) | −0,85 | 10% | −0,43 |
-| VIX (volatilitas) | 25,28 (+2,9% dari sesi sebelumnya); VXN (Nasdaq-100) 33,69 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,16 (−1,95% dari sesi sebelumnya) | +0,97 | 5% | +0,24 |
-| Indeks dolar | −0,01% dari penutupan sebelumnya (103,84) | −0,02 | 5% | −0,01 |
+| VIX (volatilitas) | 25,13 (+2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 33,63 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,29 (−1,81% dari sesi sebelumnya) | +0,91 | 5% | +0,23 |
+| Indeks dolar | −0,02% dari penutupan sebelumnya (103,84) | −0,05 | 5% | −0,01 |
 | Tren Nasdaq 5 sesi | −3,23% dalam 5 sesi; 11,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.398; resistensi 24.571 / 24.711; support 24.257 / 24.085.
-Perkiraan pembukaan dari futures: 24.564 (+0,55%).
-Rentang wajar 1σ (VXN): 23.911 sampai 24.948.
+Perkiraan pembukaan dari futures: 24.608 (+0,73%).
+Rentang wajar 1σ (VXN): 23.912 sampai 24.947.
 
 ## Berita paling berdampak
-- **+2,0** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,9** Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models (CNBC). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,7** AMD Is Down 8% After Short Seller Hunterbrook Ties AMD's Firmware to Blacklisted Chinese Server Maker; Resilient Intel Remains Up 5% (24/7 Wall St.). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,6** Semiconductor Sell-Off: These Artificial Intelligence (AI) Chip Stocks Are Screaming Buys Before They Go Parabolic (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,6** A $12.5M options bet on 10-year Treasury yields falling below 5% (Investing.com). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
