@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-20T22:25:20+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-20T22:26:19+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,077 lalu ditolak (3 jam lalu). Skor dipangkas dari -7.1 menjadi -2.0.
+**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,077 lalu ditolak (3 jam lalu). Skor dipangkas dari -7.2 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,40% dari penutupan sebelumnya (26.229,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,49% dari penutupan sebelumnya (26.205,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Berita berbobot** (−1,03): Skor rata-rata −0,82 dari 30 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −6,20% dari penutupan sebelumnya (8.835,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 27,75 (−2,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,28. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −6,93% dalam 5 sesi; 15,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Semikonduktor (SOX)** (−1,00): −6,23% dari penutupan sebelumnya (8.833,24). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,60): 27,73 (−2,5% dari sesi sebelumnya); VXN (Nasdaq-100) 36,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −6,90% dalam 5 sesi; 15,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,82 dari 30 kejadian bernilai; 40% bobot bullish | −0,69 | 30% | −1,03 |
-| Futures Nasdaq-100 | −1,40% dari penutupan sebelumnya (26.229,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,32% dari penutupan sebelumnya (7.174,25) | −0,80 | 5% | −0,20 |
-| Semikonduktor (SOX) | −6,20% dari penutupan sebelumnya (8.835,59) | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | −1,49% dari penutupan sebelumnya (26.205,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,39% dari penutupan sebelumnya (7.169,50) | −0,97 | 5% | −0,24 |
+| Semikonduktor (SOX) | −6,23% dari penutupan sebelumnya (8.833,24) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,976% (−7,6 bp dari sesi sebelumnya) | +0,76 | 10% | +0,38 |
-| VIX (volatilitas) | 27,75 (−2,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,28 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,31 (−3,99% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 27,73 (−2,5% dari sesi sebelumnya); VXN (Nasdaq-100) 36,26 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $88,23 (−4,08% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,19% dari penutupan sebelumnya (103,70) | −0,47 | 5% | −0,12 |
-| Tren Nasdaq 5 sesi | −6,93% dalam 5 sesi; 15,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −6,90% dalam 5 sesi; 15,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 23.545 (−1,40%).
-Rentang wajar 1σ (VXN): 23.333 sampai 24.425.
+Perkiraan pembukaan dari futures: 23.523 (−1,49%).
+Rentang wajar 1σ (VXN): 23.334 sampai 24.425.
 
 ## Berita paling berdampak
 - **−2,1** Global Oil Prices Rise After Reports On Hormuz Tanker Blasts And Houthi Attack On Saudi Capital (Marine Insight). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
