@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T23:05:28+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-20T23:06:28+07:00 · sesi Jumat 20 Nov (berjalan)_
 
-Peluang indeks naik **22%**, turun **78%** (skor −8,9 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **22%**, turun **78%** (skor −8,8 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,55% dari penutupan sebelumnya (25.920,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −7,53% dari penutupan sebelumnya (8.710,11). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 29,75 (+4,6% dari sesi sebelumnya); VXN (Nasdaq-100) 38,63. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (−2,00): −2,64% dari penutupan sebelumnya (25.897,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −7,19% dari penutupan sebelumnya (8.742,42). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 29,78 (+4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,60. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (−0,73): Skor rata-rata −0,59 dari 28 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −1,18% dari penutupan sebelumnya (7.112,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −1,25% dari penutupan sebelumnya (7.107,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,59 dari 28 kejadian bernilai; 46% bobot bullish | −0,49 | 30% | −0,73 |
-| Futures Nasdaq-100 | −2,55% dari penutupan sebelumnya (25.920,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,18% dari penutupan sebelumnya (7.112,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −7,53% dari penutupan sebelumnya (8.710,11) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,952% (−10,0 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 29,75 (+4,6% dari sesi sebelumnya); VXN (Nasdaq-100) 38,63 | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | −2,64% dari penutupan sebelumnya (25.897,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,25% dari penutupan sebelumnya (7.107,25) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −7,19% dari penutupan sebelumnya (8.742,42) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,950% (−10,2 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
+| VIX (volatilitas) | 29,78 (+4,7% dari sesi sebelumnya); VXN (Nasdaq-100) 38,60 | −2,00 | 10% | −1,00 |
 | Minyak Brent | $88,60 (−3,67% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,20% dari penutupan sebelumnya (103,69) | −0,50 | 5% | −0,12 |
-| Tren Nasdaq 5 sesi | −7,68% dalam 5 sesi; 16,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | −0,16% dari penutupan sebelumnya (103,73) | −0,40 | 5% | −0,10 |
+| Tren Nasdaq 5 sesi | −7,53% dalam 5 sesi; 16,2% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 23.270 (−2,55%).
-Rentang wajar 1σ (VXN): 23.298 sampai 24.460.
+Perkiraan pembukaan dari futures: 23.249 (−2,64%).
+Rentang wajar 1σ (VXN): 23.299 sampai 24.460.
 
 ## Berita paling berdampak
 - **−2,0** Gary Black Warns SpaceX-Tesla Merger Could Wipe Out 24% Premium in Weeks: 'Massive Dilution' Could Crush (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
