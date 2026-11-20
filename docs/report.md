@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-21T03:54:26+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-21T03:55:26+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −5,50% dari penutupan sebelumnya (25.137,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −5,40% dari penutupan sebelumnya (25.164,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Berita berbobot** (−1,50): Skor rata-rata −1,20 dari 34 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −10,71% dari penutupan sebelumnya (8.411,18). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 37,64 (+32,4% dari sesi sebelumnya); VXN (Nasdaq-100) 46,33. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −3,64% dari penutupan sebelumnya (6.935,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Semikonduktor (SOX)** (−1,00): −11,22% dari penutupan sebelumnya (8.362,77). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 37,65 (+32,4% dari sesi sebelumnya); VXN (Nasdaq-100) 46,47. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −3,55% dari penutupan sebelumnya (6.941,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,20 dari 34 kejadian bernilai; 29% bobot bullish | −1,00 | 30% | −1,50 |
-| Futures Nasdaq-100 | −5,50% dari penutupan sebelumnya (25.137,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −3,64% dari penutupan sebelumnya (6.935,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −10,71% dari penutupan sebelumnya (8.411,18) | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | −5,40% dari penutupan sebelumnya (25.164,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −3,55% dari penutupan sebelumnya (6.941,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −11,22% dari penutupan sebelumnya (8.362,77) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,912% (−14,0 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 37,64 (+32,4% dari sesi sebelumnya); VXN (Nasdaq-100) 46,33 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $90,13 (−2,01% dari sesi sebelumnya) | +1,00 | 5% | +0,25 |
+| VIX (volatilitas) | 37,65 (+32,4% dari sesi sebelumnya); VXN (Nasdaq-100) 46,47 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $90,14 (−2,00% dari sesi sebelumnya) | +1,00 | 5% | +0,25 |
 | Indeks dolar | −0,04% dari penutupan sebelumnya (103,86) | −0,10 | 5% | −0,03 |
-| Tren Nasdaq 5 sesi | −9,94% dalam 5 sesi; 18,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −10,29% dalam 5 sesi; 18,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 22.566 (−5,50%).
-Rentang wajar 1σ (VXN): 23.182 sampai 24.576.
+Perkiraan pembukaan dari futures: 22.590 (−5,40%).
+Rentang wajar 1σ (VXN): 23.180 sampai 24.578.
 
 ## Berita paling berdampak
 - **−2,3** Fed's Cook says rate hikes needed to lower high inflation (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -36,7 +36,7 @@ Rentang wajar 1σ (VXN): 23.182 sampai 24.576.
 - **−1,9** Nasdaq 100 Tumbles Over 3% Amid Tech Bloodbath, Nvidia Sinks 7% on 7th Straight Weekly Loss: Stock Market Today (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** Tech Rout Deepens as Anthropic Stock Slides (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Anthropic's post-debut stumble delivers reality check for AI trade (Reuters). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,6** Michael Burry Locks In Gains on Nvidia, Chipmaker ETF Puts As AI Rout Deepens (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,5** Michael Burry Locks In Gains on Nvidia, Chipmaker ETF Puts As AI Rout Deepens (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,4** Meta Stock Forecast — META ($569.36) $625 Upside Target on $135B–$145B Capex Bill (TradingNEWS). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,4** AI Stocks Sell-Off Deepens: AMD, Micron and Broadcom Drop Over 5% as Nvidia Slides (Coinpedia). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
