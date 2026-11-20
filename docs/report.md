@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-21T04:38:37+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-21T04:39:37+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −4,95% dari penutupan sebelumnya (25.284,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,53): Skor rata-rata −1,23 dari 36 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −4,96% dari penutupan sebelumnya (25.280,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,59): Skor rata-rata −1,27 dari 37 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −3,20% dari penutupan sebelumnya (6.967,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −3,21% dari penutupan sebelumnya (6.966,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,23 dari 36 kejadian bernilai; 28% bobot bullish | −1,02 | 30% | −1,53 |
-| Futures Nasdaq-100 | −4,95% dari penutupan sebelumnya (25.284,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −3,20% dari penutupan sebelumnya (6.967,25) | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,27 dari 37 kejadian bernilai; 27% bobot bullish | −1,06 | 30% | −1,59 |
+| Futures Nasdaq-100 | −4,96% dari penutupan sebelumnya (25.280,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −3,21% dari penutupan sebelumnya (6.966,50) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,912% (−14,0 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
 | VIX (volatilitas) | 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $90,00 (−2,15% dari sesi sebelumnya) | +1,07 | 5% | +0,27 |
+| Minyak Brent | $90,04 (−2,11% dari sesi sebelumnya) | +1,05 | 5% | +0,26 |
 | Indeks dolar | −0,01% dari penutupan sebelumnya (103,89) | −0,02 | 5% | −0,01 |
 | Tren Nasdaq 5 sesi | −10,02% dalam 5 sesi; 18,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 21.498 (−4,95%).
+Perkiraan pembukaan dari futures: 21.496 (−4,96%).
 Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **−1,3** Bitcoin Falls Below $77K as Fed's Warsh Delivers Hawkish Jackson Hole Speech (CoinMarketCap). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** Meta Stock Forecast — META ($569.36) $625 Upside Target on $135B–$145B Capex Bill (TradingNEWS). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,3** AI Stocks Sell-Off Deepens: AMD, Micron and Broadcom Drop Over 5% as Nvidia Slides (Coinpedia). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,2** Mortgage rates skyrocket again thanks to hotter-than-expected inflation rates (New York Post). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,3** Stock Market Midday, Nov. 20: Nasdaq Plunges Nearly 3% as AMD and Micron Lead a Brutal Semiconductor Sell-Off (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
