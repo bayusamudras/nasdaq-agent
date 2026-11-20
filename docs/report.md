@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-21T00:24:59+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-21T00:25:59+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −3,70% dari penutupan sebelumnya (25.615,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −3,81% dari penutupan sebelumnya (25.588,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Berita berbobot** (−1,05): Skor rata-rata −0,84 dari 35 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −8,74% dari penutupan sebelumnya (8.596,57). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 31,30 (+10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 40,15. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,99% dari penutupan sebelumnya (7.054,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Semikonduktor (SOX)** (−1,00): −8,75% dari penutupan sebelumnya (8.595,36). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 31,43 (+10,5% dari sesi sebelumnya); VXN (Nasdaq-100) 40,00. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −2,08% dari penutupan sebelumnya (7.047,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,84 dari 35 kejadian bernilai; 39% bobot bullish | −0,70 | 30% | −1,05 |
-| Futures Nasdaq-100 | −3,70% dari penutupan sebelumnya (25.615,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,99% dari penutupan sebelumnya (7.054,00) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −8,74% dari penutupan sebelumnya (8.596,57) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,950% (−10,2 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 31,30 (+10,1% dari sesi sebelumnya); VXN (Nasdaq-100) 40,15 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,20 (−3,02% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,16% dari penutupan sebelumnya (103,73) | −0,40 | 5% | −0,10 |
-| Tren Nasdaq 5 sesi | −8,28% dalam 5 sesi; 16,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −3,81% dari penutupan sebelumnya (25.588,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −2,08% dari penutupan sebelumnya (7.047,25) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −8,75% dari penutupan sebelumnya (8.595,36) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,948% (−10,4 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
+| VIX (volatilitas) | 31,43 (+10,5% dari sesi sebelumnya); VXN (Nasdaq-100) 40,00 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $89,09 (−3,14% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,16% dari penutupan sebelumnya (103,74) | −0,40 | 5% | −0,10 |
+| Tren Nasdaq 5 sesi | −8,33% dalam 5 sesi; 16,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 22.996 (−3,70%).
-Rentang wajar 1σ (VXN): 23.275 sampai 24.483.
+Perkiraan pembukaan dari futures: 22.969 (−3,81%).
+Rentang wajar 1σ (VXN): 23.278 sampai 24.481.
 
 ## Berita paling berdampak
 - **−1,8** Global Oil Prices Rise After Reports On Hormuz Tanker Blasts And Houthi Attack On Saudi Capital (Marine Insight). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
