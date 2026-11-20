@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T22:49:20+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-20T22:50:19+07:00 · sesi Jumat 20 Nov (berjalan)_
 
-Peluang indeks naik **26%**, turun **74%** (skor −7,7 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **26%**, turun **74%** (skor −7,6 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,28% dari penutupan sebelumnya (25.994,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −7,08% dari penutupan sebelumnya (8.753,13). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 29,76 (+4,6% dari sesi sebelumnya); VXN (Nasdaq-100) 38,44. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (−2,00): −2,21% dari penutupan sebelumnya (26.012,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −6,62% dari penutupan sebelumnya (8.796,29). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 29,66 (+4,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,07. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (−0,90): Skor rata-rata −0,72 dari 30 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −0,92% dari penutupan sebelumnya (7.131,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −0,90% dari penutupan sebelumnya (7.132,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,72 dari 30 kejadian bernilai; 42% bobot bullish | −0,60 | 30% | −0,90 |
-| Futures Nasdaq-100 | −2,28% dari penutupan sebelumnya (25.994,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,92% dari penutupan sebelumnya (7.131,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −7,08% dari penutupan sebelumnya (8.753,13) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,952% (−10,0 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 29,76 (+4,6% dari sesi sebelumnya); VXN (Nasdaq-100) 38,44 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $88,04 (−4,28% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,24% dari penutupan sebelumnya (103,65) | −0,60 | 5% | −0,15 |
-| Tren Nasdaq 5 sesi | −7,19% dalam 5 sesi; 15,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −2,21% dari penutupan sebelumnya (26.012,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,90% dari penutupan sebelumnya (7.132,75) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −6,62% dari penutupan sebelumnya (8.796,29) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,954% (−9,8 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
+| VIX (volatilitas) | 29,66 (+4,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,07 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $88,20 (−4,11% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,22% dari penutupan sebelumnya (103,67) | −0,55 | 5% | −0,14 |
+| Tren Nasdaq 5 sesi | −7,03% dalam 5 sesi; 15,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 23.335 (−2,28%).
-Rentang wajar 1σ (VXN): 23.301 sampai 24.457.
+Perkiraan pembukaan dari futures: 23.351 (−2,21%).
+Rentang wajar 1σ (VXN): 23.307 sampai 24.452.
 
 ## Berita paling berdampak
 - **−2,0** Global Oil Prices Rise After Reports On Hormuz Tanker Blasts And Houthi Attack On Saudi Capital (Marine Insight). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
