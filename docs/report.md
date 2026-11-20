@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-21T00:44:14+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-21T00:45:14+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −3,77% dari penutupan sebelumnya (25.598,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,06): Skor rata-rata −0,86 dari 36 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,03): Skor rata-rata −0,83 dari 35 kejadian bernilai; 39% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −8,64% dari penutupan sebelumnya (8.606,11). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 32,18 (+13,2% dari sesi sebelumnya); VXN (Nasdaq-100) 40,81. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Futures S&P 500** (−0,50): −2,15% dari penutupan sebelumnya (7.042,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -15,7 +15,7 @@ Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,86 dari 36 kejadian bernilai; 39% bobot bullish | −0,71 | 30% | −1,06 |
+| Berita berbobot | skor rata-rata −0,83 dari 35 kejadian bernilai; 39% bobot bullish | −0,69 | 30% | −1,03 |
 | Futures Nasdaq-100 | −3,77% dari penutupan sebelumnya (25.598,75) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −2,15% dari penutupan sebelumnya (7.042,50) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −8,64% dari penutupan sebelumnya (8.606,11) | −2,00 | 10% | −1,00 |
