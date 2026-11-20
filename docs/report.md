@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-20T22:36:19+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-20T22:37:19+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **26%**, turun **74%** (skor −7,7 dari ±10, keyakinan 80%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,33% dari penutupan sebelumnya (25.981,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −6,62% dari penutupan sebelumnya (8.796,08). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 28,99 (+1,9% dari sesi sebelumnya); VXN (Nasdaq-100) 37,47. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (−2,00): −2,38% dari penutupan sebelumnya (25.968,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −6,85% dari penutupan sebelumnya (8.774,77). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 29,28 (+3,0% dari sesi sebelumnya); VXN (Nasdaq-100) 37,81. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (−0,94): Skor rata-rata −0,75 dari 31 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −0,94% dari penutupan sebelumnya (7.129,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −1,00% dari penutupan sebelumnya (7.125,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,75 dari 31 kejadian bernilai; 40% bobot bullish | −0,63 | 30% | −0,94 |
-| Futures Nasdaq-100 | −2,33% dari penutupan sebelumnya (25.981,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,94% dari penutupan sebelumnya (7.129,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −6,62% dari penutupan sebelumnya (8.796,08) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,966% (−8,6 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 28,99 (+1,9% dari sesi sebelumnya); VXN (Nasdaq-100) 37,47 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $87,98 (−4,35% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,17% dari penutupan sebelumnya (103,72) | −0,42 | 5% | −0,11 |
-| Tren Nasdaq 5 sesi | −6,93% dalam 5 sesi; 15,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −2,38% dari penutupan sebelumnya (25.968,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,00% dari penutupan sebelumnya (7.125,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −6,85% dari penutupan sebelumnya (8.774,77) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,960% (−9,2 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
+| VIX (volatilitas) | 29,28 (+3,0% dari sesi sebelumnya); VXN (Nasdaq-100) 37,81 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $88,03 (−4,29% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,18% dari penutupan sebelumnya (103,72) | −0,45 | 5% | −0,11 |
+| Tren Nasdaq 5 sesi | −7,03% dalam 5 sesi; 15,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 23.323 (−2,33%).
-Rentang wajar 1σ (VXN): 23.316 sampai 24.443.
+Perkiraan pembukaan dari futures: 23.311 (−2,38%).
+Rentang wajar 1σ (VXN): 23.310 sampai 24.448.
 
 ## Berita paling berdampak
 - **−2,1** Global Oil Prices Rise After Reports On Hormuz Tanker Blasts And Houthi Attack On Saudi Capital (Marine Insight). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
