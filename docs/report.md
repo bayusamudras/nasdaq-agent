@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-20T16:30:41+07:00 · sesi Jumat 20 Nov (pra-buka)_
+_Diperbarui 2026-11-20T16:31:50+07:00 · sesi Jumat 20 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 77%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,271 lalu ditolak (3 jam lalu). Skor dipangkas dari -9.8 menjadi -2.0.
+**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 26,271 lalu ditolak (3 jam lalu). Skor dipangkas dari -9.7 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,22% dari penutupan sebelumnya (26.276,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,11% dari penutupan sebelumnya (26.305,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −2,41% dari penutupan sebelumnya (9.419,72). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 28,96 (+1,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,48. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Berita berbobot** (−0,85): Skor rata-rata −0,68 dari 31 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−1,00): 29,05 (+2,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,48. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Berita berbobot** (−0,80): Skor rata-rata −0,64 dari 33 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,50): −5,86% dalam 5 sesi; 13,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,68 dari 31 kejadian bernilai; 40% bobot bullish | −0,57 | 30% | −0,85 |
-| Futures Nasdaq-100 | −1,22% dari penutupan sebelumnya (26.276,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,44% dari penutupan sebelumnya (7.165,75) | −1,10 | 5% | −0,28 |
+| Berita berbobot | skor rata-rata −0,64 dari 33 kejadian bernilai; 40% bobot bullish | −0,53 | 30% | −0,80 |
+| Futures Nasdaq-100 | −1,11% dari penutupan sebelumnya (26.305,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,35% dari penutupan sebelumnya (7.172,25) | −0,87 | 5% | −0,22 |
 | Semikonduktor (SOX) | −2,41% dari penutupan sebelumnya (9.419,72) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 5,052% (−1,4 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 28,96 (+1,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,48 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $88,39 (−3,90% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,04% dari penutupan sebelumnya (103,86) | −0,10 | 5% | −0,03 |
+| VIX (volatilitas) | 29,05 (+2,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,48 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $88,57 (−3,71% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,05% dari penutupan sebelumnya (103,85) | −0,12 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | −5,86% dalam 5 sesi; 13,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 23.588 (−1,22%).
+Perkiraan pembukaan dari futures: 23.614 (−1,11%).
 Rentang wajar 1σ (VXN): 23.330 sampai 24.428.
 
 ## Berita paling berdampak
@@ -38,11 +38,11 @@ Rentang wajar 1σ (VXN): 23.330 sampai 24.428.
 - **+0,8** Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−0,8** On shaky ground: These 11 Indian MFs are most exposed to US tech selloff (Business Standard). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Cloudflare (NET) Could Be 81% Above Fair Value As Earnings Lift Guidance (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **−0,8** Gold futures sink below $3,700 as 5% yields pull money out of bullion (Kitco). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Stock Market Today, Nov. 19: Dow Plunges 1,100 Points as the S&P 500 Suffers Its 6th Straight Day of Losses (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,7** Iran intensifies Hormuz tanker attacks just as oil prices slide (The Japan Times). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+0,7** 10-Year Treasury Yield Eases From Resistance but Its Uptrend Holds (StoneX). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **+0,7** India’s Stock Rally Faces Valuation Test as Bond Allure Grows (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−0,7** TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say (Reuters). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
