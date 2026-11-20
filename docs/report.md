@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-21T02:48:57+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-21T02:49:57+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −4,57% dari penutupan sebelumnya (25.384,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,44): Skor rata-rata −1,16 dari 39 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −9,75% dari penutupan sebelumnya (8.501,09). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 34,91 (+22,8% dari sesi sebelumnya); VXN (Nasdaq-100) 43,20. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −2,87% dari penutupan sebelumnya (6.990,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −4,55% dari penutupan sebelumnya (25.389,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,32): Skor rata-rata −1,05 dari 36 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (−1,00): −9,46% dari penutupan sebelumnya (8.529,00). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 35,04 (+23,2% dari sesi sebelumnya); VXN (Nasdaq-100) 43,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −2,83% dari penutupan sebelumnya (6.993,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,16 dari 39 kejadian bernilai; 31% bobot bullish | −0,96 | 30% | −1,44 |
-| Futures Nasdaq-100 | −4,57% dari penutupan sebelumnya (25.384,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −2,87% dari penutupan sebelumnya (6.990,75) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −9,75% dari penutupan sebelumnya (8.501,09) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,914% (−13,8 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 34,91 (+22,8% dari sesi sebelumnya); VXN (Nasdaq-100) 43,20 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,55 (−2,64% dari sesi sebelumnya) | +1,32 | 5% | +0,33 |
-| Indeks dolar | −0,08% dari penutupan sebelumnya (103,82) | −0,20 | 5% | −0,05 |
-| Tren Nasdaq 5 sesi | −9,23% dalam 5 sesi; 17,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,05 dari 36 kejadian bernilai; 34% bobot bullish | −0,88 | 30% | −1,32 |
+| Futures Nasdaq-100 | −4,55% dari penutupan sebelumnya (25.389,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −2,83% dari penutupan sebelumnya (6.993,25) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −9,46% dari penutupan sebelumnya (8.529,00) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,910% (−14,2 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
+| VIX (volatilitas) | 35,04 (+23,2% dari sesi sebelumnya); VXN (Nasdaq-100) 43,42 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $89,59 (−2,60% dari sesi sebelumnya) | +1,30 | 5% | +0,33 |
+| Indeks dolar | −0,09% dari penutupan sebelumnya (103,81) | −0,22 | 5% | −0,06 |
+| Tren Nasdaq 5 sesi | −9,09% dalam 5 sesi; 17,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 22.788 (−4,57%).
-Rentang wajar 1σ (VXN): 23.229 sampai 24.529.
+Perkiraan pembukaan dari futures: 22.793 (−4,55%).
+Rentang wajar 1σ (VXN): 23.226 sampai 24.532.
 
 ## Berita paling berdampak
 - **−2,5** Fed's Cook says rate hikes needed to lower high inflation (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
@@ -41,8 +41,8 @@ Rentang wajar 1σ (VXN): 23.229 sampai 24.529.
 - **−1,5** Meta Stock Forecast — META ($569.36) $625 Upside Target on $135B–$145B Capex Bill (TradingNEWS). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,5** AI Stocks Sell-Off Deepens: AMD, Micron and Broadcom Drop Over 5% as Nvidia Slides (Coinpedia). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Stock Market Midday, Nov. 20: Nasdaq Plunges Nearly 3% as AMD and Micron Lead a Brutal Semiconductor Sell-Off (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,3** Bitcoin Slips Below $59,000 as Wall Street Slumps into Correction (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Nasdaq wipes out 2026 gains, S&P 500 falls into correction territory (CBC). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** UK-EU reset summit deal sealed, US chip export controls tighten and Empowering Global Trade 2026 (The Chartered Institute of Export & International Trade). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
