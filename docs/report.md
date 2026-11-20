@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-20T23:19:37+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-20T23:20:37+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 25,806 lalu ditolak (1 jam lalu). Skor dipangkas dari -7.2 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,87% dari penutupan sebelumnya (25.837,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −7,17% dari penutupan sebelumnya (8.744,52). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 30,90 (+8,7% dari sesi sebelumnya); VXN (Nasdaq-100) 39,59. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (−2,00): −2,78% dari penutupan sebelumnya (25.860,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −6,98% dari penutupan sebelumnya (8.762,08). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 30,88 (+8,6% dari sesi sebelumnya); VXN (Nasdaq-100) 39,65. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (−0,60): Skor rata-rata −0,48 dari 29 kejadian bernilai; 48% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −1,45% dari penutupan sebelumnya (7.093,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −1,38% dari penutupan sebelumnya (7.098,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,48 dari 29 kejadian bernilai; 48% bobot bullish | −0,40 | 30% | −0,60 |
-| Futures Nasdaq-100 | −2,87% dari penutupan sebelumnya (25.837,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,45% dari penutupan sebelumnya (7.093,00) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −7,17% dari penutupan sebelumnya (8.744,52) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,942% (−11,0 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 30,90 (+8,7% dari sesi sebelumnya); VXN (Nasdaq-100) 39,59 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $88,65 (−3,62% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,15% dari penutupan sebelumnya (103,74) | −0,37 | 5% | −0,09 |
-| Tren Nasdaq 5 sesi | −7,39% dalam 5 sesi; 16,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −2,78% dari penutupan sebelumnya (25.860,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,38% dari penutupan sebelumnya (7.098,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −6,98% dari penutupan sebelumnya (8.762,08) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,944% (−10,8 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
+| VIX (volatilitas) | 30,88 (+8,6% dari sesi sebelumnya); VXN (Nasdaq-100) 39,65 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $88,76 (−3,50% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,16% dari penutupan sebelumnya (103,73) | −0,40 | 5% | −0,10 |
+| Tren Nasdaq 5 sesi | −7,36% dalam 5 sesi; 16,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 23.194 (−2,87%).
-Rentang wajar 1σ (VXN): 23.284 sampai 24.475.
+Perkiraan pembukaan dari futures: 23.215 (−2,78%).
+Rentang wajar 1σ (VXN): 23.283 sampai 24.476.
 
 ## Berita paling berdampak
 - **−1,9** Gary Black Warns SpaceX-Tesla Merger Could Wipe Out 24% Premium in Weeks: 'Massive Dilution' Could Crush (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
