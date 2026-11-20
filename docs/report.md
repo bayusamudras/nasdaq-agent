@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-20T23:33:38+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-20T23:34:37+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 25,806 lalu ditolak (1 jam lalu). Skor dipangkas dari -8.8 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,80% dari penutupan sebelumnya (25.855,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −7,70% dari penutupan sebelumnya (8.694,49). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 29,93 (+5,2% dari sesi sebelumnya); VXN (Nasdaq-100) 38,52. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,33% dari penutupan sebelumnya (7.101,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −7,70% dalam 5 sesi; 16,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−2,00): −2,92% dari penutupan sebelumnya (25.824,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −7,80% dari penutupan sebelumnya (8.684,72). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 30,08 (+5,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,74. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,44% dari penutupan sebelumnya (7.093,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −7,73% dalam 5 sesi; 16,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,40 dari 27 kejadian bernilai; 50% bobot bullish | −0,33 | 30% | −0,49 |
-| Futures Nasdaq-100 | −2,80% dari penutupan sebelumnya (25.855,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,33% dari penutupan sebelumnya (7.101,25) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −7,70% dari penutupan sebelumnya (8.694,49) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,954% (−9,8 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 29,93 (+5,2% dari sesi sebelumnya); VXN (Nasdaq-100) 38,52 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $88,49 (−3,79% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,17% dari penutupan sebelumnya (103,73) | −0,42 | 5% | −0,11 |
-| Tren Nasdaq 5 sesi | −7,70% dalam 5 sesi; 16,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −2,92% dari penutupan sebelumnya (25.824,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,44% dari penutupan sebelumnya (7.093,50) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −7,80% dari penutupan sebelumnya (8.684,72) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,952% (−10,0 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
+| VIX (volatilitas) | 30,08 (+5,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,74 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $88,62 (−3,65% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,15% dari penutupan sebelumnya (103,75) | −0,37 | 5% | −0,09 |
+| Tren Nasdaq 5 sesi | −7,73% dalam 5 sesi; 16,3% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 23.211 (−2,80%).
-Rentang wajar 1σ (VXN): 23.300 sampai 24.459.
+Perkiraan pembukaan dari futures: 23.182 (−2,92%).
+Rentang wajar 1σ (VXN): 23.296 sampai 24.462.
 
 ## Berita paling berdampak
 - **−1,9** Gary Black Warns SpaceX-Tesla Merger Could Wipe Out 24% Premium in Weeks: 'Massive Dilution' Could Crush (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
