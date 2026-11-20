@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-21T03:13:06+07:00 · sesi Jumat 20 Nov (berjalan)_
+_Diperbarui 2026-11-21T03:14:06+07:00 · sesi Jumat 20 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −4,85% dari penutupan sebelumnya (25.309,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −4,86% dari penutupan sebelumnya (25.307,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Berita berbobot** (−1,35): Skor rata-rata −1,08 dari 36 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (−1,00): −10,17% dari penutupan sebelumnya (8.462,14). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 33,97 (+19,4% dari sesi sebelumnya); VXN (Nasdaq-100) 42,28. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −3,09% dari penutupan sebelumnya (6.974,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Semikonduktor (SOX)** (−1,00): −10,18% dari penutupan sebelumnya (8.460,55). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 34,17 (+20,1% dari sesi sebelumnya); VXN (Nasdaq-100) 42,30. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −3,09% dari penutupan sebelumnya (6.974,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,08 dari 36 kejadian bernilai; 32% bobot bullish | −0,90 | 30% | −1,35 |
-| Futures Nasdaq-100 | −4,85% dari penutupan sebelumnya (25.309,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −3,09% dari penutupan sebelumnya (6.974,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −10,17% dari penutupan sebelumnya (8.462,14) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,920% (−13,2 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
-| VIX (volatilitas) | 33,97 (+19,4% dari sesi sebelumnya); VXN (Nasdaq-100) 42,28 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,53 (−2,66% dari sesi sebelumnya) | +1,33 | 5% | +0,33 |
-| Indeks dolar | −0,08% dari penutupan sebelumnya (103,81) | −0,20 | 5% | −0,05 |
-| Tren Nasdaq 5 sesi | −9,46% dalam 5 sesi; 17,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −4,86% dari penutupan sebelumnya (25.307,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −3,09% dari penutupan sebelumnya (6.974,75) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −10,18% dari penutupan sebelumnya (8.460,55) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,916% (−13,6 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
+| VIX (volatilitas) | 34,17 (+20,1% dari sesi sebelumnya); VXN (Nasdaq-100) 42,30 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $89,50 (−2,70% dari sesi sebelumnya) | +1,35 | 5% | +0,34 |
+| Indeks dolar | −0,08% dari penutupan sebelumnya (103,82) | −0,20 | 5% | −0,05 |
+| Tren Nasdaq 5 sesi | −9,52% dalam 5 sesi; 18,0% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.230; resistensi 24.589 / 25.299; support 23.520 / 23.161.
-Perkiraan pembukaan dari futures: 22.721 (−4,85%).
-Rentang wajar 1σ (VXN): 23.243 sampai 24.515.
+Perkiraan pembukaan dari futures: 22.719 (−4,86%).
+Rentang wajar 1σ (VXN): 23.243 sampai 24.516.
 
 ## Berita paling berdampak
 - **−2,5** Fed's Cook says rate hikes needed to lower high inflation (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
