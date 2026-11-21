@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-21T13:07:33+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-21T13:12:30+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,22): Skor rata-rata −1,77 dari 35 kejadian bernilai; 13% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures Nasdaq-100** (−2,00): −5,54% dari penutupan sebelumnya (25.126,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,95): Skor rata-rata −1,55 dari 37 kejadian bernilai; 19% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Futures S&P 500** (−0,50): −3,64% dari penutupan sebelumnya (6.935,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -15,7 +15,7 @@ Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,77 dari 35 kejadian bernilai; 13% bobot bullish | −1,48 | 30% | −2,22 |
+| Berita berbobot | skor rata-rata −1,55 dari 37 kejadian bernilai; 19% bobot bullish | −1,30 | 30% | −1,95 |
 | Futures Nasdaq-100 | −5,54% dari penutupan sebelumnya (25.126,50) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −3,64% dari penutupan sebelumnya (6.935,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
@@ -32,8 +32,8 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
 - **−1,9** Bessent advocates lower Fed rate hike, cites energy shock (Yahoo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,3** S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens (AP News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,2** U.S. stocks slump into correction territory amid tech and AI worries (The Washington Post). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,3** U.S. stocks slump into correction territory amid tech and AI worries (The Washington Post). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens (AP News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Fed's Cook says rate hikes needed to lower high inflation (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,2** QUICK SPARK: Semiconductor Stocks Head for Worst 2-Month Slump Since 2001 (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Chips are crashing like it's 2008 as the Nasdaq 100 nears a bear market (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
