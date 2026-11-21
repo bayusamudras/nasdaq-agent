@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-21T22:20:26+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-21T22:25:26+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −5,54% dari penutupan sebelumnya (25.126,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,17): Skor rata-rata −0,93 dari 31 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,44): Skor rata-rata −1,16 dari 32 kejadian bernilai; 30% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Futures S&P 500** (−0,50): −3,64% dari penutupan sebelumnya (6.935,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -15,7 +15,7 @@ Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 80
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,93 dari 31 kejadian bernilai; 36% bobot bullish | −0,78 | 30% | −1,17 |
+| Berita berbobot | skor rata-rata −1,16 dari 32 kejadian bernilai; 30% bobot bullish | −0,96 | 30% | −1,44 |
 | Futures Nasdaq-100 | −5,54% dari penutupan sebelumnya (25.126,50) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −3,64% dari penutupan sebelumnya (6.935,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
@@ -32,16 +32,16 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
 - **−3,9** This Stock Market Selloff Could Block the Fed’s Rate Hikes (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,2** Bitcoin Slips Under $60,000 as $2.3 Billion in Crypto Bets Get Wiped Out (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,2** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,1** Stock Market Sell-Off: History Says This Is the Smartest Move Investors Can Make Right Now (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,9** Brace for a Flood of Oil as Soon as Hormuz Reopens (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **−1,1** Nvidia plunges 14% and Nasdaq sheds $4 trillion in a week (Pasquale Pillitteri). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Big Tech Stocks Crash as Nvidia, Amazon, Google and Meta Lead Magnificent Seven Selloff (CryptoRank). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Gene Munster Says AI Sell-Off Is About Fear, Not Fundamentals — ‘The Window For Investment Gains Remains Open’ (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,7** Has AI's Wall Street honeymoon ended? Nvidia rout raises questions over tech boom (Mathrubhumi English). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,8** Oil Prices Jump Over 7% After Trump Says Attacks on Iran Will Continue (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−0,7** U.S. stocks slump into correction territory amid tech and AI worries (The Washington Post). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens (AP News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,7** Fed's Cook says rate hikes needed to lower high inflation (Reuters). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−0,7** QUICK SPARK: Semiconductor Stocks Head for Worst 2-Month Slump Since 2001 (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,6** Unpacking the Anthropic IPO filing (Fast Company South Africa). IPO perusahaan AI memvalidasi valuasi sektor dan menarik dana ke tema AI. Namun pasokan saham baru juga menyedot likuiditas.
 
 ## Kalender risiko
