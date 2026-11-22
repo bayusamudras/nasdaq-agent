@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-22T10:54:24+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-22T10:59:24+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **24%**, turun **76%** (skor −8,3 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -37,7 +37,7 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **−1,5** AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** 3 AI Chip Stocks Retail Investors Are Watching After The Nvidia Selloff (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** Fed’s Lisa Cook Warns of Larger Rate Hikes Ahead (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−0,8** Fed’s Lisa Cook Warns of Larger Rate Hikes Ahead (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,8** Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Arista Networks: The AI Pullback May Hammer This Stock Hard (Downgrade) (Seeking Alpha). Penurunan peringkat menggerakkan arus dana institusi keluar dari saham itu. Dampak ke indeks kecil kecuali emitennya mega-cap.
 - **−0,7** Japan Imposes Export Controls on South Korea (Wisevoter). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
