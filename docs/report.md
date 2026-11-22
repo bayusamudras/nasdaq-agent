@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T00:59:01+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-23T01:04:01+07:00 · sesi Senin 23 Nov (pra-buka)_
 
-Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 79%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,6 dari ±10, keyakinan 79%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −5,54% dari penutupan sebelumnya (25.126,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,05): Skor rata-rata −0,84 dari 27 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,14): Skor rata-rata −0,91 dari 28 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Futures S&P 500** (−0,50): −3,64% dari penutupan sebelumnya (6.935,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -15,7 +15,7 @@ Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 79%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,84 dari 27 kejadian bernilai; 36% bobot bullish | −0,70 | 30% | −1,05 |
+| Berita berbobot | skor rata-rata −0,91 dari 28 kejadian bernilai; 35% bobot bullish | −0,76 | 30% | −1,14 |
 | Futures Nasdaq-100 | −5,54% dari penutupan sebelumnya (25.126,50) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −3,64% dari penutupan sebelumnya (6.935,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
@@ -35,14 +35,14 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **+1,8** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,6** Alleged China Access to Export Controlled Chips Fuels Securities Suit Against Alibaba (The D&O Diary). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,5** Strong Earnings Prove No Match for the Crumbling AI Trade (Bloomberg.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,3** The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash. (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Everyday Economics: The stock selloff could hit spending (The Center Square). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Dow Jones Futures Due After Market's Worst Week Since Covid; Look For These Absolute Losers (Investor's Business Daily). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,1** The AI sell-off has investors on edge. 5 pros weigh in on whether to buy the dip — or skip. (Business Insider). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** The AI sell-off has investors on edge. 5 pros weigh in on whether to buy the dip — or skip. (Business Insider). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Trump’s Trade War Backfired. Now He’s Courting China (ScheerPost). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** US Conducts Fresh Strikes on Iran; Tehran Announces Strait of Hormuz Closure (DD News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−0,7** S&P 500 drops more than 3% as semiconductor stocks lead market selloff (www.equiti.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,6** Anthropic's post-debut stumble delivers reality check for AI trade (ET Enterprise AI). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,7** 【US Pre-Market】Market Focuses on Warsh Speech; Optical Communication and Storage Stocks Broadly Fall, PayPal Plunges Over 16%, Marvell Technology Drops Over 8% (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
