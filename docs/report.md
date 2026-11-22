@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-22T13:45:31+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-22T13:50:31+07:00 · sesi Senin 23 Nov (pra-buka)_
 
-Peluang indeks naik **26%**, turun **74%** (skor −7,6 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **26%**, turun **74%** (skor −7,5 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −5,54% dari penutupan sebelumnya (25.126,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,40): Skor rata-rata −1,11 dari 27 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,33): Skor rata-rata −1,07 dari 26 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Futures S&P 500** (−0,50): −3,64% dari penutupan sebelumnya (6.935,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -15,7 +15,7 @@ Peluang indeks naik **26%**, turun **74%** (skor −7,6 dari ±10, keyakinan 80%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,11 dari 27 kejadian bernilai; 26% bobot bullish | −0,93 | 30% | −1,40 |
+| Berita berbobot | skor rata-rata −1,07 dari 26 kejadian bernilai; 26% bobot bullish | −0,89 | 30% | −1,33 |
 | Futures Nasdaq-100 | −5,54% dari penutupan sebelumnya (25.126,50) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −3,64% dari penutupan sebelumnya (6.935,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
@@ -41,8 +41,8 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **+0,8** Reported Hormuz attacks hit wartime highs. Oil prices fall anyway. (Digg). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,7** Fed’s Lisa Cook Warns of Larger Rate Hikes Ahead (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,7** Arista Networks: The AI Pullback May Hammer This Stock Hard (Downgrade) (Seeking Alpha). Penurunan peringkat menggerakkan arus dana institusi keluar dari saham itu. Dampak ke indeks kecil kecuali emitennya mega-cap.
-- **−0,6** Tesla Stock Price Forecast: Q3 Profit Slump Sends Shares Down Nearly 5%, May Continue to Test $300 Mark (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,6** Japan Imposes Export Controls on South Korea (Wisevoter). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **+0,5** Today’s Market Recap: Chip Stocks Rebound as Micron Rises Over 5%, AMD Gains Over 6%, Intel Jumps Nearly 8% (TradingKey). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
