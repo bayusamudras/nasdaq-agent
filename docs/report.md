@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-22T09:38:59+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-22T09:44:08+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **29%**, turun **71%** (skor −6,5 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **−0,9** Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Japan Imposes Export Controls on South Korea (Wisevoter). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,7** Kobeissi Letter Calls AI Rout a Correction, Not a Popped Bubble (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,7** CoreWeave Stock Forecast: Can AI Demand Justify CRWV’s Debt and Capex? (TradingKey). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−0,6** CoreWeave Stock Forecast: Can AI Demand Justify CRWV’s Debt and Capex? (TradingKey). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−0,6** Elon Musk's Net Worth Takes a $64 Billion Hit in a Day as Tesla and SpaceX Falter Amid AI Bubble Risks (Benzinga). Kekhawatiran valuasi membuat investor lebih cepat menjual saat ada kabar buruk dan menahan pembelian saat kabar baik.
 - **−0,6** Dow Jones today: What’s next for stocks in 2027 after an 8% weekly crash? (Beinsure). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
