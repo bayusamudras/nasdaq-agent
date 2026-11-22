@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T06:10:26+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-23T06:15:26+07:00 · sesi Senin 23 Nov (pra-buka)_
 
-Peluang indeks naik **45%**, turun **55%** (skor −2,2 dari ±10, keyakinan 71%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,1 dari ±10, keyakinan 71%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−1,69): Skor rata-rata −1,35 dari 33 kejadian bernilai; 23% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,60): Skor rata-rata −1,28 dari 33 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+1,00): 4,912% (−14,0 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -15,14 +15,14 @@ Peluang indeks naik **45%**, turun **55%** (skor −2,2 dari ±10, keyakinan 71%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,35 dari 33 kejadian bernilai; 23% bobot bullish | −1,13 | 30% | −1,69 |
+| Berita berbobot | skor rata-rata −1,28 dari 33 kejadian bernilai; 26% bobot bullish | −1,07 | 30% | −1,60 |
 | Futures Nasdaq-100 | 0,00% dari penutupan sebelumnya (25.126,50) | 0,00 | 20% | 0,00 |
 | Futures S&P 500 | 0,00% dari penutupan sebelumnya (6.935,00) | 0,00 | 5% | 0,00 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,912% (−14,0 bp dari sesi sebelumnya) | +2,00 | 10% | +1,00 |
 | VIX (volatilitas) | 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −2,00 | 10% | −1,00 |
 | Minyak Brent | $89,95 (−2,83% dari sesi sebelumnya) | +1,42 | 5% | +0,35 |
-| Indeks dolar | −0,01% dari penutupan sebelumnya (103,80) | −0,02 | 5% | −0,01 |
+| Indeks dolar | +0,02% dari penutupan sebelumnya (103,83) | +0,05 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | −10,02% dalam 5 sesi; 18,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -31,7 +31,7 @@ Perkiraan pembukaan dari futures: 22.618 (0,00%).
 Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
-- **−1,9** Asia Braces for More Volatility After US Selloff: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,8** Asia Braces for More Volatility After US Selloff: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** Nvidia's Crash, Gold's China Boost and Gensler's AI Bubble Warning: This Week in Economics (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** FBI incident fuels cyber concerns; Clayton defends chip curbs (The Hawk). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,2** Apple (NASDAQ: AAPL) Beats Big Tech's AI Spending Race With $109.4B Revenue And A $5 Trillion Valuation (Foreign Policy Journal). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **−1,0** US needs allies, not just tariffs, to counter China, Emanuel says (www.tokenpost.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,0** Strong Earnings Prove No Match for the Crumbling AI Trade (Bloomberg.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−0,9** Amazon Stock Falls 4% as Nasdaq Crashes 5%: Is AMZN a Buy? (Coinpaper). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−0,9** [Weekly Market Outlook] Stock Market Slumps Despite Nvidia's Strong Earnings…Tightening Wires to U.S. Inflation Indicators (뉴스웍스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,8** [Weekly Market Outlook] Stock Market Slumps Despite Nvidia's Strong Earnings…Tightening Wires to U.S. Inflation Indicators (뉴스웍스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Everyday Economics: The stock selloff could hit spending (The Center Square). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
