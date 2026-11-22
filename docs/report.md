@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-22T09:54:08+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-22T09:59:08+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **21%**, turun **79%** (skor −9,2 dari ±10, keyakinan 80%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,44): Skor rata-rata −1,96 dari 19 kejadian bernilai; 8% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−2,44): Skor rata-rata −1,96 dari 20 kejadian bernilai; 7% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures Nasdaq-100** (−2,00): −5,54% dari penutupan sebelumnya (25.126,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -15,7 +15,7 @@ Peluang indeks naik **21%**, turun **79%** (skor −9,2 dari ±10, keyakinan 80%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,96 dari 19 kejadian bernilai; 8% bobot bullish | −1,63 | 30% | −2,44 |
+| Berita berbobot | skor rata-rata −1,96 dari 20 kejadian bernilai; 7% bobot bullish | −1,63 | 30% | −2,44 |
 | Futures Nasdaq-100 | −5,54% dari penutupan sebelumnya (25.126,50) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −3,64% dari penutupan sebelumnya (6.935,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
@@ -38,11 +38,11 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **−0,9** Fed’s Lisa Cook Warns of Larger Rate Hikes Ahead (24/7 Wall St.). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−0,9** Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** Japan Imposes Export Controls on South Korea (Wisevoter). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,7** Kobeissi Letter Calls AI Rout a Correction, Not a Popped Bubble (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,6** Kobeissi Letter Calls AI Rout a Correction, Not a Popped Bubble (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,6** CoreWeave Stock Forecast: Can AI Demand Justify CRWV’s Debt and Capex? (TradingKey). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−0,6** Stock Market Crash: Nasdaq, S&P 500 Suffer Worst Weekly Losses in Years (CryptoRank). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,6** Elon Musk's Net Worth Takes a $64 Billion Hit in a Day as Tesla and SpaceX Falter Amid AI Bubble Risks (Benzinga). Kekhawatiran valuasi membuat investor lebih cepat menjual saat ada kabar buruk dan menahan pembelian saat kabar baik.
 - **−0,6** Dow Jones today: What’s next for stocks in 2027 after an 8% weekly crash? (Beinsure). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,5** Inflation Climbs to 4%, Fed Eyes Rate Hike (Wisevoter). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
