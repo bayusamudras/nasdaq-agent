@@ -1,5 +1,5 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-24T05:34:07+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T05:35:06+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **61%**, turun **39%** (skor +1,7 dari ±10, keyakinan 73%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -13,14 +13,14 @@ Peluang indeks naik **61%**, turun **39%** (skor +1,7 dari ±10, keyakinan 73%, 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,16 dari 33 kejadian bernilai; 62% bobot bullish | +0,13 | 30% | +0,20 |
+| Berita berbobot | skor rata-rata +0,15 dari 34 kejadian bernilai; 63% bobot bullish | +0,13 | 30% | +0,20 |
 | Futures Nasdaq-100 | +6,84% dari penutupan sebelumnya (26.845,00) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +4,84% dari penutupan sebelumnya (7.270,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
 | Minyak Brent | $86,72 (−6,32% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,50% dari penutupan sebelumnya (104,33) | +1,25 | 5% | +0,31 |
+| Indeks dolar | +0,51% dari penutupan sebelumnya (104,34) | +1,27 | 5% | +0,32 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
@@ -34,13 +34,13 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−1,5** Tariff-ied! – Temporary Importation Under Bond: What Importers Need to Know (The National Law Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,4** CrowdStrike Shares Fall 10% After a $44 Billion Zscaler Deal Despite an Earnings Beat and Raised Guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **−1,1** Korea Faces Dual Pressure From Trump Tariffs and Democratic Scrutiny (Seoul Economic Daily). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,1** Why Did the 10 Year Yield Drop to 4.91% Amid Bessent's Fed Caution for iShares 20+ Year Treasury Bond ETF (NASDAQ:TLT)? (kalkine.ca). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,0** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100 (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,9** Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang Return; Elon Musk-Led SpaceX, Tesla Rally (Investor's Business Daily). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,9** Stock Market Today, Nov. 23: Advanced Micro Devices Climbs on AI-Chip Rebound After Nvidia Reinstates Jensen Huang as CEO (The Motley Fool). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,8** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **+0,8** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
