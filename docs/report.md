@@ -1,37 +1,37 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T03:18:14+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-24T03:19:14+07:00 · sesi Senin 23 Nov (berjalan)_
 
 Peluang indeks naik **54%**, turun **46%** (skor 0,0 dari ±10, keyakinan 69%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,37% dari penutupan sebelumnya (26.726,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +13,69% dari penutupan sebelumnya (9.559,56). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +4,50% dari penutupan sebelumnya (7.246,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Minyak Brent** (+0,38): $86,50 (−6,56% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
-- **Tren Nasdaq 5 sesi** (−0,38): −1,54% dalam 5 sesi; 13,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+2,00): +6,35% dari penutupan sebelumnya (26.722,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +13,59% dari penutupan sebelumnya (9.550,94). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +4,50% dari penutupan sebelumnya (7.247,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Tren Nasdaq 5 sesi** (−0,39): −1,57% dalam 5 sesi; 13,0% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $86,49 (−6,57% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,26 dari 34 kejadian bernilai; 51% bobot bullish | −0,22 | 30% | −0,33 |
-| Futures Nasdaq-100 | +6,37% dari penutupan sebelumnya (26.726,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,50% dari penutupan sebelumnya (7.246,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,69% dari penutupan sebelumnya (9.559,56) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +6,35% dari penutupan sebelumnya (26.722,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,50% dari penutupan sebelumnya (7.247,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +13,59% dari penutupan sebelumnya (9.550,94) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 26,88 (−25,1% dari sesi sebelumnya); VXN (Nasdaq-100) 35,60 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $86,50 (−6,56% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 27,05 (−24,6% dari sesi sebelumnya); VXN (Nasdaq-100) 35,61 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $86,49 (−6,57% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,49% dari penutupan sebelumnya (104,32) | +1,22 | 5% | +0,30 |
-| Tren Nasdaq 5 sesi | −1,54% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −1,53 | 5% | −0,38 |
+| Tren Nasdaq 5 sesi | −1,57% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −1,55 | 5% | −0,39 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.058 (+6,37%).
-Rentang wajar 1σ (VXN): 22.111 sampai 23.125.
+Perkiraan pembukaan dari futures: 24.054 (+6,35%).
+Rentang wajar 1σ (VXN): 22.110 sampai 23.125.
 
 ## Berita paling berdampak
 - **−2,8** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,7** CrowdStrike Shares Fall 10% After a $44 Billion Zscaler Deal Despite an Earnings Beat and Raised Guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **+1,6** CrowdStrike Shares Fall 10% After a $44 Billion Zscaler Deal Despite an Earnings Beat and Raised Guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** The Fed Can't Save The Market From A Crash｜RiskReversal Media (finance.biggo.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
