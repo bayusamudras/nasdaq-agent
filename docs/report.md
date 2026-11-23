@@ -1,31 +1,31 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T00:40:16+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-24T00:41:17+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **50%**, turun **50%** (skor −1,1 dari ±10, keyakinan 62%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **49%**, turun **51%** (skor −1,3 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,88% dari penutupan sebelumnya (26.854,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +13,78% dari penutupan sebelumnya (9.567,29). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,57): Skor rata-rata −0,45 dari 33 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +6,87% dari penutupan sebelumnya (26.853,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +13,45% dari penutupan sebelumnya (9.539,47). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,72): Skor rata-rata −0,57 dari 32 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +4,74% dari penutupan sebelumnya (7.263,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Yield obligasi 10 tahun** (−0,43): 4,946% (+3,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,45 dari 33 kejadian bernilai; 44% bobot bullish | −0,38 | 30% | −0,57 |
-| Futures Nasdaq-100 | +6,88% dari penutupan sebelumnya (26.854,00) | +2,00 | 20% | +2,00 |
+| Berita berbobot | skor rata-rata −0,57 dari 32 kejadian bernilai; 41% bobot bullish | −0,48 | 30% | −0,72 |
+| Futures Nasdaq-100 | +6,87% dari penutupan sebelumnya (26.853,00) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +4,74% dari penutupan sebelumnya (7.263,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,78% dari penutupan sebelumnya (9.567,29) | +2,00 | 10% | +1,00 |
+| Semikonduktor (SOX) | +13,45% dari penutupan sebelumnya (9.539,47) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,946% (+3,4 bp dari sesi sebelumnya) | −0,85 | 10% | −0,43 |
-| VIX (volatilitas) | 27,42 (−23,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,05 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $87,41 (−5,57% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,66% dari penutupan sebelumnya (104,50) | +1,65 | 5% | +0,41 |
-| Tren Nasdaq 5 sesi | −1,47% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −1,48 | 5% | −0,37 |
+| VIX (volatilitas) | 27,38 (−23,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,05 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $87,39 (−5,60% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,65% dari penutupan sebelumnya (104,48) | +1,62 | 5% | +0,41 |
+| Tren Nasdaq 5 sesi | −1,66% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,61 | 5% | −0,40 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.174 (+6,88%).
+Perkiraan pembukaan dari futures: 24.172 (+6,87%).
 Rentang wajar 1σ (VXN): 22.104 sampai 23.131.
 
 ## Berita paling berdampak
@@ -35,12 +35,12 @@ Rentang wajar 1σ (VXN): 22.104 sampai 23.131.
 - **−1,4** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After ANT IPO and Friday’s AI Rout— ORCL (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** Middle East latest: Eisenkot says no immediate Iran threat requiring Israeli military action (The National). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,1** China’s Next AI Deals Clouded by Selloff After Anthropic IPO (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Michael Burry’s Latest Portfolio: Top 10 Stock Picks Amid AI Crash (Insider Monkey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** SpaceX Stock Rebounds as Musk Starlink Talk Fuels Hopes of Tesla Merger (Barron's). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,0** Get ready for 3 consecutive rate hikes starting next month, bank economist warns (Business Insider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,0** Treasury yields jump as stock futures rebound, investors await New York Fed President Williams speech (CNBC). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,0** Attacks on Ships in Strait of Hormuz Reach Highest Level Since Iran War Began (Pakistan Matters). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
