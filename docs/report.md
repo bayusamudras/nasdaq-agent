@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T22:26:20+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-23T22:27:20+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,1 dari ±10, keyakinan 65%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **55%** (skor −2,1 dari ±10, keyakinan 65%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +7,01% dari penutupan sebelumnya (26.887,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +15,61% dari penutupan sebelumnya (9.721,43). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +7,02% dari penutupan sebelumnya (26.890,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +15,47% dari penutupan sebelumnya (9.709,49). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,93): Skor rata-rata −0,75 dari 36 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +4,74% dari penutupan sebelumnya (7.264,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Yield obligasi 10 tahun** (−0,45): 4,948% (+3,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures S&P 500** (+0,50): +4,78% dari penutupan sebelumnya (7.266,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Yield obligasi 10 tahun** (−0,50): 4,952% (+4,0 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,75 dari 36 kejadian bernilai; 34% bobot bullish | −0,62 | 30% | −0,93 |
-| Futures Nasdaq-100 | +7,01% dari penutupan sebelumnya (26.887,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,74% dari penutupan sebelumnya (7.264,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +15,61% dari penutupan sebelumnya (9.721,43) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,948% (+3,6 bp dari sesi sebelumnya) | −0,90 | 10% | −0,45 |
-| VIX (volatilitas) | 27,65 (−23,0% dari sesi sebelumnya); VXN (Nasdaq-100) 35,55 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $86,78 (−6,25% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Futures Nasdaq-100 | +7,02% dari penutupan sebelumnya (26.890,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,78% dari penutupan sebelumnya (7.266,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +15,47% dari penutupan sebelumnya (9.709,49) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,952% (+4,0 bp dari sesi sebelumnya) | −1,00 | 10% | −0,50 |
+| VIX (volatilitas) | 27,48 (−23,4% dari sesi sebelumnya); VXN (Nasdaq-100) 35,39 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $86,74 (−6,30% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,48% dari penutupan sebelumnya (104,31) | +1,20 | 5% | +0,30 |
-| Tren Nasdaq 5 sesi | −0,67% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −0,95 | 5% | −0,24 |
+| Tren Nasdaq 5 sesi | −0,73% dalam 5 sesi; 12,2% di bawah puncak 52 minggu | −0,99 | 5% | −0,25 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.203 (+7,01%).
-Rentang wajar 1σ (VXN): 22.111 sampai 23.124.
+Perkiraan pembukaan dari futures: 24.206 (+7,02%).
+Rentang wajar 1σ (VXN): 22.114 sampai 23.122.
 
 ## Berita paling berdampak
 - **−2,4** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
