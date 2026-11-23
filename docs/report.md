@@ -1,38 +1,38 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T02:46:56+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-24T02:48:08+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **53%**, turun **47%** (skor −0,3 dari ±10, keyakinan 52%, 36% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **53%**, turun **47%** (skor −0,2 dari ±10, keyakinan 52%, 36% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,57% dari penutupan sebelumnya (26.777,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +12,70% dari penutupan sebelumnya (9.476,90). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +4,67% dari penutupan sebelumnya (7.258,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Tren Nasdaq 5 sesi** (−0,44): −1,91% dalam 5 sesi; 13,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $86,53 (−6,52% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures Nasdaq-100** (+2,00): +6,50% dari penutupan sebelumnya (26.759,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +12,73% dari penutupan sebelumnya (9.478,66). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +4,59% dari penutupan sebelumnya (7.253,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Tren Nasdaq 5 sesi** (−0,44): −1,90% dalam 5 sesi; 13,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Minyak Brent** (+0,38): $86,59 (−6,46% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,27 dari 33 kejadian bernilai; 52% bobot bullish | −0,23 | 30% | −0,35 |
-| Futures Nasdaq-100 | +6,57% dari penutupan sebelumnya (26.777,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,67% dari penutupan sebelumnya (7.258,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +12,70% dari penutupan sebelumnya (9.476,90) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,22 dari 33 kejadian bernilai; 53% bobot bullish | −0,19 | 30% | −0,29 |
+| Futures Nasdaq-100 | +6,50% dari penutupan sebelumnya (26.759,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,59% dari penutupan sebelumnya (7.253,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +12,73% dari penutupan sebelumnya (9.478,66) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,930% (+1,8 bp dari sesi sebelumnya) | −0,45 | 10% | −0,22 |
-| VIX (volatilitas) | 26,57 (−26,0% dari sesi sebelumnya); VXN (Nasdaq-100) 35,35 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $86,53 (−6,52% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,54% dari penutupan sebelumnya (104,37) | +1,35 | 5% | +0,34 |
-| Tren Nasdaq 5 sesi | −1,91% dalam 5 sesi; 13,3% di bawah puncak 52 minggu | −1,77 | 5% | −0,44 |
+| VIX (volatilitas) | 26,67 (−25,7% dari sesi sebelumnya); VXN (Nasdaq-100) 35,41 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $86,59 (−6,46% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,54% dari penutupan sebelumnya (104,38) | +1,35 | 5% | +0,34 |
+| Tren Nasdaq 5 sesi | −1,90% dalam 5 sesi; 13,3% di bawah puncak 52 minggu | −1,77 | 5% | −0,44 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.104 (+6,57%).
-Rentang wajar 1σ (VXN): 22.114 sampai 23.121.
+Perkiraan pembukaan dari futures: 24.088 (+6,50%).
+Rentang wajar 1σ (VXN): 22.113 sampai 23.122.
 
 ## Berita paling berdampak
-- **−3,0** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−2,9** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,9** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,4** Why Did the 10 Year Yield Drop to 4.91% Amid Bessent's Fed Caution for iShares 20+ Year Treasury Bond ETF (NASDAQ:TLT)? (kalkine.ca). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,3** The Fed Can't Save The Market From A Crash｜RiskReversal Media (finance.biggo.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** The Fed Can't Save The Market From A Crash｜RiskReversal Media (finance.biggo.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,0** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
