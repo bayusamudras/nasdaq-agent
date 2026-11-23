@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T14:48:03+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-23T14:49:03+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 61%, 60% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,95% dari penutupan sebelumnya (25.868,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +2,98% dari penutupan sebelumnya (25.876,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+1,00): 4,912% (−14,0 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -16,18 +16,18 @@ Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 61%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,72 dari 31 kejadian bernilai; 36% bobot bullish | −0,60 | 30% | −0,90 |
-| Futures Nasdaq-100 | +2,95% dari penutupan sebelumnya (25.868,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +2,21% dari penutupan sebelumnya (7.088,50) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +2,98% dari penutupan sebelumnya (25.876,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +2,22% dari penutupan sebelumnya (7.089,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,912% (−14,0 bp dari sesi sebelumnya) | +2,00 | 10% | +1,00 |
 | VIX (volatilitas) | 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,51 (−3,31% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Minyak Brent | $89,53 (−3,28% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,19% dari penutupan sebelumnya (103,61) | −0,47 | 5% | −0,12 |
 | Tren Nasdaq 5 sesi | −10,02% dalam 5 sesi; 18,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 23.285 (+2,95%).
+Perkiraan pembukaan dari futures: 23.292 (+2,98%).
 Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
@@ -37,7 +37,7 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **−1,1** Export Controls Are Easy to Implement, Harder to Enforce (The Dispatch). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,1** EUR/USD edges higher as Treasury yields fall, but dollar trend keeps euro under pressure (VT Markets). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,1** Shafaq News..Oil retreats on tech rout and Hormuz tension (شفق نيوز). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,1** Oracle Started the AI Capex Ramp. Now It Needs a $54 Billion Cash Flow Turnaround. (Dr. Robert Castellano's Semiconductor Deep Dive Newsletter). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,0** Oracle Started the AI Capex Ramp. Now It Needs a $54 Billion Cash Flow Turnaround. (Dr. Robert Castellano's Semiconductor Deep Dive Newsletter). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,0** [Good Morning Stock Market] U.S. Semiconductors Plunge 10.7%... KOSPI Braces for Further Shock from 'AI Sell-Off' (아시아경제). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** South Korea's KOSPI Plunges 47%, Yet iM Securities Sees Further Drop to 4,300 — AI Profitability Doubts Are the Ticking Time Bomb (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Stock Futures Rally After AI Rout, Havens Decline: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
