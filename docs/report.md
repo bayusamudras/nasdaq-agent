@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-24T00:06:00+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-24T00:07:00+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **47%**, turun **53%** (skor −1,6 dari ±10, keyakinan 59%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 59%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,84% dari penutupan sebelumnya (26.845,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +13,92% dari penutupan sebelumnya (9.578,91). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,75): 28,32 (−21,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,91. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+2,00): +6,81% dari penutupan sebelumnya (26.836,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +13,72% dari penutupan sebelumnya (9.562,59). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,75): 28,20 (−21,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,87. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (−0,60): Skor rata-rata −0,47 dari 37 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +4,74% dari penutupan sebelumnya (7.263,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +4,72% dari penutupan sebelumnya (7.262,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,47 dari 37 kejadian bernilai; 43% bobot bullish | −0,40 | 30% | −0,60 |
-| Futures Nasdaq-100 | +6,84% dari penutupan sebelumnya (26.845,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,74% dari penutupan sebelumnya (7.263,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,92% dari penutupan sebelumnya (9.578,91) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +6,81% dari penutupan sebelumnya (26.836,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,72% dari penutupan sebelumnya (7.262,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +13,72% dari penutupan sebelumnya (9.562,59) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,944% (+3,2 bp dari sesi sebelumnya) | −0,80 | 10% | −0,40 |
-| VIX (volatilitas) | 28,32 (−21,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,91 | −1,50 | 10% | −0,75 |
-| Minyak Brent | $86,77 (−6,27% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,65% dari penutupan sebelumnya (104,48) | +1,62 | 5% | +0,41 |
-| Tren Nasdaq 5 sesi | −1,48% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −1,49 | 5% | −0,37 |
+| VIX (volatilitas) | 28,20 (−21,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,87 | −1,50 | 10% | −0,75 |
+| Minyak Brent | $86,79 (−6,24% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,64% dari penutupan sebelumnya (104,48) | +1,60 | 5% | +0,40 |
+| Tren Nasdaq 5 sesi | −1,56% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −1,54 | 5% | −0,39 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.165 (+6,84%).
-Rentang wajar 1σ (VXN): 22.092 sampai 23.144.
+Perkiraan pembukaan dari futures: 24.158 (+6,81%).
+Rentang wajar 1σ (VXN): 22.092 sampai 23.143.
 
 ## Berita paling berdampak
 - **−2,9** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
