@@ -1,28 +1,28 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T21:28:55+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-23T21:29:55+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 69%, 65% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,900–25,946. Skor dipangkas dari -5.3 menjadi -2.0.
+**Catatan:** Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,900–25,946. Skor dipangkas dari -5.2 menjadi -2.0.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +6,97% dari penutupan sebelumnya (26.878,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 31 kejadian bernilai; 33% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,80): 4,976% (+6,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (+0,50): +4,62% dari penutupan sebelumnya (7.255,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Yield obligasi 10 tahun** (−0,78): 4,974% (+6,2 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures S&P 500** (+0,50): +4,66% dari penutupan sebelumnya (7.258,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,90 dari 31 kejadian bernilai; 33% bobot bullish | −0,75 | 30% | −1,12 |
 | Futures Nasdaq-100 | +6,97% dari penutupan sebelumnya (26.878,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,62% dari penutupan sebelumnya (7.255,50) | +2,00 | 5% | +0,50 |
+| Futures S&P 500 | +4,66% dari penutupan sebelumnya (7.258,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,976% (+6,4 bp dari sesi sebelumnya) | −1,60 | 10% | −0,80 |
-| VIX (volatilitas) | 27,44 (−23,5% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $88,17 (−4,75% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,28% dari penutupan sebelumnya (104,10) | +0,70 | 5% | +0,18 |
+| Yield obligasi 10 tahun | 4,974% (+6,2 bp dari sesi sebelumnya) | −1,55 | 10% | −0,78 |
+| VIX (volatilitas) | 27,42 (−23,6% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $88,19 (−4,73% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,30% dari penutupan sebelumnya (104,12) | +0,75 | 5% | +0,19 |
 | Tren Nasdaq 5 sesi | −10,02% dalam 5 sesi; 18,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -47,12 +47,12 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
 - 2026-11-25: PDB (tinggi)
-- 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
 - 2026-12-09: Keputusan suku bunga FOMC (tinggi)
 - 2026-12-10: CPI (tinggi)
 - 2026-12-15: PPI (sedang)
 - 2026-12-16: Penjualan ritel (sedang)
 - 2027-01-27: Laporan laba Microsoft (MSFT) (tinggi)
+- 2027-01-27: Laporan laba Meta (META) (tinggi)
 
 ## Rekam jejak
 9 benar dari 13 prediksi terevaluasi.
