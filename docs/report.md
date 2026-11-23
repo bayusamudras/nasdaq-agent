@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T22:11:05+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-23T22:12:05+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 61%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,6 dari ±10, keyakinan 61%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,55% dari penutupan sebelumnya (26.772,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +13,57% dari penutupan sebelumnya (9.549,55). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +6,73% dari penutupan sebelumnya (26.818,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +13,99% dari penutupan sebelumnya (9.585,23). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,75): Skor rata-rata −0,60 dari 36 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,75): 28,16 (−21,5% dari sesi sebelumnya); VXN (Nasdaq-100) 35,66. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Yield obligasi 10 tahun** (−0,53): 4,954% (+4,2 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **VIX (volatilitas)** (−0,75): 28,11 (−21,7% dari sesi sebelumnya); VXN (Nasdaq-100) 35,51. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (+0,50): +4,57% dari penutupan sebelumnya (7.251,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,60 dari 36 kejadian bernilai; 41% bobot bullish | −0,50 | 30% | −0,75 |
-| Futures Nasdaq-100 | +6,55% dari penutupan sebelumnya (26.772,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,46% dari penutupan sebelumnya (7.244,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,57% dari penutupan sebelumnya (9.549,55) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,954% (+4,2 bp dari sesi sebelumnya) | −1,05 | 10% | −0,53 |
-| VIX (volatilitas) | 28,16 (−21,5% dari sesi sebelumnya); VXN (Nasdaq-100) 35,66 | −1,50 | 10% | −0,75 |
+| Futures Nasdaq-100 | +6,73% dari penutupan sebelumnya (26.818,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,57% dari penutupan sebelumnya (7.251,75) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +13,99% dari penutupan sebelumnya (9.585,23) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,952% (+4,0 bp dari sesi sebelumnya) | −1,00 | 10% | −0,50 |
+| VIX (volatilitas) | 28,11 (−21,7% dari sesi sebelumnya); VXN (Nasdaq-100) 35,51 | −1,50 | 10% | −0,75 |
 | Minyak Brent | $87,72 (−5,24% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,39% dari penutupan sebelumnya (104,22) | +0,97 | 5% | +0,24 |
-| Tren Nasdaq 5 sesi | −1,67% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,61 | 5% | −0,40 |
+| Tren Nasdaq 5 sesi | −1,53% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −1,52 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.099 (+6,55%).
-Rentang wajar 1σ (VXN): 22.110 sampai 23.126.
+Perkiraan pembukaan dari futures: 24.140 (+6,73%).
+Rentang wajar 1σ (VXN): 22.112 sampai 23.124.
 
 ## Berita paling berdampak
 - **−2,4** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
