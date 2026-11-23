@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T22:00:06+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-23T22:01:05+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **42%**, turun **58%** (skor −3,0 dari ±10, keyakinan 62%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **42%**, turun **58%** (skor −3,1 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,04% dari penutupan sebelumnya (26.643,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,02): Skor rata-rata −0,81 dari 36 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +13,66% dari penutupan sebelumnya (9.557,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,75): 28,64 (−20,2% dari sesi sebelumnya); VXN (Nasdaq-100) 28,80. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Yield obligasi 10 tahun** (−0,58): 4,958% (+4,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures Nasdaq-100** (+2,00): +5,84% dari penutupan sebelumnya (26.594,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,16): Skor rata-rata −0,92 dari 35 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (+1,00): +13,39% dari penutupan sebelumnya (9.534,22). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,75): 28,59 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,78. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (+0,50): +4,07% dari penutupan sebelumnya (7.217,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,81 dari 36 kejadian bernilai; 34% bobot bullish | −0,68 | 30% | −1,02 |
-| Futures Nasdaq-100 | +6,04% dari penutupan sebelumnya (26.643,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,12% dari penutupan sebelumnya (7.221,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,66% dari penutupan sebelumnya (9.557,05) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,958% (+4,6 bp dari sesi sebelumnya) | −1,15 | 10% | −0,58 |
-| VIX (volatilitas) | 28,64 (−20,2% dari sesi sebelumnya); VXN (Nasdaq-100) 28,80 | −1,50 | 10% | −0,75 |
-| Minyak Brent | $87,97 (−4,97% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,32% dari penutupan sebelumnya (104,14) | +0,80 | 5% | +0,20 |
-| Tren Nasdaq 5 sesi | −1,55% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −1,53 | 5% | −0,38 |
+| Berita berbobot | skor rata-rata −0,92 dari 35 kejadian bernilai; 32% bobot bullish | −0,77 | 30% | −1,16 |
+| Futures Nasdaq-100 | +5,84% dari penutupan sebelumnya (26.594,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,07% dari penutupan sebelumnya (7.217,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +13,39% dari penutupan sebelumnya (9.534,22) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,952% (+4,0 bp dari sesi sebelumnya) | −1,00 | 10% | −0,50 |
+| VIX (volatilitas) | 28,59 (−20,3% dari sesi sebelumnya); VXN (Nasdaq-100) 28,78 | −1,50 | 10% | −0,75 |
+| Minyak Brent | $88,00 (−4,94% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,32% dari penutupan sebelumnya (104,15) | +0,80 | 5% | +0,20 |
+| Tren Nasdaq 5 sesi | −1,64% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −1,59 | 5% | −0,40 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 23.984 (+6,04%).
-Rentang wajar 1σ (VXN): 22.207 sampai 23.028.
+Perkiraan pembukaan dari futures: 23.939 (+5,84%).
+Rentang wajar 1σ (VXN): 22.208 sampai 23.028.
 
 ## Berita paling berdampak
 - **−2,4** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
