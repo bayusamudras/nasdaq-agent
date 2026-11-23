@@ -1,12 +1,12 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T04:50:45+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T04:51:45+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **58%**, turun **42%** (skor +1,1 dari ±10, keyakinan 71%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,66% dari penutupan sebelumnya (26.800,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +6,67% dari penutupan sebelumnya (26.801,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +4,72% dari penutupan sebelumnya (7.262,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +4,73% dari penutupan sebelumnya (7.263,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Minyak Brent** (+0,38): $86,73 (−6,31% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
@@ -14,8 +14,8 @@ Peluang indeks naik **58%**, turun **42%** (skor +1,1 dari ±10, keyakinan 71%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,28 dari 33 kejadian bernilai; 52% bobot bullish | −0,23 | 30% | −0,35 |
-| Futures Nasdaq-100 | +6,66% dari penutupan sebelumnya (26.800,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,72% dari penutupan sebelumnya (7.262,50) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +6,67% dari penutupan sebelumnya (26.801,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,73% dari penutupan sebelumnya (7.263,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
@@ -25,7 +25,7 @@ Peluang indeks naik **58%**, turun **42%** (skor +1,1 dari ±10, keyakinan 71%, 
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 25.694 (+6,66%).
+Perkiraan pembukaan dari futures: 25.696 (+6,67%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -38,7 +38,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−1,0** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,0** Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100 (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,9** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,9** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **+0,8** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+0,8** SOXX Heads For Biggest Single-Day Gain in Over 18 Months As Semiconductor, AI Stocks Rebound Sharply (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,8** SpaceX Stock Rebounds as Musk Starlink Talk Fuels Hopes of Tesla Merger (Barron's). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
