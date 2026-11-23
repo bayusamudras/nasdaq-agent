@@ -1,13 +1,13 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-23T08:14:44+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-23T08:15:44+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **53%**, turun **47%** (skor −0,3 dari ±10, keyakinan 57%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,80% dari penutupan sebelumnya (25.830,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,62): Skor rata-rata −1,30 dari 37 kejadian bernilai; 23% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +2,84% dari penutupan sebelumnya (25.840,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,68): Skor rata-rata −1,34 dari 35 kejadian bernilai; 22% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+1,00): 4,912% (−14,0 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -15,24 +15,24 @@ Peluang indeks naik **53%**, turun **47%** (skor −0,3 dari ±10, keyakinan 57%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,30 dari 37 kejadian bernilai; 23% bobot bullish | −1,08 | 30% | −1,62 |
-| Futures Nasdaq-100 | +2,80% dari penutupan sebelumnya (25.830,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +2,23% dari penutupan sebelumnya (7.089,75) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −1,34 dari 35 kejadian bernilai; 22% bobot bullish | −1,12 | 30% | −1,68 |
+| Futures Nasdaq-100 | +2,84% dari penutupan sebelumnya (25.840,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +2,24% dari penutupan sebelumnya (7.090,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,912% (−14,0 bp dari sesi sebelumnya) | +2,00 | 10% | +1,00 |
 | VIX (volatilitas) | 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,75 (−3,05% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,03% dari penutupan sebelumnya (103,78) | −0,07 | 5% | −0,02 |
+| Minyak Brent | $89,78 (−3,01% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | −0,04% dari penutupan sebelumnya (103,77) | −0,10 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | −10,02% dalam 5 sesi; 18,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 23.251 (+2,80%).
+Perkiraan pembukaan dari futures: 23.260 (+2,84%).
 Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
+- **+2,0** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−2,0** US Stock Futures Open Higher After Tech Selloff: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,9** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,7** Trump and Xi Meet in Shenzhen as New US Chip Curbs Strain Truce (JournalArta). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,6** Oracle Started the AI Capex Ramp. Now It Needs a $54 Billion Cash Flow Turnaround. (Dr. Robert Castellano's Semiconductor Deep Dive Newsletter). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,6** [Good Morning Stock Market] U.S. Semiconductors Plunge 10.7%... KOSPI Braces for Further Shock from 'AI Sell-Off' (아시아경제). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
