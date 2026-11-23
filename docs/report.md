@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-23T23:44:51+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-23T23:45:51+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **49%**, turun **51%** (skor −1,3 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **48%**, turun **52%** (skor −1,4 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,94% dari penutupan sebelumnya (26.870,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +12,88% dari penutupan sebelumnya (9.491,80). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,57): Skor rata-rata −0,46 dari 37 kejadian bernilai; 43% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +4,87% dari penutupan sebelumnya (7.272,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Tren Nasdaq 5 sesi** (−0,45): −1,96% dalam 5 sesi; 13,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+2,00): +6,81% dari penutupan sebelumnya (26.836,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +12,72% dari penutupan sebelumnya (9.478,33). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,60): Skor rata-rata −0,48 dari 37 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (+0,50): +4,78% dari penutupan sebelumnya (7.266,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Tren Nasdaq 5 sesi** (−0,47): −2,05% dalam 5 sesi; 13,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,46 dari 37 kejadian bernilai; 43% bobot bullish | −0,38 | 30% | −0,57 |
-| Futures Nasdaq-100 | +6,94% dari penutupan sebelumnya (26.870,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,87% dari penutupan sebelumnya (7.272,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +12,88% dari penutupan sebelumnya (9.491,80) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,48 dari 37 kejadian bernilai; 42% bobot bullish | −0,40 | 30% | −0,60 |
+| Futures Nasdaq-100 | +6,81% dari penutupan sebelumnya (26.836,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,78% dari penutupan sebelumnya (7.266,75) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +12,72% dari penutupan sebelumnya (9.478,33) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,936% (+2,4 bp dari sesi sebelumnya) | −0,60 | 10% | −0,30 |
-| VIX (volatilitas) | 27,52 (−23,3% dari sesi sebelumnya); VXN (Nasdaq-100) 35,96 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $86,71 (−6,33% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,57% dari penutupan sebelumnya (104,40) | +1,42 | 5% | +0,35 |
-| Tren Nasdaq 5 sesi | −1,96% dalam 5 sesi; 13,3% di bawah puncak 52 minggu | −1,81 | 5% | −0,45 |
+| VIX (volatilitas) | 27,55 (−23,2% dari sesi sebelumnya); VXN (Nasdaq-100) 35,93 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $86,72 (−6,32% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,55% dari penutupan sebelumnya (104,38) | +1,38 | 5% | +0,34 |
+| Tren Nasdaq 5 sesi | −2,05% dalam 5 sesi; 13,4% di bawah puncak 52 minggu | −1,87 | 5% | −0,47 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.187 (+6,94%).
-Rentang wajar 1σ (VXN): 22.105 sampai 23.130.
+Perkiraan pembukaan dari futures: 24.158 (+6,81%).
+Rentang wajar 1σ (VXN): 22.106 sampai 23.130.
 
 ## Berita paling berdampak
 - **−3,0** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
