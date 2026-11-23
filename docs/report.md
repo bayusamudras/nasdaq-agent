@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T08:48:53+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-23T08:49:53+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **41%**, turun **59%** (skor −3,2 dari ±10, keyakinan 64%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,77% dari penutupan sebelumnya (25.821,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,33): Skor rata-rata −1,07 dari 33 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +2,83% dari penutupan sebelumnya (25.837,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,31): Skor rata-rata −1,04 dari 33 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (+1,00): 4,912% (−14,0 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -15,19 +15,19 @@ Peluang indeks naik **41%**, turun **59%** (skor −3,2 dari ±10, keyakinan 64%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,07 dari 33 kejadian bernilai; 29% bobot bullish | −0,89 | 30% | −1,33 |
-| Futures Nasdaq-100 | +2,77% dari penutupan sebelumnya (25.821,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +2,08% dari penutupan sebelumnya (7.079,25) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −1,04 dari 33 kejadian bernilai; 29% bobot bullish | −0,87 | 30% | −1,31 |
+| Futures Nasdaq-100 | +2,83% dari penutupan sebelumnya (25.837,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +2,12% dari penutupan sebelumnya (7.081,75) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,912% (−14,0 bp dari sesi sebelumnya) | +2,00 | 10% | +1,00 |
 | VIX (volatilitas) | 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,67 (−3,13% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Minyak Brent | $89,65 (−3,15% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,05% dari penutupan sebelumnya (103,76) | −0,12 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | −10,02% dalam 5 sesi; 18,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 23.244 (+2,77%).
+Perkiraan pembukaan dari futures: 23.258 (+2,83%).
 Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **+1,0** Apple (NASDAQ: AAPL) Beats Big Tech's AI Spending Race With $109.4B Revenue And A $5 Trillion Valuation (Foreign Policy Journal). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash. (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** Alleged China Access to Export Controlled Chips Fuels Securities Suit Against Alibaba (The D&O Diary). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,9** NVIDIA's Financial Support Halts Amid U.S. Semiconductor Stock Plunge, Raising Concerns for Samsung and SK Hynix (Aju Press). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,9** US needs allies, not just tariffs, to counter China, Emanuel says (www.tokenpost.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
