@@ -1,31 +1,31 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T04:04:23+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T04:05:23+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
-Peluang indeks naik **58%**, turun **42%** (skor +0,9 dari ±10, keyakinan 60%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **58%**, turun **42%** (skor +1,0 dari ±10, keyakinan 71%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,68% dari penutupan sebelumnya (26.804,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,14). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +4,64% dari penutupan sebelumnya (7.256,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+2,00): +6,64% dari penutupan sebelumnya (26.796,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +4,58% dari penutupan sebelumnya (7.252,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Berita berbobot** (−0,39): Skor rata-rata −0,32 dari 33 kejadian bernilai; 50% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Minyak Brent** (+0,38): $86,53 (−6,52% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,32 dari 33 kejadian bernilai; 50% bobot bullish | −0,26 | 30% | −0,39 |
-| Futures Nasdaq-100 | +6,68% dari penutupan sebelumnya (26.804,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,64% dari penutupan sebelumnya (7.256,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,14) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,23 dari 34 kejadian bernilai; 52% bobot bullish | −0,20 | 30% | −0,30 |
+| Futures Nasdaq-100 | +6,64% dari penutupan sebelumnya (26.796,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,58% dari penutupan sebelumnya (7.252,75) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 26,63 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 35,91 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $86,52 (−6,54% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,53% dari penutupan sebelumnya (104,36) | +1,32 | 5% | +0,33 |
+| VIX (volatilitas) | 26,58 (−25,9% dari sesi sebelumnya); VXN (Nasdaq-100) 35,91 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $86,53 (−6,52% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,52% dari penutupan sebelumnya (104,35) | +1,30 | 5% | +0,33 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 25.699 (+6,68%).
+Perkiraan pembukaan dari futures: 25.689 (+6,64%).
 Rentang wajar 1σ (VXN): 23.545 sampai 24.634.
 
 ## Berita paling berdampak
@@ -36,11 +36,11 @@ Rentang wajar 1σ (VXN): 23.545 sampai 24.634.
 - **+1,6** CrowdStrike Shares Fall 10% After a $44 Billion Zscaler Deal Despite an Earnings Beat and Raised Guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** The Fed Can't Save The Market From A Crash｜RiskReversal Media (finance.biggo.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **+1,1** Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100 (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,9** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,9** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+0,9** SpaceX Stock Rebounds as Musk Starlink Talk Fuels Hopes of Tesla Merger (Barron's). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,8** Gold reclaims $3,650 as Nvidia news sparks rally ahead of US PCE (www.tmgm.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−0,8** Get ready for 3 consecutive rate hikes starting next month, bank economist warns (Business Insider). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
@@ -53,6 +53,6 @@ Rentang wajar 1σ (VXN): 23.545 sampai 24.634.
 - 2027-01-27: Laporan laba Microsoft (MSFT) (tinggi)
 
 ## Rekam jejak
-9 benar dari 13 prediksi terevaluasi.
+9 benar dari 14 prediksi terevaluasi.
 
 _Bukan nasihat investasi._
