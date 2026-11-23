@@ -1,36 +1,36 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T00:11:00+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-24T00:12:00+07:00 · sesi Senin 23 Nov (berjalan)_
 
 Peluang indeks naik **49%**, turun **51%** (skor −1,3 dari ±10, keyakinan 63%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,93% dari penutupan sebelumnya (26.868,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +13,73% dari penutupan sebelumnya (9.562,72). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +6,85% dari penutupan sebelumnya (26.848,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +13,73% dari penutupan sebelumnya (9.563,32). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,60): Skor rata-rata −0,48 dari 34 kejadian bernilai; 44% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +4,81% dari penutupan sebelumnya (7.268,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +4,74% dari penutupan sebelumnya (7.264,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Yield obligasi 10 tahun** (−0,43): 4,946% (+3,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,48 dari 34 kejadian bernilai; 44% bobot bullish | −0,40 | 30% | −0,60 |
-| Futures Nasdaq-100 | +6,93% dari penutupan sebelumnya (26.868,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,81% dari penutupan sebelumnya (7.268,25) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,73% dari penutupan sebelumnya (9.562,72) | +2,00 | 10% | +1,00 |
+| Futures Nasdaq-100 | +6,85% dari penutupan sebelumnya (26.848,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,74% dari penutupan sebelumnya (7.264,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +13,73% dari penutupan sebelumnya (9.563,32) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,946% (+3,4 bp dari sesi sebelumnya) | −0,85 | 10% | −0,43 |
-| VIX (volatilitas) | 27,77 (−22,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,50 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $86,83 (−6,20% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,60% dari penutupan sebelumnya (104,43) | +1,50 | 5% | +0,38 |
-| Tren Nasdaq 5 sesi | −1,56% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −1,54 | 5% | −0,39 |
+| VIX (volatilitas) | 27,84 (−22,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,50 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $86,85 (−6,18% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,62% dari penutupan sebelumnya (104,45) | +1,55 | 5% | +0,39 |
+| Tren Nasdaq 5 sesi | −1,53% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −1,52 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.185 (+6,93%).
+Perkiraan pembukaan dari futures: 24.167 (+6,85%).
 Rentang wajar 1σ (VXN): 22.098 sampai 23.138.
 
 ## Berita paling berdampak
 - **−2,9** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−2,3** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−2,2** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,9** Why Did the 10 Year Yield Drop to 4.91% Amid Bessent's Fed Caution for iShares 20+ Year Treasury Bond ETF (NASDAQ:TLT)? (kalkine.ca). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,4** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After ANT IPO and Friday’s AI Rout— ORCL (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
