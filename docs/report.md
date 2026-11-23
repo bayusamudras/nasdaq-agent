@@ -1,34 +1,34 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T21:58:05+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-23T21:59:05+07:00 · sesi Senin 23 Nov (berjalan)_
 
 Peluang indeks naik **47%**, turun **53%** (skor −1,6 dari ±10, keyakinan 59%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +5,66% dari penutupan sebelumnya (26.547,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +13,34% dari penutupan sebelumnya (9.530,41). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +5,78% dari penutupan sebelumnya (26.579,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +13,34% dari penutupan sebelumnya (9.530,31). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,87): Skor rata-rata −0,70 dari 35 kejadian bernilai; 38% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,75): 29,15 (−18,8% dari sesi sebelumnya); VXN (Nasdaq-100) 28,69. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Yield obligasi 10 tahun** (−0,55): 4,956% (+4,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **VIX (volatilitas)** (−0,75): 28,81 (−19,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,26. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Yield obligasi 10 tahun** (−0,58): 4,958% (+4,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,70 dari 35 kejadian bernilai; 38% bobot bullish | −0,58 | 30% | −0,87 |
-| Futures Nasdaq-100 | +5,66% dari penutupan sebelumnya (26.547,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +3,92% dari penutupan sebelumnya (7.207,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,34% dari penutupan sebelumnya (9.530,41) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,956% (+4,4 bp dari sesi sebelumnya) | −1,10 | 10% | −0,55 |
-| VIX (volatilitas) | 29,15 (−18,8% dari sesi sebelumnya); VXN (Nasdaq-100) 28,69 | −1,50 | 10% | −0,75 |
-| Minyak Brent | $88,13 (−4,80% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,29% dari penutupan sebelumnya (104,11) | +0,72 | 5% | +0,18 |
-| Tren Nasdaq 5 sesi | −1,73% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,65 | 5% | −0,41 |
+| Futures Nasdaq-100 | +5,78% dari penutupan sebelumnya (26.579,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +3,98% dari penutupan sebelumnya (7.211,00) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +13,34% dari penutupan sebelumnya (9.530,31) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,958% (+4,6 bp dari sesi sebelumnya) | −1,15 | 10% | −0,58 |
+| VIX (volatilitas) | 28,81 (−19,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,26 | −1,50 | 10% | −0,75 |
+| Minyak Brent | $88,01 (−4,93% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,31% dari penutupan sebelumnya (104,13) | +0,77 | 5% | +0,19 |
+| Tren Nasdaq 5 sesi | −1,68% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,62 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 23.898 (+5,66%).
-Rentang wajar 1σ (VXN): 22.209 sampai 23.026.
+Perkiraan pembukaan dari futures: 23.925 (+5,78%).
+Rentang wajar 1σ (VXN): 22.101 sampai 23.134.
 
 ## Berita paling berdampak
 - **−2,4** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
