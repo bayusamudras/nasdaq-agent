@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T21:14:37+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-23T21:15:37+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 70%, 65% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,95% dari penutupan sebelumnya (26.874,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,14): Skor rata-rata −0,91 dari 31 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +6,66% dari penutupan sebelumnya (26.798,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,19): Skor rata-rata −0,94 dari 31 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 35,08 (−2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Yield obligasi 10 tahun** (−0,55): 4,956% (+4,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
@@ -15,24 +15,25 @@ Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 70%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,91 dari 31 kejadian bernilai; 32% bobot bullish | −0,76 | 30% | −1,14 |
-| Futures Nasdaq-100 | +6,95% dari penutupan sebelumnya (26.874,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,32% dari penutupan sebelumnya (7.234,25) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,94 dari 31 kejadian bernilai; 32% bobot bullish | −0,79 | 30% | −1,19 |
+| Futures Nasdaq-100 | +6,66% dari penutupan sebelumnya (26.798,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,10% dari penutupan sebelumnya (7.219,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,956% (+4,4 bp dari sesi sebelumnya) | −1,10 | 10% | −0,55 |
 | VIX (volatilitas) | 35,08 (−2,3% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $88,32 (−4,59% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,32% dari penutupan sebelumnya (104,15) | +0,80 | 5% | +0,20 |
+| Minyak Brent | $88,34 (−4,57% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,34% dari penutupan sebelumnya (104,17) | +0,85 | 5% | +0,21 |
 | Tren Nasdaq 5 sesi | −10,02% dalam 5 sesi; 18,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.190 (+6,95%).
+Perkiraan pembukaan dari futures: 24.124 (+6,66%).
 Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
 - **−2,6** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−2,5** U.S. Treasury Yields Rise, European Bond Yields Edge Lower (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,8** SanDisk and Micron’s Early-2027 Worst Cases: A NAND Inflection After a Split vs. Peak-Cycle Fear Amid Heavy CapEx (24/7 Wall St.). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,7** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After ANT IPO and Friday’s AI Rout— ORCL (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Asian stock markets tumble as AI bubble fears mount (Al Jazeera). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -42,7 +43,6 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **−1,2** The stock market faces a worrying scenario: a sell-off with no flight to safety (Fortune). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,2** SpaceX Stock Rebounds as Musk Starlink Talk Fuels Hopes of a Tesla Merger (Barron's). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,2** Big Tech's AI capex plans stop climbing, and the boom's suppliers are first to feel it (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−1,1** Nvidia, Broadcom, and AMD roar higher as chip stocks rebound from worst week since 2001 (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
