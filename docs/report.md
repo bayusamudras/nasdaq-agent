@@ -1,23 +1,23 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T12:01:00+07:00 · sesi Senin 23 Nov (pra-buka)_
+_Diperbarui 2026-11-23T12:02:00+07:00 · sesi Senin 23 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,363–25,766. Skor dipangkas dari -8.1 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,80% dari penutupan sebelumnya (25.855,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,12): Skor rata-rata −0,90 dari 33 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −2,78% dari penutupan sebelumnya (25.861,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,17): Skor rata-rata −0,94 dari 35 kejadian bernilai; 30% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −10,73% dari penutupan sebelumnya (8.408,59). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,52% dari penutupan sebelumnya (7.087,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −1,52% dari penutupan sebelumnya (7.087,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,90 dari 33 kejadian bernilai; 31% bobot bullish | −0,75 | 30% | −1,12 |
-| Futures Nasdaq-100 | −2,80% dari penutupan sebelumnya (25.855,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,52% dari penutupan sebelumnya (7.087,50) | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −0,94 dari 35 kejadian bernilai; 30% bobot bullish | −0,78 | 30% | −1,17 |
+| Futures Nasdaq-100 | −2,78% dari penutupan sebelumnya (25.861,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,52% dari penutupan sebelumnya (7.087,75) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −10,73% dari penutupan sebelumnya (8.408,59) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,912% (−14,0 bp dari sesi sebelumnya) | +0,80 | 10% | +0,40 |
 | VIX (volatilitas) | 35,89 (+26,2% dari sesi sebelumnya); VXN (Nasdaq-100) 45,25 | −2,00 | 10% | −1,00 |
@@ -27,7 +27,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 21.984 (−2,80%).
+Perkiraan pembukaan dari futures: 21.989 (−2,78%).
 Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 
 ## Berita paling berdampak
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 21.973 sampai 23.262.
 - **−1,2** [Good Morning Stock Market] U.S. Semiconductors Plunge 10.7%... KOSPI Braces for Further Shock from 'AI Sell-Off' (아시아경제). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** Trump links Iran war, oil prices and market crash to midterm elections: Key takeaways (Gulf News). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Nvidia's Crash, Gold's China Boost and Gensler's AI Bubble Warning: This Week in Economics (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,0** South Korea's KOSPI Plunges 47%, Yet iM Securities Sees Further Drop to 4,300 — AI Profitability Doubts Are the Ticking Time Bomb (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,9** South Korea's KOSPI Plunges 47%, Yet iM Securities Sees Further Drop to 4,300 — AI Profitability Doubts Are the Ticking Time Bomb (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** US Stock Futures Rally After AI Rout, Havens Fall: Markets Wrap (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
