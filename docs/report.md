@@ -1,32 +1,32 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-23T22:15:05+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-23T22:16:22+07:00 · sesi Senin 23 Nov (berjalan)_
 
 Peluang indeks naik **45%**, turun **55%** (skor −2,3 dari ±10, keyakinan 65%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,68% dari penutupan sebelumnya (26.804,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +14,27% dari penutupan sebelumnya (9.608,30). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,92): Skor rata-rata −0,74 dari 36 kejadian bernilai; 37% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +4,57% dari penutupan sebelumnya (7.252,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Yield obligasi 10 tahun** (−0,45): 4,948% (+3,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures Nasdaq-100** (+2,00): +6,57% dari penutupan sebelumnya (26.778,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +14,33% dari penutupan sebelumnya (9.613,92). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−0,94): Skor rata-rata −0,75 dari 36 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures S&P 500** (+0,50): +4,52% dari penutupan sebelumnya (7.248,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Yield obligasi 10 tahun** (−0,47): 4,950% (+3,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,74 dari 36 kejadian bernilai; 37% bobot bullish | −0,61 | 30% | −0,92 |
-| Futures Nasdaq-100 | +6,68% dari penutupan sebelumnya (26.804,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,57% dari penutupan sebelumnya (7.252,25) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +14,27% dari penutupan sebelumnya (9.608,30) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,948% (+3,6 bp dari sesi sebelumnya) | −0,90 | 10% | −0,45 |
-| VIX (volatilitas) | 27,90 (−22,3% dari sesi sebelumnya); VXN (Nasdaq-100) 35,35 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $87,32 (−5,67% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,42% dari penutupan sebelumnya (104,24) | +1,05 | 5% | +0,26 |
-| Tren Nasdaq 5 sesi | −1,39% dalam 5 sesi; 12,8% di bawah puncak 52 minggu | −1,43 | 5% | −0,36 |
+| Berita berbobot | skor rata-rata −0,75 dari 36 kejadian bernilai; 36% bobot bullish | −0,63 | 30% | −0,94 |
+| Futures Nasdaq-100 | +6,57% dari penutupan sebelumnya (26.778,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,52% dari penutupan sebelumnya (7.248,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +14,33% dari penutupan sebelumnya (9.613,92) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,950% (+3,8 bp dari sesi sebelumnya) | −0,95 | 10% | −0,47 |
+| VIX (volatilitas) | 27,81 (−22,5% dari sesi sebelumnya); VXN (Nasdaq-100) 35,30 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $87,17 (−5,83% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,44% dari penutupan sebelumnya (104,26) | +1,10 | 5% | +0,28 |
+| Tren Nasdaq 5 sesi | −1,37% dalam 5 sesi; 12,8% di bawah puncak 52 minggu | −1,41 | 5% | −0,35 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.129 (+6,68%).
-Rentang wajar 1σ (VXN): 22.114 sampai 23.121.
+Perkiraan pembukaan dari futures: 24.104 (+6,57%).
+Rentang wajar 1σ (VXN): 22.115 sampai 23.121.
 
 ## Berita paling berdampak
 - **−2,4** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
