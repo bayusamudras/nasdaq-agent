@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T01:09:26+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-24T01:10:26+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **52%**, turun **48%** (skor −0,6 dari ±10, keyakinan 53%, 36% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **51%**, turun **49%** (skor −0,7 dari ±10, keyakinan 53%, 36% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,70% dari penutupan sebelumnya (26.808,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +13,51% dari penutupan sebelumnya (9.544,20). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +4,60% dari penutupan sebelumnya (7.253,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Indeks dolar** (+0,42): +0,67% dari penutupan sebelumnya (104,51). Dolar melemah, melonggarkan kondisi keuangan global.
-- **Minyak Brent** (+0,38): $87,37 (−5,62% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures Nasdaq-100** (+2,00): +6,76% dari penutupan sebelumnya (26.826,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +13,43% dari penutupan sebelumnya (9.537,45). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +4,65% dari penutupan sebelumnya (7.257,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Indeks dolar** (+0,42): +0,67% dari penutupan sebelumnya (104,50). Dolar melemah, melonggarkan kondisi keuangan global.
+- **Minyak Brent** (+0,38): $87,28 (−5,71% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,22 dari 33 kejadian bernilai; 50% bobot bullish | −0,18 | 30% | −0,27 |
-| Futures Nasdaq-100 | +6,70% dari penutupan sebelumnya (26.808,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,60% dari penutupan sebelumnya (7.253,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,51% dari penutupan sebelumnya (9.544,20) | +2,00 | 10% | +1,00 |
+| Berita berbobot | skor rata-rata −0,27 dari 32 kejadian bernilai; 49% bobot bullish | −0,23 | 30% | −0,35 |
+| Futures Nasdaq-100 | +6,76% dari penutupan sebelumnya (26.826,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,65% dari penutupan sebelumnya (7.257,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +13,43% dari penutupan sebelumnya (9.537,45) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,940% (+2,8 bp dari sesi sebelumnya) | −0,70 | 10% | −0,35 |
-| VIX (volatilitas) | 27,62 (−23,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,23 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $87,37 (−5,62% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,67% dari penutupan sebelumnya (104,51) | +1,68 | 5% | +0,42 |
-| Tren Nasdaq 5 sesi | −1,52% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −1,51 | 5% | −0,38 |
+| VIX (volatilitas) | 27,54 (−23,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,15 | −0,70 | 10% | −0,35 |
+| Minyak Brent | $87,28 (−5,71% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,67% dari penutupan sebelumnya (104,50) | +1,68 | 5% | +0,42 |
+| Tren Nasdaq 5 sesi | −1,55% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −1,53 | 5% | −0,38 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.133 (+6,70%).
-Rentang wajar 1σ (VXN): 22.102 sampai 23.134.
+Perkiraan pembukaan dari futures: 24.147 (+6,76%).
+Rentang wajar 1σ (VXN): 22.103 sampai 23.133.
 
 ## Berita paling berdampak
 - **−3,0** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
