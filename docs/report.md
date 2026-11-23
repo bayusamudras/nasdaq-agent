@@ -1,12 +1,12 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-24T06:39:26+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T06:40:26+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **60%**, turun **40%** (skor +1,7 dari ±10, keyakinan 73%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,50% dari penutupan sebelumnya (26.760,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +6,50% dari penutupan sebelumnya (26.759,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +4,62% dari penutupan sebelumnya (7.255,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +4,62% dari penutupan sebelumnya (7.255,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Minyak Brent** (+0,38): $86,80 (−6,23% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
@@ -14,8 +14,8 @@ Peluang indeks naik **60%**, turun **40%** (skor +1,7 dari ±10, keyakinan 73%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,02 dari 38 kejadian bernilai; 59% bobot bullish | +0,02 | 30% | +0,03 |
-| Futures Nasdaq-100 | +6,50% dari penutupan sebelumnya (26.760,00) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,62% dari penutupan sebelumnya (7.255,25) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +6,50% dari penutupan sebelumnya (26.759,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,62% dari penutupan sebelumnya (7.255,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
@@ -29,7 +29,7 @@ Perkiraan pembukaan dari futures: 25.655 (+6,50%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
-- **−3,0** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−2,9** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+2,3** HPE delivers quarterly results beat, raises guidance; stocks slips after big rally By Investing.com (Investing.com South Africa). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,8** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,6** Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears (The Motley Fool). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
