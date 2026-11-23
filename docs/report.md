@@ -1,34 +1,34 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T01:01:26+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-24T01:02:26+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **53%**, turun **47%** (skor −0,3 dari ±10, keyakinan 56%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **53%**, turun **47%** (skor −0,3 dari ±10, keyakinan 55%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,45% dari penutupan sebelumnya (26.747,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +13,71% dari penutupan sebelumnya (9.561,04). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,75): 28,13 (−21,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,43. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+2,00): +6,52% dari penutupan sebelumnya (26.763,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +13,80% dari penutupan sebelumnya (9.569,38). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,75): 28,28 (−21,2% dari sesi sebelumnya); VXN (Nasdaq-100) 36,49. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (−0,60): Skor rata-rata −0,48 dari 31 kejadian bernilai; 42% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (+0,50): +4,41% dari penutupan sebelumnya (7.240,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +4,46% dari penutupan sebelumnya (7.244,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,48 dari 31 kejadian bernilai; 42% bobot bullish | −0,40 | 30% | −0,60 |
-| Futures Nasdaq-100 | +6,45% dari penutupan sebelumnya (26.747,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,41% dari penutupan sebelumnya (7.240,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +13,71% dari penutupan sebelumnya (9.561,04) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,940% (+2,8 bp dari sesi sebelumnya) | −0,70 | 10% | −0,35 |
-| VIX (volatilitas) | 28,13 (−21,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,43 | −1,50 | 10% | −0,75 |
-| Minyak Brent | $87,32 (−5,67% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Futures Nasdaq-100 | +6,52% dari penutupan sebelumnya (26.763,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,46% dari penutupan sebelumnya (7.244,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +13,80% dari penutupan sebelumnya (9.569,38) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,938% (+2,6 bp dari sesi sebelumnya) | −0,65 | 10% | −0,33 |
+| VIX (volatilitas) | 28,28 (−21,2% dari sesi sebelumnya); VXN (Nasdaq-100) 36,49 | −1,50 | 10% | −0,75 |
+| Minyak Brent | $87,37 (−5,62% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,69% dari penutupan sebelumnya (104,52) | +1,72 | 5% | +0,43 |
-| Tren Nasdaq 5 sesi | −1,57% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | −1,55 | 5% | −0,39 |
+| Tren Nasdaq 5 sesi | −1,47% dalam 5 sesi; 12,9% di bawah puncak 52 minggu | −1,48 | 5% | −0,37 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.077 (+6,45%).
-Rentang wajar 1σ (VXN): 22.099 sampai 23.137.
+Perkiraan pembukaan dari futures: 24.092 (+6,52%).
+Rentang wajar 1σ (VXN): 22.098 sampai 23.138.
 
 ## Berita paling berdampak
 - **−2,9** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -36,7 +36,7 @@ Rentang wajar 1σ (VXN): 22.099 sampai 23.137.
 - **+1,8** Why Did the 10 Year Yield Drop to 4.91% Amid Bessent's Fed Caution for iShares 20+ Year Treasury Bond ETF (NASDAQ:TLT)? (kalkine.ca). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,3** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After ANT IPO and Friday’s AI Rout— ORCL (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,2** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,1** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,1** China’s Next AI Deals Clouded by Selloff After Anthropic IPO (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** SpaceX Stock Rebounds as Musk Starlink Talk Fuels Hopes of Tesla Merger (Barron's). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
