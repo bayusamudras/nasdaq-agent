@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T05:21:55+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T05:22:55+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **60%**, turun **40%** (skor +1,4 dari ±10, keyakinan 72%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -20,7 +20,7 @@ Peluang indeks naik **60%**, turun **40%** (skor +1,4 dari ±10, keyakinan 72%, 
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
 | Minyak Brent | $86,72 (−6,32% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,52% dari penutupan sebelumnya (104,35) | +1,30 | 5% | +0,33 |
+| Indeks dolar | +0,53% dari penutupan sebelumnya (104,36) | +1,32 | 5% | +0,33 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
@@ -38,7 +38,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−1,0** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,0** Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100 (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,9** Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang Return; Elon Musk-Led SpaceX, Tesla Rally (Investor's Business Daily). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−0,9** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,8** Michael Burry flags Apple, these two names as market's 'generals' amid AI selloff (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+0,8** SpaceX Stock Rebounds as Musk Starlink Talk Fuels Hopes of Tesla Merger (Barron's). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
