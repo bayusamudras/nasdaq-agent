@@ -1,36 +1,36 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T03:11:06+07:00 · sesi Senin 23 Nov (berjalan)_
+_Diperbarui 2026-11-24T03:12:06+07:00 · sesi Senin 23 Nov (berjalan)_
 
-Peluang indeks naik **54%**, turun **46%** (skor +0,1 dari ±10, keyakinan 69%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **54%**, turun **46%** (skor +0,1 dari ±10, keyakinan 64%, 64% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,86% dari penutupan sebelumnya (26.850,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Semikonduktor (SOX)** (+1,00): +12,48% dari penutupan sebelumnya (9.458,09). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +4,83% dari penutupan sebelumnya (7.269,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Tren Nasdaq 5 sesi** (−0,45): −1,96% dalam 5 sesi; 13,3% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (+2,00): +6,77% dari penutupan sebelumnya (26.827,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Semikonduktor (SOX)** (+1,00): +12,86% dari penutupan sebelumnya (9.489,98). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures S&P 500** (+0,50): +4,77% dari penutupan sebelumnya (7.265,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Tren Nasdaq 5 sesi** (−0,43): −1,82% dalam 5 sesi; 13,2% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Minyak Brent** (+0,38): $86,50 (−6,56% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,11 dari 33 kejadian bernilai; 55% bobot bullish | −0,09 | 30% | −0,13 |
-| Futures Nasdaq-100 | +6,86% dari penutupan sebelumnya (26.850,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,83% dari penutupan sebelumnya (7.269,75) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +12,48% dari penutupan sebelumnya (9.458,09) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,920% (+0,8 bp dari sesi sebelumnya) | −0,20 | 10% | −0,10 |
-| VIX (volatilitas) | 27,37 (−23,7% dari sesi sebelumnya); VXN (Nasdaq-100) 35,93 | −0,70 | 10% | −0,35 |
+| Futures Nasdaq-100 | +6,77% dari penutupan sebelumnya (26.827,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,77% dari penutupan sebelumnya (7.265,75) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +12,86% dari penutupan sebelumnya (9.489,98) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,922% (+1,0 bp dari sesi sebelumnya) | −0,25 | 10% | −0,12 |
+| VIX (volatilitas) | 27,29 (−24,0% dari sesi sebelumnya); VXN (Nasdaq-100) 35,88 | −0,70 | 10% | −0,35 |
 | Minyak Brent | $86,50 (−6,56% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,49% dari penutupan sebelumnya (104,32) | +1,22 | 5% | +0,30 |
-| Tren Nasdaq 5 sesi | −1,96% dalam 5 sesi; 13,3% di bawah puncak 52 minggu | −1,81 | 5% | −0,45 |
+| Indeks dolar | +0,51% dari penutupan sebelumnya (104,34) | +1,27 | 5% | +0,32 |
+| Tren Nasdaq 5 sesi | −1,82% dalam 5 sesi; 13,2% di bawah puncak 52 minggu | −1,71 | 5% | −0,43 |
 
 ## Level hari ini
 Pivot 22.990; resistensi 23.466 / 24.314; support 22.141 / 21.665.
-Perkiraan pembukaan dari futures: 24.169 (+6,86%).
-Rentang wajar 1σ (VXN): 22.106 sampai 23.130.
+Perkiraan pembukaan dari futures: 24.149 (+6,77%).
+Rentang wajar 1σ (VXN): 22.107 sampai 23.129.
 
 ## Berita paling berdampak
 - **−2,9** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,9** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **+1,8** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,8** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,3** Why Did the 10 Year Yield Drop to 4.91% Amid Bessent's Fed Caution for iShares 20+ Year Treasury Bond ETF (NASDAQ:TLT)? (kalkine.ca). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,2** The Fed Can't Save The Market From A Crash｜RiskReversal Media (finance.biggo.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
