@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T11:11:43+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T11:12:43+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **53%**, turun **47%** (skor −0,3 dari ±10, keyakinan 55%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -13,7 +13,7 @@ Peluang indeks naik **53%**, turun **47%** (skor −0,3 dari ±10, keyakinan 55%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,02 dari 37 kejadian bernilai; 60% bobot bullish | +0,02 | 30% | +0,03 |
-| Futures Nasdaq-100 | +0,12% dari penutupan sebelumnya (26.840,00) | +0,24 | 20% | +0,24 |
+| Futures Nasdaq-100 | +0,12% dari penutupan sebelumnya (26.839,75) | +0,24 | 20% | +0,24 |
 | Futures S&P 500 | +0,20% dari penutupan sebelumnya (7.269,00) | +0,50 | 5% | +0,12 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
@@ -32,7 +32,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−1,9** Citadel Securities: US Stocks May Repeat 2018 Selloff, Fed Unlikely to Ease Due to Equity Decline (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,8** HPE delivers quarterly results beat, raises guidance; stocks slips after big rally (Investing.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,7** Treasury Yields Fall, German Bunds’ Tick Higher (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,4** U.S. blacklists Megaspeed chip firm, linked to Nvidia CEO's suspected spy lover (Korea JoongAng Daily). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,3** U.S. blacklists Megaspeed chip firm, linked to Nvidia CEO's suspected spy lover (Korea JoongAng Daily). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears (The Motley Fool). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,1** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Tariff-ied! – Temporary Importation Under Bond: What Importers Need to Know (The National Law Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
