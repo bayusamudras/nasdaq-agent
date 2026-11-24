@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T11:28:52+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T11:29:52+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **52%**, turun **48%** (skor −0,5 dari ±10, keyakinan 55%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -13,7 +13,7 @@ Peluang indeks naik **52%**, turun **48%** (skor −0,5 dari ±10, keyakinan 55%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,02 dari 39 kejadian bernilai; 60% bobot bullish | −0,01 | 30% | −0,01 |
-| Futures Nasdaq-100 | +0,06% dari penutupan sebelumnya (26.824,75) | +0,12 | 20% | +0,12 |
+| Futures Nasdaq-100 | +0,06% dari penutupan sebelumnya (26.824,50) | +0,12 | 20% | +0,12 |
 | Futures S&P 500 | +0,20% dari penutupan sebelumnya (7.269,25) | +0,50 | 5% | +0,12 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
