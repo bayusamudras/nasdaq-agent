@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-25T00:18:59+07:00 · sesi Selasa 24 Nov (berjalan)_
+_Diperbarui 2026-11-25T00:19:59+07:00 · sesi Selasa 24 Nov (berjalan)_
 
 Peluang indeks naik **35%**, turun **65%** (skor −4,8 dari ±10, keyakinan 62%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,10% dari penutupan sebelumnya (26.245,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −8,13% dari penutupan sebelumnya (8.808,25). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 28,01 (+5,2% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −2,72% dalam 5 sesi; 14,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures S&P 500** (−0,41): −0,66% dari penutupan sebelumnya (7.206,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −2,09% dari penutupan sebelumnya (26.249,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −8,10% dari penutupan sebelumnya (8.811,19). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 28,13 (+5,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −2,68% dalam 5 sesi; 14,6% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (−0,38): −0,61% dari penutupan sebelumnya (7.210,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,04 dari 29 kejadian bernilai; 55% bobot bullish | −0,04 | 30% | −0,06 |
-| Futures Nasdaq-100 | −2,10% dari penutupan sebelumnya (26.245,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,66% dari penutupan sebelumnya (7.206,75) | −1,65 | 5% | −0,41 |
-| Semikonduktor (SOX) | −8,13% dari penutupan sebelumnya (8.808,25) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,888% (−3,0 bp dari sesi sebelumnya) | +0,30 | 10% | +0,15 |
-| VIX (volatilitas) | 28,01 (+5,2% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $87,46 (−2,14% dari sesi sebelumnya) | +1,07 | 5% | +0,27 |
-| Indeks dolar | −0,48% dari penutupan sebelumnya (103,82) | −1,20 | 5% | −0,30 |
-| Tren Nasdaq 5 sesi | −2,72% dalam 5 sesi; 14,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −0,07 dari 28 kejadian bernilai; 54% bobot bullish | −0,06 | 30% | −0,09 |
+| Futures Nasdaq-100 | −2,09% dari penutupan sebelumnya (26.249,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,61% dari penutupan sebelumnya (7.210,25) | −1,52 | 5% | −0,38 |
+| Semikonduktor (SOX) | −8,10% dari penutupan sebelumnya (8.811,19) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,886% (−3,2 bp dari sesi sebelumnya) | +0,32 | 10% | +0,16 |
+| VIX (volatilitas) | 28,13 (+5,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $87,38 (−2,23% dari sesi sebelumnya) | +1,11 | 5% | +0,28 |
+| Indeks dolar | −0,47% dari penutupan sebelumnya (103,83) | −1,17 | 5% | −0,29 |
+| Tren Nasdaq 5 sesi | −2,68% dalam 5 sesi; 14,6% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 23.584 (−2,10%).
+Perkiraan pembukaan dari futures: 23.586 (−2,09%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
