@@ -1,31 +1,31 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T12:21:10+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T12:22:10+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
-Peluang indeks naik **56%**, turun **44%** (skor +0,5 dari ±10, keyakinan 73%, 82% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **56%**, turun **44%** (skor +0,4 dari ±10, keyakinan 73%, 82% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (+0,48): Skor rata-rata +0,38 dari 33 kejadian bernilai; 70% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+0,44): +0,22% dari penutupan sebelumnya (26.868,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (+0,49): Skor rata-rata +0,39 dari 31 kejadian bernilai; 70% bobot bullish. Arus berita lebih banyak membawa dampak positif ke valuasi dan laba.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $86,15 (−3,60% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Futures Nasdaq-100** (+0,38): +0,19% dari penutupan sebelumnya (26.860,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Minyak Brent** (+0,38): $86,16 (−3,59% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,38 dari 33 kejadian bernilai; 70% bobot bullish | +0,32 | 30% | +0,48 |
-| Futures Nasdaq-100 | +0,22% dari penutupan sebelumnya (26.868,00) | +0,44 | 20% | +0,44 |
-| Futures S&P 500 | +0,29% dari penutupan sebelumnya (7.275,50) | +0,72 | 5% | +0,18 |
+| Berita berbobot | skor rata-rata +0,39 dari 31 kejadian bernilai; 70% bobot bullish | +0,33 | 30% | +0,49 |
+| Futures Nasdaq-100 | +0,19% dari penutupan sebelumnya (26.860,25) | +0,38 | 20% | +0,38 |
+| Futures S&P 500 | +0,26% dari penutupan sebelumnya (7.273,25) | +0,65 | 5% | +0,16 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $86,15 (−3,60% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Minyak Brent | $86,16 (−3,59% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,05% dari penutupan sebelumnya (104,27) | −0,12 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 24.143 (+0,22%).
+Perkiraan pembukaan dari futures: 24.135 (+0,19%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -33,7 +33,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **+1,6** HPE delivers quarterly results beat, raises guidance; stocks slips after big rally (Investing.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,1** Asian Stocks to Rally as Huang’s Return Revives AI: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,0** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,0** Tariff-ied! – Temporary Importation Under Bond: What Importers Need to Know (The National Law Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,9** Tariff-ied! – Temporary Importation Under Bond: What Importers Need to Know (The National Law Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+0,9** CrowdStrike Shares Fall 10% After a $44 Billion Zscaler Deal Despite an Earnings Beat and Raised Guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+0,8** Hewlett Packard Enterprise (NYSE:HPE) Slides as In-Line Revenue and Margin Mix Overshadow Strong Earnings and Guidance (ChartMill). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+0,8** Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal (EnergyNow.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
