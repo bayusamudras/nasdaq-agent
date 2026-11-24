@@ -1,5 +1,5 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-24T12:13:01+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T12:14:01+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **62%**, turun **38%** (skor +2,1 dari ±10, keyakinan 73%, 73% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -20,7 +20,7 @@ Peluang indeks naik **62%**, turun **38%** (skor +2,1 dari ±10, keyakinan 73%, 
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
 | Minyak Brent | $86,12 (−3,64% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,04% dari penutupan sebelumnya (104,28) | −0,10 | 5% | −0,03 |
+| Indeks dolar | −0,05% dari penutupan sebelumnya (104,27) | −0,12 | 5% | −0,03 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
