@@ -1,29 +1,29 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-25T00:10:59+07:00 · sesi Selasa 24 Nov (berjalan)_
+_Diperbarui 2026-11-25T00:11:59+07:00 · sesi Selasa 24 Nov (berjalan)_
 
-Peluang indeks naik **36%**, turun **64%** (skor −4,5 dari ±10, keyakinan 62%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 55%, 79% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik
+**Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik; Berita negatif, tetapi yield dan dolar sama-sama turun sehingga gravitasi valuasi justru mendukung NQ.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,59% dari penutupan sebelumnya (26.113,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −7,67% dari penutupan sebelumnya (8.853,10). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 27,98 (+5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,05% dari penutupan sebelumnya (7.178,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
-- **Tren Nasdaq 5 sesi** (−0,50): −2,56% dalam 5 sesi; 14,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−2,00): −2,59% dari penutupan sebelumnya (26.113,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −7,62% dari penutupan sebelumnya (8.856,97). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−1,00): 28,23 (+6,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,04% dari penutupan sebelumnya (7.179,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Tren Nasdaq 5 sesi** (−0,50): −2,53% dalam 5 sesi; 14,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,07 dari 26 kejadian bernilai; 55% bobot bullish | −0,05 | 30% | −0,07 |
-| Futures Nasdaq-100 | −2,59% dari penutupan sebelumnya (26.113,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,05% dari penutupan sebelumnya (7.178,50) | −2,00 | 5% | −0,50 |
-| Semikonduktor (SOX) | −7,67% dari penutupan sebelumnya (8.853,10) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,892% (−2,6 bp dari sesi sebelumnya) | +0,26 | 10% | +0,13 |
-| VIX (volatilitas) | 27,98 (+5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $87,22 (−2,41% dari sesi sebelumnya) | +1,21 | 5% | +0,30 |
+| Berita berbobot | skor rata-rata −0,12 dari 28 kejadian bernilai; 53% bobot bullish | −0,10 | 30% | −0,15 |
+| Futures Nasdaq-100 | −2,59% dari penutupan sebelumnya (26.113,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,04% dari penutupan sebelumnya (7.179,00) | −2,00 | 5% | −0,50 |
+| Semikonduktor (SOX) | −7,62% dari penutupan sebelumnya (8.856,97) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,890% (−2,8 bp dari sesi sebelumnya) | +0,28 | 10% | +0,14 |
+| VIX (volatilitas) | 28,23 (+6,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $87,29 (−2,33% dari sesi sebelumnya) | +1,17 | 5% | +0,29 |
 | Indeks dolar | −0,46% dari penutupan sebelumnya (103,84) | −1,15 | 5% | −0,29 |
-| Tren Nasdaq 5 sesi | −2,56% dalam 5 sesi; 14,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −2,53% dalam 5 sesi; 14,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
@@ -37,10 +37,10 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−1,6** Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say (Yahoo! Finance Canada). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** US AI and Chip Stocks Plunge in Premarket Trading; Micron Down 6.7%, Nvidia Down 5.4% (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** China to Suspend Some Critical-Material Export Curbs to U.S. Until January (WSJ). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,3** Nvidia Slips 3.5% as AI Trade Cools; HPE Tumbles 9.6% on Margin Warning (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Nvidia and 3 AI Chip Stocks for Export Control Resilient Growth (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,3** JPMorgan AM warns AI-driven borrowing limits room for bond rally (AMWatch). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
-- **−1,2** Oil Prices Rise After Ship Attacks, US-Iran Talks Deadlock (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **+1,1** Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
+- **+1,1** 2-Year Treasury Yield Drops 13 Basis Points to 4.63%, Signaling a Fed Rethink (24/7 Wall St.). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,0** How will the AI capex boom end? (PA Adviser). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,0** Why Is Intel Stock Pulling Back After Monday’s Semiconductor Rally (Benzinga). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
