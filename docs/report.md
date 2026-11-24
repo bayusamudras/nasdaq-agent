@@ -1,31 +1,31 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T08:23:03+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T08:24:03+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
-Peluang indeks naik **58%**, turun **42%** (skor +1,1 dari ±10, keyakinan 72%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **59%**, turun **41%** (skor +1,2 dari ±10, keyakinan 72%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +7,43% dari penutupan sebelumnya (26.993,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +7,32% dari penutupan sebelumnya (26.965,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +5,15% dari penutupan sebelumnya (7.292,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +5,06% dari penutupan sebelumnya (7.286,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Minyak Brent** (+0,38): $86,62 (−6,43% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
+- **Minyak Brent** (+0,38): $86,64 (−6,41% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,02 dari 39 kejadian bernilai; 58% bobot bullish | −0,02 | 30% | −0,03 |
-| Futures Nasdaq-100 | +7,43% dari penutupan sebelumnya (26.993,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +5,15% dari penutupan sebelumnya (7.292,00) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata +0,01 dari 35 kejadian bernilai; 60% bobot bullish | +0,01 | 30% | +0,01 |
+| Futures Nasdaq-100 | +7,32% dari penutupan sebelumnya (26.965,00) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +5,06% dari penutupan sebelumnya (7.286,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $86,62 (−6,43% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Minyak Brent | $86,64 (−6,41% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,45% dari penutupan sebelumnya (104,28) | +1,12 | 5% | +0,28 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 25.879 (+7,43%).
+Perkiraan pembukaan dari futures: 25.853 (+7,32%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -39,8 +39,8 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−0,9** Korea Faces Dual Pressure From Trump Tariffs and Democratic Scrutiny (Seoul Economic Daily). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+0,9** Nvidia Board Decides on Immediate Return of CEO Huang; Semiconductor Stocks Flooded With Buybacks (BigGo Finance). Buyback mengurangi jumlah saham beredar dan menopang laba per saham. Stock split memperluas basis investor ritel.
 - **+0,9** Tesla Rebounds 12% as FSD v15 Rollout and SpaceX Merger Talk Lift Shares (BigGo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **−0,8** The Fed Can't Save The Market From A Crash｜RiskReversal Media (finance.biggo.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,8** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,8** Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100 (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
