@@ -1,7 +1,7 @@
-# Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T11:40:52+07:00 · sesi Selasa 24 Nov (pra-buka)_
+# Bias Nasdaq: BEARISH TIPIS
+_Diperbarui 2026-11-24T11:41:52+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
-Peluang indeks naik **52%**, turun **48%** (skor −0,5 dari ±10, keyakinan 56%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 59%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
@@ -12,8 +12,8 @@ Peluang indeks naik **52%**, turun **48%** (skor −0,5 dari ±10, keyakinan 56%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,08 dari 38 kejadian bernilai; 62% bobot bullish | +0,07 | 30% | +0,11 |
-| Futures Nasdaq-100 | −0,01% dari penutupan sebelumnya (26.805,75) | −0,02 | 20% | −0,02 |
+| Berita berbobot | skor rata-rata +0,08 dari 39 kejadian bernilai; 61% bobot bullish | +0,07 | 30% | +0,11 |
+| Futures Nasdaq-100 | −0,01% dari penutupan sebelumnya (26.806,50) | −0,02 | 20% | −0,02 |
 | Futures S&P 500 | +0,16% dari penutupan sebelumnya (7.266,00) | +0,40 | 5% | +0,10 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
