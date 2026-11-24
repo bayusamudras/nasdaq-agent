@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-24T20:40:42+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T20:41:42+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
-Peluang indeks naik **44%**, turun **56%** (skor −2,4 dari ±10, keyakinan 50%, 64% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **44%**, turun **56%** (skor −2,5 dari ±10, keyakinan 55%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,28% dari penutupan sebelumnya (26.198,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −2,23% dari penutupan sebelumnya (26.209,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 29,53 (+10,9% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,33% dari penutupan sebelumnya (7.158,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **VIX (volatilitas)** (−1,00): 29,35 (+10,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,32% dari penutupan sebelumnya (7.159,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,27 dari 25 kejadian bernilai; 64% bobot bullish | +0,22 | 30% | +0,33 |
-| Futures Nasdaq-100 | −2,28% dari penutupan sebelumnya (26.198,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,33% dari penutupan sebelumnya (7.158,00) | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −2,23% dari penutupan sebelumnya (26.209,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,32% dari penutupan sebelumnya (7.159,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,892% (−2,6 bp dari sesi sebelumnya) | +0,26 | 10% | +0,13 |
-| VIX (volatilitas) | 29,53 (+10,9% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $87,38 (−2,23% dari sesi sebelumnya) | +1,11 | 5% | +0,28 |
-| Indeks dolar | −0,41% dari penutupan sebelumnya (103,89) | −1,02 | 5% | −0,26 |
+| Yield obligasi 10 tahun | 4,896% (−2,2 bp dari sesi sebelumnya) | +0,22 | 10% | +0,11 |
+| VIX (volatilitas) | 29,35 (+10,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $87,56 (−2,03% dari sesi sebelumnya) | +1,01 | 5% | +0,25 |
+| Indeks dolar | −0,40% dari penutupan sebelumnya (103,90) | −1,00 | 5% | −0,25 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 23.540 (−2,28%).
+Perkiraan pembukaan dari futures: 23.552 (−2,23%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **+0,8** Nvidia and Micron Slide a Day After Their Big Rally (Stock Titan). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,8** Michael Burry Cuts Nvidia Puts by 75% Before Stock's 31% Rally (TradingView). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,7** Korean stocks rally on Huang's Nvidia comeback, but AI risks linger (KED Global). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−0,6** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−0,5** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
