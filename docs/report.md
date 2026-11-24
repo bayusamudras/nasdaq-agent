@@ -1,32 +1,32 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T15:55:16+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T15:56:16+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
-Peluang indeks naik **52%**, turun **48%** (skor −0,6 dari ±10, keyakinan 54%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **51%**, turun **49%** (skor −0,7 dari ±10, keyakinan 54%, 50% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 26,80 (+0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 26,62 (0,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Minyak Brent** (+0,38): $85,75 (−4,05% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,16 dari 37 kejadian bernilai; 65% bobot bullish | +0,13 | 30% | +0,20 |
-| Futures Nasdaq-100 | −0,10% dari penutupan sebelumnya (26.780,75) | −0,20 | 20% | −0,20 |
-| Futures S&P 500 | +0,07% dari penutupan sebelumnya (7.259,50) | +0,18 | 5% | +0,04 |
+| Berita berbobot | skor rata-rata +0,03 dari 38 kejadian bernilai; 61% bobot bullish | +0,02 | 30% | +0,03 |
+| Futures Nasdaq-100 | −0,08% dari penutupan sebelumnya (26.785,25) | −0,16 | 20% | −0,16 |
+| Futures S&P 500 | +0,08% dari penutupan sebelumnya (7.260,50) | +0,20 | 5% | +0,05 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 26,80 (+0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
+| VIX (volatilitas) | 26,62 (0,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $85,75 (−4,05% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | −0,05% dari penutupan sebelumnya (104,27) | −0,12 | 5% | −0,03 |
+| Indeks dolar | −0,03% dari penutupan sebelumnya (104,29) | −0,07 | 5% | −0,02 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 24.065 (−0,10%).
+Perkiraan pembukaan dari futures: 24.070 (−0,08%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **+0,8** TSMC, Samsung, SK Hynix Rally As Jensen Huang Returns As Nvidia CEO — Top Analyst Flags Risks To AI Recovery (TradingView). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,8** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+0,8** Nasdaq, Dow, S&P 500 Futures Gain As Jensen Huang’s Return To Nvidia Sparks $3T Market Rally: SOXS, IBRX, HPE, TSM In Focus (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−0,8** Tariff-ied! – Temporary Importation Under Bond: What Importers Need to Know (The National Law Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,7** Tariff-ied! – Temporary Importation Under Bond: What Importers Need to Know (The National Law Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+0,7** CrowdStrike Shares Fall 10% After a $44 Billion Zscaler Deal Despite an Earnings Beat and Raised Guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+0,7** Hewlett Packard Enterprise (NYSE:HPE) Slides as In-Line Revenue and Margin Mix Overshadow Strong Earnings and Guidance (ChartMill). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 
