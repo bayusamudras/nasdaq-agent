@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-24T19:59:20+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T20:00:20+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **42%**, turun **57%** (skor −2,9 dari ±10, keyakinan 71%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,63% dari penutupan sebelumnya (26.370,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −1,62% dari penutupan sebelumnya (26.374,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 28,92 (+8,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −0,88% dari penutupan sebelumnya (7.190,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **VIX (volatilitas)** (−1,00): 28,84 (+8,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −0,89% dari penutupan sebelumnya (7.190,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,01 dari 28 kejadian bernilai; 57% bobot bullish | +0,01 | 30% | +0,01 |
-| Futures Nasdaq-100 | −1,63% dari penutupan sebelumnya (26.370,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,88% dari penutupan sebelumnya (7.190,50) | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −1,62% dari penutupan sebelumnya (26.374,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,89% dari penutupan sebelumnya (7.190,25) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 28,92 (+8,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $87,04 (−2,61% dari sesi sebelumnya) | +1,30 | 5% | +0,33 |
+| VIX (volatilitas) | 28,84 (+8,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $87,11 (−2,53% dari sesi sebelumnya) | +1,26 | 5% | +0,32 |
 | Indeks dolar | −0,40% dari penutupan sebelumnya (103,90) | −1,00 | 5% | −0,25 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 23.697 (−1,63%).
+Perkiraan pembukaan dari futures: 23.699 (−1,62%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -45,14 +45,14 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−0,6** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
-- 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
-- 2026-11-25: PDB (tinggi)
-- 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
+- 2026-11-25: PCE Oktober dan PDB kuartal III (estimasi kedua) (tinggi)
 - 2026-12-09: Keputusan suku bunga FOMC (tinggi)
-- 2026-12-10: CPI (tinggi)
-- 2026-12-15: PPI (sedang)
-- 2026-12-16: Penjualan ritel (sedang)
 - 2027-01-27: Laporan laba Microsoft (MSFT) (tinggi)
+- 2027-01-27: Laporan laba Meta (META) (tinggi)
+- 2027-01-27: Laporan laba Tesla (TSLA) (tinggi)
+- 2027-01-28: Laporan laba Apple (AAPL) (tinggi)
+- 2027-02-03: Laporan laba Alphabet (GOOGL) (tinggi)
+- 2027-02-04: Laporan laba Amazon (AMZN) (tinggi)
 
 ## Rekam jejak
 9 benar dari 14 prediksi terevaluasi.
