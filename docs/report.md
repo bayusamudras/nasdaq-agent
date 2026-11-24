@@ -1,12 +1,12 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T07:05:36+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T07:06:36+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **60%**, turun **40%** (skor +1,5 dari ±10, keyakinan 72%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +6,41% dari penutupan sebelumnya (26.737,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +6,44% dari penutupan sebelumnya (26.744,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures S&P 500** (+0,50): +4,54% dari penutupan sebelumnya (7.250,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +4,55% dari penutupan sebelumnya (7.250,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Minyak Brent** (+0,38): $86,81 (−6,22% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 
@@ -14,8 +14,8 @@ Peluang indeks naik **60%**, turun **40%** (skor +1,5 dari ±10, keyakinan 72%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,18 dari 37 kejadian bernilai; 54% bobot bullish | −0,15 | 30% | −0,22 |
-| Futures Nasdaq-100 | +6,41% dari penutupan sebelumnya (26.737,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +4,54% dari penutupan sebelumnya (7.250,00) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +6,44% dari penutupan sebelumnya (26.744,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +4,55% dari penutupan sebelumnya (7.250,75) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
@@ -25,7 +25,7 @@ Peluang indeks naik **60%**, turun **40%** (skor +1,5 dari ±10, keyakinan 72%, 
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 25.634 (+6,41%).
+Perkiraan pembukaan dari futures: 25.641 (+6,44%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−1,0** Korea Faces Dual Pressure From Trump Tariffs and Democratic Scrutiny (Seoul Economic Daily). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** The Fed Can't Save The Market From A Crash｜RiskReversal Media (finance.biggo.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−0,9** The AI Slump Is Exposing the Economic Costs of Economic Statecraft (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,9** Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100 (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **+0,8** Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100 (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,8** Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally (Investor's Business Daily). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
