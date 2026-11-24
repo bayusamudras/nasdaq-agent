@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-24T11:42:53+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T11:43:52+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
-Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 59%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 58%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
@@ -13,8 +13,8 @@ Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 59%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,08 dari 39 kejadian bernilai; 61% bobot bullish | +0,07 | 30% | +0,11 |
-| Futures Nasdaq-100 | 0,00% dari penutupan sebelumnya (26.809,00) | 0,00 | 20% | 0,00 |
-| Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.266,50) | +0,42 | 5% | +0,11 |
+| Futures Nasdaq-100 | +0,04% dari penutupan sebelumnya (26.818,50) | +0,08 | 20% | +0,08 |
+| Futures S&P 500 | +0,18% dari penutupan sebelumnya (7.267,25) | +0,45 | 5% | +0,11 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
@@ -24,7 +24,7 @@ Peluang indeks naik **47%**, turun **53%** (skor −1,8 dari ±10, keyakinan 59%
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 24.090 (0,00%).
+Perkiraan pembukaan dari futures: 24.099 (+0,04%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -39,7 +39,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **+0,9** Oil Prices Drop 4% after Qatar, Bessent Raise Hopes of a US-Iran Deal (EnergyNow.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+0,9** Fuel Prices Could Keep Rising for Months After Hormuz Reopens, US EIA Says (EnergyNow.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **+0,8** Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally (Investor's Business Daily). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **+0,8** Asian stocks rally as Huang’s Nvidia return revives AI trade (KELO-AM). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **+0,7** Asian stocks rally as Huang’s Nvidia return revives AI trade (KELO-AM). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
