@@ -1,39 +1,39 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-25T02:31:55+07:00 · sesi Selasa 24 Nov (berjalan)_
+_Diperbarui 2026-11-25T02:32:55+07:00 · sesi Selasa 24 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 62%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 26,472–26,496. Liquidity sweep di bawah 26,039 lalu ditolak (4 jam lalu). Skor dipangkas dari -5.4 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,89% dari penutupan sebelumnya (26.301,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −6,96% dari penutupan sebelumnya (8.921,02). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (−2,00): −1,91% dari penutupan sebelumnya (26.297,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −7,13% dari penutupan sebelumnya (8.904,68). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,85): Skor rata-rata −0,69 dari 40 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 26,44 (−0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −2,48% dalam 5 sesi; 14,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **VIX (volatilitas)** (−0,60): 26,46 (−0,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −2,57% dalam 5 sesi; 14,5% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,69 dari 40 kejadian bernilai; 40% bobot bullish | −0,57 | 30% | −0,85 |
-| Futures Nasdaq-100 | −1,89% dari penutupan sebelumnya (26.301,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,57% dari penutupan sebelumnya (7.213,25) | −1,42 | 5% | −0,35 |
-| Semikonduktor (SOX) | −6,96% dari penutupan sebelumnya (8.921,02) | −2,00 | 10% | −1,00 |
-| Yield obligasi 10 tahun | 4,908% (−1,0 bp dari sesi sebelumnya) | +0,10 | 10% | +0,05 |
-| VIX (volatilitas) | 26,44 (−0,7% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
+| Futures Nasdaq-100 | −1,91% dari penutupan sebelumnya (26.297,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,59% dari penutupan sebelumnya (7.212,00) | −1,47 | 5% | −0,37 |
+| Semikonduktor (SOX) | −7,13% dari penutupan sebelumnya (8.904,68) | −2,00 | 10% | −1,00 |
+| Yield obligasi 10 tahun | 4,906% (−1,2 bp dari sesi sebelumnya) | +0,12 | 10% | +0,06 |
+| VIX (volatilitas) | 26,46 (−0,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $88,45 (−1,03% dari sesi sebelumnya) | +0,52 | 5% | +0,13 |
-| Indeks dolar | −0,49% dari penutupan sebelumnya (103,81) | −1,22 | 5% | −0,30 |
-| Tren Nasdaq 5 sesi | −2,48% dalam 5 sesi; 14,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Indeks dolar | −0,48% dari penutupan sebelumnya (103,82) | −1,20 | 5% | −0,30 |
+| Tren Nasdaq 5 sesi | −2,57% dalam 5 sesi; 14,5% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 23.634 (−1,89%).
+Perkiraan pembukaan dari futures: 23.629 (−1,91%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
 - **−2,5** Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,9** Anthropic Shares Plunge Below IPO Price in Fourth Trading Day (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,6** AMD, Micron, Intel, Qualcomm Slide as Trump Weighs Wider Trade Tariffs (FXLeaders). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,5** AMD, Micron, Intel, Qualcomm Slide as Trump Weighs Wider Trade Tariffs (FXLeaders). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,5** Here's Why SpaceX Stock Slumped Today, And Why it Could Come Under More Pressure as Tesla Merger Talks Continue (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,4** Best Buy Raises Guidance on Demand for Computing, AI Glasses (Bloomberg). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **+1,4** HPE delivers quarterly results beat, raises guidance; stock falls after big rally (Investing.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
