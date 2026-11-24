@@ -1,5 +1,5 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T14:44:58+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T14:45:58+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **53%**, turun **47%** (skor −0,2 dari ±10, keyakinan 55%, 43% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -12,19 +12,19 @@ Peluang indeks naik **53%**, turun **47%** (skor −0,2 dari ±10, keyakinan 55%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,14 dari 36 kejadian bernilai; 60% bobot bullish | −0,12 | 30% | −0,18 |
-| Futures Nasdaq-100 | +0,11% dari penutupan sebelumnya (26.838,75) | +0,22 | 20% | +0,22 |
+| Berita berbobot | skor rata-rata −0,14 dari 34 kejadian bernilai; 61% bobot bullish | −0,11 | 30% | −0,17 |
+| Futures Nasdaq-100 | +0,12% dari penutupan sebelumnya (26.839,00) | +0,24 | 20% | +0,24 |
 | Futures S&P 500 | +0,17% dari penutupan sebelumnya (7.267,00) | +0,42 | 5% | +0,11 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
 | Minyak Brent | $86,68 (−3,01% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,03% dari penutupan sebelumnya (104,36) | +0,07 | 5% | +0,02 |
+| Indeks dolar | +0,04% dari penutupan sebelumnya (104,36) | +0,10 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 24.116 (+0,11%).
+Perkiraan pembukaan dari futures: 24.118 (+0,12%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -32,7 +32,7 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−1,4** Citadel Securities: US Stocks May Repeat 2018 Selloff, Fed Unlikely to Ease Due to Equity Decline (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Oil Hits Four-Week High as US-Iran Conflict Escalates (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+1,4** HPE delivers quarterly results beat, raises guidance; stocks slips after big rally (Investing.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
-- **+1,1** Asian Stocks to Rally as Huang’s Return Revives AI: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **+1,0** Asian Stocks to Rally as Huang’s Return Revives AI: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,9** Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears (The Motley Fool). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+0,9** TSMC, Samsung, SK Hynix Rally As Jensen Huang Returns As Nvidia CEO — Top Analyst Flags Risks To AI Recovery (TradingView). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **+0,9** Korean stocks rally on Huang's Nvidia comeback, but AI risks linger (KED Global). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
