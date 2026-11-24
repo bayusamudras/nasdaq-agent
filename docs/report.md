@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-24T20:23:31+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T20:24:31+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
-Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 71%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **42%**, turun **57%** (skor −2,9 dari ±10, keyakinan 71%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,43% dari penutupan sebelumnya (26.156,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −2,24% dari penutupan sebelumnya (26.207,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 28,75 (+8,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −1,47% dari penutupan sebelumnya (7.147,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **VIX (volatilitas)** (−1,00): 32,38 (+21,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −1,29% dari penutupan sebelumnya (7.161,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata +0,15 dari 28 kejadian bernilai; 61% bobot bullish | +0,13 | 30% | +0,20 |
-| Futures Nasdaq-100 | −2,43% dari penutupan sebelumnya (26.156,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,47% dari penutupan sebelumnya (7.147,75) | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata +0,04 dari 26 kejadian bernilai; 58% bobot bullish | +0,03 | 30% | +0,04 |
+| Futures Nasdaq-100 | −2,24% dari penutupan sebelumnya (26.207,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,29% dari penutupan sebelumnya (7.161,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
-| VIX (volatilitas) | 28,75 (+8,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $87,03 (−2,62% dari sesi sebelumnya) | +1,31 | 5% | +0,33 |
+| VIX (volatilitas) | 32,38 (+21,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $87,04 (−2,61% dari sesi sebelumnya) | +1,30 | 5% | +0,33 |
 | Indeks dolar | −0,43% dari penutupan sebelumnya (103,87) | −1,07 | 5% | −0,27 |
 | Tren Nasdaq 5 sesi | −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu | −1,64 | 5% | −0,41 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 23.504 (−2,43%).
+Perkiraan pembukaan dari futures: 23.550 (−2,24%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
@@ -41,8 +41,8 @@ Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 - **−1,0** Citadel Securities: US Stocks May Repeat 2018 Selloff, Fed Unlikely to Ease Due to Equity Decline (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** Oil Hits Four-Week High as US-Iran Conflict Escalates (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **+0,8** Michael Burry Cuts Nvidia Puts by 75% Before Stock's 31% Rally (TradingView). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **−0,7** US Adds Alibaba's Singapore Unit to Entity List, Alibaba Vows Legal Fight (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,6** Nasdaq futures tripped a circuit breaker built for market crashes as Jensen Huang returned to Nvidia (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+0,6** Nasdaq, Dow, S&P 500 Futures Gain As Jensen Huang’s Return To Nvidia Sparks $3T Market Rally: SOXS, IBRX, HPE, TSM In Focus (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
