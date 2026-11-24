@@ -1,11 +1,11 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-24T12:47:20+07:00 · sesi Selasa 24 Nov (pra-buka)_
+_Diperbarui 2026-11-24T12:48:20+07:00 · sesi Selasa 24 Nov (pra-buka)_
 
 Peluang indeks naik **55%**, turun **46%** (skor +0,1 dari ±10, keyakinan 68%, 73% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Semikonduktor (SOX)** (+1,00): +14,03% dari penutupan sebelumnya (9.588,05). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Futures Nasdaq-100** (+0,60): +0,30% dari penutupan sebelumnya (26.887,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+0,60): +0,30% dari penutupan sebelumnya (26.888,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Tren Nasdaq 5 sesi** (−0,41): −1,71% dalam 5 sesi; 13,1% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 - **Minyak Brent** (+0,38): $86,08 (−3,68% dari sesi sebelumnya). Minyak turun, meredakan tekanan inflasi dan suku bunga.
 - **VIX (volatilitas)** (−0,35): 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -14,8 +14,8 @@ Peluang indeks naik **55%**, turun **46%** (skor +0,1 dari ±10, keyakinan 68%, 
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,06 dari 36 kejadian bernilai; 59% bobot bullish | −0,05 | 30% | −0,07 |
-| Futures Nasdaq-100 | +0,30% dari penutupan sebelumnya (26.887,50) | +0,60 | 20% | +0,60 |
-| Futures S&P 500 | +0,32% dari penutupan sebelumnya (7.277,50) | +0,80 | 5% | +0,20 |
+| Futures Nasdaq-100 | +0,30% dari penutupan sebelumnya (26.888,25) | +0,60 | 20% | +0,60 |
+| Futures S&P 500 | +0,32% dari penutupan sebelumnya (7.277,75) | +0,80 | 5% | +0,20 |
 | Semikonduktor (SOX) | +14,03% dari penutupan sebelumnya (9.588,05) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,918% (+0,6 bp dari sesi sebelumnya) | −0,15 | 10% | −0,07 |
 | VIX (volatilitas) | 26,62 (−25,8% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −0,70 | 10% | −0,35 |
@@ -29,7 +29,7 @@ Perkiraan pembukaan dari futures: 24.162 (+0,30%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
-- **−2,8** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−2,7** US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,6** HPE delivers quarterly results beat, raises guidance; stocks slips after big rally (Investing.com). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** U.S. blacklists Megaspeed chip firm, linked to Nvidia CEO's suspected spy lover (Korea JoongAng Daily). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,1** Asian Stocks to Rally as Huang’s Return Revives AI: Markets Wrap (Bloomberg.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
