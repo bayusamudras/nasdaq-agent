@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-24T22:26:18+07:00 · sesi Selasa 24 Nov (berjalan)_
+_Diperbarui 2026-11-24T22:27:18+07:00 · sesi Selasa 24 Nov (berjalan)_
 
-Peluang indeks naik **38%**, turun **62%** (skor −4,2 dari ±10, keyakinan 67%, 92% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **37%**, turun **63%** (skor −4,2 dari ±10, keyakinan 67%, 92% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,79% dari penutupan sebelumnya (26.328,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −8,20% dari penutupan sebelumnya (8.801,99). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 27,72 (+4,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Tren Nasdaq 5 sesi** (−0,50): −2,82% dalam 5 sesi; 14,7% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
-- **Futures S&P 500** (−0,34): −0,55% dari penutupan sebelumnya (7.214,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures Nasdaq-100** (−2,00): −1,91% dari penutupan sebelumnya (26.295,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −8,26% dari penutupan sebelumnya (8.796,24). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,60): 27,52 (+3,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Tren Nasdaq 5 sesi** (−0,50): −2,89% dalam 5 sesi; 14,8% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures S&P 500** (−0,39): −0,62% dari penutupan sebelumnya (7.209,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata +0,23 dari 23 kejadian bernilai; 62% bobot bullish | +0,19 | 30% | +0,29 |
-| Futures Nasdaq-100 | −1,79% dari penutupan sebelumnya (26.328,25) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,55% dari penutupan sebelumnya (7.214,50) | −1,38 | 5% | −0,34 |
-| Semikonduktor (SOX) | −8,20% dari penutupan sebelumnya (8.801,99) | −2,00 | 10% | −1,00 |
+| Futures Nasdaq-100 | −1,91% dari penutupan sebelumnya (26.295,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,62% dari penutupan sebelumnya (7.209,75) | −1,55 | 5% | −0,39 |
+| Semikonduktor (SOX) | −8,26% dari penutupan sebelumnya (8.796,24) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,912% (−0,6 bp dari sesi sebelumnya) | +0,06 | 10% | +0,03 |
-| VIX (volatilitas) | 27,72 (+4,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $87,81 (−1,75% dari sesi sebelumnya) | +0,88 | 5% | +0,22 |
-| Indeks dolar | −0,44% dari penutupan sebelumnya (103,86) | −1,10 | 5% | −0,28 |
-| Tren Nasdaq 5 sesi | −2,82% dalam 5 sesi; 14,7% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| VIX (volatilitas) | 27,52 (+3,4% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $87,78 (−1,78% dari sesi sebelumnya) | +0,89 | 5% | +0,22 |
+| Indeks dolar | −0,43% dari penutupan sebelumnya (103,87) | −1,07 | 5% | −0,27 |
+| Tren Nasdaq 5 sesi | −2,89% dalam 5 sesi; 14,8% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 23.658 (−1,79%).
+Perkiraan pembukaan dari futures: 23.629 (−1,91%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
