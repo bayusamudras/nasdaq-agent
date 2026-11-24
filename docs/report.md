@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-25T01:13:26+07:00 · sesi Selasa 24 Nov (berjalan)_
+_Diperbarui 2026-11-25T01:14:27+07:00 · sesi Selasa 24 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 62%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertolak di bearish FVG 26,472–26,496. Liquidity sweep di bawah 26,039 lalu ditolak (3 jam lalu). Skor dipangkas dari -5.0 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,83% dari penutupan sebelumnya (26.318,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Semikonduktor (SOX)** (−1,00): −7,63% dari penutupan sebelumnya (8.856,29). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−0,60): 26,53 (−0,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Berita berbobot** (−0,57): Skor rata-rata −0,45 dari 32 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Tren Nasdaq 5 sesi** (−0,50): −2,47% dalam 5 sesi; 14,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
+- **Futures Nasdaq-100** (−2,00): −1,85% dari penutupan sebelumnya (26.312,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Semikonduktor (SOX)** (−1,00): −7,55% dari penutupan sebelumnya (8.864,28). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
+- **VIX (volatilitas)** (−0,60): 26,58 (−0,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Berita berbobot** (−0,57): Skor rata-rata −0,46 dari 32 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Tren Nasdaq 5 sesi** (−0,50): −2,42% dalam 5 sesi; 14,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,45 dari 32 kejadian bernilai; 45% bobot bullish | −0,38 | 30% | −0,57 |
-| Futures Nasdaq-100 | −1,83% dari penutupan sebelumnya (26.318,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,48% dari penutupan sebelumnya (7.219,50) | −1,20 | 5% | −0,30 |
-| Semikonduktor (SOX) | −7,63% dari penutupan sebelumnya (8.856,29) | −2,00 | 10% | −1,00 |
+| Berita berbobot | skor rata-rata −0,46 dari 32 kejadian bernilai; 46% bobot bullish | −0,38 | 30% | −0,57 |
+| Futures Nasdaq-100 | −1,85% dari penutupan sebelumnya (26.312,50) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,50% dari penutupan sebelumnya (7.218,50) | −1,25 | 5% | −0,31 |
+| Semikonduktor (SOX) | −7,55% dari penutupan sebelumnya (8.864,28) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,904% (−1,4 bp dari sesi sebelumnya) | +0,14 | 10% | +0,07 |
-| VIX (volatilitas) | 26,53 (−0,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
+| VIX (volatilitas) | 26,58 (−0,1% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $87,87 (−1,68% dari sesi sebelumnya) | +0,84 | 5% | +0,21 |
 | Indeks dolar | −0,53% dari penutupan sebelumnya (103,77) | −1,32 | 5% | −0,33 |
-| Tren Nasdaq 5 sesi | −2,47% dalam 5 sesi; 14,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
+| Tren Nasdaq 5 sesi | −2,42% dalam 5 sesi; 14,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 24.079; resistensi 24.364 / 24.638; support 23.805 / 23.521.
-Perkiraan pembukaan dari futures: 23.649 (−1,83%).
+Perkiraan pembukaan dari futures: 23.644 (−1,85%).
 Rentang wajar 1σ (VXN): 23.539 sampai 24.641.
 
 ## Berita paling berdampak
