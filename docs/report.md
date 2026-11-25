@@ -1,27 +1,27 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-25T21:04:17+07:00 · sesi Rabu 25 Nov (pra-buka)_
+_Diperbarui 2026-11-25T21:05:16+07:00 · sesi Rabu 25 Nov (pra-buka)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 66%, 80% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −3,16% dari penutupan sebelumnya (25.445,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,44): Skor rata-rata −1,16 dari 53 kejadian bernilai; 31% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −3,16% dari penutupan sebelumnya (25.445,25). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,50): Skor rata-rata −1,20 dari 53 kejadian bernilai; 30% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −7,88% dari penutupan sebelumnya (8.832,50). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 31,26 (+18,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −2,06% dari penutupan sebelumnya (7.068,50). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **VIX (volatilitas)** (−1,00): 31,44 (+19,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures S&P 500** (−0,50): −2,04% dari penutupan sebelumnya (7.070,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,16 dari 53 kejadian bernilai; 31% bobot bullish | −0,96 | 30% | −1,44 |
-| Futures Nasdaq-100 | −3,16% dari penutupan sebelumnya (25.445,00) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −2,06% dari penutupan sebelumnya (7.068,50) | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,20 dari 53 kejadian bernilai; 30% bobot bullish | −1,00 | 30% | −1,50 |
+| Futures Nasdaq-100 | −3,16% dari penutupan sebelumnya (25.445,25) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −2,04% dari penutupan sebelumnya (7.070,25) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −7,88% dari penutupan sebelumnya (8.832,50) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,840% (−6,4 bp dari sesi sebelumnya) | +0,64 | 10% | +0,32 |
-| VIX (volatilitas) | 31,26 (+18,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $89,44 (−2,14% dari sesi sebelumnya) | +1,07 | 5% | +0,27 |
+| VIX (volatilitas) | 31,44 (+19,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $89,45 (−2,13% dari sesi sebelumnya) | +1,06 | 5% | +0,27 |
 | Indeks dolar | +0,18% dari penutupan sebelumnya (104,00) | +0,45 | 5% | +0,11 |
 | Tren Nasdaq 5 sesi | −2,45% dalam 5 sesi; 14,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
@@ -32,17 +32,17 @@ Rentang wajar 1σ (VXN): 23.189 sampai 24.278.
 
 ## Berita paling berdampak
 - **−4,0** US Semiconductor Stocks Extend Losses as AI Investment Concerns, Tariff Risks and Rate Expectations Weigh on Markets (Yahoo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−2,6** AI rout continues as market exuberance fades over improbable return of Nvidia’s Huang (BNN Bloomberg). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−2,2** Nasdaq Futures Fall as AI Selloff Deepens and Tariff Fears Grow (Demokratis.co.id). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,9** Treasury and European Government Bond Yields Fall Ahead of PCE Inflation Data (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,9** Morning Brief: U.S. Prepares to Raise Tariffs on China and Others; Australian Inflation Accelerates; German Economy Grew Less Than Estimated (www.christophe-barraud.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,7** Goldman Sachs: The market has already priced in four Federal Reserve rate hikes, but Warsh will continue to raise rates in December. (富途牛牛). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,7** AI rout continues as market exuberance fades over improbable return of Nvidia's Huang (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,6** Dell Delivered Strong Earnings but at the Wrong Time for the Stock (Barron's). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,6** AI debt fears return as CoreWeave’s bond yield tops 17% and futures slide (The Next Web). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,5** Gloom overshadows the year-end market! JPMorgan: Escalating military tensions in Iran, Federal Reserve tightening, a government shutdown, tariff hikes, and chip export controls are converging! (富途牛牛). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,5** Trump proposes new tariffs on China, Europe and other trade partners (The Washington Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** ‘Disastrous' for ASML: Dutch Lawmakers Revolt Against US Push to Tighten China Chip Curbs (Benzinga). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **+1,3** Treasury yields fall as investors await key inflation signal (CNBC). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
+- **−1,3** Dell stock tanks after blowout earnings. Wall Street just isn't impressed. (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
