@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T04:23:39+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T04:24:39+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 84% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -9.9 menjadi -2.0.
 
 ## Alasan utama
-- **Berita berbobot** (−2,08): Skor rata-rata −1,67 dari 51 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−1,56): −0,78% dari penutupan sebelumnya (26.071,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **VIX (volatilitas)** (−1,00): 28,08 (+6,5% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Berita berbobot** (−2,06): Skor rata-rata −1,65 dari 50 kejadian bernilai; 21% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−1,52): −0,76% dari penutupan sebelumnya (26.076,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **VIX (volatilitas)** (−1,00): 28,11 (+6,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,67 dari 51 kejadian bernilai; 20% bobot bullish | −1,39 | 30% | −2,08 |
-| Futures Nasdaq-100 | −0,78% dari penutupan sebelumnya (26.071,00) | −1,56 | 20% | −1,56 |
-| Futures S&P 500 | −0,31% dari penutupan sebelumnya (7.195,00) | −0,77 | 5% | −0,19 |
+| Berita berbobot | skor rata-rata −1,65 dari 50 kejadian bernilai; 21% bobot bullish | −1,37 | 30% | −2,06 |
+| Futures Nasdaq-100 | −0,76% dari penutupan sebelumnya (26.076,75) | −1,52 | 20% | −1,52 |
+| Futures S&P 500 | −0,30% dari penutupan sebelumnya (7.196,00) | −0,75 | 5% | −0,19 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
-| VIX (volatilitas) | 28,08 (+6,5% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $90,79 (−0,67% dari sesi sebelumnya) | +0,34 | 5% | +0,09 |
-| Indeks dolar | −0,10% dari penutupan sebelumnya (103,70) | −0,25 | 5% | −0,06 |
+| VIX (volatilitas) | 28,11 (+6,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $90,77 (−0,69% dari sesi sebelumnya) | +0,34 | 5% | +0,09 |
+| Indeks dolar | −0,09% dari penutupan sebelumnya (103,71) | −0,22 | 5% | −0,06 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.402 (−0,78%).
+Perkiraan pembukaan dari futures: 23.407 (−0,76%).
 Rentang wajar 1σ (VXN): 23.045 sampai 24.127.
 
 ## Berita paling berdampak
@@ -37,12 +37,12 @@ Rentang wajar 1σ (VXN): 23.045 sampai 24.127.
 - **−1,9** US Inflation Hits 3.8% as Fed Prepares December Rate Hike (Demokratis.co.id). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,9** Nasdaq 100 Drops 2.5% on AI Credit Fears, Nvidia Sinks 7%: Stock Market Today (Benzinga). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,7** Dow Jones (DJIA) erases 1,100-point loss as Nvidia slides and tariffs weigh on Nasdaq and S&P 500 (Beinsure). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,5** Tech Stock Sell-Off: Here's Why Apple Has Been Immune (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,6** Tech Stock Sell-Off: Here's Why Apple Has Been Immune (The Globe and Mail). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,5** PCE inflation heats up, solidifying a Fed rate hike in December, with more likely next year (Yahoo Finance Singapore). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,5** Tesla and SpaceX stocks sink as merger concerns mount (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** New Proposed Tariffs Include Several Countries Apple Uses to Diversify Beyond China (Gadget Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** Stock Market Today: Futures Plunge as AI Rout Resumes; Nvidia Leads Chip Stocks Lower, Anthropic Drops Further Below IPO Price (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,4** Palo Alto Networks Rises After Earnings Beat and Raised Guidance (FXEmpire). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **−1,3** AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
