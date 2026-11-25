@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-25T22:02:41+07:00 · sesi Rabu 25 Nov (berjalan)_
+_Diperbarui 2026-11-25T22:03:41+07:00 · sesi Rabu 25 Nov (berjalan)_
 
 Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 66%, 80% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 66
 
 ## Alasan utama
 - **Futures Nasdaq-100** (−2,00): −4,23% dari penutupan sebelumnya (25.163,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,69): Skor rata-rata −1,36 dari 52 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,72): Skor rata-rata −1,38 dari 52 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −5,35% dari penutupan sebelumnya (8.359,89). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−1,00): 34,42 (+30,6% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Futures S&P 500** (−0,50): −2,88% dari penutupan sebelumnya (7.009,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
@@ -15,7 +15,7 @@ Peluang indeks naik **19%**, turun **81%** (skor −10,0 dari ±10, keyakinan 66
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,36 dari 52 kejadian bernilai; 27% bobot bullish | −1,13 | 30% | −1,69 |
+| Berita berbobot | skor rata-rata −1,38 dari 52 kejadian bernilai; 27% bobot bullish | −1,15 | 30% | −1,72 |
 | Futures Nasdaq-100 | −4,23% dari penutupan sebelumnya (25.163,50) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −2,88% dari penutupan sebelumnya (7.009,75) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −5,35% dari penutupan sebelumnya (8.359,89) | −2,00 | 10% | −1,00 |
