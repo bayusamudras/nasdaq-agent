@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T06:46:28+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T06:47:29+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%
 
 ## Alasan utama
 - **Berita berbobot** (−2,40): Skor rata-rata −1,92 dari 48 kejadian bernilai; 14% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (−1,62): −0,81% dari penutupan sebelumnya (26.064,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,48): −0,74% dari penutupan sebelumnya (26.082,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **VIX (volatilitas)** (−1,00): 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -16,8 +16,8 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,92 dari 48 kejadian bernilai; 14% bobot bullish | −1,60 | 30% | −2,40 |
-| Futures Nasdaq-100 | −0,81% dari penutupan sebelumnya (26.064,00) | −1,62 | 20% | −1,62 |
-| Futures S&P 500 | −0,26% dari penutupan sebelumnya (7.198,50) | −0,65 | 5% | −0,16 |
+| Futures Nasdaq-100 | −0,74% dari penutupan sebelumnya (26.082,50) | −1,48 | 20% | −1,48 |
+| Futures S&P 500 | −0,21% dari penutupan sebelumnya (7.202,50) | −0,52 | 5% | −0,13 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −2,00 | 10% | −1,00 |
@@ -27,7 +27,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.395 (−0,81%).
+Perkiraan pembukaan dari futures: 23.411 (−0,74%).
 Rentang wajar 1σ (VXN): 23.045 sampai 24.127.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 23.045 sampai 24.127.
 - **−1,3** Tesla and SpaceX stocks sink as merger concerns mount (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** US Stocks Diverge: Dow Rises 0.86%, Philadelphia Semiconductor Index Plunges Nearly 8%, Nvidia Falls Almost 6% (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** New Proposed Tariffs Include Several Countries Apple Uses to Diversify Beyond China (Gadget Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,2** AI Capex Is Pushing Debt Markets Toward Their Limits (Finimize). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
+- **−1,1** AI Capex Is Pushing Debt Markets Toward Their Limits (Finimize). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
