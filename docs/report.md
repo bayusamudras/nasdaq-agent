@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-25T09:10:30+07:00 · sesi Rabu 25 Nov (pra-buka)_
+_Diperbarui 2026-11-25T09:11:30+07:00 · sesi Rabu 25 Nov (pra-buka)_
 
 Peluang indeks naik **26%**, turun **74%** (skor −7,4 dari ±10, keyakinan 68%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−1,52): −0,76% dari penutupan sebelumnya (26.075,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−1,54): −0,77% dari penutupan sebelumnya (26.072,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −7,88% dari penutupan sebelumnya (8.832,50). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **Berita berbobot** (−0,81): Skor rata-rata −0,65 dari 45 kejadian bernilai; 46% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,60): 26,36 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -16,18 +16,18 @@ Peluang indeks naik **26%**, turun **74%** (skor −7,4 dari ±10, keyakinan 68%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,65 dari 45 kejadian bernilai; 46% bobot bullish | −0,54 | 30% | −0,81 |
-| Futures Nasdaq-100 | −0,76% dari penutupan sebelumnya (26.075,00) | −1,52 | 20% | −1,52 |
-| Futures S&P 500 | −0,54% dari penutupan sebelumnya (7.178,50) | −1,35 | 5% | −0,34 |
+| Futures Nasdaq-100 | −0,77% dari penutupan sebelumnya (26.072,50) | −1,54 | 20% | −1,54 |
+| Futures S&P 500 | −0,54% dari penutupan sebelumnya (7.178,25) | −1,35 | 5% | −0,34 |
 | Semikonduktor (SOX) | −7,88% dari penutupan sebelumnya (8.832,50) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,904% (−1,4 bp dari sesi sebelumnya) | +0,35 | 10% | +0,18 |
 | VIX (volatilitas) | 26,36 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $88,13 (−3,58% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Minyak Brent | $88,05 (−3,67% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | −0,42% dari penutupan sebelumnya (103,88) | −1,05 | 5% | −0,26 |
 | Tren Nasdaq 5 sesi | −2,45% dalam 5 sesi; 14,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 23.691; resistensi 23.927 / 24.120; support 23.498 / 23.262.
-Perkiraan pembukaan dari futures: 23.553 (−0,76%).
+Perkiraan pembukaan dari futures: 23.551 (−0,77%).
 Rentang wajar 1σ (VXN): 23.191 sampai 24.276.
 
 ## Berita paling berdampak
@@ -35,7 +35,7 @@ Rentang wajar 1σ (VXN): 23.191 sampai 24.276.
 - **−1,8** SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names (CNBC). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** NVIDIA Shares Plunge 6% After CEO Huang's Return (조선일보). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,8** Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump (WSJ). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,8** AI Investment Boom Fuels Growth but Drives Up Prices, Leaving Warsh's December Meeting Caught Between Rate Hike and Hold (BigGo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,7** AI Investment Boom Fuels Growth but Drives Up Prices, Leaving Warsh's December Meeting Caught Between Rate Hike and Hold (BigGo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,5** CoreWeave bonds plunge to record lows amid AI credit jitters - report (CRWV:NASDAQ) (Seeking Alpha). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Anthropic Shares Plunge Below IPO Price in Fourth Trading Day (Bloomberg.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
