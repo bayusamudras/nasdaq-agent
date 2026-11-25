@@ -1,23 +1,23 @@
 # Bias Nasdaq: BEARISH
-_Diperbarui 2026-11-25T07:41:53+07:00 · sesi Rabu 25 Nov (pra-buka)_
+_Diperbarui 2026-11-25T07:42:54+07:00 · sesi Rabu 25 Nov (pra-buka)_
 
 Peluang indeks naik **32%**, turun **68%** (skor −5,7 dari ±10, keyakinan 72%, 94% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,32% dari penutupan sebelumnya (26.186,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −2,29% dari penutupan sebelumnya (26.193,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,02): Skor rata-rata −0,81 dari 45 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −7,88% dari penutupan sebelumnya (8.832,50). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **Berita berbobot** (−0,98): Skor rata-rata −0,78 dari 45 kejadian bernilai; 41% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−0,60): 26,36 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −2,45% dalam 5 sesi; 14,4% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,78 dari 45 kejadian bernilai; 41% bobot bullish | −0,65 | 30% | −0,98 |
-| Futures Nasdaq-100 | −2,32% dari penutupan sebelumnya (26.186,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,78% dari penutupan sebelumnya (7.197,75) | −1,95 | 5% | −0,49 |
+| Berita berbobot | skor rata-rata −0,81 dari 45 kejadian bernilai; 41% bobot bullish | −0,68 | 30% | −1,02 |
+| Futures Nasdaq-100 | −2,29% dari penutupan sebelumnya (26.193,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,78% dari penutupan sebelumnya (7.198,25) | −1,95 | 5% | −0,49 |
 | Semikonduktor (SOX) | −7,88% dari penutupan sebelumnya (8.832,50) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,904% (−1,4 bp dari sesi sebelumnya) | +0,14 | 10% | +0,07 |
 | VIX (volatilitas) | 26,36 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,31 | −1,20 | 10% | −0,60 |
@@ -27,7 +27,7 @@ Peluang indeks naik **32%**, turun **68%** (skor −5,7 dari ±10, keyakinan 72%
 
 ## Level hari ini
 Pivot 23.691; resistensi 23.927 / 24.120; support 23.498 / 23.262.
-Perkiraan pembukaan dari futures: 23.183 (−2,32%).
+Perkiraan pembukaan dari futures: 23.190 (−2,29%).
 Rentang wajar 1σ (VXN): 23.191 sampai 24.276.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 23.191 sampai 24.276.
 - **+1,4** Dell handily tops estimates, lifts sales and profit guidance (Yahoo Finance). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** Trump Administration Weighs New Wave of Global Tariffs, With China Facing Potentially Steepest Rates, Decision Could Come as Soon as This Week (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,2** Nasdaq, S&P 500 slip following Monday's Nvidia-fueled rally (Reuters). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−1,1** Stock Market Today, Nov. 24: Bitmine Shares Sink 8.6% as Confidence Wanes (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say (The Standard (HK)). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
