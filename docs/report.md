@@ -1,38 +1,38 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-25T17:16:25+07:00 · sesi Rabu 25 Nov (pra-buka)_
+_Diperbarui 2026-11-25T17:17:25+07:00 · sesi Rabu 25 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 25,637 lalu ditolak (2 jam lalu). Skor dipangkas dari -7.0 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −2,32% dari penutupan sebelumnya (25.665,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Futures Nasdaq-100** (−2,00): −2,35% dari penutupan sebelumnya (25.657,00). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **Semikonduktor (SOX)** (−1,00): −7,88% dari penutupan sebelumnya (8.832,50). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
-- **VIX (volatilitas)** (−1,00): 29,00 (+10,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−1,00): 28,97 (+9,9% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Berita berbobot** (−0,94): Skor rata-rata −0,76 dari 50 kejadian bernilai; 45% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures S&P 500** (−0,50): −1,38% dari penutupan sebelumnya (7.117,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −1,41% dari penutupan sebelumnya (7.115,75). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −0,76 dari 50 kejadian bernilai; 45% bobot bullish | −0,63 | 30% | −0,94 |
-| Futures Nasdaq-100 | −2,32% dari penutupan sebelumnya (25.665,75) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −1,38% dari penutupan sebelumnya (7.117,75) | −2,00 | 5% | −0,50 |
+| Futures Nasdaq-100 | −2,35% dari penutupan sebelumnya (25.657,00) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −1,41% dari penutupan sebelumnya (7.115,75) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −7,88% dari penutupan sebelumnya (8.832,50) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,904% (−1,4 bp dari sesi sebelumnya) | +0,14 | 10% | +0,07 |
-| VIX (volatilitas) | 29,00 (+10,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $88,42 (−3,26% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,21% dari penutupan sebelumnya (104,03) | +0,52 | 5% | +0,13 |
+| VIX (volatilitas) | 28,97 (+9,9% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −2,00 | 10% | −1,00 |
+| Minyak Brent | $88,48 (−3,19% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,21% dari penutupan sebelumnya (104,02) | +0,52 | 5% | +0,13 |
 | Tren Nasdaq 5 sesi | −2,45% dalam 5 sesi; 14,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 23.691; resistensi 23.927 / 24.120; support 23.498 / 23.262.
-Perkiraan pembukaan dari futures: 23.183 (−2,32%).
+Perkiraan pembukaan dari futures: 23.176 (−2,35%).
 Rentang wajar 1σ (VXN): 23.189 sampai 24.278.
 
 ## Berita paling berdampak
 - **−2,0** Trump Tariff Storm Hits: TSMC Plunges NT$210 Intraday, Taiwan Stocks Crash More Than 3,400 Points (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−2,0** Gloom overshadows the year-end market! JPMorgan: Escalating military tensions in Iran, Federal Reserve tightening, a government shutdown, tariff hikes, and chip export controls are converging! (富途牛牛). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,9** Gloom overshadows the year-end market! JPMorgan: Escalating military tensions in Iran, Federal Reserve tightening, a government shutdown, tariff hikes, and chip export controls are converging! (富途牛牛). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,9** U.S. Treasury Yields Fall Ahead of PCE Inflation Data (WSJ). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
 - **−1,8** Asian Markets Fall as Kospi Slides Over 5% and Nikkei Drops Nearly 3% Amid Renewed AI Sell-Off and US Tariff Concerns (Kotak Neo). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,7** Treasury yields fall as investors await key inflation signal (CNBC). Yield turun mengurangi tekanan diskonto pada saham growth. Jika turunnya karena lari ke aset aman saat saham jatuh, efek positifnya hanya sebagian.
