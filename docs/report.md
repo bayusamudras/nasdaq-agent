@@ -1,28 +1,28 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-25T14:15:13+07:00 · sesi Rabu 25 Nov (pra-buka)_
+_Diperbarui 2026-11-25T14:16:13+07:00 · sesi Rabu 25 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 89% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 25,831 lalu ditolak (1 jam lalu). Skor dipangkas dari -7.6 menjadi -2.0.
+**Catatan:** Ada rilis berdampak tinggi dalam 24 jam: PCE (pendapatan dan pengeluaran pribadi), PDB; Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Liquidity sweep di bawah 25,831 lalu ditolak (1 jam lalu). Skor dipangkas dari -7.7 menjadi -2.0.
 
 ## Alasan utama
-- **Futures Nasdaq-100** (−2,00): −1,59% dari penutupan sebelumnya (25.858,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
-- **Berita berbobot** (−1,56): Skor rata-rata −1,25 dari 47 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (−2,00): −1,59% dari penutupan sebelumnya (25.858,75). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
+- **Berita berbobot** (−1,64): Skor rata-rata −1,30 dari 49 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (−1,00): −7,88% dari penutupan sebelumnya (8.832,50). Indeks semikonduktor turun, dan sektor ini berbobot besar di Nasdaq.
 - **VIX (volatilitas)** (−0,60): 26,36 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (−0,50): −0,85% dari penutupan sebelumnya (7.156,25). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
+- **Futures S&P 500** (−0,50): −0,87% dari penutupan sebelumnya (7.155,00). S&P 500 ikut melemah, jadi tekanan meluas melampaui teknologi.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,25 dari 47 kejadian bernilai; 36% bobot bullish | −1,04 | 30% | −1,56 |
-| Futures Nasdaq-100 | −1,59% dari penutupan sebelumnya (25.858,50) | −2,00 | 20% | −2,00 |
-| Futures S&P 500 | −0,85% dari penutupan sebelumnya (7.156,25) | −2,00 | 5% | −0,50 |
+| Berita berbobot | skor rata-rata −1,30 dari 49 kejadian bernilai; 34% bobot bullish | −1,09 | 30% | −1,64 |
+| Futures Nasdaq-100 | −1,59% dari penutupan sebelumnya (25.858,75) | −2,00 | 20% | −2,00 |
+| Futures S&P 500 | −0,87% dari penutupan sebelumnya (7.155,00) | −2,00 | 5% | −0,50 |
 | Semikonduktor (SOX) | −7,88% dari penutupan sebelumnya (8.832,50) | −2,00 | 10% | −1,00 |
 | Yield obligasi 10 tahun | 4,904% (−1,4 bp dari sesi sebelumnya) | +0,14 | 10% | +0,07 |
 | VIX (volatilitas) | 26,36 (−1,0% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $87,17 (−4,63% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,23% dari penutupan sebelumnya (104,05) | +0,57 | 5% | +0,14 |
+| Minyak Brent | $87,16 (−4,64% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,22% dari penutupan sebelumnya (104,04) | +0,55 | 5% | +0,14 |
 | Tren Nasdaq 5 sesi | −2,45% dalam 5 sesi; 14,4% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 23.189 sampai 24.278.
 - **−1,2** AI Investment Boom Fuels Growth but Drives Up Prices, Leaving Warsh's December Meeting Caught Between Rate Hike and Hold (BigGo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,2** Oil Prices Slide Despite Mounting Threats in the Strait of Hormuz (Crude Oil Prices Today | OilPrice.com). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−1,2** Taiwan, South Korea lead Asian stocks lower on fresh US tariff threats (The Edge Malaysia). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,1** CoreWeave bonds plunge to record lows amid AI credit jitters - report (CRWV:NASDAQ) (Seeking Alpha). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,1** Wall Street Ends Mixed as Nasdaq and S&P 500 Fall Amid Renewed AI Sell-Off; Dow Jones Gains 423 Points (Kotak Neo). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
