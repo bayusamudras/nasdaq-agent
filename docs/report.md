@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T05:41:09+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T05:42:09+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%, 85% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -10.0 menjadi -2.0.
 
 ## Alasan utama
-- **Berita berbobot** (−2,26): Skor rata-rata −1,82 dari 50 kejadian bernilai; 17% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−2,37): Skor rata-rata −1,89 dari 51 kejadian bernilai; 15% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures Nasdaq-100** (−2,00): −1,05% dari penutupan sebelumnya (26.000,50). Futures di bawah penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih rendah.
 - **VIX (volatilitas)** (−1,00): 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -15,7 +15,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 73%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,82 dari 50 kejadian bernilai; 17% bobot bullish | −1,51 | 30% | −2,26 |
+| Berita berbobot | skor rata-rata −1,89 dari 51 kejadian bernilai; 15% bobot bullish | −1,58 | 30% | −2,37 |
 | Futures Nasdaq-100 | −1,05% dari penutupan sebelumnya (26.000,50) | −2,00 | 20% | −2,00 |
 | Futures S&P 500 | −0,42% dari penutupan sebelumnya (7.187,50) | −1,05 | 5% | −0,26 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
@@ -39,10 +39,10 @@ Rentang wajar 1σ (VXN): 23.045 sampai 24.127.
 - **−1,4** Tesla and SpaceX stocks sink as merger concerns mount (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** US Stocks Diverge: Dow Rises 0.86%, Philadelphia Semiconductor Index Plunges Nearly 8%, Nvidia Falls Almost 6% (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** New Proposed Tariffs Include Several Countries Apple Uses to Diversify Beyond China (Gadget Review). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **+1,3** Palo Alto Networks Rises After Earnings Beat and Raised Guidance (FXEmpire). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** AI Chip Stocks Extend Brutal Selloff as Nvidia, AMD and Broadcom Tumble Again (TradingView). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Nasdaq Futures Fall as AI Selloff Deepens and Tariff Fears Grow (Demokratis.co.id). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Dow Drops 1,039 Points, Nasdaq Sinks 4.4% as AI Rally Stalls on Sticky Inflation and New Tariff Plan (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,2** AI Stocks Crash as Nvidia Falls 8%, Broadcom Loses 6% and CoreWeave Plunges Over 10% (Coinpaper). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-11-25: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
