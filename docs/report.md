@@ -1,12 +1,12 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T04:05:18+07:00 · sesi Jumat 27 Nov (pra-buka)_
+_Diperbarui 2026-11-27T04:06:19+07:00 · sesi Jumat 27 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -5.7 menjadi -2.0.
+**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -5.6 menjadi -2.0.
 
 ## Alasan utama
-- **Berita berbobot** (−1,68): Skor rata-rata −1,34 dari 44 kejadian bernilai; 24% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,60): Skor rata-rata −1,28 dari 45 kejadian bernilai; 25% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures Nasdaq-100** (+0,92): +0,46% dari penutupan sebelumnya (26.221,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−0,60): 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
@@ -15,14 +15,14 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,34 dari 44 kejadian bernilai; 24% bobot bullish | −1,12 | 30% | −1,68 |
+| Berita berbobot | skor rata-rata −1,28 dari 45 kejadian bernilai; 25% bobot bullish | −1,07 | 30% | −1,60 |
 | Futures Nasdaq-100 | +0,46% dari penutupan sebelumnya (26.221,25) | +0,92 | 20% | +0,92 |
 | Futures S&P 500 | +0,54% dari penutupan sebelumnya (7.234,50) | +1,35 | 5% | +0,34 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $91,73 (−3,04% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,10% dari penutupan sebelumnya (103,77) | +0,25 | 5% | +0,06 |
+| Indeks dolar | +0,10% dari penutupan sebelumnya (103,78) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -33,7 +33,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 ## Berita paling berdampak
 - **−3,2** Fed rate hike odds rise to almost 100%: can AI selloff force a rethink? (TradingView). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,0** Hawkish Fed poised to raise rates despite stock market turmoil (Financial Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,8** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
+- **−1,7** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,5** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,2** CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18% (TradingView). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,1** CNBC’s Steve Weiss Just Sold Dick’s Sporting Goods Despite Its Big Earnings Beat (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
