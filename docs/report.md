@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T03:26:10+07:00 · sesi Kamis 26 Nov (berjalan)_
+_Diperbarui 2026-11-27T03:27:10+07:00 · sesi Kamis 26 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -32,14 +32,14 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
 - **−3,3** Fed rate hike odds rise to almost 100%: can AI selloff force a rethink? (TradingView). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−2,1** Hawkish Fed poised to raise rates despite stock market turmoil (Financial Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−2,0** Hawkish Fed poised to raise rates despite stock market turmoil (Financial Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,8** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,6** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,4** US Chip Curbs Cause Billions in Deals to Grind to a Halt (Bloomberg.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,3** CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18% (TradingView). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,2** CNBC’s Steve Weiss Just Sold Dick’s Sporting Goods Despite Its Big Earnings Beat (24/7 Wall St.). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,2** Core Inflation Rises to 3.3%, Warsh May Face 'Opposing His 2018 Self' at December FOMC Meeting (BigGo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
-- **−1,0** Fresh tariffs blitz pushes Asian nations to speed up trade deals with Washington (Taipei Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,9** Fresh tariffs blitz pushes Asian nations to speed up trade deals with Washington (Taipei Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** Micron Technology (MU) Products Are Exempt From New US Tariffs (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** Trump Targets 14 Nations With Expanded Tariffs (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** Apple Emerges as Tech's Safe Haven as AI Spending Fears Roil Megacap Rivals (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
