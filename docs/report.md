@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T12:36:50+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T12:37:50+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
 Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 67%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 67%
 
 ## Alasan utama
 - **Berita berbobot** (−2,48): Skor rata-rata −1,99 dari 53 kejadian bernilai; 12% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,19% dari penutupan sebelumnya (26.410,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,18% dari penutupan sebelumnya (26.407,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−1,00): 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Futures S&P 500** (+0,50): +0,82% dari penutupan sebelumnya (7.254,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
@@ -16,7 +16,7 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 67%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,99 dari 53 kejadian bernilai; 12% bobot bullish | −1,65 | 30% | −2,48 |
-| Futures Nasdaq-100 | +1,19% dari penutupan sebelumnya (26.410,25) | +2,00 | 20% | +2,00 |
+| Futures Nasdaq-100 | +1,18% dari penutupan sebelumnya (26.407,50) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +0,82% dari penutupan sebelumnya (7.254,50) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
@@ -27,7 +27,7 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 67%
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.866 (+1,19%).
+Perkiraan pembukaan dari futures: 23.864 (+1,18%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,3** Taiwan Confident of Keeping 15% US Tariff Rate, Citing Semiconductor Preferential Treatment and Existing Agreements (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,3** Apple Stock Defies AI Selloff: Is It the Market's Safe Haven? (BeInCrypto). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,3** PODCAST: Macy's parade postponed, Trump tariffs, Iowa detonation (Updated) (Reuters). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,2** Section 301 Tariff Rate Set at 15% With No Stacking; Taiwan Stocks Surge Over 1,200 Points Intraday to Reclaim 39,000 Level (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,1** Section 301 Tariff Rate Set at 15% With No Stacking; Taiwan Stocks Surge Over 1,200 Points Intraday to Reclaim 39,000 Level (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
