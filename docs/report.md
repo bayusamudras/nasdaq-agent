@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T00:08:52+07:00 · sesi Kamis 26 Nov (berjalan)_
+_Diperbarui 2026-11-27T00:09:52+07:00 · sesi Kamis 26 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -17,11 +17,11 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,47 dari 51 kejadian bernilai; 21% bobot bullish | −1,23 | 30% | −1,84 |
 | Futures Nasdaq-100 | +0,62% dari penutupan sebelumnya (26.263,25) | +1,24 | 20% | +1,24 |
-| Futures S&P 500 | +0,67% dari penutupan sebelumnya (7.244,25) | +1,68 | 5% | +0,42 |
+| Futures S&P 500 | +0,68% dari penutupan sebelumnya (7.244,50) | +1,70 | 5% | +0,43 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $91,16 (−3,65% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Minyak Brent | $91,17 (−3,64% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,10% dari penutupan sebelumnya (103,78) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
