@@ -1,42 +1,42 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T15:10:55+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T15:11:55+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 61%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -5.2 menjadi -2.0.
+**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -5.3 menjadi -2.0.
 
 ## Alasan utama
-- **Berita berbobot** (−2,19): Skor rata-rata −1,75 dari 56 kejadian bernilai; 19% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+1,00): +0,50% dari penutupan sebelumnya (26.230,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−2,17): Skor rata-rata −1,74 dari 55 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **VIX (volatilitas)** (−1,00): 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+0,90): +0,45% dari penutupan sebelumnya (26.217,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,75 dari 56 kejadian bernilai; 19% bobot bullish | −1,46 | 30% | −2,19 |
-| Futures Nasdaq-100 | +0,50% dari penutupan sebelumnya (26.230,75) | +1,00 | 20% | +1,00 |
-| Futures S&P 500 | +0,36% dari penutupan sebelumnya (7.221,50) | +0,90 | 5% | +0,22 |
+| Berita berbobot | skor rata-rata −1,74 dari 55 kejadian bernilai; 20% bobot bullish | −1,45 | 30% | −2,17 |
+| Futures Nasdaq-100 | +0,45% dari penutupan sebelumnya (26.217,50) | +0,90 | 20% | +0,90 |
+| Futures S&P 500 | +0,33% dari penutupan sebelumnya (7.219,50) | +0,82 | 5% | +0,20 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $90,67 (−4,16% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Minyak Brent | $90,52 (−4,32% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,06% dari penutupan sebelumnya (103,73) | +0,15 | 5% | +0,04 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.704 (+0,50%).
+Perkiraan pembukaan dari futures: 23.692 (+0,45%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
 - **−4,3** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−3,2** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−3,1** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−2,7** US Chip Curbs Cause Billions in Deals to Grind to a Halt (Bloomberg.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−2,2** Micron Technology (MU) Products Are Exempt From New US Tariffs (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−2,2** Oil Prices Rise As Iran Reports Mine Strikes On Tankers In Strait Of Hormuz (Arise News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,9** How new US export controls and fragile trade truces triggered sell-off in China's domestic GPU sector (digitimes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,8** Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors (New York Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,8** Trump's tariffs and US chip curbs put China's trade dominance and AI ambitions under pressure (Telegraph India). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,7** Nvidia falls as new US tariffs and inflation pressure hit semiconductor costs (Traders Union). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,3** Apple Stock Defies AI Selloff: Is It the Market's Safe Haven? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
