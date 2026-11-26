@@ -1,33 +1,33 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T16:32:17+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T16:33:17+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
-Peluang indeks naik **39%**, turun **61%** (skor −3,7 dari ±10, keyakinan 65%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **39%**, turun **61%** (skor −3,9 dari ±10, keyakinan 66%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,10): Skor rata-rata −1,68 dari 59 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−2,22): Skor rata-rata −1,78 dari 59 kejadian bernilai; 18% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **Futures Nasdaq-100** (+0,64): +0,32% dari penutupan sebelumnya (26.185,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **VIX (volatilitas)** (−0,60): 27,18 (−3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+0,62): +0,31% dari penutupan sebelumnya (26.181,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **VIX (volatilitas)** (−0,60): 27,21 (−3,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,68 dari 59 kejadian bernilai; 20% bobot bullish | −1,40 | 30% | −2,10 |
-| Futures Nasdaq-100 | +0,32% dari penutupan sebelumnya (26.185,00) | +0,64 | 20% | +0,64 |
-| Futures S&P 500 | +0,35% dari penutupan sebelumnya (7.220,75) | +0,87 | 5% | +0,22 |
+| Berita berbobot | skor rata-rata −1,78 dari 59 kejadian bernilai; 18% bobot bullish | −1,48 | 30% | −2,22 |
+| Futures Nasdaq-100 | +0,31% dari penutupan sebelumnya (26.181,75) | +0,62 | 20% | +0,62 |
+| Futures S&P 500 | +0,35% dari penutupan sebelumnya (7.221,25) | +0,87 | 5% | +0,22 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
-| VIX (volatilitas) | 27,18 (−3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $89,78 (−5,11% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,03% dari penutupan sebelumnya (103,70) | +0,07 | 5% | +0,02 |
+| VIX (volatilitas) | 27,21 (−3,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $89,77 (−5,12% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,02% dari penutupan sebelumnya (103,69) | +0,05 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.661 (+0,32%).
+Perkiraan pembukaan dari futures: 23.659 (+0,31%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
@@ -37,12 +37,12 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−2,0** Micron Technology (MU) Products Are Exempt From New US Tariffs (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−2,0** Oil Prices Rise As Iran Reports Mine Strikes On Tankers In Strait Of Hormuz (Arise News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,7** How new US export controls and fragile trade truces triggered sell-off in China's domestic GPU sector (digitimes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,7** Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors (New York Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,6** Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors (New York Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,6** Trump's tariffs and US chip curbs put China's trade dominance and AI ambitions under pressure (Telegraph India). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,6** Nvidia falls as new US tariffs and inflation pressure hit semiconductor costs (Traders Union). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,2** Japan's Kyocera to Invest ¥900 Billion in Capex Over 5 Years, Betting on AI Data Center Components (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,2** ‘Free Pop Is Over’ for OpenAI After Anthropic’s Rout, Tech Analyst Luke Lango Says: But a Late-2027 IPO Could ‘Ride the Recovery’ (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **−1,1** Hot Inflation Plus New Section 301 Tariffs Send Nasdaq Down Nearly 4% Intraday; Nvidia Plunges Over 8% (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,2** Nvidia, Micron and Oracle Shares Fall as AI Sell-Off Continues; Key Reasons Behind the Decline (Kotak Neo). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
