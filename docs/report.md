@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T16:40:17+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T16:41:17+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
 Peluang indeks naik **36%**, turun **64%** (skor −4,7 dari ±10, keyakinan 68%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,32 +7,32 @@ Peluang indeks naik **36%**, turun **64%** (skor −4,7 dari ±10, keyakinan 68%
 
 ## Alasan utama
 - **Berita berbobot** (−2,22): Skor rata-rata −1,78 dari 59 kejadian bernilai; 19% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+0,82): +0,41% dari penutupan sebelumnya (26.207,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+0,76): +0,38% dari penutupan sebelumnya (26.199,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **VIX (volatilitas)** (−0,60): 27,20 (−3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 27,19 (−3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,78 dari 59 kejadian bernilai; 19% bobot bullish | −1,48 | 30% | −2,22 |
-| Futures Nasdaq-100 | +0,41% dari penutupan sebelumnya (26.207,75) | +0,82 | 20% | +0,82 |
-| Futures S&P 500 | +0,43% dari penutupan sebelumnya (7.226,75) | +1,07 | 5% | +0,27 |
+| Futures Nasdaq-100 | +0,38% dari penutupan sebelumnya (26.199,75) | +0,76 | 20% | +0,76 |
+| Futures S&P 500 | +0,41% dari penutupan sebelumnya (7.225,50) | +1,02 | 5% | +0,26 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
-| VIX (volatilitas) | 27,20 (−3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
+| VIX (volatilitas) | 27,19 (−3,9% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $89,79 (−5,09% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,02% dari penutupan sebelumnya (103,69) | +0,05 | 5% | +0,01 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.682 (+0,41%).
+Perkiraan pembukaan dari futures: 23.675 (+0,38%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
 - **−3,9** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−2,9** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−2,8** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−2,0** Micron Technology (MU) Products Are Exempt From New US Tariffs (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−2,0** Oil Prices Rise As Iran Reports Mine Strikes On Tankers In Strait Of Hormuz (Arise News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,7** How new US export controls and fragile trade truces triggered sell-off in China's domestic GPU sector (digitimes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
