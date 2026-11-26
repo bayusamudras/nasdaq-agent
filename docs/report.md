@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T02:02:43+07:00 · sesi Kamis 26 Nov (berjalan)_
+_Diperbarui 2026-11-27T02:03:43+07:00 · sesi Kamis 26 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -38,7 +38,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,4** CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18% (TradingView). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,3** Core Inflation Rises to 3.3%, Warsh May Face 'Opposing His 2018 Self' at December FOMC Meeting (BigGo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,1** Fresh tariffs blitz pushes Asian nations to speed up trade deals with Washington (Taipei Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,1** Trump Targets 14 Nations With Expanded Tariffs (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,0** Trump Targets 14 Nations With Expanded Tariffs (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,0** Apple Emerges as Tech's Safe Haven as AI Spending Fears Roil Megacap Rivals (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,0** Nvidia’s Crash = 1.5 Fed Rate Hikes｜RiskReversal Media (finance.biggo.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,0** Apple Stock Defies AI Selloff: Is It the Market's Safe Haven? (BeInCrypto). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
