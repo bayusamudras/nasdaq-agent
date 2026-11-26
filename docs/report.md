@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T14:48:45+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T14:49:45+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
 Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 68%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 68%
 
 ## Alasan utama
 - **Berita berbobot** (−2,04): Skor rata-rata −1,63 dari 53 kejadian bernilai; 22% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+1,20): +0,60% dari penutupan sebelumnya (26.257,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,22): +0,61% dari penutupan sebelumnya (26.260,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−1,00): 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -16,24 +16,24 @@ Peluang indeks naik **35%**, turun **65%** (skor −4,9 dari ±10, keyakinan 68%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,63 dari 53 kejadian bernilai; 22% bobot bullish | −1,36 | 30% | −2,04 |
-| Futures Nasdaq-100 | +0,60% dari penutupan sebelumnya (26.257,75) | +1,20 | 20% | +1,20 |
-| Futures S&P 500 | +0,43% dari penutupan sebelumnya (7.226,75) | +1,07 | 5% | +0,27 |
+| Futures Nasdaq-100 | +0,61% dari penutupan sebelumnya (26.260,25) | +1,22 | 20% | +1,22 |
+| Futures S&P 500 | +0,43% dari penutupan sebelumnya (7.227,00) | +1,07 | 5% | +0,27 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $90,51 (−4,33% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,05% dari penutupan sebelumnya (103,72) | +0,12 | 5% | +0,03 |
+| Minyak Brent | $90,50 (−4,34% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,04% dari penutupan sebelumnya (103,72) | +0,10 | 5% | +0,03 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.727 (+0,60%).
+Perkiraan pembukaan dari futures: 23.730 (+0,61%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
 - **−4,4** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−3,7** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **−2,3** Oil Prices Rise As Iran Reports Mine Strikes On Tankers In Strait Of Hormuz (Arise News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
+- **−2,2** Oil Prices Rise As Iran Reports Mine Strikes On Tankers In Strait Of Hormuz (Arise News). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,9** Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors (New York Post). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,8** Nvidia falls as new US tariffs and inflation pressure hit semiconductor costs (Traders Union). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,4** Apple Stock Defies AI Selloff: Is It the Market's Safe Haven? (Yahoo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
