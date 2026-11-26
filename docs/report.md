@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T00:12:01+07:00 · sesi Kamis 26 Nov (berjalan)_
+_Diperbarui 2026-11-27T00:13:01+07:00 · sesi Kamis 26 Nov (berjalan)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -7,7 +7,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%
 
 ## Alasan utama
 - **Berita berbobot** (−1,95): Skor rata-rata −1,55 dari 52 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+1,32): +0,66% dari penutupan sebelumnya (26.271,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+1,32): +0,66% dari penutupan sebelumnya (26.273,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−0,60): 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -16,13 +16,13 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,55 dari 52 kejadian bernilai; 20% bobot bullish | −1,30 | 30% | −1,95 |
-| Futures Nasdaq-100 | +0,66% dari penutupan sebelumnya (26.271,50) | +1,32 | 20% | +1,32 |
+| Futures Nasdaq-100 | +0,66% dari penutupan sebelumnya (26.273,00) | +1,32 | 20% | +1,32 |
 | Futures S&P 500 | +0,68% dari penutupan sebelumnya (7.245,00) | +1,70 | 5% | +0,43 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $91,06 (−3,75% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,11% dari penutupan sebelumnya (103,78) | +0,27 | 5% | +0,07 |
+| Minyak Brent | $91,03 (−3,78% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,10% dari penutupan sebelumnya (103,78) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -42,7 +42,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,2** Micron Technology (MU) Products Are Exempt From New US Tariffs (Yahoo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Trump Targets 14 Nations With Expanded Tariffs (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Apple Emerges as Tech's Safe Haven as AI Spending Fears Roil Megacap Rivals (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
-- **−1,2** Nvidia’s Crash = 1.5 Fed Rate Hikes｜RiskReversal Media (finance.biggo.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−1,1** Nvidia’s Crash = 1.5 Fed Rate Hikes｜RiskReversal Media (finance.biggo.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
