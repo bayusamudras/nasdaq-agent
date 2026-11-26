@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T03:49:18+07:00 · sesi Kamis 26 Nov (berjalan)_
+_Diperbarui 2026-11-27T03:50:18+07:00 · sesi Kamis 26 Nov (berjalan)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 61%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -5.9 menjadi -2.0.
 
@@ -22,7 +22,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 61%
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $91,73 (−3,04% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,09% dari penutupan sebelumnya (103,77) | +0,22 | 5% | +0,06 |
+| Indeks dolar | +0,10% dari penutupan sebelumnya (103,77) | +0,25 | 5% | +0,06 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -31,7 +31,7 @@ Perkiraan pembukaan dari futures: 23.694 (+0,46%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
-- **−3,3** Fed rate hike odds rise to almost 100%: can AI selloff force a rethink? (TradingView). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
+- **−3,2** Fed rate hike odds rise to almost 100%: can AI selloff force a rethink? (TradingView). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−2,0** Hawkish Fed poised to raise rates despite stock market turmoil (Financial Times). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,8** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,5** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
