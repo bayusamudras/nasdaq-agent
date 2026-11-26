@@ -1,7 +1,7 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T08:28:13+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T08:29:12+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
-Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 69%, 75% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 68%, 73% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -6.5 menjadi -2.0.
 
@@ -16,13 +16,13 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 69%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −2,00 dari 49 kejadian bernilai; 12% bobot bullish | −1,67 | 30% | −2,50 |
-| Futures Nasdaq-100 | +0,07% dari penutupan sebelumnya (26.293,00) | +0,14 | 20% | +0,14 |
-| Futures S&P 500 | +0,35% dari penutupan sebelumnya (7.242,50) | +0,87 | 5% | +0,22 |
+| Futures Nasdaq-100 | +0,07% dari penutupan sebelumnya (26.295,00) | +0,14 | 20% | +0,14 |
+| Futures S&P 500 | +0,34% dari penutupan sebelumnya (7.242,25) | +0,85 | 5% | +0,21 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 36,42 | −2,00 | 10% | −1,00 |
-| Minyak Brent | $90,87 (−0,58% dari sesi sebelumnya) | +0,29 | 5% | +0,07 |
-| Indeks dolar | −0,10% dari penutupan sebelumnya (103,71) | −0,25 | 5% | −0,06 |
+| Minyak Brent | $90,90 (−0,55% dari sesi sebelumnya) | +0,28 | 5% | +0,07 |
+| Indeks dolar | −0,09% dari penutupan sebelumnya (103,72) | −0,22 | 5% | −0,06 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
