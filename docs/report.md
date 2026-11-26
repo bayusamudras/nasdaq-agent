@@ -1,40 +1,40 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T20:09:34+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T20:10:34+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
-Peluang indeks naik **39%**, turun **61%** (skor −3,8 dari ±10, keyakinan 66%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **36%**, turun **64%** (skor −4,7 dari ±10, keyakinan 68%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Berita berbobot** (−2,03): Skor rata-rata −1,61 dari 56 kejadian bernilai; 20% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+1,48): +0,74% dari penutupan sebelumnya (26.292,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−2,01): Skor rata-rata −1,61 dari 59 kejadian bernilai; 19% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+1,26): +0,63% dari penutupan sebelumnya (26.264,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
-- **VIX (volatilitas)** (−0,60): 26,84 (−5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 26,87 (−5,0% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,61 dari 56 kejadian bernilai; 20% bobot bullish | −1,35 | 30% | −2,03 |
-| Futures Nasdaq-100 | +0,74% dari penutupan sebelumnya (26.292,75) | +1,48 | 20% | +1,48 |
-| Futures S&P 500 | +0,73% dari penutupan sebelumnya (7.248,25) | +1,82 | 5% | +0,45 |
+| Berita berbobot | skor rata-rata −1,61 dari 59 kejadian bernilai; 19% bobot bullish | −1,34 | 30% | −2,01 |
+| Futures Nasdaq-100 | +0,63% dari penutupan sebelumnya (26.264,50) | +1,26 | 20% | +1,26 |
+| Futures S&P 500 | +0,65% dari penutupan sebelumnya (7.242,25) | +1,62 | 5% | +0,41 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
-| VIX (volatilitas) | 26,84 (−5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $91,33 (−3,47% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,04% dari penutupan sebelumnya (103,72) | +0,10 | 5% | +0,03 |
+| VIX (volatilitas) | 26,87 (−5,0% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $91,58 (−3,20% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,06% dari penutupan sebelumnya (103,73) | +0,15 | 5% | +0,04 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.760 (+0,74%).
+Perkiraan pembukaan dari futures: 23.734 (+0,63%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
 - **−3,0** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−2,6** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,7** U.S. tariff-hike threats pile pressure on partners to sign trade deals (CNBC Africa). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,6** Oracle Stock Plunges Over 40% This Year: Can It Return to All-Time High of $345 by 2027? (TradingKey). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,6** Oracle Stock Plunges Over 40% This Year: Can It Return to All-Time High of $345 by 2027? (NewsBreak: Local News & Alerts). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,6** Apple Emerges as Tech's Safe Haven as AI Spending Fears Roil Megacap Rivals (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,5** Nvidia’s Crash = 1.5 Fed Rate Hikes｜RiskReversal Media (finance.biggo.com). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **−1,5** Apple Stock Defies AI Selloff: Is It the Market's Safe Haven? (BeInCrypto). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
