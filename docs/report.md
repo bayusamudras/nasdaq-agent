@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-26T11:59:41+07:00 · sesi Kamis 26 Nov (pra-buka)_
+_Diperbarui 2026-11-26T12:00:41+07:00 · sesi Kamis 26 Nov (pra-buka)_
 
 Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
-**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -5.9 menjadi -2.0.
+**Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik; Bias bearish kuat, tetapi struktur harga NQ berbalik: Harga tertahan di bullish FVG 25,812–25,960. Skor dipangkas dari -5.2 menjadi -2.0.
 
 ## Alasan utama
 - **Berita berbobot** (−2,67): Skor rata-rata −2,13 dari 52 kejadian bernilai; 8% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Futures Nasdaq-100** (+2,00): +1,17% dari penutupan sebelumnya (26.405,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +1,16% dari penutupan sebelumnya (26.403,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **VIX (volatilitas)** (−1,00): 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **Tren Nasdaq 5 sesi** (−0,50): −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu. Indeks melemah selama lima sesi terakhir, dan momentum jual cenderung berlanjut.
@@ -16,8 +16,8 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −2,13 dari 52 kejadian bernilai; 8% bobot bullish | −1,78 | 30% | −2,67 |
-| Futures Nasdaq-100 | +1,17% dari penutupan sebelumnya (26.405,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,77% dari penutupan sebelumnya (7.251,25) | +1,93 | 5% | +0,48 |
+| Futures Nasdaq-100 | +1,16% dari penutupan sebelumnya (26.403,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,77% dari penutupan sebelumnya (7.251,50) | +1,93 | 5% | +0,48 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 28,29 (+7,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −2,00 | 10% | −1,00 |
@@ -27,7 +27,7 @@ Peluang indeks naik **46%**, turun **54%** (skor −2,0 dari ±10, keyakinan 60%
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.862 (+1,17%).
+Perkiraan pembukaan dari futures: 23.859 (+1,16%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
@@ -50,9 +50,9 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - 2026-12-10: CPI (tinggi)
 - 2026-12-15: PPI (sedang)
 - 2026-12-16: Penjualan ritel (sedang)
+- 2026-12-23: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
+- 2026-12-23: PDB (tinggi)
 - 2027-01-27: Laporan laba Microsoft (MSFT) (tinggi)
-- 2027-01-27: Laporan laba Meta (META) (tinggi)
-- 2027-01-27: Laporan laba Tesla (TSLA) (tinggi)
 
 ## Rekam jejak
 11 benar dari 16 prediksi terevaluasi.
