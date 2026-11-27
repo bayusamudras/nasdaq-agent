@@ -1,33 +1,33 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-27T23:15:48+07:00 · sesi Jumat 27 Nov (berjalan)_
+_Diperbarui 2026-11-27T23:16:48+07:00 · sesi Jumat 27 Nov (berjalan)_
 
 Peluang indeks naik **61%**, turun **39%** (skor +1,7 dari ±10, keyakinan 55%, 45% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,74% dari penutupan sebelumnya (26.553,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,25): Skor rata-rata −0,99 dari 43 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +2,87% dari penutupan sebelumnya (9.026,90). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,83): 4,914% (+6,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **VIX (volatilitas)** (−0,60): 25,34 (−5,5% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+2,00): +1,78% dari penutupan sebelumnya (26.565,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,26): Skor rata-rata −1,01 dari 42 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (+1,00): +2,88% dari penutupan sebelumnya (9.027,56). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,80): 4,912% (+6,4 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **VIX (volatilitas)** (−0,60): 25,37 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,99 dari 43 kejadian bernilai; 34% bobot bullish | −0,83 | 30% | −1,25 |
-| Futures Nasdaq-100 | +1,74% dari penutupan sebelumnya (26.553,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,15% dari penutupan sebelumnya (7.278,50) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +2,87% dari penutupan sebelumnya (9.026,90) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,914% (+6,6 bp dari sesi sebelumnya) | −1,65 | 10% | −0,83 |
-| VIX (volatilitas) | 25,34 (−5,5% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,54 (−4,30% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,35% dari penutupan sebelumnya (104,04) | +0,87 | 5% | +0,22 |
-| Tren Nasdaq 5 sesi | +0,23% dalam 5 sesi; 13,7% di bawah puncak 52 minggu | −0,35 | 5% | −0,09 |
+| Berita berbobot | skor rata-rata −1,01 dari 42 kejadian bernilai; 34% bobot bullish | −0,84 | 30% | −1,26 |
+| Futures Nasdaq-100 | +1,78% dari penutupan sebelumnya (26.565,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,19% dari penutupan sebelumnya (7.281,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +2,88% dari penutupan sebelumnya (9.027,56) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,912% (+6,4 bp dari sesi sebelumnya) | −1,60 | 10% | −0,80 |
+| VIX (volatilitas) | 25,37 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,55 (−4,29% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,35% dari penutupan sebelumnya (104,03) | +0,87 | 5% | +0,22 |
+| Tren Nasdaq 5 sesi | +0,24% dalam 5 sesi; 13,7% di bawah puncak 52 minggu | −0,34 | 5% | −0,09 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.996 (+1,74%).
+Perkiraan pembukaan dari futures: 24.006 (+1,78%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
