@@ -1,5 +1,5 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-28T02:08:56+07:00 · sesi Jumat 27 Nov (berjalan)_
+_Diperbarui 2026-11-28T02:09:56+07:00 · sesi Jumat 27 Nov (berjalan)_
 
 Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 61%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -21,8 +21,8 @@ Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 61%, 
 | Semikonduktor (SOX) | +4,69% dari penutupan sebelumnya (9.186,71) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,934% (+8,6 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 23,81 (−11,2% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $90,45 (−4,40% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,36% dari penutupan sebelumnya (104,05) | +0,90 | 5% | +0,22 |
+| Minyak Brent | $90,44 (−4,41% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,37% dari penutupan sebelumnya (104,05) | +0,92 | 5% | +0,23 |
 | Tren Nasdaq 5 sesi | +1,05% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | +0,20 | 5% | +0,05 |
 
 ## Level hari ini
@@ -38,7 +38,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,1** Nebius Lifts 2026 CapEx View to $27B: Can Funding Keep Pace? (qz.com). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **+1,1** J&J Snack Foods Corp. Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Predictions (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,1** U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
-- **−1,1** Machinery firms see limited tariff hit (Taipei Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,0** Machinery firms see limited tariff hit (Taipei Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,0** US tariff proposals threaten further disruption to automotive supply chains (Automotive Logistics). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,0** Anwar challenges US chip curbs on products made by American firms in Malaysia (The Vibes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** Korean Retail Investors Average Down on NVIDIA... Holdings Value Plunges Despite Increased Buying (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
