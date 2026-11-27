@@ -1,33 +1,33 @@
-# Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-27T21:49:22+07:00 · sesi Jumat 27 Nov (berjalan)_
+# Bias Nasdaq: BEARISH TIPIS
+_Diperbarui 2026-11-27T21:50:22+07:00 · sesi Jumat 27 Nov (berjalan)_
 
-Peluang indeks naik **52%**, turun **48%** (skor −0,6 dari ±10, keyakinan 56%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **47%**, turun **53%** (skor −1,7 dari ±10, keyakinan 59%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,70): +0,85% dari penutupan sebelumnya (26.321,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,54): Skor rata-rata −1,24 dari 46 kejadian bernilai; 27% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **VIX (volatilitas)** (−0,60): 26,58 (−0,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Yield obligasi 10 tahun** (−0,50): 4,888% (+4,0 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **Futures S&P 500** (+0,44): +0,70% dari penutupan sebelumnya (7.246,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures Nasdaq-100** (+1,52): +0,76% dari penutupan sebelumnya (26.299,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,44): Skor rata-rata −1,15 dari 46 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **VIX (volatilitas)** (−0,60): 26,74 (−0,2% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Yield obligasi 10 tahun** (−0,47): 4,886% (+3,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Futures S&P 500** (+0,41): +0,66% dari penutupan sebelumnya (7.243,50). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,24 dari 46 kejadian bernilai; 27% bobot bullish | −1,03 | 30% | −1,54 |
-| Futures Nasdaq-100 | +0,85% dari penutupan sebelumnya (26.321,50) | +1,70 | 20% | +1,70 |
-| Futures S&P 500 | +0,70% dari penutupan sebelumnya (7.246,25) | +1,75 | 5% | +0,44 |
-| Semikonduktor (SOX) | +0,38% dari penutupan sebelumnya (8.808,56) | +0,38 | 10% | +0,19 |
-| Yield obligasi 10 tahun | 4,888% (+4,0 bp dari sesi sebelumnya) | −1,00 | 10% | −0,50 |
-| VIX (volatilitas) | 26,58 (−0,8% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
+| Berita berbobot | skor rata-rata −1,15 dari 46 kejadian bernilai; 29% bobot bullish | −0,96 | 30% | −1,44 |
+| Futures Nasdaq-100 | +0,76% dari penutupan sebelumnya (26.299,00) | +1,52 | 20% | +1,52 |
+| Futures S&P 500 | +0,66% dari penutupan sebelumnya (7.243,50) | +1,65 | 5% | +0,41 |
+| Semikonduktor (SOX) | +0,64% dari penutupan sebelumnya (8.830,98) | +0,64 | 10% | +0,32 |
+| Yield obligasi 10 tahun | 4,886% (+3,8 bp dari sesi sebelumnya) | −0,95 | 10% | −0,47 |
+| VIX (volatilitas) | 26,74 (−0,2% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $91,23 (−3,57% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,25% dari penutupan sebelumnya (103,92) | +0,62 | 5% | +0,15 |
-| Tren Nasdaq 5 sesi | −0,48% dalam 5 sesi; 14,3% di bawah puncak 52 minggu | −0,82 | 5% | −0,20 |
+| Indeks dolar | +0,23% dari penutupan sebelumnya (103,91) | +0,57 | 5% | +0,14 |
+| Tren Nasdaq 5 sesi | −0,50% dalam 5 sesi; 14,3% di bawah puncak 52 minggu | −0,83 | 5% | −0,21 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.786 (+0,85%).
+Perkiraan pembukaan dari futures: 23.765 (+0,76%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
@@ -38,11 +38,11 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,2** Korean Retail Investors Average Down on NVIDIA... Holdings Value Plunges Despite Increased Buying (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** USTR's New Tariffs Would Hit Ag Markets (Western Ag Network). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Middle and smaller powers have ‘limited leverage’ against Trump’s tariffs: Expert (The Straits Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,1** Fed Weighs AI Selloff Against Inflation Fight (Wisevoter). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,1** The Week in International Trade: Fresh Trump tariffs, more ‘reset’ details and a warning for businesses supply Ukraine (The Chartered Institute of Export & International Trade). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **+1,0** U.S. Treasury yields tick up, snapping eight-day rally as bond bulls pause (Investing.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,0** Apple Stock Defies AI Selloff: Is It the Market's Safe Haven? (BeInCrypto). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,0** How Apple Avoided the Stock Market Crash With 31% Gains (BeInCrypto). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,0** Oil Prices Rebound as Shipping Risks Persist (WSJ). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
