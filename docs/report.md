@@ -1,5 +1,5 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-28T03:56:29+07:00 · sesi Jumat 27 Nov (berjalan)_
+_Diperbarui 2026-11-28T03:57:29+07:00 · sesi Jumat 27 Nov (berjalan)_
 
 Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 61%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -41,7 +41,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−0,9** U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−0,9** Machinery firms see limited tariff hit (Taipei Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** US tariff proposals threaten further disruption to automotive supply chains (Automotive Logistics). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,9** Anwar challenges US chip curbs on products made by American firms in Malaysia (The Vibes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,8** Anwar challenges US chip curbs on products made by American firms in Malaysia (The Vibes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,8** Iran escalates its rhetoric regarding the Strait of Hormuz and oil markets are awaiting developments (المتداول العربي). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 
 ## Kalender risiko
