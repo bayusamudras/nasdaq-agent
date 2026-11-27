@@ -1,40 +1,39 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-27T22:08:30+07:00 · sesi Jumat 27 Nov (berjalan)_
+_Diperbarui 2026-11-27T22:09:30+07:00 · sesi Jumat 27 Nov (berjalan)_
 
-Peluang indeks naik **51%**, turun **49%** (skor −0,7 dari ±10, keyakinan 57%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **50%**, turun **50%** (skor −1,0 dari ±10, keyakinan 57%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+1,58): +0,79% dari penutupan sebelumnya (26.306,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,56): Skor rata-rata −1,25 dari 45 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Yield obligasi 10 tahun** (−0,60): 4,896% (+4,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **VIX (volatilitas)** (−0,60): 26,94 (+0,5% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Semikonduktor (SOX)** (+0,54): +1,07% dari penutupan sebelumnya (8.868,39). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Berita berbobot** (−1,51): Skor rata-rata −1,21 dari 46 kejadian bernilai; 29% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+1,22): +0,61% dari penutupan sebelumnya (26.258,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **VIX (volatilitas)** (−0,60): 27,05 (+0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Semikonduktor (SOX)** (+0,58): +1,17% dari penutupan sebelumnya (8.877,22). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,58): 4,894% (+4,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,25 dari 45 kejadian bernilai; 28% bobot bullish | −1,04 | 30% | −1,56 |
-| Futures Nasdaq-100 | +0,79% dari penutupan sebelumnya (26.306,50) | +1,58 | 20% | +1,58 |
-| Futures S&P 500 | +0,58% dari penutupan sebelumnya (7.237,50) | +1,45 | 5% | +0,36 |
-| Semikonduktor (SOX) | +1,07% dari penutupan sebelumnya (8.868,39) | +1,07 | 10% | +0,54 |
-| Yield obligasi 10 tahun | 4,896% (+4,8 bp dari sesi sebelumnya) | −1,20 | 10% | −0,60 |
-| VIX (volatilitas) | 26,94 (+0,5% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $91,17 (−3,64% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Berita berbobot | skor rata-rata −1,21 dari 46 kejadian bernilai; 29% bobot bullish | −1,01 | 30% | −1,51 |
+| Futures Nasdaq-100 | +0,61% dari penutupan sebelumnya (26.258,50) | +1,22 | 20% | +1,22 |
+| Futures S&P 500 | +0,47% dari penutupan sebelumnya (7.229,25) | +1,17 | 5% | +0,29 |
+| Semikonduktor (SOX) | +1,17% dari penutupan sebelumnya (8.877,22) | +1,17 | 10% | +0,58 |
+| Yield obligasi 10 tahun | 4,894% (+4,6 bp dari sesi sebelumnya) | −1,15 | 10% | −0,58 |
+| VIX (volatilitas) | 27,05 (+0,9% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $91,11 (−3,70% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,24% dari penutupan sebelumnya (103,92) | +0,60 | 5% | +0,15 |
-| Tren Nasdaq 5 sesi | −0,47% dalam 5 sesi; 14,3% di bawah puncak 52 minggu | −0,81 | 5% | −0,20 |
+| Tren Nasdaq 5 sesi | −0,45% dalam 5 sesi; 14,3% di bawah puncak 52 minggu | −0,80 | 5% | −0,20 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.772 (+0,79%).
+Perkiraan pembukaan dari futures: 23.730 (+0,61%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
 - **−1,8** Trump’s New Tariffs Hit Taiwan but Spare Its Chips. That’s Good News for TSMC and Apple (TIKR.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,5** Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,4** Treasury yields are higher as oil prices rise, investors look ahead to payroll data (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **−1,4** Republicans rethink tariffs, giving Democrats an opening to challenge Trump (Yahoo! Finance Canada). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,4** U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,3** Anwar challenges US chip curbs on products made by American firms in Malaysia (The Vibes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Korean Retail Investors Average Down on NVIDIA... Holdings Value Plunges Despite Increased Buying (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
@@ -43,6 +42,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,0** Fed Weighs AI Selloff Against Inflation Fight (Wisevoter). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,0** U.S. Treasury yields tick up, snapping eight-day rally as bond bulls pause (Investing.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,0** Apple Stock Defies AI Selloff: Is It the Market's Safe Haven? (BeInCrypto). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,0** How Apple Avoided the Stock Market Crash With 31% Gains (BeInCrypto). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
