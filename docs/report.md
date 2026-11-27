@@ -1,33 +1,33 @@
-# Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-27T23:27:56+07:00 · sesi Jumat 27 Nov (berjalan)_
+# Bias Nasdaq: NETRAL
+_Diperbarui 2026-11-27T23:28:56+07:00 · sesi Jumat 27 Nov (berjalan)_
 
-Peluang indeks naik **60%**, turun **40%** (skor +1,6 dari ±10, keyakinan 54%, 45% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **60%**, turun **40%** (skor +1,4 dari ±10, keyakinan 54%, 45% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,58% dari penutupan sebelumnya (26.512,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,37): Skor rata-rata −1,09 dari 45 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+1,00): +3,17% dari penutupan sebelumnya (9.053,19). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
-- **Yield obligasi 10 tahun** (−0,85): 4,916% (+6,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **VIX (volatilitas)** (−0,60): 25,43 (−5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **Futures Nasdaq-100** (+2,00): +1,63% dari penutupan sebelumnya (26.526,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,53): Skor rata-rata −1,22 dari 45 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (+1,00): +3,23% dari penutupan sebelumnya (9.057,99). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Yield obligasi 10 tahun** (−0,83): 4,914% (+6,6 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **VIX (volatilitas)** (−0,60): 25,44 (−5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,09 dari 45 kejadian bernilai; 32% bobot bullish | −0,91 | 30% | −1,37 |
-| Futures Nasdaq-100 | +1,58% dari penutupan sebelumnya (26.512,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,06% dari penutupan sebelumnya (7.272,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +3,17% dari penutupan sebelumnya (9.053,19) | +2,00 | 10% | +1,00 |
-| Yield obligasi 10 tahun | 4,916% (+6,8 bp dari sesi sebelumnya) | −1,70 | 10% | −0,85 |
-| VIX (volatilitas) | 25,43 (−5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,54 (−4,30% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,36% dari penutupan sebelumnya (104,05) | +0,90 | 5% | +0,22 |
-| Tren Nasdaq 5 sesi | +0,31% dalam 5 sesi; 13,6% di bawah puncak 52 minggu | −0,29 | 5% | −0,07 |
+| Berita berbobot | skor rata-rata −1,22 dari 45 kejadian bernilai; 28% bobot bullish | −1,02 | 30% | −1,53 |
+| Futures Nasdaq-100 | +1,63% dari penutupan sebelumnya (26.526,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,09% dari penutupan sebelumnya (7.274,50) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +3,23% dari penutupan sebelumnya (9.057,99) | +2,00 | 10% | +1,00 |
+| Yield obligasi 10 tahun | 4,914% (+6,6 bp dari sesi sebelumnya) | −1,65 | 10% | −0,83 |
+| VIX (volatilitas) | 25,44 (−5,1% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $90,41 (−4,44% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,35% dari penutupan sebelumnya (104,03) | +0,87 | 5% | +0,22 |
+| Tren Nasdaq 5 sesi | +0,36% dalam 5 sesi; 13,6% di bawah puncak 52 minggu | −0,26 | 5% | −0,07 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.958 (+1,58%).
+Perkiraan pembukaan dari futures: 23.970 (+1,63%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
@@ -41,8 +41,8 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,2** Anwar challenges US chip curbs on products made by American firms in Malaysia (The Vibes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Korean Retail Investors Average Down on NVIDIA... Holdings Value Plunges Despite Increased Buying (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **+1,1** Chip stocks lead a Black Friday rally, but Nvidia misses out: AlphaCheck (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
+- **−1,1** JUST ACCEPT IT – Trump Urges Americans to Accept Higher Gas Prices as he Escalates Iran Rhetoric (EnergyNow.com). Eskalasi militer mendorong harga minyak dan memicu lari ke aset aman, sehingga saham bervaluasi tinggi tertekan.
 - **−1,0** USTR's New Tariffs Would Hit Ag Markets (Western Ag Network). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−1,0** Middle and smaller powers have ‘limited leverage’ against Trump’s tariffs: Expert (The Straits Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
