@@ -1,11 +1,11 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-28T01:35:47+07:00 · sesi Jumat 27 Nov (berjalan)_
+_Diperbarui 2026-11-28T01:36:47+07:00 · sesi Jumat 27 Nov (berjalan)_
 
-Peluang indeks naik **61%**, turun **39%** (skor +1,7 dari ±10, keyakinan 61%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **60%**, turun **40%** (skor +1,6 dari ±10, keyakinan 60%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +2,55% dari penutupan sebelumnya (26.765,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,05): Skor rata-rata −0,84 dari 46 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Berita berbobot** (−1,23): Skor rata-rata −0,99 dari 47 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +4,69% dari penutupan sebelumnya (9.186,71). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−1,00): 4,936% (+8,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
 - **Futures S&P 500** (+0,50): +1,56% dari penutupan sebelumnya (7.308,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
@@ -13,14 +13,14 @@ Peluang indeks naik **61%**, turun **39%** (skor +1,7 dari ±10, keyakinan 61%, 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,84 dari 46 kejadian bernilai; 40% bobot bullish | −0,70 | 30% | −1,05 |
+| Berita berbobot | skor rata-rata −0,99 dari 47 kejadian bernilai; 36% bobot bullish | −0,82 | 30% | −1,23 |
 | Futures Nasdaq-100 | +2,55% dari penutupan sebelumnya (26.765,00) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +1,56% dari penutupan sebelumnya (7.308,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +4,69% dari penutupan sebelumnya (9.186,71) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,936% (+8,8 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 23,81 (−11,2% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −0,70 | 10% | −0,35 |
-| Minyak Brent | $90,25 (−4,61% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,34% dari penutupan sebelumnya (104,03) | +0,85 | 5% | +0,21 |
+| Minyak Brent | $90,24 (−4,62% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| Indeks dolar | +0,35% dari penutupan sebelumnya (104,03) | +0,87 | 5% | +0,22 |
 | Tren Nasdaq 5 sesi | +1,05% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | +0,20 | 5% | +0,05 |
 
 ## Level hari ini
@@ -33,7 +33,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,5** Trump’s New Tariffs Hit Taiwan but Spare Its Chips. That’s Good News for TSMC and Apple (TIKR.com). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,5** Tech Stock Sell-Off: Down 23%, Is Meta a Buy Now? (AOL.com). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
 - **−1,2** Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club (The Motley Fool). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,1** J&J Snack Foods Corp. Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Predictions (Simply Wall St). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
+- **−1,1** Republicans rethink tariffs, giving Democrats an opening to challenge Trump (Yahoo! Finance Canada). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade (WSJ). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **−1,1** Machinery firms see limited tariff hit (Taipei Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,0** US tariff proposals threaten further disruption to automotive supply chains (Automotive Logistics). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
