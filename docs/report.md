@@ -1,32 +1,32 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-28T03:59:29+07:00 · sesi Jumat 27 Nov (berjalan)_
+_Diperbarui 2026-11-28T04:00:29+07:00 · sesi Senin 30 Nov (pra-buka)_
 
-Peluang indeks naik **60%**, turun **40%** (skor +1,6 dari ±10, keyakinan 60%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **61%**, turun **39%** (skor +1,8 dari ±10, keyakinan 61%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +2,55% dari penutupan sebelumnya (26.765,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,21): Skor rata-rata −0,97 dari 50 kejadian bernilai; 35% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Semikonduktor (SOX)** (+1,00): +4,69% dari penutupan sebelumnya (9.186,71). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−1,00): 4,936% (+8,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Berita berbobot** (−0,99): Skor rata-rata −0,79 dari 51 kejadian bernilai; 40% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +1,56% dari penutupan sebelumnya (7.308,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,97 dari 50 kejadian bernilai; 35% bobot bullish | −0,81 | 30% | −1,21 |
+| Berita berbobot | skor rata-rata −0,79 dari 51 kejadian bernilai; 40% bobot bullish | −0,66 | 30% | −0,99 |
 | Futures Nasdaq-100 | +2,55% dari penutupan sebelumnya (26.765,00) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +1,56% dari penutupan sebelumnya (7.308,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +4,69% dari penutupan sebelumnya (9.186,71) | +2,00 | 10% | +1,00 |
 | Yield obligasi 10 tahun | 4,936% (+8,8 bp dari sesi sebelumnya) | −2,00 | 10% | −1,00 |
 | VIX (volatilitas) | 23,81 (−11,2% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −0,70 | 10% | −0,35 |
 | Minyak Brent | $90,84 (−3,98% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
-| Indeks dolar | +0,35% dari penutupan sebelumnya (104,03) | +0,87 | 5% | +0,22 |
+| Indeks dolar | +0,35% dari penutupan sebelumnya (104,04) | +0,87 | 5% | +0,22 |
 | Tren Nasdaq 5 sesi | +1,05% dalam 5 sesi; 13,0% di bawah puncak 52 minggu | +0,20 | 5% | +0,05 |
 
 ## Level hari ini
-Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 24.187 (+2,55%).
-Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
+Pivot 23.990; resistensi 24.289 / 24.448; support 23.830 / 23.531.
+Perkiraan pembukaan dari futures: 24.745 (+2,55%).
+Rentang wajar 1σ (VXN): 23.544 sampai 24.715.
 
 ## Berita paling berdampak
 - **−1,4** Trump's Push to Bring Back Jensen Huang Won't Save the Day—The Key to Halting the US Stock Selloff May Lie in AI Capex Pullback (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
