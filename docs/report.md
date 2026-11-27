@@ -1,5 +1,5 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T15:04:18+07:00 · sesi Jumat 27 Nov (pra-buka)_
+_Diperbarui 2026-11-27T15:05:18+07:00 · sesi Jumat 27 Nov (pra-buka)_
 
 Peluang indeks naik **38%**, turun **62%** (skor −3,9 dari ±10, keyakinan 66%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -10,19 +10,19 @@ Peluang indeks naik **38%**, turun **62%** (skor −3,9 dari ±10, keyakinan 66%
 - **Berita berbobot** (−1,60): Skor rata-rata −1,28 dari 45 kejadian bernilai; 24% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−0,60): 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (+0,50): +1,68% dari penutupan sebelumnya (7.316,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,69% dari penutupan sebelumnya (7.317,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,28 dari 45 kejadian bernilai; 24% bobot bullish | −1,07 | 30% | −1,60 |
 | Futures Nasdaq-100 | +2,31% dari penutupan sebelumnya (26.703,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,68% dari penutupan sebelumnya (7.316,75) | +2,00 | 5% | +0,50 |
+| Futures S&P 500 | +1,69% dari penutupan sebelumnya (7.317,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $92,58 (−2,15% dari sesi sebelumnya) | +1,07 | 5% | +0,27 |
-| Indeks dolar | +0,03% dari penutupan sebelumnya (103,71) | +0,07 | 5% | +0,02 |
+| Minyak Brent | $92,57 (−2,16% dari sesi sebelumnya) | +1,08 | 5% | +0,27 |
+| Indeks dolar | +0,03% dari penutupan sebelumnya (103,70) | +0,07 | 5% | +0,02 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -45,14 +45,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−0,9** Oil Hits Four-Week High as US-Iran Conflict Escalates (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 
 ## Kalender risiko
-- 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
 - 2026-12-09: Keputusan suku bunga FOMC (tinggi)
-- 2026-12-10: CPI (tinggi)
-- 2026-12-15: PPI (sedang)
-- 2026-12-16: Penjualan ritel (sedang)
-- 2026-12-23: PCE (pendapatan dan pengeluaran pribadi) (tinggi)
-- 2026-12-23: PDB (tinggi)
-- 2027-01-27: Laporan laba Microsoft (MSFT) (tinggi)
 
 ## Rekam jejak
 11 benar dari 16 prediksi terevaluasi.
