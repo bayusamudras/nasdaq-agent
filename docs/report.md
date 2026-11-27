@@ -1,33 +1,33 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-27T22:28:39+07:00 · sesi Jumat 27 Nov (berjalan)_
+_Diperbarui 2026-11-27T22:29:39+07:00 · sesi Jumat 27 Nov (berjalan)_
 
-Peluang indeks naik **56%**, turun **44%** (skor +0,5 dari ±10, keyakinan 51%, 45% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **53%**, turun **47%** (skor −0,3 dari ±10, keyakinan 56%, 55% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +1,22% dari penutupan sebelumnya (26.418,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,29): Skor rata-rata −1,03 dari 45 kejadian bernilai; 34% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
-- **Semikonduktor (SOX)** (+0,93): +1,86% dari penutupan sebelumnya (8.937,75). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
+- **Futures Nasdaq-100** (+2,00): +1,20% dari penutupan sebelumnya (26.412,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,17): Skor rata-rata −0,94 dari 46 kejadian bernilai; 36% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Semikonduktor (SOX)** (+0,84): +1,68% dari penutupan sebelumnya (8.922,26). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−0,78): 4,910% (+6,2 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
-- **VIX (volatilitas)** (−0,60): 26,69 (−0,4% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
+- **VIX (volatilitas)** (−0,60): 26,63 (−0,6% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,03 dari 45 kejadian bernilai; 34% bobot bullish | −0,86 | 30% | −1,29 |
-| Futures Nasdaq-100 | +1,22% dari penutupan sebelumnya (26.418,75) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +0,85% dari penutupan sebelumnya (7.257,00) | +2,00 | 5% | +0,50 |
-| Semikonduktor (SOX) | +1,86% dari penutupan sebelumnya (8.937,75) | +1,86 | 10% | +0,93 |
+| Berita berbobot | skor rata-rata −0,94 dari 46 kejadian bernilai; 36% bobot bullish | −0,78 | 30% | −1,17 |
+| Futures Nasdaq-100 | +1,20% dari penutupan sebelumnya (26.412,50) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +0,83% dari penutupan sebelumnya (7.255,25) | +2,00 | 5% | +0,50 |
+| Semikonduktor (SOX) | +1,68% dari penutupan sebelumnya (8.922,26) | +1,68 | 10% | +0,84 |
 | Yield obligasi 10 tahun | 4,910% (+6,2 bp dari sesi sebelumnya) | −1,55 | 10% | −0,78 |
-| VIX (volatilitas) | 26,69 (−0,4% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
-| Minyak Brent | $90,95 (−3,87% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
+| VIX (volatilitas) | 26,63 (−0,6% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
+| Minyak Brent | $91,01 (−3,81% dari sesi sebelumnya) | +1,50 | 5% | +0,38 |
 | Indeks dolar | +0,32% dari penutupan sebelumnya (104,00) | +0,80 | 5% | +0,20 |
-| Tren Nasdaq 5 sesi | −0,04% dalam 5 sesi; 13,9% di bawah puncak 52 minggu | −0,53 | 5% | −0,13 |
+| Tren Nasdaq 5 sesi | −0,16% dalam 5 sesi; 14,0% di bawah puncak 52 minggu | −0,61 | 5% | −0,15 |
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 23.874 (+1,22%).
+Perkiraan pembukaan dari futures: 23.869 (+1,20%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
@@ -38,11 +38,11 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,3** US tariff proposals threaten further disruption to automotive supply chains (Automotive Logistics). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Anwar challenges US chip curbs on products made by American firms in Malaysia (The Vibes). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,2** Korean Retail Investors Average Down on NVIDIA... Holdings Value Plunges Despite Increased Buying (파이낸셜뉴스). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
+- **−1,2** Fed Rate Hike Doubts: Why Some Analysts Warn Markets Could Crack Before Dec. 9 (Around Prague). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+1,1** Chip stocks lead a Black Friday rally, but Nvidia misses out: AlphaCheck (Yahoo Finance). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−1,1** USTR's New Tariffs Would Hit Ag Markets (Western Ag Network). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Middle and smaller powers have ‘limited leverage’ against Trump’s tariffs: Expert (The Straits Times). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,0** Fed Weighs AI Selloff Against Inflation Fight (Wisevoter). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
-- **+1,0** U.S. Treasury yields tick up, snapping eight-day rally as bond bulls pause (Investing.com). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
