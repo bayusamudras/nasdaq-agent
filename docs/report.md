@@ -1,9 +1,7 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-28T05:04:52+07:00 · sesi Senin 30 Nov (pra-buka)_
+_Diperbarui 2026-11-28T05:05:52+07:00 · sesi Senin 30 Nov (pra-buka)_
 
-Peluang indeks naik **62%**, turun **38%** (skor +2,0 dari ±10, keyakinan 61%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
-
-**Catatan:** Anomali berbahaya: NQ naik bersamaan dengan dolar dan yield. Korelasi normalnya terbalik, hindari memaksakan bias bullish.
+Peluang indeks naik **61%**, turun **39%** (skor +1,7 dari ±10, keyakinan 61%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +2,55% dari penutupan sebelumnya (26.765,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
