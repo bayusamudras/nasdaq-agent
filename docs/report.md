@@ -1,23 +1,23 @@
 # Bias Nasdaq: NETRAL
-_Diperbarui 2026-11-27T10:56:53+07:00 · sesi Jumat 27 Nov (pra-buka)_
+_Diperbarui 2026-11-27T10:57:54+07:00 · sesi Jumat 27 Nov (pra-buka)_
 
 Peluang indeks naik **51%**, turun **49%** (skor −0,7 dari ±10, keyakinan 58%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,34% dari penutupan sebelumnya (26.712,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,27): Skor rata-rata −1,02 dari 44 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +2,34% dari penutupan sebelumnya (26.709,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,20): Skor rata-rata −0,96 dari 45 kejadian bernilai; 32% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−0,60): 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (+0,50): +1,52% dari penutupan sebelumnya (7.305,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,54% dari penutupan sebelumnya (7.306,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,02 dari 44 kejadian bernilai; 32% bobot bullish | −0,85 | 30% | −1,27 |
-| Futures Nasdaq-100 | +2,34% dari penutupan sebelumnya (26.712,25) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,52% dari penutupan sebelumnya (7.305,25) | +2,00 | 5% | +0,50 |
+| Berita berbobot | skor rata-rata −0,96 dari 45 kejadian bernilai; 32% bobot bullish | −0,80 | 30% | −1,20 |
+| Futures Nasdaq-100 | +2,34% dari penutupan sebelumnya (26.709,75) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,54% dari penutupan sebelumnya (7.306,75) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
