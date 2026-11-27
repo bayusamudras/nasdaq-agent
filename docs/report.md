@@ -1,13 +1,13 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T10:13:43+07:00 · sesi Jumat 27 Nov (pra-buka)_
+_Diperbarui 2026-11-27T10:14:44+07:00 · sesi Jumat 27 Nov (pra-buka)_
 
 Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 67%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,09% dari penutupan sebelumnya (26.645,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
-- **Berita berbobot** (−1,48): Skor rata-rata −1,18 dari 44 kejadian bernilai; 28% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
+- **Futures Nasdaq-100** (+2,00): +2,09% dari penutupan sebelumnya (26.645,75). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Berita berbobot** (−1,51): Skor rata-rata −1,22 dari 45 kejadian bernilai; 26% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−0,60): 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
 - **Futures S&P 500** (+0,50): +1,39% dari penutupan sebelumnya (7.295,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
@@ -15,14 +15,14 @@ Peluang indeks naik **37%**, turun **63%** (skor −4,4 dari ±10, keyakinan 67%
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −1,18 dari 44 kejadian bernilai; 28% bobot bullish | −0,99 | 30% | −1,48 |
-| Futures Nasdaq-100 | +2,09% dari penutupan sebelumnya (26.645,50) | +2,00 | 20% | +2,00 |
+| Berita berbobot | skor rata-rata −1,22 dari 45 kejadian bernilai; 26% bobot bullish | −1,01 | 30% | −1,51 |
+| Futures Nasdaq-100 | +2,09% dari penutupan sebelumnya (26.645,75) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +1,39% dari penutupan sebelumnya (7.295,75) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
 | Minyak Brent | $92,29 (−2,45% dari sesi sebelumnya) | +1,23 | 5% | +0,31 |
-| Indeks dolar | −0,01% dari penutupan sebelumnya (103,66) | −0,02 | 5% | −0,01 |
+| Indeks dolar | −0,02% dari penutupan sebelumnya (103,65) | −0,05 | 5% | −0,01 |
 | Tren Nasdaq 5 sesi | −3,46% dalam 5 sesi; 14,9% di bawah puncak 52 minggu | −2,00 | 5% | −0,50 |
 
 ## Level hari ini
@@ -39,10 +39,10 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **−1,1** 10-Year Treasury Futures Stabilize Ahead of CPI: Is Bond Selloff Losing Momentum? (Investing.com). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 - **+1,1** Dell Technologies raises fiscal 2027 guidance after record revenue (Crypto Briefing). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** U.S. proposes higher tariffs on South Korea over excess capacity (upi). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **+1,0** Oil Edges Higher as Iran Tempers Hopes of Swift Hormuz Reopening (EnergyNow). Minyak lebih murah dan risiko Timur Tengah yang mereda meredakan inflasi, membuka ruang bagi Fed, dan menaikkan selera risiko.
 - **−0,9** Trump Targets Retirement Savings, Tax Incentives in New Tariffs (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,8** USTR Threatens 25% Tariffs on South Korea, Taiwan if Negotiations Stall (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,8** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
-- **−0,8** CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18% (TradingView). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
