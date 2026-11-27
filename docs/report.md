@@ -1,23 +1,23 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-27T10:07:34+07:00 · sesi Jumat 27 Nov (pra-buka)_
+_Diperbarui 2026-11-27T10:08:34+07:00 · sesi Jumat 27 Nov (pra-buka)_
 
 Peluang indeks naik **38%**, turun **62%** (skor −4,2 dari ±10, keyakinan 67%, 58% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 **Catatan:** Volatilitas tinggi membuat arah lebih mudah berbalik
 
 ## Alasan utama
-- **Futures Nasdaq-100** (+2,00): +2,14% dari penutupan sebelumnya (26.659,50). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
+- **Futures Nasdaq-100** (+2,00): +2,19% dari penutupan sebelumnya (26.672,25). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Berita berbobot** (−1,27): Skor rata-rata −1,02 dari 43 kejadian bernilai; 33% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Yield obligasi 10 tahun** (+0,70): 4,848% (−5,6 bp dari sesi sebelumnya). Yield turun, sehingga tekanan diskonto pada saham growth berkurang.
 - **VIX (volatilitas)** (−0,60): 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53. Volatilitas tinggi atau naik, tanda investor membeli perlindungan.
-- **Futures S&P 500** (+0,50): +1,39% dari penutupan sebelumnya (7.296,00). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
+- **Futures S&P 500** (+0,50): +1,42% dari penutupan sebelumnya (7.297,75). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
 | Berita berbobot | skor rata-rata −1,02 dari 43 kejadian bernilai; 33% bobot bullish | −0,85 | 30% | −1,27 |
-| Futures Nasdaq-100 | +2,14% dari penutupan sebelumnya (26.659,50) | +2,00 | 20% | +2,00 |
-| Futures S&P 500 | +1,39% dari penutupan sebelumnya (7.296,00) | +2,00 | 5% | +0,50 |
+| Futures Nasdaq-100 | +2,19% dari penutupan sebelumnya (26.672,25) | +2,00 | 20% | +2,00 |
+| Futures S&P 500 | +1,42% dari penutupan sebelumnya (7.297,75) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | −0,65% dari penutupan sebelumnya (8.774,86) | −0,65 | 10% | −0,33 |
 | Yield obligasi 10 tahun | 4,848% (−5,6 bp dari sesi sebelumnya) | +1,40 | 10% | +0,70 |
 | VIX (volatilitas) | 26,80 (−5,3% dari sesi sebelumnya); VXN (Nasdaq-100) 38,53 | −1,20 | 10% | −0,60 |
@@ -27,7 +27,7 @@ Peluang indeks naik **38%**, turun **62%** (skor −4,2 dari ±10, keyakinan 67%
 
 ## Level hari ini
 Pivot 23.282; resistensi 23.931 / 24.277; support 22.936 / 22.287.
-Perkiraan pembukaan dari futures: 24.091 (+2,14%).
+Perkiraan pembukaan dari futures: 24.102 (+2,19%).
 Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 
 ## Berita paling berdampak
@@ -40,7 +40,7 @@ Rentang wajar 1σ (VXN): 23.013 sampai 24.158.
 - **+1,1** Dell Technologies raises fiscal 2027 guidance after record revenue (Crypto Briefing). Laba dan panduan di atas perkiraan menaikkan estimasi laba dan sering memicu pembelian institusi. Dampak ke indeks besar bila emitennya mega-cap.
 - **−1,0** U.S. proposes higher tariffs on South Korea over excess capacity (upi). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,9** Trump Targets Retirement Savings, Tax Incentives in New Tariffs (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,9** USTR Threatens 25% Tariffs on South Korea, Taiwan if Negotiations Stall (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,8** USTR Threatens 25% Tariffs on South Korea, Taiwan if Negotiations Stall (조선일보). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−0,8** Oil rises on supply concerns as Iran claims mine strikes on ships (CNBC). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−0,8** CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18% (TradingView). Yield obligasi yang tinggi membuat obligasi bersaing dengan saham dan menurunkan nilai kini laba teknologi. Di sekitar 5% tekanan pada valuasi tinggi meningkat.
 
