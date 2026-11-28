@@ -1,5 +1,5 @@
 # Bias Nasdaq: BULLISH TIPIS
-_Diperbarui 2026-11-28T07:19:46+07:00 · sesi Senin 30 Nov (pra-buka)_
+_Diperbarui 2026-11-28T07:24:47+07:00 · sesi Senin 30 Nov (pra-buka)_
 
 Peluang indeks naik **61%**, turun **39%** (skor +1,8 dari ±10, keyakinan 61%, 47% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
@@ -29,7 +29,7 @@ Perkiraan pembukaan dari futures: 24.745 (+2,55%).
 Rentang wajar 1σ (VXN): 23.544 sampai 24.715.
 
 ## Berita paling berdampak
-- **−1,9** China to Suspend Some Critical-Material Export Curbs to U.S. Until January (WSJ). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−1,8** China to Suspend Some Critical-Material Export Curbs to U.S. Until January (WSJ). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 - **−1,1** Trump's Push to Bring Back Jensen Huang Won't Save the Day—The Key to Halting the US Stock Selloff May Lie in AI Capex Pullback (BigGo Finance). Belanja AI yang besar dengan arus kas tipis memaksa perusahaan berutang atau menerbitkan saham. Investor mulai mempertanyakan imbal hasil investasi, sehingga seluruh rantai AI (chip, pusat data, listrik) ikut tertekan.
 - **−1,1** Iran War Erodes Exxon, Chevron Profits Even as Oil Prices Soar (EnergyNow.com). Minyak mahal memperbesar inflasi, mendorong Fed tetap ketat, dan mengurangi daya beli. Saham teknologi terkena lewat suku bunga yang lebih tinggi lebih lama.
 - **−1,0** Meta Shares Sink 23% From Peak as $145 Billion AI Bet Tests Investors' Patience (BigGo Finance). Aksi jual besar memicu pengurangan leverage dan jual otomatis oleh dana sistematis, sehingga penurunan bisa berlanjut beberapa hari sampai harga cukup murah.
