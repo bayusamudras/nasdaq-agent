@@ -1,19 +1,19 @@
 # Bias Nasdaq: BEARISH TIPIS
-_Diperbarui 2026-11-29T01:30:43+07:00 · sesi Senin 30 Nov (pra-buka)_
+_Diperbarui 2026-11-29T01:35:57+07:00 · sesi Senin 30 Nov (pra-buka)_
 
-Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 65%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
+Peluang indeks naik **43%**, turun **57%** (skor −2,7 dari ±10, keyakinan 66%, 53% bobot faktor searah). Estimasi heuristik, belum dikalibrasi.
 
 ## Alasan utama
 - **Futures Nasdaq-100** (+2,00): +2,55% dari penutupan sebelumnya (26.765,00). Futures di atas penutupan sebelumnya, artinya sesi AS diperkirakan dibuka lebih tinggi.
 - **Semikonduktor (SOX)** (+1,00): +4,69% dari penutupan sebelumnya (9.186,71). Indeks semikonduktor naik, dan sektor ini berbobot besar di Nasdaq.
 - **Yield obligasi 10 tahun** (−1,00): 4,936% (+8,8 bp dari sesi sebelumnya). Yield naik atau berada di level tinggi, sehingga nilai kini laba teknologi tertekan.
+- **Berita berbobot** (−0,54): Skor rata-rata −0,43 dari 31 kejadian bernilai; 54% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 - **Futures S&P 500** (+0,50): +1,56% dari penutupan sebelumnya (7.308,25). S&P 500 ikut menguat, jadi kenaikan didukung pasar yang lebih luas.
-- **Berita berbobot** (−0,47): Skor rata-rata −0,37 dari 31 kejadian bernilai; 56% bobot bullish. Arus berita lebih banyak membawa dampak negatif ke valuasi dan laba.
 
 ## Papan faktor
 | Faktor | Nilai | Sinyal | Bobot | Kontribusi |
 | --- | --- | --- | --- | --- |
-| Berita berbobot | skor rata-rata −0,37 dari 31 kejadian bernilai; 56% bobot bullish | −0,31 | 30% | −0,47 |
+| Berita berbobot | skor rata-rata −0,43 dari 31 kejadian bernilai; 54% bobot bullish | −0,36 | 30% | −0,54 |
 | Futures Nasdaq-100 | +2,55% dari penutupan sebelumnya (26.765,00) | +2,00 | 20% | +2,00 |
 | Futures S&P 500 | +1,56% dari penutupan sebelumnya (7.308,25) | +2,00 | 5% | +0,50 |
 | Semikonduktor (SOX) | +4,69% dari penutupan sebelumnya (9.186,71) | +2,00 | 10% | +1,00 |
@@ -39,8 +39,8 @@ Rentang wajar 1σ (VXN): 23.623 sampai 24.636.
 - **+0,8** Tesla Stock Price Prediction: Is a 30% Rally Possible in 2027? (24/7 Wall St.). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
 - **−0,8** US Third-Quarter GDP Revised Up to 4.3%; Inflation Still Above Target, Odds of a December Fed Rate Hike Near 99% (BigGo Finance). Kenaikan suku bunga menaikkan biaya modal dan tingkat diskonto. Saham growth seperti teknologi, yang labanya jauh di masa depan, kehilangan nilai paling besar, jadi Nasdaq lebih sensitif daripada Dow.
 - **+0,7** The Cost of Insuring SpaceX and Oracle Against Default Just Hit Record Highs. Wall Street Is Pricing Their Debt Like Junk. (24/7 Wall St.). Pemulihan harga menandakan pembeli masuk. Rebound setelah aksi jual besar sering tidak berlanjut tanpa katalis baru.
-- **−0,7** Singapore polices US chip curbs as Malaysia keeps door open to China (IntelliNews). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
-- **−0,7** Trump proposes 15% tariffs on allies, up to 40% on China: Can steep tariffs unlock rare earth supplies? (https://economy.ac/). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,6** Trump proposes 15% tariffs on allies, up to 40% on China: Can steep tariffs unlock rare earth supplies? (https://economy.ac/). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
+- **−0,6** Nvidia's Blackwell Chip Found in Shanghai Data Center, Suspected Smuggling Despite China Export Ban (BigGo Finance). Pembatasan ekspor dan tarif memotong pasar dan margin perusahaan chip dan perangkat keras, serta menaikkan biaya rantai pasok.
 
 ## Kalender risiko
 - 2026-12-04: Laporan tenaga kerja (nonfarm payrolls) (tinggi)
